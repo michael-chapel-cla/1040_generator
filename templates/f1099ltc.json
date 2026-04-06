@@ -1,0 +1,481 @@
+{
+  "formId": "f1099ltc",
+  "displayName": "Form 1099-LTC",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099ltc.pdf",
+  "generatedAt": "2026-04-06T21:46:31.070Z",
+  "fields": [
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 4. Copy C. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].CopyHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].CopyHeader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].LeftCol[0].f1_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER'S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "POLICYHOLDER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "POLICYHOLDER'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].LeftCol[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross long-term care benefits paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Accelerated death benefits paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Reimbursed amount.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Reimbursed amount.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "INSURED'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_12[0]",
+      "fieldType": "full_name",
+      "labelHint": "INSURED'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_13[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_14[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. (optional): Chronically ill.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. Terminally ill.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_15[0]",
+      "fieldType": "date",
+      "labelHint": "5. Date certified.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 4. Copy C. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].CopyHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].LeftCol[0].f1_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER'S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "POLICYHOLDER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "POLICYHOLDER'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].LeftCol[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross long-term care benefits paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Accelerated death benefits paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Reimbursed amount.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Reimbursed amount.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "INSURED'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_12[0]",
+      "fieldType": "full_name",
+      "labelHint": "INSURED'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_13[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_14[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. (optional): Chronically ill.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. Terminally ill.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_15[0]",
+      "fieldType": "date",
+      "labelHint": "5. Date certified.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 4. Copy C. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].CopyHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].LeftCol[0].f1_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER'S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "POLICYHOLDER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "POLICYHOLDER'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].LeftCol[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross long-term care benefits paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Accelerated death benefits paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Reimbursed amount.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Reimbursed amount.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "INSURED'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_12[0]",
+      "fieldType": "full_name",
+      "labelHint": "INSURED'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_13[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_14[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. (optional): Chronically ill.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. Terminally ill.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_15[0]",
+      "fieldType": "date",
+      "labelHint": "5. Date certified.",
+      "required": false
+    }
+  ]
+}

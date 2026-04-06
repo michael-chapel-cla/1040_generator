@@ -1,0 +1,431 @@
+{
+  "formId": "f8824",
+  "displayName": "Form 8824",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8824.pdf",
+  "generatedAt": "2026-04-06T21:46:23.646Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name(s) shown on tax return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Information on the Like-Kind Exchange. Note: Only real property should be described on lines",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Description of like-kind property received: Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "3. Date like-kind property given up was originally acquired (month, day, year). M M/D D/Y Y Y Y.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "date",
+      "labelHint": "4. Date you actually transferred your property to the other party (month, day, year). M M/D D/Y Y Y ",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "date",
+      "labelHint": "5. Date like-kind property you received was identified by written notice to another party (month, da",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "date",
+      "labelHint": "6. Date you actually received the like-kind property from other party (month, day, year). See instru",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "full_name",
+      "labelHint": "Note: Do not file this form if a related party sold property into the exchange, directly or indirect",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "relationship",
+      "labelHint": "8. Relationship to you.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Related party's identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "street_address",
+      "labelHint": "8. Address (no., street, and apt., room, or suite no.; city or town; state; and Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 2. Name(s) shown on tax return. Do not enter name and identifying number if shown on other side",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Realized Gain or (Loss), Recognized Gain, and Basis of Like-Kind Property Received. Caut",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Description of other property given up. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Adjusted basis of other property given up.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Gain or (loss) recognized on other property given up. Subtract line 13 from line 12. Report the ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Cash received, F M V of other property received, plus net liabilities assumed by other party, reduced (but not below zero) by any exchange expenses you incurred. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15a. Description of other property received. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15a. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. F M V of like-kind property you received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Add lines 15 and 16.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Adjusted basis of like-kind property you gave up, net amounts paid to other party, plus any exch",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Realized gain or (loss). Subtract line 18 from line 17.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Enter the smaller of line 15 or line 19, but not less than zero.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Ordinary income under recapture rules. Enter here and on Form 4797, line 16. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Subtract line 21 from line 20. If zero or less, enter 0. If more than zero, enter here and on Sc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Recognized gain. Add lines 21 and 22.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Deferred gain or (loss). Subtract line 23 from line 19. If a related party exchange, see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Basis of like-kind property received. Subtract line 15 from the sum of lines 18 and 23. See inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25a. Basis of like-kind section 1250 property received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25b. Basis of like-kind section 1245, 1252, 1254, and 1255 property received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25c. Basis of like-kind intangible property received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I V. Deferral of Gain From Section 1043 Conflict-of-Interest Sales. Note: This part is to be us",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Numbers after the dash.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Description of divested property. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Description of replacement property. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
+      "fieldType": "date",
+      "labelHint": "29. Date divested property was sold (month, day, year). M M/D D/Y Y Y Y.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Sales price of divested property. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "31. Basis of divested property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "32. Realized gain. Subtract line 31 from line 30.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
+      "fieldType": "date",
+      "labelHint": "33. Cost of replacement property purchased within 60 days after date of sale.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "34. Subtract line 33 from line 30. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "35. Ordinary income under recapture rules. Enter here and on Form 4797, line 10. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "36. Subtract line 35 from line 34. If zero or less, enter 0. If more than zero, enter here and on Sc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "37. Deferred gain. Subtract the sum of lines 35 and 36 from line 32.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "38. Basis of replacement property. Subtract line 37 from line 33.",
+      "required": false
+    }
+  ]
+}

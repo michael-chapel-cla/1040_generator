@@ -1,0 +1,219 @@
+{
+  "formId": "f4137",
+  "displayName": "Form 4137",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4137.pdf",
+  "generatedAt": "2026-04-06T21:46:18.692Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name of person who received tips. If married, complete a separate Form 4137 for each spouse ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow1[0].f1_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "1. Row: A. Column: (a) Name of employer to whom you were required to but didn't report all your tips",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow1[0].f1_4[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: A. Column: (b) Employer identification number (see instructions).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: A. Column: (c) Total cash and charge tips you received (including unreported tips) (see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: A. Column: (d) Total cash and charge tips you reported to your employer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow2[0].f1_7[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: B. Column: (a) Name of employer to whom you were required to but didn't report all your tips (s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow2[0].f1_8[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: B. Column: (b) Employer identification number (see instructions).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow2[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: B. Column: (c) Total cash and charge tips you received (including unreported tips) (see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow2[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: B. Column: (d) Total cash and charge tips you reported to your employer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow3[0].f1_11[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: C. Column: (a) Name of employer to whom you were required to but didn't report all your tips (s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow3[0].f1_12[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: C. Column: (b) Employer identification number (see instructions).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow3[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: C. Column: (c) Total cash and charge tips you received (including unreported tips) (see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow3[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: C. Column: (d) Total cash and charge tips you reported to your employer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow4[0].f1_15[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: D. Column: (a) Name of employer to whom you were required to but didn't report all your tips (s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow4[0].f1_16[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: D. Column: (b) Employer identification number (see instructions).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow4[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: D. Column: (c) Total cash and charge tips you received (including unreported tips) (see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow4[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: D. Column: (d) Total cash and charge tips you reported to your employer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow5[0].f1_19[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: E. Column: (a) Name of employer to whom you were required to but didn't report all your tips (s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow5[0].f1_20[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: E. Column: (b) Employer identification number (see instructions).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow5[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: E. Column: (c) Total cash and charge tips you received (including unreported tips) (see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].BodyRow5[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: E. Column: (d) Total cash and charge tips you reported to your employer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Total cash and charge tips you received in 2025. Add the amounts from line 1, column (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Total cash and charge tips you reported to your employer(s) in 2025. Add the amounts from line 1,",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Subtract line 3 from line 2. Include as income on Form 1040, 1040-S R, or 1040-N R, line 1c. (See",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Cash and charge tips you received but didn't report to your employer because the total was less t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Unreported tips subject to Medicare tax. Subtract line 5 from line 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Maximum amount of wages (including tips) subject to social security tax. 176,100.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "percentage",
+      "labelHint": "8. Total social security wages and social security tips (total of your Form(s) W-2, boxes 3 and 7) a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Subtract line 8 from line 7. If line 8 is more than line 7, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "state",
+      "labelHint": "10. Unreported tips subject to social security tax. Enter the smaller of line 6 or line 9. If you re",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "percentage",
+      "labelHint": "11. Multiply line 10 by 0.062 (social security tax rate).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "percentage",
+      "labelHint": "12. Multiply line 6 by 0.0145 (Medicare tax rate).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Add lines 11 and 12. Include as tax on Schedule 2 (Form 1040), line 5, or Form 1040-S S, Part I,",
+      "required": false
+    }
+  ]
+}

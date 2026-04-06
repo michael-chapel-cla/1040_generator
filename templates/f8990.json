@@ -1,0 +1,852 @@
+{
+  "formId": "f8990",
+  "displayName": "Form 8990",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8990.pdf",
+  "generatedAt": "2026-04-06T21:46:20.336Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Taxpayer name(s) shown on tax return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identification number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "A. If Form 8990 relates to an information return for a foreign entity (for example, Form 5471), ente",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "A. Employer identification number, if any.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "A. Reference I D number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "B. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "B. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "C. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "C. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "D. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "D. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I. Computation of Allowable Business Interest Expense. Part I is completed by all taxpayers sub",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Disallowed business interest expense carryforwards from prior years. (Does not apply to a partner",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3. Partner’s excess business interest expense treated as paid or accrued in current year (Schedule A",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Floor plan financing interest expense. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Total business interest expense. Add lines 1 through 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Section I I—Adjusted Taxable Income. Tentative Taxable Income. 6. Tentative taxable income. See inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Additions (adjustments to be made if amounts are taken into account on line 6). 7. Any item of loss ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Any business interest expense not from a pass-through entity. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Amount of any net operating loss deduction under section 172.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Amount of any qualified business income deduction allowed under section 199A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Deduction allowable for depreciation, amortization, or depletion attributable to a trade or busi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Amount of any loss or deduction items from a pass-through entity. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Other additions. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "40. Divide line 39 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "40. Numbers after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Total. Add lines 7 through 15.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Reductions (adjustments to be made if amounts are taken into account on line 6). 17. Open parenthesi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Open parenthesis. Any business interest income not from a pass-through entity. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Open parenthesis. Amount of any income or gain items from a pass-through entity. See instruction",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Open parenthesis. Other reductions. See instructions. Close parenthesis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Open parenthesis. Total. Combine lines 17 through 20. Close parenthesis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Adjusted taxable income. Combine lines 6, 16, and 21. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Section I I I—Business Interest Income. 23. Current year business interest income. See instr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Excess business interest income from pass-through entities (total of Schedule A, line 44, column",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Total. Add lines 23 and 24.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "percentage",
+      "labelHint": "Section I V—163(j) Limitation Calculations. Limitation on Business Interest Expense. 26. Multiply th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Business interest income (line 25).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Floor plan financing interest expense (line 4).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Total. Add lines 26, 27, and 28.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Allowable Business Interest Expense. 30. Total current year business interest expense deduction. See",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Carryforward. 31. Disallowed business interest expense. Subtract line 29 from line 5. (If zero or le",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Partnership Pass-Through Items. Part I I is only completed by a partnership that is subjec",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Excess Taxable Income (If you entered an amount on line 32, skip lines 33 through 37.). 33. Subtract",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "34. Subtract line 33 from line 26. (If zero or less, enter 0.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "35. Divide line 34 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "35. Numbers after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "36. Excess taxable income. Multiply line 35 by line 22.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Excess Business Interest Income. 37. Excess business interest income. Subtract the sum of lines 1, 2",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. S Corporation Pass-Through Items. Part I I I is only completed by S corporations that ar",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "39. Subtract line 38 from line 26. (If zero or less, enter 0.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "40. Divide line 39 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "40. Numbers after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "41. Excess taxable income. Multiply line 40 by line 22.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Excess Business Interest Income. 42. Excess business interest income. Subtract the sum of lines 1, 2",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 3. Schedule A. Summary of Partner’s Section 163(j) Excess Items. Any taxpayer that owns an inte",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: Excess Business Interest Expense. (c) Current year (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: Excess Business Interest Expense. (d) Prior year carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Excess Business Interest Expense. (e) Total ((c) plus (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_6[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (f) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (g) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (h) Excess business interest expense treated as paid or accrued (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (i) Current year excess business interest expense carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_10[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name of partnership.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: Excess Business Interest Expense. (c) Current year (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: Excess Business Interest Expense. (d) Prior year carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Excess Business Interest Expense. (e) Total ((c) plus (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (f) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (g) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (h) Excess business interest expense treated as paid or accrued (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_18[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (i) Current year excess business interest expense carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_19[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name of partnership.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_21[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: Excess Business Interest Expense. (c) Current year (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_22[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: Excess Business Interest Expense. (d) Prior year carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Excess Business Interest Expense. (e) Total ((c) plus (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_24[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: (f) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_25[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: (g) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (h) Excess business interest expense treated as paid or accrued (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_27[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: (i) Current year excess business interest expense carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_28[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name of partnership.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: Excess Business Interest Expense. (c) Current year (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_31[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: Excess Business Interest Expense. (d) Prior year carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Excess Business Interest Expense. (e) Total ((c) plus (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_33[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: (f) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_34[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: (g) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (h) Excess business interest expense treated as paid or accrued (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: (i) Current year excess business interest expense carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_37[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name of partnership.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_39[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: Excess Business Interest Expense. (c) Current year (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_40[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: Excess Business Interest Expense. (d) Prior year carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Excess Business Interest Expense. (e) Total ((c) plus (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_42[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: (f) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_43[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: (g) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (h) Excess business interest expense treated as paid or accrued (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_45[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: (i) Current year excess business interest expense carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_46[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 6. Column: (a) Name of partnership.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_48[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: Excess Business Interest Expense. (c) Current year (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_49[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: Excess Business Interest Expense. (d) Prior year carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: Excess Business Interest Expense. (e) Total ((c) plus (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_51[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: (f) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_52[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: (g) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (h) Excess business interest expense treated as paid or accrued (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_54[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: (i) Current year excess business interest expense carryforward (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_55[0]",
+      "fieldType": "tax_year",
+      "labelHint": "44. Total. (f) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_56[0]",
+      "fieldType": "tax_year",
+      "labelHint": "44. Total. (g) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "44. Total. (h) Excess business interest expense treated as paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row1[0].f3_58[0]",
+      "fieldType": "full_name",
+      "labelHint": "Schedule B. Summary of S Corporation Shareholder’s Excess Taxable Income and Excess Business Interes",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row1[0].f3_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row1[0].f3_60[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (c) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row1[0].f3_61[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (d) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row2[0].f3_62[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name of S Corporation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row2[0].f3_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row2[0].f3_64[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (c) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row2[0].f3_65[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (d) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row3[0].f3_66[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name of S Corporation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row3[0].f3_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row3[0].f3_68[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: (c) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row3[0].f3_69[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: (d) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row4[0].f3_70[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name of S Corporation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row4[0].f3_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row4[0].f3_72[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: (c) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row4[0].f3_73[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: (d) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row5[0].f3_74[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name of S Corporation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row5[0].f3_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row5[0].f3_76[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: (c) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row5[0].f3_77[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: (d) Current year excess business interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_78[0]",
+      "fieldType": "tax_year",
+      "labelHint": "46. Total. (c) Current year excess taxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_79[0]",
+      "fieldType": "tax_year",
+      "labelHint": "46. Total. (d) Current year excess business interest income.",
+      "required": false
+    }
+  ]
+}

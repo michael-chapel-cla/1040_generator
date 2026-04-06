@@ -1,0 +1,331 @@
+{
+  "formId": "f8868",
+  "displayName": "Form 8868",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8868.pdf",
+  "generatedAt": "2026-04-06T21:46:28.677Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Automatic[0].f1_1[0]",
+      "fieldType": "date",
+      "labelHint": "Page 1. Part I - Identification. Type or Print. File by the due date for filing your return. See ins",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Automatic[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Taxpayer identification number (T I N).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Automatic[0].f1_3[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number, street, and room or suite no. If a P.O. box, see instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Automatic[0].f1_4[0]",
+      "fieldType": "city",
+      "labelHint": "City, town or post office, state, and Z I P code. For a foreign address, see instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Enter the Return code for the return that this application is for (file a separate application for each return).",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "full_name",
+      "labelHint": "Plan Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Plan Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "date",
+      "labelHint": "Plan Year Ending (M M/D D/Y Y Y Y).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I - Automatic Extension of Time To File for Exempt Organizations (see instructions). The books are in the care of.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Telephone No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Fax No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "If the organization does not have an office or place of business in the United States, check this box.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "If this is for a Group Return, enter the organization's four-digit Group Exemption Number (G E N).",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "If it is for part of the group, check this box and attach a list with the names and T I Ns of all members the extension is for.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "If it is for part of the group, check this box and attach a list with the names and T I Ns of all members the extension is for.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "date",
+      "labelHint": "1. I request an automatic 6-month extension of time until. Month and Day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "business_name",
+      "labelHint": ",20. 2 digit year. to file the exempt organization return for the organization named above.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "or tax year beginning. Month and Day.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "tax_year",
+      "labelHint": "calendar year 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "or tax year beginning. Month and Day.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "tax_year",
+      "labelHint": "tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "date",
+      "labelHint": ", and ending. Month and Day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Change in accounting period.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Change in accounting period.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Change in accounting period.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3a. If this application is for Forms 990-P F, 990-T, 4720, or 6069, enter the tentative tax, less an",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3b. If this application is for Forms 990-P F, 990-T, 4720, or 6069, enter any refundable credits and",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3c. Balance Due. Subtract line 3b from line 3a. Include your payment with this form, if required, by",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
+      "fieldType": "date",
+      "labelHint": "Part I I I - Extension of Time To File Form 5330 (see instructions). 1. I request an extension of ti",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
+      "fieldType": "date",
+      "labelHint": ",20. 2 digit year. to file Form5330. You may be approved for up to a 6-month extension to file Form ",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. Enter the Code section(s) imposing the tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Enter the payment amount attached. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
+      "fieldType": "date",
+      "labelHint": "1c. For excise taxes under section 4980 or 4980F of the Code, enter the reversion/amendment date (M ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 1 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 2 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 3 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 4 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 5 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 6 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 7 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 8 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 9 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 10 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 11 of 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "state",
+      "labelHint": "2. State in detail why you need the extension: 12 of 12.",
+      "required": false
+    }
+  ]
+}

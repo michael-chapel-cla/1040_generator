@@ -1,0 +1,2277 @@
+{
+  "formId": "f2290",
+  "displayName": "Form 2290",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2290.pdf",
+  "generatedAt": "2026-04-06T21:46:35.890Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "4. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EINComb1[0].f1_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EINComb2[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Last 7 digits.",
+      "required": false,
+      "maxLength": 7
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "4. Address (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "city",
+      "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check if applicable: Address Change.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "V I N Correction. Check this box if you are correcting a vehicle identification number (V I N) listed on a previously filed Schedule 1 (Form 2290). Attach an explanation to the return. Don't check this box for any other reason.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Amended Return. Check this box if reporting (a) additional tax from an increase in taxable gross vehicle weight or (b) suspended vehicles exceeding the mileage use limit. Don't check this box for any other reason.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Month in which the taxable gross weight increased or in which the suspended vehicles exceeded the mi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Final Return. Check this box if you no longer have taxable vehicles to report.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "Month of first use (see instructions). Y Y Y Y M M.",
+      "required": false,
+      "maxLength": 6
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Tax. Enter the Total from Form 2290, page 2, column (4). Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Additional tax from increase in taxable gross weight (see instructions). Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Total tax. Add lines 2 and 3. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Credits (Attach supporting documentation. See instructions.). Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line6_ReadOrder[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6. Credit or debit card.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line6_ReadOrder[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6. Credit or debit card.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part I I. Statement in Support of Suspension (Complete the statements that apply. Attach additional sheets if needed.). 7. I declare that the vehicles reported on Schedule 1 as suspended (category W) are expected to be used on public highways (check the boxes that apply): 5,000 miles or less.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. 7,500 miles or less for agricultural vehicles during the period July 1, 2025, through June 30, 2026, and are suspended from the tax. Complete and attach Schedule 1.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8a. I declare that the vehicles listed as suspended on the Form 2290 filed for the period July 1, 2024, through June 30, 2025, were not subject to the tax for that period except for any vehicles listed on line 8b. Check this box if applicable.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8b. Vehicle identification numbers.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. I declare that vehicle identification numbers.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. were listed as suspended on the Form 2290 filed for the period July 1, 2024, through June 30, 2025. These vehicles were sold or transferred to.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "date",
+      "labelHint": "9. on. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "tax_year",
+      "labelHint": "9. , 4-digit year. At the time of the transfer, the vehicles were still eligible for the suspension ",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "full_name",
+      "labelHint": "Designee's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Personal identification number (P I N).",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "full_name",
+      "labelHint": "Sign Here. Type or print name below signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Print/Type preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check if self-employed.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm’s address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Tax Computation. Row: Category A. Column: Taxable gross weight (in pounds). 55,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category A. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. (*See page 2 of the instructions for information on logging vehicles.) $100.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category A. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. (*See page 2 of the instructions for information on logging vehicles.) $75.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category A. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*. *See page 2 of the instructions for information on logging vehicles. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category A. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*. *See page 2 of the instructions for information on logging vehicles. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category A. Column: (3) Number of vehicles. (a) Vehicles except logging*. *See page 2 of the instructions for information on logging vehicles.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category A. Column: (3) Number of vehicles. (b) Logging vehicles*. *See page 2 of the instructions for information on logging vehicles.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row1[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category A. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: Taxable gross weight (in pounds). 55,001 – 56,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $122.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $91.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category B. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: Taxable gross weight (in pounds). 56,001 – 57,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $144.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $108.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row3[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category C. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: Taxable gross weight (in pounds). 57,001 – 58,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $166.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $124.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row4[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category D. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: Taxable gross weight (in pounds). 58,001 – 59,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $188.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $141.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row5[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category E. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: Taxable gross weight (in pounds). 59,001 – 60,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $210.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $157.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row6[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category F. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: Taxable gross weight (in pounds). 60,001 – 61,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $232.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $174.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row7[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category G. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: Taxable gross weight (in pounds). 61,001 – 62,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $254.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $190.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row8[0].f2_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category H. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: Taxable gross weight (in pounds). 62,001 – 63,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $276.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $207.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row9[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category I. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: Taxable gross weight (in pounds). 63,001 – 64,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $298.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $223.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row10[0].f2_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category J. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: Taxable gross weight (in pounds). 64,001 – 65,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $320.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $240.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row11[0].f2_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category K. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: Taxable gross weight (in pounds). 65,001 – 66,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $342.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $256.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row12[0].f2_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category L. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: Taxable gross weight (in pounds). 66,001 – 67,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_98[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $364.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $273.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row13[0].f2_104[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category M. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_105[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: Taxable gross weight (in pounds). 67,001 – 68,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_106[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $386.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_107[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $289.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_108[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_109[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_110[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_111[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row14[0].f2_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category N. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_113[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: Taxable gross weight (in pounds). 68,001 – 69,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_114[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $408.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_115[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $306.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_116[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_117[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_118[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_119[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row15[0].f2_120[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category O. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_121[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: Taxable gross weight (in pounds). 69,001 – 70,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_122[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $430.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_123[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $322.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_124[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_125[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_126[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_127[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row16[0].f2_128[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category P. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_129[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: Taxable gross weight (in pounds). 70,001 – 71,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_130[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $452.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_131[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $339.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_132[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_133[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_134[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_135[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row17[0].f2_136[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category Q. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_137[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: Taxable gross weight (in pounds). 71,001 – 72,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_138[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $474.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_139[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $355.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_140[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_141[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_142[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_143[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row18[0].f2_144[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category R. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_145[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: Taxable gross weight (in pounds). 72,001 – 73,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_146[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $496.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_147[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $372.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_148[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_149[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_150[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_151[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row19[0].f2_152[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category S. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_153[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: Taxable gross weight (in pounds). 73,001 – 74,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_154[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $518.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_155[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $388.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_156[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_157[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_158[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_159[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row20[0].f2_160[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category T. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_161[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: Taxable gross weight (in pounds). 74,001 – 75,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_162[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $540.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_163[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $405.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_164[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_165[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_166[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_167[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row21[0].f2_168[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category U. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_169[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: Taxable gross weight (in pounds). Over 75,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_170[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: (1) Annual tax (vehicles used during July). (a) Vehicles except logging*. $550.00.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_171[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: (1) Annual tax (vehicles used during July). (b) Logging vehicles*. $412.50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_172[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_173[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: (2) Partial-period tax (vehicles first used after July). See the tables at the end of the separate instructions. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_174[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_175[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TaxComputation[0].Row22[0].f2_176[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Category V. Column: (4) Amount of tax (col. (1) or (2) multiplied by col. (3)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_177[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Totals. Add the number of vehicles in columns (3)(a) and (3)(b). Enter the total here. (This should ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_178[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Add the amounts in column (4). Enter the total here and on Form 2290, line 2. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_179[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Category W. Tax-Suspended Vehicles (See Part I I on page 7 of the instructions.). Column: (3) Number of vehicles. (a) Vehicles except logging*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_180[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Category W. Column: (3) Number of vehicles. (b) Logging vehicles*.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "4. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].EINComb1[0].f1_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].EINComb2[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Last 7 digits.",
+      "required": false,
+      "maxLength": 7
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f1_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "4. Address (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f1_5[0]",
+      "fieldType": "city",
+      "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "Month of first use (see instructions). Y Y Y Y M M.",
+      "required": false,
+      "maxLength": 6
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line1Comb[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Vehicles You Are Reporting (enter V I N and category). 1. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line2Comb[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line3Comb[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line4Comb[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line5Comb[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line6Comb[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line7Comb[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line8Comb[0].f3_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line9Comb[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line10Comb[0].f3_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line11Comb[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line12Comb[0].f3_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line13Comb[0].f3_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line14Comb[0].f3_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line15Comb[0].f3_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line16Comb[0].f3_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line17Comb[0].f3_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line18Comb[0].f3_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line19Comb[0].f3_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line20Comb[0].f3_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line21Comb[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line22Comb[0].f3_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line23Comb[0].f3_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line24Comb[0].f3_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Reported Vehicles. a. Total number of reported vehicles.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "b. Enter the total number of taxable vehicles on which the tax is suspended (category W).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Total number of taxable vehicles. Subtract line b from line a.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "4. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].EINComb1[0].f1_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].EINComb2[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Last 7 digits.",
+      "required": false,
+      "maxLength": 7
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f1_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "4. Address (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f1_5[0]",
+      "fieldType": "city",
+      "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "Month of first use (see instructions). Y Y Y Y M M.",
+      "required": false,
+      "maxLength": 6
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line1Comb[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Vehicles You Are Reporting (enter V I N and category). 1. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line2Comb[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line3Comb[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line4Comb[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line5Comb[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line6Comb[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line7Comb[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line8Comb[0].f3_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line9Comb[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line10Comb[0].f3_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line11Comb[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line12Comb[0].f3_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line13Comb[0].f3_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line14Comb[0].f3_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line15Comb[0].f3_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line16Comb[0].f3_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line17Comb[0].f3_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line18Comb[0].f3_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line19Comb[0].f3_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line20Comb[0].f3_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line21Comb[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line22Comb[0].f3_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line23Comb[0].f3_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Line24Comb[0].f3_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. V I N.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Category A through W (category W for suspended vehicles).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Reported Vehicles. a. Total number of reported vehicles.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "b. Enter the total number of taxable vehicles on which the tax is suspended (category W).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f3_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Total number of taxable vehicles. Subtract line b from line a.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 7. Sign Here. Type or print name below signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f1_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Last 7 digits.",
+      "required": false,
+      "maxLength": 7
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line1_ReadOrder[0].f1_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line1_ReadOrder[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Last 7 digits.",
+      "required": false,
+      "maxLength": 7
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the amount of your payment. Make your check or money order payable to “United States Treasu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].f1_07[0]",
+      "fieldType": "date",
+      "labelHint": "3. Enter date as shown on line 1 of Form 2290. Y Y Y Y M M.",
+      "required": false,
+      "maxLength": 6
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line4_ReadOrder[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "4. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line4_ReadOrder[0].f1_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "4. Address (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line4_ReadOrder[0].f1_5[0]",
+      "fieldType": "city",
+      "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    }
+  ]
+}

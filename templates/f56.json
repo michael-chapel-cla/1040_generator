@@ -1,0 +1,521 @@
+{
+  "formId": "f56",
+  "displayName": "Form 56",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f56.pdf",
+  "generatedAt": "2026-04-06T21:46:36.101Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Part I. Identification. Name of person for whom you are acting (as shown on the tax return).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Decedent's social security no.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
+      "fieldType": "street_address",
+      "labelHint": "Address of person for whom you are acting (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state, and Z I P code (If a foreign address, see instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "Fiduciary's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "street_address",
+      "labelHint": "Address of fiduciary (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Telephone number (optional). Area code.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone number.",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[3]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[4]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[5]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[6]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1g. Other. Describe:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "date",
+      "labelHint": "2a. If box 1a, 1b, or 1d is checked, enter the date of death:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "date",
+      "labelHint": "2b. If box 1c, 1e, 1f, or 1g is checked, enter the date of appointment, taking office, or assignment",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Section B. Nature of Liability and Tax Notices. 3. Type of taxes (check all that apply): Income.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Gift.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Estate.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Generation-skipping transfer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Employment.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Excise.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Other (describe):",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. Federal tax form number (check all that apply): a. 706 series.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4b. 709.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4c. 940.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4d. 941, 943, 944.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4e. 1040 or 1040-S R.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4f. 1041.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4g. 1120.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4h. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4h. Other (list):",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. If your authority as a fiduciary does not cover all years or tax periods, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. and list the specific years or periods within your authority: Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 2. Part I I. Revocation or Termination of Notice. Section A—Total Revocation or Termination. 6. Check this box if you are revoking or terminating all prior notices concerning fiduciary relationships on file with the Internal Revenue Service for the same tax matters and years or periods covered by this notice concerning fiduciary relationship.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6c. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6c. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "6c. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6c. Other. Describe: Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6c. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Section B—Partial Revocation. 7a. Check this box if you are revoking earlier notices concerning fiduciary relationships on file with the Internal Revenue Service for the same tax matters and years or periods covered by this notice concerning fiduciary relationship.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
+      "fieldType": "zip_code",
+      "labelHint": "7b. Specify to whom granted, date, and address, including Z I P code. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7b. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Section C—Substitute Fiduciary. 8. Check this box if a new fiduciary or fiduciaries have been or will be substituted for the revoking or terminating fiduciary and specify the name(s) and address(es), including Z I P code(s), of the new fiduciary(ies).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I I I. Court and Administrative Proceedings. Name of court (if other than a court proceeding, i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
+      "fieldType": "date",
+      "labelHint": "Date proceeding initiated.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Address of court.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Docket number of proceeding.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "date",
+      "labelHint": "Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Time_ReadOrder[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Time.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Time_ReadOrder[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Time. p.m.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Time_ReadOrder[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Time. p.m.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Place of other proceedings.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "signature",
+      "labelHint": "Part I V. Signature. Title, if applicable.",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "formId": "f8879",
+  "displayName": "Form 8879",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8879.pdf",
+  "generatedAt": "2026-04-06T21:46:37.017Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 1. Submission Identification Number (S I D).",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "full_name",
+      "labelHint": "Taxpayer’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
+      "fieldType": "full_name",
+      "labelHint": "Spouse’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Spouse’s social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PARTI[0].f1_06[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I. Tax Return Information — Tax Year Ending December 31, (Enter year you are authorizing.).",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Enter whole dollars only on lines 1 through 5. Note: Form 1040-SS filers use line 4 only. Leave line",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Total tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Federal income tax withheld from Form(s) W-2 and Form(s) 1099.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Amount you want refunded to you.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Amount you owe.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayersPIN_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature on the income tax return (original or amended) I am now authorizing. Check this box only if you are entering your own P I N and your return is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayersPIN_ReadOrder[0].f1_12[0]",
+      "fieldType": "full_name",
+      "labelHint": "E R O firm name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pin[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P I N. Enter five digits, but don't enter all zeros.",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature on the income tax return (original or amended) I am now authorizing. Check this box only if you are entering your own P I N and your return is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SpousesPIN_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature on the income tax return (original or amended) I am now authorizing. Check this box only if you are entering your own P I N and your return is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SpousesPIN_ReadOrder[0].f1_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "E R O firm name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PIN[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P I N. Enter five digits, but don't enter all zeros.",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature on the income tax return (original or amended) I am now authorizing. Check this box only if you are entering your own P I N and your return is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EROPin[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Certification and Authentication — Practitioner P I N Method Only. E R O’s E F I N/P I N. Enter your six-digit E F I N followed by your five-digit self-selected P I N. Don't enter all zeros.",
+      "required": false,
+      "maxLength": 11
+    }
+  ]
+}

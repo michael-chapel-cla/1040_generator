@@ -1,0 +1,1507 @@
+{
+  "formId": "f926",
+  "displayName": "Form 926",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f926.pdf",
+  "generatedAt": "2026-04-06T21:46:33.276Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Part I. United States Transferor Information (see instructions). Name of transferor.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number (see instructions).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 2a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 2a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 2b. No. If not, list the controlling shareholder (or shareholders) and their identifying number (or numbers):",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 2b. No. If not, list the controlling shareholder (or shareholders) and their identifying number (or numbers):",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 1. Controlling shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 1. Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow2[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 2. Controlling shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow2[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 2. Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow3[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 3. Controlling shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow3[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 3. Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow4[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 4. Controlling shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow4[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 4. Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow5[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 5. Controlling shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow5[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 5. Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow6[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 6. Controlling shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow6[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2b. Item 6. Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 2c. No. If not, list the name and employer identification number (E I N) of the parent corporation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 2c. No. If not, list the name and employer identification number (E I N) of the parent corporation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "full_name",
+      "labelHint": "Line 2c. Name of parent corporation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2c. E I N of parent corporation.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 1d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 1d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "full_name",
+      "labelHint": "Line 3a. If the transferor was a partner in a partnership that was the actual transferor (but is not",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 3a. E I N of partnership.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 3b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 3b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 3c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 3c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 3d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 3d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part II. Transferee Foreign Corporation Information (see instructions). Line 4. Name of transferee (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line4[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 5a. Identifying number, if any.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line4[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 5b. Reference identification number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 6. Address (including country).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 7. Country code of country incorporation or organization (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 8. Foreign law characterization (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 9. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 9. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].BodyRow1[0].f2_1[0]",
+      "fieldType": "date",
+      "labelHint": "Page 2. Part III. Information Regarding Transfer of Property (see instructions). Section A - Cash. C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].BodyRow1[0].f2_2[0]",
+      "fieldType": "date",
+      "labelHint": "Cash. Item 1. (c) Fair market value on date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 10. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 10. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow1[0].f2_3[0]",
+      "fieldType": "date",
+      "labelHint": "Section B - Other Property (other than intangible property subject to section 367(d)). Stock and sec",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow1[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (b) Description of property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow1[0].f2_5[0]",
+      "fieldType": "date",
+      "labelHint": "Item 1. (c) Fair market value on date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow1[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow1[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (e) gain recognized on transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Stock and securities. Item 2. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow3[0].f2_13[0]",
+      "fieldType": "date",
+      "labelHint": "Inventory. Item 1. (a) Date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow3[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (b) Description of property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow3[0].f2_15[0]",
+      "fieldType": "date",
+      "labelHint": "Item 1. (c) Fair market value on date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow3[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow3[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (e) gain recognized on transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow4[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other property (not listed under another category). Item 1. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow4[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (b) Description of property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow4[0].f2_20[0]",
+      "fieldType": "date",
+      "labelHint": "Item 1. (c) Fair market value on date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow4[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow4[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (e) gain recognized on transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow5[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other property (not listed under another category). Item 2. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow5[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow5[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow5[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow5[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow6[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other property (not listed under another category). Item 3. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow6[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow6[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow6[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow6[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow7[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other property (not listed under another category). Item 4. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow7[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow7[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow7[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow7[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow8[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other property (not listed under another category). Item 5. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow8[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow8[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow8[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow8[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow9[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other property (not listed under another category). Item 6. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow9[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow9[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow9[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow9[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow15[0].f2_48[0]",
+      "fieldType": "date",
+      "labelHint": "Property with built-in loss. Item 1. (a) Date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow15[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (b) Description of property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow15[0].f2_50[0]",
+      "fieldType": "date",
+      "labelHint": "Item 1. (c) Fair market value on date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow15[0].f2_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow16[0].f2_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Property with built-in loss. Item 2. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow16[0].f2_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow16[0].f2_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow16[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow17[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Property with built-in loss. Item 3. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow17[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow17[0].f2_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow17[0].f2_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow18[0].f2_65[0]",
+      "fieldType": "date",
+      "labelHint": "Totals. (c) Fair market value on date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow18[0].f2_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Totals. (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow18[0].f2_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Totals. (e) Gain recognized on transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 11. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 11. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 12a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 12a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 12b. No. If \"No\", skip lines 12c and 12d, and go to line 13.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 12b. No. If \"No\", skip lines 12c and 12d, and go to line 13.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 12c. No. If \"No\", skip line 12d, and go to line 13.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 12c. No. If \"No\", skip line 12d, and go to line 13.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 12d. Enter the transferred loss amount included in gross income as required under section 91.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 13. No. If \"No\", skip Section C and questions 14a through 15.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 13. No. If \"No\", skip Section C and questions 14a through 15.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow1[0].f2_69[0]",
+      "fieldType": "date",
+      "labelHint": "Section C - Intangible property subject to section 367(d). Property described in section 367(d)(4). ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow1[0].f2_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (b) Description of property",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow1[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (c) Useful life.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow1[0].f2_72[0]",
+      "fieldType": "date",
+      "labelHint": "Item 1. (d) Arm's length price on date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow1[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 1. (e) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow1[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow2[0].f2_75[0]",
+      "fieldType": "date",
+      "labelHint": "Property described in section 367(d)(4). Item 2. (a) Date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow2[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow2[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow2[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow2[0].f2_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 2. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow2[0].f2_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow3[0].f2_81[0]",
+      "fieldType": "date",
+      "labelHint": "Property described in section 367(d)(4). Item 3. (a) Date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow3[0].f2_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow3[0].f2_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow3[0].f2_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow3[0].f2_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 3. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow3[0].f2_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow4[0].f2_87[0]",
+      "fieldType": "date",
+      "labelHint": "Property described in section 367(d)(4). Item 4. (a) Date of transfer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow4[0].f2_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow4[0].f2_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow4[0].f2_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow4[0].f2_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 4. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow4[0].f2_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow5[0].f2_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Property described in section 367(d)(4). Item 5. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow5[0].f2_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow5[0].f2_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow5[0].f2_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow5[0].f2_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 5.(e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow5[0].f2_98[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow6[0].f2_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Property described in section 367(d)(4). Item 6. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow6[0].f2_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow6[0].f2_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow6[0].f2_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow6[0].f2_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 6. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow6[0].f2_104[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow7[0].f2_105[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Property described in section 367(d)(4). Item 7. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow7[0].f2_106[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 7. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow7[0].f2_107[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 7. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow7[0].f2_108[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 7. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow7[0].f2_109[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 7. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow7[0].f2_110[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow8[0].f2_111[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Property described in section 367(d)(4). Item 8. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow8[0].f2_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 8. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow8[0].f2_113[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 8. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow8[0].f2_114[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 8. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow8[0].f2_115[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 8. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow8[0].f2_116[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow9[0].f2_117[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Property described in section 367(d)(4). Item 9. (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow9[0].f2_118[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 9. (b)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow9[0].f2_119[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 9. (c)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow9[0].f2_120[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 9. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow9[0].f2_121[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Item 9. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow9[0].f2_122[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow10[0].f2_123[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total. (d)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow10[0].f2_124[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total. (e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow10[0].f2_125[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 14a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 14a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 14b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 14b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 14c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 14c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_01[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Line 14d. If the answer to line 14c is “Yes,” enter the total estimated anticipated income or cost r",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 15. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 15. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Part III Information Required to be Reported. (See instructions). Nine lines available ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Supplemental Information. Nine lines available for entry. Line 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
+      "fieldType": "percentage",
+      "labelHint": "Part IV. Additional Information Regarding Transfer of Property (see instructions). Line 16. Enter th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
+      "fieldType": "percentage",
+      "labelHint": "Line 16. (b) After. (enter percentage.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 17. Type of nonrecognition transaction (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 18d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 19. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 19. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 20a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 20a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 20b. Enter the total amount of gain or loss recognized pursuant to Regulations section 1.367(e)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 20c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 20c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 21. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Line 21. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

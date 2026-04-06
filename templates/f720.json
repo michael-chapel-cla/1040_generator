@@ -1,0 +1,4485 @@
+{
+  "formId": "f720",
+  "displayName": "Form 720",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f720.pdf",
+  "generatedAt": "2026-04-06T21:46:35.661Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].CheckHere[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 1. Check here if: Final return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].CheckHere[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Address change.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].EntityArea[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].EntityArea[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Quarter ending.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].EntityArea[0].f1_3[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number, street, and room or suite no. &#xD;(If you have a P.O. box, see the instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].EntityArea[0].f1_4[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].EntityArea[0].f1_5[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno53[0].Tax[0].f1_6[0]",
+      "fieldType": "percentage",
+      "labelHint": "Part I. Environmental Taxes (attach Form 6627; O D Cs are ozone-depleting chemicals). Row: I R S No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno53[0].Tax[0].f1_7[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 53. Domestic petroleum superfund tax*. * See instructions to ensure correct rate. Col",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno18[0].Tax[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 18. Domestic petroleum oil spill tax. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno18[0].Tax[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 18. Domestic petroleum oil spill tax. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno16[0].Tax[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 16. Imported petroleum products superfund tax. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno16[0].Tax[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 16. Imported petroleum products superfund tax. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno21[0].Tax[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 21. Imported petroleum products oil spill tax. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno21[0].Tax[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 21. Imported petroleum products oil spill tax. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno54[0].Tax[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 54. Chemicals (other than O D Cs). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno54[0].Tax[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 54. Chemicals (other than O D Cs). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno17[0].Tax[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 17. Imported chemical substances. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno17[0].Tax[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 17. Imported chemical substances. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno98[0].Lne98[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 98. O D Cs. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno98[0].Lne98[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 98. O D Cs. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno19[0].Lne19[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 19. O D C tax on imported products. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_EnvironmentalTaxes[0].IRSno19[0].Lne19[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 19. O D C tax on imported products. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno22[0].Lne22[0].f1_22[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Communications and Air Transportation Taxes (see instructions). Row: I R S No. 22. Local telephone s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno22[0].Lne22[0].f1_23[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Row: I R S No. 22. Local telephone service and teletypewriter exchange service. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno26[0].Lne26[0].f1_24[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 26. Transportation of persons by air*. * See instructions to ensure correct rate. Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno26[0].Lne26[0].f1_25[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 26. Transportation of persons by air*. * See instructions to ensure correct rate. Col",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno28[0].Lne28[0].f1_26[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 28. Transportation of property by air*. * See instructions to ensure correct rate. Co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno28[0].Lne28[0].f1_27[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 28. Transportation of property by air*. * See instructions to ensure correct rate. Co",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno27[0].Lne27[0].f1_28[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 27. Use of international air travel facilities*. * See instructions to ensure correct",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_CommAirTranspoTaxes[0].IRSno27[0].Lne27[0].f1_29[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 27. Use of international air travel facilities*. * See instructions to ensure correct",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].iRSNo60a[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Fuel Taxes. Row: I R S No. 60. (a) Diesel, tax on removal at terminal rack. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].iRSNo60a[0].Ln60a[0].f1_31[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 60. (a) Diesel, tax on removal at terminal rack. Column: Rate. $.244.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSNo60b[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 60. (b) Diesel, tax on taxable events other than removal at terminal rack. Column: Nu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSNo60b[0].Ln360b[0].f1_33[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 60. (b) Diesel, tax on taxable events other than removal at terminal rack. Column: Ra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSNo60b[0].Tax60b[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 60. (a) Diesel, tax on removal at terminal rack. (b) Diesel, tax on taxable events ot",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSNo60b[0].Tax60b[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 60. (a) Diesel, tax on removal at terminal rack. (b) Diesel, tax on taxable events ot",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno60c[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 60. (c) Diesel, tax on sale or removal of biodiesel mixture (not at terminal rack). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno60c[0].f1_37[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 60. (c) Diesel, tax on sale or removal of biodiesel mixture (not at terminal rack). C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno104[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 104. Diesel-water fuel emulsion. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno104[0].f1_39[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 104. Diesel-water fuel emulsion. Column: Rate. .198.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno104[0].Tax104[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 104. Diesel-water fuel emulsion. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno104[0].Tax104[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 104. Diesel-water fuel emulsion. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno105[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 105. Dyed diesel, L U S T tax. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno105[0].Rate105[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 105. Dyed diesel, L U S T tax. Column: Rate. .001.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno105[0].Tax105[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 105. Dyed diesel, L U S T tax. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno105[0].Tax105[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 105. Dyed diesel, L U S T tax. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno107[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 107. Dyed kerosene, L U S T tax. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno107[0].f1_46[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 107. Dyed kerosene, L U S T tax. Column: Rate. .001.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno107[0].Tax107[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 107. Dyed kerosene, L U S T tax. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno107[0].Tax107[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 107. Dyed kerosene, L U S T tax. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno119[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 119. L U S T tax, other exempt removals (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno119[0].f1_50[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 119. L U S T tax, other exempt removals (see instructions). Column: Rate. .001.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno119[0].Tax119[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 119. L U S T tax, other exempt removals (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno119[0].Tax119[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 119. L U S T tax, other exempt removals (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno35a[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 35. (a) Kerosene, tax on removal at terminal rack (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno35a[0].Ln35a[0].f1_54[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 35. (a) Kerosene, tax on removal at terminal rack (see instructions). Column: Rate. .",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno35b[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 35. (b) Kerosene, tax on taxable events other than removal at terminal rack. Column: ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno35b[0].f1_56[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 35. (b) Kerosene, tax on taxable events other than removal at terminal rack. Column: ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno35b[0].Tax35[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 35. (a) Kerosene, tax on removal at terminal rack (see instructions). (b) Kerosene, t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno35b[0].Tax35[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 35. (a) Kerosene, tax on removal at terminal rack (see instructions). (b) Kerosene, t",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno69[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 69. Kerosene for use in aviation (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno69[0].f1_60[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 69. Kerosene for use in aviation (see instructions). Column: Rate. .219.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno69[0].Tax69[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 69. Kerosene for use in aviation (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno69[0].Tax69[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 69. Kerosene for use in aviation (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno77[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 77. Kerosene for use in commercial aviation (other than foreign trade). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno77[0].f1_64[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 77. Kerosene for use in commercial aviation (other than foreign trade). Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno77[0].Tax77[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 77. Kerosene for use in commercial aviation (other than foreign trade). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno77[0].Tax77[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 77. Kerosene for use in commercial aviation (other than foreign trade). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno111[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 111. Kerosene for use in aviation, L U S T tax on nontaxable uses. Column: Number of ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno111[0].f1_68[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 111. Kerosene for use in aviation, L U S T tax on nontaxable uses. Column: Rate. .001",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno111[0].Tax111[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 111. Kerosene for use in aviation, L U S T tax on nontaxable uses. Column: Tax. Dolla",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno111[0].Tax111[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 111. Kerosene for use in aviation, L U S T tax on nontaxable uses. Column: Tax. Cents",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno79[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 79. Other fuels (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno79[0].f1_72[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 79. Other fuels (see instructions). Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno79[0].Tax79[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 79. Other fuels (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno79[0].Tax79[0].f1_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 79. Other fuels (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno62a[0].f1_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 62. (a) Gasoline, tax on removal at terminal rack. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno62a[0].Lne62a[0].f1_76[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 62. (a) Gasoline, tax on removal at terminal rack. Column: Rate. .184.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno62b[0].f1_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 62. (b) Gasoline, tax on taxable events other than removal at terminal rack. Column: ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno62b[0].f1_78[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 62. (b) Gasoline, tax on taxable events other than removal at terminal rack. Column: ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno62b[0].Tax62b[0].f1_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 62. (a) Gasoline, tax on removal at terminal rack. (b) Gasoline, tax on taxable event",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno62b[0].Tax62b[0].f1_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 62. (a) Gasoline, tax on removal at terminal rack. (b) Gasoline, tax on taxable event",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno13[0].f1_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 13. Any liquid fuel used in a fractional ownership program aircraft (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno13[0].f1_82[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 13. Any liquid fuel used in a fractional ownership program aircraft (see instructions",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno13[0].Tax13[0].f1_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 13. Any liquid fuel used in a fractional ownership program aircraft (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno13[0].Tax13[0].f1_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 13. Any liquid fuel used in a fractional ownership program aircraft (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno14[0].f1_85[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 14. Aviation gasoline*. * See instructions to ensure correct rate. Column: Number of ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno14[0].f1_86[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 14. Aviation gasoline*. * See instructions to ensure correct rate. Column: Rate. .194",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno14[0].Tax14[0].f1_87[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 14. Aviation gasoline*. * See instructions to ensure correct rate. Column: Tax. Dolla",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno14[0].Tax14[0].f1_88[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 14. Aviation gasoline*. * See instructions to ensure correct rate. Column: Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno112[0].f1_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 112. Liquefied petroleum gas (L P G) (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno112[0].f1_90[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 112. Liquefied petroleum gas (L P G) (see instructions). Column: Rate. .183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno112[0].Tax112[0].f1_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 112. Liquefied petroleum gas (L P G) (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno112[0].Tax112[0].f1_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 112. Liquefied petroleum gas (L P G) (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno118[0].f1_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 118. \"P Series\" fuels. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno118[0].f1_94[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 118. \"P Series\" fuels. Column: Rate. .184.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno118[0].Tax118[0].f1_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 118. \"P Series\" fuels. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno118[0].Tax118[0].f1_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 118. \"P Series\" fuels. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno120[0].f1_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 120. Compressed natural gas (C N G) (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno120[0].f1_98[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 120. Compressed natural gas (C N G) (see instructions). Column: Rate. .183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno120[0].Tax120[0].f1_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 120. Compressed natural gas (C N G) (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno120[0].Tax120[0].f1_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 120. Compressed natural gas (C N G) (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno121[0].f1_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 121. Liquefied hydrogen. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno121[0].f1_102[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 121. Liquefied hydrogen. Column: Rate. .184.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno121[0].Tax121[0].f1_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 121. Liquefied hydrogen. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno121[0].Tax121[0].f1_104[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 121. Liquefied hydrogen. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno122[0].f1_105[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 122. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno122[0].f1_106[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 122. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Rate. .2",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno122[0].Tax122[0].f1_107[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 122. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno122[0].Tax122[0].f1_108[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 122. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno123[0].f1_109[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 123. Liquid fuel derived from biomass. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno123[0].Rate123[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 123. Liquid fuel derived from biomass. Column: Rate. .244.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno123[0].Tax123[0].f1_110[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 123. Liquid fuel derived from biomass. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno123[0].Tax123[0].f1_111[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 123. Liquid fuel derived from biomass. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno124[0].f1_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 124. Liquefied natural gas (L N G) (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno124[0].f1_113[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 124. Liquefied natural gas (L N G) (see instructions). Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno124[0].Tax124[0].f1_114[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 124. Liquefied natural gas (L N G) (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_FuelTaxes[0].IRSno124[0].Tax124[0].f1_115[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 124. Liquefied natural gas (L N G) (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_RetailTax[0].IRSno33[0].f2_1[0]",
+      "fieldType": "percentage",
+      "labelHint": "Page 2. Row: I R S No. 33. Retail Tax—Truck, trailer, and semitrailer chassis and bodies, and tracto",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_RetailTax[0].IRSno33[0].Tax33[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 33. Retail Tax—Truck, trailer, and semitrailer chassis and bodies, and tractor. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_RetailTax[0].IRSno33[0].Tax33[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 33. Retail Tax—Truck, trailer, and semitrailer chassis and bodies, and tractor. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ShipPassengerTax[0].IRSno29[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Ship Passenger Tax. Row: I R S No. 29. Transportation by water. Column: Number of persons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ShipPassengerTax[0].IRSno29[0].f2_5[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 29. Transportation by water. Column: Rate. $3 per person.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ShipPassengerTax[0].IRSno29[0].Tax29[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 29. Transportation by water. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ShipPassengerTax[0].IRSno29[0].Tax29[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 29. Transportation by water. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_OtherExcise[0].BodyRow[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other Excise Tax. Row: I R S No. 31. Obligations not in registered form. Column: Amount of obligations.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_OtherExcise[0].BodyRow[0].f2_9[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 31. Obligations not in registered form. Column: Rate. $.01.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_OtherExcise[0].BodyRow[0].Tax31[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 31. Obligations not in registered form. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_OtherExcise[0].BodyRow[0].Tax31[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 31. Obligations not in registered form. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-1[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Foreign Insurance Taxes—Policies issued by foreign insurers. Row: I R S No. 30. Casualty insurance a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-1[0].Rate30_1[0].f2_13[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 30. Casualty insurance and indemnity bonds. Column: Rate. $.04.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-1[0].Tax30[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-1[0].Tax30[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 30. Life insurance, sickness and accident policies, and annuity contracts. Column: Pr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-2[0].Rate30_2[0].f2_17[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 30. Life insurance, sickness and accident policies, and annuity contracts. Column: Ra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-2[0].Tax30_1[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 30. Casualty insurance and indemnity bonds. Life insurance, sickness and accident policies, and annuity contracts. Reinsurance. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRSno30-2[0].Tax30_1[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 30. Casualty insurance and indemnity bonds. Life insurance, sickness and accident policies, and annuity contracts. Reinsurance. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRsno30-3[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 30. Reinsurance. Column: Premiums paid.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRsno30-3[0].f2_21[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 30. Reinsurance. Column: Rate. .01.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRsno30-3[0].Tax30-3[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ForeignInsuranceTaxes[0].IRsno30-3[0].Tax30-3[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno36[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Manufacturer's Taxes. Row: I R S No. 36. Coal—Underground mined. Column: Number of tons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno36[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 36. Coal—Underground mined. Column: Sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno36[0].f2_26[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 36. Coal—Underground mined. Column: Rate. $1.10 per ton.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno36[0].Tax36[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 36. Coal—Underground mined. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno36[0].Tax36[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 36. Coal—Underground mined. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno37[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 37. Coal—Underground mined. Column: Number of tons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno37[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 37. Coal—Underground mined. Column: Sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno37[0].f2_31[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 37. Coal—Underground mined. Column: Rate. 4.4% of sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno37[0].Tax37[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 37. Coal—Underground mined. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno37[0].Tax37[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 37. Coal—Underground mined. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno38[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 38. Coal—Surface mined. Column: Number of tons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno38[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 38. Coal—Surface mined. Column: Sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno38[0].f2_36[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 38. Coal—Surface mined. Column: Rate. $.55 per ton.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno38[0].Tax38[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 38. Coal—Surface mined. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno38[0].Tax38[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 38. Coal—Surface mined. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno39[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 39. Coal—Surface mined. Column: Number of tons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno39[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 39. Coal—Surface mined. Column: Sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno39[0].f2_41[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 39. Coal—Surface mined. Column: Rate. 4.4% of sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno39[0].Tax39[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 39. Coal—Surface mined. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ManufacturersTaxes[0].IRSno39[0].Tax39[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 39. Coal—Surface mined. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno108[0].f2_44[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 108. Taxable tires other than bias ply or super single tires. Column: Number of tires",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno108[0].Tax108[0].f2_45[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 108. Taxable tires other than bias ply or super single tires. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno108[0].Tax108[0].f2_46[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 108. Taxable tires other than bias ply or super single tires. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno109[0].f2_47[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 109. Taxable bias ply or super single tires (other than super single tires designed f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno109[0].Tax109[0].f2_48[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 109. Taxable bias ply or super single tires (other than super single tires designed f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno109[0].Tax109[0].f2_49[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 109. Taxable bias ply or super single tires (other than super single tires designed f",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno113[0].f2_50[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 113. Taxable tires, super single tires designated for steering. Column: Number of tir",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno113[0].Tax113[0].f2_51[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 113. Taxable tires, super single tires designated for steering. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_TiresTax[0].IRSno113[0].Tax113[0].f2_52[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: I R S No. 113. Taxable tires, super single tires designated for steering. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno40[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: I R S No. 40. Gas guzzler tax. Attach Form 6197. Check if one-time filing.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno40[0].f2_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 40. Gas guzzler tax. Attach Form 6197. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno40[0].f2_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 40. Gas guzzler tax. Attach Form 6197. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno97[0].f2_55[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: Reserved for future use. Column: Rate. 2.3% of sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno97[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 97. Vaccines (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Reserved[0].Sales[0].f2_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Reserved for future use. Column: Sales price. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Reserved[0].Sales[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Reserved for future use. Column: Sales price. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Reserved[0].f2_55[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: Reserved for future use. Column: Rate. 2.3% of sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Reserved[0].Tax[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Reserved for future use. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Reserved[0].Tax[0].f2_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Reserved for future use. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Total. Add all amounts in Part I. Complete Schedule A unless one-time filing. Tax. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow2[0].f2_63[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I I. Patient‐Centered Outcomes Research Fee (see instructions). Specified health insurance poli",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow2[0].f2_64[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (a) With a policy year ending before October 1, 2024. Column: (b) Rate for avg. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow2[0].f2_65[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (a) With a policy year ending before October 1, 2024. Column: (c) Fee (see instr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow3[0].f2_66[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (b) With a policy year ending on or after October 1, 2024, and before October 1,",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow3[0].f2_67[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (b) With a policy year ending on or after October 1, 2024, and before October 1,",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow3[0].f2_68[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (b) With a policy year ending on or after October 1, 2024, and before October 1,",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow4[0].f2_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S. No. 133. Applicable self-insured health plans. Column: Tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow5[0].f2_70[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Applicable self‐insured health plans. Row: I R S No. 133. (c) With a plan year ending before October",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow5[0].f2_71[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (c) With a plan year ending before October 1, 2024. Column: (b) Rate for avg. co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow5[0].f2_72[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (c) With a plan year ending before October 1, 2024. Column: (c) Fee (see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow6[0].f2_73[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (d) With a plan year ending on or after October 1, 2024, and before October 1, 2",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow6[0].f2_74[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (d) With a plan year ending on or after October 1, 2024, and before October 1, 2",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow6[0].f2_75[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: I R S No. 133. (d) With a plan year ending on or after October 1, 2024, and before October 1, 2",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRsno41[0].f2_76[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 41. Sport fishing equipment (other than fishing rods and fishing poles). Column: Rate",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRsno41[0].Tax41[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 41. Sport fishing equipment (other than fishing rods and fishing poles). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRsno41[0].Tax41[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 41. Sport fishing equipment (other than fishing rods and fishing poles). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno110[0].f2_79[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 110. Fishing rods and fishing poles (limits apply, see instructions). Column: Rate. 1",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno110[0].Tax110[0].f2_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 110. Fishing rods and fishing poles (limits apply, see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno110[0].Tax110[0].f2_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 110. Fishing rods and fishing poles (limits apply, see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno42[0].f2_82[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 42. Electric outboard motors. Column: Rate. 3% of sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno42[0].Tax42[0].f2_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 42. Electric outboard motors. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno42[0].Tax42[0].f2_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 42. Electric outboard motors. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno114[0].f2_85[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 114. Fishing tackle boxes. Column: Rate. 3% of sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno114[0].Tax114[0].f2_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 114. Fishing tackle boxes. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno114[0].Tax114[0].f2_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 114. Fishing tackle boxes. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno44[0].f2_88[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 44. Bows, quivers, broadheads, and points. Column: Rate. 11% of sales price.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno44[0].Tax44[0].f2_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 44. Bows, quivers, broadheads, and points. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno44[0].Tax44[0].f2_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 44. Bows, quivers, broadheads, and points. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno106[0].f2_91[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 106. Arrow shafts. Column: Rate. $.63 per shaft.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno106[0].Tax106[0].f2_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 106. Arrow shafts. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSno106[0].Tax106[0].f2_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 106. Arrow shafts. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSNo140[0].f2_94[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 140. Indoor tanning services. Column: Rate. 10% of amount paid.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSNo140[0].Tax140[0].f2_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 140. Indoor tanning services. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno41-140Table[0].IRSNo140[0].Tax140[0].f2_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 140. Indoor tanning services. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno64[0].f2_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 64. Inland waterways fuel use tax. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno64[0].f2_98[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 64. Inland waterways fuel use tax. Column: Rate. $.29.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno64[0].Tax64[0].f2_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 64. Inland waterways fuel use tax. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno64[0].Tax64[0].f2_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 64. Inland waterways fuel use tax. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno125[0].f2_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 125. L U S T tax on inland waterways fuel use (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno125[0].f2_102[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 125. L U S T tax on inland waterways fuel use (see instructions). Column: Rate. .001.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno125[0].Tax125[0].f2_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 125. L U S T tax on inland waterways fuel use (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno125[0].Tax125[0].f2_104[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 125. L U S T tax on inland waterways fuel use (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno51[0].f2_105[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 51. Section 40 fuels (see instructions). Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno51[0].f2_106[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 51. Section 40 fuels (see instructions). Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno51[0].Tax51[0].f2_107[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 51. Section 40 fuels (see instructions). Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno51[0].Tax51[0].f2_108[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 51. Section 40 fuels (see instructions). Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno117[0].f2_109[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 117. Biodiesel sold as but not used as fuel. Column: Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno117[0].f2_110[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: I R S No. 117. Biodiesel sold as but not used as fuel. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno117[0].Tax117[0].f2_111[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 117. Biodiesel sold as but not used as fuel. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].IRSno64-20Table[0].IRSno117[0].Tax117[0].f2_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 117. Biodiesel sold as but not used as fuel. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_113[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 20. Floor stocks tax—Ozone-depleting chemicals. Attach Form 6627. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_114[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 20. Floor stocks tax—Ozone-depleting chemicals. Attach Form 6627. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_115[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 150. Repurchase of corporate stock. Attach Form 7208. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_116[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 150. Repurchase of corporate stock. Attach Form 7208. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_117[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 142. Sales of designated drugs during statutory periods. Column: Tax. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_118[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: I R S No. 142. Sales of designated drugs during statutory periods. Column: Tax. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_119[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Total. Add all amounts in Part I I. Tax. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_120[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 3. Part I I I. 3. Total tax. Add Part I, line 1, and Part I I, line 2. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Claims (see instructions; complete Schedule C). Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Deposits made for the quarter. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. Check here if you used the safe harbor rule to make your deposits.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Overpayment from previous quarters. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Enter the amount from Form 720-X included on line 6, if any. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Add lines 5 and 6. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Add lines 4 and 8. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Balance Due. If line 3 is greater than line 9, enter the difference. Pay the full amount with th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line11_ReadOrder[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11. Refunded to you.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Line11_ReadOrder[0].c3_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "11. Refunded to you.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Overpayment. If line 9 is greater than line 3, enter the difference. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_19[0]",
+      "fieldType": "full_name",
+      "labelHint": "Designee's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PinCombField[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Personal identification number (P I N).",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_22[0]",
+      "fieldType": "full_name",
+      "labelHint": "Type or print name below signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_23[0]",
+      "fieldType": "signature",
+      "labelHint": "Sign Here. Title.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_24[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_25[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Print/Type preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check if self-employed.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_27[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_29[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm’s address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_30[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].FirstMonth[0].FirstThru15[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 4. Schedule A. Excise Tax Liability (see instructions). Note: You must complete Schedule A if you have a liability for any tax in Part I of Form 720. Don't complete Schedule A for Part I I taxes or for a one-time filing of the gas guzzler tax. 1. Regular method taxes. (a) Record of Net Tax Liability. Row: First month. A. Column: Period. 1st–15th day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].FirstMonth[0].FirstThru15[0].f4_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: First month. A. Column: Period. 1st–15th day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].FirstMonth[0].SixteenthThruLast[0].f4_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: First month. B. Column: Period. 16th–last day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].FirstMonth[0].SixteenthThruLast[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: First month. B. Column: Period. 16th–last day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].SecondMonth[0].FirstThru15[0].f4_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. C. Column: Period. 1st–15th day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].SecondMonth[0].FirstThru15[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. C. Column: Period. 1st–15th day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].SecondMonth[0].SixteenthThruLast[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. D. Column: Period. 16th–last day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].SecondMonth[0].SixteenthThruLast[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. D. Column: Period. 16th–last day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].ThirdMonth[0].FirstThru15[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. E. Column: Period. 1st–15th day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].ThirdMonth[0].FirstThru15[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. E. Column: Period. 1st–15th day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].ThirdMonth[0].SixteenthThruLast[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. F. Column: Period. 16th–last day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA-1a[0].ThirdMonth[0].SixteenthThruLast[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. F. Column: Period. 16th–last day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Special rule for September*. * Complete only as instructed (see instructions). G. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. (b) Net liability for regular method taxes. Add the amounts for each semimonthly period. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. (b). Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].FirstMonth[0].FirstThru15[0].f4_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Alternative method taxes (I R S Nos. 22, 26, 28, and 27). (a) Record of Taxes Considered as Collected. Row: First month. M. Column: Period. 1st–15th day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].FirstMonth[0].FirstThru15[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: First month. M. Column: Period. 1st–15th day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].FirstMonth[0].SixteenthThruLast[0].f4_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: First month. N. Column: Period. 16th–last day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].FirstMonth[0].SixteenthThruLast[0].f4_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: First month. N. Column: Period. 16th–last day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].SecondMonth[0].FirstThru15[0].f4_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. O. Column: Period. 1st–15th day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].SecondMonth[0].FirstThru15[0].f4_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. O. Column: Period. 1st–15th day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].SecondMonth[0].SixteenthThruLast[0].f4_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. P. Column: Period. 16th–last day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].SecondMonth[0].SixteenthThruLast[0].f4_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Second month. P. Column: Period. 16th–last day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].ThirdMonth[0].FirstThru15[0].f4_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. Q. Column: Period. 1st–15th day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].ThirdMonth[0].FirstThru15[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. Q. Column: Period. 1st–15th day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].ThirdMonth[0].SixteenthThruLast[0].f4_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. R. Column: Period. 16th–last day. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].ThirdMonth[0].SixteenthThruLast[0].f4_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Third month. R. Column: Period. 16th–last day. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Special rule for September*. * Complete only as instructed (see instructions). S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "S. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. (b) Alternative method taxes. Add the amounts for each semimonthly period. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. (b). Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row1[0].f4_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Schedule T. Two-Party Exchange Information Reporting (see instructions). Fuel. Diesel fuel, gallons received in a two-party exchange within a terminal, included on Form 720, I R S No. 60(a). Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row2[0].f4_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Diesel fuel, gallons delivered in a two-party exchange within a terminal. Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row3[0].f4_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Kerosene, gallons received in a two-party exchange within a terminal, included on Form 720, I R S No. 35(a), 69, 77, or 111. Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row4[0].f4_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Kerosene, gallons delivered in a two-party exchange within a terminal. Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row5[0].f4_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Gasoline, gallons received in a two-party exchange within a terminal, included on Form 720, I R S No. 62(a). Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row6[0].f4_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Gasoline, gallons delivered in a two-party exchange within a terminal. Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row7[0].f4_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Aviation gasoline, gallons received in a two-party exchange within a terminal, included on Form 720, I R S No. 14. Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row8[0].f4_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Aviation gasoline, gallons delivered in a two-party exchange within a terminal. Number of gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Schedule C. Claims. Month your income tax year ends.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "Complete Schedule C for claims only if you are reporting liability in Part I or I I of Form 720. Att",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].Line1a[0].f5_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Gasoline (see Caution above line 1). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].Line1a[0].f5_4[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Gasoline (see Caution above line 1). Column: Rate. $.183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].Line1a[0].f5_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Gasoline (see Caution above line 1). Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].Line1a[0].AmountOfClaim[0].f5_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Gasoline (see Caution above line 1). Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].Line1a[0].AmountOfClaim[0].f5_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Gasoline (see Caution above line 1). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].Line1a[0].f5_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Gasoline (see Caution above line 1). Column: C R N. 362.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].LIne1b[0].f5_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported (see Caution above line 1). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].LIne1b[0].f5_10[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Exported (see Caution above line 1). Column: Rate. .184.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].LIne1b[0].f5_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported (see Caution above line 1). Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].LIne1b[0].AmountOfClaim[0].f5_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported (see Caution above line 1). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].LIne1b[0].AmountOfClaim[0].f5_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported (see Caution above line 1). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line1[0].LIne1b[0].f5_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported (see Caution above line 1). Column: C R N. 411.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Nontaxable Use of Aviation Gasoline. Period of claim.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2a[0].f5_16[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Used in commercial aviation (other than foreign trade)*. * See instructions to ensure correc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2a[0].f5_17[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Used in commercial aviation (other than foreign trade)*. * See instructions to ensure correc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2a[0].f5_18[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Used in commercial aviation (other than foreign trade)*. * See instructions to ensure correc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2a[0].AmountOfClaim[0].f5_19[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Used in commercial aviation (other than foreign trade)*. * See instructions to ensure correc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2a[0].AmountOfClaim[0].f5_20[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Used in commercial aviation (other than foreign trade)*. * See instructions to ensure correc",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2a[0].f5_21[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Used in commercial aviation (other than foreign trade)*. * See instructions to ensure correc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2b[0].f5_22[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Other nontaxable use (see Caution above line 1)*. * See instructions to ensure correct rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2b[0].f5_23[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Other nontaxable use (see Caution above line 1)*. * See instructions to ensure correct rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2b[0].f5_24[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Other nontaxable use (see Caution above line 1)*. * See instructions to ensure correct rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2b[0].AmountOfClaim[0].f5_25[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Other nontaxable use (see Caution above line 1)* . * See instructions to ensure correct rate",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2b[0].AmountOfClaim[0].f5_26[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Other nontaxable use (see Caution above line 1)*. * See instructions to ensure correct rate.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2b[0].f5_27[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Other nontaxable use (see Caution above line 1)*. * See instructions to ensure correct rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2c[0].f5_28[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Exported (see Caution above line 1)*. * See instructions to ensure correct rate. Column: Typ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2c[0].f5_29[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Exported (see Caution above line 1*. * See instructions to ensure correct rate. Column: Rate",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2c[0].f5_30[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Exported (see Caution above line 1)*. * See instructions to ensure correct rate. Column: Gal",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2c[0].AmountOfClaim[0].f5_31[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Exported (see Caution above line 1)*. * See instructions to ensure correct rate. Column: Amo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2c[0].AmountOfClaim[0].f5_32[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Exported (see Caution above line 1)*. * See instructions to ensure correct rate. Column: Amo",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2c[0].f5_33[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Exported (see Caution above line 1)*. * See instructions to ensure correct rate. Column: C R",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2d[0].f5_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. L U S T tax on aviation fuels used in foreign trade. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2d[0].f5_35[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: d. L U S T tax on aviation fuels used in foreign trade. Column: Rate. .001.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2d[0].f5_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. L U S T tax on aviation fuels used in foreign trade. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2d[0].AmountOfClaim[0].f5_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. L U S T tax on aviation fuels used in foreign trade. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2d[0].AmountOfClaim[0].f5_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. L U S T tax on aviation fuels used in foreign trade. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2d[0].f5_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. L U S T tax on aviation fuels used in foreign trade. Column: C R N. 433.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Nontaxable Use of Undyed Diesel Fuel. Period of claim.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Claimant certifies that the diesel fuel did not contain visible evidence of dye. Exception. If any of the diesel fuel included in this claim did contain visible evidence of dye, attach a detailed explanation and check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3a[0].f5_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3a[0].f5_42[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Nontaxable use. Column: Rate. $.243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3a[0].f5_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3a[0].AmountOfClaim[0].f5_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3a[0].AmountOfClaim[0].f5_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3a[0].f5_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: C R N. 360.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3b[0].f5_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in trains. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3b[0].f5_48[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Use in trains. Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3b[0].f5_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in trains. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3b[0].AmountOfClaim[0].f5_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in trains. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3b[0].AmountOfClaim[0].f5_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in trains. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3b[0].f5_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in trains. Column: C R N. 353.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3c[0].f5_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses (see Caution above line 1). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3c[0].f5_54[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Use in certain intercity and local buses (see Caution above line 1). Column: Rate. .17.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3c[0].f5_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses (see Caution above line 1). Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3c[0].AmountOfClaim[0].f5_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses (see Caution above line 1). Column: Amount of claim",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3c[0].AmountOfClaim[0].f5_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses (see Caution above line 1). Column: Amount of claim",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3c[0].f5_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses (see Caution above line 1). Column: C R N. 350.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3d[0].f5_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Use on a farm for farming purposes. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3d[0].f5_60[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: d. Use on a farm for farming purposes. Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3d[0].f5_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Use on a farm for farming purposes. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3d[0].AmountOfClaim[0].f5_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Use on a farm for farming purposes. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3d[0].AmountOfClaim[0].f5_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Use on a farm for farming purposes. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3d[0].f5_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Use on a farm for farming purposes. Column: C R N. 360.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3e[0].f5_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Exported (see Caution above line 1). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3e[0].f5_66[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Exported (see Caution above line 1). Column: Rate. .244.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3e[0].f5_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Exported (see Caution above line 1). Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3e[0].AmountOfClaim[0].f5_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Exported (see Caution above line 1). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3e[0].AmountOfClaim[0].f5_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Exported (see Caution above line 1). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3e[0].f5_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Exported (see Caution above line 1). Column: C R N. 413.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Nontaxable Use of Undyed Kerosene (Other Than Kerosene Used in Aviation) Period of claim.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. Claimant certifies that the kerosene did not contain visible evidence of dye. Exception. If any of the kerosene included in this claim did contain visible evidence of dye, attach a detailed explanation and check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4a[0].f5_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Caution: Claims cannot be made on line 4 for kerosene sales from a blocked pump. Row: a. Nontaxable ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4a[0].f5_73[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Nontaxable use. Column: Rate. $.243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4a[0].f5_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4a[0].AmountOfClaim[0].f5_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4a[0].AmountOfClaim[0].f5_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4a[0].f5_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Nontaxable use. Column: C R N 346.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4b[0].f5_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses (see Caution above line 1). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4b[0].f5_79[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Use in certain intercity and local buses (see Caution above line 1). Column: Rate. .17.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4b[0].f5_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses (see Caution above line 1). Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4b[0].AmountOfClaim[0].f5_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses (see Caution above line 1). Column: Amount of claim",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4b[0].AmountOfClaim[0].f5_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses (see Caution above line 1). Column: Amount of claim",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4b[0].f5_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses (see Caution above line 1). Column: C R N. 347.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4c[0].f5_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use on a farm for farming purposes. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4c[0].f5_85[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Use on a farm for farming purposes. Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4c[0].f5_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use on a farm for farming purposes. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4c[0].AmountOfClaim[0].f5_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use on a farm for farming purposes. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4c[0].AmountOfClaim[0].f5_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use on a farm for farming purposes. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4c[0].f5_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use on a farm for farming purposes. Column: C R N. 346.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4d[0].f5_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Exported (see Caution above line 1). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4d[0].f5_91[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: d. Exported (see Caution above line 1). Column: Rate. .244.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4d[0].f5_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Exported (see Caution above line 1). Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4d[0].AmountOfClaim[0].f5_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Exported (see Caution above line 1). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4d[0].AmountOfClaim[0].f5_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Exported (see Caution above line 1). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4d[0].f5_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Exported (see Caution above line 1). Column: C R N. 414.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4e[0].f5_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Nontaxable use taxed at $.044. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4e[0].f5_97[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Nontaxable use taxed at $.044. Column: Rate. .043.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4e[0].f5_98[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Nontaxable use taxed at $.044. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4e[0].AmountOfClaim[0].f5_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Nontaxable use taxed at $.044. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4e[0].AmountOfClaim[0].f5_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Nontaxable use taxed at $.044. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4e[0].Ln377[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Nontaxable use taxed at $.044. Column: C R N. 377.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4f[0].f5_101[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. Nontaxable use taxed at $.219*.* See instructions to ensure correct rate. Column: Type of us",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4f[0].f5_102[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. Nontaxable use taxed at $.219*. * See instructions to ensure correct rate. Column: Rate. .21",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4f[0].f5_103[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. Nontaxable use taxed at $.219*. * See instructions to ensure correct rate. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4f[0].AmountOfClaim[0].f5_104[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. Nontaxable use taxed at $.219*. * See instructions to ensure correct rate. Column: Amount of",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4f[0].AmountOfClaim[0].f5_105[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. Nontaxable use taxed at $.219*. * See instructions to ensure correct rate. Column: Amount of",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4f[0].f5_106[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. Nontaxable use taxed at $.219*. * See instructions to ensure correct rate. Column: C R N. 36",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_107[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Kerosene Used in Aviation (see Caution above line 1). Period of claim.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5a[0].f5_108[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Kerosene used in commercial aviation (other than foreign trade) taxed at $.244. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5a[0].f5_109[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Kerosene used in commercial aviation (other than foreign trade) taxed at $.244. Column: Rate",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5a[0].f5_110[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Kerosene used in commercial aviation (other than foreign trade) taxed at $.244. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5a[0].AmountOfClaim[0].f5_111[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Kerosene used in commercial aviation (other than foreign trade) taxed at $.244. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5a[0].AmountOfClaim[0].f5_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Kerosene used in commercial aviation (other than foreign trade) taxed at $.244. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5a[0].f5_113[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Kerosene used in commercial aviation (other than foreign trade) taxed at $.244. Column: C R N. 417.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5b[0].f5_114[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Kerosene used in commercial aviation (other than foreign trade) taxed at $.219*. * See instr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5b[0].f5_115[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Kerosene used in commercial aviation (other than foreign trade) taxed at $.219*. * See instr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5b[0].f5_116[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Kerosene used in commercial aviation (other than foreign trade) taxed at $.219*. * See instr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5b[0].AmountOfClaim[0].f5_117[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Kerosene used in commercial aviation (other than foreign trade) taxed at $.219*. * See instr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5b[0].AmountOfClaim[0].f5_118[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Kerosene used in commercial aviation (other than foreign trade) taxed at $.219* . * See inst",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5b[0].f5_119[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Kerosene used in commercial aviation (other than foreign trade) taxed at $.219* . * See inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5c[0].f5_120[0]",
+      "fieldType": "state",
+      "labelHint": "Row: c. Nontaxable use (other than use by state or local government) taxed at $.244. Column: Type of",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5c[0].f5_121[0]",
+      "fieldType": "state",
+      "labelHint": "Row: c. Nontaxable use (other than use by state or local government) taxed at $.244. Column: Rate. .",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5c[0].f5_122[0]",
+      "fieldType": "state",
+      "labelHint": "Row: c. Nontaxable use (other than use by state or local government) taxed at $.244. Column: Gallons",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5c[0].AmountOfClaim[0].f5_123[0]",
+      "fieldType": "state",
+      "labelHint": "Row: c. Nontaxable use (other than use by state or local government) taxed at $.244. Column: Amount ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5c[0].AmountOfClaim[0].f5_124[0]",
+      "fieldType": "state",
+      "labelHint": "Row: c. Nontaxable use (other than use by state or local government) taxed at $.244. Column: Amount ",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5c[0].f5_125[0]",
+      "fieldType": "state",
+      "labelHint": "Row: c. Nontaxable use (other than use by state or local government) taxed at $.244. Column: C R N. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5d[0].f5_126[0]",
+      "fieldType": "state",
+      "labelHint": "Row: d. Nontaxable use (other than use by state or local government) taxed at $.219*. * See instruct",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5d[0].f5_127[0]",
+      "fieldType": "state",
+      "labelHint": "Row: d. Nontaxable use (other than use by state or local government) taxed at $.219*. * See instruct",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5d[0].f5_128[0]",
+      "fieldType": "state",
+      "labelHint": "Row: d. Nontaxable use (other than use by state or local government) taxed at $.219*. * See instruct",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5d[0].AmountOfClaim[0].f5_129[0]",
+      "fieldType": "state",
+      "labelHint": "Row: d. Nontaxable use (other than use by state or local government) taxed at $.219*. * See instruct",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5d[0].AmountOfClaim[0].f5_130[0]",
+      "fieldType": "state",
+      "labelHint": "Row: d. Nontaxable use (other than use by state or local government) taxed at $.219*.* See instructi",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5d[0].f5_131[0]",
+      "fieldType": "state",
+      "labelHint": "Row: d. Nontaxable use (other than use by state or local government) taxed at $.219*. * See instruct",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5e[0].f5_132[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. L U S T tax on aviation fuels used in foreign trade. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5e[0].f5_133[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. L U S T tax on aviation fuels used in foreign trade. Column: Rate. .001.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5e[0].f5_134[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. L U S T tax on aviation fuels used in foreign trade. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5e[0].AmountOfClaim[0].f5_135[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. L U S T tax on aviation fuels used in foreign trade. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5e[0].AmountOfClaim[0].f5_136[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. L U S T tax on aviation fuels used in foreign trade. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5e[0].f5_137[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. L U S T tax on aviation fuels used in foreign trade. Column: C R N. 433.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].f6_1[0]",
+      "fieldType": "percentage",
+      "labelHint": "Page 6. 6. Nontaxable Use of Alternative Fuel. Caution: There is a reduced credit rate for use in ce",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].Rate183A[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Liquefied petroleum gas (L P G) (see instructions). Column: Rate. $.183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].f6_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Liquefied petroleum gas (L P G) (see instructions). Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].AmountOfClaim[0].f6_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Liquefied petroleum gas (L P G) (see instructions). Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].AmountOfClaim[0].f6_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Liquefied petroleum gas (L P G) (see instructions). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].Ln419[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: a. Liquefied petroleum gas (L P G) (see instructions). Column: C R N. 419.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6b[0].f6_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. \"P Series\" fuels. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6b[0].f6_6[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. \"P Series\" fuels. Column: Rate. .183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6b[0].f6_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. \"P Series\" fuels. Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6b[0].AmountOfClaim[0].f6_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. \"P Series\" fuels. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6b[0].AmountOfClaim[0].f6_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. \"P Series\" fuels. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6b[0].f6_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. \"P Series\" fuels. Column: C R N. 420.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6c[0].f6_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Compressed natural gas (C N G) (see instructions). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6c[0].f6_12[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Compressed natural gas (C N G) (see instructions). Column: Rate. .183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6c[0].f6_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Compressed natural gas (C N G) (see instructions). Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6c[0].AmountOfClaim[0].f6_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Compressed natural gas (C N G) (see instructions). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6c[0].AmountOfClaim[0].f6_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Compressed natural gas (C N G) (see instructions). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6c[0].f6_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Compressed natural gas (C N G) (see instructions). Column: C R N. 421.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6d[0].f6_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Liquefied hydrogen. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6d[0].f6_18[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: d. Liquefied hydrogen. Column: Rate. .183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6d[0].f6_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Liquefied hydrogen. Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6d[0].AmountOfClaim[0].f6_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Liquefied hydrogen. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6d[0].AmountOfClaim[0].f6_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Liquefied hydrogen. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6d[0].f6_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Liquefied hydrogen. Column: C R N. 422.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6e[0].f6_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6e[0].f6_24[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6e[0].f6_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6e[0].AmountOfClaim[0].f6_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6e[0].AmountOfClaim[0].f6_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Fischer-Tropsch process liquid fuel from coal (including peat). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6e[0].f6_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Fischer-Tropsch process liquid fuel from coal (including peat). Column: C R N 423.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6f[0].f6_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. Liquid fuel derived from biomass. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6f[0].f6_30[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. Liquid fuel derived from biomass. Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6f[0].f6_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. Liquid fuel derived from biomass. Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6f[0].AmountOfClaim[0].f6_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. Liquid fuel derived from biomass. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6f[0].AmountOfClaim[0].f6_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. Liquid fuel derived from biomass. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6f[0].f6_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. Liquid fuel derived from biomass. Column: C R N. 424.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6g[0].f6_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: g. Liquefied natural gas (L N G) (see instructions). Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6g[0].f6_36[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: g. Liquefied natural gas (L N G) (see instructions). Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6g[0].f6_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: g. Liquefied natural gas (L N G) (see instructions). Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6g[0].AmountOfClaim[0].f6_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: g. Liquefied natural gas (L N G) (see instructions). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6g[0].AmountOfClaim[0].f6_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: g. Liquefied natural gas (L N G) (see instructions). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6g[0].f6_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: g. Liquefied natural gas (L N G) (see instructions). Column: C R N. 425.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6h[0].f6_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: h. Liquefied gas derived from biomass. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6h[0].f6_42[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: h. Liquefied gas derived from biomass. Column: Rate. .183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6h[0].f6_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: h. Liquefied gas derived from biomass. Column: Gallons, or gasoline or diesel gallon equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6h[0].AmountOfClaim[0].f6_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: h. Liquefied gas derived from biomass. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6h[0].AmountOfClaim[0].f6_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: h. Liquefied gas derived from biomass. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6h[0].f6_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: h. Liquefied gas derived from biomass. Column: C R N. 435.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Sales by Registered Ultimate Vendors of Undyed Diesel Fuel. Period of claim.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Registration number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Claimant certifies that it sold the diesel fuel at a tax-excluded price, repaid the amount of tax to the buyer, or has obtained written consent of the buyer to make the claim. Claimant certifies that the diesel fuel didn't contain visible evidence of dye. Exception. If any of the diesel fuel included in this claim did contain visible evidence of dye, attach a detailed explanation and check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7a[0].f6_49[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Rate. $.243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7a[0].f6_50[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7a[0].AmountOfClaim[0].f6_51[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7a[0].AmountOfClaim[0].f6_52[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7a[0].f6_53[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: C R N. 360.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7b[0].f6_54[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Use in certain intercity and local buses. Column: Rate. .17.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7b[0].f6_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7b[0].AmountOfClaim[0].f6_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7b[0].AmountOfClaim[0].f6_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7b[0].f6_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in certain intercity and local buses. Column: C R N. 350.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Sales by Registered Ultimate Vendors of Undyed Kerosene (Other Than Kerosene for Use in Aviation). Period of claim.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Registration number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8. Claimant certifies that it sold the kerosene at a tax-excluded price, repaid the amount of tax to the buyer, or has obtained the written consent of the buyer to make the claim. Claimant certifies that the kerosene didn't contain visible evidence of dye. Exception. If any of the kerosene included in this claim did contain visible evidence of dye, attach a detailed explanation and check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8a[0].f6_61[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Rate. $.243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8a[0].f6_62[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8a[0].AmountOfClaim[0].f6_63[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8a[0].AmountOfClaim[0].f6_64[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8a[0].f6_65[0]",
+      "fieldType": "state",
+      "labelHint": "Row: a. Use by a state or local government. Column: C R N. 346.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8b[0].f6_66[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Sales from a blocked pump. Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8b[0].f6_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Sales from a blocked pump. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8b[0].AmountOfClaim[0].f6_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Sales from a blocked pump. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8b[0].AmountOfClaim[0].f6_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Sales from a blocked pump. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8b[0].f6_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Sales from a blocked pump. Column: C R N. 346.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8c[0].f6_71[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Use in certain intercity and local buses. Column: Rate. .17.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8c[0].f6_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8c[0].AmountOfClaim[0].f6_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8c[0].AmountOfClaim[0].f6_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8c[0].f6_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Use in certain intercity and local buses. Column: C R N. 347.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Sales by Registered Ultimate Vendors of Kerosene for Use in Aviation. Registration number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line9a[0].f6_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "See Caution above line 1. Claimant sold the kerosene for use in aviation at a tax-excluded price and",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line9a[0].f6_78[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Use in commercial aviation (other than foreign trade) taxed at $.219. Column: Rate. $.175.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line9a[0].f6_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use in commercial aviation (other than foreign trade) taxed at $.219. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line9a[0].AmountOfClaim[0].f6_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use in commercial aviation (other than foreign trade) taxed at $.219. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line9a[0].AmountOfClaim[0].f6_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use in commercial aviation (other than foreign trade) taxed at $.219. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line9a[0].f6_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use in commercial aviation (other than foreign trade) taxed at $.219. Column: C R N. 355.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8b[0].f6_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in commercial aviation (other than foreign trade) taxed at $.244. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8b[0].f6_84[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: b. Use in commercial aviation (other than foreign trade) taxed at $.244. Column: Rate. .200.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8b[0].f6_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in commercial aviation (other than foreign trade) taxed at $.244. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8b[0].AmountOfClaim[0].f6_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in commercial aviation (other than foreign trade) taxed at $.244. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8b[0].AmountOfClaim[0].f6_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in commercial aviation (other than foreign trade) taxed at $.244. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8b[0].f6_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Use in commercial aviation (other than foreign trade) taxed at $.244. Column: C R N. 417.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8c[0].f6_89[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Nonexempt use in noncommercial aviation*. * See instructions to ensure correct credit rate. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8c[0].f6_90[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Nonexempt use in noncommercial aviation*. * See instructions to ensure correct credit rate. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8c[0].f6_91[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Nonexempt use in noncommercial aviation*. * See instructions to ensure correct credit rate. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8c[0].AmountOfClaim[0].f6_92[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Nonexempt use in noncommercial aviation*. * See instructions to ensure correct credit rate. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8c[0].AmountOfClaim[0].f6_93[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Nonexempt use in noncommercial aviation*. * See instructions to ensure correct credit rate. ",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8c[0].f6_94[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: c. Nonexempt use in noncommercial aviation*. * See instructions to ensure correct credit rate. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8d[0].f6_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Other nontaxable uses taxed at $.244. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8d[0].f6_96[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: d. Other nontaxable uses taxed at $.244. Column: Rate. .243.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8d[0].f6_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Other nontaxable uses taxed at $.244. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8d[0].AmountOfClaim[0].f6_98[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Other nontaxable uses taxed at $.244. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8d[0].AmountOfClaim[0].f6_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Other nontaxable uses taxed at $.244. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8d[0].f6_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Other nontaxable uses taxed at $.244. Column: C R N. 346.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8e[0].f6_101[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Other nontaxable uses taxed at $.219*. * See instructions to ensure correct credit rate. Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8e[0].f6_102[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Other nontaxable uses taxed at $.219*. * See instructions to ensure correct credit rate. Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8e[0].f6_103[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Other nontaxable uses taxed at $.219*. * See instructions to ensure correct credit rate. Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8e[0].AmountOfClaim[0].f6_104[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Other nontaxable uses taxed at $.219*. * See instructions to ensure correct credit rate. Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8e[0].AmountOfClaim[0].f6_105[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Other nontaxable uses taxed at $.219*. * See instructions to ensure correct credit rate. Col",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8e[0].f6_106[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: e. Other nontaxable uses taxed at $.219*. * See instructions to ensure correct credit rate. Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8f[0].f6_107[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. L U S T tax on aviation fuels used in foreign trade. Column: Type of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8f[0].f6_108[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: f. L U S T tax on aviation fuels used in foreign trade. Column: Rate. .001.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8f[0].f6_109[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. L U S T tax on aviation fuels used in foreign trade. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8f[0].AmountOfClaim[0].f6_110[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. L U S T tax on aviation fuels used in foreign trade. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8f[0].AmountOfClaim[0].f6_111[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. L U S T tax on aviation fuels used in foreign trade. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line8f[0].f6_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: f. L U S T tax on aviation fuels used in foreign trade. Column: C R N. 433.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_113[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Sales by Registered Ultimate Vendors of Gasoline. Registration number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10a[0].f6_114[0]",
+      "fieldType": "percentage",
+      "labelHint": "Claimant sold the gasoline at a tax-excluded price and hasn’t collected the amount of tax from the b",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10a[0].f6_115[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use by a nonprofit educational organization. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10a[0].AmountOfClaim[0].f6_116[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use by a nonprofit educational organization. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10a[0].AmountOfClaim[0].f6_117[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use by a nonprofit educational organization. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10a[0].f6_118[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use by a nonprofit educational organization. Column: C R N. 362.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10b[0].f6_119[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government. Column: Rate. .183.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10b[0].f6_120[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government. Column: Gallons.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10b[0].AmountOfClaim[0].f6_121[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10b[0].AmountOfClaim[0].f6_122[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10b[0].f6_123[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government. Column: C R N. 362.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_124[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Sales by Registered Ultimate Vendors of Aviation Gasoline. Registration number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11a[0].f6_125[0]",
+      "fieldType": "percentage",
+      "labelHint": "Claimant sold the aviation gasoline at a tax-excluded price and hasn’t collected the amount of tax f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11a[0].f6_126[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Use by a nonprofit educational organization*. * See instructions to ensure correct credit ra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11a[0].AmountOfClaim[0].f6_127[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Use by a nonprofit educational organization*. * See instructions to ensure correct credit ra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11a[0].AmountOfClaim[0].f6_128[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: a. Use by a nonprofit educational organization*. * See instructions to ensure correct credit ra",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11a[0].f6_129[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Use by a nonprofit educational organization. Column: C R N. 324.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11b[0].f6_130[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government*. * See instructions to ensure correct credit rate. Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11b[0].f6_131[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government*. * See instructions to ensure correct credit rate. Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11b[0].AmountOfClaim[0].f6_132[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government*. * See instructions to ensure correct credit rate. Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11b[0].AmountOfClaim[0].f6_133[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government*. * See instructions to ensure correct credit rate. Colum",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11b[0].f6_134[0]",
+      "fieldType": "state",
+      "labelHint": "Row: b. Use by a state or local government*. * See instructions to ensure correct credit rate. Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12a[0].f7_3[0]",
+      "fieldType": "percentage",
+      "labelHint": "Sustainable aviation fuel (S A F) mixtures. Claimant produced a qualified mixture by mixing S A F wi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12a[0].AmountOfClaim[0].f7_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12a. Reserved for future use. Column: Amount of claim. Dollars. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12a[0].AmountOfClaim[0].f7_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12a. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12a[0].f7_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12a. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].f7_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Reserved for future use. Column: Number of gallons sold or used.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].AmountOfClaim[0].f7_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].AmountOfClaim[0].f7_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].f7_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].f7_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12c. Reserved for future use. Column: Number of gallons sold or used.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].AmountOfClaim[0].f7_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12c. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].AmountOfClaim[0].f7_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12c. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].f7_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12c. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].f7_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].AmountOfClaim[0].f7_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12d. Sustainable aviation fuel mixtures (see instructions). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].AmountOfClaim[0].f7_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12d. Sustainable aviation fuel mixtures (see instructions). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].f7_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].f7_19[0]",
+      "fieldType": "percentage",
+      "labelHint": "13. Reserved for future use. Row: 13a. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].f7_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13a. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].AmountOfClaim[0].f7_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13a. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].AmountOfClaim[0].f7_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13a. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].f7_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13a. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].f7_24[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13b. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].f7_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13b. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].AmountOfClaim[0].f7_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13b. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].AmountOfClaim[0].f7_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13b. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].f7_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13b. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].f7_29[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13c. Reserved for future use. Column: Rate. 50.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].f7_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13c. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].AmountOfClaim[0].f7_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13c. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].AmountOfClaim[0].f7_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13c. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].f7_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13c. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].f7_34[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13d. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].f7_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13d. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].AmountOfClaim[0].f7_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13d. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].AmountOfClaim[0].f7_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13d. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].f7_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13d. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].f7_39[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13e. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].f7_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13e. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].AmountOfClaim[0].f7_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13e. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].AmountOfClaim[0].f7_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13e. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].f7_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13e. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].f7_44[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13f. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].f7_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13f. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].AmountOfClaim[0].f7_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13f. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].AmountOfClaim[0].f7_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13f. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].f7_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13f. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].f7_49[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13g. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].f7_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13g. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].AmountOfClaim[0].f7_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13g. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].AmountOfClaim[0].f7_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13g. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].f7_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13g. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].f7_54[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13h. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].f7_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13h. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].AmountOfClaim[0].f7_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13h. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].AmountOfClaim[0].f7_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13h. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].f7_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13h. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].f7_59[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13i. Reserved for future use. Column: Rate.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].f7_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13i. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].AmountOfClaim[0].f7_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13i. Reserved for future use. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].AmountOfClaim[0].f7_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13i. Reserved for future use. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].f7_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13i. Reserved for future use. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14a[0].AmountOfClaim[0].f7_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Other claims. See the instructions. For lines 14b and 14c, see the Caution above line 1 on page ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14a[0].AmountOfClaim[0].f7_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Section 4051(d) tire credit (tax on vehicle reported on I R S No. 33). Column: Amount of cla",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14a[0].f7_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Section 4051(d) tire credit (tax on vehicle reported on I R S No. 33). Column: C R N. 366.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14b[0].AmountOfClaim[0].f7_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported dyed diesel fuel and exported gasoline blendstocks taxed at $.001. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14b[0].AmountOfClaim[0].f7_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported dyed diesel fuel and exported gasoline blendstocks taxed at $.001. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14b[0].f7_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Exported dyed diesel fuel and exported gasoline blendstocks taxed at $.001. Column: C R N. 415.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14c[0].AmountOfClaim[0].f7_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Exported dyed kerosene. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14c[0].AmountOfClaim[0].f7_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Exported dyed kerosene. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14c[0].f7_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Exported dyed kerosene. Column: C R N. 416.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14d[0].AmountOfClaim[0].f7_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Diesel-water fuel emulsion. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14d[0].AmountOfClaim[0].f7_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Diesel-water fuel emulsion. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14d[0].f7_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: d. Diesel-water fuel emulsion. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Ln14e[0].AmountOfClaim[0].f7_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Registered credit card issuers. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Ln14e[0].AmountOfClaim[0].f7_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Registered credit card issuers. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Ln14e[0].f7_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: e. Registered credit card issuers. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14f[0].f7_79[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: f. Taxable tires other than bias ply or super single tires. Column: Number of tires.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14f[0].AmountOfClaim[0].f7_80[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: f. Taxable tires other than bias ply or super single tires. Column: Amount of claim. Dollars. $",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14f[0].AmountOfClaim[0].f7_81[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: f. Taxable tires other than bias ply or super single tires. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14f[0].f7_82[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: f. Taxable tires other than bias ply or super single tires. Column: C R N. 396.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14g[0].f7_83[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: g. Taxable tires, bias ply or super single tires (other than super single tires designed for st",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14g[0].AmtG[0].f7_84[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: g. Taxable tires, bias ply or super single tires (other than super single tires designed for st",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14g[0].AmtG[0].f7_85[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: g. Taxable tires, bias ply or super single tires (other than super single tires designed for st",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14g[0].f7_86[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: g. Taxable tires, bias ply or super single tires (other than super single tires designed for st",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14h[0].f7_87[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: h. Taxable tires, super single tires designed for steering. Column: Number of tires.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14h[0].AmtH[0].f7_88[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: h. Taxable tires, super single tires designed for steering. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14h[0].AmtH[0].f7_89[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: h. Taxable tires, super single tires designed for steering. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14h[0].f7_90[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Row: h. Taxable tires, super single tires designed for steering. Column: C R N. 305.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14i[0].f7_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: i. Chemicals (other than O D Cs). Column: Number of tires.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14i[0].AmtI[0].f7_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: i. Chemicals (other than O D Cs). Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14i[0].AmtI[0].f7_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: i. Chemicals (other than O D Cs). Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14i[0].f7_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: i. Chemicals (other than O D Cs). Column: C R N. 454.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14j[0].f7_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: j. Imported chemical substances. Column: Number of tires.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14j[0].AmtJ[0].f7_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: j. Imported chemical substances. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14j[0].AmtJ[0].f7_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: j. Imported chemical substances. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line14f-h[0].Line14j[0].f7_98[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: j. Imported chemical substances. Column: C R N. 317.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14k[0].f7_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: k. Other claim. Specify.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14k[0].AmountOfClaim[0].f7_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: k. Other claim. Column: Amount of claim. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14k[0].AmountOfClaim[0].f7_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: k. Other claim. Column: Amount of claim. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Line14k[0].f7_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: k. Other claim. Column: C R N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Total claims. Add amounts on lines 1 through 14. Enter the result here and on Form 720, Part I I",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_104[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_1[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Page 8. Form 720-V. Payment Voucher. 1. Enter your employer identification number (E I N). See instr",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the amount of your payment. Make your check or money order payable to \"United States Treasu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].Quarter_ReadOrder[0].c8_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. 4th Quarter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].Quarter_ReadOrder[0].c8_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. 4th Quarter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].c8_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. 4th Quarter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].c8_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. 4th Quarter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_4[0]",
+      "fieldType": "business_name",
+      "labelHint": "4. Enter your business name (individual name if sole proprietor).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter your address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_6[0]",
+      "fieldType": "city",
+      "labelHint": "4. Enter your city or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    }
+  ]
+}

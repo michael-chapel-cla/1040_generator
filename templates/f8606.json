@@ -1,0 +1,287 @@
+{
+  "formId": "f8606",
+  "displayName": "Form 8606",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8606.pdf",
+  "generatedAt": "2026-04-06T21:46:19.590Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name. If married, file a separate form for each spouse required to file 2025 Form 8606. See ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "street_address",
+      "labelHint": "Fill in Your Address Only if You Are Filing This Form by Itself and Not With Your Tax Return. Home a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
+      "fieldType": "street_address",
+      "labelHint": "Apt. no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "city",
+      "labelHint": "City, town or post office, state, and Z I P code. If you have a foreign address, also complete the s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "Foreign country name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "state",
+      "labelHint": "Foreign province/state/county.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "zip_code",
+      "labelHint": "Foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Note: Except where stated otherwise, \"traditional I R A\" includes traditional S E P I R As and tradi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter your total basis in traditional I R As. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Add lines 1 and 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter those contributions included on line 1 that were made from January 1, 2026, through April 1",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Subtract line 4 from line 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Enter the value of all your traditional I R As as of December 31, 2025, plus any outstanding roll",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Enter your distributions from traditional I R As in 2025. Do not include rollovers (but do includ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Enter the net amount you converted from traditional I R As to Roth I R As in 2025. Also, enter th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Add lines 6, 7, and 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Divide line 5 by line 9. Enter the result as a decimal rounded to at least 3 places. If the resu",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Numbers after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Multiply line 8 by line 10. This is the nontaxable portion of the amount you converted to Roth I",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Multiply line 7 by line 10. This is the nontaxable portion of your distributions that you did no",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Add lines 11 and 12. This is the nontaxable portion of all your distributions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Subtract line 13 from line 3. This is your total basis in traditional I R A s for 2025 and earli",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I. Nondeductible Contributions to Traditional I R As and Distributions From Traditional",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15b. Enter the amount on line 15a attributable to qualified disaster distributions, if any, from 202",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Taxable amount. Subtract line 15b from line 15a. Reduce that amount by certain 2025 retirement ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. 2025 Conversions From Traditional I R As to Roth I R As. Complete this part if you convert",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. If you completed Part I, enter the amount from line 11. Otherwise, enter your basis in the amoun",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Taxable amount. Subtract line 17 from line 16. If more than zero, also include this amount on 20",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Distributions From Roth I R As. Complete this part only if you took a distribution from ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Qualified first-time homebuyer expenses (see instructions). Do not enter more than $10,000 reduc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Subtract line 20 from line 19. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Enter your basis in Roth I R A contributions. See instructions. If line 21 is zero, stop here.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Subtract line 22 from line 21. If zero or less, enter 0, and skip lines 24 and 25. If more than ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Enter your basis in conversions from traditional I R As and rollovers from qualified retirement plans to a Roth I R A. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25a. Subtract line 24 from line 23. If zero or less, enter 0 and skip lines 25b and 25c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25b. Enter the amount on line 25a attributable to qualified disaster distributions, if any, from 202",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25c. Taxable amount. Subtract line 25b from line 25a. Reduce that amount by certain 2025 retirement ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Print/Type preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm's address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    }
+  ]
+}

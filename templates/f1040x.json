@@ -1,0 +1,1189 @@
+{
+  "formId": "f1040x",
+  "displayName": "Form 1040-X",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040x.pdf",
+  "generatedAt": "2026-04-06T21:46:17.341Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. This return is for calendar year (enter year).",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "tax_year",
+      "labelHint": "or fiscal year (enter month and year ended).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "first_name",
+      "labelHint": "Your first name and middle initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
+      "fieldType": "last_name",
+      "labelHint": "Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
+      "fieldType": "first_name",
+      "labelHint": "If joint return, spouse’s first name and middle initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "last_name",
+      "labelHint": "Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "ssn",
+      "labelHint": "Spouse's social security number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_09[0]",
+      "fieldType": "street_address",
+      "labelHint": "Home address (number and street). If you have a P.O. box, see instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_10[0]",
+      "fieldType": "street_address",
+      "labelHint": "Apt. no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_11[0]",
+      "fieldType": "city",
+      "labelHint": "City, town, or post office. If you have a foreign address, also complete spaces below.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_12[0]",
+      "fieldType": "state",
+      "labelHint": "State.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_13[0]",
+      "fieldType": "zip_code",
+      "labelHint": "Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Foreign country name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_15[0]",
+      "fieldType": "state",
+      "labelHint": "Foreign province/state/county.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_16[0]",
+      "fieldType": "zip_code",
+      "labelHint": "Foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[3]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[4]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "full_name",
+      "labelHint": "If you checked the M F S box, enter the name of your spouse unless you are amending a Form 1040-N R.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line1[0].Adjusted[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Adjusted gross income. Column: A. Original amount reported or as previously adjusted (see in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Adjusted gross income. Column: B. Net change—amount of increase or (decrease)—explain in Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Adjusted gross income. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line2[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Itemized deductions or standard deduction. Column: A. Original amount reported or as previou",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line2[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Itemized deductions or standard deduction. Column: B. Net change—amount of increase or (decr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line2[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Itemized deductions or standard deduction. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line3[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Subtract line 2 from line 1. Row: A. Original amount reported or as previously adjusted (see",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line3[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Subtract line 2 from line 1. Column: B. Net change—amount of increase or (decrease)—explain ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line3[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Subtract line 2 from line 1. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line4a[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4a. Qualified business income deduction. Column: A. Original amount reported or as previously a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line4a[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4a. Qualified business income deduction. Column: B. Net change—amount of increase or (decrease)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line4a[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4a. Qualified business income deduction. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line4b[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line4b[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line4b[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line5[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Taxable income. Subtract the total of lines 4a and 4b from line 3. If the result for column ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line5[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Taxable income. Subtract the total of lines 4a and 4b from line 3. If the result for column ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_IncomeDeductions[0].Line5[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Taxable income. Subtract the total of lines 4a and 4b from line 3. If the result for column ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line6[0].Tax[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Tax Liability. Row: 6. Tax. Enter method(s) used to figure tax. See instructions:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line6[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Tax. Column: A. Original amount reported or as previously adjusted (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line6[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Tax. Column: B. Net change—amount of increase or (decrease)—explain in Part I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line6[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Tax. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line7[0].Credits[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line7[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Nonrefundable credits. Column: A. Original amount reported or as previously adjusted (see in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line7[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Nonrefundable credits. Column: B. Net change—amount of increase or (decrease)—explain in Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line7[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Nonrefundable credits. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line8[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Subtract line 7 from line 6. If the result is zero or less, enter 0. Column: A. Original amo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line8[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Subtract line 7 from line 6. If the result is zero or less, enter 0. Column: B. Net change—a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line8[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Subtract line 7 from line 6. If the result is zero or less, enter 0. Column: C. Correct amou",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line9[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line9[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line9[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line10[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Other taxes. Column: A. Original amount reported or as previously adjusted (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line10[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Other taxes. Column: B. Net change—amount of increase or (decrease)—explain in Part I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line10[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Other taxes. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line11[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Total tax. Add lines 8 and 10. Column: A. Original amount reported or as previously adjuste",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line11[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Total tax. Add lines 8 and 10. Column: B. Net change—amount of increase or (decrease)—expla",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_TaxLiability[0].Line11[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Total tax. Add lines 8 and 10. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line12[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Payments. Row: 12. Federal income tax withheld and excess social security and tier 1 R R T A tax wit",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line12[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Federal income tax withheld and excess social security and tier 1 R R T A tax withheld. (If",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line12[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Federal income tax withheld and excess social security and tier 1 R R T A tax withheld. (If",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line13[0].f1_58[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Estimated tax payments, including amount applied from prior year’s return. Column: A. Origi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line13[0].f1_59[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Estimated tax payments, including amount applied from prior year’s return. Column: B. Net c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line13[0].f1_60[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Estimated tax payments, including amount applied from prior year’s return. Column: C. Corre",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line14[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Earned income credit (E I C). Column: A. Original amount reported or as previously adjusted",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line14[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Earned income credit (E I C). Column: B. Net change—amount of increase or (decrease)—explai",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line14[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Earned income credit (E I C). Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].c1_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].c1_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].Refundable[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Refundable credits from: Form(s). other (specify).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Refundable credits. Column: A. Original amount reported or as previously adjusted (see inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Refundable credits. Column: B. Net change—amount of increase or (decrease)—explain in Part ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Payments[0].Line15[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Refundable credits. Column: C. Correct amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Total amount paid with request for extension of time to file, tax paid with original return, and",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Total payments. Add lines 12 through 15, column C, and line 16.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Refund or Amount You Owe. 18. Overpayment, if any, as shown on original return or as previously adju",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Subtract line 18 from line 17. (If less than zero, see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Amount you owe. If line 11, column C, is more than line 19, enter the difference. For details on",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. If line 11, column C, is less than line 19, enter the difference. This is the amount overpaid on",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Amount of line 21 you want refunded to you.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_75[0]",
+      "fieldType": "tax_year",
+      "labelHint": "23. Amount of line 21 you want applied to your (enter year):",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_76[0]",
+      "fieldType": "tax_year",
+      "labelHint": "23. Amount of line 21 you want applied to your (year) estimated tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line24[0].f2_01[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Part I. Dependents. Complete this part to change any information relating to your dependents",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line24[0].f2_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. Reserved for future use. Column: B. Net change—amount of increase or (decrease).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line24[0].f2_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. Reserved for future use. Column: C. Correct number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line25[0].f2_04[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 25. Your dependent children who lived with you more than half of the year. Column: A. Original ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line25[0].f2_05[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 25. Your dependent children who lived with you more than half of the year. Column: B. Net chang",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line25[0].f2_06[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 25. Your dependent children who lived with you more than half of the year. Column: C. Correct n",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line26[0].f2_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. Reserved for future use. Column: A. Original number of dependents reported or as previously adjusted.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line26[0].f2_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. Reserved for future use. Column: B. Net change—amount of increase or (decrease).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line26[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. Reserved for future use. Column: C. Correct number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line27[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. Other dependents. Column: A. Original number of dependents reported or as previously adjusted.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line27[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. Other dependents. Column: B. Net change—amount of increase or (decrease).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line27[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. Other dependents. Column: C. Correct number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line28[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. Reserved for future use. Column: A. Original number of dependents reported or as previously adjusted.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line28[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. Reserved for future use. Column: B. Net change—amount of increase or (decrease).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line28[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. Reserved for future use. Column: C. Correct number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line29[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 29. Reserved for future use. Column: A. Original number of dependents reported or as previously adjusted.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line29[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 29. Reserved for future use. Column: B. Net change—amount of increase or (decrease).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines24-29[0].Line29[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 29. Reserved for future use. Column: C. Correct number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Dependents_ReadOrder[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row1[0].f2_19[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: (1) First name. Column: Dependent 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row1[0].f2_20[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: (1) First name. Column: Dependent 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row1[0].f2_21[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: (1) First name. Column: Dependent 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row1[0].f2_22[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: (1) First name. Column: Dependent 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row2[0].f2_23[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: (2) Last name. Column: Dependent 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row2[0].f2_24[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: (2) Last name. Column: Dependent 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row2[0].f2_25[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: (2) Last name. Column: Dependent 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row2[0].f2_26[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: (2) Last name. Column: Dependent 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row3[0].f2_27[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: (3) S S N. Column: Dependent 1.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row3[0].f2_28[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: (3) S S N. Column: Dependent 2.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row3[0].f2_29[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: (3) S S N. Column: Dependent 3.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row3[0].f2_30[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: (3) S S N. Column: Dependent 4.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row4[0].f2_31[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: (4) Relationship. Column: Dependent 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row4[0].f2_32[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: (4) Relationship. Column: Dependent 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row4[0].f2_33[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: (4) Relationship. Column: Dependent 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row4[0].f2_34[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: (4) Relationship. Column: Dependent 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent1[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 1. (a) Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent1[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 1. (b) And in the U.S.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent2[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 2. (a) Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent2[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 2. (b) And in the U.S.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent3[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 3. (a) Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent3[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 3. (b) And in the U.S.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent4[0].c2_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 4. (a) Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row5[0].Dependent4[0].c2_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (5) Check if lived with you more than half of return year entered at top of page 1. Column: Dependent 4. (b) And in the U.S.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent1[0].c2_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 1. Full-time student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent1[0].c2_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 1. Permanently and totally disabled.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent2[0].c2_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 2. Full-time student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent2[0].c2_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 2. Permanently and totally disabled.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent3[0].c2_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 3. Full-time student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent3[0].c2_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 3. Permanently and totally disabled.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent4[0].c2_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 4. Full-time student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row6[0].Dependent4[0].c2_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (6) Check if. Column: Dependent 4. Permanently and totally disabled.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent1[0].c2_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 1. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent1[0].c2_18[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 1. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent2[0].c2_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 2. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent2[0].c2_19[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 2. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent3[0].c2_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 3. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent3[0].c2_20[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 3. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent4[0].c2_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 4. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Dependents[0].Row7[0].Dependent4[0].c2_21[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: (7) Credits. Column: Dependent 4. Credit for other dependents.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_22[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Explanation of Changes. In the space provided below, tell us why you are filing Form 1040-X. You must complete Part I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
+      "fieldType": "occupation",
+      "labelHint": "Sign Here. Your occupation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "If the I R S sent you an Identity Protection P I N, enter it here (see inst.).",
+      "required": false,
+      "maxLength": 6
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
+      "fieldType": "occupation",
+      "labelHint": "Spouse's occupation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "If the I R S sent your spouse an Identity Protection P I N, enter it here (see inst.).",
+      "required": false,
+      "maxLength": 6
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_41[0]",
+      "fieldType": "email",
+      "labelHint": "Email address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_42[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Preparer’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_23[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_44[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_45[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_46[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm's address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    }
+  ]
+}

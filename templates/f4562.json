@@ -1,0 +1,1888 @@
+{
+  "formId": "f4562",
+  "displayName": "Form 4562",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4562.pdf",
+  "generatedAt": "2026-04-06T21:46:18.881Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name(s) shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Business or activity to which this form relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Election To Expense Certain Property Under Section 179. Note: If you have any listed property, complete Part V before you complete Part I. 1. Maximum amount (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Total cost of section 179 property placed in service (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Threshold cost of section 179 property before reduction in limitation (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Reduction in limitation. Subtract line 3 from line 2. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "5. Dollar limitation for tax year. Subtract line 4 from line 1. If zero or less, enter 0. If married",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Ln6[0].BodyRow1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Row: 1. Column: (a) Description of property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Ln6[0].BodyRow1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Cost (business use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Ln6[0].BodyRow1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Elected cost.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Ln6[0].BodyRow2[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Description of property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Ln6[0].BodyRow2[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Cost (business use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Ln6[0].BodyRow2[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Elected cost.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Listed property. Enter the amount from line 29.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Total elected cost of section 179 property. Add amounts in column (c), lines 6 and 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Tentative deduction. Enter the smaller of line 5 or line 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Carryover of disallowed deduction from line 13 of your 2024 Form 4562.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Business income limitation. Enter the smaller of business income (not less than zero) or line 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Section 179 expense deduction. Add lines 9 and 10, but don't enter more than line 11.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Carryover of disallowed deduction to 2026. Add lines 9 and 10, less line 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Note: Don't use Part I I or Part I I I below for listed property. Instead, use Part V. Part I I. Spe",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Property subject to section 168(f)(1) election.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Other depreciation (including A C R S).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. M A C R S Depreciation. (Don't include listed property. See instructions.). Section A. 1",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_26[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Section B—Assets Placed in Service During 2025 Tax Year Using the General Depreciation System. Row: ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_27[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. 3-year property. Column: (c) Basis for depreciation (business/investment use only—see inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_28[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. 3-year property. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_29[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. 3-year property. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. 3-year property. Column: (f) Method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_31[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. 3-year property. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19b[0].f1_32[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. 5-year property. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19b[0].f1_33[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. 5-year property. Column: (c) Basis for depreciation (business/investment use only—see inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19b[0].f1_34[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. 5-year property. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19b[0].f1_35[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. 5-year property. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19b[0].f1_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. 5-year property. Column: (f) Method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19b[0].f1_37[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. 5-year property. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19c[0].f1_38[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19c. 7-year property. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19c[0].f1_39[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19c. 7-year property. Column: (c) Basis for depreciation (business/investment use only—see inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19c[0].f1_40[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19c. 7-year property. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19c[0].f1_41[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19c. 7-year property. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19c[0].f1_42[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19c. 7-year property. Column: (f) Method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19c[0].f1_43[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19c. 7-year property. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19d[0].f1_44[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19d. 10-year property. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19d[0].f1_45[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19d. 10-year property. Column: (c) Basis for depreciation (business/investment use only—see ins",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19d[0].f1_46[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19d. 10-year property. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19d[0].f1_47[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19d. 10-year property. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19d[0].f1_48[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19d. 10-year property. Column: (f) Method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19d[0].f1_49[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19d. 10-year property. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19e[0].f1_50[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19e. 15-year property. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19e[0].f1_51[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19e. 15-year property. Column: (c) Basis for depreciation (business/investment use only—see ins",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19e[0].f1_52[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19e. 15-year property. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19e[0].f1_53[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19e. 15-year property. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19e[0].f1_54[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19e. 15-year property. Column: (f) Method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19e[0].f1_55[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19e. 15-year property. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19f[0].f1_56[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19f. 20-year property. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19f[0].f1_57[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19f. 20-year property. Column: (c) Basis for depreciation (business/investment use only—see ins",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19f[0].f1_58[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19f. 20-year property. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19f[0].f1_59[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19f. 20-year property. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19f[0].f1_60[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19f. 20-year property. Column: (f) Method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19f[0].f1_61[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19f. 20-year property. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19g[0].f1_62[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19g. 25-year property. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19g[0].f1_63[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19g. 25-year property. Column: (c) Basis for depreciation (business/investment use only—see ins",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19g[0].f1_64[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19g. 25-year property. Column: (d) Recovery period. 25 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19g[0].f1_65[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19g. 25-year property. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19g[0].f1_66[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19g. 25-year property. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19g[0].f1_67[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19g. 25-year property. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_1[0].f1_74[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19i. Residential rental property. Line 1 of 2. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_1[0].f1_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 1 of 2. Column: (c) Basis for depreciation (business/inv",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_1[0].f1_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 1 of 2. Column: (d) Recovery period. 27.5 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_1[0].f1_77[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 19i. Residential rental property. Line 1 of 2. Column: (e) Convention. M M.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_1[0].f1_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 1 of 2. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_1[0].f1_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 1 of 2. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_2[0].f1_80[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19h. Residential rental property. Line 2 of 2. Colimn: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_2[0].f1_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 2 of 2. Column: (c) Basis for depreciation (business/inv",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_2[0].f1_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 2 of 2. Column: (d) Recovery period. 27.5 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_2[0].f1_83[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 19i. Residential rental property. Line 2 of 2. Column: (e) Convention. M M.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_2[0].f1_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 2 of 2. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_2[0].f1_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19i. Residential rental property. Line 2 of 2. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_1[0].f1_86[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 1 of 2. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_1[0].f1_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 1 of 2. Column: (c) Basis for depreciation (business/in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_1[0].f1_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 1 of 2. Column: (d) Recovery period. 39 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_1[0].f1_89[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 1 of 2. Column: (e) Convention. M M.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_1[0].f1_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 1 of 2. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_1[0].f1_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 1 of 2. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_2[0].f1_92[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 2 of 2. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_2[0].f1_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 2 of 2. Column: (c) Basis for depreciation (business/in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_2[0].f1_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 2 of 2. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_2[0].f1_95[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 2 of 2. Column: (e) Convention. M M.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_2[0].f1_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 2 of 2. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19j_2[0].f1_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19j. Nonresidential real property. Line 2 of 2. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_98[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System. R",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20a. Class life. Column: (c) Basis for depreciation (business/investment use only—see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20a. Class life. Column: (d) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20a. Class life. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20a. Class life. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20a. Class life. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20b[0].f1_104[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20b. 12-year. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20b[0].f1_105[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20b. 12-year. Column: (c) Basis for depreciation (business/investment use only—see instructions",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20b[0].f1_106[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20b. 12-year. Column: (d) Recovery period. 12 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20b[0].f1_107[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20b. 12-year. Column: (e) Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20b[0].f1_108[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20b. 12-year. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20b[0].f1_109[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20b. 12-year. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20c[0].f1_110[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20c. 30-year. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20c[0].f1_111[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20c. 30-year. Column: (c) Basis for depreciation (business/investment use only—see instructions",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20c[0].f1_112[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20c. 30-year. Column: (d) Recovery period. 30 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20c[0].f1_113[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 20c. 30-year. Column: (e) Convention. M M.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20c[0].f1_114[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20c. 30-year. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20c[0].f1_115[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20c. 30-year. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20d[0].f1_116[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20d. 40-year. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20d[0].f1_117[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20d. 40-year. Column: (c) Basis for depreciation (business/investment use only—see instructions",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20d[0].f1_118[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20d. 40-year. Column: (d) Recovery period. 40 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20d[0].f1_119[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 20d. 40-year. Column: (e) Convention. M M.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20d[0].f1_120[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20d. 40-year. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20d[0].f1_121[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20d. 40-year. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20e[0].f1_122[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20e. 50-year. Column: (b) Month and year placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20e[0].f1_123[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20e. 50-year. Column: (c) Basis for depreciation (business/investment use only—see instructions",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20e[0].f1_124[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20e. 50-year. Column: (d) Recovery period. 50 yrs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20e[0].f1_125[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 20e. 50-year. Column: (e) Convention. M M.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20e[0].f1_126[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20e. 50-year. Column: (f) Method. S/L.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20e[0].f1_127[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20e. 50-year. Column: (g) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I V. Summary (See instructions.). 21. Listed property. Enter amount from line 28.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Total. Add amounts from line 12, lines 14 through 17, lines 19 and 20 in column (g), and line 21",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "23a. For assets shown in Part I I I that are placed in service during the current tax year, and have",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": "23b. For assets shown in Part I I I that are placed in service during the current tax year, and have",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "25. Special depreciation allowance for qualified listed property placed in service during the tax ye",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Property used more than 50% in a qualified business use: Row: 1. Column: (a) Type of property (list vehicles first).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_7[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_8[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1. Column: (c) Business/investment use percentage. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (e) Basis for depreciation (business/investment use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (f) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (g) Method/Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (h) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow1[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (i) Elected section 179 cost.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Type of property (list vehicles first).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_16[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_17[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 2. Column: (c) Business/investment use percentage. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (e) Basis for depreciation (business/investment use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (f) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (g) Method/Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (h) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow2[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (i) Elected section 179 cost.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Type of property (list vehicles first).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_25[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_26[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 3. Column: (c) Business/investment use percentage. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (e) Basis for depreciation (business/investment use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (f) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (g) Method/Convention.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (h) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln26[0].BodyRow3[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (i) Elected section 179 cost.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Property used 50% or less in a qualified business use: Row: 1. Column: (a) Type of property (list vehicles first).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_34[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_35[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1. Column: (c) Business/investment use percentage. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (e) Basis for depreciation (business/investment use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (f) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (g) Method/Convention. S/L –.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow1[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (h) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Type of property (list vehicles first).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_42[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_43[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 2. Column: (c) Business/investment use percentage. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (e) Basis for depreciation (business/investment use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (f) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (g) Method/Convention. S/L –.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow2[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (h) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Type of property (list vehicles first).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_50[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date placed in service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_51[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 3. Column: (c) Business/investment use percentage. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Cost or other basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (e) Basis for depreciation (business/investment use only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (f) Recovery period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (g) Method/Convention. S/L –.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln27[0].BodyRow3[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (h) Depreciation deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Add amounts in column (h), lines 25 through 27. Enter here and on line 21.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Add amounts in column (i), line 26. Enter here and on line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_59[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Section B—Information on Use of Vehicles. Complete this section for vehicles used by a sole propriet",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_60[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 30. Total business/investment miles driven during the year (don't include commuting miles). Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_61[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 30. Total business/investment miles driven during the year (don't include commuting miles). Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_62[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 30. Total business/investment miles driven during the year (don't include commuting miles). Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_63[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 30. Total business/investment miles driven during the year (don't include commuting miles). Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_64[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 30. Total business/investment miles driven during the year (don't include commuting miles). Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line31[0].f2_65[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 31. Total commuting miles driven during the year. Column: (a) Vehicle 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line31[0].f2_66[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 31. Total commuting miles driven during the year. Column: (b) Vehicle 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line31[0].f2_67[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 31. Total commuting miles driven during the year. Column: (c) Vehicle 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line31[0].f2_68[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 31. Total commuting miles driven during the year. Column: (d) Vehicle 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line31[0].f2_69[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 31. Total commuting miles driven during the year. Column: (e) Vehicle 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line31[0].f2_70[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 31. Total commuting miles driven during the year. Column: (f) Vehicle 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line32[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. Total other personal (noncommuting) miles driven. Column: (a) Vehicle 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line32[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. Total other personal (noncommuting) miles driven. Column: (b) Vehicle 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line32[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. Total other personal (noncommuting) miles driven. Column: (c) Vehicle 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line32[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. Total other personal (noncommuting) miles driven. Column: (d) Vehicle 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line32[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. Total other personal (noncommuting) miles driven. Column: (e) Vehicle 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line32[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. Total other personal (noncommuting) miles driven. Column: (f) Vehicle 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line33[0].f2_77[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 33. Total miles driven during the year. Add lines 30 through 32. Column: (a) Vehicle 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line33[0].f2_78[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 33. Total miles driven during the year. Add lines 30 through 32. Column: (b) Vehicle 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line33[0].f2_79[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 33. Total miles driven during the year. Add lines 30 through 32. Column: (c) Vehicle 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line33[0].f2_80[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 33. Total miles driven during the year. Add lines 30 through 32. Column: (d) Vehicle 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line33[0].f2_81[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 33. Total miles driven during the year. Add lines 30 through 32. Column: (e) Vehicle 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line33[0].f2_82[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 33. Total miles driven during the year. Add lines 30 through 32. Column: (f) Vehicle 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (a) Vehicle 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (a) Vehicle 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (b) Vehicle 2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (b) Vehicle 2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (c) Vehicle 3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (c) Vehicle 3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (d) Vehicle 4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (d) Vehicle 4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (e) Vehicle 5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (e) Vehicle 5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (f) Vehicle 6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line34[0].c2_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 34. Was the vehicle available for personal use during off-duty hours? Column: (f) Vehicle 6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (a) Vehicle 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (a) Vehicle 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (b) Vehicle 2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (b) Vehicle 2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (c) Vehicle 3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (c) Vehicle 3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (d) Vehicle 4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (d) Vehicle 4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (e) Vehicle 5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_14[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (e) Vehicle 5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (f) Vehicle 6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line35[0].c2_15[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 35. Was the vehicle used primarily by a more than 5% owner or related person? Column: (f) Vehicle 6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (a) Vehicle 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_16[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (a) Vehicle 1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (b) Vehicle 2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_17[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (b) Vehicle 2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (c) Vehicle 3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_18[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (c) Vehicle 3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (d) Vehicle 4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_19[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (d) Vehicle 4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (e) Vehicle 5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_20[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (e) Vehicle 5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (f) Vehicle 6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable2[0].Line36[0].c2_21[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 36. Is another vehicle available for personal use? Column: (f) Vehicle 6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "37. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "37. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "38. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "38. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "39. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "39. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "40. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "40. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "41. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "41. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow1[0].f3_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part V I. Amortization. 42. Amortization of costs that begins during your 2025 tax year (see instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow1[0].f3_2[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date amortization begins.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow1[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Amortizable amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow1[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Code section.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow1[0].f3_5[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1. Column: (e) Amortization period or percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow1[0].f3_6[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (f) Amortization for this year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow2[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Description of costs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow2[0].f3_8[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date amortization begins.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow2[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Amortizable amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow2[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Code section.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow2[0].f3_11[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 2. Column: (e) Amortization period or percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartVITable[0].BodyRow2[0].f3_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (f) Amortization for this year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "43. Amortization of costs that began before your 2025 tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "44. Total. Add amounts in column (f). See the instructions for where to report.",
+      "required": false
+    }
+  ]
+}

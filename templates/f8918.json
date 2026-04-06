@@ -1,0 +1,866 @@
+{
+  "formId": "f8918",
+  "displayName": "Form 8918",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8918.pdf",
+  "generatedAt": "2026-04-06T21:46:21.497Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].#pageSet[0].PageArea1[0].Code3of9BarCode2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 8918 (Rev. 11-2021). Page 3. Catalog Number 39533A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].#pageSet[0].PageArea4[0].Code3of9BarCode2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 8918 (Rev. 11-2021). Page 3. Catalog Number 39533A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].reset_except[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Delete all form data except for material advisor and contact person information",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].reset_all[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Delete all form data.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].HideWarning[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Hide the warning if this message is opened in Adobe Acrobat or Adobe Reader.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Image[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "ATTENTION&#xD;THIS PDF FORM IS NOT DESIGNED FOR USE IN A WEB BROWSER. &#xD;PLEASE DOWNLOAD THIS P D ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].MaterialAdvisor_Name[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Note. The reportable transaction number will be sent to the material advisor's address below",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].MaterialAdvisor_Type[0].MaterialAdvisor_Individual[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Individual.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].MaterialAdvisor_Type[0].MaterialAdvisor_Entity[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Entity.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].IdentifyingNumber[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TelephoneNumber[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Telephone number.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].StreetAddress[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number, street, and room or suite number.",
+      "required": false,
+      "maxLength": 100
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].CityAddress[0]",
+      "fieldType": "city",
+      "labelHint": "City or town.",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].StateAddress_raw[0]",
+      "fieldType": "state",
+      "labelHint": "State.",
+      "required": false,
+      "options": [
+        "  ",
+        "AK",
+        "AL",
+        "AR",
+        "AS",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "GA",
+        "GU",
+        "HI",
+        "IA",
+        "ID",
+        "IL",
+        "IN",
+        "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MN",
+        "MO",
+        "MP",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NM",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "PR",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VA",
+        "VI",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].ZipCode[0]",
+      "fieldType": "zip_code",
+      "labelHint": "Z I P code.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].A_ContactPerson[0]",
+      "fieldType": "first_name",
+      "labelHint": "A. Contact person name (last name, first name, middle initial).",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].A_Title[0]",
+      "fieldType": "generic_text",
+      "labelHint": "A. Title.",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].A_ContactTelephone[0]",
+      "fieldType": "phone_number",
+      "labelHint": "A. Telephone number.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].B_IsProtectiveDisclosure_Yes[0]",
+      "fieldType": "checkbox",
+      "labelHint": "B. Is this a protective disclosure? (see instructions). Yes. If \"Yes,\" see line 6a instructions.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].B_IsProtectiveDisclosure_No[0]",
+      "fieldType": "checkbox",
+      "labelHint": "B. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].C_IsOriginalF8918_Yes[0]",
+      "fieldType": "checkbox",
+      "labelHint": "C. Is this the original Form 8918 for this reportable transaction? Yes. If \"Yes\" go to line 1",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].C_IsOriginalF8918_No[0]",
+      "fieldType": "checkbox",
+      "labelHint": "C. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].C_ReportableTransNumber[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Reportable Transaction Number.",
+      "required": false,
+      "maxLength": 14
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameofReportable_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "1. Name of reportable transaction (see instructions).",
+      "required": false,
+      "maxLength": 100
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Listed_2a[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. Identify the type of reportable transaction. Check all the box(es) that apply (see instructions). a. Listed.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Confidential_2b[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. b. Confidential.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Contractual_2c[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. c. Contractual protection.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Loss_2d[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. d. Loss.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TransInterest_2e[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. e. Transaction of interest.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].GuidanceNumber_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. If you checked box 2a or 2e, enter the published guidance number for the listed transaction or tr",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].MaterialAdvisorDate_4[0]",
+      "fieldType": "date",
+      "labelHint": "4. Enter the date the Material Advisor became a material advisor with respect to the reportable tran",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].DesignationName_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "5. If you are a party to a designation agreement, identify the other parties (see instructions). Nam",
+      "required": false,
+      "maxLength": 100
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Designation_Type_5[0].Designation_Individual[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Individual.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Designation_Type_5[0].Designation_Entity[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Entity.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].DesignationID_5[0]",
+      "fieldType": "generic_text",
+      "labelHint": "5. Identifying number (if known).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "5. Address (Number, street, and room or suite number).",
+      "required": false,
+      "maxLength": 100
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].City_5[0]",
+      "fieldType": "city",
+      "labelHint": "5. City or town.",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].State_5_raw[0]",
+      "fieldType": "state",
+      "labelHint": "5. State.",
+      "required": false,
+      "options": [
+        "  ",
+        "AK",
+        "AL",
+        "AR",
+        "AS",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "GA",
+        "GU",
+        "HI",
+        "IA",
+        "ID",
+        "IL",
+        "IN",
+        "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MN",
+        "MO",
+        "MP",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NM",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "PR",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VA",
+        "VI",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Zip_5[0]",
+      "fieldType": "zip_code",
+      "labelHint": "5. Z I P code.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Contact_Name_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "5. Contact name.",
+      "required": false,
+      "maxLength": 100
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Telephone_5[0]",
+      "fieldType": "phone_number",
+      "labelHint": "5. Telephone number.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Description_6a[0]",
+      "fieldType": "generic_text",
+      "labelHint": "6. a. Provide a brief description of the type of material aid, assistance, or advice you provided (see instructions).",
+      "required": false,
+      "maxLength": 500
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Description_6b[0]",
+      "fieldType": "full_name",
+      "labelHint": "6. b. Describe the role of any other entity(ies) or individual(s) who you know or have reason to kno",
+      "required": false,
+      "maxLength": 500
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].reset_except[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Delete all form data except for material advisor and contact person information",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].reset_all[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Delete all form data.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line7A[0].Related_7a_Yes[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 2. 7. a. To obtain the intended tax benefits generated by the transaction: Is a related entity(ies) or individual(s) needed? Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line7A[0].Related_7a_No[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. a. Is a related entity(ies) or individual(s) needed? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line7A[0].Foreign_7a_Yes[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. a. Is a foreign entity(ies) or individual(s) needed? Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line7A[0].Foreign_7a_No[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. a. Is a foreign entity(ies) or individual(s) needed? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line7A[0].TaxExempt_7a_Yes[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. a. Is a tax-exempt entity(ies) needed? Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line7A[0].TaxExempt_7a_No[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. a. Is a tax-exempt entity(ies) needed? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Describe_7b[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. b. If you answered “Yes” to any of the above questions, describe the role of each individual or e",
+      "required": false,
+      "maxLength": 500
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line8A[0].AllocatedDirectly_8a_Yes[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8. a. To obtain the intended tax benefits generated by the transaction, is income or gain from the transaction allocated directly or indirectly to an individual(s) or entity(ies) that has a net operating loss and/or unused loss or credit? Yes.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line8A[0].AllocatedDirectly_8a_No[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8. a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Allocated_8b[0]",
+      "fieldType": "generic_text",
+      "labelHint": "8. b. If \"Yes,\" describe the role of each individual or entity in the transaction.",
+      "required": false,
+      "maxLength": 500
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].FinancialInstruments_9[0]",
+      "fieldType": "generic_text",
+      "labelHint": "9. Identify the types of financial instruments used in this transaction (see instructions).",
+      "required": false,
+      "maxLength": 500
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_Ded[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Estimated Tax Benefits - Identify the type of tax benefit generated by the transaction that you expect the taxpayer to claim in each year. Check all boxes that apply (see instructions). Deductions.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_CL[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Capital loss.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_OL[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Ordinary loss.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_EGI[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Exclusions from gross income.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_NR[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Nonrecognition of gain.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_AB[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Adjustments to basis.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_TC[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Tax credits.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_D[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Deferral.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_AbBas[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Absence of adjustments to basis.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_O[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10[0].EstTB_O_d[0]",
+      "fieldType": "generic_text",
+      "labelHint": "10. Other (describe).",
+      "required": false,
+      "maxLength": 100
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line11[0].TTB_FY[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11. Timing of Tax Benefits - If you checked one or more boxes on line 10, check the applicable box(es) below to identify the period in which such tax benefits are claimed. Check each box that applies. Tax benefits generated by the transaction are required to be claimed in the first year of participation by the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line11[0].TTB_AY[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11. Tax benefits may be claimed in another year by the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Enter the Internal Revenue Code section(s) used to claim tax benefit(s) generated by the transac",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 2.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 3.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 4.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec5[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 5.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec6[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 6.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec7[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 7.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec8[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 8.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line12[0].IRC_Sec9[0]",
+      "fieldType": "generic_text",
+      "labelHint": "12. Entry 9.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Code3of9BarCode2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 8918 (Rev. 11-2021). Page 3. Catalog Number 39533A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].reset_except[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Delete all form data except for material advisor and contact person information",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].reset_all[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Delete all form data.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].DescribeReportableTransaction[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 3. 13. Describe the reportable transaction for which you provided material aid, assistance or a",
+      "required": false,
+      "maxLength": 5000
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Code3of9BarCode2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 8918 (Rev. 11-2021). Page 3. Catalog Number 39533A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].SignHere[0].SignatureDate[0]",
+      "fieldType": "date",
+      "labelHint": "Please Sign Here. Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].SignHere[0].SignatureTitle[0]",
+      "fieldType": "signature",
+      "labelHint": "Signature",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].SignHere[0].SignatureName[0]",
+      "fieldType": "full_name",
+      "labelHint": "Print name.",
+      "required": false,
+      "maxLength": 100
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Page 4. Barcode 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode6[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode5[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode8[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode7[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PaperFormsBarcode9[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Barcode 9.",
+      "required": false
+    }
+  ]
+}

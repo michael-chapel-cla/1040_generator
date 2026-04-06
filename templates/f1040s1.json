@@ -1,0 +1,469 @@
+{
+  "formId": "f1040s1",
+  "displayName": "Schedule 1",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040s1.pdf",
+  "generatedAt": "2026-04-06T21:46:17.589Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name(s) shown on Form 1040, 1040-S R, or 1040-N R.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "For 2025, enter the amount reported to you on Form(s) 1099-K that was included in error or for perso",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
+      "fieldType": "state",
+      "labelHint": "Part I. Additional Income. 1. Taxable refunds, credits, or offsets of state and local income taxes.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Alimony received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
+      "fieldType": "date",
+      "labelHint": "2b. Date of original divorce or separation agreement (see instructions):",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Business income or (loss). Attach Schedule C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. Other gains or (losses). Check if any from Form(s): 4797.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. 4684.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Rental real estate, royalties, partnerships, S corporations, trusts, etc. Attach Schedule E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Farm income or (loss). Attach Schedule F.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line7_ReadOrder[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Unemployment compensation. If you repaid a 2025 overpayment (see instructions), check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line7_ReadOrder[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. and enter amount repaid:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line8a_ReadOrder[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Other income: a. Open parenthesis. Net operating loss. Close parenthesis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8b. Gambling.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8c. Cancellation of debt.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8d. Open parenthesis. Foreign earned income exclusion from Form 2555. Close parenthesis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8e. Income from Form 8853.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8f. Income from Form 8889.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8g. Alaska Permanent Fund dividends.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8h. Jury duty pay.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8i. Prizes and awards.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8j. Activity not engaged in for profit income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8k. Stock options.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8l. Income from the rental of personal property if you engaged in the rental for profit but were not",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8m. Olympic and Paralympic medals and U S O C prize money (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8n. Section 951(a) inclusion (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8o. Section 951A(a) inclusion (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8p. Section 461(l) excess business loss adjustment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8q. Taxable distributions from an A B L E account (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8r. Scholarship and fellowship grants not reported on Form W-2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8s. Open parenthesis. Nontaxable amount of Medicaid waiver payments included on Form 1040, line 1a o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8t. Pension or annuity from a nonqualifed deferred compensation plan or a nongovernmental section 45",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8u. Wages earned while incarcerated.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8v. Digital assets received as ordinary income not reported elsewhere. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line8z_ReadOrder[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8z. Other income. List type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8z. and amount:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Total other income. Add lines 8a through 8z.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Combine lines 1 through 7 and 9. This is your additional income. Enter here and on Form 1040, 10",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I I. Adjustments to Income. 11. Educator expenses.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Certain business expenses of reservists, performing artists, and fee-basis government officials. Attach Form 2106.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Health savings account deduction. Attach Form 8889.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "14. Moving expenses for members of the Armed Forces. Attach Form 3903. If claiming only storage fees (see instructions), check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Deductible part of self-employment tax. Attach Schedule S E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Self-employed S E P, S I M P L E, and qualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Self-employed health insurance deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Penalty on early withdrawal of savings.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19a. Alimony paid.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line19b_CombField[0].f2_10[0]",
+      "fieldType": "ssn",
+      "labelHint": "19b. Recipient's S S N.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "date",
+      "labelHint": "19c. Date of original divorce or separation agreement (see instructions):",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "20. I R A deduction. If you are married filing separately and lived apart from your spouse for the entire year (see instructions), check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Student loan interest deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Archer M S A deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line24a_ReadOrder[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Other adjustments: a. Jury duty pay (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24b. Deductible expenses related to income reported on line 8l from the rental of personal property ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24c. Nontaxable amount of the value of Olympic and Paralympic medals and U S O C prize money reporte",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24d. Reforestation amortization and expenses.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24e. Repayment of supplemental unemployment benefits under the Trade Act of 1974.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24f. Contributions to section 501(c)(18)(D) pension plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24g. Contributions by certain chaplains to section 403(b) plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24h. Attorney fees and court costs for actions involving certain unlawful discrimination claims (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24i. Attorney fees and court costs you paid in connection with an award from the I R S for information you provided that helped the I R S detect tax law violations.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24j. Housing deduction from Form 2555.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24k. Excess deductions of section 67(e) expenses from Schedule K-1 (Form 1041).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line24z_ReadOrder[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24z. Other adjustments. List type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24z. and amount:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Total other adjustments. Add lines 24a through 24z.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Add lines 11 through 23 and 25. These are your adjustments to income. Enter here and on Form 104",
+      "required": false
+    }
+  ]
+}

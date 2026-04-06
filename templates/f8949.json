@@ -1,0 +1,1271 @@
+{
+  "formId": "f8949",
+  "displayName": "Form 8949",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8949.pdf",
+  "generatedAt": "2026-04-06T21:46:20.123Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name(s) shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social security number or taxpayer identification number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[3]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[4]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[5]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Row: 1. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_04[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_05[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_12[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_13[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row2[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_20[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_21[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row3[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_28[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_29[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row4[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_36[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_37[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row5[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_44[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 6. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_45[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 6. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row6[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_52[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_53[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row7[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row8[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row9[0].f1_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row10[0].f1_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1_Part1[0].Row11[0].f1_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. Add the amounts in columns (d), (e), (g), and (h) (subtract negative amounts). Enter each",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. (e) Cost or other basis See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a code i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a code i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
+      "fieldType": "ssn",
+      "labelHint": "Page 2. Name(s) shown on return. Name and S S N or taxpayer identification no. not required if shown",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social security number or taxpayer identification number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[3]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[4]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[5]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Row: 1. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_04[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_05[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row1[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_12[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_13[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_20[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_21[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row3[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_28[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_29[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row4[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_36[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_37[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row5[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_44[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 6. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_45[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 6. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row6[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (a) Description of property (Example: 100 sh. X Y Z Co.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_52[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7. Column: (b) Date acquired (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_53[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7. Column: (c) Date sold or disposed of (Mo., day, yr.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (d) Proceeds (sales price) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (e) Cost or other basis. See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row7[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row8[0].f2_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row9[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row10[0].f2_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1_Part2[0].Row11[0].f2_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. Add the amounts in columns (d), (e), (g), and (h) (subtract negative amounts). Enter each",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. (e) Cost or other basis See the Note below and see Column (e) in the separate instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a code i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. Adjustment, if any, to gain or loss. If you enter an amount in column (g), enter a code i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Totals. (h) Gain or (loss). Subtract column (e) from column (d) and combine the result with colum",
+      "required": false
+    }
+  ]
+}

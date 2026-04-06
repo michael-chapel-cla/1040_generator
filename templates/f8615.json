@@ -1,0 +1,239 @@
+{
+  "formId": "f8615",
+  "displayName": "Form 8615",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8615.pdf",
+  "generatedAt": "2026-04-06T21:46:19.632Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Child's name shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Child's social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "A. Parent's name (first, initial, and last). Caution: See instructions before completing.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "ssn",
+      "labelHint": "B. Parent's social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "C. Qualifying surviving spouse.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "C. Qualifying surviving spouse.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "C. Qualifying surviving spouse.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[3]",
+      "fieldType": "checkbox",
+      "labelHint": "C. Qualifying surviving spouse.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[4]",
+      "fieldType": "checkbox",
+      "labelHint": "C. Qualifying surviving spouse.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Child’s Net Unearned Income. 1. Enter the child’s unearned income. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. If the child did not itemize deductions on Schedule A (Form 1040) or Schedule A (Form 1040-N R), ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Subtract line 2 from line 1. If zero or less, stop; do not complete the rest of this form but do ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter the child’s taxable income from Form 1040 or 1040-N R, line 15. If the child files Form 255",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Enter the smaller of line 3 or line 4. If zero, stop; do not complete the rest of this form but d",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "percentage",
+      "labelHint": "Part I I. Tentative Tax Based on the Tax Rate of the Parent. 6. Enter the parent’s taxable income fr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Enter the total, if any, from Forms 8615, line 5, of all other children of the parent named above",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Add lines 5, 6, and 7. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line9_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line10_ReadOrder[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Subtract line 10 from line 9 and enter the result. If line 7 is blank, also enter this amount on",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Add lines 5 and 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Divide line 5 by line 12a. Enter the result as a decimal (rounded to at least three places).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Multiply line 11 by line 12b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Child’s Tax. If lines 4 and 5 above are the same, enter 0 on line 15 and go to line 16. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line15_ReadOrder[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Add lines 13 and 15.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line17_ReadOrder[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Enter the larger of line 16 or line 17 here and on the child’s Form 1040 or 1040-N R, line 16. I",
+      "required": false
+    }
+  ]
+}

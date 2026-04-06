@@ -1,0 +1,231 @@
+{
+  "formId": "f8611",
+  "displayName": "Form 8611",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8611.pdf",
+  "generatedAt": "2026-04-06T21:46:35.975Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. A. Name(s) shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "B. Identifying number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "C. Address of building (as shown on Form 8609).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "D. Building identification number (B I N).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "date",
+      "labelHint": "E. Date placed in service (from Form 8609).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineF_ReadOrder[0].f1_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "F. If building is financed in whole or part with tax-exempt bonds, see instructions and furnish: (1)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "F. (2) Date of issue.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "full_name",
+      "labelHint": "F. (3) Name of issue.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "F. (4) C U S I P number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: Skip lines 1–7 and go to line 8 if recapture is passed through from a flow-through entity (par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Credits included on line 1 attributable to additions to qualified basis (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Credits subject to recapture. Subtract line 2 from line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "percentage",
+      "labelHint": "4. Credit recapture percentage (see instructions). Digits before the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Digits after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Accelerated portion of credit. Multiply line 3 by line 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "percentage",
+      "labelHint": "6. Percentage decrease in qualified basis. Express as a decimal amount carried out to at least 3 pla",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Digits after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Amount of accelerated portion recaptured (see instructions if prior recapture on building). Multi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Enter recapture amount from flow-through entity (see Note above).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Enter the unused portion of the accelerated amount from line 7 (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Net recapture. Subtract line 9 from line 7 or line 8. If less than zero, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Enter interest on the line 10 recapture amount (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Total amount subject to recapture. Add lines 10 and 11.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Unused credits attributable to this building reduced by the accelerated portion included on line",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Recapture tax. Subtract line 13 from line 12. If zero or less, enter 0. Enter the result here an",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Carryforward of the low-income housing credit attributable to this building. Subtract line 12 fr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Only Section 42(j)(5) partnerships need to complete lines 16 and 17. 16. Enter interest on the line ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Total recapture. Add lines 7 and 16 (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Line 2 Worksheet. (* Line reference is to Form 8609-A (or predecessor, Schedule A (Form 8609",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "b. Multiply a by 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Enter the amount from line 11*. (* Line reference is to Form 8609-A (or predecessor, Schedule A (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "d. Subtract c from b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "e. Enter decimal amount figured in step 1 of the instructions for line 14*. If line 14* does not app",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "f. Multiply d by e.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "g. Subtract f from d.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "h. Divide line 16 by line 15*. Enter the result here. (* Line reference is to Form 8609-A (or predec",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "i. Multiply g by h. Enter this amount on line 2. (If more than one worksheet is completed, add the a",
+      "required": false
+    }
+  ]
+}

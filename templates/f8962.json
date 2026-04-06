@@ -1,0 +1,900 @@
+{
+  "formId": "f8962",
+  "displayName": "Form 8962",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8962.pdf",
+  "generatedAt": "2026-04-06T21:46:20.263Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name shown on your return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Annual and Monthly Contribution Amount. 1. Tax family size. Enter your tax family size. See ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Modified A G I. Enter your modified A G I. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Enter the total of your dependents' modified A G I. See instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Household income. Add the amounts on lines 2a and 2b. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal poverty line. Enter the federal poverty line amount from Table 1-1, 1-2, or 1-3. See instructions. Check the appropriate box for the federal poverty table used.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "percentage",
+      "labelHint": "5. Household income as a percentage of Federal poverty line. (see instructions). %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "percentage",
+      "labelHint": "7. Applicable figure. Using your line 5 percentage, locate your “applicable figure” on the table in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8a. Annual contribution amount. Multiply line 3 by line 7. Round to nearest whole dollar amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8b. Monthly contribution amount. Divide line 8a by 12. Round to nearest whole dollar amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Annual Calculation. Row: 11. Annual Totals. Column: (a) Annual enrollment premiums (Form(s) 1095-A, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Annual Totals. Column: (b) Annual applicable S L C S P premium. (Form(s) 1095-A, line 33B).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Annual Totals. Column: (c) Annual contribution amount (line 8a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Annual Totals. Column: (d) Annual maximum premium assistance (subtract (c) from (b); if zer",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Annual Totals. Column: (e) Annual P T C allowed (smaller of (a) or (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Annual Totals. Column: (f) Annual advance payment of P T C (Form(s) 1095-A, line 33C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Monthly Calculation. Row: 12. January. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, line",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. January. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. January. Column: (c) Monthly contribution amount (amount from line 8b or alternative marria",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. January. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. January. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. January. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow2[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. February. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow2[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. February. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow2[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. February. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow2[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. February. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow2[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. February. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow2[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. February. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow3[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. March. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow3[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. March. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow3[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. March. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow3[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. March. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or le",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow3[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. March. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow3[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. March. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column C)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow4[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. April. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow4[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. April. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow4[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. April. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow4[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. April. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or le",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow4[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. April. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow4[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. April. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column C)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow5[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. May. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow5[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. May. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, column ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow5[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. May. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage m",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow5[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. May. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or less",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow5[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. May. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow5[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. May. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow6[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. June. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow6[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. June. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, column",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow6[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. June. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow6[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. June. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or les",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow6[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. June. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow6[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. June. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow7[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. July. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow7[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. July. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, column",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow7[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. July. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow7[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. July. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or les",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow7[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. July. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow7[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. July. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow8[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. August. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow8[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. August. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow8[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. August. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriag",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow8[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. August. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or l",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow8[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. August. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow8[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. August. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow9[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. September. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow9[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. September. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow9[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. September. Column: (c) Monthly contribution amount (amount from line 8b or alternative marr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow9[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. September. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow9[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. September. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow9[0].f1_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. September. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow10[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. October. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow10[0].f1_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. October. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow10[0].f1_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. October. Column: (c) Monthly contribution amount (amount from line 8b or alternative marria",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow10[0].f1_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. October. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow10[0].f1_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. October. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow10[0].f1_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. October. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow11[0].f1_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. November. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow11[0].f1_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. November. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow11[0].f1_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. November. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow11[0].f1_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. November. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow11[0].f1_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. November. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow11[0].f1_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. November. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow12[0].f1_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. December. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, lines 21–32, column A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow12[0].f1_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. December. Column: (b) Monthly applicable S L C S P premium (Form(s) 1095-A, lines 21–32, co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow12[0].f1_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. December. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow12[0].f1_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. December. Column: (d) Monthly maximum premium assistance (subtract (c) from (b); if zero or",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow12[0].f1_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. December. Column: (e) Monthly P T C allowed (smaller of (a) or d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow12[0].f1_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. December. Column: (f) Monthly advance payment of P T C (Form(s) 1095-A, lines 21–32, column",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Total P T C. Enter the amount from line 11, column (e), or add lines 12 through 23, column (e), ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Advance payment of P T C. Enter the amount from line 11, column (f), or add lines 12 through 23,",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Net P T C. If line 24 is greater than line 25, subtract line 25 from line 24. Enter the differen",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Repayment of Excess Advance Payment of the Premium Tax Credit. 27. Excess advance paymen",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Repayment limitation (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Excess advance P T C repayment. Enter the smaller of line 27 or line 28 here and on Schedule 2 (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I V. Allocation of Policy Amounts. Complete the following information for up to four po",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "(b) S S N of other taxpayer.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(c) Allocation start month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(d) Allocation stop month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines30e-g[0].f2_5[0]",
+      "fieldType": "percentage",
+      "labelHint": "Allocation percentage applied to monthly amounts. (e) Premium Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines30e-g[0].f2_6[0]",
+      "fieldType": "percentage",
+      "labelHint": "(f) S L C S P Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines30e-g[0].f2_7[0]",
+      "fieldType": "percentage",
+      "labelHint": "(g) Advance Payment of the P T C Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Allocation 2. 31. (a) Policy Number (Form 1095-A, line 2).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "ssn",
+      "labelHint": "(b) S S N of other taxpayer.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(c) Allocation start month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(d) Allocation stop month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines31e-g[0].f2_12[0]",
+      "fieldType": "percentage",
+      "labelHint": "Allocation percentage applied to monthly amounts. (e) Premium Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines31e-g[0].f2_13[0]",
+      "fieldType": "percentage",
+      "labelHint": "(f) S L C S P Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines31e-g[0].f2_14[0]",
+      "fieldType": "percentage",
+      "labelHint": "(g) Advance Payment of the P T C Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Allocation 3. 32. (a) Policy Number (Form 1095-A, line 2).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "ssn",
+      "labelHint": "(b) S S N of other taxpayer.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(c) Allocation start month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(d) Allocation stop month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines32e-g[0].f2_19[0]",
+      "fieldType": "percentage",
+      "labelHint": "Allocation percentage applied to monthly amounts. (e) Premium Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines32e-g[0].f2_20[0]",
+      "fieldType": "percentage",
+      "labelHint": "(f) S L C S P Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines32e-g[0].f2_21[0]",
+      "fieldType": "percentage",
+      "labelHint": "(g) Advance Payment of the P T C Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Allocation 4. 33. (a) Policy Number (Form 1095-A, line 2).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
+      "fieldType": "ssn",
+      "labelHint": "(b) S S N of other taxpayer.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(c) Allocation start month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(d) Allocation stop month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines33e-g[0].f2_26[0]",
+      "fieldType": "percentage",
+      "labelHint": "Allocation percentage applied to monthly amounts. (e) Premium Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines33e-g[0].f2_27[0]",
+      "fieldType": "percentage",
+      "labelHint": "(f) S L C S P Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Lines33e-g[0].f2_28[0]",
+      "fieldType": "percentage",
+      "labelHint": "(g) Advance Payment of the P T C Percentage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
+      "fieldType": "ssn",
+      "labelHint": "Part V. Alternative Calculation for Year of Marriage. Complete line(s) 35 and/or 36 to elect the alt",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(b) Alternative monthly contribution amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(c) Alternative start month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(d) Alternative stop month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
+      "fieldType": "ssn",
+      "labelHint": "36. Alternative entries for your spouse's S S N. (a) Alternative family size.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(b) Alternative monthly contribution amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(c) Alternative start month.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "(d) Alternative stop month.",
+      "required": false
+    }
+  ]
+}

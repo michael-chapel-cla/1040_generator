@@ -1,0 +1,152 @@
+{
+  "formId": "f8878",
+  "displayName": "Form 8878",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8878.pdf",
+  "generatedAt": "2026-04-06T21:46:36.981Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 1. Submission Identification Number (S I D).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "Taxpayer’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "Spouse’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "ssn",
+      "labelHint": "Spouse’s social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. Form 2350, Application for Extension of Time To File U.S. Income Tax Return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Amount you are paying from Form 4868, line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "2. Form 2350, Application for Extension of Time To File U.S. Income Tax Return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "2a. I request an extension of time until this date as shown on Form 2350, line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Amount you are paying from Form 2350, line 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature for my electronic application for extension of time to file for the tax year ending December 31, 2025. Check this box only if you are entering your own P I N and your extension form is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "full_name",
+      "labelHint": "E R O firm name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayersPINComb[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P I N. Enter five digits, but don't enter all zeros.",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature for my electronic application for extension of time to file for the tax year ending December 31, 2025. Check this box only if you are entering your own P I N and your extension form is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature for my electronic application for extension of time to file for the tax year ending December 31, 2025. Check this box only if you are entering your own P I N and your extension form is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "full_name",
+      "labelHint": "E R O firm name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SpousesPINComb[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P I N. Enter five digits, but don't enter all zeros.",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "I will enter my P I N as my signature for my electronic application for extension of time to file for the tax year ending December 31, 2025. Check this box only if you are entering your own P I N and your extension form is filed using the Practitioner P I N method. The E R O must complete Part I I I below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Practitioner P I N Method for Form 4868 Only—continue below. Part I I I. Certification and Authentication—Practitioner P I N Method for Form 4868 Only. E R O’s E F I N/P I N. Enter your six-digit E F I N followed by your five-digit self-selected P I N. Don't enter all zeros.",
+      "required": false,
+      "maxLength": 11
+    }
+  ]
+}

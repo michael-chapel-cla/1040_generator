@@ -1,0 +1,233 @@
+{
+  "formId": "f1099c",
+  "displayName": "Form 1099-C",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099c.pdf",
+  "generatedAt": "2026-04-06T21:46:30.647Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].FormHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].FormHeader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].FormHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "For calendar year. 4-digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "CREDITOR'S name, street address, city or town, state or province, country, Z I P or foreign postal c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "CREDITOR'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DEBTOR'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "DEBTOR'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_9[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of identifiable event.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Amount of debt discharged. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Interest, if included in box 2. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Debt description.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. Check here if the debtor was personally liable for repayment of the debt.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Identifiable event code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Fair market value of property. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].FormHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 2. Copy B. CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].FormHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "For calendar year. 4-digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "CREDITOR'S name, street address, city or town, state or province, country, Z I P or foreign postal c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "CREDITOR'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DEBTOR'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "DEBTOR'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_9[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of identifiable event.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Amount of debt discharged. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Interest, if included in box 2. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Debt description.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. If checked, the debtor was personally liable for repayment of the debt.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Identifiable event code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Fair market value of property. $.",
+      "required": false
+    }
+  ]
+}

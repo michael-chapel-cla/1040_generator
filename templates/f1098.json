@@ -1,0 +1,281 @@
+{
+  "formId": "f1098",
+  "displayName": "Form 1098",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1098.pdf",
+  "generatedAt": "2026-04-06T21:46:31.784Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Read only copy. Copy A. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "RECIPIENT'S/LENDER'S name, street address, city or town, state or province, country, Z I P or foreig",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT'S/LENDER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER'S/BORROWER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYER'S/BORROWER'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_10[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Mortgage interest received from payer(s)/borrower(s). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Outstanding mortgage principal. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_13[0]",
+      "fieldType": "date",
+      "labelHint": "3. Mortgage origination date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Refund of overpaid interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Mortgage insurance premiums. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Points paid on purchase of principal residence. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Address or description of property securing mortgage (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_18[0]",
+      "fieldType": "date",
+      "labelHint": "11. Mortgage acquisition date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].TagCorrectingSubform[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Number of properties securing the mortgage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].TagCorrectingSubform[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Other.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Copy B. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 2. Copy B. CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "RECIPIENT'S/LENDER'S name, street address, city or town, state or province, country, Z I P or foreig",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT'S/LENDER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER'S/BORROWER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYER'S/ BORROWER'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_10[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Mortgage interest received from payer(s)/borrower(s).* *Caution: The amount shown may not be full",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Outstanding mortgage principal. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_13[0]",
+      "fieldType": "date",
+      "labelHint": "3. Mortgage origination date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Refund of overpaid interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Mortgage insurance premiums. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Points paid on purchase of principal residence. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Address or description of property securing mortgage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].TagCorrectingSubform[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Number of properties securing the mortgage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].TagCorrectingSubform[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Other.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_18[0]",
+      "fieldType": "date",
+      "labelHint": "11. Mortgage acquisition date.",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "formId": "fw3c",
+  "displayName": "Form W-3c",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw3c.pdf",
+  "generatedAt": "2026-04-06T21:46:30.081Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxA_ReadOrder[0].f1_01[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. a. Tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxA_ReadOrder[0].f1_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "a. Form corrected. / W-.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "employer_name",
+      "labelHint": "b. Employer's name, address, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Payer_ReadOrder[0].Form941_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Medicare govt. emp.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Payer_ReadOrder[0].Military_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Medicare govt. emp.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Payer_ReadOrder[0].Form943_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Medicare govt. emp.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Payer_ReadOrder[0].Form944_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Medicare govt. emp.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Payer_ReadOrder[0].FormCT-1_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Medicare govt. emp.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Payer_ReadOrder[0].Household_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Medicare govt. emp.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Payer_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Medicare govt. emp.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Employer_ReadOrder[0].None_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Federal govt.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Employer_ReadOrder[0].Non-Govt501c_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Federal govt.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Employer_ReadOrder[0].StateLocalNon501c_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Federal govt.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Employer_ReadOrder[0].StateLocal501c_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Federal govt.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_Employer_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Federal govt.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BoxC_3rdParty[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "c. Third-party sick pay. (Check if applicable).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "d. Total number of Forms W-2c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "e. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "f. Establishment number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "state",
+      "labelHint": "g. Employer's state I D number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Complete boxes h, i, or j only if incorrect on last form filed. h. Employer's originally reported E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "i. Incorrect establishment number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "state",
+      "labelHint": "j. Employer's incorrect state I D number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Box1_Prev_ReadOrder[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 1. Wages, tips, other compensa",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Box1_Corrected_ReadOrder[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 1. Wages, tips, other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Box2_Prev_ReadOrder[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 2. Federal income tax withheld",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 4. Social security tax withhel",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Box9_Prev_ReadOrder[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Box9_Corrected_ReadOrder[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed W-2c. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Boxes12a-b_ReadOrder[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 12a. Deferred compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Boxes12a-b_ReadOrder[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 12a. Deferred compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Boxes12a-b_ReadOrder[0].Box12b_Prev_ReadOrder[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 12b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Boxes12a-b_ReadOrder[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 12b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 14. Inc. tax w/h by third-party sick pay payer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 14. Inc. tax w/h by third-party sick pay payer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
+      "fieldType": "state",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 16. State wages, tips, etc.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
+      "fieldType": "state",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 16. State wages, tips, etc.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "state",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 17. State income tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "state",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 17. State income tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 18. Local wages, tips, etc.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 18. Local wages, tips, etc.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of amounts previously reported as shown on enclosed Forms W-2c. 19. Local income tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total of corrected amounts as shown on enclosed Forms W-2c. 19. Local income tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Explain decreases here:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
+      "fieldType": "date",
+      "labelHint": "If \"Yes,\" give date the return was filed:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Title:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Employer's contact person.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_51[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Employer's telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Employer's fax number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_53[0]",
+      "fieldType": "street_address",
+      "labelHint": "Employer's email address.",
+      "required": false
+    }
+  ]
+}

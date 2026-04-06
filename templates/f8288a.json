@@ -1,0 +1,453 @@
+{
+  "formId": "f8288a",
+  "displayName": "Form 8288-A",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8288a.pdf",
+  "generatedAt": "2026-04-06T21:46:34.641Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 4. Copy C. WITHHOLDING AGENT'S name, street address, city or town, state or province, country, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "WITHHOLDING AGENT'S U.S. T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "U.S. T I N of FOREIGN PERSON subject to withholding (see instructions).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_04[0]",
+      "fieldType": "full_name",
+      "labelHint": "FOREIGN PERSON’S name subject to withholding.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_05[0]",
+      "fieldType": "street_address",
+      "labelHint": "Foreign address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_06[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country (not U.S.), and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_07[0]",
+      "fieldType": "street_address",
+      "labelHint": "Mailing address of FOREIGN PERSON subject to withholding (if different).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_08[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of transfer (m m/d d/y y y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Gain recognized by foreign corporation. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box3_ReadOrder[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Amount realized. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box5_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. 1446(f)(1).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box5_ReadOrder[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. 1446(f)(1).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box6_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box6_ReadOrder[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box6_ReadOrder[0].c1_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box6_ReadOrder[0].c1_2[3]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box6_ReadOrder[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6d. Other (specify).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Country code of FOREIGN PERSON subject to withholding.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Description of property transferred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 4. Copy C. WITHHOLDING AGENT'S name, street address, city or town, state or province, country, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "WITHHOLDING AGENT'S U.S. T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "U.S. T I N of FOREIGN PERSON subject to withholding (see instructions).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_04[0]",
+      "fieldType": "full_name",
+      "labelHint": "FOREIGN PERSON’S name subject to withholding.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_05[0]",
+      "fieldType": "street_address",
+      "labelHint": "Foreign address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_06[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country (not U.S.), and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_07[0]",
+      "fieldType": "street_address",
+      "labelHint": "Mailing address of FOREIGN PERSON subject to withholding (if different).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_08[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of transfer (m m/d d/y y y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Gain recognized by foreign corporation. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box3_ReadOrder[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Amount realized. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box5_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. 1446(f)(1).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box5_ReadOrder[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. 1446(f)(1).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box6_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box6_ReadOrder[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box6_ReadOrder[0].c1_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box6_ReadOrder[0].c1_2[3]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box6_ReadOrder[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6d. Other (specify).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Country code of FOREIGN PERSON subject to withholding.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Description of property transferred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 4. Copy C. WITHHOLDING AGENT'S name, street address, city or town, state or province, country, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "WITHHOLDING AGENT'S U.S. T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "U.S. T I N of FOREIGN PERSON subject to withholding (see instructions).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_04[0]",
+      "fieldType": "full_name",
+      "labelHint": "FOREIGN PERSON’S name subject to withholding.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_05[0]",
+      "fieldType": "street_address",
+      "labelHint": "Foreign address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_06[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country (not U.S.), and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_07[0]",
+      "fieldType": "street_address",
+      "labelHint": "Mailing address of FOREIGN PERSON subject to withholding (if different).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_08[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of transfer (m m/d d/y y y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Gain recognized by foreign corporation. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box3_ReadOrder[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Amount realized. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box5_ReadOrder[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. 1446(f)(1).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box5_ReadOrder[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. 1446(f)(1).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box6_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box6_ReadOrder[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box6_ReadOrder[0].c1_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box6_ReadOrder[0].c1_2[3]",
+      "fieldType": "checkbox",
+      "labelHint": "6d. Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box6_ReadOrder[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6d. Other (specify).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Country code of FOREIGN PERSON subject to withholding.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Description of property transferred.",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,2340 @@
+{
+  "formId": "f706",
+  "displayName": "Form 706",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f706.pdf",
+  "generatedAt": "2026-04-06T21:46:24.903Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "first_name",
+      "labelHint": "Page 1. Part I. Decedent and Executor. 1a. Decedent's first name and middle initial (and maiden name",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "last_name",
+      "labelHint": "1b. Decedent's last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Decedent's social security no. First 3 digits.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Middle 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Last 4 digits.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "city",
+      "labelHint": "3a. City, town, or post office. For foreign addresses, also complete lines 3e, 3f, and 3g.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3b. County.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "state",
+      "labelHint": "3c. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "zip_code",
+      "labelHint": "3d. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "full_name",
+      "labelHint": "3e. Foreign country name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "state",
+      "labelHint": "3f. Foreign province/state/county.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "zip_code",
+      "labelHint": "3g. Foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "4. Year domicile established.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "date",
+      "labelHint": "5. Date of birth.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "date",
+      "labelHint": "6. Date of death.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "full_name",
+      "labelHint": "7a. Name of executor.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7b. Executor's T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "street_address",
+      "labelHint": "7c. Executor’s address (number and street).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "street_address",
+      "labelHint": "7d. Apt. or suite no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "city",
+      "labelHint": "7e. City, town, or post office. For foreign addresses, also complete lines 7h, 7i, and 7j.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "state",
+      "labelHint": "7f. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "zip_code",
+      "labelHint": "7g. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "full_name",
+      "labelHint": "7h. Foreign country name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "state",
+      "labelHint": "7i. Foreign province/state/county.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "zip_code",
+      "labelHint": "7j. Foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "phone_number",
+      "labelHint": "7k. Executor's phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "full_name",
+      "labelHint": "8a. Name and location of court where will was probated or estate administered.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8b. Location of court where will was probated or estate administered.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8c. Case number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "date",
+      "labelHint": "14b. If line 14a is checked, enter the filing date(s) of the initial section 2053 protective claim(s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Tax Computation (see instructions). 1. Total gross estate less exclusion from Part V, item 13.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Tentative total allowable deductions from Part V, item 24.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3a. Tentative taxable estate. Subtract line 2 from line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "state",
+      "labelHint": "3b. State death tax deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3c. Taxable estate. Subtract line 3b from line 3a.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Adjusted taxable gifts. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Add lines 3c and 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Tentative tax on the amount on line 5 from Table A in the instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Total gift tax paid or payable. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Gross estate tax. Subtract line 7 from line 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9a. Basic exclusion amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9b. Deceased spousal unused exclusion (D S U E) amount from predeceased spouse(s), if any, from Part",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9c. Restored exclusion amount. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9d. Applicable exclusion amount. Add lines 9a, 9b, and 9c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9e. Applicable credit amount. Tentative tax on the amount in line 9d from Table A in the instruction",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Adjustment to applicable credit amount. Do not enter more than $6,000. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Allowable applicable credit amount. Subtract line 10 from line 9e.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Subtract line 11 from line 8. If zero or less, enter -0-.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I I. Tax Computation (see instructions) (continued). 13. Credit for foreign death taxes",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Credit for tax on prior transfers from Schedule Q (Form 706).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Credit for pre-1977 federal gift taxes under section 2012.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Marital credit under the 1995 Canadian Protocol.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Total credits. Add lines 13 through 16.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Net estate tax. Subtract line 17 from line 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Generation-skipping transfer (G S T) taxes payable from Schedule R (Form 706), Part I I, line 11",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Total transfer taxes. Add lines 18 and 19.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Prior payments. Explain in an attached statement.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. If the amount on line 20 is more than the amount on line 21, subtract line 21 from line 20. Tax ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23a. Overpayment. If the amount on line 21 is more than the amount on line 20, subtract line 20 from",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Routing_Number[0].f2_12[0]",
+      "fieldType": "routing_number",
+      "labelHint": "23b. Routing number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Account_Number[0].f2_13[0]",
+      "fieldType": "account_number",
+      "labelHint": "23d. Account number.",
+      "required": false,
+      "maxLength": 17
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm’s address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "4. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I V. General Information (see instructions). Note. Attach the necessary supplemental documents. 1a. Death certificate number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Death certificate issuing authority.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
+      "fieldType": "occupation",
+      "labelHint": "2a. Decedent’s business or occupation or former business or occupation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[3]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[4]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].f3_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "3b. For all prior marriages, list the information below. Under column (i v), indicate whether the ma",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].f3_5[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 1. Column: (i i) Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].f3_6[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (i i i) Date marriage ended.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].c3_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].c3_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].c3_7[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].f3_7[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (i) Name of former spouse(s).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].f3_8[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 2. Column: (i i) Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].f3_9[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (i i i) Date marriage ended.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].c3_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].c3_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].c3_8[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].f3_10[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (i) Name of former spouse(s).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].f3_11[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 3. Column: (i i) Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].f3_12[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (i i i) Date marriage ended.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].c3_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].c3_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].c3_9[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].f3_13[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (i) Name of former spouse(s).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].f3_14[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 4. Column: (i i) Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].f3_15[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (i i i) Date marriage ended.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].c3_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].c3_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].c3_10[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Column: (i v) Death.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
+      "fieldType": "full_name",
+      "labelHint": "4a. Surviving spouse's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
+      "fieldType": "ssn",
+      "labelHint": "4b. Social security number. First 3 digits.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Middle 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Last 4 digits.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Amount surviving spouse received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_21[0]",
+      "fieldType": "full_name",
+      "labelHint": "5a. Individuals (other than the surviving spouse), trusts, or other estates who receive benefits fro",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (i i) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_23[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: 1. Column: (i i i) Relationship to decedent.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (i v) Amount received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_25[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column:(i) Name of individual, trust, or estate receiving $5,000 or more.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (i i) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_27[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: 2. Column: (i i i) Relationship to decedent.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (i v) Amount received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_29[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (i) Name of individual, trust, or estate receiving $5,000 or more.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (i i) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_31[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: 3. Column: (i i i) Relationship to decedent.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (i v) Amount received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_33[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (i) Name of individual, trust, or estate receiving $5,000 or more.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (i i) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_35[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: 4. Column: (i i i) Relationship to decedent.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (i v) Amount received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_37[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (i) Name of individual, trust, or estate receiving $5,000 or more.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (i i) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_39[0]",
+      "fieldType": "relationship",
+      "labelHint": "Row: 5. Column: (i i i) Relationship to decedent.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (i v) Amount received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. Total from attachment, if necessary.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. All unascertainable beneficiaries and those who receive less than $5,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. Total. Add amounts in column (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "8a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8b. Period(s) covered.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8c. Internal Revenue office(s) where filed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "9a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[1]",
+      "fieldType": "checkbox",
+      "labelHint": "9a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "9b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[1]",
+      "fieldType": "checkbox",
+      "labelHint": "9b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[1]",
+      "fieldType": "checkbox",
+      "labelHint": "10. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "11a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "11b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "12. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "12. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "13a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "13b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "13c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "13d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13e. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "13e. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13f. If “Yes” to line 13e, provide the E I N for the entity in which an interest was transferred/sol",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "14. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "14. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "15. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "15. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "16. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "16. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "17. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "17. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line1[0].f4_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part V. Recapitulation. Note. If estimating the value of one or more assets pursuant to the special ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line1[0].f4_3[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Total real estate. Schedule A, line 4. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line2[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Total stocks and bonds. Schedule B, line 4. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line2[0].f4_5[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Total stocks and bonds. Schedule B, line 4. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line3[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total mortgage, notes, and cash. Schedule C, line 4. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line3[0].f4_7[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Total mortgage, notes, and cash. Schedule C, line 4. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line4[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Total insurance on the decedent's life. Schedule D, line 4. Attach Form(s) 712. Column: Alte",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line4[0].f4_9[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Total insurance on the decedent's life. Schedule D, line 4. Attach Form(s) 712. Column: Valu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line5[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Total jointly owned property. Schedule E, line 10. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line5[0].f4_11[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Total jointly owned property. Schedule E, line 10. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line6[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Total other miscellaneous property. Schedule F, line 7. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line6[0].f4_13[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 6. Total other miscellaneous property. Schedule F, line 7. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line7[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Total transfers during the decedent's lifetime. Schedule G, line 5. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line7[0].f4_15[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7. Total transfers during the decedent's lifetime. Schedule G, line 5. Column: Value at date of",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line8[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Total powers of appointment. Schedule H, line 4. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line8[0].f4_17[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 8. Total powers of appointment. Schedule H, line 4. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line9[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Total annuities. Schedule I, line 5. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line9[0].f4_19[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 9. Total annuities. Schedule I, line 5. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line10[0].f4_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line10[0].f4_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line11[0].f4_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Total gross estate. Add items 1 through 10. Column: Alternate value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line11[0].f4_23[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 11. Total gross estate. Add items 1 through 10. Column: Value at date of death.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line12[0].f4_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Total qualified conservation easement exclusion. Schedule U, line 20. Column: Alternate val",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line12[0].f4_25[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 12. Total qualified conservation easement exclusion. Schedule U, line 20. Column: Value at date",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line13[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Total gross estate less exclusion. Subtract item 12 from item 11. Enter here and on Part I ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line13[0].f4_27[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 13. Total gross estate less exclusion. Subtract item 12 from item 11. Enter here and on Part I ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line14[0].f4_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Deductions from the applicable schedules of Form 706. Row: 14. Total funeral expenses and expenses i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line15[0].f4_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Total debts of the decedent. Schedule K, line 6. Column: Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line16[0].f4_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Total mortgages and liens on, or in respect of, any property of the decedent. Schedule K, l",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line17[0].f4_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Add items 14 through 16. Column: Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line18[0].f4_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Allowable amount of deductions from item 17. See instructions. Column: Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line19[0].f4_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Total net losses during administration. Schedule L, line 4. Column: Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line20[0].f4_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. Total expenses incurred in administering property not subject to claims. Schedule L, line 8",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line21[0].f4_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. Total amount of property interests for which a marital deduction is being claimed. Schedule",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line22[0].f4_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. Total charitable, public, and similar gifts and bequests. Schedule O, line 8. Column: Amoun",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line23[0].f4_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. Estimated value of deductible assets subject to the special rule of Reg. section 20.2010-2(",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line24[0].f4_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. Tentative total allowable deductions. Add items 18 through 23. Enter here and on Part I I, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Section C—D S U E Amount Portable to the Surviving Spouse (To be completed by the estate of a decede",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the value of the cumulative lifetime gifts on which tax was paid or payable. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Add lines 1 and 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter the amount from Part I I, line 10.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Divide the amount on line 4 by 40% (0.40). If zero or less, enter -0-.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Subtract line 5 from line 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Enter the amount from Part I I, line 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Subtract line 7 from line 6. If zero or less, enter -0-.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Enter the amount from Part I I, line 9a.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. D S U E amount portable to surviving spouse. Enter the smaller of line 8 or line 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_11[0]",
+      "fieldType": "full_name",
+      "labelHint": "Section D—D S U E Amount Received From Predeceased Spouse(s) (To be completed by the estate of a dec",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_12[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].c5_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].c5_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_17[0]",
+      "fieldType": "full_name",
+      "labelHint": "2 D S U E received from other predeceased spouse(s) and used by decedent: Row: 1. Column: A. Name of",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_18[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].c5_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].c5_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_21[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_22[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_23[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].c5_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].c5_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_26[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_27[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_28[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].c5_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].c5_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_31[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_32[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_33[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].c5_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].c5_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_37[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_38[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].c5_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 5. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].c5_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 5. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_41[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_42[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 6. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_43[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 6. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].c5_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 6. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].c5_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 6. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_46[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_47[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 7. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_48[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].c5_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 7. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].c5_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 7. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_51[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_52[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 8. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_53[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 8. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].c5_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 8. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].c5_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 8. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_56[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_57[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 9. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_58[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 9. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].c5_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 9. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].c5_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 9. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_61[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_62[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 10. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_63[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 10. Column: B. Date of death (enter as m m/d d/y y).",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].c5_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 10. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].c5_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 10. Column: C. Portability election made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: D. If \"Yes,\" D S U E amount received from spouse.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: E. D S U E amount applied by decedent to lifetime gifts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_66[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Total of all D S U E amounts from predeceased spouse(s) applied. Add line 2, column E.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Add line 3 and line 1, column D. Enter here and on Part I I, line 9b.",
+      "required": false
+    }
+  ]
+}

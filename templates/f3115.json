@@ -1,0 +1,2364 @@
+{
+  "formId": "f3115",
+  "displayName": "Form 3115",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3115.pdf",
+  "generatedAt": "2026-04-06T21:46:36.515Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name of filer (name of parent corporation if a consolidated group) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number, Street, and room or suite no. If a P.O. box, see the instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identification number (see instructions).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Principal business activity code number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "date",
+      "labelHint": "Tax year of change begins (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "Tax year of change ends (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of contact person (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of applicant(s) (if different than filer) and identification number(s) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Contact person's telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[3]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[4]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[5]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Exempt organization. Enter Code section:..",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[6]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[7]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[8]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[9]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[10]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].c1_4[11]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other (specify): Line 1 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TypeOfApplicant[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 3 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other (specify): Line 1 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 3 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Information for Automatic Change Request. 1. Enter the applicable designated automatic accounting method change number (“D C N”) for the requested automatic change. Enter only one D C N, except as provided for in guidance published by the I R S. If the requested change has no D C N, check “Other,” and provide both a description of the change and a citation of the I R S guidance providing the automatic change. See instructions. a. (1) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (2) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (3) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (4) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (5) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (6) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (7) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (8) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (9) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (10) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (11) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. (12) D C N:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Description:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "full_name",
+      "labelHint": "Sign Here. Name and title (print or type).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "full_name",
+      "labelHint": "Preparer (other than filer/applicant). Print/Type preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "6c. Enter the name and telephone number of the examining agent and the tax year(s) under examination",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "phone_number",
+      "labelHint": "6c. Telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "6c. Tax year(s).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[3]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[4]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[5]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[6]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "date",
+      "labelHint": "7b. 120 day: Date examination ended.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[7]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "date",
+      "labelHint": "7b. C A P: Date member joined group.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "8c. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "phone_number",
+      "labelHint": "8c. Telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "8c. Tax year(s).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_14[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. If the applicant is changing to either the overall cash method, an overall accrual method, or i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. 1st preceding year ended: yr.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. 2nd preceding year ended: mo.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. 2nd preceding year ended: yr.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. 3rd preceding year ended: mo.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. 3rd preceding year ended: yr.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. 1st preceding year ended: $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19a. 2nd preceding year ended: $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19 a. 3rd preceding year ended: $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19b. If the applicant is changing its method of accounting for any long-term contract subject to sec",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19b. 4th preceding year ended: yr.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19b. 4th preceding year ended: $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24a. Enter the amount of user fee attached to this application (see instructions). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_0[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_0[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "26. Enter the section 481(a) adjustment. Indicate whether the adjustment is an increase (+) or a dec",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "27. Is the applicant required to take into account in the year of change any remaining portion of a ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_3[0]",
+      "fieldType": "state",
+      "labelHint": "2. Enter the following amounts as of the close of the tax year preceding the year of change. If none",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Income received or reported before it was earned (such as advanced payments). Attach a descripti",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2c. Expenses accrued but not paid (such as accounts payable). Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2d. Prepaid expenses previously deducted. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2e. Supplies on hand previously deducted and/or not previously reported. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2f. Inventory on hand previously deducted and/or not previously reported. Complete Schedule D, Part ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2g. Other amounts (specify). Attach a description of the item and the legal basis for its inclusion in the calculation of the section 481(a) adjustment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2g. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2h. Net section 481(a) adjustment (Combine lines 2a–2g.) Indicate whether the adjustment is an incre",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row1[0].c6_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row1[0].c6_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row1[0].c6_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row2[0].c6_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row2[0].c6_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row2[0].c6_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row3[0].c6_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row3[0].c6_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row3[0].c6_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row4[0].c6_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row4[0].c6_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row4[0].c6_22[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row5[0].c6_23[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row5[0].c6_24[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row5[0].c6_25[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row6[0].c6_26[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row6[0].c6_27[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row6[0].c6_28[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row7[0].c6_29[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row7[0].c6_30[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row7[0].c6_31[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row8[0].c6_32[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row8[0].c6_33[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row8[0].c6_34[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row9[0].c6_35[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row9[0].c6_36[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Row9[0].c6_37[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "4b. Enter the value at the end of the tax year preceding the year of change. Inventory Method Being ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Inventory Method Being Changed. Proposed method. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow1[0].f7_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 7. Part I I I. Method of Cost Allocation (Complete this part if the requested change involves either property subject to section 263A or long-term contracts as described in section 460). See instructions). Section B–Direct and Indirect Costs Required To Be Allocated. Check the appropriate boxes showing the costs that are or will be fully included, to the extent required, in the cost of real or tangible personal property produced or property acquired for resale under section 263A or allocated to long-term contracts under section 460. Mark “N/A” in a box if those costs are not incurred by the applicant. If a box is not checked, it is assumed that those costs are not fully included to the extent required. Attach an explanation for boxes that are not checked. Row: 1. Direct material. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow1[0].f7_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Direct material. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow2[0].f7_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Direct labor. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow2[0].f7_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Direct labor. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow3[0].f7_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Indirect labor. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow3[0].f7_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Indirect labor. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow4[0].f7_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Officers’ compensation (not including selling activities). Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow4[0].f7_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Officers’ compensation (not including selling activities). Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow5[0].f7_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Pension and other related costs. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow5[0].f7_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Pension and other related costs. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow6[0].f7_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Employee benefits. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow6[0].f7_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Employee benefits. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow7[0].f7_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Indirect materials and supplies. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow7[0].f7_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Indirect materials and supplies. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow8[0].f7_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Purchasing costs. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow8[0].f7_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Purchasing costs. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow9[0].f7_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Handling, processing, assembly, and repackaging costs. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow9[0].f7_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Handling, processing, assembly, and repackaging costs. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow10[0].f7_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Off site storage and warehousing costs. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow10[0].f7_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Off site storage and warehousing costs. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow11[0].f7_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Depreciation, amortization, and cost recovery allowance for equipment and facilities placed in service and not temporarily idle. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow11[0].f7_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Depreciation, amortization, and cost recovery allowance for equipment and facilities placed in service and not temporarily idle. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow12[0].f7_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Depletion. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow12[0].f7_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Depletion. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow13[0].f7_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Rent. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow13[0].f7_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Rent. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow14[0].f7_27[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 14. Taxes other than state, local, and foreign income taxes. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow14[0].f7_28[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 14. Taxes other than state, local, and foreign income taxes. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow15[0].f7_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Insurance. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow15[0].f7_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Insurance. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow16[0].f7_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Utilities. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow16[0].f7_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Utilities. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow17[0].f7_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Maintenance and repairs that relate to a production, resale, or long-term contract activity. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow17[0].f7_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Maintenance and repairs that relate to a production, resale, or long-term contract activity. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow18[0].f7_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Engineering and design costs (not including section 174 research and experimental expenses). Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow18[0].f7_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Engineering and design costs (not including section 174 research and experimental expenses). Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow19[0].f7_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Rework labor, scrap, and spoilage. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow19[0].f7_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Rework labor, scrap, and spoilage. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow20[0].f7_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. Tools and equipment. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow20[0].f7_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. Tools and equipment. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow21[0].f7_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. Quality control and inspection. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow21[0].f7_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. Quality control and inspection. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow22[0].f7_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. Bidding expenses incurred in the solicitation of contracts awarded to the applicant. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow22[0].f7_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. Bidding expenses incurred in the solicitation of contracts awarded to the applicant. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow23[0].f7_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. Licensing and franchise costs. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow23[0].f7_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. Licensing and franchise costs. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow24[0].f7_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. Capitalizable service costs (including mixed service costs). Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow24[0].f7_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. Capitalizable service costs (including mixed service costs). Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow25[0].f7_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 25. Administrative costs (not including any costs of selling or any return on capital). Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow25[0].f7_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 25. Administrative costs (not including any costs of selling or any return on capital). Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow26[0].f7_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. Research and experimental expenses attributable to long-term contracts. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow26[0].f7_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. Research and experimental expenses attributable to long-term contracts. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow27[0].f7_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. Interest. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow27[0].f7_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. Interest. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow28[0].f7_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. Other costs (Attach a list of these costs.). Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow28[0].f7_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. Other costs (Attach a list of these costs.). Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow1[0].f8_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 8. Part I I I. Method of Cost Allocation (continued) See instructions. Section C—Other Costs No",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow1[0].f8_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Marketing, selling, advertising, and distribution expenses. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow2[0].f8_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Research and experimental expenses not included in Section B, line 26. Column: Present metho",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow2[0].f8_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Research and experimental expenses not included in Section B, line 26. Column: Proposed meth",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow3[0].f8_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Bidding expenses not included in Section B, line 22. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow3[0].f8_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Bidding expenses not included in Section B, line 22. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow4[0].f8_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. General and administrative costs not included in Section B. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow4[0].f8_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. General and administrative costs not included in Section B. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow5[0].f8_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Income taxes. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow5[0].f8_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Income taxes. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow6[0].f8_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Cost of strikes. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow6[0].f8_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Cost of strikes. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow7[0].f8_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Warranty and product liability costs. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow7[0].f8_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Warranty and product liability costs. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow8[0].f8_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Section 179 costs. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow8[0].f8_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Section 179 costs. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow9[0].f8_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. On-site storage. Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow9[0].f8_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. On-site storage. Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow10[0].f8_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Depreciation, amortization, and cost recovery allowance not included in Section B, line 11.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow10[0].f8_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Depreciation, amortization, and cost recovery allowance not included in Section B, line 11.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow11[0].f8_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Other costs (Attach a list of these costs.). Column: Present method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table[0].BodyRow11[0].f8_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Other costs (Attach a list of these costs.). Column: Proposed method.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. If “Yes,” enter the applicable section.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].f8_24[0]",
+      "fieldType": "state",
+      "labelHint": "3. If “Yes,” state the election made.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].c8_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

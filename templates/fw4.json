@@ -1,0 +1,319 @@
+{
+  "formId": "fw4",
+  "displayName": "Form W-4",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+  "generatedAt": "2026-04-06T21:46:30.204Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Step1a[0].f1_01[0]",
+      "fieldType": "first_name",
+      "labelHint": "Page 1. Step 1: Enter Personal Information. (a). First name and middle initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Step1a[0].f1_02[0]",
+      "fieldType": "last_name",
+      "labelHint": "1(a). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Step1a[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1(a). Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Step1a[0].f1_04[0]",
+      "fieldType": "city",
+      "labelHint": "1(a). City or town, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "1(b). Social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Step3_ReadOrder[0].f1_06[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Complete Steps 3–4(b) on Form W-4 for only ONE of these jobs. Leave those steps blank for the other ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Step3_ReadOrder[0].f1_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3(b). Multiply the number of other dependents by $500. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Add the amounts from Steps 3(a) and 3(b), plus the amount for other credits. Enter the total here",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Step 4: Other Adjustments. (a). Other income (not from jobs). If you want tax withheld for other inc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4(b). Deductions. Use the Deductions Worksheet on page 4 to determine the amount of deductions you m",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4(c). Extra withholding. Enter any additional tax you want withheld each pay period. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Employers Only. Employer's name and address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "date",
+      "labelHint": "First date of employment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_01[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Page 3. Step 2(b)—Multiple Jobs Worksheet (Keep for your records.). If you choose the option in Step",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_02[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Three jobs. If you and/or your spouse have three jobs at the same time, complete lines 2a, 2b, an",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Add the annual wages of the two highest paying jobs from line 2a together and use the total as t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2c. Add the amounts from lines 2a and 2b and enter the result on line 2c. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_05[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3. Enter the number of pay periods per year for the highest paying job. For example, if that job pay",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Divide the annual amount on line 1 or line 2c by the number of pay periods on line 3. Enter this ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_01[0]",
+      "fieldType": "filing_status",
+      "labelHint": "Page 4. Step 4(b)—Deductions Worksheet (Keep for your records.). See the Instructions for Schedule 1",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_02[0]",
+      "fieldType": "filing_status",
+      "labelHint": "1b. Qualified overtime compensation. If your total income is less than $150,000 ($300,000 if married",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_03[0]",
+      "fieldType": "filing_status",
+      "labelHint": "1c. Qualified passenger vehicle loan interest. If your total income is less than $100,000 ($200,000 ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Add lines 1a, 1b, and 1c. Enter the result here. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_05[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3. Seniors age 65 or older. If your total income is less than $75,000 ($150,000 if married filing jo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_06[0]",
+      "fieldType": "ssn",
+      "labelHint": "3b. Enter $6,000 if your spouse is age 65 or older before the end of the year and has a social secur",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Add lines 3a and 3b. Enter the result here. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Enter an estimate of your student loan interest, deductible I R A contributions, educator expense",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Itemized deductions. Enter an estimate of your 2026 itemized deductions from Schedule A (Form 104",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
+      "fieldType": "state",
+      "labelHint": "6b. State and local taxes. If your total income is less than $505,000 ($252,500 if married filing se",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
+      "fieldType": "filing_status",
+      "labelHint": "6c. Home mortgage interest. If your home acquisition debt is less than $750,000 ($375,000 if married",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6d. Gifts to charities. Enter contributions in excess of 0.5% (0.005) of your total income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6e. Other itemized deductions. Enter the amount for other itemized deductions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Add lines 6a, 6b, 6c, 6d, and 6e. Enter the result here. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Limitation on itemized deductions. a. Enter your total income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8b. Subtract line 4 from line 8a. If line 4 is greater than line 8a, enter 0 here and on line 10. Sk",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_17[0]",
+      "fieldType": "filing_status",
+      "labelHint": "9. Enter: $768,700 if you’re married filing jointly or a qualifying surviving spouse. $640,600 if yo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. If line 9 is greater than line 8b, enter the amount from line 7. Otherwise, multiply line 7 by 9",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_19[0]",
+      "fieldType": "filing_status",
+      "labelHint": "11. Standard deduction. Enter: $32,200 if you’re married filing jointly or a qualifying surviving sp",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_20[0]",
+      "fieldType": "filing_status",
+      "labelHint": "12. Cash gifts to charities. If you take the standard deduction, enter cash contributions up to $1,0",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Add lines 11 and 12. Enter the result here. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. If line 10 is greater than line 13, subtract line 11 from line 10 and enter the result here. If ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Add lines 2, 4, 5, and 14. Enter the result here and in Step 4(b) of Form W-4. $.",
+      "required": false
+    }
+  ]
+}

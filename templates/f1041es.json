@@ -1,0 +1,713 @@
+{
+  "formId": "f1041es",
+  "displayName": "Form 1041-ES",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1041es.pdf",
+  "generatedAt": "2026-04-06T21:46:24.306Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 4. 2026 Tax Computation Worksheet Using Maximum Capital Gains Rates (Use this computation if th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the qualified dividends and net capital gain expected for 2026 (Reminder: Don't include any",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_3[0]",
+      "fieldType": "percentage",
+      "labelHint": "3. Enter the 28% rate gain expected for 2026.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter the unrecaptured section 1250 gain expected for 2026.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Add lines 3 and 4 and enter the smaller of that sum or the amount of net capital gain included on",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Subtract line 5 from line 2. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Subtract line 6 from line 1. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Enter the smaller of line 1 or $3,300.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Enter the smaller of line 7 or line 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10a. Subtract line 2 from line 1. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10b. Enter the smaller of line 1 or $11,700.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10c. Enter the smaller of line 7 or line 10b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Enter the larger of line 10a or line 10c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_14[0]",
+      "fieldType": "percentage",
+      "labelHint": "12. Tax on amount on line 11 from the 2026 Tax Rate Schedule.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: If the amounts on lines 8 and 9 are the same, skip lines 13 through 15 and go to line 16. 13. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Enter the amount from line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Subtract line 14 from line 13. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: If the amounts on lines 1 and 8 are the same, skip lines 16 through 37 and go to line 38. 16. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Enter the amount from line 15. If line 15 is blank, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Subtract line 17 from line 16. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Enter the smaller of line 1 or $16,250.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Add lines 11 and 15.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Subtract line 20 from line 19. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Enter the smaller of line 18 or line 21.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Multiply line 22 by 15% (0.15).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Enter the amount from line 16.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Add lines 15 and 22.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Subtract line 25 from line 24. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Multiply line 26 by 20% (0.20).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: If line 5 is zero or blank, skip lines 28 through 37 and go to line 38. 28. Enter the smaller ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Add lines 2 and 11.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Enter the amount from line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "31. Subtract line 30 from line 29. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "32. Subtract line 31 from line 28. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "33. Multiply line 32 by 25% (0.25).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: If line 3 is zero or blank, skip lines 34 through 37 and go to line 38. 34. Enter the amount f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "35. Add lines 11, 15, 22, 26, and 32.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "36. Subtract line 35 from line 34.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "37. Multiply line 36 by 28% (0.28).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "38. Add lines 12, 23, 27, 33, and 37.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_41[0]",
+      "fieldType": "percentage",
+      "labelHint": "39. Tax on the amount on line 1 from the 2026 Tax Rate Schedule.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "40. Tax. Enter the smaller of line 38 or line 39 here and on line 7 of the 2026 Estimated Tax Worksh",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 5. 2026 Estimated Tax Worksheet. Keep for Your Records. 1. Enter adjusted total income expected",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter any expected income distribution deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Enter any estate tax deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter exemption. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Add lines 2 through 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Taxable income of estate or trust. Subtract line 5 from line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_7[0]",
+      "fieldType": "percentage",
+      "labelHint": "7. Tax. Figure your tax on line 6 by using the 2026 Tax Rate Schedule below. (If the estate or trust",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Alternative minimum tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Add lines 7 and 8. Include any tax on lump-sum distributions from Form 4972.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Credits (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Subtract line 10 from line 9. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Other taxes (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. 2026 estimated tax. Add lines 11 and 12. Reduce this total by any credit you expect to claim on ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14a. Enter 90% of line 13 (66 and 2/3% for farmers and fishermen (fishers)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Enter the tax shown on the 2025 Form 1041 (110% of that amount if the estate’s or trust’s A G I",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14c. Required annual payment. Enter the smaller of line 14a or 14b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Income tax withheld and estimated to be withheld during 2026 and other refundable credits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Subtract line 15 from line 14c. Note: If line 13 minus line 15 is less than $1,000, the estate o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Installment amount. If the first required payment is due April 15, 2026, enter 1/4 of line 16 (m",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row1[0].f5_20[0]",
+      "fieldType": "date",
+      "labelHint": "Record of Estimated Tax Payments. Row: Payment no. 1. Column: (a) Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row1[0].f5_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 1. Column: (b) Check or money order number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row1[0].f5_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 1. Column: (c) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row1[0].f5_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 1. Column: (d) 2025 overpayment credit applied.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row1[0].f5_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 1. Column: (e) Total amount paid and credited (add (c) and (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row2[0].f5_25[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Payment no. 2. Column: (a) Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row2[0].f5_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 2. Column: (b) Check or money order number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row2[0].f5_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 2. Column: (c) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row2[0].f5_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 2. Column: (d) 2025 overpayment credit applied.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row2[0].f5_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 2. Column: (e) Total amount paid and credited (add (c) and (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row3[0].f5_30[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Payment no. 3. Column: (a) Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row3[0].f5_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 3. Column: (b) Check or money order number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row3[0].f5_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 3. Column: (c) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row3[0].f5_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 3. Column: (d) 2025 overpayment credit applied.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row3[0].f5_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 3. Column: (e) Total amount paid and credited (add (c) and (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row4[0].f5_35[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Payment no. 4. Column: (a) Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row4[0].f5_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 4. Column: (b) Check or money order number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row4[0].f5_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 4. Column: (c) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row4[0].f5_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 4. Column: (d) 2025 overpayment credit applied.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_RecordEstTaxPayments[0].Row4[0].f5_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Payment no. 4. Column: (e) Total amount paid and credited (add (c) and (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total. (c) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total. (d) 2025 overpayment credit applied.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total. (e) Total amount paid and credited (add (c) and (d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_43[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2026. Payment Voucher 4. File only if the estate or trust is making a payment of estimated tax. Retu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_45[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Fiscal-year filers—enter year ending (month and year).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_46[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Type or print. Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_47[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of estate or trust.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_48[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name and title of fiduciary.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_49[0]",
+      "fieldType": "street_address",
+      "labelHint": "Address of fiduciary (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_50[0]",
+      "fieldType": "city",
+      "labelHint": "City, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 7. 2026. Payment Voucher 3. File only if the estate or trust is making a payment of estimated t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Fiscal-year filers—enter year ending (month and year).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_4[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Type or print. Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of estate or trust.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name and title of fiduciary.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_7[0]",
+      "fieldType": "street_address",
+      "labelHint": "Address of fiduciary (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_8[0]",
+      "fieldType": "city",
+      "labelHint": "City, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2026. Payment Voucher 2. File only if the estate or trust is making a payment of estimated tax. Retu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Fiscal-year filers—enter year ending (month and year).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_12[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Type or print. Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_13[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of estate or trust.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name and title of fiduciary.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_15[0]",
+      "fieldType": "street_address",
+      "labelHint": "Address of fiduciary (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_16[0]",
+      "fieldType": "city",
+      "labelHint": "City, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_17[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2026. Payment Voucher 1. File only if the estate or trust is making a payment of estimated tax. Retu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Cents.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_19[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Fiscal-year filers—enter year ending (month and year).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_20[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Type or print. Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_21[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of estate or trust.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_22[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name and title of fiduciary.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_23[0]",
+      "fieldType": "street_address",
+      "labelHint": "Address of fiduciary (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_24[0]",
+      "fieldType": "city",
+      "labelHint": "City, state, and Z I P code.",
+      "required": false
+    }
+  ]
+}

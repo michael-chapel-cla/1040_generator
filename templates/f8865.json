@@ -1,0 +1,2981 @@
+{
+  "formId": "f8865",
+  "displayName": "Form 8865",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8865.pdf",
+  "generatedAt": "2026-04-06T21:46:21.357Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. Information furnished for the foreign partnership's tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].f1_2[0]",
+      "fieldType": "date",
+      "labelHint": ", 2025, and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].f1_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2-digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Filer's identification number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Filer's address (if you aren't filing this form with your tax return). Number and street. If P.O. bo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "street_address",
+      "labelHint": "Apt. or suite no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "city",
+      "labelHint": "City or town.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "state",
+      "labelHint": "State or province.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Country.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "zip_code",
+      "labelHint": "Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "B. Filer's tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "B. , 20. 2-digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "date",
+      "labelHint": "B. , and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "B. , 20. 2-digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "C. Filer's share of liabilities: Nonrecourse $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "C. Qualified nonrecourse financing $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "C. Other $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "full_name",
+      "labelHint": "D. If filer is a member of a consolidated group but not the parent, enter the following information ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "D. E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "D. Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow1[0].f1_22[0]",
+      "fieldType": "full_name",
+      "labelHint": "F. Information about certain other partners (see instructions). Row: 1. Column: (1) Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (2) Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (3) Identification number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow1[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow2[0].f1_25[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (1) Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow2[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (2) Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow2[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (3) Identification number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow2[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow2[0].c1_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].BodyRow2[0].c1_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "full_name",
+      "labelHint": "G1. Name and address of foreign partnership.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G2(a). E I N (if any).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G2(b). Reference I D number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G3. Country under whose laws organized.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "date",
+      "labelHint": "G4. Date of organization.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G5. Principal place of business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G6. Principal business activity code number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G7. Principal business activity.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G8a. Functional currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "percentage",
+      "labelHint": "G8b. Exchange rate (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "full_name",
+      "labelHint": "H. Provide the following information for the foreign partnership's tax year: 1. Name, address, and i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_13[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "H2. Service Center where Form 1065 is filed:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
+      "fieldType": "full_name",
+      "labelHint": "H3. Name and address of foreign partnership's agent in country of organization, if any.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "full_name",
+      "labelHint": "H4. Name and address of person(s) with custody of the books and records of the foreign partnership, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_14[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H5. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "H5. If “Yes,” enter the total amount of the disallowed deductions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_15[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_16[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "H8b. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "H8a. Enter the number of Forms 8858, Information Return of U.S. Persons With Respect to Foreign Disregarded Entities (F D Es) and Foreign Branches (F Bs), attached to this return. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. How is this partnership classified under the law of the country in which it’s organized?",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H10a. No. If “No,” skip question 10b.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_17[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H10a. No. If “No,” skip question 10b.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H10b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_18[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H10b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_01[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H11. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_01[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H11. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H12a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H12a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "date",
+      "labelHint": "H12b. Enter the amount of gross receipts derived from all sales of general property to the foreign p",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "date",
+      "labelHint": "H12c. Enter the amount of gross receipts derived from all sales of intangible property to the foreig",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "date",
+      "labelHint": "H12d. Enter the amount of gross receipts derived from all services provided to the foreign partnersh",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "H13. Enter the number of foreign partners subject to section 864(c)(8) as a result of transferring a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H14. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "H14. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm's address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow1[0].f2_11[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 1. Column: Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow1[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow1[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Identification number (if any).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow1[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow1[0].c2_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow2[0].f2_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Identification number (if any).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow2[0].c2_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA[0].BodyRow2[0].c2_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow1[0].f2_17[0]",
+      "fieldType": "full_name",
+      "labelHint": "Schedule A-1. Certain Partners of Foreign Partnership (see instructions). Row: 1. Column: Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow1[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow1[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Identification number (if any).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow1[0].c2_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow2[0].f2_20[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow2[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Identification number (if any).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-1[0].BodyRow2[0].c2_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow1[0].f2_23[0]",
+      "fieldType": "full_name",
+      "labelHint": "Schedule A-2. Foreign Partners of Section 721(c) Partnership (see instructions). Row: 1. Column: Nam",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow1[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow1[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Country of organization (if any).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow1[0].f2_26[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 1. Column: U.S. taxpayer identification number (if any).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow1[0].c2_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow1[0].f2_27[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1. Column: Percentage interest. Capital. %.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow1[0].f2_28[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1. Column: Percentage interest. Profits. %.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow2[0].f2_29[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: Name of foreign partner.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow2[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow2[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Country of organization (if any).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow2[0].f2_32[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 2. Column: U.S. taxpayer identification number (if any).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow2[0].c2_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow2[0].f2_33[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 2. Column: Percentage interest. Capital. %.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-2[0].BodyRow2[0].f2_34[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 2. Column: Percentage interest. Profits. %.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_15[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow1[0].f2_35[0]",
+      "fieldType": "full_name",
+      "labelHint": "Schedule A-3. Affiliation Schedule. List all partnerships (foreign or domestic) in which the foreign",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow1[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow1[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: E I N (if any).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow1[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Total ordinary income or loss.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow1[0].c2_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow2[0].f2_39[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow2[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow2[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: E I N (if any).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow2[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Total ordinary income or loss.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow2[0].c2_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 3. Schedule B. Income Statement—Trade or Business Income. Caution: Include only trade or busine",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Less returns and allowances.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1c. Total.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Cost of goods sold.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Gross profit. Subtract line 2 from line 1c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Ordinary income (loss) from other partnerships, estates, and trusts (attach statement).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Net farm profit (loss) (attach Schedule F (Form 1040)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Net gain (loss) from Form 4797, Part I I, line 17 (attach Form 4797).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Other income (loss) (attach statement).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Total income (loss). Combine lines 3 through 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Deductions (see instructions for limitations). 9. Salaries and wages (other than to partners) (less ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Guaranteed payments to partners.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Repairs and maintenance.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Bad debts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Rent.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Taxes and licenses.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Interest (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16a. Depreciation (if required, attach Form 4562).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16b. Less depreciation reported elsewhere on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Depletion. (Don't deduct oil and gas depletion.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Retirement plans, etc.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Employee benefit programs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Other deductions (attach statement).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Total deductions. Add the amounts shown in the far right column for lines 9 through 20.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Ordinary business income (loss) from trade or business activities. Subtract line 21 from line 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Tax and Payment. 23. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Schedule K. Partners' Distributive Share Items. Income (Loss). 1. Ordinary business income (loss) (S",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Net rental real estate income (loss) (attach Form 8825).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3a. Other gross rental income (loss).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3b. Expenses from other rental activities (attach statement).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3c. Other net rental income (loss). Subtract line 3b from line 3a.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Guaranteed payments: a. Services.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Capital.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Total. Add line 4a and line 4b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Dividends and dividend equivalents: a. Ordinary dividends.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Qualified dividends.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6c. Dividend equivalents.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Royalties.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Net short-term capital gain (loss) (attach Schedule D (Form 1065)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9a. Net long-term capital gain (loss) (attach Schedule D (Form 1065)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9b. Collectibles (28%) gain (loss).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9c. Unrecaptured section 1250 gain (attach statement).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Net section 1231 gain (loss) (attach Form 4797).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Other income (loss) (see instructions). (1) Type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. (2). Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Deductions. 12. Section 179 deduction (attach Form 4562).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13a. Contributions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13b. Investment interest expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13c. Section 59(e)(2) expenditures: (1) Type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13c. (2). Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13d. Other deductions (see instructions). (1) Type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13d. (2). Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page. 4. Schedule K. Partners' Distributive Share Items (continued). Self-Employment. 14a. Net earni",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Gross farming or fishing income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14c. Gross nonfarm income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Credits. 15a. Low-income housing credit (section 42(j)(5)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15b. Low-income housing credit (other).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Qualified rehabilitation expenditures (rental real estate) (attach Form 3468).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15d. Other rental real estate credits (see instructions). Type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15e. Other rental credits (see instructions). Type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15e. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15f. Other credits (see instructions). Type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15f. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "International. 16. Attach Schedule K-2 (Form 8865), Partners’ Distributive Share Items–International, and check this box to indicate that you are reporting items of international tax relevance.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Alternative Minimum Tax (A M T) Items. 17a. Post-1986 depreciation adjustment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17b. Adjusted gain or loss.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17c. Depletion (other than oil and gas).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17d. Oil, gas, and geothermal properties—gross income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17e. Oil, gas, and geothermal properties—deductions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17f. Other A M T items (attach statement).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other Information. 18a. Tax-exempt interest income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18b. Other tax-exempt income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18c. Nondeductible expenses.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19a. Distributions of cash and marketable securities.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19b. Distributions of other property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20a. Investment income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20b. Investment expenses.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Total foreign taxes paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line1[0].f4-27[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Schedule L. Balance Sheets per Books. (Not required if Item H11, page 1, is answered \"Yes.\") Assets.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line1[0].f4_28[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Cash. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line1[0].f4-29[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Cash. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line1[0].f4_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Cash. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2a[0].f4_31[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2a[0].f4-32[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2a[0].f4_33[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2a[0].f4-34[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2b[0].f4_35[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2b. Less allowance for bad debts. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2b[0].f4_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2b. Less allowance for bad debts. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2b[0].f4_37[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2b. Less allowance for bad debts. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line2b[0].f4_38[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2b. Less allowance for bad debts. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line3[0].f4-39[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Inventories. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line3[0].f4_40[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Inventories. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line3[0].f4-41[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Inventories. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line3[0].f4_42[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Inventories. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line4[0].f4-43[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. U.S. Government obligations. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line4[0].f4_44[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. U.S. Government obligations. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line4[0].f4-45[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. U.S. Government obligations. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line4[0].f4_46[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. U.S. Government obligations. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line5[0].f4-47[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Tax-exempt securities. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line5[0].f4_48[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Tax-exempt securities. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line5[0].f4-49[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Tax-exempt securities. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line5[0].f4_50[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Tax-exempt securities. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line6[0].f4-51[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Other current assets (attach statement). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line6[0].f4_52[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Other current assets (attach statement). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line6[0].f4-53[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Other current assets (attach statement). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line6[0].f4_54[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Other current assets (attach statement). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7a[0].f4-55[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7a. Loans to partners (or persons related to partners). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7a[0].f4_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7a[0].f4-57[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7a. Loans to partners (or persons related to partners). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7a[0].f4-58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7b[0].f4-59[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7b. Mortgage and real estate loans. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7b[0].f4_60[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7b. Mortgage and real estate loans. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7b[0].f4-61[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7b. Mortgage and real estate loans. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line7b[0].f4_62[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7b. Mortgage and real estate loans. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line8[0].f4-63[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8. Other investments (attach statement). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line8[0].f4_64[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8. Other investments (attach statement). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line8[0].f4-64[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8. Other investments (attach statement). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line8[0].f4_65[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8. Other investments (attach statement). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9a[0].f4_66[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9a. Buildings and other depreciable assets. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9a[0].f4-67[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9a. Buildings and other depreciable assets. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9a[0].f4_68[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9a. Buildings and other depreciable assets. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9a[0].f4-69[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9a. Buildings and other depreciable assets. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9b[0].f4_70[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9b. Less accumulated depreciation. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9b[0].f4_71[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9b. Less accumulated depreciation. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9b[0].f4_72[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9b. Less accumulated depreciation. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line9b[0].f4_73[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9b. Less accumulated depreciation. Column: 9b. End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10a[0].f4_74[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10a. Depletable assets. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10a[0].f4-75[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10a. Depletable assets. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10a[0].f4_76[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10a. Depletable assets. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10a[0].f4-77[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10a. Depletable assets. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10b[0].f4_78[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10b. Less accumulated depletion. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10b[0].f4_79[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10b. Less accumulated depletion. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10b[0].f4_80[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10b. Less accumulated depletion. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line10b[0].f4_81[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10b. Less accumulated depletion. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line11[0].f4-82[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11. Land (net of any amortization). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line11[0].f4_83[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11. Land (net of any amortization). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line11[0].f4-84[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11. Land (net of any amortization). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line11[0].f4-85[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11. Land (net of any amortization). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12a[0].f4_86[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12a. Intangible assets (amortizable only). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12a[0].f4-87[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12a. Intangible assets (amortizable only). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12a[0].f4_88[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12a. Intangible assets (amortizable only). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12a[0].f4-89[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12a. Intangible assets (amortizable only). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12b[0].f4_90[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12b. Less accumulated amortization. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12b[0].f4_91[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12b. Less accumulated amortization. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12b[0].f4-92[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12b. Less accumulated amortization. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_ScheduleL[0].Line12b[0].f4-93[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12b. Less accumulated amortization. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line13[0].f5_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Schedule L. Balance Sheets per Books. (Not required if Item H11, page 1, is answered \"Yes.\")",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line13[0].f5_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Other assets (attach statement). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line13[0].f5_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Other assets (attach statement). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line13[0].f5_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Other assets (attach statement). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line14[0].f5_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 14. Total assets. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line14[0].f5_6[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 14. Total assets. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line14[0].f5_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 14. Total assets. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line14[0].f5_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 14. Total assets. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line15[0].f5_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Liabilities and Capital. Row: 15. Accounts payable. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line15[0].f5_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 15. Accounts payable. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line15[0].f5_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 15. Accounts payable. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line15[0].f5_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 15. Accounts payable. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line16[0].f5_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 16. Mortgages, notes, bonds payable in less than 1 year. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line16[0].f5_14[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 16. Mortgages, notes, bonds payable in less than 1 year. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line16[0].f5_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 16. Mortgages, notes, bonds payable in less than 1 year. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line16[0].f5_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 16. Mortgages, notes, bonds payable in less than 1 year. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line17[0].f5_17[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 17. Other current liabilities (attach statement). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line17[0].f5_18[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 17. Other current liabilities (attach statement). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line17[0].f5_19[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 17. Other current liabilities (attach statement). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line17[0].f5_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 17. Other current liabilities (attach statement). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line18[0].f5_21[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 18. All nonrecourse loans. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line18[0].f5_22[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 18. All nonrecourse loans. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line18[0].f5_23[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 18. All nonrecourse loans. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line18[0].f5_24[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 18. All nonrecourse loans. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19a[0].f5_25[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. Loans from partners (or persons related to partners). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19a[0].f5_26[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. Loans from partners (or persons related to partners). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19a[0].f5_27[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. Loans from partners (or persons related to partners). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19a[0].f5_28[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19a. Loans from partners (or persons related to partners). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19b[0].f5_29[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. Mortgages, notes, bonds payable in 1 year or more. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19b[0].f5_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. Mortgages, notes, bonds payable in 1 year or more. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19b[0].f5_31[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. Mortgages, notes, bonds payable in 1 year or more. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line19b[0].f5_32[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19b. Mortgages, notes, bonds payable in 1 year or more. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line20[0].f5_33[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Other liabilities (attach statement). Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line20[0].f5_34[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Other liabilities (attach statement). Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line20[0].f5_35[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Other liabilities (attach statement). Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line20[0].f5_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Other liabilities (attach statement). Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line21[0].f5_37[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Partners’ capital accounts. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line21[0].f5_38[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Partners’ capital accounts. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line21[0].f5_39[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Partners’ capital accounts. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line21[0].f5_40[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Partners’ capital accounts. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line22[0].f5_41[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Total liabilities and capital. Column: Beginning of tax year. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line22[0].f5_42[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Total liabilities and capital. Column: Beginning of tax year. (b).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line22[0].f5_43[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Total liabilities and capital. Column: End of tax year. (c).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_ScheduleL[0].Line22[0].f5_44[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Total liabilities and capital. Column: End of tax year. (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line1[0].f5_45[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Schedule M. Balance Sheets for Interest Allocation. Row: 1. Total U.S. assets. Column: (a) Beginning",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line1[0].f5_46[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Total U.S. assets. Column: (b) End of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line2a[0].f5_47[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Total foreign assets: a. Passive category. Column: (a) Beginning of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line2a[0].f5_48[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2a. Passive category. Column: (b) End of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line2b[0].f5_49[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2b. General category. Column: (a) Beginning of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line2b[0].f5_50[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2b. General category. Column: (b) End of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line2c[0].f5_51[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2c. Other (attach statement). Column: (a) Beginning of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM[0].Line2c[0].f5_52[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2c. Other (attach statement). Column: (b) End of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Schedule M-1. Reconciliation of Income (Loss) per Books With Income (Loss) per Return. (Not required",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_54[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2. Income included on Schedule K, lines 1, 2, 3c, 5, 6a, 7, 8, 9a, 10, and 11, not recorded on books",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_55[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2. Income included on Schedule K, lines 1, 2, 3c, 5, 6a, 7, 8, 9a, 10, and 11, not recorded on books",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Guaranteed payments (other than health insurance).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_57[0]",
+      "fieldType": "tax_year",
+      "labelHint": "4. Expenses recorded on books this tax year not included on Schedule K, lines 1 through 13d, and 21 ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Travel and entertainment. $. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_60[0]",
+      "fieldType": "tax_year",
+      "labelHint": "4. Expenses recorded on books this tax year not included on Schedule K, lines 1 through 13d and 21.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Left[0].f5_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Add lines 1 through 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].TagCorrectingSubform[0].f5_62[0]",
+      "fieldType": "tax_year",
+      "labelHint": "6. Income recorded on books this tax year not included on Schedule K, lines 1 through 11 (itemize): ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].TagCorrectingSubform[0].f5_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6a. Line 2 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].TagCorrectingSubform[0].f5_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6a. Line 3 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].TagCorrectingSubform[0].f5_65[0]",
+      "fieldType": "tax_year",
+      "labelHint": "6. Income recorded on books this tax year not included on Schedule K, lines 1 through 11.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].f5_66[0]",
+      "fieldType": "tax_year",
+      "labelHint": "7. Deductions included on Schedule K, lines 1 through 13d, and 21, not charged against book income t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].f5_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7a. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].f5_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7a. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].f5_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7a. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].f5_70[0]",
+      "fieldType": "tax_year",
+      "labelHint": "7. Deductions included on Schedule K, lines 1 through 13d and 21 not charged against book income thi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].f5_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Add lines 6 and 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1Right[0].f5_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Income (loss). Subtract line 8 from line 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_73[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Schedule M-2. Analysis of Partners' Capital Accounts. (Not required if Item H11, page 1, is answered",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Capital contributed: a. Cash.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Net income (loss) per books.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Other increases (itemize): $. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Other increases.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Left[0].f5_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Add lines 1 through 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Distributions: a. Cash.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Other decreases (itemize): $. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Other decreases.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Add lines 6 and 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchM-2_Right[0].f5_89[0]",
+      "fieldType": "tax_year",
+      "labelHint": "9. Balance at end of tax year. Subtract line 8 from line 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line1[0].f6_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 6. Schedule N. Transactions Between Controlled Foreign Partnership and Partners or Other Related Entities. Important: Complete a separate Form 8865 and Schedule N for each controlled foreign partnership. Enter the totals for each type of transaction that occurred between the foreign partnership and the persons listed in columns (a) through (d). Transactions of foreign partnership. Row: 1. Sales of inventory. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line1[0].f6_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Sales of inventory. Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line1[0].f6_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Sales of inventory. Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line1[0].f6_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Sales of inventory. Column: (d) Any U.S. person with a 10% or more direct interest in the co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line2[0].f6_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Sales of property rights (patents, trademarks, etc.) Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line2[0].f6_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Sales of property rights (patents, trademarks, etc.) Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line2[0].f6_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Sales of property rights (patents, trademarks, etc.) Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line2[0].f6_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Sales of property rights (patents, trademarks, etc.) Column: (d) Any U.S. person with a 10% ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line3[0].f6_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Compensation received for technical, managerial, engineering, construction, or like services",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line3[0].f6_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Compensation received for technical, managerial, engineering, construction, or like services",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line3[0].f6_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Compensation received for technical, managerial, engineering, construction, or like services",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line3[0].f6_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Compensation received for technical, managerial, engineering, construction, or like services",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line4[0].f6_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Commissions received. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line4[0].f6_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Commissions received. Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line4[0].f6_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Commissions received. Column: (c) Any other foreign corporation or partnership controlling or controlled by the United States person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line4[0].f6_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Commissions received. Column: (d) Any U.S. person with a 10% or more direct interest in the ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line5[0].f6_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Rents, royalties, and license fees received. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line5[0].f6_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Rents, royalties, and license fees received. Column: (b) Any domestic corporation or partner",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line5[0].f6_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Rents, royalties, and license fees received. Column: (c) Any other foreign corporation or pa",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line5[0].f6_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Rents, royalties, and license fees received. Column: (d) Any U.S. person with a 10% or more ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line6[0].f6_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Distributions received. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line6[0].f6_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Distributions received. Column: (b) Any domestic corporation or partnership controlling or c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line6[0].f6_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Distributions received. Column: (c) Any other foreign corporation or partnership controlling",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line6[0].f6_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Distributions received. Column: (d) Any U.S. person with a 10% or more direct interest in th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line7[0].f6_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Interest received. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line7[0].f6_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Interest received. Column: (b) Any domestic corporation or partnership controlling or contro",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line7[0].f6_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Interest received. Column: (c) Any other foreign corporation or partnership controlling or c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line7[0].f6_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Interest received. Column: (d) Any U.S. person with a 10% or more direct interest in the con",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line8[0].f6_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Other. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line8[0].f6_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Other. Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line8[0].f6_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Other. Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line8[0].f6_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Other. Column: (d) Any U.S. person with a 10% or more direct interest in the controlled fore",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line9[0].f6_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Add lines 1 through 8. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line9[0].f6_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Add lines 1 through 8. Column: (b) Any domestic corporation or partnership controlling or co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line9[0].f6_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Add lines 1 through 8. Column: (c) Any other foreign corporation or partnership controlling ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line9[0].f6_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Add lines 1 through 8. Column: (d) Any U.S. person with a 10% or more direct interest in the",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line10[0].f6_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Purchases of inventory. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line10[0].f6_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Purchases of inventory. Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line10[0].f6_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Purchases of inventory. Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line10[0].f6_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Purchases of inventory. Column: (d) Any United States person with a 10% or more direct inte",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line11[0].f6_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Purchases of tangible property other than inventory. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line11[0].f6_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Purchases of inventory. Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line11[0].f6_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Purchases of inventory. Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line11[0].f6_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Purchases of inventory. Column: (d) Any U.S. person with a 10% or more direct interest in t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line12[0].f6_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Purchases of property rights (patents, trademarks, etc.) Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line12[0].f6_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Purchases of property rights (patents, trademarks, etc.) Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line12[0].f6_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Purchases of property rights (patents, trademarks, etc.) Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line12[0].f6_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Purchases of property rights (patents, trademarks, etc.) Column: (d) Any U.S. person with a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line13[0].f6_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Compensation paid for technical, managerial, engineering, construction, or like services. C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line13[0].f6_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Compensation paid for technical, managerial, engineering, construction, or like services. C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line13[0].f6_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Compensation paid for technical, managerial, engineering, construction, or like services. C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line13[0].f6_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Compensation paid for technical, managerial, engineering, construction, or like services. C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line14[0].f6_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Commissions paid. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line14[0].f6_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Commissions paid. Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line14[0].f6_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Commissions paid. Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line14[0].f6_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Commissions paid. Column: (d) Any U.S. person with a 10% or more direct interest in the con",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line15[0].f6_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Rents, royalties, and license fees paid. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line15[0].f6_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Rents, royalties, and license fees paid. Column: (b) Any domestic corporation or partnershi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line15[0].f6_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Rents, royalties, and license fees paid. Column: (c) Any other foreign corporation or partn",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line15[0].f6_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Rents, royalties, and license fees paid. Column: (d) Any U.S. person with a 10% or more dir",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line16[0].f6_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Distributions paid. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line16[0].f6_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Distributions paid. Column: (b) Any domestic corporation or partnership controlling or cont",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line16[0].f6_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Distributions paid. Column: (c) Any other foreign corporation or partnership controlling or",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line16[0].f6_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Distributions paid. Column: (d) Any U.S. person with a 10% or more direct interest in the c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line17[0].f6_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Interest paid. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line17[0].f6_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Interest paid. Column: (b) Any domestic corporation or partnership controlling or controlle",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line17[0].f6_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Interest paid. Column: (c) Any other foreign corporation or partnership controlling or cont",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line17[0].f6_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Interest paid. Column: (d) Any U.S. person with a 10% or more direct interest in the contro",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line18[0].f6_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Other. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line18[0].f6_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Other. Column: (b) Any domestic corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line18[0].f6_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Other. Column: (c) Any other foreign corporation or partnership controlling or controlled by the U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line18[0].f6_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Other. Column: (d) Any U.S. person with a 10% or more direct interest in the controlled for",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line19[0].f6_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Add lines 10 through 18. Column: (a) U.S. person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line19[0].f6_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Add lines 10 through 18. Column: (b) Any domestic corporation or partnership controlling or",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line19[0].f6_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Add lines 10 through 18. Column: (c) Any other foreign corporation or partnership controlli",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line19[0].f6_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Add lines 10 through 18. Column: (d) Any U.S. person with a 10% or more direct interest in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line20[0].f6_77[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Amounts borrowed (enter the maximum loan balance during the tax year). See instructions. Co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line20[0].f6_78[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Amounts borrowed (enter the maximum loan balance during the tax year). See instructions. Co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line20[0].f6_79[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Amounts borrowed (enter the maximum loan balance during the tax year). See instructions. Co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line20[0].f6_80[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Amounts borrowed (enter the maximum loan balance during the tax year). See instructions. Co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line21[0].f6_81[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Amounts loaned (enter the maximum loan balance during the tax year). See instructions. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line21[0].f6_82[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Amounts loaned (enter the maximum loan balance during the tax year). See instructions. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line21[0].f6_83[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Amounts loaned (enter the maximum loan balance during the tax year). See instructions. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchN[0].Line21[0].f6_84[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21. Amounts loaned (enter the maximum loan balance during the tax year). See instructions. Colu",
+      "required": false
+    }
+  ]
+}

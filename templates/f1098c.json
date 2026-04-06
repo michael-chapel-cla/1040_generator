@@ -1,0 +1,595 @@
+{
+  "formId": "f1098c",
+  "displayName": "Form 1098-C",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1098c.pdf",
+  "generatedAt": "2026-04-06T21:46:31.863Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 3. Copy C. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "DONEE’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DONEE'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DONOR'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "DONOR'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_8[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of contribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Odometer mileage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2b. Year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2c. Make.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2d. Model.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Vehicle or other identification number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4a. Donee certifies that vehicle was sold in arm's length transaction to unrelated party.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_14[0]",
+      "fieldType": "date",
+      "labelHint": "4b. Date of sale.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Gross proceeds from sale (see instructions). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Donee certifies that vehicle will not be transferred for money, other property, or services before completion of material improvements or significant intervening use.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. Donee certifies that vehicle is to be transferred to a needy individual for significantly below fair market value in furtherance of donee's charitable purpose.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. Donee certifies the following detailed description of material improvements or significant intervening use and duration of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Value of goods and services provided in exchange for the vehicle. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6c. If this box is checked, donee certifies that the goods and services consisted solely of intangible religious benefits.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6c. Describe the goods and services, if any, that were provided.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Under the law, the donor may not claim a deduction of more than $500 for this vehicle if this box is checked.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 3. Copy C. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "DONEE’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DONEE'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DONOR'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "DONOR'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_8[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of contribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Odometer mileage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2b. Year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2c. Make.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2d. Model.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Vehicle or other identification number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4a. Donee certifies that vehicle was sold in arm's length transaction to unrelated party.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_14[0]",
+      "fieldType": "date",
+      "labelHint": "4b. Date of sale.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Gross proceeds from sale (see instructions). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Donee certifies that vehicle will not be transferred for money, other property, or services before completion of material improvements or significant intervening use.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. Donee certifies that vehicle is to be transferred to a needy individual for significantly below fair market value in furtherance of donee's charitable purpose.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. Donee certifies the following detailed description of material improvements or significant intervening use and duration of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Value of goods and services provided in exchange for the vehicle. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6c. If this box is checked, donee certifies that the goods and services consisted solely of intangible religious benefits.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6c. Describe the goods and services, if any, that were provided.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Under the law, the donor may not claim a deduction of more than $500 for this vehicle if this box is checked.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 3. Copy C. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "DONEE’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DONEE'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "DONOR'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "DONOR'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_8[0]",
+      "fieldType": "date",
+      "labelHint": "1. Date of contribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Odometer mileage.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2b. Year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2c. Make.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2d. Model.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Vehicle or other identification number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4a. Donee certifies that vehicle was sold in arm's length transaction to unrelated party.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_14[0]",
+      "fieldType": "date",
+      "labelHint": "4b. Date of sale.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].RghtCol[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Gross proceeds from sale (see instructions). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Donee certifies that vehicle will not be transferred for money, other property, or services before completion of material improvements or significant intervening use.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. Donee certifies that vehicle is to be transferred to a needy individual for significantly below fair market value in furtherance of donee's charitable purpose.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. Donee certifies the following detailed description of material improvements or significant intervening use and duration of use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Value of goods and services provided in exchange for the vehicle. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6c. If this box is checked, donee certifies that the goods and services consisted solely of intangible religious benefits.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6c. Describe the goods and services, if any, that were provided.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Under the law, the donor may not claim a deduction of more than $500 for this vehicle if this box is checked.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

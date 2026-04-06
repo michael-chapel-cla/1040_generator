@@ -1,0 +1,2577 @@
+{
+  "formId": "f1095c",
+  "displayName": "Form 1095-C",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1095c.pdf",
+  "generatedAt": "2026-04-06T21:46:33.134Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_1[0]",
+      "fieldType": "first_name",
+      "labelHint": "Part I. Employee. 1. Name of employee. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_3[0]",
+      "fieldType": "last_name",
+      "labelHint": "1. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_4[0]",
+      "fieldType": "ssn",
+      "labelHint": "2. Social security number (S S N).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "3. Street address (including apartment no.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_6[0]",
+      "fieldType": "city",
+      "labelHint": "4. City or town.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_7[0]",
+      "fieldType": "state",
+      "labelHint": "5. State or province.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployeeName[0].f1_8[0]",
+      "fieldType": "zip_code",
+      "labelHint": "6. Country and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployerIssuer[0].f1_9[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Applicable Large Employer Member (Employer). 7. Name of employer.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployerIssuer[0].f1_10[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "8. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployerIssuer[0].f1_11[0]",
+      "fieldType": "street_address",
+      "labelHint": "9. Street address (including room or suite no.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployerIssuer[0].f1_12[0]",
+      "fieldType": "phone_number",
+      "labelHint": "10. Contact telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployerIssuer[0].f1_13[0]",
+      "fieldType": "city",
+      "labelHint": "11. City or town.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployerIssuer[0].f1_14[0]",
+      "fieldType": "state",
+      "labelHint": "12. State or province.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EmployerIssuer[0].f1_15[0]",
+      "fieldType": "zip_code",
+      "labelHint": "13. Country and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartII[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Employee Offer of Coverage. Employee’s Age on January 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartII[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Plan Start Month (enter 2-digit number):",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: All 12 Months.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Jan.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Feb.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Mar.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Apr.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: May.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: June.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: July.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Aug.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Sept.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Oct.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Nov.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Offer of Coverage (enter required code). Column: Dec.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: All 12 Months. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Jan. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Feb. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Mar. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Apr. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: May. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: June. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: July. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Aug. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Sept. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Oct. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Nov. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row2[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Employee Required Contribution (see instructions). Column: Dec. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: All 12 Months.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Jan.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Feb.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Mar.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Apr.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: May.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: June.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: July.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Aug.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Sept.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Oct.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Nov.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row3[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Section 4980H Safe Harbor and Other Relief (enter code, if applicable). Column: Dec.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table1[0].Row4[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIII[0].c3_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].f3_56[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 18. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].f3_57[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 18. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].f3_58[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 18. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].f3_59[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 18. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].f3_60[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 18. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row1[0].c3_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 18. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].f3_61[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 19. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].f3_62[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 19. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].f3_63[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 19. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].f3_64[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 19. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].f3_65[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 19. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_22[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_23[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_24[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_25[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_26[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row2[0].c3_27[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 19. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].f3_66[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 20. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].f3_67[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 20. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].f3_68[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 20. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].f3_69[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 20. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].f3_70[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 20. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_28[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_29[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_30[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_31[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_32[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_33[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_34[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_35[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_36[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_37[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_38[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_39[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row3[0].c3_40[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 20. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].f3_71[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 21. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].f3_72[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 21. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].f3_73[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 21. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].f3_74[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 21. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].f3_75[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 21. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_41[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_42[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_43[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_44[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_45[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_46[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_47[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_48[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_49[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_50[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_51[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_52[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row4[0].c3_53[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 21. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].f3_76[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 22. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].f3_77[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 22. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].f3_78[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 22. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].f3_79[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 22. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].f3_80[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 22. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_54[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_55[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_56[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_57[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_58[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_59[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_60[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_61[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_62[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_63[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_64[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_65[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row5[0].c3_66[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 22. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].f3_81[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 23. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].f3_82[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 23. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].f3_83[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 23. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].f3_84[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 23. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].f3_85[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 23. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_67[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_68[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_69[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_70[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_71[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_72[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_73[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_74[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_75[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_76[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_77[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_78[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row6[0].c3_79[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 23. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].f3_86[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 24. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].f3_87[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 24. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].f3_88[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 24. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].f3_89[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 24. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].f3_90[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 24. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_80[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_81[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_82[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_83[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_84[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_85[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_86[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_87[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_88[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_89[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_90[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_91[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row7[0].c3_92[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 24. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].f3_91[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 25. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].f3_92[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 25. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].f3_93[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 25. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].f3_95[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 25. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].f3_96[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 25. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_93[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_94[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_95[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_96[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_97[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_98[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_99[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_100[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_101[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_102[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_103[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_104[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row8[0].c3_105[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 25. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].f3_97[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 26. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].f3_98[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 26. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].f3_99[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 26. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].f3_100[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 26. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].f3_101[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 26. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_106[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_107[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_108[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_109[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_110[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_111[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_112[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_113[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_114[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_115[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_116[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_117[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row9[0].c3_118[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 26. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].f3_102[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 27. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].f3_103[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 27. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].f3_104[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 27. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].f3_105[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 27. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].f3_106[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 27. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_119[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_120[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_121[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_122[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_123[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_124[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_125[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_126[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_127[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_128[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_129[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_130[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row10[0].c3_131[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 27. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].f3_107[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 28. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].f3_108[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 28. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].f3_109[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 28. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].f3_110[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 28. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].f3_111[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 28. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_132[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_133[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_134[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_135[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_136[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_137[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_138[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_139[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_140[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_141[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_142[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_143[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row11[0].c3_144[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 28. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].f3_113[0]",
+      "fieldType": "first_name",
+      "labelHint": "Row: 29. Column: (a) Name of covered individual(s). First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].f3_114[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 29. Column: (a) Name of covered individual(s). Middle initial.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].f3_115[0]",
+      "fieldType": "last_name",
+      "labelHint": "Row: 29. Column: (a) Name of covered individual(s). Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].f3_116[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 29. Column: (b) S S N or other T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].f3_117[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 29. Column: (c) D O B (if S S N or other T I N is not available).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_145[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (d) Covered all 12 months.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_146[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Jan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_147[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Feb.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_148[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Mar.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_149[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Apr.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_150[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. May.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_151[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. June.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_152[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. July.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_153[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Aug.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_154[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Sept.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_155[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Oct.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_156[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Nov.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row12[0].c3_157[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 29. Column: (e) Months of coverage. Dec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].f3_118[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].f3_119[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].f3_120[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].f3_121[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].f3_122[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_158[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_159[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_160[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_161[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_162[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_163[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_164[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_165[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_166[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_167[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_168[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_169[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part3[0].Row13[0].c3_170[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

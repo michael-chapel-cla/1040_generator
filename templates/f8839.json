@@ -1,0 +1,708 @@
+{
+  "formId": "f8839",
+  "displayName": "Form 8839",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8839.pdf",
+  "generatedAt": "2026-04-06T21:46:19.839Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name(s) shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].f1_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I. Information About Your Eligible Child or Children—You must complete this part. See instructi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].f1_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Child 1. Column: (a) Child's name. Last.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].f1_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Child 1. Column: (b) Child's year of birth.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 1. Column: Check if child was— (c) born before 2008 and disabled.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 1. Column: Check if child was— (d) a child with special needs.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 1. Column: Check if child was— (e) a foreign child.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Child 1. Column: (f) Child's identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 1. Column: (g) Check if adoption became final in 2025 or earlier.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].f1_7[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Child 2. Column: (a) Child's name. First.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].f1_8[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Child 2. Column: (a) Child's name. Last.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].f1_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Child 2. Column: (b) Child's year of birth.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 2. Column: Check if child was— (c) born before 2008 and disabled.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 2. Column: Check if child was— (d) a child with special needs.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 2. Column: Check if child was— (e) a foreign child.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Child 2. Column: (f) Child's identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child2[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 2. Column: (g) Check if adoption became final in 2025 or earlier.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].f1_11[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Child 3. Column: (a) Child's name. First.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].f1_12[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Child 3. Column: (a) Child's name. Last.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].f1_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Child 3. Column: (b) Child's year of birth.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 3. Column: Check if child was— (c) born before 2008 and disabled.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 3. Column: Check if child was— (d) a child with special needs.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].c1_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 3. Column: Check if child was— (e) a foreign child.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Child 3. Column: (f) Child's identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartI[0].BodyRow_Child3[0].c1_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Child 3. Column: (g) Check if adoption became final in 2025 or earlier.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Child1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Caution: If the child was a foreign child, see Special rules in the instructions for line 1, column ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Child2[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Child3[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line3_ReadOrder[0].Line3Checkboxes_ReadOrder[0].c1_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Yes. See instructions for the amount to enter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line3_ReadOrder[0].Line3Checkboxes_ReadOrder[0].c1_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. Yes. See instructions for the amount to enter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Subtract line 3 from line 2. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Qualified adoption expenses. See instructions. Child 1. Caution: Your qualified adoption expenses may not be equal to the adoption expenses you paid in 2025.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Enter the smaller of line 4 or line 5. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Enter modified adjusted gross income. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line8_ReadOrder[0].c1_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8. Yes. Subtract $259,190 from line 7.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line8_ReadOrder[0].c1_14[1]",
+      "fieldType": "checkbox",
+      "labelHint": "8. Yes. Subtract $259,190 from line 7.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Divide line 8 by $40,000. Enter the result as a decimal (rounded to at least three places). Do no",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Numbers after the decimal.",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Multiply each amount on line 6 by line 9. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11a. Subtract line 10 from line 6. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11a. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11a. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11b. Enter the smaller of the amount on line 11a or $5,000. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11b. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11b. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11c. Add the amounts on line 11b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Add the amounts on line 11a.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Refundable adoption credit. Enter the amount from line 11(c) here and on Form 1040, 1040-SR, or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Subtract line 13 from line 12, if zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Credit carryforward, if any, from prior years. See your Adoption Credit Carryforward Worksheet i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Add lines 14 and 15.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Enter the amount from line 5 of the Credit Limit Worksheet in the instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Nonrefundable adoption credit. Enter the smaller of line 16 or line 17 here and on Schedule 3 (F",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Child1[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I I I. Employer-Provided Adoption Benefits. 19. Maximum exclusion per child. Enter $17,",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Child2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Child3[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line20_ReadOrder[0].Line20Checkboxes_ReadOrder[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "20. Yes. See instructions for the amount to enter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line20_ReadOrder[0].Line20Checkboxes_ReadOrder[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "20. Yes. See instructions for the amount to enter.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Subtract line 18 from line 17. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Employer-provided adoption benefits you received in 2025. This amount should be shown in box 12 ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Add the amounts on line 22.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Enter the smaller of line 19 or line 20. But if the child was a child with special needs and the",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line25_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Enter modified adjusted gross income (from the worksheet in the instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line26_ReadOrder[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "24. Yes. Subtract $259,190 from line 23.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line26_ReadOrder[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "24. Yes. Subtract $259,190 from line 23.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Divide line 24 by $40,000. Enter the result as a decimal (rounded to at least three places). Do ",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Numbers after the decimal.",
+      "required": false,
+      "maxLength": 5
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Multiply each amount on line 22 by line 25. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Excluded benefits. Subtract line 26 from line 22. Child 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Child 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Child 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Add the amounts on line 29.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line31_ReadOrder[0].Line29Checkboxes_ReadOrder[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "31. Yes. Subtract line 23 from line 30. Enter the result as a negative number. Also, enter the result on line 1f of Form 1040, 1040-S R, or Form 1040-N R.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line31_ReadOrder[0].Line29Checkboxes_ReadOrder[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "31. Yes. Subtract line 23 from line 30. Enter the result as a negative number. Also, enter the result on line 1f of Form 1040, 1040-S R, or Form 1040-N R.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "31. Amount.",
+      "required": false
+    }
+  ]
+}

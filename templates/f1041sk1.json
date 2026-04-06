@@ -1,0 +1,485 @@
+{
+  "formId": "f1041sk1",
+  "displayName": "Schedule K-1 (Form 1041)",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1041sk1.pdf",
+  "generatedAt": "2026-04-06T21:46:37.144Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "For calendar year 2025, or tax year beginning. 2-digit month.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Beginning. 2-digit day.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].SlashDate[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Beginning. 2025.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "ending. 2-digit month.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "ending. 2-digit day.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PageHeader[0].f1_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "ending. 4-digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].f1_6[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Part I. Information About the Estate or Trust. A. Estate's or trust's employer identification number",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].f1_7[0]",
+      "fieldType": "full_name",
+      "labelHint": "B. Estate's or trust's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].f1_8[0]",
+      "fieldType": "full_name",
+      "labelHint": "C. Fiduciary’s name, address, city, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].f1_9[0]",
+      "fieldType": "date",
+      "labelHint": "D. and enter the date it was filed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Information About the Beneficiary. F. Beneficiary's identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].f1_11[0]",
+      "fieldType": "full_name",
+      "labelHint": "G. Beneficiary's name, address, city, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LeftCol[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I I I. Beneficiary's Share of Current Year Income, Deductions, Credits, and Other Items. 1. Int",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Ordinary dividends.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Qualified dividends.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Net short-term capital gain.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4a. Net long-term capital gain.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_17[0]",
+      "fieldType": "percentage",
+      "labelHint": "4b. 28% rate gain.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Unrecaptured section 1250 gain.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Other portfolio and nonbusiness income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Ordinary business income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Net rental real estate income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Other rental income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Directly apportioned deductions. Line 1 of 3. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 1 of 3. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 2 of 3. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 2 of 3. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 3 of 3. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 3 of 3. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines1-10[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Estate tax deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": "11. Final year deductions. Line 1 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 1 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 2 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 2 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 3 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 3 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 4 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 4 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 5 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Line 5 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Alternative minimum tax adjustment. Line 1 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 1 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 2 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 2 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 3 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 3 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 4 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 4 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 5 of 5. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Line 5 of 5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Credits and credit recapture. Line 1 of 3. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Line 1 of 3. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Line 2 of 3. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Line 2 of 3. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Line 3 of 3. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Line 3 of 3. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Other information. Line 1 of 6. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 1 of 6. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 2 of 6. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 2 of 6. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 3 of 6. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 3 of 6. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 4 of 6. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 4 of 6. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 5 of 6. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 5 of 6. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 6 of 6. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].Lines11-14[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Line 6 of 6. Amount.",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,799 @@
+{
+  "formId": "f1099msc",
+  "displayName": "Form 1099-MISC",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099msc.pdf",
+  "generatedAt": "2026-04-06T21:46:31.161Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. Read only copy. Copy A. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 42
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Rents. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Royalties. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Other income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Fishing boat proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Medical and health care payments. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Substitute payments in lieu of dividends or interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Crop insurance proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Gross proceeds paid to an attorney. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Section 409A deferrals. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].TagCorrectingSubform[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Nonqualified deferred compensation. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Fish purchased for resale. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box16_ReadOrder[0].f1_22[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box16_ReadOrder[0].f1_23[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box17_ReadOrder[0].f1_24[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box17_ReadOrder[0].f1_25[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_26[0]",
+      "fieldType": "state",
+      "labelHint": "18. 1. State income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_27[0]",
+      "fieldType": "state",
+      "labelHint": "18. 2. State income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftColumn[0].f2_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftColumn[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftColumn[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftColumn[0].f2_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftColumn[0].f2_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftColumn[0].f2_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftColumn[0].f2_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 42
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Rents. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Royalties. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Other income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Fishing boat proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Medical and health care payments. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Substitute payments in lieu of dividends or interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Crop insurance proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Gross proceeds to an attorney. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Fish purchased for resale. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Section 409A deferrals. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].TagCorrectingSubform[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RightColumn[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Nonqualified deferred compensation. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box16_ReadOrder[0].f2_22[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box16_ReadOrder[0].f2_23[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box17_ReadOrder[0].f2_24[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box17_ReadOrder[0].f2_25[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_26[0]",
+      "fieldType": "state",
+      "labelHint": "18. 1. State income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "18. 2. State income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 42
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Rents. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Royalties. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Other income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Fishing boat proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Medical and health care payments. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Substitute payments in lieu of dividends or interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Crop insurance proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Gross proceeds to an attorney. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Fish purchased for resale. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Section 409A deferrals. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].TagCorrectingSubform[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightColumn[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Nonqualified deferred compensation. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box16_ReadOrder[0].f2_22[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box16_ReadOrder[0].f2_23[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box17_ReadOrder[0].f2_24[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box17_ReadOrder[0].f2_25[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_26[0]",
+      "fieldType": "state",
+      "labelHint": "18. 1. State income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "18. 2. State income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year. 4 digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 42
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Rents. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Royalties. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Other income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Fishing boat proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Medical and health care payments. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Substitute payments in lieu of dividends or interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Crop insurance proceeds. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Gross proceeds to an attorney. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Fish purchased for resale. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Section 409A deferrals. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].TagCorrectingSubform[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RightColumn[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Nonqualified deferred compensation. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box16_ReadOrder[0].f2_22[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box16_ReadOrder[0].f2_23[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box17_ReadOrder[0].f2_24[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box17_ReadOrder[0].f2_25[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State/Payer’s state no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_26[0]",
+      "fieldType": "state",
+      "labelHint": "18. 1. State income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "18. 2. State income. $.",
+      "required": false
+    }
+  ]
+}

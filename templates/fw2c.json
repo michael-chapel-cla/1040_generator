@@ -1,0 +1,3471 @@
+{
+  "formId": "fw2c",
+  "displayName": "Form W-2c",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw2c.pdf",
+  "generatedAt": "2026-04-06T21:46:29.860Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].BoxesA-B_ReadOrder[0].f1_01[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Page 1. Copy A. a. Employer's name, address, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].BoxesA-B_ReadOrder[0].f1_02[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "b. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].BoxC_ReadOrder[0].f1_03_Year[0]",
+      "fieldType": "tax_year",
+      "labelHint": "c. Tax year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].BoxC_ReadOrder[0].f1_03_Suff[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Form corrected. / W-2. (Enter A S, C M, G U, V I, or c if applicable.)",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "d. Employee's correct S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "e. Corrected S S N and/or name. (Check this box and complete boxes f and/or g if incorrect on form previously filed.).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Complete boxes f and/or g only if incorrect on form previously filed: f. Employee's previously repor",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "g. Employee's previously reported name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].BoxH_First_ReadOrder[0].f1_07[0]",
+      "fieldType": "first_name",
+      "labelHint": "h. Employee's first name and initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].BoxH_Last_ReadOrder[0].f1_08[0]",
+      "fieldType": "last_name",
+      "labelHint": "h. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "h. Suff.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].BoxI_ReadOrder[0].f1_10[0]",
+      "fieldType": "zip_code",
+      "labelHint": "i. Employee's address and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box1_Prev_ReadOrder[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: Only complete money fields that are being corrected. (Exception: For corrections involving M Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box1_Correct_ReadOrder[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 1. Wages, tips, other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box2_Prev_ReadOrder[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box3_Prev_ReadOrder[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box3_Correct_ReadOrder[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box4_Prev_ReadOrder[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box5_Prev_ReadOrder[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box5_Correct_ReadOrder[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box6_Prev_ReadOrder[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box7_Prev_ReadOrder[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box7_Correct_ReadOrder[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box8_Prev_ReadOrder[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box10_Prev_ReadOrder[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box10_Correct_ReadOrder[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box11_Prev_ReadOrder[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Boxes12a-d_ReadOrder[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box13_Prev_ReadOrder[0].Statutory_Prev[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Previously reported. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box13_Prev_ReadOrder[0].Retirement_Prev[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box13_Prev_ReadOrder[0].ThirdParty_Prev[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box13_Correct_ReadOrder[0].Statutory_Correct[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Correct information. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box13_Correct_ReadOrder[0].Retirement_Correct[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box13_Correct_ReadOrder[0].ThirdParty_Correct[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box14a_Prev_ReadOrder[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box14b_ReadOrder[0].f1_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box14b_ReadOrder[0].f1_52[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_53[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_54[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box15_Prev1_ReadOrder[0].f1_55[0]",
+      "fieldType": "state",
+      "labelHint": "State Correction Information. Previously reported. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box15_Prev1_ReadOrder[0].f1_56[0]",
+      "fieldType": "state",
+      "labelHint": "15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box15_Correct1_ReadOrder[0].f1_57[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box15_Correct1_ReadOrder[0].f1_58[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box15_Prev2_ReadOrder[0].f1_59[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box15_Prev2_ReadOrder[0].f1_60[0]",
+      "fieldType": "state",
+      "labelHint": "15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_61[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_62[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box16_Prev1_ReadOrder[0].f1_63[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box16_Correct1_ReadOrder[0].f1_64[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box16_Prev2_ReadOrder[0].f1_65[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_66[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box17_Prev1_ReadOrder[0].f1_67[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box17_Correct1_ReadOrder[0].f1_68[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box17_Prev2_ReadOrder[0].f1_69[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_70[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box18_Prev1_ReadOrder[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Locality Correction Information. Previously reported. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box18_Correct1_ReadOrder[0].f1_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box18_Prev2_ReadOrder[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box19_Prev1_ReadOrder[0].f1_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box19_Correct1_ReadOrder[0].f1_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box19_Prev2_ReadOrder[0].f1_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].f1_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box20_Prev1_ReadOrder[0].f1_79[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box20_Correct1_ReadOrder[0].f1_80[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box20_Prev2_ReadOrder[0].f1_81[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].Box20_Correct2_ReadOrder[0].f1_82[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].BoxesA-B_ReadOrder[0].f2_01[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Page 7. Copy D. a. Employer's name, address, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].BoxesA-B_ReadOrder[0].f2_02[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "b. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].BoxC_ReadOrder[0].f2_03_Year[0]",
+      "fieldType": "tax_year",
+      "labelHint": "c. Tax year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].BoxC_ReadOrder[0].f2_03_Suff[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Form corrected. / W-2. (Enter A S, C M, G U, V I, or c if applicable.)",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "d. Employee's correct S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "e. Corrected S S N and/or name. (Check this box and complete boxes f and/or g if incorrect on form previously filed.).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Complete boxes f and/or g only if incorrect on form previously filed: f. Employee's previously repor",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "g. Employee's previously reported name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].BoxH_First_ReadOrder[0].f2_07[0]",
+      "fieldType": "first_name",
+      "labelHint": "h. Employee's first name and initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].BoxH_Last_ReadOrder[0].f2_08[0]",
+      "fieldType": "last_name",
+      "labelHint": "h. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "h. Suff.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].BoxI_ReadOrder[0].f2_10[0]",
+      "fieldType": "zip_code",
+      "labelHint": "i. Employee's address and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box1_Prev_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: Only complete money fields that are being corrected. (Exception: For corrections involving M Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box1_Correct_ReadOrder[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 1. Wages, tips, other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box2_Prev_ReadOrder[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box3_Prev_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box3_Correct_ReadOrder[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box4_Prev_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box5_Prev_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box5_Correct_ReadOrder[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box6_Prev_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box7_Prev_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box7_Correct_ReadOrder[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box8_Prev_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box10_Prev_ReadOrder[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box10_Correct_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box11_Prev_ReadOrder[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Boxes12a-d_ReadOrder[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box13_Prev_ReadOrder[0].Statutory_Prev[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Previously reported. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box13_Prev_ReadOrder[0].Retirement_Prev[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box13_Prev_ReadOrder[0].ThirdParty_Prev[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box13_Correct_ReadOrder[0].Statutory_Correct[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Correct information. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box13_Correct_ReadOrder[0].Retirement_Correct[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box13_Correct_ReadOrder[0].ThirdParty_Correct[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box14a_Prev_ReadOrder[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box14b_ReadOrder[0].f2_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box14b_ReadOrder[0].f2_52[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_53[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_54[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box15_Prev1_ReadOrder[0].f2_55[0]",
+      "fieldType": "state",
+      "labelHint": "State Correction Information. Previously reported. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box15_Prev1_ReadOrder[0].f2_56[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box15_Correct1_ReadOrder[0].f2_57[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box15_Correct1_ReadOrder[0].f2_58[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box15_Prev2_ReadOrder[0].f2_59[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box15_Prev2_ReadOrder[0].f2_60[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_61[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_62[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box16_Prev1_ReadOrder[0].f2_63[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box16_Correct1_ReadOrder[0].f2_64[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box16_Prev2_ReadOrder[0].f2_65[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_66[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box17_Prev1_ReadOrder[0].f2_67[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box17_Correct1_ReadOrder[0].f2_68[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box17_Prev2_ReadOrder[0].f2_69[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_70[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box18_Prev1_ReadOrder[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Locality Correction Information. Previously reported. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box18_Correct1_ReadOrder[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box18_Prev2_ReadOrder[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box19_Prev1_ReadOrder[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box19_Correct1_ReadOrder[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box19_Prev2_ReadOrder[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box20_Prev1_ReadOrder[0].f2_79[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box20_Correct1_ReadOrder[0].f2_80[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].Box20_Prev2_ReadOrder[0].f2_81[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].f2_82[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].BoxesA-B_ReadOrder[0].f2_01[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Page 7. Copy D. a. Employer's name, address, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].BoxesA-B_ReadOrder[0].f2_02[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "b. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].BoxC_ReadOrder[0].f2_03_Year[0]",
+      "fieldType": "tax_year",
+      "labelHint": "c. Tax year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].BoxC_ReadOrder[0].f2_03_Suff[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Form corrected. / W-2. (Enter A S, C M, G U, V I, or c if applicable.)",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "d. Employee's correct S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "e. Corrected S S N and/or name. (Check this box and complete boxes f and/or g if incorrect on form previously filed.).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Complete boxes f and/or g only if incorrect on form previously filed: f. Employee's previously repor",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "g. Employee's previously reported name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].BoxH_First_ReadOrder[0].f2_07[0]",
+      "fieldType": "first_name",
+      "labelHint": "h. Employee's first name and initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].BoxH_Last_ReadOrder[0].f2_08[0]",
+      "fieldType": "last_name",
+      "labelHint": "h. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "h. Suff.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].BoxI_ReadOrder[0].f2_10[0]",
+      "fieldType": "zip_code",
+      "labelHint": "i. Employee's address and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box1_Prev_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: Only complete money fields that are being corrected. (Exception: For corrections involving M Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box1_Correct_ReadOrder[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 1. Wages, tips, other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box2_Prev_ReadOrder[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box3_Prev_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box3_Correct_ReadOrder[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box4_Prev_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box5_Prev_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box5_Correct_ReadOrder[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box6_Prev_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box7_Prev_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box7_Correct_ReadOrder[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box8_Prev_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box10_Prev_ReadOrder[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box10_Correct_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box11_Prev_ReadOrder[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Boxes12a-d_ReadOrder[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box13_Prev_ReadOrder[0].Statutory_Prev[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Previously reported. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box13_Prev_ReadOrder[0].Retirment_Prev[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box13_Prev_ReadOrder[0].ThirdParty_Prev[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box13_Correct_ReadOrder[0].Statutory_Correct[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Correct information. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box13_Correct_ReadOrder[0].Retirement_Correct[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box13_Correct_ReadOrder[0].ThirdParty_Correct[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box14a_Prev_ReadOrder[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box14b_Prev_ReadOrder[0].f2_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box14b_Prev_ReadOrder[0].f2_52[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_53[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_54[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box15_Prev1_ReadOrder[0].f2_55[0]",
+      "fieldType": "state",
+      "labelHint": "State Correction Information. Previously reported. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box15_Prev1_ReadOrder[0].f2_56[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box15_Correct1_ReadOrder[0].f2_57[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box15_Correct1_ReadOrder[0].f2_58[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box15_Prev2_ReadOrder[0].f2_59[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box15_Prev2_ReadOrder[0].f2_60[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_61[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_62[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box16_Prev1_ReadOrder[0].f2_63[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box16_Correct1_ReadOrder[0].f2_64[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box16_Prev2_ReadOrder[0].f2_65[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_66[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box17_Prev1_ReadOrder[0].f2_67[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box17_Correct1_ReadOrder[0].f2_68[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box17_Prev2_ReadOrder[0].f2_69[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_70[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box18_Prev1_ReadOrder[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Locality Correction Information. Previously reported. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box18_Correct1_ReadOrder[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box18_Prev2_ReadOrder[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box19_Prev1_ReadOrder[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box19_Correct1_ReadOrder[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box19_Prev2_ReadOrder[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box20_Prev1_ReadOrder[0].f2_79[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box20_Correct1_ReadOrder[0].f2_80[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].Box20_Prev2_ReadOrder[0].f2_81[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].f2_82[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].BoxesA-B_ReadOrder[0].f2_01[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Page 7. Copy D. a. Employer's name, address, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].BoxesA-B_ReadOrder[0].f2_02[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "b. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].BoxC_ReadOrder[0].f2_03_Year[0]",
+      "fieldType": "tax_year",
+      "labelHint": "c. Tax year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].BoxC_ReadOrder[0].f2_03_Suff[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Form corrected. / W-2. (Enter A S, C M, G U, V I, or c if applicable.)",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "d. Employee's correct S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "e. Corrected S S N and/or name. (Check this box and complete boxes f and/or g if incorrect on form previously filed.).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Complete boxes f and/or g only if incorrect on form previously filed: f. Employee's previously repor",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "g. Employee's previously reported name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].BoxH_First_ReadOrder[0].f2_07[0]",
+      "fieldType": "first_name",
+      "labelHint": "h. Employee's first name and initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].BoxH_Last_ReadOrder[0].f2_08[0]",
+      "fieldType": "last_name",
+      "labelHint": "h. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "h. Suff.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].BoxI_ReadOrder[0].f2_10[0]",
+      "fieldType": "zip_code",
+      "labelHint": "i. Employee's address and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box1_Prev_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: Only complete money fields that are being corrected. (Exception: For corrections involving M Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box1_Correct_ReadOrder[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 1. Wages, tips, other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box2_Prev_ReadOrder[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box3_Prev_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box3_Correct_ReadOrder[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box4_Prev_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box5_Prev_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box5_Correct_ReadOrder[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box6_Prev_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box7_Prev_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box7_Correct_ReadOrder[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box8_Prev_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box10_Prev_ReadOrder[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box10_Correct_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box11_Prev_ReadOrder[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Boxes12a-d_ReadOrder[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box13_Prev_ReadOrder[0].Statutory_Prev[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Previously reported. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box13_Prev_ReadOrder[0].Retirement_Prev[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box13_Prev_ReadOrder[0].ThirdParty_Prev[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box13_Correct_ReadOrder[0].Statutory_Correct[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Correct information. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box13_Correct_ReadOrder[0].Retirement_Correct[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box13_Correct_ReadOrder[0].ThirdParty_Correct[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box14a_Prev_ReadOrder[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box14b_Prev_ReadOrder[0].f2_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box14b_Prev_ReadOrder[0].f2_52[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_53[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_54[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box15_Prev1_ReadOrder[0].f2_55[0]",
+      "fieldType": "state",
+      "labelHint": "State Correction Information. Previously reported. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box15_Prev1_ReadOrder[0].f2_56[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box15_Correct1_ReadOrder[0].f2_57[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box15_Correct1_ReadOrder[0].f2_58[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box15_Prev2_ReadOrder[0].f2_59[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box15_Prev2_ReadOrder[0].f2_60[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_61[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_62[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box16_Prev1_ReadOrder[0].f2_63[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box16_Correct1_ReadOrder[0].f2_64[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box16_Prev2_ReadOrder[0].f2_65[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_66[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box17_Prev1_ReadOrder[0].f2_67[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box17_Correct1_ReadOrder[0].f2_68[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box17_Prev2_ReadOrder[0].f2_69[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_70[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box18_Prev1_ReadOrder[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Locality Correction Information. Previously reported. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box18_Correct1_ReadOrder[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box18_Prev2_ReadOrder[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box19_Prev1_ReadOrder[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box19_Correct1_ReadOrder[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box19_Prev2_ReadOrder[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box20_Prev1_ReadOrder[0].f2_79[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box20_Correct1_ReadOrder[0].f2_80[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].Box20_Prev2_ReadOrder[0].f2_81[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyC[0].f2_82[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].BoxesA-B_ReadOrder[0].f2_01[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Page 7. Copy D. a. Employer's name, address, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].BoxesA-B_ReadOrder[0].f2_02[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "b. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].BoxC_ReadOrder[0].f2_03_Year[0]",
+      "fieldType": "tax_year",
+      "labelHint": "c. Tax year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].BoxC_ReadOrder[0].f2_03_Suff[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Form corrected. / W-2. (Enter A S, C M, G U, V I, or c if applicable.)",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "d. Employee's correct S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "e. Corrected S S N and/or name. (Check this box and complete boxes f and/or g if incorrect on form previously filed.).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Complete boxes f and/or g only if incorrect on form previously filed: f. Employee's previously repor",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "g. Employee's previously reported name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].BoxH_First_ReadOrder[0].f2_07[0]",
+      "fieldType": "first_name",
+      "labelHint": "h. Employee's first name and initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].BoxH_Last_ReadOrder[0].f2_08[0]",
+      "fieldType": "last_name",
+      "labelHint": "h. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "h. Suff.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].BoxI_ReadOrder[0].f2_10[0]",
+      "fieldType": "zip_code",
+      "labelHint": "i. Employee's address and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box1_Prev_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: Only complete money fields that are being corrected. (Exception: For corrections involving M Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box1_Correct_ReadOrder[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 1. Wages, tips, other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box2_Prev_ReadOrder[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box3_Prev_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box3_Correct_ReadOrder[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box4_Prev_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box5_Prev_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box5_Correct_ReadOrder[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box6_Prev_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box7_Prev_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box7_Correct_ReadOrder[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box8_Prev_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box10_Prev_ReadOrder[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box10_Correct_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box11_Prev_ReadOrder[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Boxes12a-d_ReadOrder[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box13_Prev_ReadOrder[0].Statutory_Prev[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Previously reported. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box13_Prev_ReadOrder[0].Retirement_Prev[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box13_Prev_ReadOrder[0].ThirdParty_Prev[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box13_Correct_ReadOrder[0].Statutory_Correct[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Correct information. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box13_Correct_ReadOrder[0].Retirement_Correct[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box13_Correct_ReadOrder[0].ThirdParty_Correct[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box14a_Prev_ReadOrder[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box14b_Prev_ReadOrder[0].f2_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box14b_Prev_ReadOrder[0].f2_52[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_53[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_54[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box15_Prev1_ReadOrder[0].f2_55[0]",
+      "fieldType": "state",
+      "labelHint": "State Correction Information. Previously reported. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box15_Prev1_ReadOrder[0].f2_56[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box15_Correct1_ReadOrder[0].f2_57[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box15_Correct1_ReadOrder[0].f2_58[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box15_Prev2_ReadOrder[0].f2_59[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box15_Prev2_ReadOrder[0].f2_60[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_61[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_62[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box16_Prev1_ReadOrder[0].f2_63[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box16_Correct1_ReadOrder[0].f2_64[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box16_Prev2_ReadOrder[0].f2_65[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_66[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box17_Prev1_ReadOrder[0].f2_67[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box17_Correct1_ReadOrder[0].f2_68[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box17_Prev2_ReadOrder[0].f2_69[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_70[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box18_Prev1_ReadOrder[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Locality Correction Information. Previously reported. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box18_Correct1_ReadOrder[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box18_Prev2_ReadOrder[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box19_Prev1_ReadOrder[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box19_Correct1_ReadOrder[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box19_Prev2_ReadOrder[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box20_Prev1_ReadOrder[0].f2_79[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box20_Correct1_ReadOrder[0].f2_80[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].Box20_Prev2_ReadOrder[0].f2_81[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].f2_82[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].BoxesA-B_ReadOrder[0].f2_01[0]",
+      "fieldType": "employer_name",
+      "labelHint": "Page 7. Copy D. a. Employer's name, address, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].BoxesA-B_ReadOrder[0].f2_02[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "b. Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].BoxC_ReadOrder[0].f2_03_Year[0]",
+      "fieldType": "tax_year",
+      "labelHint": "c. Tax year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].BoxC_ReadOrder[0].f2_03_Suff[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "c. Form corrected. / W-2. (Enter A S, C M, G U, V I, or c if applicable.)",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "d. Employee's correct S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "e. Corrected S S N and/or name. (Check this box and complete boxes f and/or g if incorrect on form previously filed.).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_05[0]",
+      "fieldType": "ssn",
+      "labelHint": "Complete boxes f and/or g only if incorrect on form previously filed: f. Employee's previously repor",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "g. Employee's previously reported name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].BoxH_First_ReadOrder[0].f2_07[0]",
+      "fieldType": "first_name",
+      "labelHint": "h. Employee's first name and initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].BoxH_Last_ReadOrder[0].f2_08[0]",
+      "fieldType": "last_name",
+      "labelHint": "h. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "h. Suff.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].BoxI_ReadOrder[0].f2_10[0]",
+      "fieldType": "zip_code",
+      "labelHint": "i. Employee's address and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box1_Prev_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Note: Only complete money fields that are being corrected. (Exception: For corrections involving M Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box1_Correct_ReadOrder[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 1. Wages, tips, other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box2_Prev_ReadOrder[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 2. Federal income tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box3_Prev_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box3_Correct_ReadOrder[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 3. Social security wages.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box4_Prev_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 4. Social security tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box5_Prev_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box5_Correct_ReadOrder[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 5. Medicare wages and tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box6_Prev_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 6. Medicare tax withheld.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box7_Prev_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box7_Correct_ReadOrder[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 7. Social security tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box8_Prev_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 8. Allocated tips.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box10_Prev_ReadOrder[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box10_Correct_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 10. Dependent care benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box11_Prev_ReadOrder[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 11. Nonqualified plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12a_Prev_ReadOrder[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12a. See instructions for box 12. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12b_Prev_ReadOrder[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12c_Prev_ReadOrder[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12c. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].Box12d_Prev_ReadOrder[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 12d. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Boxes12a-d_ReadOrder[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12d. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box13_Prev_ReadOrder[0].Statutory_Prev[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Previously reported. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box13_Prev_ReadOrder[0].Retirement_Prev[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box13_Prev_ReadOrder[0].ThirdParty_Prev[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box13_Correct_ReadOrder[0].Statutory_Correct[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Correct information. 13. Statutory employee.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box13_Correct_ReadOrder[0].Retirement_Correct[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Retirement plan.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box13_Correct_ReadOrder[0].ThirdParty_Correct[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. Third-party sick pay.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box14a_Prev_ReadOrder[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 14a. Other (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box14b_Prev_ReadOrder[0].f2_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box14b_Prev_ReadOrder[0].f2_52[0]",
+      "fieldType": "occupation",
+      "labelHint": "Previously reported. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_53[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 1.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_54[0]",
+      "fieldType": "occupation",
+      "labelHint": "Correct information. 14b. Treasury Tipped Occupation Code(s). 2.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box15_Prev1_ReadOrder[0].f2_55[0]",
+      "fieldType": "state",
+      "labelHint": "State Correction Information. Previously reported. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box15_Prev1_ReadOrder[0].f2_56[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box15_Correct1_ReadOrder[0].f2_57[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box15_Correct1_ReadOrder[0].f2_58[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box15_Prev2_ReadOrder[0].f2_59[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box15_Prev2_ReadOrder[0].f2_60[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_61[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. State. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_62[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 15. Employer's state I D number. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box16_Prev1_ReadOrder[0].f2_63[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box16_Correct1_ReadOrder[0].f2_64[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box16_Prev2_ReadOrder[0].f2_65[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_66[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 16. State wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box17_Prev1_ReadOrder[0].f2_67[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box17_Correct1_ReadOrder[0].f2_68[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box17_Prev2_ReadOrder[0].f2_69[0]",
+      "fieldType": "state",
+      "labelHint": "Previously reported. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_70[0]",
+      "fieldType": "state",
+      "labelHint": "Correct information. 17. State income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box18_Prev1_ReadOrder[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Locality Correction Information. Previously reported. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box18_Correct1_ReadOrder[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box18_Prev2_ReadOrder[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 18. Local wages, tips, etc. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box19_Prev1_ReadOrder[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box19_Correct1_ReadOrder[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box19_Prev2_ReadOrder[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Previously reported. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Correct information. 19. Local income tax. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box20_Prev1_ReadOrder[0].f2_79[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box20_Correct1_ReadOrder[0].f2_80[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].Box20_Prev2_ReadOrder[0].f2_81[0]",
+      "fieldType": "full_name",
+      "labelHint": "Previously reported. 20. Locality name. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyD[0].f2_82[0]",
+      "fieldType": "full_name",
+      "labelHint": "Correct information. 20. Locality name. 2.",
+      "required": false
+    }
+  ]
+}

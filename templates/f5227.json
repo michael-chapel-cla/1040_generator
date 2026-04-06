@@ -1,0 +1,2876 @@
+{
+  "formId": "f5227",
+  "displayName": "Form 5227",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5227.pdf",
+  "generatedAt": "2026-04-06T21:46:24.628Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. For the calendar year 2025 or tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_2[0]",
+      "fieldType": "date",
+      "labelHint": ", 2025, and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "W, 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TrustInfo[0].f1_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "A. Full name of trust.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TrustInfo[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of trustee.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TrustInfo[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number, street, and room or suite no. (If a P.O. box, see the instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TrustInfo[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "B. Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "C. (5) Other—Attach explanation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "C. (5) Other—Attach explanation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "C. (5) Other—Attach explanation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[3]",
+      "fieldType": "checkbox",
+      "labelHint": "C. (5) Other—Attach explanation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[4]",
+      "fieldType": "checkbox",
+      "labelHint": "C. (5) Other—Attach explanation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "D. Fair market value (F M V) of assets at end of tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "E. Gross income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineF[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "F. Check applicable boxes (see instructions). Initial return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineF[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "F. Final return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineF[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "F. Amended return incl. amended K-1s, if nec.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineF[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "F. Change in trustee's: Name.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineF[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "F. Address.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "date",
+      "labelHint": "G. Date the trust was created.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Income and Deductions (All trusts complete Sections A through D). Section A—Ordinary Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Ordinary dividends (including qualified dividends).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Qualified dividends (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Business income or (loss). Attach Schedule C (Form 1040).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Rents, royalties, partnerships, other estates and trusts, etc. Attach Schedule E (Form 1040).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Farm income or (loss). Attach Schedule F (Form 1040).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Ordinary gain or (loss). Attach Form 4797.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Other income. List type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. and amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Total ordinary income. Combine lines 1, 2a, and 3 through 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Section B—Capital Gains (Losses). 9. Total short-term capital gain or (loss). Attach Schedule D, Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Total long-term capital gain or (loss). Attach Schedule D, Part I I (Form 1041).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Unrecaptured section 1250 gain.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. 28% gain.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Total capital gains (losses). Combine lines 9 and 10.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Section C—Nontaxable Income. 14. Tax-exempt interest.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Other nontaxable income. List type. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. and amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Total nontaxable income. Add lines 14 and 15.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Section D—Deductions. 17. Interest.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Taxes (see the instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Trustee fees.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Attorney, accountant, and return preparer fees.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Other allowable deductions. Attach statement (see the instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Total. Add lines 17 through 21.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Charitable deduction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Section E—Deductions Allocable to Income Categories (Section 664 trust only). 24a. Enter the amount ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24b. Subtract line 24a from line 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25a. Enter the amount from line 22 allocable to capital gains (losses).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25b. Subtract line 25a from line 13.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26a. Enter the amount from line 22 allocable to nontaxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26b. Subtract line 26a from line 16.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I I. Schedule of Distributable Income (Section 664 trust only). (See instructions). Acc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Undistributed income from prior tax years. Column: (a) Ordinary income. Accumulated N I I po",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Undistributed income from prior tax years. Column: (b) Capital gains (losses). Excluded Inco",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Undistributed income from prior tax years. Column: (b) Capital gains (losses). Accumulated N",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Undistributed income from prior tax years. Column: (c) Nontaxable income. Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Undistributed income from prior tax years. Column: (c) Nontaxable income. Accumulated N I I ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line2[0].f2_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Current tax year net income (before distributions): In column (a), enter the amount from Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line2[0].f2_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Current tax year net income (before distributions): In column (a), enter the amount from Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line2[0].f2_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Current tax year net income (before distributions): In column (b), enter the amount from Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line2[0].f2_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Current tax year net income (before distributions): In column (b), enter the amount from Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line2[0].f2_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Current tax year net income (before distributions): In column (c), enter the amount from Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total distributable income. Add lines 1 and 2. Column: (a) Ordinary income. Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total distributable income. Add lines 1 and 2. Column: (a) Ordinary income. Accumulated N I ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total distributable income. Add lines 1 and 2. Column: (b) Capital gains (losses). Excluded ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total distributable income. Add lines 1 and 2. Column: (b) Capital gains (losses). Accumulat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total distributable income. Add lines 1 and 2. Column: (c) Nontaxable income. Excluded Incom",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Distributions of Principal for Charitable Purposes. Section A. 1. Principal distributed ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2a[0].ColA[0].f2_20[0]",
+      "fieldType": "full_name",
+      "labelHint": "2. Principal distributed during the current tax year for charitable purposes. Fill in the informatio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2a[0].f2_21[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2a. Column: (B) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2a[0].ColC[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Column: (C) Charitable purpose and description of assets distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2a[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Column: Amount distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2b[0].ColA[0].f2_24[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2b. Column: (A) Payee's name and address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2b[0].f2_25[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2b. Column: (B) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2b[0].ColC[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Column: (C) Charitable purpose and description of assets distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2b[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Column: Amount distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2c[0].ColA[0].f2_28[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2c. Column: (A) Payee's name and address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2c[0].f2_29[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2c. Column: (B) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2c[0].ColC[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Column: (C) Charitable purpose and description of assets distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_2a-2c[0].Row2c[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Column: Amount distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Attachment total.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Total. Add lines 1 through 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Accumulated Income Set Aside and Income Distributions for Charitable Purposes. Grantor type trusts c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. Enter the amount shown on Part I, line 23.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Add lines 5a and 5b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7a[0].ColA[0].f2_37[0]",
+      "fieldType": "full_name",
+      "labelHint": "7. Distributions made during the tax year (see the instructions): For income set aside in prior tax ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7a[0].f2_38[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7a. Column: (B) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7a[0].ColC[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7a. Column: (C) Charitable purpose and description of assets distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7a[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7a. Column: Amount distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7b[0].ColA[0].f2_41[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 7b. Column: (A) Payee's name and address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7b[0].f2_42[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7b. Column: (B) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7b[0].ColC[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7b. Column: (C) Charitable purpose and description of assets distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7b[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7b. Column: Amount distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7c[0].ColA[0].f2_45[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 7c. Column: (A) Payee's name and address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7c[0].f2_46[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7c. Column: (B) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7c[0].ColC[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7c. Column: (C) Charitable purpose and description of assets distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_7a-7c[0].Row7c[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7c. Column: Amount distributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Attachment total.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Add lines 7a through 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Carryover. Subtract line 9 from line 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln1_Row[0].f3_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 3. Part I V. Balance Sheet (see instructions). Assets. Row: 1. Cash—non-interest-bearing. Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln1_Row[0].f3_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Cash—non-interest-bearing. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln1_Row[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Cash—non-interest-bearing. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln2_Row[0].f3_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Savings and temporary cash investments. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln2_Row[0].f3_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Savings and temporary cash investments. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln2_Row[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Savings and temporary cash investments. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3a_Row[0].Accounts[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3a. Accounts receivable.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3a_Row[0].f3_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3a. Accounts receivable. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3a_Row[0].f3_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3a. Accounts receivable. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3a_Row[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3a. Accounts receivable. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3b_Row[0].Less[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3b. Less: allowance for doubtful accounts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3b_Row[0].f3_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3b. Less: allowance for doubtful accounts. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3b_Row[0].f3_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3b. Less: allowance for doubtful accounts. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln3b_Row[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3b. Less: allowance for doubtful accounts. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln4_Row[0].f3_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Receivables due from officers, directors, trustees, and other disqualified persons (attach s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln4_Row[0].f3_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Receivables due from officers, directors, trustees, and other disqualified persons (attach s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln4_Row[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Receivables due from officers, directors, trustees, and other disqualified persons (attach statement). Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5a_Row[0].Other[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5a. Other notes and loans receivable.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5a_Row[0].f3_19[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5a. Other notes and loans receivable. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5a_Row[0].f3_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5a. Other notes and loans receivable. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5a_Row[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5a. Other notes and loans receivable. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5b_Row[0].Less[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5b. Less: allowance for doubtful accounts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5b_Row[0].f3_23[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5b. Less: allowance for doubtful accounts. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5b_Row[0].f3_24[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5b. Less: allowance for doubtful accounts. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln5b_Row[0].f3_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5b. Less: allowance for doubtful accounts. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln6_Row[0].f3_26[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Inventories for sale or use. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln6_Row[0].f3_27[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Inventories for sale or use. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln6_Row[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Inventories for sale or use. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln7_Row[0].f3_29[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7. Prepaid expenses and deferred charges. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln7_Row[0].f3_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7. Prepaid expenses and deferred charges. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln7_Row[0].f3_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Prepaid expenses and deferred charges. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8a_Row[0].f3_32[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 8a. Investments—U.S. and state government obligations (attach statement). Column: (a) Beginning",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8a_Row[0].f3_33[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 8a. Investments—U.S. and state government obligations (attach statement). Column: (b) End-of-Ye",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8a_Row[0].f3_34[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 8a. Investments—U.S. and state government obligations (attach statement). Column: (c) F M V (se",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8b_Row[0].f3_35[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8b. Investments—corporate stock (attach statement). Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8b_Row[0].f3_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8b. Investments—corporate stock (attach statement). Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8b_Row[0].f3_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8b. Investments—corporate stock (attach statement). Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8c_Row[0].f3_38[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8c. Investments—corporate bonds (attach statement). Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8c_Row[0].f3_39[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8c. Investments—corporate bonds (attach statement). Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln8c_Row[0].f3_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8c. Investments—corporate bonds (attach statement). Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9a_Row[0].Investments[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9a. Investments—land, buildings, and equipment: basis (attach statement).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9a_Row[0].f3_42[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9a. Investments—land, buildings, and equipment: basis (attach statement). Column: (a) Beginning",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9a_Row[0].f3_43[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9a. Investments—land, buildings, and equipment: basis (attach statement). Column: (b) End-of-Ye",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9a_Row[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9a. Investments—land, buildings, and equipment: basis (attach statement). Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9b_Row[0].Less[0].f3_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9b. Less: accumulated depreciation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9b_Row[0].f3_46[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9b. Less: accumulated depreciation. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9b_Row[0].f3_47[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9b. Less: accumulated depreciation. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln9b_Row[0].f3_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9b. Less: accumulated depreciation. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln10_Row[0].f3_49[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10. Investments—other (attach statement). Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln10_Row[0].f3_50[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10. Investments—other (attach statement). Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln10_Row[0].f3_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Investments—other (attach statement). Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11a_Row[0].Land[0].f3_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11a. Land, buildings, and equipment: basis.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11a_Row[0].f3_53[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11a. Land, buildings, and equipment: basis. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11a_Row[0].f3_54[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11a. Land, buildings, and equipment: basis. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11a_Row[0].f3_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11a. Land, buildings, and equipment: basis. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11b_Row[0].Less[0].f3_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11b. Less: accumulated depreciation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11b_Row[0].f3_57[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11b. Less: accumulated depreciation. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11b_Row[0].f3_58[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11b. Less: accumulated depreciation. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln11b_Row[0].f3_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11b. Less: accumulated depreciation. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln12_Row[0].Other[0].f3_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Other assets. Describe.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln12_Row[0].f3_61[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12. Other assets. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln12_Row[0].f3_62[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12. Other assets. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln12_Row[0].f3_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Other assets. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln13_Row[0].f3_64[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Total assets. Add lines 1 through 12 (must equal line 23). Column: (a) Beginning-of-Year Bo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln13_Row[0].f3_65[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Total assets. Add lines 1 through 12 (must equal line 23). Column: (b) End-of-Year Book Val",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln13_Row[0].f3_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Total assets. Add lines 1 through 12 (must equal line 23). Column: (c) F M V (see instructi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln14_Row[0].f3_67[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Liabilities. Row: 14. Accounts payable and accrued expenses. Column: (a) Beginning-of-Year Book Valu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln14_Row[0].f3_68[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 14. Accounts payable and accrued expenses. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln14_Row[0].f3_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Accounts payable and accrued expenses. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln15_Row[0].f3_70[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 15. Deferred revenue. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln15_Row[0].f3_71[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 15. Deferred revenue. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln15_Row[0].f3_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Deferred revenue. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln16_Row[0].f3_73[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 16. Loans from officers, directors, trustees, and other disqualified persons. Column: (a) Begin",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln16_Row[0].f3_74[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 16. Loans from officers, directors, trustees, and other disqualified persons. Column: (b) End-o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln16_Row[0].f3_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Loans from officers, directors, trustees, and other disqualified persons. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln17_Row[0].f3_76[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 17. Mortgages and other notes payable (attach statement). Column: (a) Beginning-of-Year Book Va",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln17_Row[0].f3_77[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 17. Mortgages and other notes payable (attach statement). Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln17_Row[0].f3_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Mortgages and other notes payable (attach statement). Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln18_Row[0].Other[0].f3_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Other liabilities. Describe.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln18_Row[0].f3_80[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 18. Other liabilities. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln18_Row[0].f3_81[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 18. Other liabilities. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln18_Row[0].f3_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Other liabilities. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln19_Row[0].f3_83[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19. Total liabilities. Add lines 14 through 18. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln19_Row[0].f3_84[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 19. Total liabilities. Add lines 14 through 18. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln19_Row[0].f3_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Total liabilities. Add lines 14 through 18. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln20_Row[0].f3_86[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Net Assets. Row: 20. Trust principal or corpus. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln20_Row[0].f3_87[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 20. Trust principal or corpus. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln20_Row[0].f3_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. Trust principal or corpus. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21a_Row[0].f3_89[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21a. Undistributed income. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21a_Row[0].f3_90[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21a. Undistributed income. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21a_Row[0].f3_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21a. Undistributed income. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21b_Row[0].f3_92[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21b. Undistributed capital gains. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21b_Row[0].f3_93[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21b. Undistributed capital gains. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21b_Row[0].f3_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21b. Undistributed capital gains. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21c_Row[0].f3_95[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21c. Undistributed nontaxable income. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21c_Row[0].f3_96[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 21c. Undistributed nontaxable income. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln21c_Row[0].f3_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21c. Undistributed nontaxable income. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln22_Row[0].f3_98[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Total net assets. Add lines 20 through 21c. Column: (a) Beginning-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln22_Row[0].f3_99[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Total net assets. Add lines 20 through 21c. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln22_Row[0].f3_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. Total net assets. Add lines 20 through 21c. Column: (c) F M V (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln23_Row[0].f3_101[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 23. Total liabilities and net assets. Add lines 19 and 22. Column: (a) Beginning-of-Year Book V",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln23_Row[0].f3_102[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 23. Total liabilities and net assets. Add lines 19 and 22. Column: (b) End-of-Year Book Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln23_Row[0].f3_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. Total liabilities and net assets. Add lines 19 and 22. Column: (c) F M V (see instructions)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 4. Part V. Charitable Remainder Annuity Trust (C R A T) Information (to be completed only by a Section 664 C R A T). 1a. Enter the initial fair market value (F M V) of the property placed in the trust.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Enter the total annual annuity amounts for all recipients.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_3[0]",
+      "fieldType": "date",
+      "labelHint": "3. If “Yes,” describe the triggering event including the date of the event and the old method of pay",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_7[0]",
+      "fieldType": "percentage",
+      "labelHint": "4a. Enter the unitrust fixed percentage to be paid to the recipients. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_8[0]",
+      "fieldType": "percentage",
+      "labelHint": "4b. Unitrust amount. Subtract Part I V, line 19, column (c), from Part I V, line 13, column (c), and",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "If the answer is “Yes” on line 1 or line 2, go to line 5a. Otherwise, skip lines 5a through 6b and e",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "If the answer is “Yes” on line 1, go to line 5b. If the answer is “Yes” on line 2, skip line 5b and ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6a. Total accumulated distribution deficiencies from previous years (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Add lines 4b and 6a.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "If lines 6a and 6b are completed, enter the smaller of line 5a or line 6b on line 7. 7. Required uni",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Carryover of accumulated distribution deficiency (only for trusts that answered “Yes” on line 2).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. If this is the final return, enter the initial F M V of all assets placed in trust by the donor.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "10. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "10. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "11. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(1). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(1). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(2). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(2). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(3). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(3). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(4). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(4). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(5). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(5). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(6). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1a(6). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1c. Organizations relying on a current Notice regarding disaster assistance, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "2. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3a. Taxes on excess business holdings (section 4943): N/A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4a. Taxes on investments that jeopardize charitable purposes (section 4944): N/A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_15[1]",
+      "fieldType": "checkbox",
+      "labelHint": "4b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_16[1]",
+      "fieldType": "checkbox",
+      "labelHint": "4c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(1). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_17[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(1). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(2). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_18[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(2). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(3). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_19[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(3). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(4). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_20[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(4). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(5). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_21[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5a(5). No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_22[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_22[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_23[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5c. Organizations relying on a current Notice regarding disaster assistance, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_24[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_24[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5d. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_25[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_25[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_26[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_26[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_27[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_27[1]",
+      "fieldType": "checkbox",
+      "labelHint": "7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 6. Part I X. Questionnaire for Charitable Lead Trusts, Pooled Income Funds, and Charitable Remainder Trusts (see instructions). Section A—All Trusts. 1. Check this box if any of the split-interest trust’s income interests expired during 2025.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. Check this box if all of the split-interest trust’s income interests expired before 2025. If line 2 is checked and this is not a final return, attach an explanation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "3. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter the amount of any excess income required to be paid for charitable purposes for 2025.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Enter the amount of annuity or unitrust payments required to be paid to charitable beneficiaries ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Section C—Pooled Income Funds. 6. Enter the amount of contributions received during 2025.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Enter the amount required to be distributed for 2025 to satisfy the remainder interest.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Enter any amounts that were required to be distributed to the remainder beneficiary that remain undistributed.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Enter the amount of income required to be paid to the charitable remainder beneficiary for 2025.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Section D—Charitable Remainder Trusts. 10. Check this box if you are filing for a charitable remainder annuity trust or a charitable remainder unitrust whose charitable interests involve only cemeteries or war veterans’ posts.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11. Check this box if you are making an election under Regulations section 1.664-2(a)(1)(i)(a)(2) or 1.664-3(a)(1)(i)(g)(2) to treat income generated from certain property distributions (other than cash) by the trust as occurring on the last day of the tax year. (see instructions).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "12. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "12. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "13. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "14. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "14. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "15a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "15a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "15b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "15b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. If either line 15a or 15b is \"No,\" explain why. Line 1 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Line 2 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Line 3 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Line 4 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Line 5 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Line 6 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "16. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "16. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_13[0]",
+      "fieldType": "full_name",
+      "labelHint": "16. If “Yes,” enter the name of the foreign country.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Preparer’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_16[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_17[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm's address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_19[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 7. Full name of trust.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Schedule A—Distributions, Assets, and Donor Information. Part I. Accumulation Schedule (Section 664 ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row 1. Total distributable income. Enter the amount from Part I I, line 3. Column: (a) Ordinary inco",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row 1. Total distributable income. Enter the amount from Part I I, line 3. Column:(b) Capital gain (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Total distributable income. Enter the amount from Part I I, line 3. Column:(b) Capital gain ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Total distributable income. Enter the amount from Part I I, line 3. Column:(c) Nontaxable in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Total distributable income. Enter the amount from Part I I, line 3. Column:(c) Nontaxable in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2a[0].f7_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Total distributions for 2025:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2a[0].f7_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Total distributions for 2025: Column: (a) Ordinary income. Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2a[0].f7_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Total distributions for 2025: Column: (a) Ordinary income. Accumulated N I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2a[0].f7_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Total distributions for 2025: Column: (b) Capital gain (loss). Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2a[0].f7_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Total distributions for 2025: Column: (b) Capital gain (loss). Accumulated N I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2a[0].f7_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Total distributions for 2025: Column: (c) Nontaxable income. Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2a[0].f7_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Total distributions for 2025: Column: (c) Nontaxable income. Accumulated N I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2b[0].f7_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. 2025 distributions from income. Column: (a) Ordinary income. Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2b[0].f7_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. 2025 distributions from income. Column: (a) Ordinary income. Accumulated N I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2b[0].f7_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. 2025 distributions from income. Column: (b) Capital gain (loss). Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2b[0].f7_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. 2025 distributions from income. Column: (b) Capital gain (loss). Accumulated N I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2b[0].f7_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. 2025 distributions from income. Column: (c) Nontaxable income. Excluded Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2b[0].f7_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_22[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Undistributed income at end of tax year. Subtract line 2b from line 1. Column: (a) Ordinary ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_23[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Undistributed income at end of tax year. Subtract line 2b from line 1. Column: (a) Ordinary ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_24[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Undistributed income at end of tax year. Subtract line 2b from line 1. Column: (b) Capital g",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_25[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Undistributed income at end of tax year. Subtract line 2b from line 1. Column: (b) Capital g",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_26[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Undistributed income at end of tax year. Subtract line 2b from line 1. Column: (c) Nontaxabl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartII[0].Line1[0].f7_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Simplified Net Investment Income Calculation. Row: 1. Column: (a) Accumulated N I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartII[0].Line1[0].f7_29[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (b) Current Year N I I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartII[0].Line1[0].f7_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Distributions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartII[0].Line1[0].f7_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1a[0].f7_32[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I I I. Current Distributions Schedule (Section 664 trust only) (see instructions). Row: 1a. Col",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1a[0].f7_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Column: (b) Identifying number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1a[0].f7_34[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1a. Column: (c) Percentage of total unitrust amount payable (if applicable). %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1b[0].f7_35[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 1b. Column: (a) Name of recipient.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1b[0].f7_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Column: (b) Identifying number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1b[0].f7_37[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1b. Column: (c) Percentage of total unitrust amount payable (if applicable). %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1a[0].f7_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Column: (d) Ordinary Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1a[0].f7_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Column: Capital gains. (e) Short-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1a[0].f7_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Column: Capital gains. (f) Long-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1a[0].f7_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Column: (g) Nontaxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1a[0].f7_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Column: (h) Corpus.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1a[0].f7_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Column: (i) Add cols. (d) through (h).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1a[0].f7_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1b[0].f7_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Column: (d) Ordinary Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1b[0].f7_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Column: Capital gains. (e) Short-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1b[0].f7_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Column: Capital gains. (f) Long-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1b[0].f7_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Column: (g) Nontaxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1b[0].f7_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Column: (h) Corpus.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1b[0].f7_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Column: (i) Add cols. (d) through (h).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row1b[0].f7_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row2[0].f7_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Attachment total. Column: (d) Ordinary Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row2[0].f7_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Attachment total. Column: Capital gains. (e) Short-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row2[0].f7_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Attachment total. Column: Capital gains. (f) Long-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row2[0].f7_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Attachment total. Column: (g) Nontaxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row2[0].f7_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Attachment total. Column: (h) Corpus.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row2[0].f7_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Attachment total. Column: (i) Add cols. (d) through (h).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row2[0].f7_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row3[0].f7_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total. Column: (d) Ordinary Income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row3[0].f7_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total. Column: Capital gains. (e) Short-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row3[0].f7_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total. Column: Capital gains. (f) Long-term.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row3[0].f7_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total. Column: (g) Nontaxable income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row3[0].f7_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total. Column: (h) Corpus.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row3[0].f7_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Total. Column: (i) Add cols. (d) through (h).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table2[0].Row3[0].f7_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].c7_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. If line 3, Total, column (i) does not agree with Part V, line 1b of Form 5227 for a C R A T or Part V I, line 7 of Form 5227 for a C R U T, check here and attach an explanation.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I V. Current Distributions (charitable lead trusts or pooled income funds only) (see instructio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].c7_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No. If \"No,\" complete only column (a) of the schedule below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].c7_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1. No. If \"No,\" complete only column (a) of the schedule below.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2a[0].ColA[0].f7_67[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2a. Column: (a) Name and address of donor.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2a[0].ColB[0].f7_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Column: (b) Description of each asset donated.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2a[0].ColC[0].f7_69[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2a. Column: (c) F M V of each asset on date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2a[0].f7_70[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2a. Column: (d) Date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2b[0].ColA[0].f7_71[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2b. Column: (a) Name and address of donor.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2b[0].ColB[0].f7_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Column: (b) Description of each asset donated.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2b[0].ColC[0].f7_73[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2b. Column: (c) F M V of each asset on date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2b[0].f7_74[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2b. Column: (d) Date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2c[0].ColA[0].f7_75[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2c. Column: (a) Name and address of donor.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2c[0].ColB[0].f7_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Column: (b) Description of each asset donated.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2c[0].ColC[0].f7_77[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2c. Column: (c) F M V of each asset on date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].PartVTable[0].Line2c[0].f7_78[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2c. Column: (d) Date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_79[0]",
+      "fieldType": "date",
+      "labelHint": "3. Attachment total. (c) F M V of each asset on date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_80[0]",
+      "fieldType": "date",
+      "labelHint": "4. Total. (c) F M V of each asset on date of donation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].c7_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. N/A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].c7_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5. N/A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].c7_3[2]",
+      "fieldType": "checkbox",
+      "labelHint": "5. N/A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

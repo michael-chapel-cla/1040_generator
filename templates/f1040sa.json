@@ -1,0 +1,220 @@
+{
+  "formId": "f1040sa",
+  "displayName": "Schedule A",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sa.pdf",
+  "generatedAt": "2026-04-06T21:46:17.732Z",
+  "fields": [
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name(s) shown on Form 1040 or 1040-S R.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Medical and Dental Expenses. Caution: Do not include expenses reimbursed or paid by others. 1. Medical and dental expenses (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].Line2_ReadOrder[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter amount from Form 1040 or 1040-S R, line 11b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Multiply line 2 by 7.5 % (0.075).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Subtract line 3 from line 1. If line 3 is more than line 1, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_8[0]",
+      "fieldType": "state",
+      "labelHint": "5b. State and local real estate taxes (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_9[0]",
+      "fieldType": "state",
+      "labelHint": "5c. State and local personal property taxes.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. Add lines 5a through 5c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_11[0]",
+      "fieldType": "filing_status",
+      "labelHint": "5e. Enter the smaller of line 5d or $40,000 ($20,000 if married filing separately). If Form 1040 or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Other taxes. List type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. and amount:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Add lines 5e and 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].Line8_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8a. Home mortgage interest and points reported to you on Form 1098. See instructions if limited.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].Line8b_ReadOrder[0].f1_16[0]",
+      "fieldType": "full_name",
+      "labelHint": "8b. Home mortgage interest not reported to you on Form 1098. See instructions if limited. If paid to",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8c. Points not reported to you on Form 1098. See instructions for special rules.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8d. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8e. Add lines 8a through 8c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Investment interest. Attach Form 4952 if required. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Add lines 8e and 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Gifts to Charity. Caution: If you made a gift and got a benefit for it, see instructions. 11. Gifts ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Other than by cash or check. If you made any gift of $250 or more, see instructions. You must attach Form 8283 if over $500.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_25[0]",
+      "fieldType": "tax_year",
+      "labelHint": "13. Carryover from prior year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Add lines 11 through 13.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Casualty and Theft Losses. 15. Casualty and theft loss(es) from a federally declared disaster (other",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other Itemized Deductions. 16. Other—from list in instructions. List type.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. and amount:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total Itemized Deductions. 17. Add the amounts in the far right column for lines 4 through 16. Also,",
+      "required": false
+    },
+    {
+      "pdfFieldName": "form1[0].Page1[0].Line18_ReadOrder[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

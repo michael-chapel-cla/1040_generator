@@ -1,0 +1,445 @@
+{
+  "formId": "f5498",
+  "displayName": "Form 5498",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5498.pdf",
+  "generatedAt": "2026-04-06T21:46:32.082Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "TRUSTEE'S or ISSUER'S name, street address, city or town, state or province, country, and Z I P or f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].Trustee[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "TRUSTEE'S or ISSUER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].Participant[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PARTICIPANT'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "PARTICIPANT'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_6[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. I R A contributions (other than amounts in boxes 2–4, 8–10, 13a, and 14a). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Rollover contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].Box3_ReadOrder[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Roth I R A conversion amount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Recharacterized contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].Box5_ReadOrder[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. F M V of account. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Life insurance cost included in box 1. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_3[2]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_3[3]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].Box8_ReadOrder[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. S E P contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. S I M P L E contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].Box10_ReadOrder[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Roth I R A contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11. Check if R M D for 2026.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_17[0]",
+      "fieldType": "date",
+      "labelHint": "12a. R M D date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. R M D amount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].Box13a_ReadOrder[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13a. Postponed/late contrib. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": "13b. Year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].Box14a_ReadOrder[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14a. Repayments. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].Box15a_ReadOrder[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15a. F M V of certain specified assets. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15b. Code(s).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 2. Copy B. CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "TRUSTEE'S or ISSUER'S name, street address, city or town, state or province, country, and Z I P or f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "TRUSTEE'S or ISSUER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PARTICIPANT'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "PARTICIPANT'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_6[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. I R A contributions (other than amounts in boxes 2–4, 8–10, 13a, and 14a). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Rollover contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box3_ReadOrder[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Roth I R A conversion amount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Recharacterized contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box5_ReadOrder[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. F M V of account. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Life insurance cost included in box 1. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_3[2]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_3[3]",
+      "fieldType": "checkbox",
+      "labelHint": "7. Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box8_ReadOrder[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. S E P contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. S I M P L E contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box10_ReadOrder[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Roth I R A contributions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "11. If checked, required minimum distribution for 2026.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_17[0]",
+      "fieldType": "date",
+      "labelHint": "12a. R M D date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12b. R M D amount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box13a_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13a. Postponed/late contrib.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": "13b. Year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13c. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box14a_ReadOrder[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14a. Repayments. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box15a_ReadOrder[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15a. F M V of certain specified assets. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15b. Code(s).",
+      "required": false
+    }
+  ]
+}

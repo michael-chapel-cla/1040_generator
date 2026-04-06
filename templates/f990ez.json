@@ -1,0 +1,2281 @@
+{
+  "formId": "f990ez",
+  "displayName": "Form 990-EZ",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f990ez.pdf",
+  "generatedAt": "2026-04-06T21:46:27.466Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. A. For the 2025 calendar year, or tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t2[0]",
+      "fieldType": "date",
+      "labelHint": ", 2025, and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t3[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineB[0].p1-cb1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineB[0].p1-cb2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineB[0].p1-cb3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineB[0].p1-cb4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineB[0].p1-cb5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineB[0].p1-cb6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineC[0].p1-t4[0]",
+      "fieldType": "full_name",
+      "labelHint": "C. Name of organization.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineC[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineC[0].p1-t5[0]",
+      "fieldType": "street_address",
+      "labelHint": "C. Number and street (or P.O. box if mail is not delivered to street address).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineC[0].help[1]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineC[0].p1-t6[0]",
+      "fieldType": "street_address",
+      "labelHint": "C. Room/suite.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].LineC[0].p1-t7[0]",
+      "fieldType": "city",
+      "labelHint": "C. City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t9[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "D. Employer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t11[0]",
+      "fieldType": "phone_number",
+      "labelHint": "E. Telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[1]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t12[0]",
+      "fieldType": "generic_text",
+      "labelHint": "F. Group Exemption Number.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "G. Accrual.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "G. Accrual.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t13[0]",
+      "fieldType": "generic_text",
+      "labelHint": "G. Other (specify):",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].#subform[2].p1-cb9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H. Check if the organization is not required to attach Schedule B (Form 990).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].#subform[2].help[2]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t14[0]",
+      "fieldType": "generic_text",
+      "labelHint": "I. Website:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "J. 527.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "J. 527.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t14a[0]",
+      "fieldType": "generic_text",
+      "labelHint": "J. (insert no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb10[2]",
+      "fieldType": "checkbox",
+      "labelHint": "J. 527.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb10[3]",
+      "fieldType": "checkbox",
+      "labelHint": "J. 527.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "K. Other:",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb14[1]",
+      "fieldType": "checkbox",
+      "labelHint": "K. Other:",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb14[2]",
+      "fieldType": "checkbox",
+      "labelHint": "K. Other:",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb14[3]",
+      "fieldType": "checkbox",
+      "labelHint": "K. Other:",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t300[0]",
+      "fieldType": "generic_text",
+      "labelHint": "K. Other.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "L. Add lines 5b, 6c, and 7b, to line 9 to determine gross receipts. If gross receipts are $200,000 o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Part1[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part I. Revenue, Expenses, and Changes in Net Assets or Fund Balances (see the instructions for Part I). Check if the organization used Schedule O to respond to any question in this Part I.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[3]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Revenue. 1. Contributions, gifts, grants, and similar amounts received.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[4]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t17[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. Program service revenue including government fees and contracts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[5]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t18[0]",
+      "fieldType": "generic_text",
+      "labelHint": "3. Membership dues and assessments.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[6]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Investment income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t20[0]",
+      "fieldType": "generic_text",
+      "labelHint": "5a. Gross amount from sale of assets other than inventory.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t21[0]",
+      "fieldType": "generic_text",
+      "labelHint": "5b. Less: cost or other basis and sales expenses.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. Gain or (loss) from sale of assets other than inventory (subtract line 5b from line 5a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Gaming and fundraising events: 6a. Gross income from gaming (attach Schedule G if greater than $1",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Gross income from fundraising events (not including (dollar amount) of contributions from fundra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t100[0]",
+      "fieldType": "generic_text",
+      "labelHint": "6b. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t26[0]",
+      "fieldType": "generic_text",
+      "labelHint": "6c. Less: direct expenses from gaming and fundraising events.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6d. Net income or (loss) from gaming and fundraising events (add lines 6a and 6b and subtract line 6",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t27[0]",
+      "fieldType": "generic_text",
+      "labelHint": "7a. Gross sales of inventory, less returns and allowances.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t28[0]",
+      "fieldType": "generic_text",
+      "labelHint": "7b. Less: cost of goods sold.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7c. Gross profit or (loss) from sales of inventory (subtract line 7b from line 7a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t31[0]",
+      "fieldType": "generic_text",
+      "labelHint": "8. Other revenue (describe in Schedule O).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Total revenue. Add lines 1, 2, 3, 4, 5c, 6d, 7c, and 8.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t33[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Expenses. 10. Grants and similar amounts paid (list in Schedule O).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Benefits paid to or for members.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[7]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Salaries, other compensation, and employee benefits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[8]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Professional fees and other payments to independent contractors.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Occupancy, rent, utilities, and maintenance.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t38[0]",
+      "fieldType": "generic_text",
+      "labelHint": "15. Printing, publications, postage, and shipping.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].help[9]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t40[0]",
+      "fieldType": "generic_text",
+      "labelHint": "16. Other expenses (describe in Schedule O).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Total expenses. Add lines 10 through 16.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t42[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Net Assets. 18. Excess or (deficit) for the year (subtract line 17 from line 9).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t43[0]",
+      "fieldType": "tax_year",
+      "labelHint": "19. Net assets or fund balances at beginning of year (from line 27, column (A)) (must agree with end",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t44[0]",
+      "fieldType": "generic_text",
+      "labelHint": "20. Other changes in net assets or fund balances (explain in Schedule O).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t45[0]",
+      "fieldType": "tax_year",
+      "labelHint": "21. Net assets or fund balances at end of year. Combine lines 18 through 20.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Part2[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2_c1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 2. Part I I. Balance Sheets (see the instructions for Part I I). Check if the organization used Schedule O to respond to any question in this Part I I.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t346[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. Cash, savings, and investments. (A) Beginning of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t347[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. (B) End of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t348[0]",
+      "fieldType": "tax_year",
+      "labelHint": "23. Land and buildings. (A) Beginning of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t349[0]",
+      "fieldType": "tax_year",
+      "labelHint": "23. (B) End of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t351[0]",
+      "fieldType": "tax_year",
+      "labelHint": "24. Other assets (describe in Schedule O). (A) Beginning of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t352[0]",
+      "fieldType": "tax_year",
+      "labelHint": "24. (B) End of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t353[0]",
+      "fieldType": "tax_year",
+      "labelHint": "25. Total assets. (A) Beginning of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t354[0]",
+      "fieldType": "tax_year",
+      "labelHint": "25. (B) End of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t356[0]",
+      "fieldType": "tax_year",
+      "labelHint": "26. Total liabilities (describe in Schedule O). (A) Beginning of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t357[0]",
+      "fieldType": "tax_year",
+      "labelHint": "26. (B) End of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t358[0]",
+      "fieldType": "tax_year",
+      "labelHint": "27. Net assets or fund balances (line 27 of column (B) must agree with line 21). (A) Beginning of ye",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t359[0]",
+      "fieldType": "tax_year",
+      "labelHint": "27. (B) End of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Part3[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2_c2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part I I I. Statement of Program Service Accomplishments (see the instructions for Part I I I). Check if the organization used Schedule O to respond to any question in this Part I I I.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "What is the organization's primary exempt purpose?",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line28Text[0].p2-t2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Describe the organization’s program service accomplishments for each of its three largest progra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line28Text[0].p2-t3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Line 2 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line28Text[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line28Text[0].p2-t4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Line 3 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line28Text[0].p2-t5[0]",
+      "fieldType": "generic_text",
+      "labelHint": "28. (Grants (amount)). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line28Text[0].p2-c3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "28. If this amount includes foreign grants, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t6[0]",
+      "fieldType": "generic_text",
+      "labelHint": "28a. Expenses. (Required for section 501(c)(3) and 501(c)(4) organizations; optional for others.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].help[1]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line29Text[0].p2-t7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Describe the organization’s program service accomplishments for each of its three largest progra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line29Text[0].p2-t8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Line 2 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line29Text[0].p2-t9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Line 3 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line29Text[0].p2-t10[0]",
+      "fieldType": "generic_text",
+      "labelHint": "29. (Grants (amount)). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line29Text[0].p2-c4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "29. If this amount includes foreign grants, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t11[0]",
+      "fieldType": "generic_text",
+      "labelHint": "29a. Expenses. (Required for section 501(c)(3) and 501(c)(4) organizations; optional for others.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line30Text[0].p2-t12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Describe the organization’s program service accomplishments for each of its three largest progra",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line30Text[0].p2-t13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Line 2 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line30Text[0].p2-t14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Line 3 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line30Text[0].p2-t15[0]",
+      "fieldType": "generic_text",
+      "labelHint": "30. (Grants (amount)). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line30Text[0].p2-c5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "30. If this amount includes foreign grants, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t16[0]",
+      "fieldType": "generic_text",
+      "labelHint": "30a. Expenses. (Required for section 501(c)(3) and 501(c)(4) organizations; optional for others.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line31Text[0].p2-t17[0]",
+      "fieldType": "generic_text",
+      "labelHint": "31. Other program services (describe in Schedule O). (Grants (amount)). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line31Text[0].p2-c6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "31. If this amount includes foreign grants, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t18[0]",
+      "fieldType": "generic_text",
+      "labelHint": "31a. Expenses. (Required for section 501(c)(3) and 501(c)(4) organizations; optional for others.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-t19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "32. Total program service expenses (add lines 28a through 31a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].p2-c7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part I V. List of Officers, Directors, Trustees, and Key Employees (list each one even if not compensated—see the instructions for Part I V). Check if the organization used Schedule O to respond to any question in this Part I V.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].help[2]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].help[3]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow1[0].Row1[0].p2-t20[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 1. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow1[0].Row1[0].p2-t21[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 1. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow1[0].p2-t22[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 1. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow1[0].p2-t23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow1[0].p2-t24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow1[0].p2-t25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow2[0].Row2[0].p2-t26[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow2[0].Row2[0].p2-t27[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow2[0].p2-t28[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 2. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow2[0].p2-t29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow2[0].p2-t30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow2[0].p2-t31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow3[0].Row3[0].p2-t32[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow3[0].Row3[0].p2-t33[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow3[0].p2-t34[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 3. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow3[0].p2-t35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow3[0].p2-t36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow3[0].p2-t37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow4[0].Row4[0].p2-t38[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow4[0].Row4[0].p2-t39[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow4[0].p2-t40[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 4. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow4[0].p2-t41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow4[0].p2-t42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow4[0].p2-t43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow5[0].Row5[0].p2-t44[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow5[0].Row5[0].p2-t45[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow5[0].p2-t46[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 5. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow5[0].p2-t47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow5[0].p2-t48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow5[0].p2-t49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow6[0].Row6[0].p2-t50[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 6. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow6[0].Row6[0].p2-t51[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 6. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow6[0].p2-t52[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 6. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow6[0].p2-t53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow6[0].p2-t54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow6[0].p2-t55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow7[0].Row7[0].p2-t56[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 7. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow7[0].Row7[0].p2-t57[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 7. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow7[0].p2-t58[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 7. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow7[0].p2-t59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow7[0].p2-t60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow7[0].p2-t61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow8[0].Row8[0].p2-t62[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 8. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow8[0].Row8[0].p2-t63[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 8. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow8[0].p2-t64[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 8. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow8[0].p2-t65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow8[0].p2-t66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow8[0].p2-t67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow9[0].Row9[0].p2-t68[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 9. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow9[0].Row9[0].p2-t69[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 9. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow9[0].p2-t70[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 9. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow9[0].p2-t71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow9[0].p2-t72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow9[0].p2-t73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow10[0].Row10[0].p2-t74[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 10. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow10[0].Row10[0].p2-t75[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 10. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow10[0].p2-t76[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 10. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow10[0].p2-t77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow10[0].p2-t78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensa",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow10[0].p2-t79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow11[0].Row11[0].p2-t80[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 11. Column: (a) Name and title. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow11[0].Row11[0].p2-t81[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 11. Column: (a) Name and title. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow11[0].p2-t82[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 11. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow11[0].p2-t83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C) (if not paid, enter",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow11[0].p2-t84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensa",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].BodyRow11[0].p2-t85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_001[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 3. Part V. Other Information. (Note the Schedule A and personal benefit contract statement requirements in the instructions for Part V.) Check if the organization used Schedule O to respond to any question in this Part V.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_002[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_002[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].help[1]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_003[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_003[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_004[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_004[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_005[0]",
+      "fieldType": "checkbox",
+      "labelHint": "35b. If “No,” to line 35a, provide an explanation in Schedule O. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_005[1]",
+      "fieldType": "checkbox",
+      "labelHint": "35b. If “No,” to line 35a, provide an explanation in Schedule O. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_006[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_006[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_007[0]",
+      "fieldType": "checkbox",
+      "labelHint": "36. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_007[1]",
+      "fieldType": "checkbox",
+      "labelHint": "36. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].help[2]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "37a. Enter amount of political expenditures, direct or indirect, as described in the instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_008[0]",
+      "fieldType": "checkbox",
+      "labelHint": "37b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_008[1]",
+      "fieldType": "checkbox",
+      "labelHint": "37b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_009[0]",
+      "fieldType": "checkbox",
+      "labelHint": "38a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_009[1]",
+      "fieldType": "checkbox",
+      "labelHint": "38a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].help[3]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "38b. If “Yes,” complete Schedule L, Part I I, and enter the total amount involved.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "39. Section 501(c)(7) organizations. Enter: a. Initiation fees and capital contributions included on",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "39b. Gross receipts, included on line 9, for public use of club facilities.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "40a. Section 501(c)(3) organizations. Enter amount of tax imposed on the organization during the yea",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t6[0]",
+      "fieldType": "generic_text",
+      "labelHint": "40a. Section 4912:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t7[0]",
+      "fieldType": "generic_text",
+      "labelHint": "40a. Section 4955:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_010[0]",
+      "fieldType": "checkbox",
+      "labelHint": "40b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_010[1]",
+      "fieldType": "checkbox",
+      "labelHint": "40b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].help[4]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "40c. Section 501(c)(3), 501(c)(4), and 501(c)(29) organizations. Enter amount of tax imposed on orga",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "40d. Section 501(c)(3), 501(c)(4), and 501 (c)(29) organizations. Enter amount of tax on line 40c re",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_011[0]",
+      "fieldType": "checkbox",
+      "labelHint": "40e. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_011[1]",
+      "fieldType": "checkbox",
+      "labelHint": "40e. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t10[0]",
+      "fieldType": "generic_text",
+      "labelHint": "41. List the states with which a copy of this return is filed:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t11[0]",
+      "fieldType": "generic_text",
+      "labelHint": "42a. The organization's books are in care of:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t14[0]",
+      "fieldType": "phone_number",
+      "labelHint": "42a. Telephone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t12[0]",
+      "fieldType": "generic_text",
+      "labelHint": "42a. Located at:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t15[0]",
+      "fieldType": "generic_text",
+      "labelHint": "42a. Z I P plus 4.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_012[0]",
+      "fieldType": "checkbox",
+      "labelHint": "42b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_012[1]",
+      "fieldType": "checkbox",
+      "labelHint": "42b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t16[0]",
+      "fieldType": "full_name",
+      "labelHint": "42b. If \"Yes,\" enter the name of the foreign country: See the instructions for exceptions and filing",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_013[0]",
+      "fieldType": "checkbox",
+      "labelHint": "42c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_013[1]",
+      "fieldType": "checkbox",
+      "labelHint": "42c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t17[0]",
+      "fieldType": "full_name",
+      "labelHint": "42c. If \"Yes,\" enter the name of the foreign country:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_014[0]",
+      "fieldType": "checkbox",
+      "labelHint": "43. Section 4947(a)(1) nonexempt charitable trusts filing Form 990-E Z in lieu of Form 1041—Check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].p3-t18[0]",
+      "fieldType": "tax_year",
+      "labelHint": "43. Enter the amount of tax-exempt interest received or accrued during the tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_015[0]",
+      "fieldType": "checkbox",
+      "labelHint": "44a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_015[1]",
+      "fieldType": "checkbox",
+      "labelHint": "44a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_016[0]",
+      "fieldType": "checkbox",
+      "labelHint": "44b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_016[1]",
+      "fieldType": "checkbox",
+      "labelHint": "44b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_017[0]",
+      "fieldType": "checkbox",
+      "labelHint": "44c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_017[1]",
+      "fieldType": "checkbox",
+      "labelHint": "44c. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_018[0]",
+      "fieldType": "checkbox",
+      "labelHint": "44d. If \"No,\" provide an explanation in Schedule O. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_018[1]",
+      "fieldType": "checkbox",
+      "labelHint": "44d. If \"No,\" provide an explanation in Schedule O. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_019[0]",
+      "fieldType": "checkbox",
+      "labelHint": "45a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_019[1]",
+      "fieldType": "checkbox",
+      "labelHint": "45a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_020[0]",
+      "fieldType": "checkbox",
+      "labelHint": "45b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_020[1]",
+      "fieldType": "checkbox",
+      "labelHint": "45b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-c3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "46. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-c3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "46. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].help[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-c4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part V I. Section 501(c)(3) Organizations Only. All section 501(c)(3) organizations must answer questions 47—49b and 52, and complete the tables for lines 50 and 51. Check if the organization used Schedule O to respond to any question in this Part V I.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-c5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "47. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-c5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "47. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].help[1]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-c6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "48. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-c6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "48. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].help[2]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "49a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "49a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "49b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "49b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow1[0].Row1[0].p4-t1[0]",
+      "fieldType": "full_name",
+      "labelHint": "50. Complete this table for the organization's five highest compensated employees (other than office",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow1[0].Row1[0].p4-t2[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 1. Column: (a) Name and title of each employee. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow1[0].p4-t3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 1. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow1[0].p4-t4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow1[0].p4-t100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow1[0].p4-t5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow2[0].Row2[0].p4-t7[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name and title of each employee. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow2[0].Row2[0].p4-t8[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name and title of each employee. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow2[0].p4-t9[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 2. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow2[0].p4-t10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow2[0].p4-t101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow2[0].p4-t11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow3[0].Row3[0].p4-t13[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name and title of each employee. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow3[0].Row3[0].p4-t14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name and title of each employee. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow3[0].p4-t15[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 3. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow3[0].p4-t16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow3[0].p4-t102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow3[0].p4-t17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow4[0].Row4[0].p4-t19[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name and title of each employee. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow4[0].Row4[0].p4-t20[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name and title of each employee. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow4[0].p4-t21[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 4. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow4[0].p4-t22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow4[0].p4-t102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow4[0].p4-t23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow5[0].Row5[0].p4-t24[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name and title of each employee. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow5[0].Row5[0].p4-t25[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name and title of each employee. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow5[0].p4-t26[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 5. Column: (b) Average hours per week devoted to position.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow5[0].p4-t27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (c) Reportable compensation (Forms W-2/1099-M I S C/1099-N E C).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow5[0].p4-t103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (d) Health benefits, contributions to employee benefit plans, and deferred compensat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Line50Table[0].BodyRow5[0].p4-t28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (e) Estimated amount of other compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-t66[0]",
+      "fieldType": "generic_text",
+      "labelHint": "50f. Total number of other employees paid over $100,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow1[0].Row1[0].p4-t32[0]",
+      "fieldType": "full_name",
+      "labelHint": "51. Complete this table for the organization's five highest compensated independent contractors who ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow1[0].Row1[0].p4-t33[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 1. Column: (a) Name and business address of each independent contractor. Line 2 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow1[0].p4-t34[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 1. Column: (b) Type of service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow1[0].p4-t35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow2[0].Row2[0].p4-t36[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name and business address of each independent contractor. Line 1 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow2[0].Row2[0].p4-t37[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name and business address of each independent contractor. Line 2 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow2[0].p4-t38[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 2. Column: (b) Type of service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow2[0].p4-t39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow3[0].Row3[0].p4-t40[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name and business address of each independent contractor. Line 1 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow3[0].Row3[0].p4-t41[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name and business address of each independent contractor. Line 2 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow3[0].p4-t42[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 3. Column: (b) Type of service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow3[0].p4-t43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow4[0].Row4[0].p4-t44[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name and business address of each independent contractor. Line 1 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow4[0].Row4[0].p4-t45[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name and business address of each independent contractor. Line 2 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow4[0].p4-t46[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 4. Column: (b) Type of service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow4[0].p4-t47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow5[0].Row5[0].p4-t48[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name and business address of each independent contractor. Line 1 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow5[0].Row5[0].p4-t49[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name and business address of each independent contractor. Line 2 or 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow5[0].p4-t50[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 5. Column: (b) Type of service.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].PartVITable2[0].BodyRow5[0].p4-t51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (c) Compensation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-t52[0]",
+      "fieldType": "generic_text",
+      "labelHint": "51d. Total number of other independent contractors each receiving over $100,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "52. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "52. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].help[3]",
+      "fieldType": "generic_text",
+      "labelHint": "Form 990-E Z Help Text.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-t53[0]",
+      "fieldType": "full_name",
+      "labelHint": "Sign Here. Officer's name and title.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4_100_0_[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check if self-employed.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_65_0_[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_66_0_[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_68_0_[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_69_0_[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm’s address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_73_0_[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].p4-cb11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

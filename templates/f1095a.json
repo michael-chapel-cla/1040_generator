@@ -1,0 +1,568 @@
+{
+  "formId": "f1095a",
+  "displayName": "Form 1095-A",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1095a.pdf",
+  "generatedAt": "2026-04-06T21:46:32.388Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Corrected.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Corrected.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Recipient Information. 1. Marketplace identifier.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Marketplace-assigned policy number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "3. Policy issuer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "payer_name",
+      "labelHint": "4. Recipient's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "ssn",
+      "labelHint": "5. Recipient's S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "date",
+      "labelHint": "6. Recipient's date of birth.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "full_name",
+      "labelHint": "7. Recipient's spouse's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "ssn",
+      "labelHint": "8. Recipient's spouse's S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "date",
+      "labelHint": "9. Recipient's spouse's date of birth.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "date",
+      "labelHint": "10. Policy start date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "date",
+      "labelHint": "11. Policy termination date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "street_address",
+      "labelHint": "12. Street address (including apartment no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "city",
+      "labelHint": "13. City or town.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "state",
+      "labelHint": "14. State or province.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "zip_code",
+      "labelHint": "15. Country and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row16[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row16[0].f1_17[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 16. Column: B. Covered individual S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row16[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row16[0].f1_19[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 16. Column: D. Coverage start date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row16[0].f1_20[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 16. Column: E. Coverage termination date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row17[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row17[0].f1_22[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 17. Column: B. Covered individual S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row17[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row17[0].f1_24[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 17. Column: D. Coverage start date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row17[0].f1_25[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 17. Column: E. Coverage termination date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row18[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row18[0].f1_27[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 18. Column: B. Covered individual S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row18[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row18[0].f1_29[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 18. Column: D. Coverage start date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row18[0].f1_30[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 18. Column: E. Coverage termination date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row19[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row19[0].f1_32[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 19. Column: B. Covered individual S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row19[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row19[0].f1_34[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 19. Column: D. Coverage start date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row19[0].f1_35[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 19. Column: E. Coverage termination date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row20[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row20[0].f1_37[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 20. Column: B. Covered individual S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row20[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row20[0].f1_39[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 20. Column: D. Coverage start date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartII[0].Row20[0].f1_40[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 20. Column: E. Coverage termination date.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row21[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Coverage Information. Row: 21. January. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row21[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. January. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row21[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. January. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row22[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. February. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row22[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. February. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row22[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. February. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row23[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. March. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row23[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. March. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row23[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23. March. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row24[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. April. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row24[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. April. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row24[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. April. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row25[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 25. May. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row25[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 25. May. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row25[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 25. May. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row26[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. June. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row26[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. June. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row26[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 26. June. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row27[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. July. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row27[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. July. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row27[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 27. July. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row28[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. August. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row28[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. August. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row28[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 28. August. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row29[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 29. September. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row29[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 29. September. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row29[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 29. September. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row30[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 30. October. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row30[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 30. October. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row30[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 30. October. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row31[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 31. November. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row31[0].f1_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 31. November. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row31[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 31. November. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row32[0].f1_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. December. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row32[0].f1_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. December. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row32[0].f1_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 32. December. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row33[0].f1_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 33. Annual Totals. Column: A. Monthly enrollment premiums.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row33[0].f1_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 33. Annual Totals. Column: B. Monthly second lowest cost silver plan (S L C S P) premium.",
+      "required": false,
+      "maxLength": 20
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row33[0].f1_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 33. Annual Totals. Column: C. Monthly advance payment of premium tax credit.",
+      "required": false,
+      "maxLength": 20
+    }
+  ]
+}

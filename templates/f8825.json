@@ -1,0 +1,1347 @@
+{
+  "formId": "f8825",
+  "displayName": "Form 8825",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8825.pdf",
+  "generatedAt": "2026-04-06T21:46:21.110Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowA[0].Col_a[0].f1_3[0]",
+      "fieldType": "city",
+      "labelHint": "1. Enter the address and type of each rental real estate property. For each rental real estate prope",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowA[0].Col_b[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: A. Column: (b) Type (Enter code 1–8; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowA[0].Col_c[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: A. Column: (c) Type (Enter code A–I; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowA[0].Col_d[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: A. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowA[0].Col_e[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: A. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowB[0].Col_a[0].f1_8[0]",
+      "fieldType": "city",
+      "labelHint": "Row: B. Column: (a) Physical address of each property (street, city, state, Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowB[0].Col_b[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: B. Column: (b) Type (Enter code 1–8; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowB[0].Col_c[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: B. Column: (c) Type (Enter code A–I; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowB[0].Col_d[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: B. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowB[0].Col_e[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: B. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowC[0].Col_a[0].f1_13[0]",
+      "fieldType": "city",
+      "labelHint": "Row: C. Column: (a) Physical address of each property (street, city, state, Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowC[0].Col_b[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: C. Column: (b) Type (Enter code 1–8; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowC[0].Col_c[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: C. Column: (c) Type (Enter code A–I; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowC[0].Col_d[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: C. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowC[0].Col_e[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: C. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowD[0].Col_a[0].f1_18[0]",
+      "fieldType": "city",
+      "labelHint": "Row: D. Column: (a) Physical address of each property (street, city, state, Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowD[0].Col_b[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: D. Column: (b) Type (Enter code 1–8; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowD[0].Col_c[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: D. Column: (c) Type (Enter code A–I; see page 2 for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowD[0].Col_d[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: D. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowD[0].Col_e[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: D. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2a[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Income. Row: 2a. Gross rents. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2a[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Gross rents. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2a[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Gross rents. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2a[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Gross rents. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2b[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Income. Row: 2b. Other income related to rental estate activity. Column: Properti",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2b[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Other income related to rental real estate activity. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2b[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Other income related to rental real estate activity. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2b[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Other income related to rental real estate activity. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2c[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Income. Row: 2c. Total rental real estate income for each property. Add lines 2a ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2c[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Total rental real estate income for each property. Add lines 2a and 2b. Column: Properties.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2c[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Total rental real estate income for each property. Add lines 2a and 2b. Column: Properties.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2c[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Total rental real estate income for each property. Add lines 2a and 2b. Column: Properties.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line3[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Expenses. Row: 3. Advertising. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line3[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Advertising. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line3[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Advertising. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line3[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Advertising. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line4[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line4[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line4[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line4[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line5[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line5[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line5[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line5[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line6[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line6[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line6[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line6[0].f1_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line7[0].f1_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line7[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line7[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line7[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line8[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line8[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line8[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line8[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line9[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line9[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line9[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line9[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line10[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line10[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line10[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line10[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line11[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line11[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line11[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line11[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line12[0].f1_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line12[0].f1_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line12[0].f1_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line12[0].f1_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line13[0].f1_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line13[0].f1_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line13[0].f1_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line13[0].f1_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line14[0].f1_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line14[0].f1_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation (see instructions). Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line14[0].f1_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation (see instructions). Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line14[0].f1_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation (see instructions). Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line15[0].f1_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line15[0].f1_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line15[0].f1_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line15[0].f1_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line16[0].f1_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line16[0].f1_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line16[0].f1_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line16[0].f1_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line17[0].f1_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. A.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line17[0].f1_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. B.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line17[0].f1_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. C.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line17[0].f1_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line18[0].f1_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line18[0].f1_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line18[0].f1_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line18[0].f1_98[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line19[0].f1_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line19[0].f1_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line19[0].f1_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line19[0].f1_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20a. Total rental real estate income. Add total rental real estate income from line 2c. See instruct",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_104[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20b. Total rental real estate expenses. Add total rental real estate expenses from line 18. See inst",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_105[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Net gain (loss) from Form 4797, Part I I, line 17, from the disposition of property from rental ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_106[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. Net income (loss) from rental real estate activities from partnerships, estates, and trusts in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line22b[0].Item1[0].f1_107[0]",
+      "fieldType": "full_name",
+      "labelHint": "22b. Identify below the partnerships, estates, or trusts from which net income (loss) is shown on li",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line22b[0].Item1[0].f1_108[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: 1. Column: (2) Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line22b[0].Item2[0].f1_109[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (1) Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line22b[0].Item2[0].f1_110[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: 2. Column: (2) Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line22b[0].Item3[0].f1_111[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (1) Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line22b[0].Item3[0].f1_112[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: 3. Column: (2) Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_113[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Net rental real estate income (loss). Combine lines 20a through 22a. Enter the result here and o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row1[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. 1. Enter the address and type of each rental real estate property. For each rental real esta",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row1[0].Col_a[0].f2_2[0]",
+      "fieldType": "city",
+      "labelHint": "Row: 1. Column: (a) Physical address of each property (street, city, state, Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row1[0].Col_b[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Type (Enter code 1–8; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row1[0].Col_c[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Type (Enter code A–I; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row1[0].Col_d[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row1[0].Col_e[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Enter 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row2[0].Col_a[0].f2_8[0]",
+      "fieldType": "city",
+      "labelHint": "Row: 2. Column: (a) Physical address of each property (street, city, state, Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row2[0].Col_b[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Type (Enter code 1–8; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row2[0].Col_c[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Type (Enter code A–I; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row2[0].Col_d[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row2[0].Col_e[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row3[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Enter 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row3[0].Col_a[0].f2_14[0]",
+      "fieldType": "city",
+      "labelHint": "Row: 3. Column: (a) Physical address of each property (street, city, state, Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row3[0].Col_b[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Type (Enter code 1–8; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row3[0].Col_c[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Type (Enter code A–I; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row3[0].Col_d[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row3[0].Col_e[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row4[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Enter 2 digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row4[0].Col_a[0].f2_20[0]",
+      "fieldType": "city",
+      "labelHint": "Row: 4. Column: (a) Physical address of each property (street, city, state, Z I P code).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row4[0].Col_b[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Type (Enter code 1–8; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row4[0].Col_c[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Type (Enter code A–I; see below for list.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row4[0].Col_d[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Fair rental days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line1[0].Row4[0].Col_e[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (e) Personal-use days.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].HeaderRow[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Income. Column: Properties. 1.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].HeaderRow[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Column: Properties. 2.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].HeaderRow[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Column: Properties. 3.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].HeaderRow[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Column: Properties. 4.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2a[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Income. Row: 2a. Gross rents. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2a[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Gross rents. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2a[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Gross rents. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2a[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Gross rents. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2b[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Income. Row: 2b. Other income related to rental real estate activity. Column: Pro",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2b[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Other income related to rental real estate activity. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2b[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Other income related to rental real estate activity. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2b[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Other income related to rental real estate activity. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2c[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Income. Row: 2c. Total rental real estate income for each property. Add lines 2a ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2c[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Total rental real estate income for each property. Add lines 2a and 2b. Column: Properties.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2c[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Total rental real estate income for each property. Add lines 2a and 2b. Column: Properties.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2c[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2c. Total rental real estate income for each property. Add lines 2a and 2b. Column: Properties.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line3[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Rental Real Estate Expenses. Row: 3. Advertising. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line3[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Advertising. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line3[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Advertising. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line3[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Advertising. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line4[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line4[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line4[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line4[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Auto and travel. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line5[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line5[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line5[0].f2_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line5[0].f2_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Cleaning and maintenance. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line6[0].f2_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line6[0].f2_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line6[0].f2_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line6[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Commissions. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line7[0].f2_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line7[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line7[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line7[0].f2_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Insurance. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line8[0].f2_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line8[0].f2_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line8[0].f2_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line8[0].f2_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Interest (see instructions). Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line9[0].f2_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line9[0].f2_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line9[0].f2_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line9[0].f2_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Legal and other professional fees. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line10[0].f2_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line10[0].f2_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line10[0].f2_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line10[0].f2_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Real estate taxes. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line11[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line11[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line11[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line11[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Repairs. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line12[0].f2_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line12[0].f2_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line12[0].f2_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line12[0].f2_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Utilities. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line13[0].f2_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line13[0].f2_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line13[0].f2_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line13[0].f2_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Wages and salaries. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line14[0].f2_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation (see instructions). Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line14[0].f2_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation (see instructions). Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line14[0].f2_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation (see instructions). Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line14[0].f2_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation (see instructions). Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line15[0].f2_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line15[0].f2_90[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line15[0].f2_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line15[0].f2_92[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Reserved for future use. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line16[0].f2_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line16[0].f2_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line16[0].f2_95[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line16[0].f2_96[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Reserved for future use. Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line17[0].f2_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line17[0].f2_98[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line17[0].f2_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line17[0].f2_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach Schedule A (Form 8825)). Column: Properties. 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line18[0].f2_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line18[0].f2_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line18[0].f2_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line18[0].f2_104[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total rental real estate expenses for each property. Add lines 3 through 17. Column: Proper",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line19[0].f2_105[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line19[0].f2_106[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line19[0].f2_107[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line19[0].f2_108[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Income or (loss) from each rental real estate property. Subtract line 18 from line 2c. Colu",
+      "required": false
+    }
+  ]
+}

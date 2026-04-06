@@ -1,0 +1,497 @@
+{
+  "formId": "f8594",
+  "displayName": "Form 8594",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8594.pdf",
+  "generatedAt": "2026-04-06T21:46:23.592Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name as shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number as shown on return.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I. General Information. 1. Name of other party to the transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Other party's identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "1. Address (number, street, and room or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "city",
+      "labelHint": "1. City or town, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "date",
+      "labelHint": "2. Date of sale.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Total sales price (consideration).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Original Statement of Assets Transferred. 4. Row: Class I. Column: Aggregate fair market value (actual amount for Class I). $.",
+      "required": false,
+      "maxLength": 47
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 4. Row: Class I. Column: Allocation of sales price. $.",
+      "required": false,
+      "maxLength": 49
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class2[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I. Column: Aggregate fair market value (actual amount for Class I). $.",
+      "required": false,
+      "maxLength": 47
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class2[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I. Column: Allocation of sales price. $.",
+      "required": false,
+      "maxLength": 49
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class3[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I I. Column: Aggregate fair market value (actual amount for Class I). $.",
+      "required": false,
+      "maxLength": 47
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class3[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I I. Column: Allocation of sales price. $.",
+      "required": false,
+      "maxLength": 49
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class4[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I V. Column: Aggregate fair market value (actual amount for Class I). $.",
+      "required": false,
+      "maxLength": 47
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class4[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I V. Column: Allocation of sales price. $.",
+      "required": false,
+      "maxLength": 49
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class5[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V. Column: Aggregate fair market value (actual amount for Class I). $.",
+      "required": false,
+      "maxLength": 47
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class5[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V. Column: Allocation of sales price. $.",
+      "required": false,
+      "maxLength": 49
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class6and7[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V I and V I I. Column: Aggregate fair market value (actual amount for Class I). $.",
+      "required": false,
+      "maxLength": 47
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class6and7[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V I and V I I. Column: Allocation of sales price. $.",
+      "required": false,
+      "maxLength": 49
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Total[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Total. Column: Aggregate fair market value (actual amount for Class I). $.",
+      "required": false,
+      "maxLength": 47
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Total[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Total. Column: Allocation of sales price. $.",
+      "required": false,
+      "maxLength": 49
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Part I I I. Supplemental Statement—Complete only if amending an original statement or previo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class1[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Row: Class I. Column: Allocation of sales price as previously reported. $.",
+      "required": false,
+      "maxLength": 38
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class1[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I. Column: Increase or (decrease). $.",
+      "required": false,
+      "maxLength": 24
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class1[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I. Column: Redetermined allocation of sales price. $.",
+      "required": false,
+      "maxLength": 35
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I. Column: Allocation of sales price as previously reported. $.",
+      "required": false,
+      "maxLength": 38
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I. Column: Increase or (decrease). $.",
+      "required": false,
+      "maxLength": 24
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I. Column: Redetermined allocation of sales price. $.",
+      "required": false,
+      "maxLength": 35
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class3[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I I. Column: Allocation of sales price as previously reported. $.",
+      "required": false,
+      "maxLength": 38
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class3[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I I. Column: Increase or (decrease). $.",
+      "required": false,
+      "maxLength": 24
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class3[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I I I. Column: Redetermined allocation of sales price. $.",
+      "required": false,
+      "maxLength": 35
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class4[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I V. Column: Allocation of sales price as previously reported. $.",
+      "required": false,
+      "maxLength": 38
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class4[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I V. Column: Increase or (decrease). $.",
+      "required": false,
+      "maxLength": 24
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class4[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class I V. Column: Redetermined allocation of sales price. $.",
+      "required": false,
+      "maxLength": 35
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class5[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V. Column: Allocation of sales price as previously reported. $.",
+      "required": false,
+      "maxLength": 38
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class5[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V. Column: Increase or (decrease). $.",
+      "required": false,
+      "maxLength": 24
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class5[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V. Column: Redetermined allocation of sales price. $.",
+      "required": false,
+      "maxLength": 35
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class6and7[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V I and V I I. Column: Allocation of sales price as previously reported. $.",
+      "required": false,
+      "maxLength": 38
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class6and7[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V I and V I I. Column: Increase or (decrease). $.",
+      "required": false,
+      "maxLength": 24
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Class6and7[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Class V I and V I I. Column: Redetermined allocation of sales price. $.",
+      "required": false,
+      "maxLength": 35
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Total[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Total. Column: Allocation of sales price as previously reported. $.",
+      "required": false,
+      "maxLength": 38
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Total[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Total. Column: Increase or (decrease).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].Total[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Total. Column: Redetermined allocation of sales price. $.",
+      "required": false,
+      "maxLength": 35
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Reason(s) for increase or decrease. Attach additional sheets if more space is needed. Line 1 of 1",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 2 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 3 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 4 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 5 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 6 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 7 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 8 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 9 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 10 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 11 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 12 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 13 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 14 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 15 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 16 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 17 of 18.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Line 18 of 18.",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,1020 @@
+{
+  "formId": "f8621",
+  "displayName": "Form 8621",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8621.pdf",
+  "generatedAt": "2026-04-06T21:46:34.749Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name of shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_2[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number and street. If a P.O. box, see instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_3[0]",
+      "fieldType": "street_address",
+      "labelHint": "Room or suite no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_4[0]",
+      "fieldType": "city",
+      "labelHint": "City or town.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_5[0]",
+      "fieldType": "state",
+      "labelHint": "State or province.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Country.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_7[0]",
+      "fieldType": "zip_code",
+      "labelHint": "Z I P or foreign postal code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Shareholder tax year: calendar year 20 (enter 2-digit year) or other tax year beginning (date), 20 (",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Shareholder tax year: calendar year 20 (2-digit year) or other tax year beginning (enter date), 20 (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Shareholder tax year: calendar year 20 (2-digit year) or other tax year beginning (date), 20 (enter ",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Shareholder tax year: calendar year 20 (2-digit year) or other tax year beginning (date), 20 (2-digi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].ShareholderTaxYear[0].f1_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Shareholder tax year: calendar year 20 (2-digit year) or other tax year beginning (date), 20 (2-digi",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number (see instructions).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Estate.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Estate.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Estate.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[3]",
+      "fieldType": "checkbox",
+      "labelHint": "Estate.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[4]",
+      "fieldType": "checkbox",
+      "labelHint": "Estate.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[5]",
+      "fieldType": "checkbox",
+      "labelHint": "Estate.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress2[0].f1_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of foreign corporation, passive foreign investment company (P F I C), or qualified electing fun",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress2[0].f1_15[0]",
+      "fieldType": "city",
+      "labelHint": "Address (Enter number, street, city or town, and country.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number (if any).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Reference I D number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxYearOfPFIC[0].f1_18[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Tax year of foreign corporation P F I C, or Q E F: calendar year 20 (enter 2-digit year).",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxYearOfPFIC[0].f1_19[0]",
+      "fieldType": "tax_year",
+      "labelHint": "or other tax year beginning (enter date).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxYearOfPFIC[0].f1_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20 (enter 2-digit year).",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxYearOfPFIC[0].f1_21[0]",
+      "fieldType": "date",
+      "labelHint": "and ending (enter date).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxYearOfPFIC[0].f1_22[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20 (enter 2-digit year).",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "shares",
+      "labelHint": "Part I. Summary of Annual Information (see instructions). Provide the following information with res",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1. Check if shares jointly owned with spouse.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "date",
+      "labelHint": "2. Date shares acquired during the tax year, if applicable:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3. Number of shares held at the end of the taxable year:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. (d) $150,001-200,000",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "4. (d) $150,001-200,000",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[2]",
+      "fieldType": "checkbox",
+      "labelHint": "4. (d) $150,001-200,000",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[3]",
+      "fieldType": "checkbox",
+      "labelHint": "4. (d) $150,001-200,000",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. (e) If more than $200,000, list value:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. Type of P F I C and amount of any excess distribution or gain treated as an excess distribution under section 1291, inclusion under section 1293, and inclusion or deduction under section 1296 (check all boxes that apply): (a) Section 1291.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. (b) Section 1293 (Qualified Electing Fund).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. (c) Section 1296 (Mark to Market).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I I I. Income From a Qualified Electing Fund (Q E F). All Q E F shareholders complete l",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6b. Enter the portion of line 6a that is included in income under section 951 or that may be exclude",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6c. Subtract line 6b from line 6a. Enter this amount on your tax return as ordinary income.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7a. Enter your pro rata share of the total net capital gain of the Q E F.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7b. Enter the portion of line 7a that is included in income under section 951 or that may be exclude",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7c. Subtract line 7b from line 7a. This amount is a net long-term capital gain. Enter this amount in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Complete lines 8 and 9 only if you are making a section 1294 election (Election B) for the current t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "8b. Enter the total amount of cash and the fair market value of other property distributed or deemed",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "8c. Enter the portion of line 8a not already included in line 8b that is attributable to shares in t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8d. Add lines 8b and 8c.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8e. Subtract line 8d from line 8a, and enter the difference (if zero or less, enter amount in bracke",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "9a. Enter the total tax for the tax year. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "9b. Enter the total tax for the tax year determined without regard to the amount entered on line 8e.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9c. Subtract line 9b from line 9a. This is the deferred tax, the time for payment of which is extend",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I V. Gain or (Loss) From Mark-to-Market Election (see instructions). 10a. Enter the fair market",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": "10b. Enter your adjusted basis in the stock at the end of the tax year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10c. Subtract line 10b from line 10a. If a gain, do not complete lines 11 and 12. Include this amoun",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Enter any unreversed inclusions (as defined in section 1296(d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Enter the loss from line 10c, but only to the extent of unreversed inclusions on line 11. Includ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
+      "fieldType": "date",
+      "labelHint": "13. If you sold or otherwise disposed of any section 1296 stock (see instructions) during the tax ye",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
+      "fieldType": "date",
+      "labelHint": "13b. Enter the adjusted basis of the stock on the date of sale or disposition.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13c. Subtract line 13b from line 13a. If a gain, do not complete line 14. Include this amount as ord",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14a. Enter any unreversed inclusions (as defined in section 1296(d)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Enter the loss from line 13c, but only to the extent of unreversed inclusions on line 14a. Incl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14c. Enter the amount by which the loss on line 13c exceeds unreversed inclusions on line 14a. Inclu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 3. Part V. Distributions From and Dispositions of Stock of a Section 1291 Fund (see instruction",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "15a. Enter your total distributions from the section 1291 fund during the current tax year with resp",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "15b. Enter the total distributions (reduced by the portions of such distributions that were excess d",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15c. Divide line 15b by 3.0. (See instructions if the number of preceding tax years is less than 3.)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15d. Multiply line 15c by 125% (1.25).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
+      "fieldType": "tax_year",
+      "labelHint": "15e. (1) Subtract line 15d from line 15a. This amount, if more than zero, is the excess distribution",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15e. (2) If the amount on line 15e(1) is in a foreign currency, convert to U.S. dollars and enter he",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15f. Enter gain or loss from the disposition of stock of a section 1291 fund or former section 1291 ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "16b. Enter the total of the amounts determined in line 16a that are allocable to the current tax yea",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "16c. Enter the aggregate increases in tax (before credits) for each tax year in your holding period ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16d. Foreign tax credit (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16e. Subtract line 16d from line 16c. Enter this amount on your income tax return as \"additional tax",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16f. Determine interest on each net increase in tax determined on line 16e using the rates and metho",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row2[0].f4_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 4. Part V I. Status of Prior Year Section 1294 Elections and Termination of Section 1294 Electi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row2[0].f4_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "17. Tax year of outstanding election. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row2[0].f4_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "17. Tax year of outstanding election. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row2[0].f4_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": "17. Tax year of outstanding election. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row2[0].f4_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "17. Tax year of outstanding election. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row2[0].f4_6[0]",
+      "fieldType": "tax_year",
+      "labelHint": "17. Tax year of outstanding election. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row3[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Undistributed earnings to which the election relates. (i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row3[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Undistributed earnings to which the election relates. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row3[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Undistributed earnings to which the election relates. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row3[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Undistributed earnings to which the election relates. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row3[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Undistributed earnings to which the election relates. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row3[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Undistributed earnings to which the election relates. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row4[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Deferred tax. (i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row4[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Deferred tax. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row4[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Deferred tax. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row4[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Deferred tax. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row4[0].f4_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Deferred tax. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row4[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Deferred tax. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row5[0].f4_19[0]",
+      "fieldType": "date",
+      "labelHint": "20. Interest accrued on deferred tax (line 19) as of the filing date. (i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row5[0].f4_20[0]",
+      "fieldType": "date",
+      "labelHint": "20. Interest accrued on deferred tax (line 19) as of the filing date. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row5[0].f4_21[0]",
+      "fieldType": "date",
+      "labelHint": "20. Interest accrued on deferred tax (line 19) as of the filing date. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row5[0].f4_22[0]",
+      "fieldType": "date",
+      "labelHint": "20. Interest accrued on deferred tax (line 19) as of the filing date. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row5[0].f4_23[0]",
+      "fieldType": "date",
+      "labelHint": "20. Interest accrued on deferred tax (line 19) as of the filing date. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_17-20[0].Row5[0].f4_24[0]",
+      "fieldType": "date",
+      "labelHint": "20. Interest accrued on deferred tax (line 19) as of the filing date. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row2[0].f4_25[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Complete lines 21 through 24 only if a section 1294 election is terminated in the current year. 21. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row2[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Event terminating election. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row2[0].f4_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Event terminating election. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row2[0].f4_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Event terminating election. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row2[0].f4_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Event terminating election. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row2[0].f4_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Event terminating election. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row3[0].f4_31[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. Earnings distributed or deemed distributed during the tax year. (i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row3[0].f4_32[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. Earnings distributed or deemed distributed during the tax year. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row3[0].f4_33[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. Earnings distributed or deemed distributed during the tax year. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row3[0].f4_34[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. Earnings distributed or deemed distributed during the tax year. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row3[0].f4_35[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. Earnings distributed or deemed distributed during the tax year. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row3[0].f4_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "22. Earnings distributed or deemed distributed during the tax year. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row4[0].f4_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Deferred tax due with this return. (i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row4[0].f4_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Deferred tax due with this return. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row4[0].f4_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Deferred tax due with this return. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row4[0].f4_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Deferred tax due with this return. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row4[0].f4_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Deferred tax due with this return. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row4[0].f4_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Deferred tax due with this return. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row5[0].f4_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Accrued interest due with this return. (i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row5[0].f4_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Accrued interest due with this return. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row5[0].f4_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Accrued interest due with this return. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row5[0].f4_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Accrued interest due with this return. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row5[0].f4_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Accrued interest due with this return. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines21-24[0].Row5[0].f4_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Accrued interest due with this return. (v i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row2[0].f4_49[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Complete lines 25 and 26 only if there is a partial termination of a section 1294 election in the cu",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row2[0].f4_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Deferred tax outstanding after partial termination of election. Subtract line 23 from line 19. (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row2[0].f4_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Deferred tax outstanding after partial termination of election. Subtract line 23 from line 19. (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row2[0].f4_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Deferred tax outstanding after partial termination of election. Subtract line 23 from line 19. (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row2[0].f4_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Deferred tax outstanding after partial termination of election. Subtract line 23 from line 19. (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row2[0].f4_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Deferred tax outstanding after partial termination of election. Subtract line 23 from line 19. (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row3[0].f4_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Interest accrued after partial termination of election. Subtract line 24 from line 20. (i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row3[0].f4_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Interest accrued after partial termination of election. Subtract line 24 from line 20. (i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row3[0].f4_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Interest accrued after partial termination of election. Subtract line 24 from line 20. (i i i).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row3[0].f4_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Interest accrued after partial termination of election. Subtract line 24 from line 20. (i v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row3[0].f4_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Interest accrued after partial termination of election. Subtract line 24 from line 20. (v).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_Lines25-26[0].Row3[0].f4_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Interest accrued after partial termination of election. Subtract line 24 from line 20. (v i).",
+      "required": false
+    }
+  ]
+}

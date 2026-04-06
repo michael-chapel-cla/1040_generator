@@ -1,0 +1,933 @@
+{
+  "formId": "f8300",
+  "displayName": "Form 8300",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8300.pdf",
+  "generatedAt": "2026-04-06T21:46:36.736Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 1. 1. Check appropriate box(es) if: a. Amends prior report;",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1b. Suspicious transaction.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part I. Identity of Individual From Whom the Cash Was Received. 2. If more than one individual is involved, check here and see instructions.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "last_name",
+      "labelHint": "Page 2. Multiple Parties (Complete applicable parts below if box 2 or 15 on page 1 is checked.). Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "first_name",
+      "labelHint": "4. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. M.I.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line6_CombField[0].f1_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "6. Taxpayer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "street_address",
+      "labelHint": "7. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line8_CombField[0].f1_06[0]",
+      "fieldType": "date",
+      "labelHint": "8. Date of birth (see instructions). M M D D Y Y Y Y.",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "city",
+      "labelHint": "9. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line10_CombField[0].f1_08[0]",
+      "fieldType": "state",
+      "labelHint": "10. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "zip_code",
+      "labelHint": "11. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Country (if not U.S.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "occupation",
+      "labelHint": "13. Occupation, profession, or business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Identifying document (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Issued by.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part I I. Person on Whose Behalf This Transaction Was Conducted. 15. If this transaction was conducted on behalf of more than one person, check here and see instructions.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "last_name",
+      "labelHint": "Entry 2. 3. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "first_name",
+      "labelHint": "4. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. M.I.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line19_CombField[0].f1_18[0]",
+      "fieldType": "ssn",
+      "labelHint": "6. Taxpayer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "street_address",
+      "labelHint": "7. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].EIN_CombField[0].f1_20[0]",
+      "fieldType": "date",
+      "labelHint": "8. Date of birth (see instructions). M M D D Y Y Y Y.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "city",
+      "labelHint": "9. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "state",
+      "labelHint": "10. State.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "zip_code",
+      "labelHint": "11. Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line24_CombField[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Country (if not U.S.).",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "occupation",
+      "labelHint": "13. Occupation, profession, or business.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Identifying document (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Issued by.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "last_name",
+      "labelHint": "Part I I. Continued—Complete if box 15 on page 1 is checked. Entry 1. 16. Individual’s last name or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line28_ReadOrder[0].Line28_CombField[0].f1_30[0]",
+      "fieldType": "first_name",
+      "labelHint": "17. First name.",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line29_ReadOrder[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. M.I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line30_ReadOrder[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "30. If cash was received in more than one payment, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "ssn",
+      "labelHint": "19. Taxpayer identification number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "full_name",
+      "labelHint": "20. Doing business as (D B A) name (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "street_address",
+      "labelHint": "21. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "occupation",
+      "labelHint": "22. Occupation, profession, or business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines32c-f_ReadOrder[0].f1_37[0]",
+      "fieldType": "city",
+      "labelHint": "23. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines32c-f_ReadOrder[0].f1_38[0]",
+      "fieldType": "state",
+      "labelHint": "24. State.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines32c-f_ReadOrder[0].f1_39[0]",
+      "fieldType": "zip_code",
+      "labelHint": "25. Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines32c-f_ReadOrder[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Country (if not U.S.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Alien identification (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27b. Issued by.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].Checkboxes33a-e[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].Checkboxes33a-e[0].c1_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].Checkboxes33a-e[0].c1_6[2]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].Checkboxes33a-e[0].c1_6[3]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].Checkboxes33a-e[0].c1_6[4]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].c1_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].c1_6[2]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].c1_6[3]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line33_ReadOrder[0].c1_6[4]",
+      "fieldType": "checkbox",
+      "labelHint": "33j. Other (specify in item 34).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
+      "fieldType": "last_name",
+      "labelHint": "Entry 2. 16. Individual’s last name or organization’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
+      "fieldType": "first_name",
+      "labelHint": "17. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. M.I.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
+      "fieldType": "ssn",
+      "labelHint": "19. Taxpayer identification number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
+      "fieldType": "full_name",
+      "labelHint": "20. Doing business as (D B A) name (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line36_CombField[0].f1_49[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
+      "fieldType": "street_address",
+      "labelHint": "21. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line37_CombField[0].f1_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "22. Occupation, profession, or business.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_52[0]",
+      "fieldType": "city",
+      "labelHint": "23. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line39_CombField[0].f1_53[0]",
+      "fieldType": "state",
+      "labelHint": "24. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_54[0]",
+      "fieldType": "zip_code",
+      "labelHint": "25. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Country (if not U.S.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Alien identification (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line43_CombField[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27b. Issued by.",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Comments – Please use the lines provided below to comment on or clarify any information you entered ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_01[0]",
+      "fieldType": "last_name",
+      "labelHint": "Page 2. Multiple Parties (Complete applicable parts below if box 2 or 15 on page 1 is checked.). Par",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_02[0]",
+      "fieldType": "first_name",
+      "labelHint": "4. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. M.I.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line6_CombField_1[0].f1_04[0]",
+      "fieldType": "ssn",
+      "labelHint": "6. Taxpayer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_05[0]",
+      "fieldType": "street_address",
+      "labelHint": "7. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line8_CombField_1[0].f1_06[0]",
+      "fieldType": "date",
+      "labelHint": "8. Date of birth (see instructions). M M D D Y Y Y Y.",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_07[0]",
+      "fieldType": "city",
+      "labelHint": "9. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10_CombField_1[0].f1_08[0]",
+      "fieldType": "state",
+      "labelHint": "10. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_09[0]",
+      "fieldType": "zip_code",
+      "labelHint": "11. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Country (if not U.S.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_11[0]",
+      "fieldType": "occupation",
+      "labelHint": "13. Occupation, profession, or business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Identifying document (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Issued by.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_15[0]",
+      "fieldType": "last_name",
+      "labelHint": "Entry 2. 3. Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_16[0]",
+      "fieldType": "first_name",
+      "labelHint": "4. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. M.I.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line6_CombField_2[0].f1_18[0]",
+      "fieldType": "ssn",
+      "labelHint": "6. Taxpayer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_19[0]",
+      "fieldType": "street_address",
+      "labelHint": "7. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line8_CombField_2[0].f1_20[0]",
+      "fieldType": "date",
+      "labelHint": "8. Date of birth (see instructions). M M D D Y Y Y Y.",
+      "required": false,
+      "maxLength": 8
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_21[0]",
+      "fieldType": "city",
+      "labelHint": "9. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line10_CombField_2[0].f1_22[0]",
+      "fieldType": "state",
+      "labelHint": "10. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_23[0]",
+      "fieldType": "zip_code",
+      "labelHint": "11. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Country (if not U.S.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_25[0]",
+      "fieldType": "occupation",
+      "labelHint": "13. Occupation, profession, or business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Identifying document (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14b. Issued by.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_29[0]",
+      "fieldType": "last_name",
+      "labelHint": "Part I I. Continued—Complete if box 15 on page 1 is checked. Entry 1. 16. Individual’s last name or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_30[0]",
+      "fieldType": "first_name",
+      "labelHint": "17. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. M.I.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line19_CombField_1[0].f1_32[0]",
+      "fieldType": "ssn",
+      "labelHint": "19. Taxpayer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_33[0]",
+      "fieldType": "full_name",
+      "labelHint": "20. Doing business as (D B A) name (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].EIN_CombField_1[0].f1_34[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_35[0]",
+      "fieldType": "street_address",
+      "labelHint": "21. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_36[0]",
+      "fieldType": "occupation",
+      "labelHint": "22. Occupation, profession, or business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_37[0]",
+      "fieldType": "city",
+      "labelHint": "23. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line24_CombField_1[0].f1_38[0]",
+      "fieldType": "state",
+      "labelHint": "24. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_39[0]",
+      "fieldType": "zip_code",
+      "labelHint": "25. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Country (if not U.S.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Alien identification (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27b. Issued by.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_44[0]",
+      "fieldType": "last_name",
+      "labelHint": "Entry 2. 16. Individual’s last name or organization’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_45[0]",
+      "fieldType": "first_name",
+      "labelHint": "17. First name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. M.I.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line19_CombField_2[0].f1_47[0]",
+      "fieldType": "ssn",
+      "labelHint": "19. Taxpayer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_48[0]",
+      "fieldType": "full_name",
+      "labelHint": "20. Doing business as (D B A) name (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].EIN_CombField_2[0].f1_49[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_50[0]",
+      "fieldType": "street_address",
+      "labelHint": "21. Address (number, street, and apt. or suite no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_51[0]",
+      "fieldType": "occupation",
+      "labelHint": "22. Occupation, profession, or business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_52[0]",
+      "fieldType": "city",
+      "labelHint": "23. City.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line24_CombField_2[0].f1_53[0]",
+      "fieldType": "state",
+      "labelHint": "24. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_54[0]",
+      "fieldType": "zip_code",
+      "labelHint": "25. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Country (if not U.S.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27. Alien identification (I D). a. Describe I D.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27b. Issued by.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27c. Number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Comments – Please use the lines provided below to comment on or clarify any information you entered ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 2 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 3 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 4 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 5 of 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Line 6 of 6.",
+      "required": false
+    }
+  ]
+}

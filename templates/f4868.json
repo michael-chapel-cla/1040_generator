@@ -1,0 +1,124 @@
+{
+  "formId": "f4868",
+  "displayName": "Form 4868",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4868.pdf",
+  "generatedAt": "2026-04-06T21:46:19.266Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].VoucherHeader[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. For calendar year 2025, or other tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].VoucherHeader[0].f1_2[0]",
+      "fieldType": "date",
+      "labelHint": ", 2025, and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].VoucherHeader[0].f1_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartI_ReadOrder[0].f1_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I. Identification. 1. Your name(s) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartI_ReadOrder[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Address (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartI_ReadOrder[0].f1_6[0]",
+      "fieldType": "city",
+      "labelHint": "1. City, town, or post office.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartI_ReadOrder[0].f1_7[0]",
+      "fieldType": "state",
+      "labelHint": "1. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartI_ReadOrder[0].f1_8[0]",
+      "fieldType": "zip_code",
+      "labelHint": "1. Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartI_ReadOrder[0].f1_9[0]",
+      "fieldType": "ssn",
+      "labelHint": "2. Your social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PartI_ReadOrder[0].f1_10[0]",
+      "fieldType": "ssn",
+      "labelHint": "3. Spouse's social security number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Individual Income Tax. 4. Estimate of total tax liability for 2025. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Total 2025 payments.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Balance due. Subtract line 5 from line 4. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Amount you're paying (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8. Check here if you’re \"out of the country\" and a U.S. citizen or resident. See instructions.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "9. Check here if you file Form 1040-N R and didn't receive wages as an employee subject to U.S. income tax withholding.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Col4[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 3. How To Make a Payment. Electronic Payments. Confirmation number. You’ll receive a confirmati",
+      "required": false
+    }
+  ]
+}

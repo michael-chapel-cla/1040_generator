@@ -1,0 +1,4330 @@
+{
+  "formId": "f4720",
+  "displayName": "Form 4720",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4720.pdf",
+  "generatedAt": "2026-04-06T21:46:28.627Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. For calendar year 2025 or other tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "date",
+      "labelHint": ", 2025, and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAndAddress[0].f1_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of organization, entity, or person subject to tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAndAddress[0].f1_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number and street (or P.O. box if mail is not delivered to street address).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAndAddress[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Room or suite no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAndAddress[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAndAddress[0].f1_8[0]",
+      "fieldType": "state",
+      "labelHint": "State or province.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAndAddress[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Country.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NameAndAddress[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Tax on excess business holdings—Schedule C, line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "ssn",
+      "labelHint": "E I N or S S N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Amended return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Checkbox_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Checkbox_ReadOrder[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Checkbox_ReadOrder[0].c1_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "A. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "A. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "percentage",
+      "labelHint": "Show conversion rate to U.S. dollars. See instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "B. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "B. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I. Taxes on Organization (Sections 170(f)(10), 664(c)(2), 4911(a), 4912(a), 4942(a), 4943(a), 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Tax on excess business holdings—Schedule C, line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Tax on investments that jeopardize charitable purpose—Schedule D, Part I, column (f).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Tax on taxable expenditures—Schedule E, Part I, column (h).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Tax on political expenditures—Schedule F, Part I, column (f).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Tax on excess lobbying expenditures—Schedule G, line 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Tax on disqualifying lobbying expenditures—Schedule H, Part I, column (e).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Tax on premiums paid on personal benefit contracts.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Tax on being a party to prohibited tax shelter transactions—Schedule J, Part I, column (h).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Tax on taxable distributions—Schedule K, Part I, column (f).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Tax on a charitable remainder trust’s unrelated business taxable income. Attach statement.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Tax on failure to meet the requirements of section 501(r)(3)—Schedule M, Part I I, line 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Tax on excess executive compensation—Schedule N.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Tax on net investment income of private colleges and universities—Schedule O.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Total (add lines 1–14).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I I. Taxes on a Manager, Self-Dealer, Disqualified Person, Donor, Donor Advisor, or Related Per",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Tax on self-dealing—Schedule A, Part I I, column (d); and Part I I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Tax on investments that jeopardize charitable purposes—Schedule D, Part I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Tax on taxable expenditures—Schedule E, Part I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Tax on political expenditures—Schedule F, Part I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Tax on disqualifying lobbying expenditures—Schedule H, Part I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Tax on excess benefit transactions—Schedule I, Part I I, column (d); and Part I I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Tax on being a party to prohibited tax shelter transactions—Schedule J, Part I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Tax on taxable distributions—Schedule K, Part I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Tax on prohibited benefits—Schedule L, Part I I, column (d); and Part I I I, column (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Total—Add lines 1 through 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Tax Payments. 1. Total tax (Part I, line 15 or Part I I, line 10).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Total payments including amount paid with Form 8868 (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Tax due. If line 1 is larger than line 2, enter amount owed (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Overpayment. If line 1 is smaller than line 2, enter the difference. This is your refund. Complet",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow1[0].f2_1[0]",
+      "fieldType": "date",
+      "labelHint": "Page 2. SCHEDULE A—Initial Taxes on Self-Dealing (Section 4941). Part I. Acts of Self-Dealing and Ta",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow1[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 1. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow1[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 1. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow1[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 1. Column: (d) Description of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow2[0].f2_3[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Act number 2. Column: (b) Date of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 2. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow2[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 2. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 2. Column: (d) Description of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow3[0].f2_5[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Act number 3. Column: (b) Date of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow3[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 3. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow3[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 3. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow3[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 3. Column: (d) Description of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow4[0].f2_7[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Act number 4. Column: (b) Date of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow4[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 4. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow4[0].c2_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 4. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow4[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 4. Column: (d) Description of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow5[0].f2_9[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Act number 5. Column: (b) Date of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow5[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 5. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow5[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Act number 5. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsA-D[0].BodyRow5[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 5. Column: (d) Description of act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow1[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 1. Column: (e) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow1[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 1. Column: (f) Amount involved in act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow1[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 1. Column: (g) Initial tax on self-dealer (10% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow1[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 1. Column: (h) Tax on foundation managers (if applicable) (lesser of $20,000 or 5% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow2[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 2. Column: (e) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow2[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 2. Column: (f) Amount involved in act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 2. Column: (g) Initial tax on self-dealer (10% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 2. Column: (h) Tax on foundation managers (if applicable) (lesser of $20,000 or 5% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow3[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 3. Column: (e) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow3[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 3. Column: (f) Amount involved in act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow3[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 3. Column: (g) Initial tax on self-dealer (10% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow3[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 3. Column: (h) Tax on foundation managers (if applicable) (lesser of $20,000 or 5% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow4[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 4. Column: (e) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow4[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 4. Column: (f) Amount involved in act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow4[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 4. Column: (g) Initial tax on self-dealer (10% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow4[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 4. Column: (h) Tax on foundation managers (if applicable) (lesser of $20,000 or 5% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow5[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 5. Column: (e) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow5[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 5. Column: (f) Amount involved in act.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow5[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 5. Column: (g) Initial tax on self-dealer (10% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1_ColsE-H[0].BodyRow5[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Act number 5. Column: (h) Tax on foundation managers (if applicable) (lesser of $20,000 or 5% of col. (f)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row1[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Tax Liability of Self-Dealers and Proration of Payments. Row: 1. Column: (a) Na",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row1[0].Colb[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Act no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row1[0].Colc[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row1[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Self-dealer’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row2[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of self-dealers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row2[0].Colb[0].f2_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Act no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row2[0].Colc[0].f2_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row2[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Self-dealer’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row3[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of self-dealers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row3[0].Colb[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Act no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row3[0].Colc[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row3[0].f2_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Self-dealer’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row4[0].f2_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Names of self-dealers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row4[0].Colb[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Act no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row4[0].Colc[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].Row4[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Self-dealer’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row1[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Summary of Tax Liability of Foundation Managers and Proration of Payments. Row: 1. Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row1[0].Colb[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Act no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row1[0].Colc[0].f2_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (h), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row1[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row2[0].f2_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row2[0].Colb[0].f2_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Act no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row2[0].Colc[0].f2_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (h), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row2[0].f2_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row3[0].f2_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row3[0].Colb[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Act no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row3[0].Colc[0].f2_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (h), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable[0].Row3[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "SCHEDULE B—Initial Tax on Undistributed Income (Section 4942). 1. Undistributed income for years bef",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Undistributed income for 2024 (from Form 990-P F for 2025, Part X I I, line 6e).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_61[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3. Total undistributed income at end of current tax year beginning in 2025 and subject to tax under ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Tax—Enter 30% of line 3 here and on Part I, line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 3. SCHEDULE C—Initial Tax on Excess Business Holdings (Section 4943). Business Holdings and Com",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Form of enterprise (corporation, partnership, trust, joint venture, sole proprietorship, etc.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line1[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Foundation holdings in business enterprise. Column: (a) Voting stock (profits interest or be",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line1[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Foundation holdings in business enterprise. Column: (b) Value. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line1[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Foundation holdings in business enterprise. Column: (c) Nonvoting stock (capital interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line2[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Permitted holdings in business enterprise. Column: (a) Voting stock (profits interest or ben",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line2[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Permitted holdings in business enterprise. Column: (b) Value. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line2[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Permitted holdings in business enterprise. Column: (c) Nonvoting stock (capital interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line3[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Value of excess holdings in business enterprise. Column: (a) Voting stock (profits interest ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line3[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Value of excess holdings in business enterprise. Column: (b) Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line3[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Value of excess holdings in business enterprise. Column: (c) Nonvoting stock (capital intere",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line4[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Value of excess holdings disposed of within 90 days; or, other value of excess holdings not ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line4[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Value of excess holdings disposed of within 90 days; or, other value of excess holdings not subject to section 4943 tax (attach statement). Column: (b) Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line4[0].f3_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Value of excess holdings disposed of within 90 days; or, other value of excess holdings not ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line5[0].f3_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Taxable excess holdings in business enterprise-line 3 minus line 4. Column: (a) Voting stock",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line5[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Taxable excess holdings in business enterprise-line 3 minus line 4. Column: (b) Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line5[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Taxable excess holdings in business enterprise-line 3 minus line 4. Column: (c) Nonvoting st",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line6[0].f3_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Tax—Enter 10% of line 5. Column: (a) Voting stock (profits interest or beneficial interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line6[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Tax—Enter 10% of line 5. Column: (b) Value.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line6[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Tax—Enter 10% of line 5. Column: (c) Nonvoting stock (capital interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line7[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Total tax—Add amounts on line 6, columns (a), (b), and (c); enter total here and on Part I, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line7[0].f3_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Total tax—Add amounts on line 6, columns (a), (b), and (c); enter total here and on Part I, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Line7[0].f3_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Total tax—Add amounts on line 6, columns (a), (b), and (c); enter total here and on Part I, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8. No. Attach a statement explaining (i) corrective action taken, or (i i) why corrective action has not been taken.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "8. No. Attach a statement explaining (i) corrective action taken, or (i i) why corrective action has not been taken.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow1[0].f3_25[0]",
+      "fieldType": "date",
+      "labelHint": "SCHEDULE D—Initial Taxes on Investments That Jeopardize Charitable Purpose (Section 4944). Part I. I",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow1[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 1. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow1[0].c3_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 1. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow1[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 1. Column: (d) Description of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow1[0].f3_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 1. Column: (e) Amount of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow1[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 1. Column: (f) Initial tax on foundation (10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow1[0].f3_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 1. Column: (g) Initial tax on foundation managers (if applicable)— (lesser of $10,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow2[0].f3_30[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Investment number 2. Column: (b) Date of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow2[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 2. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow2[0].c3_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 2. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow2[0].f3_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 2. Column: (d) Description of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow2[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 2. Column: (e) Amount of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow2[0].f3_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 2. Column: (f) Initial tax on foundation (10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow2[0].f3_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 2. Column: (g) Initial tax on foundation managers (if applicable)— (lesser of $10,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow3[0].f3_35[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Investment number 3. Column: (b) Date of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow3[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 3. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow3[0].c3_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 3. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow3[0].f3_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 3. Column: (d) Description of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow3[0].f3_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 3. Column: (e) Amount of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow3[0].f3_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 3. Column: (f) Initial tax on foundation (10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow3[0].f3_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 3. Column: (g) Initial tax on foundation managers (if applicable)— (lesser of $10,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow4[0].f3_40[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Investment number 4. Column: (b) Date of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow4[0].c3_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 4. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow4[0].c3_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 4. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow4[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 4. Column: (d) Description of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow4[0].f3_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 4. Column: (e) Amount of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow4[0].f3_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 4. Column: (f) Initial tax on foundation (10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow4[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 4. Column: (g) Initial tax on foundation managers (if applicable)— (lesser of $10,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow5[0].f3_45[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Investment number 5. Column: (b) Date of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow5[0].c3_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 5. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow5[0].c3_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Investment number 5. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow5[0].f3_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 5. Column: (d) Description of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow5[0].f3_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 5. Column: (e) Amount of investment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow5[0].f3_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 5. Column: (f) Initial tax on foundation (10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part1[0].BodyRow5[0].f3_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Investment number 5. Column: (g) Initial tax on foundation managers (if applicable)— (lesser of $10,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (f). Enter here and on Part I, line 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].f3_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (g). Enter total (or prorated amount) here and in Part I I, column (c), below.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row1[0].f3_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Tax Liability of Foundation Managers and Proration of Payments. Row: 1. Column:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row1[0].Colb[0].f3_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Investment no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row1[0].Colc[0].f3_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row1[0].f3_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row2[0].f3_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row2[0].Colb[0].f3_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Investment no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row2[0].Colc[0].f3_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row2[0].f3_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row3[0].f3_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row3[0].Colb[0].f3_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Investment no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row3[0].Colc[0].f3_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Row3[0].f3_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow1[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 4. SCHEDULE E—Initial Taxes on Taxable Expenditures (Section 4945). Part I. Expenditures and Co",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow1[0].f4_2[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 1. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow1[0].c4_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 1. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow1[0].c4_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 1. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow1[0].f4_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 1. Column: (e) Name and address of recipient.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow[0].f4_5[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 2. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow[0].c4_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 2. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow[0].c4_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 2. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow[0].f4_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 2. Column: (e) Name and address of recipient.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow3[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow3[0].f4_8[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 3. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow3[0].c4_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 3. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow3[0].c4_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 3. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow3[0].f4_9[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 3. Column: (e) Name and address of recipient.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow4[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow4[0].f4_11[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 4. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow4[0].c4_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 3. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow4[0].c4_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 3. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow4[0].f4_12[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 3. Column: (e) Name and address of recipient.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow5[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow5[0].f4_14[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 5. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow5[0].c4_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 5. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow5[0].c4_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 5. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsA-E[0].BodyRow5[0].f4_15[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 5. Column: (e) Name and address of recipient.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow1[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (f) Description of expenditure and purposes for which made.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow1[0].f4_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (g) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow1[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (h) Initial tax imposed on foundation (20% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow1[0].f4_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (i) Initial tax imposed on foundation managers (if applicable)— (lesser of $10,000 or 5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow2[0].f4_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (f) Description of expenditure and purposes for which made.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow2[0].f4_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (g) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow2[0].f4_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (h) Initial tax imposed on foundation (20% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow2[0].f4_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (i) Initial tax imposed on foundation managers (if applicable)— (lesser of $10,000 or 5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow3[0].f4_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (f) Description of expenditure and purposes for which made.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow3[0].f4_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (g) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow3[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (h) Initial tax imposed on foundation (20% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow3[0].f4_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (i) Initial tax imposed on foundation managers (if applicable)— (lesser of $10,000 or 5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow4[0].f4_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (f) Description of expenditure and purposes for which made.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow4[0].f4_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (g) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow4[0].f4_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (h) Initial tax imposed on foundation (20% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow4[0].f4_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (i) Initial tax imposed on foundation managers (if applicable)— (lesser of $10,000 or 5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow5[0].f4_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (f) Description of expenditure and purposes for which made.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow5[0].f4_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (g) Question number from Form 990-P F, Part V I-B, or Form 5227, Part V I I I, applicable to the expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow5[0].f4_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (h) Initial tax imposed on foundation (20% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchE_Part1_ColsF-I[0].BodyRow5[0].f4_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (i) Initial tax imposed on foundation managers (if applicable)— (lesser of $10,000 or 5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (h). Enter here and on Part I, line 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (i). Enter total (or prorated amount) here and in Part I I, column (c), below.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row1[0].f4_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Tax Liability of Foundation Managers and Proration of Payments. Row: 1. Column:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row1[0].Colb[0].f4_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row1[0].Colc[0].f4_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (i), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row1[0].f4_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row2[0].f4_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row2[0].Colb[0].f4_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row2[0].Colc[0].f4_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (i), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row2[0].f4_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row3[0].f4_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row3[0].Colb[0].f4_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row3[0].Colc[0].f4_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (i), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchEPartIITable[0].Row3[0].f4_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow1[0].f4_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "SCHEDULE F—Initial Taxes on Political Expenditures (Section 4955). Part I. Expenditures and Computation of Tax. Row: Item number 1. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow1[0].f4_51[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 1. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow1[0].c4_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 1. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow1[0].c4_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 1. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow1[0].f4_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (e) Description of political expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow1[0].f4_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (f) Initial tax imposed on organization or foundation (10% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow1[0].f4_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (g) Initial tax imposed on managers (if applicable) (lesser of $5,000 or 2½% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow2[0].f4_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow2[0].f4_56[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 2. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow2[0].c4_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 2. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow2[0].c4_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 2. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow2[0].f4_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (e) Description of political expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow2[0].f4_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (f) Initial tax imposed on organization or foundation (10% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow2[0].f4_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (g) Initial tax imposed on managers (if applicable) (lesser of $5,000 or 2½% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow3[0].f4_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow3[0].f4_61[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 3. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow3[0].c4_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 3. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow3[0].c4_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 3. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow3[0].f4_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (e) Description of political expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow3[0].f4_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (f) Initial tax imposed on organization or foundation (10% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow3[0].f4_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (g) Initial tax imposed on managers (if applicable) (lesser of $5,000 or 2½% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow4[0].f4_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow4[0].f4_66[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 4. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow4[0].c4_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 4. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow4[0].c4_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 4. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow4[0].f4_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (e) Description of political expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow4[0].f4_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (f) Initial tax imposed on organization or foundation (10% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow4[0].f4_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (g) Initial tax imposed on managers (if applicable) (lesser of $5,000 or 2½% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow5[0].f4_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow5[0].f4_71[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 5. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow5[0].c4_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 5. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow5[0].c4_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Item number 5. Column: (d) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow5[0].f4_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (e) Description of political expenditure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow5[0].f4_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (f) Initial tax imposed on organization or foundation (10% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Part1[0].BodyRow5[0].f4_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (g) Initial tax imposed on managers (if applicable) (lesser of $5,000 or 2½% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (f). Enter here and on Part I, line 5.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (g). Enter total (or prorated amount) here and in Part I I, column (c), below.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row1[0].f4_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Tax Liability of Organization Managers or Foundation Managers and Proration of ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row1[0].Colb[0].f4_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row1[0].Colc[0].f4_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row1[0].f4_80[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row2[0].f4_81[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of organization managers or foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row2[0].Colb[0].f4_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row2[0].Colc[0].f4_83[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row2[0].f4_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row3[0].f4_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of organization managers or foundation managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row3[0].Colb[0].f4_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row3[0].Colc[0].f4_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].SchFPartIITable[0].Row3[0].f4_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 5. SCHEDULE G—Tax on Excess Lobbying Expenditures (Section 4911). 1. Excess of grass roots expe",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Excess of lobbying expenditures over lobbying nontaxable amount (from Schedule C (Form 990), Part",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Excess lobbying expenditures—enter the larger of line 1 or line 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Tax—Enter 25% of line 3 here and on Part I, line 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow1[0].f5_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "SCHEDULE H—Taxes on Disqualifying Lobbying Expenditures (Section 4912). Part I. Expenditures and Computation of Tax. Row: Item number 1. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow1[0].f5_6[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 1. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow1[0].f5_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (d) Description of lobbying expenditures.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow1[0].f5_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (e) Tax imposed on organization (5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow1[0].f5_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (f) Tax imposed on organization managers (if applicable)—(5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow2[0].f5_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow2[0].f5_11[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 2. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow2[0].f5_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (d) Description of lobbying expenditures.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow2[0].f5_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (e) Tax imposed on organization (5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow2[0].f5_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (f) Tax imposed on organization managers (if applicable)—(5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow3[0].f5_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow3[0].f5_16[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 3. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow3[0].f5_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (d) Description of lobbying expenditures.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow3[0].f5_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (e) Tax imposed on organization (5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow3[0].f5_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (f) Tax imposed on organization managers (if applicable)—(5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow4[0].f5_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow4[0].f5_21[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 4. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow4[0].f5_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (d) Description of lobbying expenditures.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow4[0].f5_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (e) Tax imposed on organization (5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow4[0].f5_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (f) Tax imposed on organization managers (if applicable)—(5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow5[0].f5_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (b) Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow5[0].f5_26[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 5. Column: (c) Date paid or incurred.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow5[0].f5_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (d) Description of lobbying expenditures.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow5[0].f5_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (e) Tax imposed on organization (5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchH_Part1[0].BodyRow5[0].f5_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (f) Tax imposed on organization managers (if applicable)—(5% of col. (b)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (e). Enter here and on Part I, line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (f). Enter total (or prorated amount) here and in Part I I, column (c), below.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row1[0].f5_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Tax Liability of Organization Managers and Proration of Payments. Row: 1. Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row1[0].Colb[0].f5_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row1[0].Colc[0].f5_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (f), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row1[0].f5_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row2[0].f5_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of organization managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row2[0].Colb[0].f5_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row2[0].Colc[0].f5_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (f), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row2[0].f5_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row3[0].f5_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of organization managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row3[0].Colb[0].f5_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row3[0].Colc[0].f5_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (f), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].SchHPartIITable[0].Row3[0].f5_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow1[0].f5_44[0]",
+      "fieldType": "date",
+      "labelHint": "SCHEDULE I—Initial Taxes on Excess Benefit Transactions (Section 4958). Part I. Excess Benefit Trans",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow1[0].c5_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 1. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow1[0].c5_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 1. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow1[0].f5_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow2[0].f5_46[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 2. Column: (b) Date of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow2[0].c5_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 2. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow2[0].c5_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 2. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow2[0].f5_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow3[0].f5_48[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 3. Column: (b) Date of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow3[0].c5_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 3. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow3[0].c5_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 3. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow3[0].f5_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow4[0].f5_50[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 4. Column: (b) Date of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow4[0].c5_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 4. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow4[0].c5_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 4. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow4[0].f5_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow5[0].f5_52[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 5. Column: (b) Date of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow5[0].c5_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 5. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow5[0].c5_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 5. Column: (c) Correction made? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsA-D[0].BodyRow5[0].f5_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow1[0].f5_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (e) Amount of excess benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow1[0].f5_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (f) Initial tax on disqualified persons (25% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow1[0].f5_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (g) Tax on organization managers (if applicable) (lesser of $20,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow2[0].f5_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (e) Amount of excess benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow2[0].f5_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (f) Initial tax on disqualified persons (25% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow2[0].f5_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (g) Tax on organization managers (if applicable) (lesser of $20,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow3[0].f5_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (e) Amount of excess benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow3[0].f5_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (f) Initial tax on disqualified persons (25% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow3[0].f5_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (g) Tax on organization managers (if applicable) (lesser of $20,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow4[0].f5_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (e) Amount of excess benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow4[0].f5_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (f) Initial tax on disqualified persons (25% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow4[0].f5_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (g) Tax on organization managers (if applicable) (lesser of $20,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow5[0].f5_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (e) Amount of excess benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow5[0].f5_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (f) Initial tax on disqualified persons (25% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchI_Part1_ColsE-G[0].BodyRow5[0].f5_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (g) Tax on organization managers (if applicable) (lesser of $20,000 or 10% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row1[0].f6_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 6. SCHEDULE I—Initial Taxes on Excess Benefit Transactions (Section 4958) Continued. Part I I. ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row1[0].Colb[0].f6_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row1[0].Colc[0].f6_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (f), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row1[0].f6_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Disqualified person’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row2[0].f6_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of disqualified persons liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row2[0].Colb[0].f6_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row2[0].Colc[0].f6_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (f), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row2[0].f6_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Disqualified person’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row3[0].f6_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of disqualified persons liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row3[0].Colb[0].f6_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row3[0].Colc[0].f6_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (f), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row3[0].f6_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Disqualified person’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row4[0].f6_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Names of disqualified persons liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row4[0].Colb[0].f6_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row4[0].Colc[0].f6_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Tax from Part I, col. (f), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIITable[0].Row4[0].f6_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Disqualified person’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row1[0].f6_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Summary of Tax Liability of 501(c)(3), (c)(4) &amp; (c)(29) Organization Managers and Pr",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row1[0].Colb[0].f6_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row1[0].Colc[0].f6_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row1[0].f6_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row2[0].f6_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of 501(c)(3), (c)(4) &amp; (c)(29) organization managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row2[0].Colb[0].f6_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row2[0].Colc[0].f6_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row2[0].f6_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row3[0].f6_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of 501(c)(3), (c)(4) &amp; (c)(29) organization managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row3[0].Colb[0].f6_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row3[0].Colc[0].f6_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row3[0].f6_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row4[0].f6_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Names of 501(c)(3), (c)(4) &amp; (c)(29) organization managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row4[0].Colb[0].f6_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Trans. no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row4[0].Colc[0].f6_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Tax from Part I, col. (g), or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchIPartIIITable[0].Row4[0].f6_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row1[0].f6_33[0]",
+      "fieldType": "date",
+      "labelHint": "SCHEDULE J—Taxes on Being a Party to Prohibited Tax Shelter Transactions (Section 4965). Part I. Pro",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row1[0].f6_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (c) Type of transaction. 1 —Listed, 2 —Subsequently listed, 3 —Confidential, 4 —Contractual protection.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row1[0].Cold[0].f6_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row2[0].f6_36[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 2. Column: (b) Transaction date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row2[0].f6_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (c) Type of transaction. 1 —Listed, 2 —Subsequently listed, 3 —Confidential, 4 —Contractual protection.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row2[0].Cold[0].f6_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row3[0].f6_39[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 3. Column: (b) Transaction date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row3[0].f6_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (c) Type of transaction. 1 —Listed, 2 —Subsequently listed, 3 —Confidential, 4 —Contractual protection.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row3[0].Cold[0].f6_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row4[0].f6_42[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 4. Column: (b) Transaction date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row4[0].f6_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (c) Type of transaction. 1 —Listed, 2 —Subsequently listed, 3 —Confidential, 4 —Contractual protection.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row4[0].Cold[0].f6_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row5[0].f6_45[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Transaction number 5. Column: (b) Transaction date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row5[0].f6_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (c) Type of transaction. 1 —Listed, 2 —Subsequently listed, 3 —Confidential, 4 —Contractual protection.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].SchJPartITable[0].Row5[0].Cold[0].f6_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (d) Description of transaction.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow1[0].c6_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 1. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow1[0].c6_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 1. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow1[0].f6_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (f) Net income attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow1[0].f6_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (g) 75% of proceeds attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow1[0].f6_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 1. Column: (h) Tax imposed on the tax-exempt entity (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow2[0].c6_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 2. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow2[0].c6_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 2. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow2[0].f6_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (f) Net income attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow2[0].f6_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (g) 75% of proceeds attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow2[0].f6_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 2. Column: (h) Tax imposed on the tax-exempt entity (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow3[0].c6_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 3. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow3[0].c6_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 3. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow3[0].f6_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (f) Net income attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow3[0].f6_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (g) 75% of proceeds attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow3[0].f6_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 3. Column: (h) Tax imposed on the tax-exempt entity (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow4[0].c6_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 4. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow4[0].c6_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 4. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow4[0].f6_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (f) Net income attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow4[0].f6_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (g) 75% of proceeds attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow4[0].f6_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 4. Column: (h) Tax imposed on the tax-exempt entity (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow5[0].c6_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 5. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow5[0].c6_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: Transaction number 5. Column: (e) Did the tax-exempt entity know or have reason to know this transaction was a P T S T when it became a party to the transaction? No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow5[0].f6_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (f) Net income attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow5[0].f6_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (g) 75% of proceeds attributable to the P T S T.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].Talbe_Part1_ColsE-H[0].BodyRow5[0].f6_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Transaction number 5. Column: (h) Tax imposed on the tax-exempt entity (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (h). Enter here and on Part I, line 9.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row1[0].f7_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 7. Part I I. Tax Imposed on Entity Managers (Section 4965) Continued. Row: 1. Column: (a) Name ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row1[0].Colb[0].f7_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Transaction number from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row1[0].Colc[0].f7_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax—enter $20,000 for each transaction listed in col. (b) for each manager in col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row1[0].f7_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row2[0].f7_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name of entity manager.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row2[0].Colb[0].f7_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Transaction number from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row2[0].Colc[0].f7_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax—enter $20,000 for each transaction listed in col. (b) for each manager in col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row2[0].f7_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row3[0].f7_9[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name of entity manager.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row3[0].Colb[0].f7_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Transaction number from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row3[0].Colc[0].f7_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax—enter $20,000 for each transaction listed in col. (b) for each manager in col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row3[0].f7_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row4[0].f7_13[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name of entity manager.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row4[0].Colb[0].f7_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Transaction number from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row4[0].Colc[0].f7_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Tax—enter $20,000 for each transaction listed in col. (b) for each manager in col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row4[0].f7_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Manager’s total tax liability (add amounts in col. (c)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row5[0].f7_17[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name of entity manager.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row5[0].Colb[0].f7_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Transaction number from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row5[0].Colc[0].f7_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (c) Tax—enter $20,000 for each transaction listed in col. (b) for each manager in col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchJPartIITable[0].Row5[0].f7_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (d) Manager’s total tax liability (add amounts in col. (c)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row1[0].Colb[0].f7_21[0]",
+      "fieldType": "full_name",
+      "labelHint": "SCHEDULE K—Taxes on Taxable Distributions of Sponsoring Organizations Maintaining Donor Advised Fund",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row1[0].Colc[0].f7_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (c) Description of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row2[0].Colb[0].f7_23[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 2. Column: (b) Name of sponsoring organization and donor advised fund.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row2[0].Colc[0].f7_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (c) Description of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row3[0].Colb[0].f7_25[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 3. Column: (b) Name of sponsoring organization and donor advised fund.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row3[0].Colc[0].f7_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (c) Description of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row4[0].Colb[0].f7_27[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 4. Column: (b) Name of sponsoring organization and donor advised fund.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartITable[0].Row4[0].Colc[0].f7_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (c) Description of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow1[0].f7_29[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 1. Column: (d) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow1[0].f7_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (e) Amount of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow1[0].f7_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (f) Tax imposed on organization (20% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow1[0].f7_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (g) Tax on fund managers (lesser of 5% of col. (e) or $10,000).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow2[0].f7_33[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 2. Column: (d) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow2[0].f7_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (e) Amount of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow2[0].f7_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (f) Tax imposed on organization (20% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow2[0].f7_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (g) Tax on fund managers (lesser of 5% of col. (e) or $10,000).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow3[0].f7_37[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 3. Column: (d) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow3[0].f7_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (e) Amount of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow3[0].f7_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (f) Tax imposed on organization (20% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow3[0].f7_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (g) Tax on fund managers (lesser of 5% of col. (e) or $10,000).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow4[0].f7_41[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 4. Column: (d) Date of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow4[0].f7_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (e) Amount of distribution.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow4[0].f7_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (f) Tax imposed on organization (20% of col. (e)).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part1_ColsD-G[0].BodyRow4[0].f7_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (g) Tax on fund managers (lesser of 5% of col. (e) or $10,000).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (f). Enter here and on Part I, line 10.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].f7_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total—Column (g). Enter total (or prorated amount) here and in Part I I, column (c), below.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row1[0].f7_47[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I I. Summary of Tax Liability of Fund Managers and Proration of Payments. Row: 1. Column: (a) N",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row1[0].Colb[0].f7_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row1[0].Colc[0].f7_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (g) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row1[0].f7_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row2[0].f7_51[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name of fund managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row2[0].Colb[0].f7_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row2[0].Colc[0].f7_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (g) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row2[0].f7_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row3[0].f7_55[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name of fund managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row3[0].Colb[0].f7_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row3[0].Colc[0].f7_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (g) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row3[0].f7_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row4[0].f7_59[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name of fund managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row4[0].Colb[0].f7_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row4[0].Colc[0].f7_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Tax from Part I, col. (g) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page7[0].SchKPartIITable[0].Row4[0].f7_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Manager’s total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow1[0].f8_1[0]",
+      "fieldType": "date",
+      "labelHint": "Page 8. SCHEDULE L—Taxes on Prohibited Benefits Distributed From Donor Advised Funds (Section 4967).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow1[0].f8_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (c) Description of benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow2[0].f8_3[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 2. Column: (b) Date of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow2[0].f8_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (c) Description of benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow3[0].f8_5[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 3. Column: (b) Date of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow3[0].f8_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (c) Description of benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow4[0].f8_7[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 4. Column: (b) Date of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow4[0].f8_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (c) Description of benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow5[0].f8_9[0]",
+      "fieldType": "date",
+      "labelHint": "Row: Item number 5. Column: (b) Date of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsA-C[0].BodyRow5[0].f8_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (c) Description of benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow1[0].f8_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (d) Amount of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow1[0].f8_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (e) Tax on donors, donor advisors, or related persons (125% of col. (d)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow1[0].f8_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (f) Tax on fund managers (if applicable) (lesser of 10% of col. (d) or $10,000) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow2[0].f8_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (d) Amount of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow2[0].f8_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (e) Tax on donors, donor advisors, or related persons (125% of col. (d)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow2[0].f8_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (f) Tax on fund managers (if applicable) (lesser of 10% of col. (d) or $10,000) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow3[0].f8_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (d) Amount of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow3[0].f8_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (e) Tax on donors, donor advisors, or related persons (125% of col. (d)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow3[0].f8_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (f) Tax on fund managers (if applicable) (lesser of 10% of col. (d) or $10,000) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow4[0].f8_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (d) Amount of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow4[0].f8_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (e) Tax on donors, donor advisors, or related persons (125% of col. (d)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow4[0].f8_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (f) Tax on fund managers (if applicable) (lesser of 10% of col. (d) or $10,000) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow5[0].f8_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (d) Amount of prohibited benefit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow5[0].f8_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (e) Tax on donors, donor advisors, or related persons (125% of col. (d)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartI_ColsD-F[0].BodyRow5[0].f8_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (f) Tax on fund managers (if applicable) (lesser of 10% of col. (d) or $10,000) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row1[0].f8_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Summary of Tax Liability of Donors, Donor Advisors, Related Persons, and Proration of Paym",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row1[0].Colb[0].f8_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row1[0].Colc[0].f8_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (e) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row1[0].f8_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Donor's, donor advisor's, or related person's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row2[0].f8_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of donors, donor advisors, or related persons liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row2[0].Colb[0].f8_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row2[0].Colc[0].f8_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (e) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row2[0].f8_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Donor's, donor advisor's, or related person's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row3[0].f8_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of donors, donor advisors, or related persons liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row3[0].Colb[0].f8_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row3[0].Colc[0].f8_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (e) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row3[0].f8_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Donor's, donor advisor's, or related person's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row4[0].f8_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Names of donors, donor advisors, or related persons liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row4[0].Colb[0].f8_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row4[0].Colc[0].f8_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Tax from Part I, col. (e) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIITable[0].Row4[0].f8_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Donor's, donor advisor's, or related person's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row1[0].f8_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Summary of Tax Liability of Fund Managers and Proration of Payments. Row: 1. Column: (a)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row1[0].Colb[0].f8_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row1[0].Colc[0].f8_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Tax from Part I, col. (f) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row1[0].f8_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Fund manager's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row2[0].f8_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Names of fund managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row2[0].Colb[0].f8_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row2[0].Colc[0].f8_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Tax from Part I, col. (f) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row2[0].f8_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Fund manager's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row3[0].f8_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Names of fund managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row3[0].Colb[0].f8_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row3[0].Colc[0].f8_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Tax from Part I, col. (f) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row3[0].f8_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Fund manager's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row4[0].f8_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Names of fund managers liable for tax.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row4[0].Colb[0].f8_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Item no. from Part I, col. (a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row4[0].Colc[0].f8_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Tax from Part I, col. (f) or prorated amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page8[0].SchLPartIIITable[0].Row4[0].f8_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Fund manager's total tax liability (add amounts in col. (c)) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow1[0].f9_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 9. Schedule M—Tax on Hospital Organization for Failure to Meet the Community Health Needs Asses",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow1[0].f9_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (c) Description of the failure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow1[0].f9_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 1. Column: (d) Tax year hospital facility last conducted a C H N A.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow1[0].f9_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 1. Column: (e) Tax year hospital facility last adopted an implementation strategy.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow2[0].f9_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 2. Column: (b) Name of hospital facility.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow2[0].f9_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (c) Description of the failure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow2[0].f9_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 2. Column: (d) Tax year hospital facility last conducted a C H N A.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow2[0].f9_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 2. Column: (e) Tax year hospital facility last adopted an implementation strategy.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow3[0].f9_9[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 3. Column: (b) Name of hospital facility.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow3[0].f9_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (c) Description of the failure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow3[0].f9_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 3. Column: (d) Tax year hospital facility last conducted a C H N A.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow3[0].f9_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 3. Column: (e) Tax year hospital facility last adopted an implementation strategy.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow4[0].f9_13[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 4. Column: (b) Name of hospital facility.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow4[0].f9_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (c) Description of the failure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow4[0].f9_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 4. Column: (d) Tax year hospital facility last conducted a C H N A.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow4[0].f9_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 4. Column: (e) Tax year hospital facility last adopted an implementation strategy.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow5[0].f9_17[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 5. Column: (b) Name of hospital facility.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow5[0].f9_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (c) Description of the failure.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow5[0].f9_19[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 5. Column: (d) Tax year hospital facility last conducted a C H N A.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_PartI[0].BodyRow5[0].f9_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: Item number 5. Column: (e) Tax year hospital facility last adopted an implementation strategy.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Computation of Tax. 1. Number of hospital facilities operated by the hospital organization that failed to meet the Community Health Needs Assessment requirements of section 501(r)(3).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Tax—Enter $50,000 multiplied by line 1 here and on Part I, line 12.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow1[0].f9_23[0]",
+      "fieldType": "full_name",
+      "labelHint": "Schedule N—Tax on Excess Executive Compensation (Section 4960) (See instructions.). Row: Item number",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow1[0].f9_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (c) Excess remuneration.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow1[0].f9_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (d) Excess parachute payment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow1[0].f9_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 1. Column: (e) Total. Add column (c) and (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow2[0].f9_27[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 2. Column: (b) Name of covered employee.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow2[0].f9_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (c) Excess remuneration.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow2[0].f9_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (d) Excess parachute payment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow2[0].f9_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 2. Column: (e) Total. Add column (c) and (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow3[0].f9_31[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 3. Column: (b) Name of covered employee.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow3[0].f9_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (c) Excess remuneration.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow3[0].f9_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (d) Excess parachute payment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow3[0].f9_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 3. Column: (e) Total. Add column (c) and (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow4[0].f9_35[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 4. Column: (b) Name of covered employee.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow4[0].f9_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (c) Excess remuneration.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow4[0].f9_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (d) Excess parachute payment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow4[0].f9_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 4. Column: (e) Total. Add column (c) and (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow5[0].f9_39[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: Item number 5. Column: (b) Name of covered employee.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow5[0].f9_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (c) Excess remuneration.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow5[0].f9_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (d) Excess parachute payment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchN[0].BodyRow5[0].f9_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: Item number 5. Column: (e) Total. Add column (c) and (d).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Total (add column (e) items 1–6).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Tax. Enter 21% of the amount above here and on Part I, line 13.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow1[0].f9_46[0]",
+      "fieldType": "full_name",
+      "labelHint": "SCHEDULE O—Excise Tax on Net Investment Income of Private Colleges and Universities (Section 4968). ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow1[0].f9_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Filing Organization. Column: (b) E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow1[0].f9_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow1[0].f9_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow1[0].f9_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow1[0].f9_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Filing Organization. Column: (f) Net investment income (See instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow2[0].f9_52[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Related Organization. Column: (a) Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow2[0].f9_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow2[0].f9_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow2[0].f9_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow2[0].f9_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow2[0].f9_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Related Organization. Column: (f) Net investment income (See instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow3[0].f9_58[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Related Organization. Column: (a) Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow3[0].f9_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow3[0].f9_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow3[0].f9_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow3[0].f9_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow3[0].f9_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Related Organization. Column: (f) Net investment income (See instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow4[0].f9_64[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Related Organization. Column: (a) Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow4[0].f9_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow4[0].f9_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow4[0].f9_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow4[0].f9_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow4[0].f9_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Related Organization. Column: (f) Net investment income (See instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_71[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_72[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. (f) Net investment income (See instructions.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_77[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page9[0].f9_78[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].f10_1[0]",
+      "fieldType": "signature",
+      "labelHint": "Page 10. Sign Here. Title.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].c10_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].c10_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].f10_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "Paid Preparer Use Only. Preparer's name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].c10_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].f10_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].f10_4[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].f10_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm’s address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].f10_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Firm's E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page10[0].f10_7[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone no.",
+      "required": false
+    }
+  ]
+}

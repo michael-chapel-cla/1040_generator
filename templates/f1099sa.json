@@ -1,0 +1,249 @@
+{
+  "formId": "f1099sa",
+  "displayName": "Form 1099-SA",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099sa.pdf",
+  "generatedAt": "2026-04-06T21:46:31.640Z",
+  "fields": [
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].copyAheader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].copyAheader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "TRUSTEE'S/PAYER'S name, street address, city or town, state or province, country, Z I P or foreign p",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross distribution. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Earnings on excess cont. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Distribution code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_12[0]",
+      "fieldType": "date",
+      "labelHint": "4. F M V on date of death. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. M A M S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5. M A M S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].c1_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "5. M A M S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Copy B. For calendar year. 4-digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].CopyBHeader[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Copy B. For calendar year. 4-digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].CopyBHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_2[0]",
+      "fieldType": "payer_name",
+      "labelHint": "TRUSTEE'S/PAYER'S name, street address, city or town, state or province, country, Z I P or foreign p",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT'S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross distribution. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Earnings on excess cont. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Distribution code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_12[0]",
+      "fieldType": "date",
+      "labelHint": "4. F M V on date of death. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5. M A M S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5. M A M S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].c1_2[2]",
+      "fieldType": "checkbox",
+      "labelHint": "5. M A M S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2266 @@
+{
+  "formId": "f8991",
+  "displayName": "Form 8991",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8991.pdf",
+  "generatedAt": "2026-04-06T21:46:35.345Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. For tax year beginning (enter date).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": ",20 (enter 2-digit year).",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_3[0]",
+      "fieldType": "date",
+      "labelHint": ", and ending (enter date).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20 (enter 2-digit year).",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Part I. Applicable Taxpayer Determination. Check box if this form is being filed by a taxpayer with which another taxpayer has been aggregated under Regulations section 1.59A-2(c). If the box is checked, attach a statement listing the names and E I Ns of all separate taxpayers taken into account in the determination of \"1 person\" under Regs. section 1.59A-2(c).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1a[0].f1_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1a. Gross receipts of the taxpayer (see instructions). Column: (a). First Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1a[0].f1_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1a. Gross receipts of the taxpayer (see instructions). Column: (b). Second Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1a[0].f1_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1a. Gross receipts of the taxpayer (see instructions). Column: (c). Third Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1b[0].f1_10[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1b. Gross receipts from partnerships. Column: (a). First Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1b[0].f1_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1b. Gross receipts from partnerships. Column: (b). Second Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1b[0].f1_12[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1b. Gross receipts from partnerships. Column: (c). Third Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1c[0].f1_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1c. Gross receipts of all other persons treated as 1 person pursuant to Regulations section 1.5",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1c[0].f1_14[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1c. Gross receipts of all other persons treated as 1 person pursuant to Regulations section 1.5",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1c[0].f1_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1c. Gross receipts of all other persons treated as 1 person pursuant to Regulations section 1.5",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1d[0].f1_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1d. Gross receipts. Combine lines 1a through 1c. Column: (a). First Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1d[0].f1_17[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1d. Gross receipts. Combine lines 1a through 1c. Column: (b). Second Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1d[0].f1_18[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1d. Gross receipts. Combine lines 1a through 1c. Column: (c). Third Preceding Tax Year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1e. Gross receipts of first, second, and third preceding tax years. Combine columns (a), (b), and (c",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": "1f. 3-year average annual gross receipts (see instructions).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. No. STOP here and attach this form to your tax return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "1g. No. STOP here and attach this form to your tax return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2a. Base erosion tax benefit (from Schedule A, line 15, column (a-2)).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. Amount of deductions allowed under chapter 1 of the Internal Revenue Code.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2c. Base erosion tax benefits resulting from reductions in insurance premiums reported on Schedule A",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2d. Base erosion tax benefits resulting from reductions in gross receipts reported on Schedule A, li",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2e. Add lines 2c and 2d.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2f. Total deductions for amounts paid or accrued for services to which the exception under Regulatio",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2g. Qualified derivative payments excepted by Regulations section 1.59A-6(b).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2h. Total deductions allowed under sections 172, 245A, and 250 for the tax year.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2i. Does the taxpayer elect to waive deductions in accordance with Regulations section 1.59A-3(c)(6)",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2i. No. Enter 0.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "2i. No. Enter 0.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2j. Deductions for exchange losses from section 988 transactions described in Regulations section 1.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2k. Deductions for T L A C securities and foreign T L A C securities described in Regulations sectio",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2l. Reinsurance losses incurred and claims payments described in Regulations section 1.59A-2(e)(3)(i",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2m. Combine lines 2f through 2l.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2n. Total deductions. Subtract line 2m from the sum of line 2b and line 2e.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "percentage",
+      "labelHint": "2o. Base erosion percentage. Divide line 2a by line 2n. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2p. No. STOP after completing Part I, Part V, and Schedule A (and, if necessary, Schedule B), and attach this form to your tax return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "2p. No. STOP after completing Part I, Part V, and Schedule A (and, if necessary, Schedule B), and attach this form to your tax return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. Part I I. Modified Taxable Income (M T I). 3a. Taxable income after net operating loss (see ",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3b. Base erosion tax benefits for the tax year from Schedule A, line 15, column (b-2).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3c. Base erosion percentage of the net operating loss deduction allowed under section 172 for the ta",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3d. M T I (see instructions).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. Regular Tax Liability Adjusted for Purposes of Computing Base Erosion Minimum Tax Amount. 4a. Regular tax liability.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Allowed credits, as adjusted (from Schedule C, line 7).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Regular tax liability adjusted for purposes of computing base erosion minimum tax amount. Subtra",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I V. Computation of Base Erosion Minimum Tax Amount. 5a. M T I (from line 3d).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "5b. B E A T Tax rate applicable for current tax year. %.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. Base erosion minimum tax. Multiply line 5a by line 5b.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. Regular tax liability adjusted for purposes of computing base erosion minimum tax amount (from l",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5e. Base erosion minimum tax amount. Subtract line 5d from line 5c. If zero or less, enter 0.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "7. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: a. Column: (i i). Description of Item.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_15[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: a. Column: (i i i). Line Item Reported on in Prior Year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: a. Column: (i v). Tax Year Form 3115 Was Filed.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: b. Column: (i i). Description of Item.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_19[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: b. Column: (i i i). Line Item Reported on in Prior Year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_20[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: b. Column: (i v). Tax Year Form 3115 Was Filed.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: c. Column: (i i). Description of Item.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_23[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: c. Column: (i i i). Line Item Reported on in Prior Year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_24[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: c. Column: (i v). Tax Year Form 3115 Was Filed.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 3. Schedule A. Base Erosion Payments and Base Erosion Tax Benefits (see instructions). Type of ",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Reserved for future use. Column: (a-2). Aggregate Group’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Reserved for future use. Column: (b-1). Taxpayer’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Reserved for future use. Column: (b-2). Taxpayer’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].c3_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Reserved for future use. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].c3_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Reserved for future use. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].c3_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 1. Reserved for future use. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow2[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Cost sharing transaction payments as defined in Regulations section 1.482-7(b)(1)(i). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow2[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Cost sharing transaction payments as defined in Regulations section 1.482-7(b)(1)(i). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow2[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Cost sharing transaction payments as defined in Regulations section 1.482-7(b)(1)(i). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow2[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Cost sharing transaction payments as defined in Regulations section 1.482-7(b)(1)(i). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow2[0].c3_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Cost sharing transaction payments as defined in Regulations section 1.482-7(b)(1)(i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow2[0].c3_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Cost sharing transaction payments as defined in Regulations section 1.482-7(b)(1)(i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow2[0].c3_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 2. Cost sharing transaction payments as defined in Regulations section 1.482-7(b)(1)(i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow3[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Purchase or creations of property rights for intangibles (patents, trademarks, etc.). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow3[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Purchase or creations of property rights for intangibles (patents, trademarks, etc.). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow3[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Purchase or creations of property rights for intangibles (patents, trademarks, etc.). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow3[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Purchase or creations of property rights for intangibles (patents, trademarks, etc.). Column",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow3[0].c3_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Purchase or creations of property rights for intangibles (patents, trademarks, etc.). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow3[0].c3_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Purchase or creations of property rights for intangibles (patents, trademarks, etc.). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow3[0].c3_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 3. Purchase or creations of property rights for intangibles (patents, trademarks, etc.). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow4[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Rents, royalties, and license fees. Column: (a-1). Aggregate Group’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow4[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Rents, royalties, and &#xD;license fees. Column: (a-2). Aggregate Group’s Base Erosion Tax B",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow4[0].f3_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Rents, royalties, and &#xD;license fees. Column: (b-1). Taxpayer’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow4[0].f3_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Rents, royalties, and &#xD;license fees. Column: (b-2). Taxpayer’s Base Erosion Tax Benefits",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow4[0].c3_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Rents, royalties, and &#xD;license fees. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow4[0].c3_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Rents, royalties, and &#xD;license fees. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow4[0].c3_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 4. Rents, royalties, and &#xD;license fees. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5a[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5a. Compensation/consideration paid for services NOT excepted by Regulations section 1.59A-3(b)",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5a[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5a. Compensation/consideration paid for services NOT excepted by Regulations section 1.59A-3(b)",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5a[0].f3_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5a. Compensation/consideration paid for services NOT excepted by Regulations section 1.59A-3(b)",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5a[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5a. Compensation/consideration paid for services NOT excepted by Regulations section 1.59A-3(b)",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5a[0].c3_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 5a. Compensation/consideration paid for services NOT excepted by Regulations section 1.59A-3(b)(3)(i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5a[0].c3_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 5a. Compensation/consideration paid for services NOT excepted by Regulations section 1.59A-3(b)(3)(i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5a[0].c3_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 5a. Compensation/consideration paid for services NOT excepted by Regulations section 1.59A-3(b)(3)(i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow5b[0].Line5aText[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5b. Compensation/consideration paid for services excepted by Regulations section 1.59A-3(b)(3)(",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow6[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Interest expense. Column: (a-1). Aggregate Group’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow6[0].f3_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Interest expense. Column: (a-2). Aggregate Group’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow6[0].f3_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Interest expense. Column: (b-1). Taxpayer’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow6[0].f3_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Interest expense. Column: (b-2). Taxpayer’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow6[0].c3_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 6. Interest expense. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow6[0].c3_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 6. Interest expense. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow6[0].c3_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 6. Interest expense. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow7[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Payments for the purchase of tangible personal property. Column: (a-1). Aggregate Group’s Ba",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow7[0].f3_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Payments for the purchase of tangible personal property. Column: (a-2). Aggregate Group’s Ba",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow7[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Payments for the purchase of tangible personal property. Column: (b-1). Taxpayer’s Base Eros",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow7[0].f3_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Payments for the purchase of tangible personal property. Column: (b-2). Taxpayer’s Base Eros",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow7[0].c3_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 7. Payments for the purchase of tangible personal property. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow7[0].c3_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 7. Payments for the purchase of tangible personal property. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow7[0].c3_22[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 7. Payments for the purchase of tangible personal property. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow8[0].f3_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Premiums and/or other considerations paid or accrued for insurance and reinsurance as covere",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow8[0].f3_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Premiums and/or other considerations paid or accrued for insurance and reinsurance as covere",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow8[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Premiums and/or other considerations paid or accrued for insurance and reinsurance as covere",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow8[0].f3_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Premiums and/or other considerations paid or accrued for insurance and reinsurance as covere",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow8[0].c3_23[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 8. Premiums and/or other considerations paid or accrued for insurance and reinsurance as covered by Regulations section 1.59A-3(b)(1)(i i i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% owner of the taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow8[0].c3_24[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 8. Premiums and/or other considerations paid or accrued for insurance and reinsurance as covered by Regulations section 1.59A-3(b)(1)(i i i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d) Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow8[0].c3_25[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 8. Premiums and/or other considerations paid or accrued for insurance and reinsurance as covered by Regulations section 1.59A-3(b)(1)(i i i). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e) Any Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9a[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 4. Schedule A. Base Erosion Payments and Base Erosion Tax Benefits (see instructions). (continu",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9a[0].f4_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9a. Nonqualified derivative payments. Column: (a-2). Aggregate Group’s Base Erosion Tax Benefit",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9a[0].f4_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9a. Nonqualified derivative payments. Column: (b-1). Taxpayer’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9a[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9a. Nonqualified derivative payments. Column: (b-2). Taxpayer’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9a[0].c4_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 9a. Nonqualified derivative payments. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9a[0].c4_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 9a. Nonqualified derivative payments. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d). Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9a[0].c4_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 9a. Nonqualified derivative payments. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e). Any Other Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow9b[0].Line9aText[0].f4_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9b. Qualified derivative payments excepted by Regulations section 1.59A-6(b). $.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (a-1). Aggr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (a-2). Aggre",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (b-1). Taxp",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (b-2). Taxp",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].c4_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].c4_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d). Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].c4_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e). Any Other Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow11[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Other payments - Specify. Column: (a-1). Aggregate Group’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow11[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Other payments - Specify. Column: (a-2). Aggregate Group’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow11[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Other payments - Specify. Column: (b-1). Taxpayer’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow11[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Other payments - Specify. Column: (b-2). Taxpayer’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow11[0].c4_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 11. Other payments - Specify. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow11[0].c4_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 11. Other payments - Specify. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d). Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow11[0].c4_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 11. Other payments - Specify. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e). Any Other Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow12[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Combine lines 2 through 11. Column: (a-1). Aggregate Group’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow12[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Combine lines 2 through 11. Column: (a-2). Aggregate Group’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow12[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Combine lines 2 through 11. Column: (b-1). Taxpayer’s Base Erosion Payments.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow12[0].f4_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Combine lines 2 through 11. Column: (b-2). Taxpayer’s Base Erosion Tax Benefits.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow12[0].c4_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 12. Combine lines 2 through 11. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow12[0].c4_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 12. Combine lines 2 through 11. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d). Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow12[0].c4_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 12. Combine lines 2 through 11. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e). Any Other Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow13[0].f4_18[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13. Base erosion tax benefits related to payments reported on lines 2 through 11, on which tax ",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow13[0].f4_19[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13. Base erosion tax benefits related to payments reported on lines 2 through 11, on which tax ",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow13[0].f4_20[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13. Base erosion tax benefits related to payments reported on lines 2 through 11, on which tax ",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow13[0].f4_21[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 13. Base erosion tax benefits related to payments reported on lines 2 through 11, on which tax ",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow13[0].c4_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 13. Base erosion tax benefits related to payments reported on lines 2 through 11, on which tax is imposed by section 871, 881, or 884(f), with respect to which tax has been withheld under section 1441 or 1442 at 30% statutory withholding tax rate or subject to tax under Regulations section 1.884-4(a)(2)(i i) at a 30% statutory rate (see instructions). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow13[0].c4_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 13. Base erosion tax benefits related to payments reported on lines 2 through 11, on which tax is imposed by section 871, 881, or 884(f), with respect to which tax has been withheld under section 1441 or 1442 at 30% statutory withholding tax rate or subject to tax under Regulations section 1.884-4(a)(2)(i i) at a 30% statutory rate (see instructions). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d). Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow13[0].c4_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 13. Base erosion tax benefits related to payments reported on lines 2 through 11, on which tax is imposed by section 871, 881, or 884(f), with respect to which tax has been withheld under section 1441 or 1442 at 30% statutory withholding tax rate or subject to tax under Regulations section 1.884-4(a)(2)(i i) at a 30% statutory rate (see instructions). Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e). Any Other Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow14[0].f4_22[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 14. Portion of base erosion tax benefits reported on lines 2 through 11, on which tax is impose",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow14[0].f4_23[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 14. Portion of base erosion tax benefits reported on lines 2 through 11, on which tax is impose",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow14[0].f4_24[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 14. Portion of base erosion tax benefits reported on lines 2 through 11, on which tax is impose",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow14[0].f4_25[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 14. Portion of base erosion tax benefits reported on lines 2 through 11, on which tax is impose",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow14[0].c4_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 14. Portion of base erosion tax benefits reported on lines 2 through 11, on which tax is imposed by section 871 or 881, with respect to which tax has been withheld under section 1441 or 1442 at reduced withholding rate pursuant to income tax treaty or subject to a reduced rate of tax under Regulations section 1.884-4(a)(2)(i i). Multiply the amount of the base erosion tax benefit by a fraction equal to the rate of tax imposed under the treaty over the 30% (0.30) statutory rate. See instructions. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow14[0].c4_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 14. Portion of base erosion tax benefits reported on lines 2 through 11, on which tax is imposed by section 871 or 881, with respect to which tax has been withheld under section 1441 or 1442 at reduced withholding rate pursuant to income tax treaty or subject to a reduced rate of tax under Regulations section 1.884-4(a)(2)(i i). Multiply the amount of the base erosion tax benefit by a fraction equal to the rate of tax imposed under the treaty over the 30% (0.30) statutory rate. See instructions. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d). Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow14[0].c4_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 14. Portion of base erosion tax benefits reported on lines 2 through 11, on which tax is imposed by section 871 or 881, with respect to which tax has been withheld under section 1441 or 1442 at reduced withholding rate pursuant to income tax treaty or subject to a reduced rate of tax under Regulations section 1.884-4(a)(2)(i i). Multiply the amount of the base erosion tax benefit by a fraction equal to the rate of tax imposed under the treaty over the 30% (0.30) statutory rate. See instructions. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e). Any Other Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow15[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Total base erosion tax benefits. Subtract the sum of line 13 and line 14 from line 12. Ente",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow15[0].f4_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Total base erosion tax benefits. Subtract the sum of line 13 and line 14 from line 12. Ente",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow15[0].f4_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Total base erosion tax benefits. Subtract the sum of line 13 and line 14 from line 12. Ente",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow15[0].f4_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Total base erosion tax benefits. Subtract the sum of line 13 and line 14 from line 12. Ente",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow15[0].c4_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 15. Total base erosion tax benefits. Subtract the sum of line 13 and line 14 from line 12. Enter the amount from column (a-2) on Part I, line 2a. Enter the amount from column (b-2) on Part I I, line 3b. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (c). Any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow15[0].c4_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 15. Total base erosion tax benefits. Subtract the sum of line 13 and line 14 from line 12. Enter the amount from column (a-2) on Part I, line 2a. Enter the amount from column (b-2) on Part I I, line 3b. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (d). Person Related Under Section 267(b) or 707(b)(1) to the Taxpayer or any 25% Owner of the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow15[0].c4_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Row: 15. Total base erosion tax benefits. Subtract the sum of line 13 and line 14 from line 12. Enter the amount from column (a-2) on Part I, line 2a. Enter the amount from column (b-2) on Part I I, line 3b. Column: (Check all applicable boxes in columns (c), (d), and (e) below). (e). Any Other Person Related Within the Meaning of Section 482 to the Taxpayer.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 5. Schedule B. Waiver of Deductions (see instructions). Row: 1. Column: (a) Description of item",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_2[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 1. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_6[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 1. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_11[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_14[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_15[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 2. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_17[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow2[0].f5_18[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_20[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_23[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_24[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 3. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_26[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow3[0].f5_27[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_29[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_32[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_33[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 4. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_35[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow4[0].f5_36[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 4. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_38[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_41[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_42[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 5. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_44[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow5[0].f5_45[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 5. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_47[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 6. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_50[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 6. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_51[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 6. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_53[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow6[0].f5_54[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 6. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_56[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 7. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_59[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 7. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_60[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 7. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_62[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow7[0].f5_63[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 7. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_65[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 8. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_68[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 8. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_69[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 8. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_71[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow8[0].f5_72[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 8. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_74[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 9. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: (d) Line number on the controlled group member tax return where the deduction is rep",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_77[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 9. Column: (e) Name of foreign related party that is or will be the recipient of the payment th",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_78[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 9. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_79[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_80[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9. Column: (h) Amount of deduction claimed for the tax year with respect to the item or propert",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow9[0].f5_81[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 9. Column: (i) Amount of deduction being waived for the tax year with respect to the item or pr",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_82[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_83[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 10. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_84[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_85[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: (d) Line number on the controlled group member tax return where the deduction is re",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_86[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 10. Column: (e) Name of foreign related party that is or will be the recipient of the payment t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_87[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 10. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_89[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10. Column: (h) Amount of deduction claimed for the tax year with respect to the item or proper",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow10[0].f5_90[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 10. Column: (i) Amount of deduction being waived for the tax year with respect to the item or p",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_91[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_92[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 11. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_93[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_94[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Column: (d) Line number on the controlled group member tax return where the deduction is re",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_95[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 11. Column: (e) Name of foreign related party that is or will be the recipient of the payment t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_96[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 11. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_97[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_98[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11. Column: (h) Amount of deduction claimed for the tax year with respect to the item or proper",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow11[0].f5_99[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 11. Column: (i) Amount of deduction being waived for the tax year with respect to the item or p",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_101[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 12. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_103[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Column: (d) Line number on the controlled group member tax return where the deduction is re",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_104[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 12. Column: (e) Name of foreign related party that is or will be the recipient of the payment t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_105[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 12. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_106[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_107[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12. Column: (h) Amount of deduction claimed for the tax year with respect to the item or proper",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow12[0].f5_108[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 12. Column: (i) Amount of deduction being waived for the tax year with respect to the item or p",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_109[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Column: (a) Description of item or property to which the deduction relates.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_110[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 13. Column: (b) Date on which, or period in which, the waived deduction was paid or accrued.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_111[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Column: (c) Provision of Code and regulations, as applicable, that allows the deduction for",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Column: (d) Line number on the controlled group member tax return where the deduction is re",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_113[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 13. Column: (e) Name of foreign related party that is or will be the recipient of the payment t",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_114[0]",
+      "fieldType": "ssn",
+      "labelHint": "Row: 13. Column: (f) Taxpayer identification number of foreign related party.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_115[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Column: (g) Country of organization of the foreign related party.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_116[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Column: (h) Amount of deduction claimed for the tax year with respect to the item or proper",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow13[0].f5_117[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 13. Column: (i) Amount of deduction being waived for the tax year with respect to the item or p",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_118[0]",
+      "fieldType": "tax_year",
+      "labelHint": "14. Totals from attachment, if necessary. (h) Amount of deduction claimed for the tax year with resp",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_119[0]",
+      "fieldType": "tax_year",
+      "labelHint": "14. (i) Amount of deduction being waived for the tax year with respect to the item or property.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_120[0]",
+      "fieldType": "tax_year",
+      "labelHint": "15. Total deductions waived per Regulations section 1.59A-3(c)(6)(i). Add the amounts in column (i).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 6. Schedule C. Credits Reducing Regular Tax Liability in Computing Base Erosion Minimum Tax Amo",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Credits for increasing research activities from Form 3800 (see instructions).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "3. Total allowed credit for increasing research activities for current year. Enter the amount of res",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Enter smaller of Schedule C, Part I I, Line 11; or Part I I I, Line 16.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Limitation of applicable section 38 credits. Multiply line 4 by 80% (0.80).",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Adjustments to allowed credits. Add lines 3 and 5.",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Credits allowed against regular tax in computing B E M T A. Subtract line 6 from line 1. Enter he",
+      "required": false,
+      "maxLength": 13
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Applicable Section 38 Credits. (Only complete Parts I I and I I I if you have allowed appl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Renewable electricity production credit from Form 3800 (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Investment credit but only to extent of energy credit property under section 48 from Form 3800 (",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "11. Total allowed applicable section 38 credits for current year. Enter the amount of applicable cre",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I I. B E M T A Determined Without Adjustment for Applicable Section 38 Credits. 12. Base eros",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Regular tax liability (Form 8991, line 4a).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Subtract Schedule C, Part I, line 3, from line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Regular tax adjusted for credits that offset B E M T A. Subtract line 14 from line 13.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Base erosion minimum tax determined without adjustment for applicable section 38 credits. Subtra",
+      "required": false
+    }
+  ]
+}

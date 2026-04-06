@@ -1,0 +1,749 @@
+{
+  "formId": "f1040sc",
+  "displayName": "Schedule C",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sc.pdf",
+  "generatedAt": "2026-04-06T21:46:17.870Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name of proprietor.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social security number (S S N).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "A. Principal business or profession, including product or service (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].BComb[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "B. Enter code from instructions.",
+      "required": false,
+      "maxLength": 6
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "business_name",
+      "labelHint": "C. Business name. If no separate business name, leave blank.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].DComb[0].f1_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "D. Employer I D number (E I N), (see instr.).",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "street_address",
+      "labelHint": "E. Business address (including suite or room no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "city",
+      "labelHint": "E. City, town or post office, state, and Z I P code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "F. (3) Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "F. (3) Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[2]",
+      "fieldType": "checkbox",
+      "labelHint": "F. (3) Other.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "F. (3) Other (specify).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "G. If \"No\", see instructions for limit on losses. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "G. If \"No\", see instructions for limit on losses. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "H. If you started or acquired this business during 2025, check here.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "I. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "I. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "J. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "J. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line1_ReadOrder[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross receipts or sales.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Returns and allowances.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Subtract line 2 from line 1.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Cost of goods sold (from line 42).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Gross profit. Subtract line 4 from line 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "state",
+      "labelHint": "6. Other income, including federal and state gasoline or fuel tax credit or refund (see instructions",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Gross income. Add lines 5 and 6.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Expenses. Enter expenses for business use of your home only on line 30. 8. Advertising.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Car and truck expenses (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Commissions and fees.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Contract labor (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Depletion.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Depreciation and section 179 expense deduction (not included in Part I I I) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Employee benefit programs (other than on line 19).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Insurance (other than health).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. Interest (see instructions): a. Mortgage (paid to banks, etc.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16b. Other.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Legal and professional services.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Office expense (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Pension and profit-sharing plans.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Rent or lease (see instructions): a. Vehicles, machinery, and equipment.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20b. Other business property.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21. Repairs and maintenance.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22. Supplies (not included in Part I I I).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "23. Taxes and licenses.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24. Travel and meals: a. Travel.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "24b. Deductible meals (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "25. Utilities.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "26. Wages (less employment credits).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27a. Energy efficient commercial bldgs deduction (attach Form 7205).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Lines18-27[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "27b. Other expenses (from line 48).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Total expenses before expenses for business use of home. Add lines 8 through 27b.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Tentative profit or (loss). Subtract line 28 from line 7.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line30_ReadOrder[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Expenses for business use of your home. Do not report these expenses elsewhere. Attach Form 8829 unless using the simplified method. See instructions. Simplified method filers only: Enter the total square footage of (a) your home:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Line30_ReadOrder[0].f1_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. and (b) the part of your home used for business:",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. Use the Simplified Method Worksheet in the instructions to figure the amount to enter on line 30",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "31. Net profit or (loss). Subtract line 30 from line 29. If a profit, enter on both Schedule 1 (Form",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "If you checked 32b, you must attach Form 6198. Your loss may be limited. 32b. Some investment is not at risk.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "If you checked 32b, you must attach Form 6198. Your loss may be limited. 32b. Some investment is not at risk.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 2. Part I I I. Cost of Goods Sold (see instructions). 33. Method(s) used to value closing inventory: a. Cost.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "33b. Lower of cost or market.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "33c. Other (attach explanation).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "34. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "34. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "35. Inventory at beginning of year. If different from last year's closing inventory, attach explanat",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "36. Purchases less cost of items withdrawn for personal use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "37. Cost of labor. Do not include any amounts paid to yourself.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "38. Materials and supplies.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "39. Other costs.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "40. Add lines 35 through 39.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
+      "fieldType": "tax_year",
+      "labelHint": "41. Inventory at end of year.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "42. Cost of goods sold. Subtract line 41 from line 40. Enter the result here and on line 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I V. Information on Your Vehicle. Complete this part only if you are claiming car or truck expe",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "43. 2-digit day.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "43. 4-digit year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "44. Of the total number of miles you drove your vehicle during 2025, enter the number of miles you used your vehicle for: a Business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "44b. Commuting (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "44c. Other.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "45. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "45. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "46. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "46. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "47a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "47a. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "47b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "47b. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item1[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part V. Other Expenses. List below business expenses not included on lines 8-27a, or line 30. 1. Bus",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item1[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item2[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item2[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item3[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item3[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item4[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item4[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item5[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item5[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item6[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item6[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item7[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item7[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item8[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item8[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item9[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Business Expense.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item9[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "48. Total other expenses. Enter here and on line 27b.",
+      "required": false
+    }
+  ]
+}

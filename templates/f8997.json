@@ -1,0 +1,948 @@
+{
+  "formId": "f8997",
+  "displayName": "Form 8997",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8997.pdf",
+  "generatedAt": "2026-04-06T21:46:20.511Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "ssn",
+      "labelHint": "Taxpayer identification number (T I N) (see instructions).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row1[0].f1_03[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I. Total Q O F Investment Holdings Due to Deferrals Prior to Beginning of Tax Year. If differen",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row1[0].f1_04[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row1[0].f1_05[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Description of Q O F investment (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row1[0].f1_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row1[0].f1_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain held in Q O F. (e) Amount of short-term deferred gain remaining in Q O",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row1[0].f1_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain held in Q O F. (f) Amount of long-term deferred gain remaining in Q O ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row2[0].f1_09[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row2[0].f1_10[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row2[0].f1_11[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Description of Q O F investment (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row2[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row2[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain held in Q O F. (e) Amount of short-term deferred gain remaining in Q O",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row2[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain held in Q O F. (f) Amount of long-term deferred gain remaining in Q O ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row3[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row3[0].f1_16[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row3[0].f1_17[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Description of Q O F investment (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row3[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row3[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain held in Q O F. (e) Amount of short-term deferred gain remaining in Q O",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row3[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain held in Q O F. (f) Amount of long-term deferred gain remaining in Q O ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row4[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row4[0].f1_22[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row4[0].f1_23[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Description of Q O F investment (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row4[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row4[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain held in Q O F. (e) Amount of short-term deferred gain remaining in Q O",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row4[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain held in Q O F. (f) Amount of long-term deferred gain remaining in Q O ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row5[0].f1_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row5[0].f1_28[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row5[0].f1_29[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Description of Q O F investment (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row5[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row5[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain held in Q O F. (e) Amount of short-term deferred gain remaining in Q O",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row5[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain held in Q O F. (f) Amount of long-term deferred gain remaining in Q O ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain held in Q O F. (e) Amount of sho",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain held in Q O F. (f) Amount of lon",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). Deferred gain held in Q O F. (e) Amount of short-term ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). Deferred gain held in Q O F. (f) Amount of long-term d",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_37[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I I. Current Tax Year Capital Gains Deferred by Investing in Q O F. Row: 1. Column: (a) Q O F E",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_38[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_39[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain invested in Q O F. (e) Amount of short-term deferred gain remaining in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain invested in Q O F. (f) Amount of long-term deferred gain remaining in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row2[0].f1_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row2[0].f1_44[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row2[0].f1_45[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row2[0].f1_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row2[0].f1_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain invested in Q O F. (e) Amount of short-term deferred gain remaining in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row2[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain invested in Q O F. (f) Amount of long-term deferred gain remaining in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row3[0].f1_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row3[0].f1_50[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row3[0].f1_51[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row3[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row3[0].f1_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain invested in Q O F. (e) Amount of short-term deferred gain remaining in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row3[0].f1_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain invested in Q O F. (f) Amount of long-term deferred gain remaining in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row4[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row4[0].f1_56[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row4[0].f1_57[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row4[0].f1_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row4[0].f1_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain invested in Q O F. (e) Amount of short-term deferred gain remaining in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row4[0].f1_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain invested in Q O F. (f) Amount of long-term deferred gain remaining in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row5[0].f1_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row5[0].f1_62[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row5[0].f1_63[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row5[0].f1_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row5[0].f1_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain invested in Q O F. (e) Amount of short-term deferred gain remaining in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row5[0].f1_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain invested in Q O F. (f) Amount of long-term deferred gain remaining in ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain invested in Q O F. (e) Amount of",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain invested in Q O F. (f) Amount of",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_69[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). See instructions for reporting on Form 8949. Deferred ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_70[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). See instructions for reporting on Form 8949. Deferred ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No. Skip the next question and go to Part I I I.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No. Skip the next question and go to Part I I I.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "No. You may not elect to defer tax on an eligible gain by investing in a Q O F. Do not report the deferral of any otherwise eligible gain in Part I I or on Form 8949.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "No. You may not elect to defer tax on an eligible gain by investing in a Q O F. Do not report the deferral of any otherwise eligible gain in Part I I or on Form 8949.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row1[0].f2_01[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Part I I I. Inclusion Events and Certain Other Transfers During the Current Tax Year. Row: 1",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row1[0].f2_02[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date of event (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row1[0].f2_03[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Description of event (for example, sale of 100 shares, gift of 25% interest, or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row1[0].f2_04[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row1[0].f2_05[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain included due to disposition of Q O F interest. (e) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row1[0].f2_06[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain included due to disposition of Q O F interest. (f) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row2[0].f2_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row2[0].f2_08[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date of event (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row2[0].f2_09[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Description of event (for example, sale of 100 shares, gift of 25% interest, or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row2[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain included due to disposition of Q O F interest. (e) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row2[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain included due to disposition of Q O F interest. (f) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row3[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row3[0].f2_14[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date of event (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row3[0].f2_15[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Description of event (for example, sale of 100 shares, gift of 25% interest, or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row3[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row3[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain included due to disposition of Q O F interest. (e) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row3[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain included due to disposition of Q O F interest. (f) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row4[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row4[0].f2_20[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (b) Date of event (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row4[0].f2_21[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Description of event (for example, sale of 100 shares, gift of 25% interest, or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row4[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row4[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain included due to disposition of Q O F interest. (e) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row4[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain included due to disposition of Q O F interest. (f) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row5[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row5[0].f2_26[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (b) Date of event (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row5[0].f2_27[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Description of event (for example, sale of 100 shares, gift of 25% interest, or ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row5[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row5[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain included due to disposition of Q O F interest. (e) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row5[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain included due to disposition of Q O F interest. (f) Amount of previousl",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain included due to disposition of Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain included due to disposition of Q",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). See instructions for reporting on Form 8949. Deferred ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). Deferred gain included due to disposition of Q O F int",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check this box if you disposed of any investment(s) and didn’t receive a Form 1099-B reporting the disposition from the Q O F or other third party. See the Instructions for Form 8949 for reporting requirements of any gain or loss.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_35[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Part I V. Total Q O F Investments Due to Deferrals at Year End (see instructions). Row: 1. Column: (",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_36[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_37[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain invested in Q O F investment. (e) Amount of short-term deferred gain i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: Deferred gain invested in Q O F investment. (f) Amount of long-term deferred gain in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row2[0].f2_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row2[0].f2_42[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row2[0].f2_43[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row2[0].f2_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row2[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain invested in Q O F investment. (e) Amount of short-term deferred gain i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row2[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Deferred gain invested in Q O F investment. (f) Amount of long-term deferred gain in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row3[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row3[0].f2_48[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row3[0].f2_49[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row3[0].f2_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row3[0].f2_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain invested in Q O F investment. (e) Amount of short-term deferred gain i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row3[0].f2_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Deferred gain invested in Q O F investment. (f) Amount of long-term deferred gain in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row4[0].f2_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row4[0].f2_54[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row4[0].f2_55[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row4[0].f2_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row4[0].f2_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain invested in Q O F investment. (e) Amount of short-term deferred gain i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row4[0].f2_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: Deferred gain invested in Q O F investment. (f) Amount of long-term deferred gain in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row5[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (a) Q O F E I N.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row5[0].f2_60[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 5. Column: (b) Date Q O F investment acquired (M M/D D/Y Y Y Y).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row5[0].f2_61[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Description of interest acquired (for example, 100 shares or 25% interest).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row5[0].f2_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row5[0].f2_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain invested in Q O F investment. (e) Amount of short-term deferred gain i",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row5[0].f2_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: Deferred gain invested in Q O F investment. (f) Amount of long-term deferred gain in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain invested in Q O F investment. (e",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_66[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Enter the totals, if any, from continuation sheet. Deferred gain invested in Q O F investment. (f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_67[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). Deferred gain invested in Q O F investment. (e) Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_68[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Enter the totals from columns (e) and (f). Deferred gain invested in Q O F investment. (f) Amount",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "formId": "f2848",
+  "displayName": "Form 2848",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2848.pdf",
+  "generatedAt": "2026-04-06T21:46:36.174Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].CheckForm[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Check Form for Common Errors &amp; Reminders.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerName[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Part I. Power of Attorney. Caution: A separate Form 2848 must be completed for each taxpayer",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerAddress[0]",
+      "fieldType": "street_address",
+      "labelHint": "Taxpayer address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerIDSSN[0]",
+      "fieldType": "ssn",
+      "labelHint": "1. S S N (taxpayer identification number).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerIDITIN[0]",
+      "fieldType": "ssn",
+      "labelHint": "1. I T I N (taxpayer identification number).",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerIDEIN[0]",
+      "fieldType": "ssn",
+      "labelHint": "1. E I N (taxpayer identification number).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerTelephone[0]",
+      "fieldType": "phone_number",
+      "labelHint": "1. Daytime telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerPlanNumber[0]",
+      "fieldType": "generic_text",
+      "labelHint": "1. Plan number (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesName1[0]",
+      "fieldType": "full_name",
+      "labelHint": "hereby appoints the following representative(s) as attorney(s)-in-fact: 2. Representative(s) must si",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesAddress1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "1. Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SentCopies1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 1. Check if to be sent copies of notices and communications.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].CAFNumber1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 1. C A F No.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PTIN1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 1. P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TelephoneNo1[0]",
+      "fieldType": "phone_number",
+      "labelHint": "2. 1. Telephone No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].FaxNo1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 1. Fax No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewAddress1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 1. Check if new: Address.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewTelephoneNo1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 1. Check if new: Telephone No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewFaxNo1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 1. Check if new: Fax No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesName2[0]",
+      "fieldType": "full_name",
+      "labelHint": "2. 2. Name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesAddress2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 2. Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SentCopies2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 2. Check if to be sent copies of notices and communications.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].CAFNumber2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 1. C A F No.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PTIN2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 2. P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TelephoneNo2[0]",
+      "fieldType": "phone_number",
+      "labelHint": "2. 2. Telephone No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].FaxNo2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 2. Fax No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewAddress2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 2. Check if new: Address.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewTelephoneNo2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 2. Check if new: Telephone No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewFaxNo2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 2. Check if new: Fax No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesName3[0]",
+      "fieldType": "full_name",
+      "labelHint": "2. 3. Name. (Note: I R S sends notices and communications to only two representatives.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesAddress3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 3. Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].CAFNumber3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 1. C A F No.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PTIN3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 3. P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TelephoneNo3[0]",
+      "fieldType": "phone_number",
+      "labelHint": "2. 3. Telephone No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].FaxNo3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 3. Fax No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewAddress3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 3. Check if new: Address.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewTelephoneNo3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 3. Check if new: Telephone No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewFaxNo3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 3. Check if new: Fax No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesName4[0]",
+      "fieldType": "full_name",
+      "labelHint": "2. 4. Name. (Note: I R S sends notices and communications to only two representatives.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesAddress4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 4. Address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].CAFNumber4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 1. C A F No.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PTIN4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 4. P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].TelephoneNo4[0]",
+      "fieldType": "phone_number",
+      "labelHint": "2. 4. Telephone No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].FaxNo4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "2. 4. Fax No.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewAddress4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 4. Check if new: Address.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewTelephoneNo4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 4. Check if new: Telephone No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].NewFaxNo4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "2. 4. Check if new: Fax No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].Description1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Acts authorized (you are required to complete line 3). Except for the acts described in line 5b, ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].TaxForm1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 1. Column: Tax Form Number (1040, 941, 720, etc.) (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].Years1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 1. Column: Year(s) or Period(s) (if applicable) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].Description2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: Description of Matter (Income, Employment, Payroll, Excise, Estate, Gift, Whistleblo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].TaxForm2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 2. Column: Tax Form Number (1040, 941, 720, etc.) (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].Years2[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 2. Column: Year(s) or Period(s) (if applicable) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].Description3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: Description of Matter (Income, Employment, Payroll, Excise, Estate, Gift, Whistleblo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].TaxForm3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 3. Column: Tax Form Number (1040, 941, 720, etc.) (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].Years3[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 3. Column: Year(s) or Period(s) (if applicable) (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SpecificUse[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4. Specific use not recorded on the Centralized Authorization File (C A F). If the power of attorney is for a specific use not recorded on C A F, check this box. See Line 4. Specific Use Not Recorded on C A F in the instructions.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].AccessRecords[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Additional acts authorized. In addition to the acts listed on line 3 above, I authorize my representative(s) to perform the following acts (see instructions for line 5a for more information): Access my I R S records via an Intermediate Service Provider.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].AuthorizeDisclosure[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Authorize disclosure to third parties.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SubtituteOrAdd[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Substitute or add representative(s).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SignReturn[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Sign a return.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].AdditionalActs1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. Additional acts authorized. Line 1 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].AdditionalActs2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. Additional acts authorized. Line 2 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].AdditionalActs3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. Additional acts authorized. Line 3 of 3.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].OtherActs[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5a. Other acts authorized.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].OtherActs1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. Other acts authorized. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].OtherActs2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. Other acts authorized. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SpecificDeletions1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 2. 5b. Specific acts not authorized. My representative(s) is (are) not authorized to endorse or",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SpecificDeletions2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].RetentionRevocation[1]",
+      "fieldType": "checkbox",
+      "labelHint": "6. Retention/revocation of prior power(s) of attorney. The filing of this power of attorney automatically revokes all earlier power(s) of attorney on file with the Internal Revenue Service for the same matters and years or periods covered by this form. If you do not want to revoke a prior power of attorney, check here. YOU MUST ATTACH A COPY OF ANY POWER OF ATTORNEY YOU WANT TO REMAIN IN EFFECT.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Title[0]",
+      "fieldType": "tax_year",
+      "labelHint": "7. Taxpayer declaration and signature. If a tax matter concerns a year in which a joint return was f",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PrintName[0]",
+      "fieldType": "full_name",
+      "labelHint": "7. Print name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].PrintNameTaxpayer[0]",
+      "fieldType": "full_name",
+      "labelHint": "7. Print name of taxpayer from line 1 if other than individual.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow1[0].Designation1[0]",
+      "fieldType": "relationship",
+      "labelHint": "Part I I. Declaration of Representative. Note: For designations d–f, enter your title, position, or ",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow1[0].Jurisdiction1[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 1. Column: Licensing jurisdiction (State) or other licensing authority (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow1[0].Bar1[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 1. Column: Bar, license, certification, registration, or enrollment number (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow1[0].Signature1[0]",
+      "fieldType": "signature",
+      "labelHint": "Row: 1. Column: Signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow1[0].Date1[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 1. Column: Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow2[0].Designation2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 2. Column: Designation—Insert above letter (a–r).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow2[0].Jurisdiction2[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 2. Column: Licensing jurisdiction (State) or other licensing authority (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow2[0].Bar2[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 2. Column: Bar, license, certification, registration, or enrollment number (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow2[0].Signature2[0]",
+      "fieldType": "signature",
+      "labelHint": "Row: 2. Column: Signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow2[0].Date2[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 2. Column: Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow3[0].Designation3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 3. Column: Designation—Insert above letter (a–r).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow3[0].Jurisdiction3[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 3. Column: Licensing jurisdiction (State) or other licensing authority (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow3[0].Bar3[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 3. Column: Bar, license, certification, registration, or enrollment number (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow3[0].Signature3[0]",
+      "fieldType": "signature",
+      "labelHint": "Row: 3. Column: Signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow3[0].Date3[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 3. Column: Date.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Designation4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 4. Column: Designation—Insert above letter (a–r).",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Jurisdiction4[0]",
+      "fieldType": "state",
+      "labelHint": "Row: 4. Column: Licensing jurisdiction (State) or other licensing authority (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Bar4[0]",
+      "fieldType": "generic_text",
+      "labelHint": "Row: 4. Column: Bar, license, certification, registration, or enrollment number (if applicable).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Signature4[0]",
+      "fieldType": "signature",
+      "labelHint": "Row: 4. Column: Signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Date4[0]",
+      "fieldType": "date",
+      "labelHint": "Row: 4. Column: Date.",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "formId": "f1099k",
+  "displayName": "Form 1099-K",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099k.pdf",
+  "generatedAt": "2026-04-06T21:46:31.006Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. Read only copy. Copy A. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "FILER'S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].FILERCheckboxes_ReadOrder[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate if FILER is a (an): Payment settlement entity (P S E).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].FILERCheckboxes_ReadOrder[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Electronic Payment Facilitator (E P F)/Other third party.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate transactions reported are: Payment card.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Third party network.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYEE’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_5[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "P S E'S name and telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "FILER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYEE’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. Gross amount of payment card/third party network transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box1b_ReadOrder[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Card Not Present transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Merchant category code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Number of payment transactions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box5a_ReadOrder[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. January. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. February. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box5c_ReadOrder[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. March. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. April. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box5e_ReadOrder[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5e. May. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5f. June. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box5g_ReadOrder[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5g. July. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5h. August. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box5i_ReadOrder[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5i. September. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5j. October. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box5k_ReadOrder[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5k. November. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5l. December. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box6_ReadOrder[0].f1_27[0]",
+      "fieldType": "state",
+      "labelHint": "6. State. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box6_ReadOrder[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box7_ReadOrder[0].f1_29[0]",
+      "fieldType": "state",
+      "labelHint": "7. State identification no. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box7_ReadOrder[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_31[0]",
+      "fieldType": "state",
+      "labelHint": "8. State income tax withheld. $. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. $. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].f2_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "FILER'S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].FILERCheckbox_ReadOrder[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate if FILER is a (an): Payment settlement entity (P S E).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].FILERCheckbox_ReadOrder[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Electronic Payment Facilitator (E P F)/Other third party.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate transactions reported are: Payment card.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Third party network.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].f2_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYEE’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].f2_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].f2_5[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].f2_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "P S E'S name and telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LeftCol[0].f2_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 44
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "FILER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYEE’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. Gross amount of payment card/third party network transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box1b_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Card Not Present transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Merchant category code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Number of payment transactions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5a_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. January. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. February. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5c_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. March. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. April. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5e_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5e. May. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5f. June. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5g_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5g. July. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5h. August. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5i_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5i. September. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5j. October. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5k_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5k. November. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5l. December. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box6_ReadOrder[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "6. State. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box6_ReadOrder[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box7_ReadOrder[0].f2_29[0]",
+      "fieldType": "state",
+      "labelHint": "7. State identification no. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box7_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_31[0]",
+      "fieldType": "state",
+      "labelHint": "8. State income tax withheld. $. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. $. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "FILER'S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].FILERCheckbox_ReadOrder[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate if FILER is a (an): Payment settlement entity (P S E).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].FILERCheckbox_ReadOrder[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Electronic Payment Facilitator (E P F)/Other third party.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate transactions reported are: Payment card.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Third party network.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYEE’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_5[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "P S E'S name and telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 44
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "FILER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYEE’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. Gross amount of payment card/third party network transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box1b_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Card Not Present transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Merchant category code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Number of payment transactions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box5a_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. January. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. February. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box5c_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. March. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. April. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box5e_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5e. May. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5f. June. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box5g_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5g. July. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5h. August. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box5i_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5i. September. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5j. October. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box5k_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5k. November. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5l. December. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box6_ReadOrder[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "6. State. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box6_ReadOrder[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box7_ReadOrder[0].f2_29[0]",
+      "fieldType": "state",
+      "labelHint": "7. State identification no. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].Box7_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_31[0]",
+      "fieldType": "state",
+      "labelHint": "8. State income tax withheld. $. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. $. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].f2_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "FILER'S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].FILERCheckbox_ReadOrder[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate if FILER is a (an): Payment settlement entity (P S E).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].FILERCheckbox_ReadOrder[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Electronic Payment Facilitator (E P F)/Other third party.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Check to indicate transactions reported are: Payment card.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Third party network.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].f2_3[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYEE’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].f2_4[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].f2_5[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].f2_6[0]",
+      "fieldType": "full_name",
+      "labelHint": "P S E'S name and telephone number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftCol[0].f2_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 44
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "FILER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYEE’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. Gross amount of payment card/third party network transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box1b_ReadOrder[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Card Not Present transactions. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Merchant category code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Number of payment transactions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box5a_ReadOrder[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. January. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. February. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box5c_ReadOrder[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. March. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. April. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box5e_ReadOrder[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5e. May. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5f. June. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box5g_ReadOrder[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5g. July. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5h. August. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box5i_ReadOrder[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5i. September. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5j. October. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box5k_ReadOrder[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5k. November. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5l. December. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box6_ReadOrder[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "6. State. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box6_ReadOrder[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box7_ReadOrder[0].f2_29[0]",
+      "fieldType": "state",
+      "labelHint": "7. State identification no. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box7_ReadOrder[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Line 2 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_31[0]",
+      "fieldType": "state",
+      "labelHint": "8. State income tax withheld. $. Line 1 of 2.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. $. Line 2 of 2.",
+      "required": false
+    }
+  ]
+}

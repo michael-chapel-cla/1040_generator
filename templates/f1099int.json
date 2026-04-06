@@ -1,0 +1,838 @@
+{
+  "formId": "f1099int",
+  "displayName": "Form 1099-INT",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099int.pdf",
+  "generatedAt": "2026-04-06T21:46:30.895Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. Read only copy. Copy A. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_1[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_4[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_6[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Payer's R T N (optional).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box2[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Early withdrawal penalty. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box1[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Interest income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box3[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Interest on U.S. Savings Bonds and Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box4[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box5[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Investment expenses. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box6[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Foreign tax paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_15[0]",
+      "fieldType": "country",
+      "labelHint": "7. Foreign country or U.S. territory.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box8[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Tax-exempt interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box9[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Specified private activity bond interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box10[0].f1_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Market discount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box11[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Bond premium. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box12[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Bond premium on Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box13[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Bond premium on tax-exempt bond. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box14[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Tax-exempt and tax credit bond C U S I P no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Boxes15_16_17[0].f1_23[0]",
+      "fieldType": "state",
+      "labelHint": "15. 1. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Boxes15_16_17[0].f1_24[0]",
+      "fieldType": "state",
+      "labelHint": "15. 2. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Boxes15_16_17[0].f1_25[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Boxes15_16_17[0].f1_26[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Boxes15_16_17[0].f1_27[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Boxes15_16_17[0].f1_28[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].CalendarYear2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 5. Copy 2. CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 5. Copy 2. CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].f2_1[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].f2_4[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].f2_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].f2_6[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].LftColumn[0].f2_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 44
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Payer's R T N (optional).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box1[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Interest income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Early withdrawal penalty. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box3[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Interest on U.S. Savings Bonds and Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box4[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Investment expenses. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box6[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Foreign tax paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_15[0]",
+      "fieldType": "country",
+      "labelHint": "7. Foreign country or U.S. territory.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box8[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Tax-exempt interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box9[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Specified private activity bond interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box10[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Market discount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box11[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Bond premium. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box12[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Bond premium on Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box13[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Bond premium on tax-exempt bond. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box14[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Tax-exempt and tax credit bond C U S I P no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Boxes15_16_17[0].f2_23[0]",
+      "fieldType": "state",
+      "labelHint": "15. 1. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Boxes15_16_17[0].f2_24[0]",
+      "fieldType": "state",
+      "labelHint": "15. 2. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Boxes15_16_17[0].f2_25[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Boxes15_16_17[0].f2_26[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Boxes15_16_17[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Boxes15_16_17[0].f2_28[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyBHeader[0].CalendarYear2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyBHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 5. Copy 2. CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_1[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_4[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_6[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f2_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 44
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Payer's R T N (optional).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box1[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Interest income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Early withdrawal penalty. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box3[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Interest on U.S. Savings Bonds and Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box4[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box5[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Investment expenses. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box6[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Foreign tax paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].f2_15[0]",
+      "fieldType": "country",
+      "labelHint": "7. Foreign country or U.S. territory.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box8[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Tax-exempt interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box9[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Specified private activity bond interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box10[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Market discount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box11[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Bond premium. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box12[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Bond premium on Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box13[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Bond premium on tax-exempt bond. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Box14[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Tax-exempt and tax credit bond C U S I P no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Boxes15_16_17[0].f2_23[0]",
+      "fieldType": "state",
+      "labelHint": "15. 1. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Boxes15_16_17[0].f2_24[0]",
+      "fieldType": "state",
+      "labelHint": "15. 2. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Boxes15_16_17[0].f2_25[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Boxes15_16_17[0].f2_26[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Boxes15_16_17[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtColumn[0].Boxes15_16_17[0].f2_28[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].CalendarYear2_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 5. Copy 2. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Page 5. Copy 2. CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_1[0]",
+      "fieldType": "payer_name",
+      "labelHint": "PAYER’S name, street address, city or town, state or province, country, Z I P or foreign postal code",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_4[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_5[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_6[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].LeftColumn[0].f2_7[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false,
+      "maxLength": 44
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].f2_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Payer's R T N (optional).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box1[0].f2_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Interest income. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box2[0].f2_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Early withdrawal penalty. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box3[0].f2_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Interest on U.S. Savings Bonds and Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box4[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Federal income tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box5[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5. Investment expenses. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box6[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Foreign tax paid. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].f2_15[0]",
+      "fieldType": "country",
+      "labelHint": "7. Foreign country or U.S. territory.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box8[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Tax-exempt interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box9[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Specified private activity bond interest. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box10[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. Market discount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box11[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Bond premium. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box12[0].f2_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Bond premium on Treasury obligations. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box13[0].f2_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "13. Bond premium on tax-exempt bond. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Box14[0].f2_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Tax-exempt and tax credit bond C U S I P no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Boxes15_16_17[0].f2_23[0]",
+      "fieldType": "state",
+      "labelHint": "15. 1. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Boxes15_16_17[0].f2_24[0]",
+      "fieldType": "state",
+      "labelHint": "15. 2. State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Boxes15_16_17[0].f2_25[0]",
+      "fieldType": "state",
+      "labelHint": "16. 1. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Boxes15_16_17[0].f2_26[0]",
+      "fieldType": "state",
+      "labelHint": "16. 2. State identification no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Boxes15_16_17[0].f2_27[0]",
+      "fieldType": "state",
+      "labelHint": "17. 1. State tax withheld. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Copy2[0].RghtColumn[0].Boxes15_16_17[0].f2_28[0]",
+      "fieldType": "state",
+      "labelHint": "17. 2. State tax withheld. $.",
+      "required": false
+    }
+  ]
+}

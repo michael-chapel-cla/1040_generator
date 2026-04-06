@@ -1,0 +1,2965 @@
+{
+  "formId": "f5471",
+  "displayName": "Form 5471",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5471.pdf",
+  "generatedAt": "2026-04-06T21:46:34.204Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
+      "fieldType": "date",
+      "labelHint": "Page 1. Information furnished for the foreign corporation's annual accounting period (tax year requi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_2[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_3[0]",
+      "fieldType": "date",
+      "labelHint": ", and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_4[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address[0].f1_5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Name of person filing this return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Number and street. If a P.O. box, see instructions.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address[0].f1_7[0]",
+      "fieldType": "street_address",
+      "labelHint": "Room or suite no.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address[0].f1_8[0]",
+      "fieldType": "city",
+      "labelHint": "City or town.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address[0].f1_9[0]",
+      "fieldType": "state",
+      "labelHint": "State.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Address[0].f1_10[0]",
+      "fieldType": "zip_code",
+      "labelHint": "Z I P code.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "A. Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "percentage",
+      "labelHint": "C. Enter the total percentage of the foreign corporation's voting stock you owned at the end of its ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Filer's tax year beginning. Month and day.",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "date",
+      "labelHint": ", and ending. Month and day.",
+      "required": false,
+      "maxLength": 50
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "G. If the box on line F is checked, enter the corresponding code for “Alternative Information” (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row1[0].f1_18[0]",
+      "fieldType": "full_name",
+      "labelHint": "H. Person(s) on whose behalf this information return is filed: Row: 1. Column: (1) Name.",
+      "required": false,
+      "maxLength": 30
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (2) Address.",
+      "required": false,
+      "maxLength": 36
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (3) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row1[0].c1_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row1[0].c1_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row1[0].c1_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row2[0].f1_21[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (1) Name.",
+      "required": false,
+      "maxLength": 30
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row2[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (2) Address.",
+      "required": false,
+      "maxLength": 36
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row2[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (3) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row2[0].c1_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row2[0].c1_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row2[0].c1_18[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row3[0].f1_24[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (1) Name.",
+      "required": false,
+      "maxLength": 30
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row3[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (2) Address.",
+      "required": false,
+      "maxLength": 36
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row3[0].f1_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (3) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row3[0].c1_19[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row3[0].c1_20[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row3[0].c1_21[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row4[0].f1_27[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (1) Name.",
+      "required": false,
+      "maxLength": 30
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row4[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (2) Address.",
+      "required": false,
+      "maxLength": 36
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row4[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (3) Identifying number.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row4[0].c1_22[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row4[0].c1_23[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row4[0].c1_24[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "full_name",
+      "labelHint": "Important: Fill in all applicable lines and schedules. All information must be in English. All amoun",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "1b(1). Employer identification number, if any.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b(2). Reference I D number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b(3). Previous reference I D number(s), if any (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1c. Country under whose laws incorporated.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
+      "fieldType": "date",
+      "labelHint": "1d. Date of incorporation.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1e. Principal place of business.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1f. Principal business activity code number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1g. Principal business activity.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1h. Functional currency code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
+      "fieldType": "full_name",
+      "labelHint": "2. Provide the following information for the foreign corporation's accounting period stated above. a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. If a U.S. income tax return was filed, enter: (i) Taxable income or (loss).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2b. (i i) U.S. income tax paid (after all credits).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
+      "fieldType": "full_name",
+      "labelHint": "2c. Name and address of foreign corporation's statutory or resident agent in country of incorporatio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
+      "fieldType": "full_name",
+      "labelHint": "2d. Name and address (including corporate department, if applicable) of person (or persons) with cus",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row1[0].f1_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Schedule A. Stock of the Foreign Corporation. Row: 1. Column: (a) Description of each class of stock.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row1[0].f1_46[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (b) Number of shares issued and outstanding. (i) Beginning of annual accounting peri",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row1[0].f1_47[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (b) Number of shares issued and outstanding. (i i) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row2[0].f1_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (a) Description of each class of stock.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row2[0].f1_49[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (b) Number of shares issued and outstanding. (i) Beginning of annual accounting peri",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row2[0].f1_50[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (b) Number of shares issued and outstanding. (i i) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row3[0].f1_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (a) Description of each class of stock.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row3[0].f1_53[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (b) Number of shares issued and outstanding. (i) Beginning of annual accounting peri",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row3[0].f1_54[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (b) Number of shares issued and outstanding. (i i) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row4[0].f1_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (a) Description of each class of stock.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row4[0].f1_56[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (b) Number of shares issued and outstanding. (i) Beginning of annual accounting peri",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row4[0].f1_57[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (b) Number of shares issued and outstanding. (i i) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].f2_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 2. Schedule B. Shareholders of Foreign Corporation. Part I. U.S Shareholders of Foreign Corpora",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1b[0].f2_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1b[0].f2_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1b[0].f2_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1b[0].f2_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1c[0].f2_6[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1c[0].f2_7[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of shares held at beginning of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1c[0].f2_8[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of shares held at beginning of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1c[0].f2_9[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of shares held at beginning of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1d[0].f2_10[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1d[0].f2_11[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1d[0].f2_12[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].Row1d[0].f2_13[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row1[0].f2_14[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 1. Column: (e) Pro rata share of subpart F income (enter as a percentage).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].f2_15[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name, address, and identifying number of shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2b[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2b[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2b[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2b[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2c[0].f2_21[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2c[0].f2_22[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of shares held at beginning of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2c[0].f2_23[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of shares held at beginning of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2c[0].f2_24[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of shares held at beginning of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2d[0].f2_25[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2d[0].f2_26[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2d[0].f2_27[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].Row2d[0].f2_28[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row2[0].f2_29[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 2. Column: (e) Pro rata share of subpart F income (enter as a percentage).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].f2_30[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name, address, and identifying number of shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3b[0].f2_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3b[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3b[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3b[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3c[0].f2_35[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3c[0].f2_36[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of shares held at beginning of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3c[0].f2_37[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of shares held at beginning of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3c[0].f2_38[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of shares held at beginning of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3d[0].f2_39[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3d[0].f2_40[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3d[0].f2_41[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].Row3d[0].f2_42[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row3[0].f2_43[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 3. Column: (e) Pro rata share of subpart F income (enter as a percentage).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].f2_44[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name, address, and identifying number of shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4b[0].f2_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4b[0].f2_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4b[0].f2_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4b[0].f2_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4c[0].f2_49[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4c[0].f2_50[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of shares held at beginning of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4c[0].f2_51[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of shares held at beginning of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4c[0].f2_52[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of shares held at beginning of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4d[0].f2_53[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4d[0].f2_54[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4d[0].f2_55[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].Row4d[0].f2_56[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row4[0].f2_57[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 4. Column: (e) Pro rata share of subpart F income (enter as a percentage).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].f2_58[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name, address, and identifying number of shareholder.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5b[0].f2_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5b[0].f2_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5b[0].f2_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5b[0].f2_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5c[0].f2_63[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5c[0].f2_64[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of shares held at beginning of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5c[0].f2_65[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of shares held at beginning of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5c[0].f2_66[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of shares held at beginning of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5d[0].f2_67[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5d[0].f2_68[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5d[0].f2_69[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].Row5d[0].f2_70[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartI[0].Row5[0].f2_71[0]",
+      "fieldType": "percentage",
+      "labelHint": "Row: 5. Column: (e) Pro rata share of subpart F income (enter as a percentage).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].f2_72[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I I. Direct Shareholders of Foreign Corporation (see instructions). Row: 1. Column: (a) Name, a",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1b[0].f2_73[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1b[0].f2_74[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1b[0].f2_75[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1b[0].f2_76[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1c[0].f2_77[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1c[0].f2_78[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 2 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1c[0].f2_79[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 3 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1c[0].f2_80[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 4 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1d[0].f2_81[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1d[0].f2_82[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1d[0].f2_83[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1d[0].f2_84[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 1. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].f2_85[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 2. Column: (a) Name, address, and identifying number of shareholder. Also include country of in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2b[0].f2_86[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2b[0].f2_87[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2b[0].f2_88[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2b[0].f2_89[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2c[0].f2_90[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2c[0].f2_91[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 2 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2c[0].f2_92[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 3 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2c[0].f2_93[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 4 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2d[0].f2_94[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2d[0].f2_95[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2d[0].f2_96[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row2[0].Row2d[0].f2_97[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 2. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].f2_98[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 3. Column: (a) Name, address, and identifying number of shareholder. Also include country of in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3b[0].f2_99[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3b[0].f2_100[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3b[0].f2_101[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3b[0].f2_102[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3c[0].f2_103[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3c[0].f2_104[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 2 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3c[0].f2_105[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 3 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3c[0].f2_106[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 4 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3d[0].f2_107[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3d[0].f2_108[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3d[0].f2_109[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row3[0].Row3d[0].f2_110[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 3. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].f2_111[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 4. Column: (a) Name, address, and identifying number of shareholder. Also include country of in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4b[0].f2_112[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4b[0].f2_113[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4b[0].f2_114[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4b[0].f2_115[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4c[0].f2_116[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4c[0].f2_117[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 2 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4c[0].f2_118[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 3 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4c[0].f2_119[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 4 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4d[0].f2_120[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4d[0].f2_121[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4d[0].f2_122[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row4[0].Row4d[0].f2_123[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 4. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].f2_124[0]",
+      "fieldType": "full_name",
+      "labelHint": "Row: 5. Column: (a) Name, address, and identifying number of shareholder. Also include country of in",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5b[0].f2_125[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5b[0].f2_126[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5b[0].f2_127[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5b[0].f2_128[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Column: (b) Description of each class of stock held by shareholder. Note: This description s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5c[0].f2_129[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of shares held at beginning of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5c[0].f2_130[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 2 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5c[0].f2_131[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 3 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5c[0].f2_132[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (c) Number of &#xD;shares held at beginning of annual accounting period. Line 4 of 4",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5d[0].f2_133[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 1 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5d[0].f2_134[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 2 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5d[0].f2_135[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 3 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row5[0].Row5d[0].f2_136[0]",
+      "fieldType": "shares",
+      "labelHint": "Row: 5. Column: (d) Number of shares held at end of annual accounting period. Line 4 of 4.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row1a[0].f3_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 3. Schedule C. Income Statement (see instructions). Important: Report all information in functi",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row1a[0].f3_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1a. Gross receipts or sales. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row1b[0].f3_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Returns and allowances. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row1b[0].f3_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1b. Returns and allowances. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row1c[0].f3_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1c. Subtract line 1b from line 1a. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row1c[0].f3_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1c. Subtract line 1b from line 1a. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row2[0].f3_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Cost of goods sold. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row2[0].f3_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2. Cost of goods sold. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row3[0].f3_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Gross profit (subtract line 2 from line 1c). Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row3[0].f3_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Gross profit (subtract line 2 from line 1c). Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row4[0].f3_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Dividends. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row4[0].f3_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Dividends. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row5[0].f3_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Interest. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row5[0].f3_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Interest. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row6a[0].f3_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6a. Gross rents. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row6a[0].f3_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6a. Gross rents. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row6b[0].f3_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6b. Gross royalties and license fees. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row6b[0].f3_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6b. Gross royalties and license fees. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row7[0].f3_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Net gain or (loss) on sale of capital assets. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row7[0].f3_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Net gain or (loss) on sale of capital assets. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row8a[0].f3_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8a. Foreign currency transaction gain or loss—unrealized. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row8a[0].f3_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8a. Foreign currency transaction gain or loss—unrealized. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row8b[0].f3_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8b. Foreign currency transaction gain or loss—realized. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row8b[0].f3_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8b. Foreign currency transaction gain or loss—realized. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row9[0].f3_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Other income (attach statement). Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row9[0].f3_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9. Other income (attach statement). Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row10[0].f3_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Total income (add lines 3 through 9). Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row10[0].f3_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10. Total income (add lines 3 through 9). Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row11[0].f3_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Deductions. Row: 11. Compensation not deducted elsewhere. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row11[0].f3_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Compensation not deducted elsewhere. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row12a[0].f3_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12a. Rents. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row12a[0].f3_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12a. Rents. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row12b[0].f3_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Royalties, and license fees. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row12b[0].f3_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Royalties, and license fees. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row13[0].f3_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Interest. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row13[0].f3_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Interest. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row14[0].f3_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation not deducted elsewhere. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row14[0].f3_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Depreciation not deducted elsewhere. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row15[0].f3_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Depletion. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row15[0].f3_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Depletion. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row16[0].f3_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Taxes (exclude income tax expense (benefit)). Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row16[0].f3_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Taxes (exclude income tax expense (benefit)). Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row17[0].f3_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach statement—exclude income tax expense (benefit)). Column: Functiona",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row17[0].f3_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 17. Other deductions (attach statement—exclude income tax expense (benefit)). Column: U.S. Doll",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row18[0].f3_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total deductions (add lines 11 through 17). Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row18[0].f3_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Total deductions (add lines 11 through 17). Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row19[0].f3_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Net Income. Row: 19. Net income or (loss) before unusual or infrequently occurring items, and income",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row19[0].f3_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Net income or (loss) before unusual or infrequently occurring items, and income tax expense",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row20[0].f3_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. Unusual or infrequently occurring items. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row20[0].f3_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20. Unusual or infrequently occurring items. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row21a[0].f3_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21a. Income tax expense (benefit)—current. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row21a[0].f3_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21a. Income tax expense (benefit)—current. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row21b[0].f3_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21b. Income tax expense (benefit)—deferred. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row21b[0].f3_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21b. Income tax expense (benefit)—deferred. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row22[0].f3_55[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Current year net income or (loss) per books (combine lines 19 through 21b). Column: Functio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row22[0].f3_56[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Row: 22. Current year net income or (loss) per books (combine lines 19 through 21b). Column: U.S. Do",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23a[0].f3_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Other comprehensive income. Row: 23a. Foreign currency translation adjustments. Column: Functional C",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23a[0].f3_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23a. Foreign currency translation adjustments. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23b[0].f3_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23b. Other. Column: Functional Currency.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23b[0].f3_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23b. Other. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23c[0].f3_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23c. Income tax expense (benefit) related to other comprehensive income. Column: Functional Cur",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23c[0].f3_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 23c. Income tax expense (benefit) related to other comprehensive income. Column: U.S. Dollars.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row24[0].f3_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. Other comprehensive income (loss), net of tax (line 23a plus line 23b less line 23c). Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row24[0].f3_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 24. Other comprehensive income (loss), net of tax (line 23a plus line 23b less line 23c). Colum",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row1[0].f4_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 4. Schedule F. Balance Sheet. Important: Report all amounts in U.S. dollars prepared and translated in accordance with U.S. G A A P. See instructions for an exception for D A S T M corporations. Assets. Row: 1. Cash. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row1[0].f4_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 1. Cash. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row2a[0].f4_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row2a[0].f4_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row2b[0].f4_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Less allowance for bad debts. Column: Open parenthesis. (a) Beginning of annual accounting ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row2b[0].f4_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 2b. Less allowance for bad debts. Column: Open parenthesis. (b) End of annual accounting period",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row3[0].f4_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Derivatives. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row3[0].f4_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 3. Derivatives. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row4[0].f4_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Inventories. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row4[0].f4_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 4. Inventories. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row5[0].f4_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Other current assets (attach statement). Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row5[0].f4_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 5. Other current assets (attach statement). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row6[0].f4_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Loans to shareholders and other related persons. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row6[0].f4_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 6. Loans to shareholders and other related persons. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row7[0].f4_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Investment in subsidiaries (attach statement). Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row7[0].f4_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 7. Investment in subsidiaries (attach statement). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row8[0].f4_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Other investments (attach statement). Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row8[0].f4_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 8. Other investments (attach statement). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row9a[0].f4_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9a. Buildings and other depreciable assets. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row9a[0].f4_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9a. Buildings and other depreciable assets. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row9b[0].f4_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9b. Less accumulated depreciation. Column: Open parenthesis. (a) Beginning of annual accounting",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row9b[0].f4_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 9b. Less accumulated depreciation. Column: Open parenthesis. (b) End of annual accounting perio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row10a[0].f4_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10a. Depletable assets. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row10a[0].f4_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10a. Depletable assets. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row10b[0].f4_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10b. Less accumulated depletion. Column: Open parenthesis. (a) Beginning of annual accounting p",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row10b[0].f4_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 10b. Less accumulated depletion. Column: Open parenthesis. (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row11[0].f4_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Land (net of any amortization). Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row11[0].f4_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 11. Land (net of any amortization). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12a[0].f4_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Intangible assets: Row: a. Goodwill. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12a[0].f4_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12a. Goodwill. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12b[0].f4_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Organization costs. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12b[0].f4_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12b. Organization costs. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12c[0].f4_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12c. Patents, trademarks, and other intangible assets. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12c[0].f4_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12c. Patents, trademarks, and other intangible assets. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12d[0].f4_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12d. Less accumulated amortization for lines 12a, 12b, and 12c. Column: Open parenthesis. (a) B",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row12d[0].f4_36[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 12d. Less accumulated amortization for lines 12a, 12b, and 12c. Column: Open parenthesis. (b) E",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row13[0].f4_37[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Other assets (attach statement). Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row13[0].f4_38[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 13. Other assets (attach statement). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row14[0].f4_39[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Total assets. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row14[0].f4_40[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 14. Total assets. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row15[0].f4_41[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Liabilities and Shareholders' Equity. Row: 15. Accounts payable. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row15[0].f4_42[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 15. Accounts payable. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row16[0].f4_43[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Other current liabilities (attach statement). Column: (a) Beginning of annual accounting pe",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row16[0].f4_44[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 16. Other current liabilities (attach statement). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row17[0].f4_45[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row17[0].f4_46[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row18[0].f4_47[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Loans from shareholders and other related persons. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row18[0].f4_48[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 18. Loans from shareholders and other related persons. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row19[0].f4_49[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Other liabilities (attach statement). Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row19[0].f4_50[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 19. Other liabilities (attach statement). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row20a[0].f4_51[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20. Capital stock: Row: a. Preferred stock. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row20a[0].f4_52[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20a. Preferred stock. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row20b[0].f4_53[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20b. Common stock. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row20b[0].f4_54[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 20b. Common stock. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row21[0].f4_55[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. Paid-in or capital surplus (attach reconciliation). Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row21[0].f4_56[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 21. Paid-in or capital surplus (attach reconciliation). Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row22[0].f4_57[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. Retained earnings. Column: (a) Beginning of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row22[0].f4_58[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Row: 22. Retained earnings. Column: (b) End of annual accounting period.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row23[0].f4_59[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row23[0].f4_60[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row24[0].f4_61[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row24[0].f4_62[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Dollar Amount",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TagCorrectingSubform[0].c4_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].TagCorrectingSubform[0].c4_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_63[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3b. If “Yes,” enter number of Forms 8964-TRA attached to Form 5471.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_64[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Enter the total amount of the base erosion payments. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page4[0].f4_65[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4c. Enter the total amount of the base erosion tax benefits. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].TagCorrectionSubform[0].c5_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].TagCorrectionSubform[0].c5_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. Enter the total amount of the disallowed deduction (see instructions). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
+      "fieldType": "date",
+      "labelHint": "6b. Enter the amount of gross receipts derived from all sales of general property to the foreign cor",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
+      "fieldType": "date",
+      "labelHint": "6c. Enter the amount of gross receipts derived from all sales of intangible property to the foreign ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_4[0]",
+      "fieldType": "date",
+      "labelHint": "6d. Enter the amount of gross receipts derived from all services provided to the foreign corporation",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
+      "fieldType": "tax_year",
+      "labelHint": "9b. Enter in functional currency the amount of the earnings and profits reduction pursuant to sectio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_9[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_9[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_10[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_10[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].ifyesenter[0]",
+      "fieldType": "generic_text",
+      "labelHint": "14. If “Yes,” enter the corresponding code(s) from the instructions and attach statement.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_11[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_11[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. If \"Yes,\" enter the amount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_12[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_12[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].f5_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "16. If \"Yes,\" enter the amount. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_13[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_13[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_14[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_14[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_15[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_15[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_16[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_16[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_17[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page5[0].c5_17[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].TagCorrectingSubform[0].f6_1[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Page 6. Schedule G. Other Information (continued). 19b is “Yes,” provide the following. (1) The amou",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].TagCorrectingSubform[0].f6_2[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19b. (2) The amount of such related party indebtedness $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20b. If the answer to question 20a is “Yes,” enter the amount of each type of tax paid or accrued. S",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20b. (2) Qualified Domestic Minimum Top-up Tax (Q D M T T) (or similar taxes). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "20b. (3) U T P R (or similar taxes). $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_6[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21b. If the answer to question 21a is “Yes,” provide the following in functional currency, reporting an increase as a positive number and a decrease as a negative number. (1) The change in previously taxed earnings and profits described in section 959(c)(1) and (c)(2).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "21b. (2) The change in other earnings and profits described in section 959(c)(3).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_8[0]",
+      "fieldType": "full_name",
+      "labelHint": "Schedule I. Summary of Shareholder’s Income From Foreign Corporation (see instructions). If item H o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Identifying number.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1a. Section 964(e)(4) subpart F dividend income from the sale of stock of a lower-tier foreign corpo",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1b. Section 245A(e)(2) subpart F income from hybrid dividends of tiered corporations (see instructio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1c. Subpart F income from tiered extraordinary disposition amounts not eligible for subpart F except",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1d. Subpart F income from tiered extraordinary reduction amounts not eligible for subpart F exceptio",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1e. Section 954(c) Subpart F Foreign Personal Holding Company Income (enter result from Worksheet A)",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1f. Section 954(d) Subpart F Foreign Base Company Sales Income (enter result from Worksheet A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1g. Section 954(e) Subpart F Foreign Base Company Services Income (enter result from Worksheet A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1h. Other subpart F income (enter result from Worksheet A).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Earnings invested in U.S. property (enter the result from Worksheet B).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Reserved for future use.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Factoring income. See instructions for reporting amounts on lines 1, 2, and 4 on your income tax ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5a. Section 245A eligible dividends (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5b. Extraordinary disposition amounts (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5c. Extraordinary reduction amounts (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5d. Section 245A(e) dividends (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "5e. Dividends not reported on line 5a, 5b, 5c, or 5d.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Exchange gain or (loss) on a distribution of previously taxed earning and profits.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_27[0]",
+      "fieldType": "tax_year",
+      "labelHint": "8b. If the answer to question 8a is \"Yes,\" enter the U.S. shareholder's E D account balance at the b",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_28[0]",
+      "fieldType": "tax_year",
+      "labelHint": "8b. and at the end of the tax year $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_29[0]",
+      "fieldType": "tax_year",
+      "labelHint": "8c. Enter the C F C’s aggregate E D account balance with respect to all U.S. shareholders at the beg",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_30[0]",
+      "fieldType": "tax_year",
+      "labelHint": "8c. and at the end of the tax year $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page6[0].f6_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "9. Enter the sum of the hybrid deduction accounts with respect to stock of the foreign corporation (",
+      "required": false
+    }
+  ]
+}

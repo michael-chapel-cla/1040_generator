@@ -1,0 +1,568 @@
+{
+  "formId": "f8863",
+  "displayName": "Form 8863",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8863.pdf",
+  "generatedAt": "2026-04-06T21:46:19.910Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name(s) shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SocialSecurity[0].f1_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number. First 3-digits.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SocialSecurity[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Middle 2-digits.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].SocialSecurity[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Last 4-digits.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Caution. Complete a separate Part I I I on page 2 for each student for whom you're claiming either c",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
+      "fieldType": "filing_status",
+      "labelHint": "2. Enter $180,000 if married filing jointly; or $90,000 if single, head of household, or qualifying ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Enter the amount from Form 1040 or 1040-S R, line 11b. But if you're filing Form 2555 or 4563, or",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4. Subtract line 3 from line 2. If zero or less, stop; you can't take any education credit.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
+      "fieldType": "filing_status",
+      "labelHint": "5. Enter $20,000 if married filing jointly; or $10,000 if single, head of household, or qualifying s",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. If line 4 is: Equal to or more than line 5, enter 1.000 on line 6; or. Less than line 5, divide l",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "6. Digits after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Amount.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "8. Refundable American opportunity credit. Multiply line 7 by 40% (0.40). Enter the amount here and ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part I I. Nonrefundable Education Credits. 9. Subtract line 8 from line 7. Enter here and on line 2 ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "10. After completing Part I I I for each student, enter the total of all amounts from all Parts I I ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Enter the smaller of line 10 or $10,000.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "12. Multiply line 11 by 20% (0.20).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "filing_status",
+      "labelHint": "13. Enter $180,000 if married filing jointly; or $90,000 if single, head of household, or qualifying",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. Enter the amount from Form 1040 or 1040-S R, line 11b. But if you're filing Form 2555 or 4563, o",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "15. Subtract line 14 from line 13. If zero or less, skip lines 16 and 17, enter 0 on line 18, and go",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "filing_status",
+      "labelHint": "16. Enter $20,000 if married filing jointly; or $10,000 if single, head of household, or qualifying ",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. If line 15 is: Equal to or more than line 16, enter 1.000 on line 17 and go to line 18; or. Less",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "17. Digits after the decimal.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "18. Multiply line 12 by line 17. Enter here and on line 1 of the Credit Limit Worksheet. See instruc",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "19. Nonrefundable education credits. Enter the amount from line 7 of the Credit Limit Worksheet (see",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 2. Name(s) shown on return.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SSN[0].f2_2[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your social security number. First 3-digits.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SSN[0].f2_3[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social Security Number",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].SSN[0].f2_4[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social Security Number",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2-5[0]",
+      "fieldType": "full_name",
+      "labelHint": "Caution. Complete Part I I I for each student for whom you're claiming either the American opportuni",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].StudentSSN[0].f2_6[0]",
+      "fieldType": "ssn",
+      "labelHint": "21. Student social security number (as shown on page 1 of your tax return). First 3-digits.",
+      "required": false,
+      "maxLength": 3
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].StudentSSN[0].f2_7[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social Security Number",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].StudentSSN[0].f2_8[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social Security Number",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_9[0]",
+      "fieldType": "full_name",
+      "labelHint": "22. Educational institution information (see instructions). a. Name of first educational institution",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_10[0]",
+      "fieldType": "street_address",
+      "labelHint": "22a. (1) Address. Number and street (or P.O. box). City, town or post office, state, and Z I P code.",
+      "required": false,
+      "maxLength": 255
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].c2_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "22a. (2) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].c2_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "22a. (2) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].c2_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "22a. (3) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].c2_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "22a. (3) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_11[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "22a. (4) Enter the institution's employer identification number (E I N) if you're claiming the Ameri",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 2 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 3 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 4 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 5 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 6 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 7 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_18[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 8 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22a[0].f2_19[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22a. (4) Digit 9 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_20[0]",
+      "fieldType": "full_name",
+      "labelHint": "22b. Name of second educational institution (if any).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_21[0]",
+      "fieldType": "street_address",
+      "labelHint": "22b. (1) Address. Number and street (or P.O. box). City, town or post office, state, and Z I P code.",
+      "required": false,
+      "maxLength": 257
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].c2_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "22b. (2) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].c2_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "22b. (2) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].c2_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "22b. (3) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].c2_4[1]",
+      "fieldType": "checkbox",
+      "labelHint": "22b. (3) No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_22[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "22b. (4) Enter the institution's employer identification number (E I N) if you're claiming the Ameri",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 2 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 3 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 4 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_26[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 5 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_27[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 6 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 7 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 8 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].Line22b[0].f2_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "22b. (4) Digit 9 of 9.",
+      "required": false,
+      "maxLength": 1
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "23. No — Go to line 24.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
+      "fieldType": "checkbox",
+      "labelHint": "23. No — Go to line 24.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "24. No — Stop! Go to line 31 for this student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[1]",
+      "fieldType": "checkbox",
+      "labelHint": "24. No — Stop! Go to line 31 for this student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[0]",
+      "fieldType": "checkbox",
+      "labelHint": "25. No — Go to line 26.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[1]",
+      "fieldType": "checkbox",
+      "labelHint": "25. No — Go to line 26.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[0]",
+      "fieldType": "checkbox",
+      "labelHint": "26. No—Complete lines 27 through 30 for this student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[1]",
+      "fieldType": "checkbox",
+      "labelHint": "26. No—Complete lines 27 through 30 for this student.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Caution. You can't take the American opportunity credit and the lifetime learning credit for the sam",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "28. Subtract $2,000 from line 27. If zero or less, enter 0.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "29. Multiply line 28 by 25% (0.25).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "30. If line 28 is zero, enter the amount from line 27. Otherwise, add $2,000 to the amount on line 2",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Lifetime Learning Credit. 31. Adjusted qualified education expenses (see instructions). Include the ",
+      "required": false
+    }
+  ]
+}

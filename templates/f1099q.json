@@ -1,0 +1,303 @@
+{
+  "formId": "f1099q",
+  "displayName": "Form 1099-Q",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099q.pdf",
+  "generatedAt": "2026-04-06T21:46:31.420Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].CopyAHeader[0].YEAR[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Copy B. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYER’S/TRUSTEE'S name, street address, city or town, state or province, country, Z I P or foreign p",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S/TRUSTEE'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].LeftColumn[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross distribution. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Earnings. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box3_ReadOrder[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Basis. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4b. Q T P to Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "4b. Q T P to Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box5_ReadOrder[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5c. Coverdell E S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box5_ReadOrder[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5c. Coverdell E S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].Box5_ReadOrder[0].c1_3[2]",
+      "fieldType": "checkbox",
+      "labelHint": "5c. Coverdell E S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyA[0].RightColumn[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].CopyBHeader[0].YEAR[0].f1_1[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 2. Copy B. For calendar year.",
+      "required": false,
+      "maxLength": 4
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "CORRECTED (if checked).",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f1_2[0]",
+      "fieldType": "full_name",
+      "labelHint": "PAYER’S/TRUSTEE'S name, street address, city or town, state or province, country, Z I P or foreign p",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f1_3[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "PAYER’S/TRUSTEE'S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f1_4[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "RECIPIENT’S T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f1_5[0]",
+      "fieldType": "payer_name",
+      "labelHint": "RECIPIENT’S name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f1_6[0]",
+      "fieldType": "street_address",
+      "labelHint": "Street address (including apt. no.).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f1_7[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, state or province, country, and Z I P or foreign postal code.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].LeftColumn[0].f1_8[0]",
+      "fieldType": "account_number",
+      "labelHint": "Account number (see instructions).",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_9[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "1. Gross distribution. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_10[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "2. Earnings. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box3_ReadOrder[0].f1_11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3. Basis. $.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "4b. Q T P to Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "4b. Q T P to Roth I R A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box5_ReadOrder[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "5c. Coverdell E S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box5_ReadOrder[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "5c. Coverdell E S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box5_ReadOrder[0].c1_3[2]",
+      "fieldType": "checkbox",
+      "labelHint": "5c. Coverdell E S A.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].c1_4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Checkbox",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. If the fair market value (F M V) is shown below, see Pub. 970, Tax Benefits for Education, for ho",
+      "required": false
+    }
+  ]
+}

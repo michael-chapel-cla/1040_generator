@@ -1,0 +1,180 @@
+{
+  "formId": "f8849",
+  "displayName": "Form 8849",
+  "taxYear": 2024,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8849.pdf",
+  "generatedAt": "2026-04-06T21:46:36.027Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t1[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 1. Name of claimant.",
+      "required": false,
+      "maxLength": 27
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t2[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Employer identification number (E I N).",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t3[0]",
+      "fieldType": "street_address",
+      "labelHint": "Address (number, street, room or suite number).",
+      "required": false,
+      "maxLength": 27
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t4[0]",
+      "fieldType": "ssn",
+      "labelHint": "Social security number (S S N).",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t5[0]",
+      "fieldType": "city",
+      "labelHint": "City or town, and state or province. If you have a foreign address, see instructions.",
+      "required": false,
+      "maxLength": 27
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t6[0]",
+      "fieldType": "zip_code",
+      "labelHint": "ZIP or foreign postal code.",
+      "required": false,
+      "maxLength": 9
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t7[0]",
+      "fieldType": "country",
+      "labelHint": "Foreign country, if applicable. Do not abbreviate.",
+      "required": false,
+      "maxLength": 27
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t8[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Month claimant's income tax year ends.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t9[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Daytime telephone number (optional).",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Schedules Attached. Check the appropriate box (or boxes) for the schedule (or schedules) you attach to Form 8849. Only attach the schedules on which you are claiming a refund. Schedules 2, 3, 5, and 8 cannot be filed with any other schedules on Form 8849. File each of these schedules with a separate Form 8849. Schedule 1. Nontaxable Use of Fuels.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Schedule 2. Sales by Registered Ultimate Vendors.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Schedule 3. Certain Fuel Mixtures and the Alternative Fuel Credit.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb4[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Schedule 5. Section 4081(e) Claims.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb5[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Schedule 6. Other Claims.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-cb6[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Schedule 8. Registered Credit Card Issuers.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].p1-t10[0]",
+      "fieldType": "full_name",
+      "labelHint": "Sign Here. Type or print your name below signature.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_7_0_[0]",
+      "fieldType": "checkbox",
+      "labelHint": "Paid Preparer Use Only. Check if self-employed.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ]
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1-t11[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "P T I N.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1-t12[0]",
+      "fieldType": "full_name",
+      "labelHint": "Firm’s name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1-t13[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "Firm's Employer Identification Number.",
+      "required": false,
+      "maxLength": 10
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1-t14[0]",
+      "fieldType": "street_address",
+      "labelHint": "Firm’s address.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1-t15[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Phone number.",
+      "required": false
+    }
+  ]
+}
