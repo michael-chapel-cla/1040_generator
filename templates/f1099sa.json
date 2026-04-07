@@ -3,7 +3,7 @@
   "displayName": "Form 1099-SA",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099sa.pdf",
-  "generatedAt": "2026-04-06T21:46:31.640Z",
+  "generatedAt": "2026-04-07T00:27:56.457Z",
   "fields": [
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].copyAheader[0].c1_1[0]",
@@ -73,25 +73,29 @@
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Gross distribution. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Earnings on excess cont. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Distribution code.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_12[0]",
       "fieldType": "date",
       "labelHint": "4. F M V on date of death. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].c1_2[0]",
@@ -101,7 +105,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].c1_2[1]",
@@ -111,7 +116,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].c1_2[2]",
@@ -121,7 +127,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].rightColumn[0].f1_1[0]",
@@ -195,25 +202,29 @@
       "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Gross distribution. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Earnings on excess cont. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Distribution code.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].f1_12[0]",
       "fieldType": "date",
       "labelHint": "4. F M V on date of death. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].c1_2[0]",
@@ -223,7 +234,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].c1_2[1]",
@@ -233,7 +245,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].RightCol[0].c1_2[2]",
@@ -243,7 +256,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     }
   ]
 }

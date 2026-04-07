@@ -3,7 +3,7 @@
   "displayName": "Form W-3",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw3.pdf",
-  "generatedAt": "2026-04-06T21:46:30.016Z",
+  "generatedAt": "2026-04-07T00:27:54.845Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -184,56 +184,64 @@
       "fieldType": "dollar_amount",
       "labelHint": "1. Wages, tips, other compensation.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Federal income tax withheld.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Social security wages.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Social security tax withheld.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Medicare wages and tips.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Medicare tax withheld.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Social security tips.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Allocated tips.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].Line9_ReadOrder[0].f1_16[0]",
@@ -246,21 +254,24 @@
       "fieldType": "dollar_amount",
       "labelHint": "10. Dependent care benefits.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Nonqualified plans.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].Line12_ReadOrder[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12a. Deferred compensation.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].Line12_ReadOrder[0].f1_20[0]",
@@ -273,53 +284,61 @@
       "fieldType": "dollar_amount",
       "labelHint": "13. For third-party sick pay use only.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Boxes1-14[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Income tax withheld by payer of third-party sick pay.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "state",
       "labelHint": "15. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "state",
       "labelHint": "15. Employer's state I D number.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "state",
       "labelHint": "16. State wages, tips, etc.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "state",
       "labelHint": "17. State income tax.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Local wages, tips, etc.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Local income tax.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",

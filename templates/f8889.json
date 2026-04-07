@@ -3,7 +3,7 @@
   "displayName": "Form 8889",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8889.pdf",
-  "generatedAt": "2026-04-06T21:46:19.993Z",
+  "generatedAt": "2026-04-07T00:27:44.773Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -26,7 +26,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
@@ -36,109 +37,185 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
       "fieldType": "date",
       "labelHint": "2. H S A contributions you made for 2025 (or those made on your behalf), including those made by the",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. If you were under age 55 at the end of 2025 and, on the first day of every month during 2025, you were, or were considered, an eligible individual with the same coverage, enter $4,300 ($8,550 for family coverage). All others, see the instructions for the amount to enter.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Enter the amount you and your employer contributed to your Archer M S As for 2025 from Form 8853, lines 1 and 2. If you or your spouse had family coverage under an H D H P at any time during 2025, also include any amount contributed to your spouse’s Archer M S As.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Subtract line 4 from line 3. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "4"
+        },
+        "floorAtZero": true,
+        "rawLabel": "5. Subtract line 4 from line 3. If zero or less, enter 0."
+      },
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Enter the amount from line 5. But if you and your spouse each have separate H S As and had family",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. If you were age 55 or older at the end of 2025, married, and you or your spouse had family covera",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Add lines 6 and 7.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "6",
+            "7"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Add lines 6 and 7."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Employer contributions made to your H S As for 2025.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Qualified H S A funding distributions.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Add lines 9 and 10.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9",
+            "10"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Add lines 9 and 10."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Subtract line 11 from line 8. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "8",
+          "subtrahend": "11"
+        },
+        "floorAtZero": true,
+        "rawLabel": "12. Subtract line 11 from line 8. If zero or less, enter 0."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. H S A deduction (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. H S A Distributions. If you are filing jointly and both you and your spouse each have sepa",
-      "required": false
+      "required": false,
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "date",
       "labelHint": "14b. Distributions included on line 14a that you rolled over to another H S A. Also include any exce",
-      "required": false
+      "required": false,
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14c. Subtract line 14b from line 14a.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "14a",
+          "subtrahend": "14b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "14c. Subtract line 14b from line 14a."
+      },
+      "lineNumber": "14c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Qualified medical expenses paid using H S A distributions (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Taxable H S A distributions. Subtract line 15 from line 14c. If zero or less, enter 0. Also, inc",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "14c",
+          "subtrahend": "15"
+        },
+        "floorAtZero": true,
+        "rawLabel": "16. Taxable H S A distributions. Subtract line 15 from line 14c. If zero or less, enter 0. Also, inc"
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -148,13 +225,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "17a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17b. Additional 20% tax (see instructions). Enter 20% (0.20) of the distributions included on line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "17b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
@@ -166,19 +245,42 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Qualified H S A funding distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Total income. Add lines 18 and 19. Include this amount on Schedule 1 (Form 1040), Part I, line 8",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "18",
+            "19"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Total income. Add lines 18 and 19. Include this amount on Schedule 1 (Form 1040), Part I, line 8"
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Additional tax. Multiply line 20 by 10% (0.10). Include this amount in the total on Schedule 2 (",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "20",
+          "factor": 0.1
+        },
+        "floorAtZero": false,
+        "rawLabel": "21. Additional tax. Multiply line 20 by 10% (0.10). Include this amount in the total on Schedule 2 ("
+      },
+      "lineNumber": "21"
     }
   ]
 }

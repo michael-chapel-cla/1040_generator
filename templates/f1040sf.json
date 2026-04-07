@@ -3,7 +3,7 @@
   "displayName": "Schedule F",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sf.pdf",
-  "generatedAt": "2026-04-06T21:46:18.123Z",
+  "generatedAt": "2026-04-07T00:27:42.922Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -122,79 +122,101 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Farm Income—Cash Method. Complete Parts I and I I (Accrual method. Complete Parts I I and I ",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Cost or other basis of purchased livestock or other items reported on line 1a.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Subtract line 1b from line 1a.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1a",
+          "subtrahend": "1b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1c. Subtract line 1b from line 1a."
+      },
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Sales of livestock, produce, grains, and other products you raised.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Cooperative distributions (Form(s) 1099-P A T R).",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Taxable amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4a. Agricultural program payments (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. Taxable amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5a. Commodity Credit Corporation (C C C) loans reported under election.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. C C C loans forfeited.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Taxable amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Crop insurance proceeds and federal crop disaster payments (see instructions): a. Amount received",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6b. Taxable amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
@@ -210,25 +232,29 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Amount deferred from 2024.",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Custom hire (machine work) income.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "state",
       "labelHint": "8. Other income, including federal and state gasoline or fuel tax credit or refund (see instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Gross income. Add amounts in the right column (lines 1c, 2, 3b, 4b, 5a, 5c, 6b, 6d, 7, and 8). If",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_23[0]",
@@ -240,223 +266,278 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Chemicals.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Conservation expenses (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Custom hire (machine work).",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Depreciation and section 179 expense (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Employee benefit programs other than on line 23.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Feed.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Fertilizers and lime.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Freight and trucking.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Gasoline, fuel, and oil.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Insurance (other than health).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Interest (see instructions): a. Mortgage (paid to banks, etc.).",
-      "required": false
+      "required": false,
+      "lineNumber": "21a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21b. Other.",
-      "required": false
+      "required": false,
+      "lineNumber": "21b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Labor hired (less employment credits).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Pension and profit-sharing plans.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Rent or lease (see instructions): a. Vehicles, machinery, equipment.",
-      "required": false
+      "required": false,
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24b. Other (land, animals, etc.).",
-      "required": false
+      "required": false,
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Repairs and maintenance.",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Seeds and plants.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. Storage and warehousing.",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Supplies.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Taxes.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Utilities.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Veterinary, breeding, and medicine.",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Other expenses (specify): a. Specify expense.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32a. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "32a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32b. Specify expense.",
-      "required": false
+      "required": false,
+      "lineNumber": "32b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32b. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "32b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32c. Specify expense.",
-      "required": false
+      "required": false,
+      "lineNumber": "32c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32c. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "32c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32d. Specify expense.",
-      "required": false
+      "required": false,
+      "lineNumber": "32d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32d. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "32d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32e. Specify expense.",
-      "required": false
+      "required": false,
+      "lineNumber": "32e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32e. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "32e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32f. Specify expense.",
-      "required": false
+      "required": false,
+      "lineNumber": "32f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32f. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "32f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "33. Total expenses. Add lines 10 through 32f. If line 32f is negative, see instructions.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "10",
+          "end": "32f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "33. Total expenses. Add lines 10 through 32f. If line 32f is negative, see instructions."
+      },
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Net farm profit or (loss). Subtract line 33 from line 9. If a profit, stop here and see instruct",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "9",
+          "subtrahend": "33"
+        },
+        "floorAtZero": false,
+        "rawLabel": "34. Net farm profit or (loss). Subtract line 33 from line 9. If a profit, stop here and see instruct"
+      },
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
@@ -488,103 +569,149 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Line38a_ReadOrder[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38a. Cooperative distributions (Form(s) 1099-P A T R).",
-      "required": false
+      "required": false,
+      "lineNumber": "38a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38b. Taxable amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "38b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line39a_ReadOrder[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "39a. Agricultural program payments.",
-      "required": false
+      "required": false,
+      "lineNumber": "39a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "39b. Taxable amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "39b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40. Commodity Credit Corporation (C C C) loans: a. C C C loans reported under election.",
-      "required": false
+      "required": false,
+      "lineNumber": "40a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line40b_ReadOrder[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40b. C C C loans forfeited.",
-      "required": false
+      "required": false,
+      "lineNumber": "40b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40c. Taxable amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "40c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41. Crop insurance proceeds.",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "42. Custom hire (machine work) income.",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43. Other income (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Add amounts in the right column for lines 37 through 43 (lines 37, 38b, 39b, 40a, 40c, 41, 42, and 43).",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line45_ReadOrder[0].f2_13[0]",
       "fieldType": "tax_year",
       "labelHint": "45. Inventory of livestock, produce, grains, and other products at beginning of the year. Do not inc",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "tax_year",
       "labelHint": "46. Cost of livestock, produce, grains, and other products purchased during the year.",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "47. Add lines 45 and 46.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "45",
+            "46"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "47. Add lines 45 and 46."
+      },
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "tax_year",
       "labelHint": "48. Inventory of livestock, produce, grains, and other products at end of year.",
-      "required": false
+      "required": false,
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "street_address",
       "labelHint": "49. Cost of livestock, produce, grains, and other products sold. Subtract line 48 from line 47*. * I",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "47",
+          "subtrahend": "48"
+        },
+        "floorAtZero": false,
+        "rawLabel": "49. Cost of livestock, produce, grains, and other products sold. Subtract line 48 from line 47*. * I"
+      },
+      "lineNumber": "49"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "50. Gross income. Subtract line 49 from line 44. Enter the result here and on Part I, line 9.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "44",
+          "subtrahend": "49"
+        },
+        "floorAtZero": false,
+        "rawLabel": "50. Gross income. Subtract line 49 from line 44. Enter the result here and on Part I, line 9."
+      },
+      "lineNumber": "50"
     }
   ]
 }

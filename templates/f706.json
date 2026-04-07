@@ -3,174 +3,200 @@
   "displayName": "Form 706",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f706.pdf",
-  "generatedAt": "2026-04-06T21:46:24.903Z",
+  "generatedAt": "2026-04-07T00:27:49.717Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
       "fieldType": "first_name",
       "labelHint": "Page 1. Part I. Decedent and Executor. 1a. Decedent's first name and middle initial (and maiden name",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
       "fieldType": "last_name",
       "labelHint": "1b. Decedent's last name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Decedent's social security no. First 3 digits.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Middle 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Last 4 digits.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "city",
       "labelHint": "3a. City, town, or post office. For foreign addresses, also complete lines 3e, 3f, and 3g.",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. County.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "state",
       "labelHint": "3c. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "zip_code",
       "labelHint": "3d. Z I P code.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "full_name",
       "labelHint": "3e. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "state",
       "labelHint": "3f. Foreign province/state/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "zip_code",
       "labelHint": "3g. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "tax_year",
       "labelHint": "4. Year domicile established.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "date",
       "labelHint": "5. Date of birth.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "date",
       "labelHint": "6. Date of death.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "full_name",
       "labelHint": "7a. Name of executor.",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7b. Executor's T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "street_address",
       "labelHint": "7c. Executor’s address (number and street).",
-      "required": false
+      "required": false,
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "street_address",
       "labelHint": "7d. Apt. or suite no.",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "city",
       "labelHint": "7e. City, town, or post office. For foreign addresses, also complete lines 7h, 7i, and 7j.",
-      "required": false
+      "required": false,
+      "lineNumber": "7e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "state",
       "labelHint": "7f. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "7f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "zip_code",
       "labelHint": "7g. Z I P code.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "full_name",
       "labelHint": "7h. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "7h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "state",
       "labelHint": "7i. Foreign province/state/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "7i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "zip_code",
       "labelHint": "7j. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "7j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "phone_number",
       "labelHint": "7k. Executor's phone no.",
-      "required": false
+      "required": false,
+      "lineNumber": "7k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -186,19 +212,22 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "full_name",
       "labelHint": "8a. Name and location of court where will was probated or estate administered.",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8b. Location of court where will was probated or estate administered.",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. Case number.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -268,194 +297,332 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "date",
       "labelHint": "14b. If line 14a is checked, enter the filing date(s) of the initial section 2053 protective claim(s",
-      "required": false
+      "required": false,
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Tax Computation (see instructions). 1. Total gross estate less exclusion from Part V, item 13.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Tentative total allowable deductions from Part V, item 24.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Tentative taxable estate. Subtract line 2 from line 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1",
+          "subtrahend": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3a. Tentative taxable estate. Subtract line 2 from line 1."
+      },
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "state",
       "labelHint": "3b. State death tax deduction.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Taxable estate. Subtract line 3b from line 3a.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3a",
+          "subtrahend": "3b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3c. Taxable estate. Subtract line 3b from line 3a."
+      },
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Adjusted taxable gifts. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Add lines 3c and 4.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3c",
+            "4"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "5. Add lines 3c and 4."
+      },
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Tentative tax on the amount on line 5 from Table A in the instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Total gift tax paid or payable. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Gross estate tax. Subtract line 7 from line 6.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Gross estate tax. Subtract line 7 from line 6."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9a. Basic exclusion amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9b. Deceased spousal unused exclusion (D S U E) amount from predeceased spouse(s), if any, from Part",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9c. Restored exclusion amount. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9d. Applicable exclusion amount. Add lines 9a, 9b, and 9c.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9a",
+            "9b",
+            "9c"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "9d. Applicable exclusion amount. Add lines 9a, 9b, and 9c."
+      },
+      "lineNumber": "9d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9e. Applicable credit amount. Tentative tax on the amount in line 9d from Table A in the instruction",
-      "required": false
+      "required": false,
+      "lineNumber": "9e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Adjustment to applicable credit amount. Do not enter more than $6,000. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Allowable applicable credit amount. Subtract line 10 from line 9e.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "9e",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Allowable applicable credit amount. Subtract line 10 from line 9e."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Subtract line 11 from line 8. If zero or less, enter -0-.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "8",
+          "subtrahend": "11"
+        },
+        "floorAtZero": true,
+        "rawLabel": "12. Subtract line 11 from line 8. If zero or less, enter -0-."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I. Tax Computation (see instructions) (continued). 13. Credit for foreign death taxes",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Credit for tax on prior transfers from Schedule Q (Form 706).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Credit for pre-1977 federal gift taxes under section 2012.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Marital credit under the 1995 Canadian Protocol.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Total credits. Add lines 13 through 16.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "13",
+          "end": "16"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Total credits. Add lines 13 through 16."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Net estate tax. Subtract line 17 from line 12.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "17"
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Net estate tax. Subtract line 17 from line 12."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Generation-skipping transfer (G S T) taxes payable from Schedule R (Form 706), Part I I, line 11",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Total transfer taxes. Add lines 18 and 19.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "18",
+            "19"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Total transfer taxes. Add lines 18 and 19."
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Prior payments. Explain in an attached statement.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. If the amount on line 20 is more than the amount on line 21, subtract line 21 from line 20. Tax ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "20",
+          "subtrahend": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "22. If the amount on line 20 is more than the amount on line 21, subtract line 21 from line 20. Tax "
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23a. Overpayment. If the amount on line 21 is more than the amount on line 20, subtract line 20 from",
-      "required": false
+      "required": false,
+      "lineNumber": "23a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Routing_Number[0].f2_12[0]",
       "fieldType": "routing_number",
       "labelHint": "23b. Routing number.",
       "required": false,
-      "maxLength": 9
+      "maxLength": 9,
+      "lineNumber": "23b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -482,7 +649,8 @@
       "fieldType": "account_number",
       "labelHint": "23d. Account number.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "23d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
@@ -540,7 +708,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
@@ -550,7 +719,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
@@ -560,7 +730,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
@@ -570,7 +741,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
@@ -580,7 +752,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
@@ -590,7 +763,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
@@ -600,7 +774,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
@@ -610,25 +785,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I V. General Information (see instructions). Note. Attach the necessary supplemental documents. 1a. Death certificate number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Death certificate issuing authority.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
       "fieldType": "occupation",
       "labelHint": "2a. Decedent’s business or occupation or former business or occupation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
@@ -688,27 +867,31 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].f3_4[0]",
       "fieldType": "full_name",
       "labelHint": "3b. For all prior marriages, list the information below. Under column (i v), indicate whether the ma",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].f3_5[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (i i) Social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].f3_6[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (i i i) Date marriage ended.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].c3_7[0]",
@@ -718,7 +901,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].c3_7[1]",
@@ -728,7 +912,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row1[0].c3_7[2]",
@@ -738,27 +923,31 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].f3_7[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (i) Name of former spouse(s).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].f3_8[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (i i) Social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].f3_9[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (i i i) Date marriage ended.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].c3_8[0]",
@@ -768,7 +957,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].c3_8[1]",
@@ -778,7 +968,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row2[0].c3_8[2]",
@@ -788,27 +979,31 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].f3_10[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (i) Name of former spouse(s).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].f3_11[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (i i) Social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].f3_12[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (i i i) Date marriage ended.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].c3_9[0]",
@@ -818,7 +1013,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].c3_9[1]",
@@ -828,7 +1024,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row3[0].c3_9[2]",
@@ -838,27 +1035,31 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].f3_13[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (i) Name of former spouse(s).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].f3_14[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 4. Column: (i i) Social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].f3_15[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (i i i) Date marriage ended.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].c3_10[0]",
@@ -868,7 +1069,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].c3_10[1]",
@@ -878,7 +1080,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1[0].Row4[0].c3_10[2]",
@@ -888,183 +1091,212 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
       "fieldType": "full_name",
       "labelHint": "4a. Surviving spouse's name.",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
       "fieldType": "ssn",
       "labelHint": "4b. Social security number. First 3 digits.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. Middle 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. Last 4 digits.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. Amount surviving spouse received.",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_21[0]",
       "fieldType": "full_name",
       "labelHint": "5a. Individuals (other than the surviving spouse), trusts, or other estates who receive benefits fro",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i i) Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_23[0]",
       "fieldType": "relationship",
       "labelHint": "Row: 1. Column: (i i i) Relationship to decedent.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row1[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i v) Amount received.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_25[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column:(i) Name of individual, trust, or estate receiving $5,000 or more.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i i) Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_27[0]",
       "fieldType": "relationship",
       "labelHint": "Row: 2. Column: (i i i) Relationship to decedent.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row2[0].f3_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i v) Amount received.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_29[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (i) Name of individual, trust, or estate receiving $5,000 or more.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i i) Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_31[0]",
       "fieldType": "relationship",
       "labelHint": "Row: 3. Column: (i i i) Relationship to decedent.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row3[0].f3_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i v) Amount received.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_33[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (i) Name of individual, trust, or estate receiving $5,000 or more.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (i i) Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_35[0]",
       "fieldType": "relationship",
       "labelHint": "Row: 4. Column: (i i i) Relationship to decedent.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row4[0].f3_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (i v) Amount received.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_37[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 5. Column: (i) Name of individual, trust, or estate receiving $5,000 or more.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (i i) Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_39[0]",
       "fieldType": "relationship",
       "labelHint": "Row: 5. Column: (i i i) Relationship to decedent.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Line5a[0].Row5[0].f3_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (i v) Amount received.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Total from attachment, if necessary.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. All unascertainable beneficiaries and those who receive less than $5,000.",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Total. Add amounts in column (i v).",
-      "required": false
+      "required": false,
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[0]",
@@ -1074,7 +1306,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[1]",
@@ -1084,7 +1317,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[0]",
@@ -1094,7 +1328,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[1]",
@@ -1104,7 +1339,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[0]",
@@ -1114,7 +1350,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[1]",
@@ -1124,19 +1361,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8b. Period(s) covered.",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. Internal Revenue office(s) where filed.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[0]",
@@ -1146,7 +1386,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[1]",
@@ -1156,7 +1397,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[0]",
@@ -1166,7 +1408,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[1]",
@@ -1176,7 +1419,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[0]",
@@ -1186,7 +1430,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[1]",
@@ -1196,7 +1441,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[0]",
@@ -1206,7 +1452,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[1]",
@@ -1216,7 +1463,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[0]",
@@ -1226,7 +1474,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[1]",
@@ -1236,7 +1485,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[0]",
@@ -1246,7 +1496,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_3[1]",
@@ -1256,7 +1507,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[0]",
@@ -1266,7 +1518,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_4[1]",
@@ -1276,7 +1529,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[0]",
@@ -1286,7 +1540,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[1]",
@@ -1296,7 +1551,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[0]",
@@ -1306,7 +1562,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[1]",
@@ -1316,7 +1573,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[0]",
@@ -1326,7 +1584,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[1]",
@@ -1336,7 +1595,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[0]",
@@ -1346,7 +1606,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[1]",
@@ -1356,14 +1617,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13f. If “Yes” to line 13e, provide the E I N for the entity in which an interest was transferred/sol",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_9[0]",
@@ -1373,7 +1636,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_9[1]",
@@ -1383,7 +1647,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_10[0]",
@@ -1393,7 +1658,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_10[1]",
@@ -1403,7 +1669,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_11[0]",
@@ -1413,7 +1680,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_11[1]",
@@ -1423,7 +1691,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_12[0]",
@@ -1433,7 +1702,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_12[1]",
@@ -1443,7 +1713,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line1[0].f4_2[0]",
@@ -1455,103 +1726,120 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line1[0].f4_3[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Total real estate. Schedule A, line 4. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line2[0].f4_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Total stocks and bonds. Schedule B, line 4. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line2[0].f4_5[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Total stocks and bonds. Schedule B, line 4. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line3[0].f4_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Total mortgage, notes, and cash. Schedule C, line 4. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line3[0].f4_7[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Total mortgage, notes, and cash. Schedule C, line 4. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line4[0].f4_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Total insurance on the decedent's life. Schedule D, line 4. Attach Form(s) 712. Column: Alte",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line4[0].f4_9[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Total insurance on the decedent's life. Schedule D, line 4. Attach Form(s) 712. Column: Valu",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line5[0].f4_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Total jointly owned property. Schedule E, line 10. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line5[0].f4_11[0]",
       "fieldType": "date",
       "labelHint": "Row: 5. Total jointly owned property. Schedule E, line 10. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line6[0].f4_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Total other miscellaneous property. Schedule F, line 7. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line6[0].f4_13[0]",
       "fieldType": "date",
       "labelHint": "Row: 6. Total other miscellaneous property. Schedule F, line 7. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line7[0].f4_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Total transfers during the decedent's lifetime. Schedule G, line 5. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line7[0].f4_15[0]",
       "fieldType": "date",
       "labelHint": "Row: 7. Total transfers during the decedent's lifetime. Schedule G, line 5. Column: Value at date of",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line8[0].f4_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Total powers of appointment. Schedule H, line 4. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line8[0].f4_17[0]",
       "fieldType": "date",
       "labelHint": "Row: 8. Total powers of appointment. Schedule H, line 4. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line9[0].f4_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Total annuities. Schedule I, line 5. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line9[0].f4_19[0]",
       "fieldType": "date",
       "labelHint": "Row: 9. Total annuities. Schedule I, line 5. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line10[0].f4_20[0]",
@@ -1569,37 +1857,43 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line11[0].f4_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Total gross estate. Add items 1 through 10. Column: Alternate value.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line11[0].f4_23[0]",
       "fieldType": "date",
       "labelHint": "Row: 11. Total gross estate. Add items 1 through 10. Column: Value at date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line12[0].f4_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Total qualified conservation easement exclusion. Schedule U, line 20. Column: Alternate val",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line12[0].f4_25[0]",
       "fieldType": "date",
       "labelHint": "Row: 12. Total qualified conservation easement exclusion. Schedule U, line 20. Column: Value at date",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line13[0].f4_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Total gross estate less exclusion. Subtract item 12 from item 11. Enter here and on Part I ",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line13[0].f4_27[0]",
       "fieldType": "date",
       "labelHint": "Row: 13. Total gross estate less exclusion. Subtract item 12 from item 11. Enter here and on Part I ",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line14[0].f4_28[0]",
@@ -1611,61 +1905,71 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line15[0].f4_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Total debts of the decedent. Schedule K, line 6. Column: Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line16[0].f4_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Total mortgages and liens on, or in respect of, any property of the decedent. Schedule K, l",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line17[0].f4_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Add items 14 through 16. Column: Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line18[0].f4_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Allowable amount of deductions from item 17. See instructions. Column: Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line19[0].f4_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Total net losses during administration. Schedule L, line 4. Column: Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line20[0].f4_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Total expenses incurred in administering property not subject to claims. Schedule L, line 8",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line21[0].f4_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Total amount of property interests for which a marital deduction is being claimed. Schedule",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line22[0].f4_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Total charitable, public, and similar gifts and bequests. Schedule O, line 8. Column: Amoun",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line23[0].f4_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Estimated value of deductible assets subject to the special rule of Reg. section 20.2010-2(",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line24[0].f4_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Tentative total allowable deductions. Add items 18 through 23. Enter here and on Part I I, ",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[0]",
@@ -1707,55 +2011,102 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the value of the cumulative lifetime gifts on which tax was paid or payable. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Add lines 1 and 2.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1",
+            "2"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Add lines 1 and 2."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Enter the amount from Part I I, line 10.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Divide the amount on line 4 by 40% (0.40). If zero or less, enter -0-.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Subtract line 5 from line 3.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. Subtract line 5 from line 3."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Enter the amount from Part I I, line 5.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Subtract line 7 from line 6. If zero or less, enter -0-.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "7"
+        },
+        "floorAtZero": true,
+        "rawLabel": "8. Subtract line 7 from line 6. If zero or less, enter -0-."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Enter the amount from Part I I, line 9a.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. D S U E amount portable to surviving spouse. Enter the smaller of line 8 or line 9.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "8",
+          "b": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. D S U E amount portable to surviving spouse. Enter the smaller of line 8 or line 9."
+      },
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_11[0]",
@@ -1768,7 +2119,8 @@
       "fieldType": "date",
       "labelHint": "Row: 1. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].c5_3[0]",
@@ -1778,7 +2130,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].c5_3[1]",
@@ -1788,25 +2141,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_15[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_16[0]",
@@ -1825,7 +2182,8 @@
       "fieldType": "date",
       "labelHint": "Row: 1. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].c5_4[0]",
@@ -1835,7 +2193,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].c5_4[1]",
@@ -1845,38 +2204,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_21[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_22[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_23[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].c5_5[0]",
@@ -1886,7 +2251,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].c5_5[1]",
@@ -1896,38 +2262,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line2[0].f5_26[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_27[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_28[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].c5_6[0]",
@@ -1937,7 +2309,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].c5_6[1]",
@@ -1947,38 +2320,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line3[0].f5_31[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_32[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_33[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].c5_7[0]",
@@ -1988,7 +2367,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].c5_7[1]",
@@ -1998,38 +2378,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line4[0].f5_36[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_37[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 5. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_38[0]",
       "fieldType": "date",
       "labelHint": "Row: 5. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].c5_8[0]",
@@ -2039,7 +2425,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].c5_8[1]",
@@ -2049,38 +2436,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line5[0].f5_41[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 5. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_42[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 6. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_43[0]",
       "fieldType": "date",
       "labelHint": "Row: 6. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].c5_9[0]",
@@ -2090,7 +2483,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].c5_9[1]",
@@ -2100,38 +2494,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line6[0].f5_46[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 6. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_47[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 7. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_48[0]",
       "fieldType": "date",
       "labelHint": "Row: 7. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].c5_10[0]",
@@ -2141,7 +2541,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].c5_10[1]",
@@ -2151,38 +2552,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line7[0].f5_51[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 7. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_52[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 8. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_53[0]",
       "fieldType": "date",
       "labelHint": "Row: 8. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].c5_11[0]",
@@ -2192,7 +2599,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].c5_11[1]",
@@ -2202,38 +2610,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line8[0].f5_56[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_57[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 9. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_58[0]",
       "fieldType": "date",
       "labelHint": "Row: 9. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].c5_12[0]",
@@ -2243,7 +2657,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].c5_12[1]",
@@ -2253,38 +2668,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line9[0].f5_61[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_62[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 10. Column: A. Name of deceased spouse (dates of death after December 31, 2010, only).",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_63[0]",
       "fieldType": "date",
       "labelHint": "Row: 10. Column: B. Date of death (enter as m m/d d/y y).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].c5_13[0]",
@@ -2294,7 +2715,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].c5_13[1]",
@@ -2304,37 +2726,43 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Column: D. If \"Yes,\" D S U E amount received from spouse.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Column: E. D S U E amount applied by decedent to lifetime gifts.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line10[0].f5_66[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10. Column: F. Year of Form 709 reporting use of D S U E amount listed in column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Total of all D S U E amounts from predeceased spouse(s) applied. Add line 2, column E.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Add line 3 and line 1, column D. Enter here and on Part I I, line 9b.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     }
   ]
 }

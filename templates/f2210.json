@@ -3,7 +3,7 @@
   "displayName": "Form 2210",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2210.pdf",
-  "generatedAt": "2026-04-06T21:46:18.437Z",
+  "generatedAt": "2026-04-07T00:27:43.241Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -22,55 +22,91 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Required Annual Payment. 1. Enter your 2025 tax after credits from Form 1040, 1040-S R, or 1",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Other taxes, including self-employment tax and, if applicable, Additional Medicare Tax and/or Net",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Open parenthesis. Other payments and refundable credits (see instructions). Close parenthesis.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "tax_year",
       "labelHint": "4. Current year tax. Combine lines 1, 2, and 3. If less than $1,000, stop; you don't owe a penalty. ",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Multiply line 4 by 90% (0.90).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "4",
+          "factor": 0.9
+        },
+        "floorAtZero": false,
+        "rawLabel": "5. Multiply line 4 by 90% (0.90)."
+      },
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Withholding taxes. Don't include estimated tax payments. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Subtract line 6 from line 4. If less than $1,000, stop; you don't owe a penalty. Don't file Form ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "4",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Subtract line 6 from line 4. If less than $1,000, stop; you don't owe a penalty. Don't file Form "
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "tax_year",
       "labelHint": "8. Maximum required annual payment based on prior year’s tax (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Required annual payment. Enter the smaller of line 5 or line 8.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "5",
+          "b": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Required annual payment. Enter the smaller of line 5 or line 8."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -80,7 +116,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
@@ -90,7 +127,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -152,43 +190,50 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line10[0].f2_2[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10. Required installments. If box C in Part I I applies, enter the amounts from Schedule A I, l",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line10[0].f2_3[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10. Required installments. If box C in Part I I applies, enter the amounts from Schedule A I, l",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line10[0].f2_4[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10. Required installments. If box C in Part I I applies, enter the amounts from Schedule A I, l",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line11[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Estimated tax paid and tax withheld (see the instructions). For column (a) only, also enter",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line11[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Estimated tax paid and tax withheld (see the instructions). For column (a) only, also enter",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line11[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Estimated tax paid and tax withheld (see the instructions). For column (a) only, also enter",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line11[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Estimated tax paid and tax withheld (see the instructions). For column (a) only, also enter",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line12[0].f2_9[0]",
@@ -200,163 +245,386 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line12[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Enter the amount, if any, from line 18 in the previous column. Column: Payment Due Dates. (",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line12[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Enter the amount, if any, from line 18 in the previous column. Column: Payment Due Dates. (",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line12[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Enter the amount, if any, from line 18 in the previous column. Column: Payment Due Dates. (",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line13[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (a) 4/15/24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "11",
+            "12"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (a) 4/15/24."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line13[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (b) 6/15/24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "11",
+            "12"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (b) 6/15/24."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line13[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (c) 9/15/24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "11",
+            "12"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (c) 9/15/24."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line13[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (d) 1/15/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "11",
+            "12"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Add lines 11 and 12. Column: Payment Due Dates. (d) 1/15/25."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line14[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Add the amounts on lines 16 and 17 in the previous column. Column: Payment Due Dates. (a) 4",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line14[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Add the amounts on lines 16 and 17 in the previous column. Column: Payment Due Dates. (b) 6",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line14[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Add the amounts on lines 16 and 17 in the previous column. Column: Payment Due Dates. (c) 9",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line14[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Add the amounts on lines 16 and 17 in the previous column. Column: Payment Due Dates. (d) 1",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line15[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "13",
+          "subtrahend": "14"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo"
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line15[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "13",
+          "subtrahend": "14"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo"
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line15[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "13",
+          "subtrahend": "14"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo"
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line15[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "13",
+          "subtrahend": "14"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 15. Subtract line 14 from line 13. If zero or less, enter 0. For column (a) only, enter the amo"
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line16[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "14",
+          "subtrahend": "13"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due "
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line16[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "14",
+          "subtrahend": "13"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due "
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line16[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "14",
+          "subtrahend": "13"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due "
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line16[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "14",
+          "subtrahend": "13"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 16. If line 15 is zero, subtract line 13 from line 14. Otherwise, enter 0. Column: Payment Due "
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line17[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T"
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line17[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T"
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line17[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T"
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line17[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Underpayment. If line 10 is equal to or more than line 15, subtract line 15 from line 10. T"
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line18[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "conditional_subtract",
+          "condA": "15",
+          "condB": "10",
+          "minuend": "15",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin"
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line18[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "conditional_subtract",
+          "condA": "15",
+          "condB": "10",
+          "minuend": "15",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin"
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line18[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "conditional_subtract",
+          "condA": "15",
+          "condB": "10",
+          "minuend": "15",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin"
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].Line18[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "conditional_subtract",
+          "condA": "15",
+          "condB": "10",
+          "minuend": "15",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Overpayment. If line 15 is more than line 10, subtract line 10 from line 15. Then go to lin"
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
@@ -374,187 +642,218 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line1[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Enter your adjusted gross income for each period. See instructions. (Estates and trusts, ent",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line1[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Enter your adjusted gross income for each period. See instructions. (Estates and trusts, ent",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line1[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Enter your adjusted gross income for each period. See instructions. (Estates and trusts, ent",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line2[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Annualization amounts. (Estates and trusts, see instructions.). Column: (a) 1/1/25–3/31/25. 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line2[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Annualization amounts. (Estates and trusts, see instructions.). Column: (b) 1/1/25–5/31/25. 2.4.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line2[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Annualization amounts. (Estates and trusts, see instructions.). Column: (c) 1/1/25–8/31/25. 1.5.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line2[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Annualization amounts. (Estates and trusts, see instructions.). Column: (d) 1/1/25–12/31/25. 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line4[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. If you itemize, enter itemized deductions for the period shown in each column. All others, e",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line4[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. If you itemize, enter itemized deductions for the period shown in each column. All others, e",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line4[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. If you itemize, enter itemized deductions for the period shown in each column. All others, e",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line4[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. If you itemize, enter itemized deductions for the period shown in each column. All others, e",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line5[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Annualization amounts. Column: (a) 1/1/25–3/31/25. 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line5[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Annualization amounts. Column: (b) 1/1/25–5/31/25. 2.4.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line5[0].f3_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Annualization amounts. Column: (c) 1/1/25–8/31/25. 1.5.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line5[0].f3_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Annualization amounts. Column: (d) 1/1/25–12/31/25. 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line6[0].f3_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line6[0].f3_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line6[0].f3_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line6[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line7[0].f3_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. In each column, enter the amount of your standard deduction from Form 1040 or 1040-S R. (For",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line7[0].f3_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. In each column, enter the amount of your standard deduction from Form 1040 or 1040-S R. (For",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line7[0].f3_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. In each column, enter the amount of your standard deduction from Form 1040 or 1040-S R. (For",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line7[0].f3_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. In each column, enter the amount of your standard deduction from Form 1040 or 1040-S R. (For",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line8[0].f3_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line8[0].f3_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line8[0].f3_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line8[0].f3_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line9[0].f3_33[0]",
@@ -608,265 +907,465 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line11[0].f3_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Subtract line 10 from line 3. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 11. Subtract line 10 from line 3. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line11[0].f3_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Subtract line 10 from line 3. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 11. Subtract line 10 from line 3. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line11[0].f3_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Subtract line 10 from line 3. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 11. Subtract line 10 from line 3. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line11[0].f3_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Subtract line 10 from line 3. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 11. Subtract line 10 from line 3. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line12[0].f3_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Form 1040, 1040-S R, or 1040-N R filers, enter 0 in each column. (Estates and trusts, see instructions.) Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line12[0].f3_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Form 1040, 1040-S R, or 1040-N R filers, enter 0 in each column. (Estates and trusts, see instructions.) Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line12[0].f3_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Form 1040, 1040-S R, or 1040-N R filers, enter 0 in each column. (Estates and trusts, see instructions.) Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line12[0].f3_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Form 1040, 1040-S R, or 1040-N R filers, enter 0 in each column. (Estates and trusts, see instructions.) Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line13[0].f3_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "11",
+          "subtrahend": "12"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line13[0].f3_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "11",
+          "subtrahend": "12"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line13[0].f3_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "11",
+          "subtrahend": "12"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line13[0].f3_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "11",
+          "subtrahend": "12"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 13. Subtract line 12 from line 11. If zero or less, enter 0. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line14[0].f3_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Figure your tax on the amount on line 13. See instructions. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line14[0].f3_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Figure your tax on the amount on line 13. See instructions. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line14[0].f3_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Figure your tax on the amount on line 13. See instructions. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line14[0].f3_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Figure your tax on the amount on line 13. See instructions. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line15[0].f3_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Self-employment tax from line 36 (complete Part I I below). Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line15[0].f3_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Self-employment tax from line 36 (complete Part I I below). Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line15[0].f3_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Self-employment tax from line 36 (complete Part I I below). Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line15[0].f3_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Self-employment tax from line 36 (complete Part I I below). Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line16[0].f3_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Enter other taxes for each payment period including, if applicable, Additional Medicare Tax",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line16[0].f3_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Enter other taxes for each payment period including, if applicable, Additional Medicare Tax",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line16[0].f3_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Enter other taxes for each payment period including, if applicable, Additional Medicare Tax",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line16[0].f3_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Enter other taxes for each payment period including, if applicable, Additional Medicare Tax",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line17[0].f3_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "14",
+            "15",
+            "16"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line17[0].f3_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "14",
+            "15",
+            "16"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line17[0].f3_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "14",
+            "15",
+            "16"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line17[0].f3_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "14",
+            "15",
+            "16"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. Total tax. Add lines 14, 15, and 16. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line18[0].f3_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. For each period, enter the same type of credits as allowed on Form 2210, Part I, lines 1 an",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line18[0].f3_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. For each period, enter the same type of credits as allowed on Form 2210, Part I, lines 1 an",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line18[0].f3_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. For each period, enter the same type of credits as allowed on Form 2210, Part I, lines 1 an",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line18[0].f3_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. For each period, enter the same type of credits as allowed on Form 2210, Part I, lines 1 an",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line19[0].f3_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "17",
+          "subtrahend": "18"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line19[0].f3_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "17",
+          "subtrahend": "18"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line19[0].f3_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "17",
+          "subtrahend": "18"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line19[0].f3_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "17",
+          "subtrahend": "18"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 19. Subtract line 18 from line 17. If zero or less, enter 0. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line20[0].f3_77[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 20. Applicable percentage. Column: (a) 1/1/25–3/31/25. 22.5%.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line20[0].f3_78[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 20. Applicable percentage. Column: (b) 1/1/25–5/31/25. 45%.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line20[0].f3_79[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 20. Applicable percentage. Column: (c) 1/1/25–8/31/25. 67.5%.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line20[0].f3_80[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 20. Applicable percentage. Column: (d) 1/1/25–12/31/25. 90%.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line21[0].f3_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line21[0].f3_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line21[0].f3_83[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line21[0].f3_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line22[0].f3_85[0]",
@@ -878,139 +1377,278 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line22[0].f3_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Enter the total of the amounts in all previous columns of line 27. Column: (b) 1/1/25–5/31/",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line22[0].f3_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Enter the total of the amounts in all previous columns of line 27. Column: (c) 1/1/25–8/31/",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line22[0].f3_88[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Enter the total of the amounts in all previous columns of line 27. Column: (d) 1/1/25–12/31",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line23[0].f3_89[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line23[0].f3_90[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line23[0].f3_91[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line23[0].f3_92[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 23. Subtract line 22 from line 21. If zero or less, enter 0. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line24[0].f3_93[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Enter 25% (0.25) of line 9 on page 1 of Form 2210 in each column. Column: (a) 1/1/25–3/31/2",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line24[0].f3_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Enter 25% (0.25) of line 9 on page 1 of Form 2210 in each column. Column: (b) 1/1/25–5/31/2",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line24[0].f3_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Enter 25% (0.25) of line 9 on page 1 of Form 2210 in each column. Column: (c) 1/1/25–8/31/2",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line24[0].f3_96[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Enter 25% (0.25) of line 9 on page 1 of Form 2210 in each column. Column: (d) 1/1/25–12/31/",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line25[0].f3_97[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 27 of the previous column from line 26 of that column. Column: (a) 1/1/24–3/3",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line25[0].f3_98[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 27 of the previous column from line 26 of that column. Column: (b) 1/1/25–5/3",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line25[0].f3_99[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 27 of the previous column from line 26 of that column. Column: (c) 1/1/25–8/3",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line25[0].f3_100[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 27 of the previous column from line 26 of that column. Column: (d) 1/1/25–12/",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line26[0].f3_101[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Add lines 24 and 25. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "24",
+            "25"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Add lines 24 and 25. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line26[0].f3_102[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Add lines 24 and 25. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "24",
+            "25"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Add lines 24 and 25. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line26[0].f3_103[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Add lines 24 and 25. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "24",
+            "25"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Add lines 24 and 25. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line26[0].f3_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Add lines 24 and 25. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "24",
+            "25"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Add lines 24 and 25. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line27[0].f3_105[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "23",
+          "b": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line27[0].f3_106[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "23",
+          "b": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line27[0].f3_107[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "23",
+          "b": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Part1Table[0].Line27[0].f3_108[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "23",
+          "b": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Enter the smaller of line 23 or line 26 here and on Form 2210, Part I I I, line 10. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line28[0].f3_109[0]",
@@ -1022,211 +1660,362 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line28[0].f3_110[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. Net earnings from self-employment for the period (see instructions). Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line28[0].f3_111[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. Net earnings from self-employment for the period (see instructions). Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line28[0].f3_112[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. Net earnings from self-employment for the period (see instructions). Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line29[0].f3_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Prorated social security tax limit. Column: (a) 1/1/25–3/31/25. $44,025.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line29[0].f3_114[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Prorated social security tax limit. Column: (b) 1/1/25–5/31/25. $73,375.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line29[0].f3_115[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Prorated social security tax limit. Column: (c) 1/1/25–8/31/25. $117,400.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line29[0].f3_116[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Prorated social security tax limit. Column: (d) 1/1/25–12/31/25. $176,100.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line30[0].f3_117[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Enter actual wages for the period subject to social security tax or the 6.2% portion of the",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line30[0].f3_118[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Enter actual wages for the period subject to social security tax or the 6.2% portion of the",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line30[0].f3_119[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Enter actual wages for the period subject to social security tax or the 6.2% portion of the",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line30[0].f3_120[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Enter actual wages for the period subject to social security tax or the 6.2% portion of the",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line31[0].f3_121[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (a) 1/1/24–3/31/24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (a) 1/1/24–3/31/24."
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line31[0].f3_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (b) 1/1/24–5/31/24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (b) 1/1/24–5/31/24."
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line31[0].f3_123[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (c) 1/1/24–8/31/24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (c) 1/1/24–8/31/24."
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line31[0].f3_124[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (d) 1/1/24–12/31/24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 31. Subtract line 30 from line 29. If zero or less, enter 0. Column: (d) 1/1/24–12/31/24."
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line32[0].f3_125[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Annualization amounts. Column: (a) 1/1/25–3/31/25. 0.496.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line32[0].f3_126[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Annualization amounts. Column: (b) 1/1/25–5/31/25. 0.2976.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line32[0].f3_127[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Annualization amounts. Column: (c) 1/1/25–8/31/25. 0.186.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line32[0].f3_128[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Annualization amounts. Column: (d) 1/1/25–12/31/25. 0.124.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line33[0].f3_129[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "28",
+          "b": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line33[0].f3_130[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "28",
+          "b": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line33[0].f3_131[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "28",
+          "b": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line33[0].f3_132[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "28",
+          "b": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Multiply line 32 by the smaller of line 28 or line 31. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line34[0].f3_133[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Annualization amounts. Column: (a) 1/1/25–3/31/25. 0.116.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line34[0].f3_134[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Annualization amounts. Column: (b) 1/1/25–5/31/25. 0.0696.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line34[0].f3_135[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Annualization amounts. Column: (c) 1/1/25–8/31/25. 0.0435.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line34[0].f3_136[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Annualization amounts. Column: (d) 1/1/25–12/31/25. 0.029.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line35[0].f3_137[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line35[0].f3_138[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line35[0].f3_139[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line35[0].f3_140[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line36[0].f3_141[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (a) 1/1/25–3/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "33",
+            "35"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (a) 1/1/25–3/31/25."
+      },
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line36[0].f3_142[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (b) 1/1/25–5/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "33",
+            "35"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (b) 1/1/25–5/31/25."
+      },
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line36[0].f3_143[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (c) 1/1/25–8/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "33",
+            "35"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (c) 1/1/25–8/31/25."
+      },
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].PartIITable[0].Line36[0].f3_144[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (d) 1/1/25–12/31/25.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "33",
+            "35"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 36. Add lines 33 and 35. Enter here and on line 15 above. Column: (d) 1/1/25–12/31/25."
+      },
+      "lineNumber": "36"
     }
   ]
 }

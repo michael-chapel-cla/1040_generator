@@ -3,7 +3,7 @@
   "displayName": "Form 990",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f990.pdf",
-  "generatedAt": "2026-04-06T21:46:27.216Z",
+  "generatedAt": "2026-04-07T00:27:52.023Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -317,43 +317,50 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Number of voting members of the governing body (Part V I, line 1a).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Number of independent voting members of the governing body (Part V I, line 1b).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "tax_year",
       "labelHint": "5. Total number of individuals employed in calendar year 2025 (Part V, line 2a).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Total number of volunteers (estimate if necessary).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7a. Total unrelated business revenue from Part V I I I, column (C), line 12.",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7b. Net unrelated business taxable income from Form 990-T, Part I, line 11.",
-      "required": false
+      "required": false,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line8[0].f1_27[0]",
@@ -367,63 +374,90 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Contributions and grants (Part V I I I, line 1h). Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line9[0].f1_29[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Program service revenue (Part V I I I, line 2g). Column: Prior Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line9[0].f1_30[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Program service revenue (Part V I I I, line 2g). Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line10[0].f1_31[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10. Investment income (Part V I I I, column (A), lines 3, 4, and 7d). Column: Prior Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line10[0].f1_32[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10. Investment income (Part V I I I, column (A), lines 3, 4, and 7d). Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line11[0].f1_33[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11. Other revenue (Part V I I I, column (A), lines 5, 6d, 8c, 9c, 10c, and 11e). Column: Prior ",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line11[0].f1_34[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11. Other revenue (Part V I I I, column (A), lines 5, 6d, 8c, 9c, 10c, and 11e). Column: Curren",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line12[0].f1_35[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Total revenue—add lines 8 through 11 (must equal Part V I I I, column (A), line 12). Column",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "8",
+          "end": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 12. Total revenue—add lines 8 through 11 (must equal Part V I I I, column (A), line 12). Column"
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line12[0].f1_36[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Total revenue—add lines 8 through 11 (must equal Part V I I I, column (A), line 12). Column",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "8",
+          "end": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 12. Total revenue—add lines 8 through 11 (must equal Part V I I I, column (A), line 12). Column"
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line13[0].f1_37[0]",
@@ -437,109 +471,143 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 13. Grants and similar amounts paid (Part I X, column (A), lines 1–3). Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line14[0].f1_39[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Benefits paid to or for members (Part I X, column (A), line 4). Column: Prior Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line14[0].f1_40[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Benefits paid to or for members (Part I X, column (A), line 4). Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line15[0].f1_41[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Salaries, other compensation, employee benefits (Part I X, column (A), lines 5–10). Column:",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line15[0].f1_42[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Salaries, other compensation, employee benefits (Part I X, column (A), lines 5–10). Column:",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line16a[0].f1_43[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16a. Professional fundraising fees (Part I X, column (A), line 11e). Column: Prior Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "16a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line16a[0].f1_44[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16a. Professional fundraising fees (Part I X, column (A), line 11e). Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "16a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line16b[0].TotalFundraisingExpenses[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16b. Total fundraising expenses (Part I X, column (D), line 25).",
-      "required": false
+      "required": false,
+      "lineNumber": "16b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line16b[0].f1_46[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16b. Total fundraising expenses (Part I X, column (D), line 25). Column: Prior Year.",
-      "required": false
+      "required": false,
+      "lineNumber": "16b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line16b[0].f1_47[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16b. Total fundraising expenses (Part I X, column (D), line 25). Column: Current Year.",
-      "required": false
+      "required": false,
+      "lineNumber": "16b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line17[0].f1_48[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 17. Other expenses (Part I X, column (A), lines 11a–11d, 11f–24e). Column: Prior Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line17[0].f1_49[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 17. Other expenses (Part I X, column (A), lines 11a–11d, 11f–24e). Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line18[0].f1_50[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Total expenses. Add lines 13–17 (must equal Part I X, column (A), line 25). Column: Prior Y",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line18[0].f1_51[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Total expenses. Add lines 13–17 (must equal Part I X, column (A), line 25). Column: Current",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line19[0].f1_52[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Revenue less expenses. Subtract line 18 from line 12. Column: Prior Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 19. Revenue less expenses. Subtract line 18 from line 12. Column: Prior Year."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines8-19[0].Line19[0].f1_53[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Revenue less expenses. Subtract line 18 from line 12. Column: Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 19. Revenue less expenses. Subtract line 18 from line 12. Column: Current Year."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_20-22[0].Line20[0].f1_54[0]",
@@ -553,35 +621,58 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Total assets (Part X, line 16). Column: End of Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_20-22[0].Line21[0].f1_56[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Total liabilities (Part X, line 26). Column: Beginning of Current Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_20-22[0].Line21[0].f1_57[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Total liabilities (Part X, line 26). Column: End of Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_20-22[0].Line22[0].f1_58[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Net assets or fund balances. Subtract line 21 from line 20. Column: Beginning of Current Ye",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "20",
+          "subtrahend": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 22. Net assets or fund balances. Subtract line 21 from line 20. Column: Beginning of Current Ye"
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_20-22[0].Line22[0].f1_59[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Net assets or fund balances. Subtract line 21 from line 20. Column: End of Year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "20",
+          "subtrahend": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 22. Net assets or fund balances. Subtract line 21 from line 20. Column: End of Year."
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_60[0]",
@@ -665,7 +756,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Line1Entry[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Briefly describe the organization's mission:",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -675,7 +767,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
@@ -685,7 +778,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
@@ -695,7 +789,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
@@ -705,121 +800,141 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Describe the organization's program service accomplishments for each of its three largest program services, as measured by expenses. Section 501(c)(3) and 501(c)(4) organizations are required to report the amount of grants and allocations to others, the total expenses, and revenue, if any, for each program service reported. a. (Code: ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4a. (Expenses $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4a. including grants of $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4a. (Revenue $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line4aEntry[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4a. Description.",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. (Code: ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. (Expenses $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. including grants of $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. (Revenue $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line4bEntry[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. Description.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. (Code: ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. (Expenses $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. including grants of $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. (Revenue $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line4cEntry[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. Description.",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4d. Other program services (Describe on Schedule O.). (Expenses $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4d. including grants of $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4d. (Revenue $ ).",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4e. Total program service expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Question1_ReadOrder[0].c3_1[0]",
@@ -829,7 +944,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Question1_ReadOrder[0].c3_1[1]",
@@ -839,7 +955,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
@@ -849,7 +966,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
@@ -859,7 +977,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
@@ -869,7 +988,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
@@ -879,7 +999,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
@@ -889,7 +1010,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
@@ -899,7 +1021,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
@@ -909,7 +1032,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[1]",
@@ -919,7 +1043,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[0]",
@@ -929,7 +1054,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[1]",
@@ -939,7 +1065,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[0]",
@@ -949,7 +1076,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[1]",
@@ -959,7 +1087,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_8[0]",
@@ -969,7 +1098,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_8[1]",
@@ -979,7 +1109,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[0]",
@@ -989,7 +1120,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[1]",
@@ -999,7 +1131,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[0]",
@@ -1009,7 +1142,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[1]",
@@ -1019,7 +1153,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[0]",
@@ -1029,7 +1164,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[1]",
@@ -1039,7 +1175,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[0]",
@@ -1049,7 +1186,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[1]",
@@ -1059,7 +1197,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[0]",
@@ -1069,7 +1208,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[1]",
@@ -1079,7 +1219,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[0]",
@@ -1089,7 +1230,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[1]",
@@ -1099,7 +1241,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[0]",
@@ -1109,7 +1252,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[1]",
@@ -1119,7 +1263,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[0]",
@@ -1129,7 +1274,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[1]",
@@ -1139,7 +1285,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_17[0]",
@@ -1149,7 +1296,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_17[1]",
@@ -1159,7 +1307,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_18[0]",
@@ -1169,7 +1318,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_18[1]",
@@ -1179,7 +1329,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_19[0]",
@@ -1189,7 +1340,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_19[1]",
@@ -1199,7 +1351,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_20[0]",
@@ -1209,7 +1362,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_20[1]",
@@ -1219,7 +1373,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_21[0]",
@@ -1229,7 +1384,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_21[1]",
@@ -1239,7 +1395,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_22[0]",
@@ -1249,7 +1406,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_22[1]",
@@ -1259,7 +1417,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_23[0]",
@@ -1269,7 +1428,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_23[1]",
@@ -1279,7 +1439,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_24[0]",
@@ -1289,7 +1450,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_24[1]",
@@ -1299,7 +1461,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_25[0]",
@@ -1309,7 +1472,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_25[1]",
@@ -1319,7 +1483,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_26[0]",
@@ -1329,7 +1494,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_26[1]",
@@ -1339,7 +1505,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c4_1[0]",
@@ -1349,7 +1516,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c4_1[1]",
@@ -1359,7 +1527,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c4_2[0]",
@@ -1369,7 +1538,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c4_2[1]",
@@ -1379,7 +1549,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c4_3[0]",
@@ -1389,7 +1560,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c4_3[1]",
@@ -1399,7 +1571,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Question1_ReadOrder[0].c4_4[0]",
@@ -1409,7 +1582,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Question1_ReadOrder[0].c4_4[1]",
@@ -1419,7 +1593,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[0]",
@@ -1429,7 +1604,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_5[1]",
@@ -1439,7 +1615,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[0]",
@@ -1449,7 +1626,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[1]",
@@ -1459,7 +1637,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[0]",
@@ -1469,7 +1648,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[1]",
@@ -1479,7 +1659,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[0]",
@@ -1489,7 +1670,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_8[1]",
@@ -1499,7 +1681,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_9[0]",
@@ -1509,7 +1692,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_9[1]",
@@ -1519,7 +1703,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_10[0]",
@@ -1529,7 +1714,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_10[1]",
@@ -1539,7 +1725,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_11[0]",
@@ -1549,7 +1736,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_11[1]",
@@ -1559,7 +1747,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_12[0]",
@@ -1569,7 +1758,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_12[1]",
@@ -1579,7 +1769,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_13[0]",
@@ -1589,7 +1780,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_13[1]",
@@ -1599,7 +1791,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_14[0]",
@@ -1609,7 +1802,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_14[1]",
@@ -1619,7 +1813,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_15[0]",
@@ -1629,7 +1824,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_15[1]",
@@ -1639,7 +1835,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_16[0]",
@@ -1649,7 +1846,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_16[1]",
@@ -1659,7 +1857,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_17[0]",
@@ -1669,7 +1868,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_17[1]",
@@ -1679,7 +1879,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_18[0]",
@@ -1689,7 +1890,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_18[1]",
@@ -1699,7 +1901,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_19[0]",
@@ -1709,7 +1912,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_19[1]",
@@ -1719,7 +1923,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_20[0]",
@@ -1729,7 +1934,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_20[1]",
@@ -1739,7 +1945,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_21[0]",
@@ -1749,7 +1956,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_21[1]",
@@ -1759,7 +1967,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_22[0]",
@@ -1769,7 +1978,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_22[1]",
@@ -1779,7 +1989,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_23[0]",
@@ -1789,7 +2000,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "35a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_23[1]",
@@ -1799,7 +2011,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "35a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_24[0]",
@@ -1809,7 +2022,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "35b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_24[1]",
@@ -1819,7 +2033,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "35b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_25[0]",
@@ -1829,7 +2044,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_25[1]",
@@ -1839,7 +2055,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_26[0]",
@@ -1849,7 +2066,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_26[1]",
@@ -1859,7 +2077,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_27[0]",
@@ -1869,7 +2088,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_27[1]",
@@ -1879,7 +2099,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_28[0]",
@@ -1895,13 +2116,15 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1a. Enter the number reported in box 3 of Form 1096. Enter 0 if not applicable.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Enter the number of Forms W-2G included on line 1a. Enter 0 if not applicable.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_29[0]",
@@ -1911,7 +2134,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_29[1]",
@@ -1921,13 +2145,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 5. Part V. Statements Regarding Other I R S Filings and Tax Compliance (continued). 2a. Enter t",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_3[0]",
@@ -1937,7 +2163,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_3[1]",
@@ -1947,7 +2174,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_4[0]",
@@ -1957,7 +2185,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_4[1]",
@@ -1967,7 +2196,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_5[0]",
@@ -1977,7 +2207,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_5[1]",
@@ -1987,7 +2218,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_6[0]",
@@ -1997,7 +2229,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_6[1]",
@@ -2007,13 +2240,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
       "fieldType": "full_name",
       "labelHint": "4b. If “Yes,” enter the name of the foreign country. See instructions for filing requirements for F ",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_7[0]",
@@ -2023,7 +2258,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_7[1]",
@@ -2033,7 +2269,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_8[0]",
@@ -2043,7 +2280,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_8[1]",
@@ -2053,7 +2291,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_9[0]",
@@ -2063,7 +2302,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_9[1]",
@@ -2073,7 +2313,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_10[0]",
@@ -2083,7 +2324,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_10[1]",
@@ -2093,7 +2335,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_11[0]",
@@ -2103,7 +2346,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_11[1]",
@@ -2113,7 +2357,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_12[0]",
@@ -2123,7 +2368,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_12[1]",
@@ -2133,7 +2379,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_13[0]",
@@ -2143,7 +2390,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_13[1]",
@@ -2153,7 +2401,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_14[0]",
@@ -2163,7 +2412,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_14[1]",
@@ -2173,13 +2423,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
       "fieldType": "tax_year",
       "labelHint": "7d. If “Yes,” indicate the number of Forms 8282 filed during the year.",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_15[0]",
@@ -2189,7 +2441,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_15[1]",
@@ -2199,7 +2452,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_16[0]",
@@ -2209,7 +2463,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_16[1]",
@@ -2219,7 +2474,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_17[0]",
@@ -2229,7 +2485,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_17[1]",
@@ -2239,7 +2496,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_18[0]",
@@ -2249,7 +2507,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_18[1]",
@@ -2259,7 +2518,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_19[0]",
@@ -2269,7 +2529,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_19[1]",
@@ -2279,7 +2540,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_20[0]",
@@ -2289,7 +2551,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_20[1]",
@@ -2299,7 +2562,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_21[0]",
@@ -2309,7 +2573,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_21[1]",
@@ -2319,31 +2584,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Section 501(c)(7) organizations. Enter: a. Initiation fees and capital contributions included on",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10b. Gross receipts, included on Form 990, Part V I I I, line 12, for public use of club facilities.",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Section 501(c)(12) organizations. Enter: a. Gross income from members or shareholders.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11b. Gross income from other sources. (Do not net amounts due or paid to other sources against amoun",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_22[0]",
@@ -2353,7 +2623,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_22[1]",
@@ -2363,13 +2634,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_8[0]",
       "fieldType": "tax_year",
       "labelHint": "12b. If “Yes,” enter the amount of tax-exempt interest received or accrued during the year.",
-      "required": false
+      "required": false,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_23[0]",
@@ -2379,7 +2652,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_23[1]",
@@ -2389,19 +2663,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13b. Enter the amount of reserves the organization is required to maintain by the states in which the organization is licensed to issue qualified health plans.",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13c. Enter the amount of reserves on hand.",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_24[0]",
@@ -2411,7 +2688,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_24[1]",
@@ -2421,7 +2699,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_25[0]",
@@ -2431,7 +2710,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_25[1]",
@@ -2441,7 +2721,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_26[0]",
@@ -2451,7 +2732,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_26[1]",
@@ -2461,7 +2743,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_27[0]",
@@ -2471,7 +2754,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_27[1]",
@@ -2481,7 +2765,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_28[0]",
@@ -2491,7 +2776,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_28[1]",
@@ -2501,7 +2787,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[0]",
@@ -2517,13 +2804,15 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Section A. Governing Body and Management. 1a. Enter the number of voting members of the governing bo",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Enter the number of voting members included on line 1a, above, who are independent.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
@@ -2533,7 +2822,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[1]",
@@ -2543,7 +2833,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[0]",
@@ -2553,7 +2844,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_3[1]",
@@ -2563,7 +2855,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_4[0]",
@@ -2573,7 +2866,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_4[1]",
@@ -2583,7 +2877,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[0]",
@@ -2593,7 +2888,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[1]",
@@ -2603,7 +2899,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_6[0]",
@@ -2613,7 +2910,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_6[1]",
@@ -2623,7 +2921,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[0]",
@@ -2633,7 +2932,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[1]",
@@ -2643,7 +2943,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_8[0]",
@@ -2653,7 +2954,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_8[1]",
@@ -2663,7 +2965,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_9[0]",
@@ -2673,7 +2976,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_9[1]",
@@ -2683,7 +2987,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_10[0]",
@@ -2693,7 +2998,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_10[1]",
@@ -2703,7 +3009,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_11[0]",
@@ -2713,7 +3020,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_11[1]",
@@ -2723,7 +3031,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_12[0]",
@@ -2733,7 +3042,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_12[1]",
@@ -2743,7 +3053,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_13[0]",
@@ -2753,7 +3064,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_13[1]",
@@ -2763,7 +3075,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_14[0]",
@@ -2773,7 +3086,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_14[1]",
@@ -2783,7 +3097,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_15[0]",
@@ -2793,7 +3108,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_15[1]",
@@ -2803,7 +3119,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_16[0]",
@@ -2813,7 +3130,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_16[1]",
@@ -2823,7 +3141,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_17[0]",
@@ -2833,7 +3152,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_17[1]",
@@ -2843,7 +3163,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_18[0]",
@@ -2853,7 +3174,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_18[1]",
@@ -2863,7 +3185,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_19[0]",
@@ -2873,7 +3196,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_19[1]",
@@ -2883,7 +3207,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_20[0]",
@@ -2893,7 +3218,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_20[1]",
@@ -2903,7 +3229,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_21[0]",
@@ -2913,7 +3240,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_21[1]",
@@ -2923,7 +3251,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_22[0]",
@@ -2933,7 +3262,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_22[1]",
@@ -2943,7 +3273,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_23[0]",
@@ -2953,7 +3284,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_23[1]",
@@ -2963,13 +3295,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section C. Disclosure. 17. List the states with which a copy of this Form 990 is required to be filed.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_24[0]",
@@ -2979,7 +3313,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_25[0]",
@@ -2989,7 +3324,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_26[0]",
@@ -2999,7 +3335,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_27[0]",
@@ -3009,13 +3346,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_4[0]",
       "fieldType": "full_name",
       "labelHint": "20. State the name, address, and telephone number of the person who possesses the organization's boo",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].c7_1[0]",
@@ -5610,67 +5949,89 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: (25). Column: (F) Estimated amount of other compensation from the organization and related orga",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Subtotal. (D) Reportable compensation from the organization (W-2/1099-M I S C/1099-N E C).",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. (E) Reportable compensation from related organizations (W-2/1099-M I S C/1099-N E C).",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. (F) Estimated amount of other compensation from the organization and related organizations.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Total from continuation sheets to Part V I I, Section A. (D) Reportable compensation from the or",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. (E) Reportable compensation from related organizations (W-2/1099-M I S C/1099-N E C).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_83[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. (F) Estimated amount of other compensation from the organization and related organizations.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. Total (add lines 1b and 1c). (D) Reportable compensation from the organization (W-2/1099-M I S C",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1b",
+            "1c"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "1d. Total (add lines 1b and 1c). (D) Reportable compensation from the organization (W-2/1099-M I S C"
+      },
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_85[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. (E) Reportable compensation from related organizations (W-2/1099-M I S C/1099-N E C).",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. (F) Estimated amount of other compensation from the organization and related organizations.",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Total number of individuals (including but not limited to those listed above) who received more t",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].c8_67[0]",
@@ -5680,7 +6041,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].c8_67[1]",
@@ -5690,7 +6052,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].c8_68[0]",
@@ -5700,7 +6063,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].c8_68[1]",
@@ -5710,7 +6074,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].c8_69[0]",
@@ -5720,7 +6085,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].c8_69[1]",
@@ -5730,103 +6096,120 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].One[0].f8_88[0]",
       "fieldType": "full_name",
       "labelHint": "Section B. Independent Contractors. 1. Complete this table for your five highest compensated indepen",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].One[0].f8_89[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (B) Description of services.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].One[0].f8_90[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (C) Compensation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Two[0].f8_91[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (A) Name and business address.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Two[0].f8_92[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (B) Description of services.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Two[0].f8_93[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (C) Compensation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Three[0].f8_94[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (A) Name and business address.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Three[0].f8_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (B) Description of services.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Three[0].f8_96[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (C) Compensation.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Four[0].f8_97[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (A) Name and business address.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Four[0].f8_98[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (B) Description of services.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Four[0].f8_99[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (C) Compensation.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Five[0].f8_100[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 5. Column: (A) Name and business address.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Five[0].f8_101[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (B) Description of services.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_PartVIISectionB[0].Five[0].f8_102[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (C) Compensation.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_103[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Total number of independent contractors (including but not limited to those listed above) who rec",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].c9_1[0]",
@@ -5842,7 +6225,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Contributions[0].f9_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Contributions, Gifts, Grants, and Other Similar Amounts. 1a. Federated campaigns.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Contributions[0].f9_2[0]",
@@ -5866,25 +6250,29 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Contributions[0].f9_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1e. Government grants (contributions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Contributions[0].f9_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1f. All other contributions, gifts, grants, and similar amounts not included above.",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Contributions[0].f9_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1g. Noncash contributions included in lines 1a–1f: $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Contributions[0].f9_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1h. Total. Add lines 1a–1f. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2a[0].f9_9[0]",
@@ -5896,517 +6284,603 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2a[0].f9_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2a. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2a[0].f9_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2a. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2a[0].f9_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2a. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2a[0].f9_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2a. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2a[0].f9_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2a. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2b[0].f9_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2b. List program service revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2b[0].f9_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2b. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2b[0].f9_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2b. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2b[0].f9_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2b. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2b[0].f9_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2b. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2b[0].f9_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2b. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2c[0].f9_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2c. List program service revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2c[0].f9_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2c. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2c[0].f9_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2c. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2c[0].f9_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2c. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2c[0].f9_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2c. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2c[0].f9_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2c. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2d[0].f9_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2d. List program service revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2d[0].f9_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2d. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2d[0].f9_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2d. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2d[0].f9_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2d. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2d[0].f9_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2d. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2d[0].f9_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2d. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2e[0].f9_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2e. List program service revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2e[0].f9_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2e. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2e[0].f9_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2e. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2e[0].f9_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2e. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2e[0].f9_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2e. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2e[0].f9_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2e. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2f[0].f9_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2f. All other program service revenue. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2f[0].f9_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2f. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2f[0].f9_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2f. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2f[0].f9_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2f. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Table_ProgramService[0].Line2f[0].f9_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2f. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].ProgramService[0].Line2g[0].f9_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2g. Total. Add lines 2a–2f. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "2g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Other Revenue. 3. Investment income (including dividends, interest, and other similar amounts). (A) ",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Income from investment of tax-exempt bond proceeds. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Royalties. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6a. Gross rents. (i) Real.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6a. (i i) Personal.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6b. Less: rental expenses. (i) Real.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6b. (i i) Personal.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6c. Rental income or (loss). (i) Real.",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6c. (i i) Personal.",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Net rental income or (loss). (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7a. Gross amount from sales of assets other than inventory. (i) Securities.",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7a. (i i) Other.",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7b. Less: cost or other basis and sales expenses. (i) Securities.",
-      "required": false
+      "required": false,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7b. (i i) Other.",
-      "required": false
+      "required": false,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7c. Gain or (loss). (i) Securities.",
-      "required": false
+      "required": false,
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7c. (i i) Other.",
-      "required": false
+      "required": false,
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7d. Net gain or (loss). (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7d. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7d. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7d. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].GrossIncome[0].f9_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8a. Gross income from fundraising events (not including $ (enter amount) of contributions reported o",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8a. Gross income from fundraising events.",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8b. Less: direct expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. Net income or (loss) from fundraising events. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].R24[0]",
       "fieldType": "generic_text",
       "labelHint": "8c. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_83[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9a. Gross income from gaming activities. See Part I V, line 19.",
-      "required": false
+      "required": false,
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9b. Less: direct expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_85[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9c. Net income or (loss) from gaming activities. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9c. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9c. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_88[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9c. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_89[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10a. Gross sales of inventory, less returns and allowances.",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_90[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10b. Less: cost of goods sold.",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_91[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10c. Net income or (loss) from sales of inventory. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_92[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10c. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_93[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10c. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].OtherRevenue[0].f9_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10c. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11a[0].f9_95[0]",
@@ -6418,163 +6892,190 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11a[0].f9_96[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11a. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11a[0].f9_97[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11a. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11a[0].f9_98[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11a. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11a[0].f9_99[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11a. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11a[0].f9_100[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11a. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11b[0].f9_101[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11b. List miscellaneous revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11b[0].f9_102[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11b. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11b[0].f9_103[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11b. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11b[0].f9_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11b. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11b[0].f9_105[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11b. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11b[0].f9_106[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11b. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11c[0].f9_107[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11c. List miscellaneous revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11c[0].f9_108[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11c. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11c[0].f9_109[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11c. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11c[0].f9_110[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11c. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11c[0].f9_111[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11c. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11c[0].f9_112[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11c. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11d[0].f9_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11d. All other revenue. Column: Business Code.",
-      "required": false
+      "required": false,
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11d[0].f9_114[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11d. Column: (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11d[0].f9_115[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11d. Column: (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11d[0].f9_116[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11d. Column: (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Table_MiscRevenue[0].Line11d[0].f9_117[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11d. Column: (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].MiscellanesousRevenue[0].Line11e[0].f9_118[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11e. Total. Add lines 11a–11d. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "11e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line12[0].f9_119[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Total revenue. See instructions. (A) Total revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line12[0].f9_120[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. (B) Related or exempt function revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line12[0].f9_121[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. (C) Unrelated business revenue.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line12[0].f9_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. (D) Revenue excluded from tax under sections 512–514.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].c10_1[0]",
@@ -6598,286 +7099,328 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Grants and other assistance to domestic organizations and domestic governments. See Part I V",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line1[0].R1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Grants and other assistance to domestic organizations and domestic governments. See Part I V",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line1[0].R2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Grants and other assistance to domestic organizations and domestic governments. See Part I V",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line2[0].f10_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Grants and other assistance to domestic individuals. See Part I V, line 22. Column: (A) Tota",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line2[0].f10_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Grants and other assistance to domestic individuals. See Part I V, line 22. Column: (B) Prog",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line2[0].R3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Grants and other assistance to domestic individuals. See Part I V, line 22. Column: (C) Mana",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line2[0].R4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Grants and other assistance to domestic individuals. See Part I V, line 22. Column: (D) Fund",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line3[0].f10_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Grants and other assistance to foreign organizations, foreign governments, and foreign individuals. See Part I V, lines 15 and 16. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line3[0].f10_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Grants and other assistance to foreign organizations, foreign governments, and foreign individuals. See Part I V, lines 15 and 16. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line3[0].R5[0]",
       "fieldType": "generic_text",
       "labelHint": "Row: 3. Grants and other assistance to foreign organizations, foreign governments, and foreign individuals. See Part I V, lines 15 and 16. Column: (C) Management and general expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line3[0].R6[0]",
       "fieldType": "generic_text",
       "labelHint": "Row: 3. Grants and other assistance to foreign organizations, foreign governments, and foreign individuals. See Part I V, lines 15 and 16. Column: (D) Fundraising expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line4[0].f10_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Benefits paid to or for members. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line4[0].f10_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Benefits paid to or for members. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line4[0].R7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Benefits paid to or for members. Column: (C) Management and general expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line4[0].R8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): e. Professional fundraising services. See Part I V, line ",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line5[0].f10_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Compensation of current officers, directors, trustees, and key employees. Column: (A) Total ",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line5[0].f10_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Compensation of current officers, directors, trustees, and key employees. Column: (B) Progra",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line5[0].f10_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Compensation of current officers, directors, trustees, and key employees. Column: (C) Manage",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line5[0].f10_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Compensation of current officers, directors, trustees, and key employees. Column: (D) Fundra",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line6[0].f10_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Compensation not included above to disqualified persons (as defined under section 4958(f)(1)",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line6[0].f10_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Compensation not included above to disqualified persons (as defined under section 4958(f)(1)",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line6[0].f10_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Compensation not included above to disqualified persons (as defined under section 4958(f)(1)",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line6[0].f10_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Compensation not included above to disqualified persons (as defined under section 4958(f)(1)",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line7[0].f10_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Other salaries and wages. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line7[0].f10_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Other salaries and wages. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line7[0].f10_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Other salaries and wages. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line7[0].f10_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Other salaries and wages. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line8[0].f10_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Pension plan accruals and contributions (include section 401(k) and 403(b) employer contribu",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line8[0].f10_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Pension plan accruals and contributions (include section 401(k) and 403(b) employer contribu",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line8[0].f10_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Pension plan accruals and contributions (include section 401(k) and 403(b) employer contribu",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line8[0].f10_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Pension plan accruals and contributions (include section 401(k) and 403(b) employer contribu",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line9[0].f10_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Other employee benefits. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line9[0].f10_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Other employee benefits. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line9[0].f10_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Other employee benefits. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line9[0].f10_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Other employee benefits. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line10[0].f10_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Payroll taxes. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line10[0].f10_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Payroll taxes. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line10[0].f10_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Payroll taxes. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line10[0].f10_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Payroll taxes. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11a[0].f10_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): a. Management. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11a[0].f10_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): a. Management. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11a[0].f10_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): a. Management. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11a[0].f10_36[0]",
@@ -6891,700 +7434,837 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): b. Legal. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11b[0].f10_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): b. Legal. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11b[0].f10_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): b. Legal. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11b[0].f10_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): b. Legal. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11c[0].f10_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): c. Accounting. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11c[0].f10_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): c. Accounting. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11c[0].f10_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): c. Accounting. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11c[0].f10_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): c. Accounting. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11d[0].f10_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): d. Lobbying. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11d[0].f10_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): d. Lobbying. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11d[0].f10_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): d. Lobbying. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11d[0].f10_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): d. Lobbying. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11e[0].f10_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): e. Professional fundraising services. See Part I V, line ",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11e[0].R8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): e. Professional fundraising services. See Part I V, line ",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11e[0].R9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): e. Professional fundraising services. See Part I V, line ",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11e[0].f10_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): e. Professional fundraising services. See Part I V, line ",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11f[0].f10_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): f. Investment management fees. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11f[0].f10_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): f. Investment management fees. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11f[0].f10_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): f. Investment management fees. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11f[0].f10_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): f. Investment management fees. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11g[0].f10_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): g. Other. (If line 11g amount exceeds 10% of line 25, col",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11g[0].f10_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): g. Other. (If line 11g amount exceeds 10% of line 25, col",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11g[0].f10_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): g. Other. (If line 11g amount exceeds 10% of line 25, col",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line11g[0].f10_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Fees for services (nonemployees): g. Other. (If line 11g amount exceeds 10% of line 25, col",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line12[0].f10_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Advertising and promotion. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line12[0].f10_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Advertising and promotion. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line12[0].f10_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Advertising and promotion. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line12[0].f10_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Advertising and promotion. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line13[0].f10_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Office expenses. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line13[0].f10_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Office expenses. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line13[0].f10_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Office expenses. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line13[0].f10_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Office expenses. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line14[0].f10_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Information technology. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line14[0].f10_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Information technology. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line14[0].f10_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Information technology. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line14[0].f10_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Information technology. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line15[0].f10_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Royalties. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line15[0].f10_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Royalties. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line15[0].f10_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Royalties. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line15[0].f10_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Royalties. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line16[0].f10_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Occupancy. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line16[0].f10_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Occupancy. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line16[0].f10_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Occupancy. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line16[0].f10_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Occupancy. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line17[0].f10_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Travel. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line17[0].f10_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Travel. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line17[0].f10_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Travel. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line17[0].f10_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Travel. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line18[0].f10_83[0]",
       "fieldType": "state",
       "labelHint": "Row: 18. Payments of travel or entertainment expenses for any federal, state, or local public offici",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line18[0].f10_84[0]",
       "fieldType": "state",
       "labelHint": "Row: 18. Payments of travel or entertainment expenses for any federal, state, or local public offici",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line18[0].f10_85[0]",
       "fieldType": "state",
       "labelHint": "Row: 18. Payments of travel or entertainment expenses for any federal, state, or local public offici",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line18[0].f10_86[0]",
       "fieldType": "state",
       "labelHint": "Row: 18. Payments of travel or entertainment expenses for any federal, state, or local public offici",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line19[0].f10_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Conferences, conventions, and meetings. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line19[0].f10_88[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Conferences, conventions, and meetings. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line19[0].f10_89[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Conferences, conventions, and meetings. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line19[0].f10_90[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Conferences, conventions, and meetings. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line20[0].f10_91[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Interest. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line20[0].f10_92[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Interest. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line20[0].f10_93[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Interest. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line20[0].f10_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Interest. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line21[0].f10_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Payments to affiliates. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line21[0].f10_96[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Payments to affiliates. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line21[0].f10_97[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Payments to affiliates. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line21[0].f10_98[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Payments to affiliates. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line22[0].f10_99[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation, depletion, and amortization. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line22[0].f10_100[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation, depletion, and amortization. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line22[0].f10_101[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation, depletion, and amortization. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line22[0].f10_102[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation, depletion, and amortization. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line23[0].f10_103[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Insurance. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line23[0].f10_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Insurance. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line23[0].f10_105[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Insurance. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line23[0].f10_106[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Insurance. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24a[0].f10_107[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Other expenses. Itemize expenses not covered above. (List miscellaneous expenses on line 24",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24a[0].f10_108[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24a. Expense. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24a[0].f10_109[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24a. Expense. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24a[0].f10_110[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24a. Expense. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24a[0].f10_111[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24a. Expense. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24b[0].f10_112[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24b. Other expenses. Itemize expenses not covered above",
-      "required": false
+      "required": false,
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24b[0].f10_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24b. Expense. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24b[0].f10_114[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24b. Expense. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24b[0].f10_115[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24b. Expense. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24b[0].f10_116[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24b. Expense. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24c[0].f10_117[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24c. Other expenses. Itemize expenses not covered above.",
-      "required": false
+      "required": false,
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24c[0].f10_118[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24c. Expense. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24c[0].f10_119[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24c. Expense. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24c[0].f10_120[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24c. Expense. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24c[0].f10_121[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24c. Expense. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24d[0].f10_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24d. Other expenses. Itemize expenses not covered above.",
-      "required": false
+      "required": false,
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24d[0].f10_123[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24d. Expense. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24d[0].f10_124[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24d. Expense. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24d[0].f10_125[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24d. Expense. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24d[0].f10_126[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24d. Expense. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24e[0].AllOtherExpenses[0].f10_127[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24e. Other expenses. Itemize expenses not covered above (List miscellaneous expenses in line 24e. If",
-      "required": false
+      "required": false,
+      "lineNumber": "24e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24e[0].f10_128[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24e. All other expenses. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24e[0].f10_129[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24e. All other expenses. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24e[0].f10_130[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24e. All other expenses. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line24e[0].f10_131[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24e. All other expenses. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line25[0].f10_132[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "24e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (A) Total expenses."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line25[0].f10_133[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "24e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (B) Program service expenses."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line25[0].f10_134[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (C) Management and general expe",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "24e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (C) Management and general expe"
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line25[0].f10_135[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "24e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Total functional expenses. Add lines 1 through 24e. Column: (D) Fundraising expenses."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line26[0].JointCosts[0].c10_2[0]",
@@ -7594,35 +8274,40 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line26[0].f10_136[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Joint costs. Complete this line only if the organization reported in column (B) joint costs from a combined educational campaign and fundraising solicitation. Column: (A) Total expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line26[0].f10_137[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Joint costs. Complete this line only if the organization reported in column (B) joint costs from a combined educational campaign and fundraising solicitation. Column: (B) Program service expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line26[0].f10_138[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Joint costs. Complete this line only if the organization reported in column (B) joint costs from a combined educational campaign and fundraising solicitation. Column: (C) Management and general expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Pg10Table[0].Line26[0].f10_139[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Joint costs. Complete this line only if the organization reported in column (B) joint costs from a combined educational campaign and fundraising solicitation. Column: (D) Fundraising expenses.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].c11_1[0]",
@@ -7646,231 +8331,282 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Cash—non-interest-bearing. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line2[0].f11_3[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Savings and temporary cash investments. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line2[0].f11_4[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Savings and temporary cash investments. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line3[0].f11_5[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Pledges and grants receivable, net. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line3[0].f11_6[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Pledges and grants receivable, net. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line4[0].f11_7[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Accounts receivable, net. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line4[0].f11_8[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Accounts receivable, net. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line5[0].a[0].f11_9[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 5. Loans and other receivables from any current or former officer, director, trustee, key emplo",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line5[0].b[0].f11_10[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 5. Loans and other receivables from any current or former officer, director, trustee, key emplo",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line6[0].a[0].f11_11[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 6. Loans and other receivables from other disqualified persons (as defined under section 4958(f",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line6[0].b[0].f11_12[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 6. Loans and other receivables from other disqualified persons (as defined under section 4958(f",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line7[0].f11_13[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 7. Notes and loans receivable, net. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line7[0].f11_14[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 7. Notes and loans receivable, net. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line8[0].f11_15[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Inventories for sale or use. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line8[0].f11_16[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Inventories for sale or use. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line9[0].f11_17[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Prepaid expenses and deferred charges. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line9[0].f11_18[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Prepaid expenses and deferred charges. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line10a[0].Line10Text[0].f11_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10a. Land, buildings, and equipment: cost or other basis. Complete Part V I of Schedule D.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line10b[0].Line10bText[0].f11_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10b. Less: accumulated depreciation.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line10b[0].f11_21[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10c. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line10b[0].f11_22[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10c. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line11[0].f11_23[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11. Investments—publicly traded securities. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line11[0].f11_24[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11. Investments—publicly traded securities. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line12[0].f11_25[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Investments—other securities. See Part I V, line 11. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line12[0].f11_26[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Investments—other securities. See Part I V, line 11. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line13[0].f11_27[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13. Investments—program-related. See Part I V, line 11. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line13[0].f11_28[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13. Investments—program-related. See Part I V, line 11. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line14[0].f11_29[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Intangible assets. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line14[0].f11_30[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Intangible assets. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line15[0].f11_31[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Other assets. See Part I V, line 11. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line15[0].f11_32[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Other assets. See Part I V, line 11. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line16[0].f11_33[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Total assets. Add lines 1 through 15 (must equal line 33). Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 16. Total assets. Add lines 1 through 15 (must equal line 33). Column: (A) Beginning of year."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line16[0].f11_34[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Total assets. Add lines 1 through 15 (must equal line 33). Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 16. Total assets. Add lines 1 through 15 (must equal line 33). Column: (B) End of year."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line17[0].f11_35[0]",
@@ -7884,133 +8620,170 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 17. Accounts payable and accrued expenses. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line18[0].f11_37[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Grants payable. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line18[0].f11_38[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Grants payable. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line19[0].f11_39[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Deferred revenue. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line19[0].f11_40[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Deferred revenue. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line20[0].f11_41[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Tax-exempt bond liabilities. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line20[0].f11_42[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Tax-exempt bond liabilities. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line21[0].f11_43[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Escrow or custodial account liability. Complete Part I V of Schedule D. Column: (A) Beginni",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line21[0].f11_44[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Escrow or custodial account liability. Complete Part I V of Schedule D. Column: (B) End of ",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line22[0].a[0].f11_45[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Loans and other payables to any current or former officer, director, trustee, key employee,",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line22[0].b[0].f11_46[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Loans and other payables to any current or former officer, director, trustee, key employee,",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line23[0].f11_47[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 23. Secured mortgages and notes payable to unrelated third parties. Column: (A) Beginning of ye",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line23[0].f11_48[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 23. Secured mortgages and notes payable to unrelated third parties. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line24[0].f11_49[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 24. Unsecured notes and loans payable to unrelated third parties. Column: (A) Beginning of year",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line24[0].f11_50[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 24. Unsecured notes and loans payable to unrelated third parties. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line25[0].f11_51[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 25. Other liabilities (including federal income tax, payables to related third parties, and oth",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line25[0].f11_52[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 25. Other liabilities (including federal income tax, payables to related third parties, and oth",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line26[0].f11_53[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 26. Total liabilities. Add lines 17 through 25. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "17",
+          "end": "25"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Total liabilities. Add lines 17 through 25. Column: (A) Beginning of year."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line26[0].f11_54[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 26. Total liabilities. Add lines 17 through 25. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "17",
+          "end": "25"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Total liabilities. Add lines 17 through 25. Column: (B) End of year."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].NetAssetsOrFundBalances[0].OrganizationsFollow[0].p11_2[0]",
@@ -8027,28 +8800,32 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 27. Net assets without donor restrictions. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line27[0].f11_56[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 27. Net assets without donor restrictions. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line28[0].f11_57[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 28. Net assets with donor restrictions. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line28[0].f11_58[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 28. Net assets with donor restrictions. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].OrganizationsNotFollow[0].OrganizationsNotFollow[0].p11_3[0]",
@@ -8065,70 +8842,80 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 29. Capital stock or trust principal, or current funds. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line29[0].f11_60[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 29. Capital stock or trust principal, or current funds. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line30[0].f11_61[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 30. Paid-in or capital surplus, or land, building, or equipment fund. Column: (A) Beginning of ",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line30[0].f11_62[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 30. Paid-in or capital surplus, or land, building, or equipment fund. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line31[0].f11_63[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 31. Retained earnings, endowment, accumulated income, or other funds. Column: (A) Beginning of ",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line31[0].f11_64[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 31. Retained earnings, endowment, accumulated income, or other funds. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line32[0].f11_65[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 32. Total net assets or fund balances. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line32[0].f11_66[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 32. Total net assets or fund balances. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line33[0].f11_67[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 33. Total liabilities and net assets/fund balances. Column: (A) Beginning of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Table_Part10[0].Line33[0].f11_68[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 33. Total liabilities and net assets/fund balances. Column: (B) End of year.",
       "required": false,
-      "maxLength": 16
+      "maxLength": 16,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].c12_1[0]",
@@ -8144,61 +8931,80 @@
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Total revenue (must equal Part V I I I, column (A), line 12).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Total expenses (must equal Part I X, column (A), line 25).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Revenue less expenses. Subtract line 2 from line 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1",
+          "subtrahend": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Revenue less expenses. Subtract line 2 from line 1."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_4[0]",
       "fieldType": "tax_year",
       "labelHint": "4. Net assets or fund balances at beginning of year (must equal Part X, line 32, column (A)).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Net unrealized gains (losses) on investments.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Donated services and use of facilities.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Investment expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Prior period adjustments.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Other changes in net assets or fund balances (explain on Schedule O).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_10[0]",
       "fieldType": "tax_year",
       "labelHint": "10. Net assets or fund balances at end of year. Combine lines 3 through 9 (must equal Part X, line 3",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].c12_2[0]",
@@ -8218,7 +9024,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_3[1]",
@@ -8228,7 +9035,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_3[2]",
@@ -8238,13 +9046,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_11[0]",
       "fieldType": "tax_year",
       "labelHint": "1. Other (specify). If the organization changed its method of accounting from a prior year or checke",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_4[0]",
@@ -8254,7 +9064,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_4[1]",
@@ -8264,7 +9075,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_5[0]",
@@ -8274,7 +9086,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_5[1]",
@@ -8284,7 +9097,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_5[2]",
@@ -8294,7 +9108,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_6[0]",
@@ -8304,7 +9119,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_6[1]",
@@ -8314,7 +9130,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_7[0]",
@@ -8324,7 +9141,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_7[1]",
@@ -8334,7 +9152,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_7[2]",
@@ -8344,7 +9163,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_8[0]",
@@ -8354,7 +9174,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_8[1]",
@@ -8364,7 +9185,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_9[0]",
@@ -8374,7 +9196,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_9[1]",
@@ -8384,7 +9207,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_10[0]",
@@ -8394,7 +9218,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].p12_10[1]",
@@ -8404,7 +9229,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3b"
     }
   ]
 }

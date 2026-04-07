@@ -3,7 +3,7 @@
   "displayName": "Form W-7",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw7.pdf",
-  "generatedAt": "2026-04-06T21:46:30.348Z",
+  "generatedAt": "2026-04-07T00:27:55.174Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -145,37 +145,43 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
       "fieldType": "first_name",
       "labelHint": "Name (see instructions). 1a. First name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
       "fieldType": "full_name",
       "labelHint": "1a. Middle Name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
       "fieldType": "last_name",
       "labelHint": "1a. Last name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "first_name",
       "labelHint": "Name at birth if different. 1b. First name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "full_name",
       "labelHint": "1b. Middle name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "last_name",
       "labelHint": "1b. Last name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
@@ -187,7 +193,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "city",
       "labelHint": "2. City or town, state or province, and country. Include Z I P code or postal code where appropriate",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
@@ -199,26 +206,30 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "city",
       "labelHint": "3. City or town, state or province, and country. Include postal code where appropriate.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line4_ReadOrder[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Nacimiento. 4. Fecha de nacimiento (mes / día / año).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Country of birth.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "city",
       "labelHint": "4. City and state or province (optional).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
@@ -228,7 +239,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[1]",
@@ -238,25 +250,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Other Information. 6a. Country(ies) of citizenship.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6b. Foreign tax I.D. number (if any).",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "date",
       "labelHint": "6c. Type of U.S. visa (if any), number, and expiration date.",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[0]",
@@ -266,7 +282,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[1]",
@@ -276,7 +293,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[2]",
@@ -286,7 +304,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[3]",
@@ -296,39 +315,45 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Other (specify).",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Issued_ReadOrder[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Issued by:",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Issued_ReadOrder[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Number:",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Issued_ReadOrder[0].f1_26[0]",
       "fieldType": "date",
       "labelHint": "6d. Exp. date:",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "date",
       "labelHint": "6d. Fecha de llegada a los Estados Unidos (M M/D D/A A A A):",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_12[0]",
@@ -338,7 +363,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_12[1]",
@@ -348,7 +374,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].ITIN[0].f1_28[0]",
@@ -376,57 +403,66 @@
       "fieldType": "dollar_amount",
       "labelHint": "6f. I R S N. First 3 digits.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].IRSN[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6f. I R S N. Middle 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].IRSN[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6f. I R S N. Last 4 digits.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "first_name",
       "labelHint": "6f. Enter Name under which it was issued. First name.",
-      "required": false
+      "required": false,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "full_name",
       "labelHint": "6f. Middle name.",
-      "required": false
+      "required": false,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "last_name",
       "labelHint": "6f. Last name.",
-      "required": false
+      "required": false,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "full_name",
       "labelHint": "6g. Name of college/university or company (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "6g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "city",
       "labelHint": "6g. City and state.",
-      "required": false
+      "required": false,
+      "lineNumber": "6g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6g. Length of stay.",
-      "required": false
+      "required": false,
+      "lineNumber": "6g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",

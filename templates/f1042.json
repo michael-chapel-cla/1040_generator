@@ -3,7 +3,7 @@
   "displayName": "Form 1042",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1042.pdf",
-  "generatedAt": "2026-04-06T21:46:33.380Z",
+  "generatedAt": "2026-04-07T00:27:58.192Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -102,397 +102,463 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Jan2[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Jan. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Jan3[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Jan. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Jan4[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Jan. 31. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].JanTotal[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Jan. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Feb1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Feb. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Feb2[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Feb. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Feb3[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Feb. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Feb4[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Feb. 28. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].FebTotal[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Feb. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Mar1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Mar. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Mar2[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Mar. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Mar3[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Mar. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Mar4[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Mar. 31. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].MarTotal[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Mar. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Apr1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Apr. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Apr2[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Apr. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Apr3[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Apr. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Apr4[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Apr. 30. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].AprTotal[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Apr. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].May1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. May 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].May2[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. May 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].May3[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. May 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].May4[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. May 31. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].MayTotal[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. May total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jun1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. June 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jun2[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. June 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jun3[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. June 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jun4[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. June 30. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].JunTotal[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. June total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jul1[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 31. July 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jul2[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. July 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jul3[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. July 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Jul4[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. July 31. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].JulTotal[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. July total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Aug1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Aug. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Aug2[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 37. Aug. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Aug3[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 38. Aug. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].Aug4[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 39. Aug. 31. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_MayJuneJulyAug[0].AugTotal[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 40. Aug. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Sept1[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 41. Sept. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Sept2[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 42. Sept. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Sept3[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 43. Sept. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Sept4[0].f1_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 44. Sept. 30. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].SeptTotal[0].f1_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 45. Sept. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Oct1[0].f1_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 46. Oct. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Oct2[0].f1_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 47. Oct. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Oct3[0].f1_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 48. Oct. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Oct4[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 49. Oct. 31. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "49"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].OctTotal[0].f1_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 50. Oct. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "50"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Nov1[0].f1_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 51. Nov. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "51"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Nov2[0].f1_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 52. Nov. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "52"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Nov3[0].f1_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 53. Nov. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "53"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Nov4[0].f1_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 54. Nov. 30. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "54"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].NovTotal[0].f1_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 55. Nov. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "55"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Dec1[0].f1_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 56. Dec. 7. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "56"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Dec2[0].f1_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 57. Dec. 15. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "57"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Dec3[0].f1_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 58. Dec. 22. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "58"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].Dec4[0].f1_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 59. Dec. 31. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "59"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SepOctNovDec[0].DecTotal[0].f1_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 60. Dec. total. Column: Tax liability for period (including any taxes assumed on Form(s) 1000).",
-      "required": false
+      "required": false,
+      "lineNumber": "60"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Note: The totals from the above table are to be entered on lines 64b through 64d (as indicated in the instructions for those lines). 61. No. of Forms 1042-S filed: a. On paper.",
-      "required": false
+      "required": false,
+      "lineNumber": "61a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "61b. Electronically.",
-      "required": false
+      "required": false,
+      "lineNumber": "61b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "62. Total gross amounts reported on all Forms 1042-S and 1000: a. Total U.S. source F D A P income (",
-      "required": false
+      "required": false,
+      "lineNumber": "62a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "62b. Total U.S. source substitute payments reported: (1). Total U.S. source substitute dividend paym",
-      "required": false
+      "required": false,
+      "lineNumber": "62b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "62b. (2). Total U.S. source substitute payments reported other than substitute dividend payments.",
-      "required": false
+      "required": false,
+      "lineNumber": "62b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "62c. Total gross amounts reported (add lines 62a–b).",
-      "required": false
+      "required": false,
+      "lineNumber": "62c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "62d. Enter gross amounts actually paid if different from gross amounts reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "62d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -597,127 +663,157 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. 63. Total tax reported as withheld or paid by withholding agent on all Forms 1042-S and 1000",
-      "required": false
+      "required": false,
+      "lineNumber": "63a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "63b. Tax withheld by other withholding agents: (1). For payments other than substitute dividends.",
-      "required": false
+      "required": false,
+      "lineNumber": "63b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "63b. (2). For substitute dividends.",
-      "required": false
+      "required": false,
+      "lineNumber": "63b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "63c. Adjustments to withholding: Open parenthesis. (1). Adjustments to overwithholding. Close parent",
-      "required": false
+      "required": false,
+      "lineNumber": "63c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "63c. (2) Adjustments to underwithholding.",
-      "required": false
+      "required": false,
+      "lineNumber": "63c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "63d. Tax paid by withholding agent.",
-      "required": false
+      "required": false,
+      "lineNumber": "63d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "63e. Total tax reported as withheld or paid (add lines 63a–d).",
-      "required": false
+      "required": false,
+      "lineNumber": "63e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Computation of Tax Due or Overpayment. 64. Total net tax liability. a. Adjustments to total net tax ",
-      "required": false
+      "required": false,
+      "lineNumber": "64a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "64b. Total net tax liability under chapter 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "64b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "64c. Total net tax liability under chapter 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "64c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "64d. Excise tax on specified federal procurement payments (total payments made multiplied by 2% (0.0",
-      "required": false
+      "required": false,
+      "lineNumber": "64d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "64e. Total net tax liability (add lines 64a–d).",
-      "required": false
+      "required": false,
+      "lineNumber": "64e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "tax_year",
       "labelHint": "65. Total paid by electronic funds transfer (or with a request for extension of time to file): a. To",
-      "required": false
+      "required": false,
+      "lineNumber": "65a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "tax_year",
       "labelHint": "65b. Total paid during subsequent year.",
-      "required": false
+      "required": false,
+      "lineNumber": "65b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "66. Enter overpayment applied as credit from 2024 Form 1042.",
-      "required": false
+      "required": false,
+      "lineNumber": "66"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "67. Credit for amounts withheld by other withholding agents: a. For payments other than substitute d",
-      "required": false
+      "required": false,
+      "lineNumber": "67a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "67b. For substitute dividend payments.",
-      "required": false
+      "required": false,
+      "lineNumber": "67b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "68. Total payments. Add lines 65 through 67.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "65",
+          "end": "67"
+        },
+        "floorAtZero": false,
+        "rawLabel": "68. Total payments. Add lines 65 through 67."
+      },
+      "lineNumber": "68"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "69. If line 64e is larger than line 68, enter balance due here.",
-      "required": false
+      "required": false,
+      "lineNumber": "69"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "70a. Enter overpayment attributable to overwithholding on U.S. source income of foreign persons.",
-      "required": false
+      "required": false,
+      "lineNumber": "70a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "70b. Enter overpayment attributable to excise tax on specified federal procurement payments.",
-      "required": false
+      "required": false,
+      "lineNumber": "70b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -727,7 +823,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "71a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
@@ -737,14 +834,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "71a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].RoutingNo[0].f2_22[0]",
       "fieldType": "routing_number",
       "labelHint": "71b. Routing number.",
       "required": false,
-      "maxLength": 9
+      "maxLength": 9,
+      "lineNumber": "71b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -771,7 +870,8 @@
       "fieldType": "account_number",
       "labelHint": "71d. Account number.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "71d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
@@ -783,55 +883,84 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Total U.S. source F D A P income required to be reported under chapter 4 but not required to be w",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Amount of excluded nonfinancial payments.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2c. Amount of income paid with respect to grandfathered obligations.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. Amount of income effectively connected with the conduct of a trade or business in the United Sta",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Total U.S. source F D A P income required to be reported under chapter 4 but not required to be ",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Total U.S. source F D A P income reportable under chapter 4 (add lines 1 and 2e).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1",
+            "2e"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Total U.S. source F D A P income reportable under chapter 4 (add lines 1 and 2e)."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Total U.S. source F D A P income reported on all Forms 1042-S (from lines 62a, 62b(1), and 62b(2)",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Total variance, subtract line 3 from line 4; if amount other than zero, provide explanation on li",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "4",
+          "subtrahend": "3"
+        },
+        "floorAtZero": false,
+        "rawLabel": "5. Total variance, subtract line 3 from line 4; if amount other than zero, provide explanation on li"
+      },
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line6Entry[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Explanation.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",

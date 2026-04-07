@@ -3,7 +3,7 @@
   "displayName": "Form 1125-E",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1125e.pdf",
-  "generatedAt": "2026-04-06T21:46:22.324Z",
+  "generatedAt": "2026-04-07T00:27:47.095Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -774,7 +774,16 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_125[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 4. Subtract line 3 from line 2. Enter the result here and on Form 1120, page 1, line 12 or the ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "2",
+          "subtrahend": "3"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Line 4. Subtract line 3 from line 2. Enter the result here and on Form 1120, page 1, line 12 or the "
+      }
     }
   ]
 }

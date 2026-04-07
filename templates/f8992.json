@@ -3,7 +3,7 @@
   "displayName": "Form 8992",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8992.pdf",
-  "generatedAt": "2026-04-06T21:46:23.757Z",
+  "generatedAt": "2026-04-07T00:27:48.547Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -36,70 +36,98 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Net Controlled Foreign Corporation (C F C) Tested Income. 1. Sum of Pro Rata Share of Net Te",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Open parenthesis. Sum of Pro Rata Share of Net Tested Loss. If the U.S. shareholder is not a memb",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Net C F C Tested Income. Combine lines 1 and 2. If zero or less, stop here.",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Calculation of Global Intangible Low-Taxed Income (G I L T I). 1. Net C F C Tested Income.",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Deemed Tangible Income Return (D T I R). If the U.S. shareholder is not a member of a U.S. consol",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Sum of Pro Rata Share of Tested Interest Expense. If the U.S. shareholder is not a member of a U",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Sum of Pro Rata Share of Tested Interest Income. If the U.S. shareholder is not a member of a U.",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Specified Interest Expense. If the U.S. shareholder is not a member of a U.S. consolidated group",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Net D T I R. Subtract line 3c from line 2. If zero or less, enter 0.",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "2",
+          "subtrahend": "3c"
+        },
+        "floorAtZero": true,
+        "rawLabel": "4. Net D T I R. Subtract line 3c from line 2. If zero or less, enter 0."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. G I L T I. Subtract line 4 from line 1. If zero or less, enter 0.",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1",
+          "subtrahend": "4"
+        },
+        "floorAtZero": true,
+        "rawLabel": "5. G I L T I. Subtract line 4 from line 1. If zero or less, enter 0."
+      },
+      "lineNumber": "5"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "displayName": "Form 3468",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3468.pdf",
-  "generatedAt": "2026-04-06T21:46:24.030Z",
+  "generatedAt": "2026-04-07T00:27:48.825Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -23,19 +23,22 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Information on Qualified Property or Qualified Facility (see instructions). 1. If making an ",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "percentage",
       "labelHint": "2a. (i). Enter the facility’s emissions value or rate (k g of C O2e per kg of qualified clean hydrog",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. (i i). Enter the Department of Energy (D O E) control number, if applicable (see instructions):",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -45,7 +48,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
@@ -55,80 +59,92 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. (i i). Enter the Department of Energy (D O E) control number, if applicable (see instructions):",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Type (solar, clean hydrogen, rehabilitation, etc.):",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "full_name",
       "labelHint": "3b. If different from filer, enter (i) owner’s name:",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. , and (i i) owner’s T I N:",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Address of the facility (if applicable):",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Latitude_CombFields[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. Coordinates. (i) Latitude: Enter a “+” (plus) or “-” (minus) sign in the first box.",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Latitude_CombFields[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. (i). First 2 digits before the decimal.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Latitude_CombFields[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. (i i). Last 6 digits after the decimal.",
       "required": false,
-      "maxLength": 6
+      "maxLength": 6,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Longitude_CombFields[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. (i i). Longitude: Enter a “+” (plus) or “-” (minus) sign in the first box.",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Longitude_CombFields[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. (i i). First 3 digits before the decimal.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Longitude_CombFields[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. (i i). Last 6 digits after the decimal.",
       "required": false,
-      "maxLength": 6
+      "maxLength": 6,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -138,21 +154,24 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "date",
       "labelHint": "4. Date construction began (M M/D D/Y Y Y Y):",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "date",
       "labelHint": "5. Date placed in service (M M/D D/Y Y Y Y):",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -162,7 +181,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
@@ -172,7 +192,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
@@ -182,7 +203,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
@@ -192,7 +214,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[2]",
@@ -202,7 +225,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
@@ -212,7 +236,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[1]",
@@ -222,7 +247,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[2]",
@@ -232,7 +258,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[3]",
@@ -242,7 +269,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
@@ -252,7 +280,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[1]",
@@ -262,7 +291,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[2]",
@@ -272,7 +302,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
@@ -282,7 +313,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[1]",
@@ -292,7 +324,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[2]",
@@ -302,7 +335,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
@@ -312,7 +346,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[1]",
@@ -322,7 +357,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[2]",
@@ -332,7 +368,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[3]",
@@ -342,20 +379,23 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11e. If \"Yes\" to line 11a, 11b, 11c, or 11d, enter your 48(e) or 48E(h) Control Number:",
-      "required": false
+      "required": false,
+      "lineNumber": "11e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "employer_ein",
       "labelHint": "11f. Enter the originating pass-through entity's employer identification number (E I N) (if applicab",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "11f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[4]",
@@ -365,7 +405,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -375,19 +416,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12a. (i). Nameplate capacity: kilowatt (k W) direct current (d c).",
-      "required": false
+      "required": false,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12a. (i i). Nameplate capacity: k W a c.",
-      "required": false
+      "required": false,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -397,7 +441,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
@@ -407,13 +452,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12b. k W a c.",
-      "required": false
+      "required": false,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
@@ -423,19 +470,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12c. (i). Type:",
-      "required": false
+      "required": false,
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12c. (i i). Nameplate capacity: k W.",
-      "required": false
+      "required": false,
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
@@ -445,7 +495,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
@@ -455,7 +506,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
@@ -465,19 +517,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12d. (i). Power capacity rating: k W.",
-      "required": false
+      "required": false,
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12d. (i i). Energy storage capacity: kilowatt-hours (k W h).",
-      "required": false
+      "required": false,
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[0]",
@@ -487,7 +542,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[1]",
@@ -497,7 +553,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[0]",
@@ -507,7 +564,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_9[0]",
@@ -517,7 +575,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_9[1]",
@@ -527,133 +586,215 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "full_name",
       "labelHint": "13a. Name of lessor:",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13b. Address of lessor:",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13c. Description of property:",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13d. Amount for which you were treated as having acquired the property. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "tax_year",
       "labelHint": "13e. Income inclusion amount reported for tax year under Regulations section 1.50-1. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line1a_ReadOrder[0].f2_13[0]",
       "fieldType": "tax_year",
       "labelHint": "Part I I. Qualifying Advanced Coal Project Credit and Qualifying Gasification Project Credit. Sectio",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Multiply line 1a by 20% (0.20).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "1a",
+          "factor": 0.2
+        },
+        "floorAtZero": false,
+        "rawLabel": "1b. Multiply line 1a by 20% (0.20)."
+      },
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line2a_ReadOrder[0].f2_15[0]",
       "fieldType": "tax_year",
       "labelHint": "2a. Enter the qualified investment in advanced coal-based generation technology property placed in s",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Multiply line 2a by 15% (0.15).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "2a",
+          "factor": 0.15
+        },
+        "floorAtZero": false,
+        "rawLabel": "2b. Multiply line 2a by 15% (0.15)."
+      },
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line3a_ReadOrder[0].f2_17[0]",
       "fieldType": "tax_year",
       "labelHint": "3a. Enter the qualified investment in advanced coal-based generation technology property placed in s",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Multiply line 3a by 30% (0.30).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "3a",
+          "factor": 0.3
+        },
+        "floorAtZero": false,
+        "rawLabel": "3b. Multiply line 3a by 30% (0.30)."
+      },
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line4a_ReadOrder[0].f2_19[0]",
       "fieldType": "tax_year",
       "labelHint": "Section B—Qualifying Gasification Project Credit Under Section 48B (see instructions). 4a. Enter the",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. Multiply line 4a by 30% (0.30).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "4a",
+          "factor": 0.3
+        },
+        "floorAtZero": false,
+        "rawLabel": "4b. Multiply line 4a by 30% (0.30)."
+      },
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line5a_ReadOrder[0].f2_21[0]",
       "fieldType": "tax_year",
       "labelHint": "5a. Enter the qualified investment in property other than in line 4a above placed in service during ",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Multiply line 5a by 20% (0.20).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "5a",
+          "factor": 0.2
+        },
+        "floorAtZero": false,
+        "rawLabel": "5b. Multiply line 5a by 20% (0.20)."
+      },
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Enter the applicable unused investment credit from cooperatives. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Add lines 1b, 2b, 3b, 4b, 5b, and 6. Report this amount on Form 3800, Part I I I, line 1a.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1b",
+            "2b",
+            "3b",
+            "4b",
+            "5b",
+            "6"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Add lines 1b, 2b, 3b, 4b, 5b, and 6. Report this amount on Form 3800, Part I I I, line 1a."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line1a_Part3_ReadOrder[0].f3_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 3. Part I I I. Qualifying Advanced Energy Project Credit Under Section 48C (see instructions). ",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. If you checked the box in Part I, line 8a, and it’s consistent with your section 48C application",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Multiply line 1a by line 1b.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. Enter your section 48C Allocation control number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
@@ -663,7 +804,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
@@ -673,26 +815,41 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1f. Enter the originating pass-through entity’s E I N (if applicable):",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the applicable unused investment credit from cooperatives. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Add lines 1c and 2. Report this amount on Form 3800, Part I I I, line 1d.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1c",
+            "2"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Add lines 1c and 2. Report this amount on Form 3800, Part I I I, line 1d."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line1a_Part4_ReadOrder[0].c3_2[0]",
@@ -702,7 +859,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line1a_Part4_ReadOrder[0].c3_2[1]",
@@ -712,211 +870,291 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "tax_year",
       "labelHint": "1b. Enter the basis of the qualified investment for the tax year with respect to any advanced manufa",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Multiply line 1b by 25% (0.25) (35% (0.35) for property placed in service after 2025).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "1b",
+          "factor": 0.25
+        },
+        "floorAtZero": false,
+        "rawLabel": "1c. Multiply line 1b by 25% (0.25) (35% (0.35) for property placed in service after 2025)."
+      },
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the applicable unused investment credit from cooperatives. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Add lines 1c and 2. Report this amount on Form 3800, Part I I I, line 1o.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1c",
+            "2"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Add lines 1c and 2. Report this amount on Form 3800, Part I I I, line 1o."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line1a_Part5_ReadOrder[0].f3_12[0]",
       "fieldType": "tax_year",
       "labelHint": "Part V. Clean Electricity Investment Credit Under Section 48E. Section A—Qualified Clean Electricity",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. If you checked Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. For qualified fuel cell pr",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Multiply line 1a by line 1b.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line1d_ReadOrder[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. If you checked Part I, line 9a, enter 10%. If you checked Part I, line 9b, enter 2%. Otherwise, ",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1e. Multiply line 1a by line 1d.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line1f_ReadOnly[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1f. If you checked Part I, line 10a, enter 10%. If you checked Part I, line 10b, enter 2%. Otherwise",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1g. Multiply line 1a by line 1f.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line1h_ReadOnly[0].f3_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1h. If you checked the box in Part I, line 11a or 11b, enter 10%. If you checked the box in Part I, ",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1i. Enter the amount of capacity limitation you were allocated in the allocation letter. k W.",
-      "required": false
+      "required": false,
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1j. If the entry on Part I, line 12a(i), 12b, or 12c(i i), equals the entry on line 1i, multiply lin",
-      "required": false
+      "required": false,
+      "lineNumber": "1j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1k. If the entry on Part I, line 12a(i), 12b, or 12c(i i), is more than the entry on line 1i, divide",
-      "required": false
+      "required": false,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1l. Multiply line 1h by line 1k.",
-      "required": false
+      "required": false,
+      "lineNumber": "1l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1m. Multiply line 1a by line 1l.",
-      "required": false
+      "required": false,
+      "lineNumber": "1m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1n. If Part I, line 12a(i), 12b, or 12c(i i), is more than the entry on line 1i, enter the amount fr",
-      "required": false
+      "required": false,
+      "lineNumber": "1n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Add lines 1c, 1e, 1g, and 1n.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1c",
+            "1e",
+            "1g",
+            "1n"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "2. Add lines 1c, 1e, 1g, and 1n."
+      },
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Line3a_ReadOrder[0].f4_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 4. Part V. Clean Electricity Investment Credit Under Section 48E (continued). Section B—Qualifi",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. If you checked Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Multiply line 3a by line 3b.",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Line3d_ReadOrder[0].f4_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. If you checked Part I, line 9a, enter 10%. If you checked Part I, line 9b, enter 2%. Otherwise, ",
-      "required": false
+      "required": false,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3e. Multiply line 3a by line 3d.",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Line3f_ReadOrder[0].f4_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3f. If you checked Part I, line 10a, enter 10%. If you checked Part I, line 10b, enter 2%. Otherwise",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3g. Multiply line 3a by line 3f.",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3h. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "3h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3i. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "3i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3j. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "3j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3k. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "3k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3l. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "3l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3m. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "3m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3n. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "3n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Add lines 3c, 3e, and 3g.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3c",
+            "3e",
+            "3g"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Add lines 3c, 3e, and 3g."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_16[0]",
@@ -928,127 +1166,198 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_17[0]",
       "fieldType": "tax_year",
       "labelHint": "6a. Divide. Sum, for the tax year and all prior tax years, of all proceeds of subsidized energy fina",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6b. Multiply line 5 by line 6a.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6c. Multiply line 5 by 15% (0.15).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "5",
+          "factor": 0.15
+        },
+        "floorAtZero": false,
+        "rawLabel": "6c. Multiply line 5 by 15% (0.15)."
+      },
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Enter the smaller of line 6b or 6c.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "6b",
+          "constant": 6
+        },
+        "floorAtZero": false,
+        "rawLabel": "6d. Enter the smaller of line 6b or 6c."
+      },
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6e. Subtract line 6d from line 5.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6e. Subtract line 6d from line 5."
+      },
+      "lineNumber": "6e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. If proceeds of subsidized energy financing or private activity bonds were used to finance your fa",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. If you are making an elective payment election under section 6417 and the facility doesn’t meet t",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Enter the applicable unused investment credit from cooperatives. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Add lines 8 and 10. Report this amount on Form 3800, Part I I I, line 1v.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "8",
+            "10"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Add lines 8 and 10. Report this amount on Form 3800, Part I I I, line 1v."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line1a_ReadOrder[0].f5_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 5. Part V I. Energy Credit Under Section 48. Section A—Geothermal Energy Credit (see instructio",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
       "fieldType": "percentage",
       "labelHint": "1b. Applicable energy percentage. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Multiply line 1a by line 1b.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line1d_ReadOrder[0].f5_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b,",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1e. Multiply line 1a by line 1d.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line1f_ReadOrder[0].f5_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1f. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 10",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1g. Multiply line 1a by line 1f.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Add lines 1c, 1e, and 1g.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1c",
+            "1e",
+            "1g"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "2. Add lines 1c, 1e, and 1g."
+      },
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line3a_ReadOrder[0].f5_9[0]",
       "fieldType": "tax_year",
       "labelHint": "Section B—Solar Energy Credit (see instructions). 3a. Enter the basis of property using solar illumi",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_10[0]",
       "fieldType": "percentage",
       "labelHint": "3b. Applicable energy percentage. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Multiply line 3a by line 3b.",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_12[0]",
@@ -1060,541 +1369,764 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3e. Enter the amount of capacity limitation you were allocated in the allocation letter. k W d c.",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3f. If the entry on Part I, line 12a(i), equals the entry on line 3e, multiply line 3a by line 3d an",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3g. If the entry on Part I, line 12a(i), is more than the entry on line 3e, divide line 3e by Part I",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3h. Multiply line 3d by line 3g.",
-      "required": false
+      "required": false,
+      "lineNumber": "3h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3i. Multiply line 3a by line 3h.",
-      "required": false
+      "required": false,
+      "lineNumber": "3i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3j. If Part I, line 12a(i), is more than the entry on line 3e, enter the amount from line 3i. Otherw",
-      "required": false
+      "required": false,
+      "lineNumber": "3j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line3k_ReadOrder[0].f5_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3k. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b,",
-      "required": false
+      "required": false,
+      "lineNumber": "3k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3l. Multiply line 3a by line 3k.",
-      "required": false
+      "required": false,
+      "lineNumber": "3l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line3m_ReadOrder[0].f5_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3m. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 10",
-      "required": false
+      "required": false,
+      "lineNumber": "3m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3n. Multiply line 3a by line 3m.",
-      "required": false
+      "required": false,
+      "lineNumber": "3n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Add lines 3c, 3j, 3l, and 3n.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3c",
+            "3j",
+            "3l",
+            "3n"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Add lines 3c, 3j, 3l, and 3n."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Line5a_ReadOrder[0].f6_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 6. Part V I. Energy Credit Under Section 48 (continued). Section C—Qualified Fuel Cell Property",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Multiply line 5a by 30% (0.30).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "5a",
+          "factor": 0.3
+        },
+        "floorAtZero": false,
+        "rawLabel": "5b. Multiply line 5a by 30% (0.30)."
+      },
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Enter the applicable k W capacity of property on line 5a. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Multiply line 5c by $1,000.",
-      "required": false
+      "required": false,
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5e. Enter the smaller of line 5b or 5d.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "5b",
+          "constant": 5
+        },
+        "floorAtZero": false,
+        "rawLabel": "5e. Enter the smaller of line 5b or 5d."
+      },
+      "lineNumber": "5e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Line5f_ReadOrder[0].f6_6[0]",
       "fieldType": "tax_year",
       "labelHint": "5f. Enter the basis of property using qualified fuel cell property placed in service during the tax ",
-      "required": false
+      "required": false,
+      "lineNumber": "5f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5g. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "5g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5h. Multiply line 5f by line 5g.",
-      "required": false
+      "required": false,
+      "lineNumber": "5h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5i. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b,",
-      "required": false
+      "required": false,
+      "lineNumber": "5i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5j. Multiply line 5f by line 5i.",
-      "required": false
+      "required": false,
+      "lineNumber": "5j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5k. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "5k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Line5l_ReadOrder[0].f6_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5l. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 10",
-      "required": false
+      "required": false,
+      "lineNumber": "5l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5m. Multiply line 5f by line 5l.",
-      "required": false
+      "required": false,
+      "lineNumber": "5m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5n. Add lines 5h, 5j, and 5m.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "5h",
+            "5j",
+            "5m"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "5n. Add lines 5h, 5j, and 5m."
+      },
+      "lineNumber": "5n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5o. Enter the applicable k W capacity of property on line 5f. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "5o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5p. Multiply line 5o by $3,000.",
-      "required": false
+      "required": false,
+      "lineNumber": "5p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5q. Enter the smaller of line 5n or 5p.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "5n",
+          "constant": 5
+        },
+        "floorAtZero": false,
+        "rawLabel": "5q. Enter the smaller of line 5n or 5p."
+      },
+      "lineNumber": "5q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Add lines 5e and 5q.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "5e",
+            "5q"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. Add lines 5e and 5q."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Line7a_ReadOrder[0].f6_19[0]",
       "fieldType": "tax_year",
       "labelHint": "Section D—Qualified Microturbine Property (see instructions). 7a. Enter the basis of property using ",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7b. If you checked the box in Part I, line 7a or 8b, enter 10%. Otherwise, enter 2%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7c. Multiply line 7a by line 7b.",
-      "required": false
+      "required": false,
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7d. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b,",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7e. Multiply line 7a by line 7d.",
-      "required": false
+      "required": false,
+      "lineNumber": "7e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7f. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "7f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Line7g_ReadOrder[0].f6_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7g. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 10",
-      "required": false
+      "required": false,
+      "lineNumber": "7g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7h. Multiply line 7a by line 7g.",
-      "required": false
+      "required": false,
+      "lineNumber": "7h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7i. Add lines 7c, 7e, and 7h.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "7c",
+            "7e",
+            "7h"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "7i. Add lines 7c, 7e, and 7h."
+      },
+      "lineNumber": "7i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Line7j_ReadOrder[0].f6_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7j. Enter the applicable k W capacity of property on line 7a. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "7j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7k. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "7k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7l. Multiply line 7j by $200.",
-      "required": false
+      "required": false,
+      "lineNumber": "7l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Enter the smaller of line 7i or 7l.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "7i",
+          "constant": 7
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Enter the smaller of line 7i or 7l."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line9a_ReadOrder[0].f7_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 7. Part V I. Energy Credit Under Section 48 (continued). Section E—Combined Heat and Power Syst",
-      "required": false
+      "required": false,
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9b. If the electrical capacity of the property is measured in: M W, divide 15 by the M W capacity. Enter 1.0 if the capacity is 15 M W or less. Horsepower, divide 20,000 by the horsepower. Enter 1.0 if the capacity is 20,000 horsepower or less. Numbers before decimal.",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9b. Numbers after decimal.",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9c. Multiply line 9a by line 9b.",
-      "required": false
+      "required": false,
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9d. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "9d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9e. Multiply line 9c by line 9d.",
-      "required": false
+      "required": false,
+      "lineNumber": "9e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line9f_ReadOrder[0].f7_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9f. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b,",
-      "required": false
+      "required": false,
+      "lineNumber": "9f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9g. Multiply line 9c by line 9f.",
-      "required": false
+      "required": false,
+      "lineNumber": "9g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line9h_ReadOrder[0].f7_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9h. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 10",
-      "required": false
+      "required": false,
+      "lineNumber": "9h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9i. Multiply line 9c by line 9h.",
-      "required": false
+      "required": false,
+      "lineNumber": "9i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Add lines 9e, 9g, and 9i.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9e",
+            "9g",
+            "9i"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Add lines 9e, 9g, and 9i."
+      },
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section F—Qualified Small Wind Energy Property (see instructions). 11a. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11b. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11c. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line11d_ReadOrder[0].f7_15[0]",
       "fieldType": "tax_year",
       "labelHint": "11d. Enter the basis of property using small wind energy property placed in service during the tax y",
-      "required": false
+      "required": false,
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11e. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "11e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11f. Multiply line 11d by line 11e.",
-      "required": false
+      "required": false,
+      "lineNumber": "11f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line11g_ReadOrder[0].f7_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11g. If you checked the box in Part I, line 11a or 11b, enter 10%. If you checked the box in Part I,",
-      "required": false
+      "required": false,
+      "lineNumber": "11g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11h. Enter the amount of capacity limitation you were allocated in the allocation letter. k W.",
-      "required": false
+      "required": false,
+      "lineNumber": "11h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11i. If the entry on Part I, line 12b, equals the entry on line 11h, multiply line 11d by line 11g a",
-      "required": false
+      "required": false,
+      "lineNumber": "11i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11j. If the entry on Part I, line 12b, is more than the entry on line 11h, divide line 11h by Part I",
-      "required": false
+      "required": false,
+      "lineNumber": "11j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11k. Multiply line 11g by line 11j.",
-      "required": false
+      "required": false,
+      "lineNumber": "11k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11l. Multiply line 11d by line 11k.",
-      "required": false
+      "required": false,
+      "lineNumber": "11l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11m. If Part I, line 12b, is more than the entry on line 11h, enter the amount from line 11l. Otherw",
-      "required": false
+      "required": false,
+      "lineNumber": "11m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line11n_ReadOrder[0].f7_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11n. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b",
-      "required": false
+      "required": false,
+      "lineNumber": "11n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11o. Multiply line 11d by line 11n.",
-      "required": false
+      "required": false,
+      "lineNumber": "11o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line11p_ReadOrder[0].f7_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11p. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "11p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11q. Multiply line 11d by line 11p.",
-      "required": false
+      "required": false,
+      "lineNumber": "11q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Add lines 11f, 11m, 11o, and 11q.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "11f",
+            "11m",
+            "11o",
+            "11q"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Add lines 11f, 11m, 11o, and 11q."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line13a_ReadOrder[0].f8_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 8. Part V I. Energy Credit Under Section 48 (continued). Section G—Waste Energy Recovery Proper",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13b. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13c. Multiply line 13a by line 13b.",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line13d_ReadOrder[0].f8_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13d. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13e. Multiply line 13a by line 13d.",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line13f_ReadOrder[0].f8_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13f. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13g. Multiply line 13a by line 13f.",
-      "required": false
+      "required": false,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Add lines 13c, 13e, and 13g.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "13c",
+            "13e",
+            "13g"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "14. Add lines 13c, 13e, and 13g."
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line15a_ReadOrder[0].f8_9[0]",
       "fieldType": "tax_year",
       "labelHint": "Section H—Geothermal Heat Pump Systems (see instructions). 15a. Enter the basis of property using ge",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15b. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15c. Multiply line 15a by line 15b.",
-      "required": false
+      "required": false,
+      "lineNumber": "15c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line15d_ReadOrder[0].f8_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15d. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b",
-      "required": false
+      "required": false,
+      "lineNumber": "15d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15e. Multiply line 15a by line 15d.",
-      "required": false
+      "required": false,
+      "lineNumber": "15e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line15f_ReadOrder[0].f8_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15f. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "15f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15g. Multiply line 15a by line 15f.",
-      "required": false
+      "required": false,
+      "lineNumber": "15g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Add lines 15c, 15e, and 15g.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "15c",
+            "15e",
+            "15g"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "16. Add lines 15c, 15e, and 15g."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line17a_ReadOrder[0].f9_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 9. Part V I. Energy Credit Under Section 48 (continued). Section I—Energy Storage Technology Pr",
-      "required": false
+      "required": false,
+      "lineNumber": "17a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17b. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "17b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17c. Multiply line 17a by line 17b.",
-      "required": false
+      "required": false,
+      "lineNumber": "17c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_4[0]",
@@ -1606,181 +2138,248 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17e. Enter the amount of capacity limitation you were allocated in the allocation letter for the solar or wind energy property in connection with the energy storage technology. k W.",
-      "required": false
+      "required": false,
+      "lineNumber": "17e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17f. If the relevant entry on Part I, line 12a(i) or 12b, equals the entry on line 17e, multiply lin",
-      "required": false
+      "required": false,
+      "lineNumber": "17f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17g. If the relevant entry on Part I, line 12a(i) or 12b, is more than the entry on line 17e, divide",
-      "required": false
+      "required": false,
+      "lineNumber": "17g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17h. Multiply line 17d by line 17g.",
-      "required": false
+      "required": false,
+      "lineNumber": "17h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17i. Multiply line 17a by line 17h.",
-      "required": false
+      "required": false,
+      "lineNumber": "17i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17j. If the entry for the solar or wind energy property in connection with the energy storage techno",
-      "required": false
+      "required": false,
+      "lineNumber": "17j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line17k_ReadOrder[0].f9_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17k. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b",
-      "required": false
+      "required": false,
+      "lineNumber": "17k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17l. Multiply line 17a by line 17k.",
-      "required": false
+      "required": false,
+      "lineNumber": "17l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line17m_ReadOrder[0].f9_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17m. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "17m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17n. Multiply line 17a by line 17m.",
-      "required": false
+      "required": false,
+      "lineNumber": "17n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Add lines 17c, 17j, 17l, and 17n.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "17c",
+            "17j",
+            "17l",
+            "17n"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Add lines 17c, 17j, 17l, and 17n."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line19a_ReadOrder[0].f9_16[0]",
       "fieldType": "tax_year",
       "labelHint": "Section J—Qualified Biogas Property (see instructions). 19a. Enter the basis of property using bioga",
-      "required": false
+      "required": false,
+      "lineNumber": "19a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19b. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "19b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19c. Multiply line 19a by line 19b.",
-      "required": false
+      "required": false,
+      "lineNumber": "19c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line19d_ReadOrder[0].f9_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19d. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b",
-      "required": false
+      "required": false,
+      "lineNumber": "19d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19e. Multiply line 19a by line 19d.",
-      "required": false
+      "required": false,
+      "lineNumber": "19e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Line19f_ReadOrder[0].f9_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19f. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "19f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19g. Multiply line 19a by line 19f.",
-      "required": false
+      "required": false,
+      "lineNumber": "19g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].f9_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Add lines 19c, 19e, and 19g.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "19c",
+            "19e",
+            "19g"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Add lines 19c, 19e, and 19g."
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Line21a_ReadOrder[0].f10_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 10. Part V I. Energy Credit Under Section 48 (continued). Section K—Microgrid Controllers Prope",
-      "required": false
+      "required": false,
+      "lineNumber": "21a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21b. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "21b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21c. Multiply line 21a by line 21b.",
-      "required": false
+      "required": false,
+      "lineNumber": "21c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Line21d_ReadOrder[0].f10_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21d. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b",
-      "required": false
+      "required": false,
+      "lineNumber": "21d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21e. Multiply line 21a by line 21d.",
-      "required": false
+      "required": false,
+      "lineNumber": "21e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Line21f_ReadOrder[0].f10_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21f. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "21f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21g. Multiply line 21a by line 21f.",
-      "required": false
+      "required": false,
+      "lineNumber": "21g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Add lines 21c, 21e, and 21g.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21c",
+            "21e",
+            "21g"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "22. Add lines 21c, 21e, and 21g."
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Line23a_ReadOrder[0].f10_9[0]",
       "fieldType": "tax_year",
       "labelHint": "Section L—Qualified Investment Credit Facility Property (see instructions). 23a. Enter the basis of ",
-      "required": false
+      "required": false,
+      "lineNumber": "23a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23b. If you checked the box in Part I, line 7a or 8b, enter 30%. Otherwise, enter 6%. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "23b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23c. Multiply line 23a by line 23b.",
-      "required": false
+      "required": false,
+      "lineNumber": "23c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_12[0]",
@@ -1792,145 +2391,195 @@
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23e. Enter the amount of capacity limitation you were allocated in the allocation letter. k W.",
-      "required": false
+      "required": false,
+      "lineNumber": "23e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23f. If the entry on Part I, line 12b, equals the entry on line 23e, multiply line 23a by line 23d a",
-      "required": false
+      "required": false,
+      "lineNumber": "23f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23g. If the entry on Part I, line 12b, is more than the entry on line 23e, divide line 23e by Part I",
-      "required": false
+      "required": false,
+      "lineNumber": "23g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23h. Multiply line 23d by line 23g.",
-      "required": false
+      "required": false,
+      "lineNumber": "23h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23i. Multiply line 23a by line 23h.",
-      "required": false
+      "required": false,
+      "lineNumber": "23i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23j. If Part I, line 12b, is more than the entry on line 23e, enter the amount from line 23i. Otherw",
-      "required": false
+      "required": false,
+      "lineNumber": "23j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Line23k_ReadOrder[0].f10_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23k. If you checked the box in Part I, line 9a, enter 10%. If you checked the box in Part I, line 9b",
-      "required": false
+      "required": false,
+      "lineNumber": "23k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23l. Multiply line 23a by line 23k.",
-      "required": false
+      "required": false,
+      "lineNumber": "23l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Line23m_ReadOrder[0].f10_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23m. If you checked the box in Part I, line 10a, enter 10%. If you checked the box in Part I, line 1",
-      "required": false
+      "required": false,
+      "lineNumber": "23m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23n. Multiply line 23a by line 23m.",
-      "required": false
+      "required": false,
+      "lineNumber": "23n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Add lines 23c, 23j, 23l, and 23n.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "23c",
+            "23j",
+            "23l",
+            "23n"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Add lines 23c, 23j, 23l, and 23n."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Line25a_ReadOrder[0].f11_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 11. Part V I. Energy Credit Under Section 48 (continued). Section M—Clean Hydrogen Production F",
-      "required": false
+      "required": false,
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25b. If you checked the box in Part I, line 8b, enter 6%. If you checked the box in Part I, line 8c,",
-      "required": false
+      "required": false,
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25c. Multiply line 25a by line 25b.",
-      "required": false
+      "required": false,
+      "lineNumber": "25c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Line25d_ReadOrder[0].f11_4[0]",
       "fieldType": "tax_year",
       "labelHint": "25d. Enter the basis of property placed in service during the tax year for the facility that is desi",
-      "required": false
+      "required": false,
+      "lineNumber": "25d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25e. If you checked the box in Part I, line 8b, enter 7.5%. If you checked the box in Part I, line 8",
-      "required": false
+      "required": false,
+      "lineNumber": "25e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25f. Multiply line 25d by line 25e.",
-      "required": false
+      "required": false,
+      "lineNumber": "25f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Line25g_ReadOrder[0].f11_7[0]",
       "fieldType": "tax_year",
       "labelHint": "25g. Enter the basis of property placed in service during the tax year for the facility that is desi",
-      "required": false
+      "required": false,
+      "lineNumber": "25g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25h. If you checked the box in Part I, line 8b, enter 10%. If you checked the box in Part I, line 8c",
-      "required": false
+      "required": false,
+      "lineNumber": "25h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25i. Multiply line 25g by line 25h.",
-      "required": false
+      "required": false,
+      "lineNumber": "25i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Line25j_ReadOrder[0].f11_10[0]",
       "fieldType": "tax_year",
       "labelHint": "25j. Enter the basis of property placed in service during the tax year for the facility that is desi",
-      "required": false
+      "required": false,
+      "lineNumber": "25j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25k. If you checked the box in Part I, line 8b, enter 30%. If you checked the box in Part I, line 8c",
-      "required": false
+      "required": false,
+      "lineNumber": "25k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25l. Multiply line 25j by line 25k.",
-      "required": false
+      "required": false,
+      "lineNumber": "25l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Add lines 25c, 25f, 25i, and 25l.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "25c",
+            "25f",
+            "25i",
+            "25l"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "26. Add lines 25c, 25f, 25i, and 25l."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].Line27_ReadOrder[0].f11_14[0]",
@@ -1942,55 +2591,102 @@
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_17[0]",
       "fieldType": "tax_year",
       "labelHint": "28a. Divide. Sum, for the tax year and all prior tax years, of all proceeds of tax-exempt bonds (wit",
-      "required": false
+      "required": false,
+      "lineNumber": "28a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28b. Multiply line 27 by line 28a.",
-      "required": false
+      "required": false,
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28c. Multiply line 27 by 15% (0.15).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "27",
+          "factor": 0.15
+        },
+        "floorAtZero": false,
+        "rawLabel": "28c. Multiply line 27 by 15% (0.15)."
+      },
+      "lineNumber": "28c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28d. Enter the smaller of line 28b or 28c.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "28b",
+          "constant": 28
+        },
+        "floorAtZero": false,
+        "rawLabel": "28d. Enter the smaller of line 28b or 28c."
+      },
+      "lineNumber": "28d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28e. Subtract line 28d from line 27.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "28d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "28e. Subtract line 28d from line 27."
+      },
+      "lineNumber": "28e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. If proceeds of tax-exempt bonds were used to finance your facility, enter the amount from line 2",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_23[0]",
       "fieldType": "tax_year",
       "labelHint": "30. If you are making an elective payment election under section 6417 for a facility whose construct",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Enter the applicable unused investment credit from cooperatives. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Add lines 30 and 31. Report this amount on Form 3800, Part I I I, line 4a.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "30",
+            "31"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Add lines 30 and 31. Report this amount on Form 3800, Part I I I, line 4a."
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].c12_1[0]",
@@ -2000,7 +2696,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].c12_1[1]",
@@ -2010,13 +2707,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. If “Yes” to line 1a, then provide the prior N P S number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].c12_2[0]",
@@ -2032,86 +2731,129 @@
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_2[0]",
       "fieldType": "date",
       "labelHint": "1d. Enter the dates for the 24- or 60-month measuring period. Beginning date:",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_3[0]",
       "fieldType": "date",
       "labelHint": "1d. End date:",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_4[0]",
       "fieldType": "date",
       "labelHint": "1e. Enter the adjusted basis of the building as of the beginning date above (or the first day of you",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1f. Enter the amount of the qualified rehabilitation expenditures incurred, or treated as incurred, ",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1g. Enter the amount of qualified rehabilitation expenditures.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1h. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1i. For certified historic structures under the transition rule, multiply line 1g by 20% (0.20).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "1g",
+          "factor": 0.2
+        },
+        "floorAtZero": false,
+        "rawLabel": "1i. For certified historic structures under the transition rule, multiply line 1g by 20% (0.20)."
+      },
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_9[0]",
       "fieldType": "tax_year",
       "labelHint": "1j. For certified historic structures with expenditures paid or incurred, multiply line 1g by 4% (0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "1g",
+          "factor": 0.04
+        },
+        "floorAtZero": false,
+        "rawLabel": "1j. For certified historic structures with expenditures paid or incurred, multiply line 1g by 4% (0."
+      },
+      "lineNumber": "1j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1k. If you completed line 1j, enter the following. (i). The assigned N P S project number:",
-      "required": false
+      "required": false,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1k. (i i). The originating pass-through entity’s E I N (if applicable):",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_12[0]",
       "fieldType": "date",
       "labelHint": "1k. (i i i). The date the N P S approved the Request for Certification of Completed Work:",
-      "required": false
+      "required": false,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_13[0]",
       "fieldType": "date",
       "labelHint": "1m. If you have not received an approved certification of completed work, enter the date that is 30 ",
-      "required": false
+      "required": false,
+      "lineNumber": "1m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the applicable unused investment credit from cooperatives. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Add lines 1j and 2. Report this amount on Form 3800, Part I I I, line 4k.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1j",
+            "2"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Add lines 1j and 2. Report this amount on Form 3800, Part I I I, line 4k."
+      },
+      "lineNumber": "3"
     }
   ]
 }

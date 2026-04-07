@@ -3,7 +3,7 @@
   "displayName": "Form 1041",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1041.pdf",
-  "generatedAt": "2026-04-06T21:46:24.229Z",
+  "generatedAt": "2026-04-07T00:27:49.045Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].DateNameAddress_ReadOrder[0].f1_1[0]",
@@ -312,73 +312,85 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Income. 1. Interest income.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. Total ordinary dividends.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Qualified dividends allocable to: (1) Beneficiaries.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. (2) Estate or trust.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Business income or (loss). Attach Schedule C (Form 1040).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Capital gain or (loss). Attach Schedule D (Form 1041).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Rents, royalties, partnerships, other estates and trusts, etc. Attach Schedule E (Form 1040).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Farm income or (loss). Attach Schedule F (Form 1040).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Ordinary gain or (loss). Attach Form 4797.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Other income. List type.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. and amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Total income. Combine lines 1, 2a, and 3 through 8.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_22[0]",
@@ -388,151 +400,238 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Taxes.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Fiduciary fees. If only a portion is deductible under section 67(e), see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Charitable deduction (from Schedule A, line 7).",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Attorney, accountant, and return preparer fees. If only a portion is deductible under section 67",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15a. Other deductions (attach schedule). See instructions for deductions allowable under section 67(",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15b. Net operating loss deduction. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Add lines 10 through 15b.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "10",
+          "end": "15b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "16. Add lines 10 through 15b."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Adjusted total income or (loss). Subtract line 16 from line 9.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "9",
+          "subtrahend": "16"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Adjusted total income or (loss). Subtract line 16 from line 9."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Income distribution deduction (from Schedule B, line 15). Attach Schedules K-1 (Form 1041).",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Estate tax deduction including certain generation-skipping taxes (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Qualified business income deduction. Attach Form 8995 or 8995-A.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Exemption.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Add lines 18 through 21.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "18",
+          "end": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "22. Add lines 18 through 21."
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Tax and Payments. 23. Taxable income. Subtract line 22 from line 17. If a loss, see instructions.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "17",
+          "subtrahend": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Tax and Payments. 23. Taxable income. Subtract line 22 from line 17. If a loss, see instructions."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Total tax (from Schedule G, Part I, line 9).",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
       "fieldType": "tax_year",
       "labelHint": "25a. Current year net 965 tax liability paid from Form 965-A, Part I I, column (k) (see instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25b. First installment of section 1062 applicable net tax liability. Enter amount from Form 1062, li",
-      "required": false
+      "required": false,
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Total payments (from Schedule G, Part I I, line 19).",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. Estimated tax penalty. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Tax due. If line 26 is smaller than the total of lines 24, 25a, 25b, and 27, enter amount owed.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "24",
+            "25a",
+            "25b",
+            "27"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "28. Tax due. If line 26 is smaller than the total of lines 24, 25a, 25b, and 27, enter amount owed."
+      },
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Overpayment. If line 26 is larger than the total of lines 24, 25a, 25b, and 27, enter amount ove",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "24",
+            "25a",
+            "25b",
+            "27"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "29. Overpayment. If line 26 is larger than the total of lines 24, 25a, 25b, and 27, enter amount ove"
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Amount of line 29 to be: a. Credited to 2026.",
-      "required": false
+      "required": false,
+      "lineNumber": "30a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30b. ; b. Refunded.",
-      "required": false
+      "required": false,
+      "lineNumber": "30b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line30cCombfield[0].f1_52[0]",
@@ -566,7 +665,8 @@
       "fieldType": "account_number",
       "labelHint": "30e. Account number.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "30e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_54[0]",
@@ -653,247 +753,391 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Tax-exempt income allocable to charitable contributions. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Subtract line 2 from line 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1",
+          "subtrahend": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Subtract line 2 from line 1."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "tax_year",
       "labelHint": "4. Capital gains for the tax year allocated to corpus and paid or permanently set aside for charitab",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Add lines 3 and 4.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3",
+            "4"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "5. Add lines 3 and 4."
+      },
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Section 1202 exclusion allocable to capital gains paid or permanently set aside for charitable pu",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Charitable deduction. Subtract line 6 from line 5. Enter here and on page 1, line 13.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Charitable deduction. Subtract line 6 from line 5. Enter here and on page 1, line 13."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule B. Income Distribution Deduction. 1. Adjusted total income. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Adjusted tax-exempt interest.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Total net gain from Schedule D (Form 1041), line 19, column (1). See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Enter amount from Schedule A, line 4 (minus any allocable section 1202 exclusion).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "tax_year",
       "labelHint": "5. Capital gains for the tax year included on Schedule A, line 1. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Enter any gain from page 1, line 4, as a negative number. If page 1, line 4, is a loss, enter the",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Distributable net income. Combine lines 1 through 6. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "tax_year",
       "labelHint": "8. If a complex trust, enter accounting income for the tax year as determined under the governing in",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Income required to be distributed currently.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Other amounts paid, credited, or otherwise required to be distributed.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Total distributions. Add lines 9 and 10. If greater than line 8, see instructions.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9",
+            "10"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Total distributions. Add lines 9 and 10. If greater than line 8, see instructions."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Enter the amount of tax-exempt income included on line 11.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Tentative income distribution deduction. Subtract line 12 from line 11.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "11",
+          "subtrahend": "12"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. Tentative income distribution deduction. Subtract line 12 from line 11."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Tentative income distribution deduction. Subtract line 2 from line 7. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "7",
+          "subtrahend": "2"
+        },
+        "floorAtZero": true,
+        "rawLabel": "14. Tentative income distribution deduction. Subtract line 2 from line 7. If zero or less, enter 0."
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Income distribution deduction. Enter the smaller of line 13 or line 14 here and on page 1, line ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "13",
+          "b": "14"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Income distribution deduction. Enter the smaller of line 13 or line 14 here and on page 1, line "
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Ln1a_ReadOrder[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule G. Tax Computation and Payments (see instructions). Part I — Tax Computation. 1. Tax: a. Ta",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Tax on lump-sum distributions. Attach Form 4972.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Alternative minimum tax (from Schedule I (Form 1041), line 54).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. Amount from Form 4255, Part I, line 3, column (q).",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1e. Total. Add lines 1a through 1d.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1a",
+          "end": "1d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1e. Total. Add lines 1a through 1d."
+      },
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. Foreign tax credit. Attach Form 1116.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. General business credit. Attach Form 3800.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
       "fieldType": "tax_year",
       "labelHint": "2c. Credit for prior year minimum tax. Attach Form 8801.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. Bond credits. Attach Form 8912.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Total credits. Add lines 2a through 2d.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "2a",
+          "end": "2d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "2e. Total credits. Add lines 2a through 2d."
+      },
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Subtract line 2e from line 1e. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1e",
+          "subtrahend": "2e"
+        },
+        "floorAtZero": true,
+        "rawLabel": "3. Subtract line 2e from line 1e. If zero or less, enter 0."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Tax on the E S B T portion of the trust (from E S B T Tax Worksheet, line 17). See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Net investment income tax from Form 8960, line 21.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6a. Amount from Form 4255, Part I, line 3, column (r).",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6b. Recapture tax from Form 8611.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6c. Other recapture taxes:",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6c. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Household employment taxes. Attach Schedule H (Form 1040).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Other taxes and amounts due.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Total tax. Add lines 3 through 8. Enter here and on page 1, line 24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "3",
+          "end": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Total tax. Add lines 3 through 8. Enter here and on page 1, line 24."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
@@ -905,19 +1149,31 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Estimated tax payments allocated to beneficiaries (from Form 1041-T).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Subtract line 11 from line 10.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Subtract line 11 from line 10."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Tax paid with Form 7004. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
@@ -927,55 +1183,73 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "tax_year",
       "labelHint": "15. Current year net 965 tax liability from Form 965-A, Part I, column (f) (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Payments from Form 2439.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Payments from Form 4136.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18a. Elective payment election amount from Form 3800.",
-      "required": false
+      "required": false,
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18b. Other credits or payments (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18c. Section 1062 applicable net tax liability. Enter amount from Form 1062, line 14.",
-      "required": false
+      "required": false,
+      "lineNumber": "18c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Total payments. Add lines 12 through 18c. Enter here and on page 1, line 26.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "12",
+          "end": "18c"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19. Total payments. Add lines 12 through 18c. Enter here and on page 1, line 26."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
@@ -985,7 +1259,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
@@ -995,13 +1270,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. If \"Yes,\" attach a computation of the allocation of expenses. Enter the amount of tax-exempt inte",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
@@ -1011,7 +1288,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
@@ -1021,7 +1299,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
@@ -1031,7 +1310,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
@@ -1041,13 +1321,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].SeeInstructions_ReadOrder[0].f3_14[0]",
       "fieldType": "full_name",
       "labelHint": "3. See the instructions for exceptions and filing requirements for F i n C E N Form 114. If “Yes,” e",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
@@ -1057,7 +1339,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[1]",
@@ -1067,7 +1350,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[0]",
@@ -1077,7 +1361,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[1]",
@@ -1087,7 +1372,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[0]",
@@ -1097,7 +1383,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_8[0]",
@@ -1107,7 +1394,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[0]",
@@ -1117,7 +1405,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[0]",
@@ -1127,7 +1416,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[1]",
@@ -1137,7 +1427,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[0]",
@@ -1147,7 +1438,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[1]",
@@ -1157,7 +1449,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[0]",
@@ -1167,7 +1460,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[1]",
@@ -1177,7 +1471,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[0]",
@@ -1187,7 +1482,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_13[1]",
@@ -1197,7 +1493,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[0]",
@@ -1207,7 +1504,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_14[1]",
@@ -1217,7 +1515,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[0]",
@@ -1227,7 +1526,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_15[1]",
@@ -1237,7 +1537,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[0]",
@@ -1247,7 +1548,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_16[1]",
@@ -1257,7 +1559,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_17[0]",
@@ -1267,7 +1570,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_17[1]",
@@ -1277,7 +1581,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     }
   ]
 }

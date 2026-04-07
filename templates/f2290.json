@@ -3,13 +3,14 @@
   "displayName": "Form 2290",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2290.pdf",
-  "generatedAt": "2026-04-06T21:46:35.890Z",
+  "generatedAt": "2026-04-07T00:28:00.757Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
       "fieldType": "full_name",
       "labelHint": "4. Name.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].EINComb1[0].f1_2[0]",
@@ -23,19 +24,22 @@
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "street_address",
       "labelHint": "4. Address (number, street, and room or suite no.).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "city",
       "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -94,53 +98,72 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Tax. Enter the Total from Form 2290, page 2, column (4). Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Additional tax from increase in taxable gross weight (see instructions). Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Total tax. Add lines 2 and 3. Dollars.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "2",
+            "3"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Total tax. Add lines 2 and 3. Dollars."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Credits (Attach supporting documentation. See instructions.). Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line6_ReadOrder[0].c1_5[0]",
@@ -150,7 +173,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line6_ReadOrder[0].c1_5[1]",
@@ -160,20 +184,23 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
@@ -193,7 +220,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
@@ -203,38 +231,44 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8b. Vehicle identification numbers.",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. I declare that vehicle identification numbers.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. were listed as suspended on the Form 2290 filed for the period July 1, 2024, through June 30, 2025. These vehicles were sold or transferred to.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "date",
       "labelHint": "9. on. Month and day.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "tax_year",
       "labelHint": "9. , 4-digit year. At the time of the transfer, the vehicles were still eligible for the suspension ",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
@@ -1419,7 +1453,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f1_1[0]",
       "fieldType": "full_name",
       "labelHint": "4. Name.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].EINComb1[0].f1_2[0]",
@@ -1433,19 +1468,22 @@
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f1_4[0]",
       "fieldType": "street_address",
       "labelHint": "4. Address (number, street, and room or suite no.).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f1_5[0]",
       "fieldType": "city",
       "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f1_7[0]",
@@ -1459,336 +1497,384 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Vehicles You Are Reporting (enter V I N and category). 1. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line2Comb[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line3Comb[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line4Comb[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line5Comb[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line6Comb[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line7Comb[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line8Comb[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line9Comb[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line10Comb[0].f3_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line11Comb[0].f3_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line12Comb[0].f3_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line13Comb[0].f3_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line14Comb[0].f3_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line15Comb[0].f3_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line16Comb[0].f3_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line17Comb[0].f3_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line18Comb[0].f3_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line19Comb[0].f3_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line20Comb[0].f3_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line21Comb[0].f3_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line22Comb[0].f3_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line23Comb[0].f3_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line24Comb[0].f3_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_49[0]",
@@ -1812,7 +1898,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f1_1[0]",
       "fieldType": "full_name",
       "labelHint": "4. Name.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].EINComb1[0].f1_2[0]",
@@ -1826,19 +1913,22 @@
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f1_4[0]",
       "fieldType": "street_address",
       "labelHint": "4. Address (number, street, and room or suite no.).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f1_5[0]",
       "fieldType": "city",
       "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f1_7[0]",
@@ -1852,336 +1942,384 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Vehicles You Are Reporting (enter V I N and category). 1. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line2Comb[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line3Comb[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line4Comb[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line5Comb[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line6Comb[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line7Comb[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line8Comb[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line9Comb[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line10Comb[0].f3_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line11Comb[0].f3_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line12Comb[0].f3_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line13Comb[0].f3_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line14Comb[0].f3_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line15Comb[0].f3_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line16Comb[0].f3_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line17Comb[0].f3_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line18Comb[0].f3_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line19Comb[0].f3_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line20Comb[0].f3_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line21Comb[0].f3_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line22Comb[0].f3_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line23Comb[0].f3_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line24Comb[0].f3_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. V I N.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Category A through W (category W for suspended vehicles).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f3_49[0]",
@@ -2219,7 +2357,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line1_ReadOrder[0].f1_2[0]",
@@ -2233,45 +2372,52 @@
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the amount of your payment. Make your check or money order payable to “United States Treasu",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].f1_07[0]",
       "fieldType": "date",
       "labelHint": "3. Enter date as shown on line 1 of Form 2290. Y Y Y Y M M.",
       "required": false,
-      "maxLength": 6
+      "maxLength": 6,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line4_ReadOrder[0].f1_1[0]",
       "fieldType": "full_name",
       "labelHint": "4. Name.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line4_ReadOrder[0].f1_4[0]",
       "fieldType": "street_address",
       "labelHint": "4. Address (number, street, and room or suite no.).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line4_ReadOrder[0].f1_5[0]",
       "fieldType": "city",
       "labelHint": "4. City or town, state or province, country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     }
   ]
 }

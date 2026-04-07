@@ -3,7 +3,7 @@
   "displayName": "Form 1099-LTC",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099ltc.pdf",
-  "generatedAt": "2026-04-06T21:46:31.070Z",
+  "generatedAt": "2026-04-07T00:27:55.894Z",
   "fields": [
     {
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -80,13 +80,15 @@
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Gross long-term care benefits paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Accelerated death benefits paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_2[0]",
@@ -96,7 +98,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_2[1]",
@@ -106,7 +109,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_11[0]",
@@ -151,7 +155,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].c1_5[0]",
@@ -161,13 +166,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyA[0].RightCol[0].f1_15[0]",
       "fieldType": "date",
       "labelHint": "5. Date certified.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -234,13 +241,15 @@
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Gross long-term care benefits paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Accelerated death benefits paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_2[0]",
@@ -250,7 +259,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_2[1]",
@@ -260,7 +270,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_11[0]",
@@ -305,7 +316,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].c1_5[0]",
@@ -315,13 +327,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyB[0].RightCol[0].f1_15[0]",
       "fieldType": "date",
       "labelHint": "5. Date certified.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -388,13 +402,15 @@
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Gross long-term care benefits paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Accelerated death benefits paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_2[0]",
@@ -404,7 +420,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_2[1]",
@@ -414,7 +431,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_11[0]",
@@ -459,7 +477,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].c1_5[0]",
@@ -469,13 +488,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "Form1099-LTC[0].CopyC[0].RightCol[0].f1_15[0]",
       "fieldType": "date",
       "labelHint": "5. Date certified.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     }
   ]
 }

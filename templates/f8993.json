@@ -3,7 +3,7 @@
   "displayName": "Form 8993",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8993.pdf",
-  "generatedAt": "2026-04-06T21:46:23.797Z",
+  "generatedAt": "2026-04-07T00:27:48.588Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -28,97 +28,160 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Exclusions: a. Income included under section 951(a)(1) (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Income included under section 951A (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2c. Financial services income.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. C F C dividends (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Domestic oil and gas extraction income.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2f. Foreign branch income.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2g. Income and gain from the sale or other disposition of intangible property under section 250(b)(3",
-      "required": false
+      "required": false,
+      "lineNumber": "2g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2h. Income and gain from the sale or other disposition of certain other property under section 250(b",
-      "required": false
+      "required": false,
+      "lineNumber": "2h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Total exclusions (add lines 2a through 2h).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "2a",
+          "end": "2h"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Total exclusions (add lines 2a through 2h)."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Gross D E I (subtract line 3 from line 1).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1",
+          "subtrahend": "3"
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Gross D E I (subtract line 3 from line 1)."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Deductions properly allocable to the amount on line 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. D E I (subtract line 5 from line 4).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "4",
+          "subtrahend": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. D E I (subtract line 5 from line 4)."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7a. Deemed tangible income return (D T I R) (10% of Q B A I).",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7b. D T I R (10% of Q B A I) from partnerships.",
-      "required": false
+      "required": false,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7c. Total D T I R (add lines 7a and 7b).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "7a",
+            "7b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "7c. Total D T I R (add lines 7a and 7b)."
+      },
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. D I I (subtract line 7c from line 6).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "7c"
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. D I I (subtract line 7c from line 6)."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9a[0].f1_20[0]",
@@ -130,139 +193,250 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9a[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9a. Gross receipts. Column: (B) Foreign-derived income from all sales of intangible property.",
-      "required": false
+      "required": false,
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9a[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9a. Gross receipts. Column: (C) Foreign-derived income from all services.",
-      "required": false
+      "required": false,
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9a[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9a. Gross receipts. Column: (D) Total (add columns (A) through (C)).",
-      "required": false
+      "required": false,
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9b[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9b. Gross receipts from partnerships. Column: (A) Foreign-derived income from all sales of gene",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9b[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9b. Gross receipts from partnerships. Column: (B) Foreign-derived income from all sales of inta",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9b[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9b. Gross receipts from partnerships. Column: (C) Foreign-derived income from all services.",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9b[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9b. Gross receipts from partnerships. Column: (D) Total (add columns (A) through (C)).",
-      "required": false
+      "required": false,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9c[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (A) Foreign-derived income from all sal",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9a",
+            "9b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (A) Foreign-derived income from all sal"
+      },
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9c[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (B) Foreign-derived income from all sal",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9a",
+            "9b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (B) Foreign-derived income from all sal"
+      },
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9c[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (C) Foreign-derived income from all ser",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9a",
+            "9b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (C) Foreign-derived income from all ser"
+      },
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row9c[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (D) Total (add columns (A) through (C))",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9a",
+            "9b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9c. Total gross receipts (add lines 9a and 9b). Column: (D) Total (add columns (A) through (C))"
+      },
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10a[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10a. Cost of goods sold (C O G S) (see instructions). Column: (A) Foreign-derived income from a",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10a[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10a. Cost of goods sold (C O G S) (see instructions). Column: (B) Foreign-derived income from a",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10a[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10a. Cost of goods sold (C O G S) (see instructions). Column: (C) Foreign-derived income from a",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10a[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10a. Cost of goods sold (C O G S) (see instructions). Column: (D) Total (add columns (A) through (C)).",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10b[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10b. C O G S from partnerships (see instructions). Column: (A) Foreign-derived income from all ",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10b[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10b. C O G S from partnerships (see instructions). Column: (B) Foreign-derived income from all ",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10b[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10b. C O G S from partnerships (see instructions). Column: (C) Foreign-derived income from all ",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10b[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10b. C O G S from partnerships (see instructions). Column: (D) Total (add columns (A) through (C)).",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10c[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (A) Foreign-derived income from all sales o",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "10a",
+            "10b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (A) Foreign-derived income from all sales o"
+      },
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10c[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (B) Foreign-derived income from all sales o",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "10a",
+            "10b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (B) Foreign-derived income from all sales o"
+      },
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10c[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (C) Foreign-derived income from all service",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "10a",
+            "10b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (C) Foreign-derived income from all service"
+      },
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row10c[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (D) Total (add columns (A) through (C)).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "10a",
+            "10b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 10c. Total C O G S (add lines 10a and 10b). Column: (D) Total (add columns (A) through (C))."
+      },
+      "lineNumber": "10c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9a-13[0].Row11[0].f1_44[0]",
@@ -340,37 +514,61 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Interest deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Research and experimental deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Other apportioned deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Other apportioned deductions from partnerships.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Total deductions (add lines 12 through 17).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "12",
+          "end": "17"
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Total deductions (add lines 12 through 17)."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_61[0]",
       "fieldType": "date",
       "labelHint": "19. F D D E I (subtract line 18 from line 11).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "11",
+          "subtrahend": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19. F D D E I (subtract line 18 from line 11)."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_62[0]",
@@ -382,55 +580,93 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. F D I I (multiply line 8 by line 20).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. G I L T I inclusion (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Total F D I I and G I L T I (add lines 21 and 22).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21",
+            "22"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "23. Total F D I I and G I L T I (add lines 21 and 22)."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Taxable income (see instructions) (If zero or less, skip lines 25 through 27 and enter 0 on line",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Excess F D I I and G I L T I over taxable income (subtract line 24 from line 23). If zero or les",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "23",
+          "subtrahend": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "25. Excess F D I I and G I L T I over taxable income (subtract line 24 from line 23). If zero or les"
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. F D I I reduction (divide line 21 by line 23; multiply by line 25).",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. G I L T I reduction (subtract line 26 from line 25).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "25",
+          "subtrahend": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "27. G I L T I reduction (subtract line 26 from line 25)."
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. F D I I deduction (see instructions). Enter here and on Form 1120, Schedule C.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. G I L T I deduction (see instructions). Enter here and on Form 1120, Schedule C.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     }
   ]
 }

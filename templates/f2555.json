@@ -3,7 +3,7 @@
   "displayName": "Form 2555",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2555.pdf",
-  "generatedAt": "2026-04-06T21:46:18.630Z",
+  "generatedAt": "2026-04-07T00:27:43.435Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -22,31 +22,36 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. General Information. 1. Your foreign address (including country).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "occupation",
       "labelHint": "2. Your occupation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "employer_name",
       "labelHint": "3. Employer's name.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "street_address",
       "labelHint": "4a. Employer's U.S. address.",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. Employer's foreign address.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -102,14 +107,16 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5e. Other (specify).",
-      "required": false
+      "required": false,
+      "lineNumber": "5e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "tax_year",
       "labelHint": "6a. If you previously filed Form 2555 or Form 2555-E Z, enter the last year you filed the form.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
@@ -145,13 +152,15 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "tax_year",
       "labelHint": "6d. If you answered “Yes,” enter the type of exclusion and the tax year for which the revocation was",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Of what country are you a citizen/national?",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
@@ -171,25 +180,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "city",
       "labelHint": "8b. If “Yes,” enter city and country of the separate foreign residence. Also, enter the number of da",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "date",
       "labelHint": "9. List your tax home(s) during your tax year and date(s) established. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
@@ -261,13 +274,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12b. If “Yes,” who and for what period?",
-      "required": false
+      "required": false,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_17[0]",
@@ -313,211 +328,246 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow1[0].f1_18[0]",
       "fieldType": "date",
       "labelHint": "14. If you were present in the United States or its territories during the tax year, complete column",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow1[0].f1_19[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow2[0].f1_22[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (a) Date arrived in U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow2[0].f1_23[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow2[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow2[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow3[0].f1_26[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (a) Date arrived in U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow3[0].f1_27[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow3[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow3[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow4[0].f1_30[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (a) Date arrived in U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow4[0].f1_31[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow4[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Line14[0].BodyRow4[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow5[0].f1_34[0]",
       "fieldType": "date",
       "labelHint": "Row: 5. Column: (a) Date arrived in U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow5[0].f1_35[0]",
       "fieldType": "date",
       "labelHint": "Row: 5. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow5[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow5[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow6[0].f1_38[0]",
       "fieldType": "date",
       "labelHint": "Row: 6. Column: (a) Date arrived in U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow6[0].f1_39[0]",
       "fieldType": "date",
       "labelHint": "Row: 6. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow6[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow6[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow7[0].f1_42[0]",
       "fieldType": "date",
       "labelHint": "Row: 7. Column: (a) Date arrived in U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow7[0].f1_43[0]",
       "fieldType": "date",
       "labelHint": "Row: 7. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow7[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow7[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow8[0].f1_46[0]",
       "fieldType": "date",
       "labelHint": "Row: 8. Column: (a) Date arrived in U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow8[0].f1_47[0]",
       "fieldType": "date",
       "labelHint": "Row: 8. Column: (b) Date left U.S.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow8[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: (c) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table2_Line14[0].BodyRow8[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: (d) Income earned in &#xD;U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15a. List any contractual terms or other conditions relating to the length of your employment abroad",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15a. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_52[0]",
       "fieldType": "country",
       "labelHint": "15b. Enter the type of visa under which you entered the foreign country.",
-      "required": false
+      "required": false,
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_21[0]",
@@ -563,13 +613,15 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_53[0]",
       "fieldType": "relationship",
       "labelHint": "15e. If “Yes,” enter address of your home, whether it was rented, the names of the occupants, and th",
-      "required": false
+      "required": false,
+      "lineNumber": "15e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15e. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "15e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
@@ -587,151 +639,176 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "tax_year",
       "labelHint": "17. Enter your principal country of employment during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow1[0].f2_4[0]",
       "fieldType": "full_name",
       "labelHint": "18. If you traveled abroad during the 12-month period entered on line 16, complete columns (a)-(f) b",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow1[0].f2_5[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (b) Date arrived.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow1[0].f2_6[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (c) Date left.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow1[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) Full days present in country.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow1[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow1[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (f) Income earned in U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow2[0].f2_10[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Name of country (including U.S.).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow2[0].f2_11[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (b) Date arrived.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow2[0].f2_12[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (c) Date left.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) Full days present in country.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (e) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (f) Income earned in U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow3[0].f2_16[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (a) Name of country (including U.S.).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow3[0].f2_17[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (b) Date arrived.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow3[0].f2_18[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (c) Date left.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow3[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) Full days present in country.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow3[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (e) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow3[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (f) Income earned in U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow4[0].f2_22[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (a) Name of country (including U.S.).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow4[0].f2_23[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (b) Date arrived.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow4[0].f2_24[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (c) Date left.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow4[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) Full days present in country.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow4[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (e) Number of days in U.S. on business.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line18[0].BodyRow4[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (f) Income earned in U.S. on business (attach computation).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
@@ -743,157 +820,210 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Allowable share of income for personal services performed (see instructions): a. In a business (",
-      "required": false
+      "required": false,
+      "lineNumber": "20a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
       "fieldType": "full_name",
       "labelHint": "20b. In a partnership. List partnership's name and address and type of income. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "20b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20b. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "20b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20b. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "20b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Noncash income (market value of property or facilities furnished by employer—attach statement sh",
-      "required": false
+      "required": false,
+      "lineNumber": "21a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21b. Meals.",
-      "required": false
+      "required": false,
+      "lineNumber": "21b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21c. Car.",
-      "required": false
+      "required": false,
+      "lineNumber": "21c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21d. Other property or facilities. List type. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "21d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21d. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "21d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21d. and amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "21d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Allowances, reimbursements, or expenses paid on your behalf for services you performed: a. Cost ",
-      "required": false
+      "required": false,
+      "lineNumber": "22a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22b. Family.",
-      "required": false
+      "required": false,
+      "lineNumber": "22b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22c. Education.",
-      "required": false
+      "required": false,
+      "lineNumber": "22c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22d. Home Leave.",
-      "required": false
+      "required": false,
+      "lineNumber": "22d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22e. Quarters.",
-      "required": false
+      "required": false,
+      "lineNumber": "22e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22f. For any other purpose. List type. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "22f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22f. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "22f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22f. and amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "22f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22g. Add lines 22a through 22f.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "22a",
+          "end": "22f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "22g. Add lines 22a through 22f."
+      },
+      "lineNumber": "22g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Other foreign earned income. List type. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. and amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Add lines 19 through 21d, line 22g, and line 23.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "19",
+          "end": "21d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Add lines 19 through 21d, line 22g, and line 23."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Total amount of meals and lodging included on line 24 that is excludable (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Subtract line 25 from line 24. Enter the result here and on line 27 on page 3. This is your 2025",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "25"
+        },
+        "floorAtZero": false,
+        "rawLabel": "26. Subtract line 25 from line 24. Enter the result here and on line 27 on page 3. This is your 2025"
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line27TagCorrectingSubform[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 3. Part V. All Taxpayers. 27. Enter the amount from line 26.",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
@@ -925,107 +1055,160 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29a. Enter location where housing expenses incurred. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29b. Enter limit on housing expenses. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Enter the smaller of line 28 or line 29b.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "28",
+          "b": "29b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "30. Enter the smaller of line 28 or line 29b."
+      },
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "tax_year",
       "labelHint": "31. Number of days in your qualifying period that fall within your 2025 tax year (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Multiply $56.99 by the number of days on line 31. If 365 is entered on line 31, enter $20,800 he",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "33. Subtract line 32 from line 30. If the result is zero or less, don't complete the rest of this pa",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "30",
+          "subtrahend": "32"
+        },
+        "floorAtZero": false,
+        "rawLabel": "33. Subtract line 32 from line 30. If the result is zero or less, don't complete the rest of this pa"
+      },
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Enter employer-provided amounts. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. Divide line 34 by line 27. Enter the result as a decimal (rounded to at least three places), but",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. Digits after the decimal.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. Housing exclusion. Multiply line 33 by line 35. Enter the result but don't enter more than the a",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part V I I. Taxpayers Claiming the Foreign Earned Income Exclusion. 37. Maximum foreign earned incom",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "tax_year",
       "labelHint": "38. If you completed Part V I, enter the number from line 31. All others, enter the number of days i",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_15[0]",
       "fieldType": "tax_year",
       "labelHint": "39. If line 38 and the number of days in your 2025 tax year (usually 365) are the same, enter “1.000",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "39. Digits after the decimal.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40. Multiply line 37 by line 39.",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41. Subtract line 36 from line 27.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "36"
+        },
+        "floorAtZero": false,
+        "rawLabel": "41. Subtract line 36 from line 27."
+      },
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "42. Foreign earned income exclusion. Enter the smaller of line 40 or line 41. Also, complete Part V ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "40",
+          "b": "41"
+        },
+        "floorAtZero": false,
+        "rawLabel": "42. Foreign earned income exclusion. Enter the smaller of line 40 or line 41. Also, complete Part V "
+      },
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
@@ -1037,13 +1220,24 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Deductions allowed in figuring your adjusted gross income (Form 1040 or 1040-S R, line 11) that ",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "45. Subtract line 44 from line 43. Enter the result here and on Schedule 1 (Form 1040), line 8d. Com",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "43",
+          "subtrahend": "44"
+        },
+        "floorAtZero": false,
+        "rawLabel": "45. Subtract line 44 from line 43. Enter the result here and on Schedule 1 (Form 1040), line 8d. Com"
+      },
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_23[0]",
@@ -1055,13 +1249,33 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "47. Subtract line 43 from line 27.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "43"
+        },
+        "floorAtZero": false,
+        "rawLabel": "47. Subtract line 43 from line 27."
+      },
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "48. Enter the smaller of line 46 or line 47.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "46",
+          "b": "47"
+        },
+        "floorAtZero": false,
+        "rawLabel": "48. Enter the smaller of line 46 or line 47."
+      },
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
@@ -1073,7 +1287,19 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "50. Housing deduction. Add lines 48 and 49. Enter the total here and on Schedule 1 (Form 1040), line",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "48",
+            "49"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "50. Housing deduction. Add lines 48 and 49. Enter the total here and on Schedule 1 (Form 1040), line"
+      },
+      "lineNumber": "50"
     }
   ]
 }

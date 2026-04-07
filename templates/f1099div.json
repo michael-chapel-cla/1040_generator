@@ -3,7 +3,7 @@
   "displayName": "Form 1099-DIV",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099div.pdf",
-  "generatedAt": "2026-04-06T21:46:30.739Z",
+  "generatedAt": "2026-04-07T00:27:55.557Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -91,97 +91,113 @@
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1a. Total ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Qualified dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box2a_ReadOrder[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. Total capital gain distr. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Unrecap. Sec. 1250 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box2c_ReadOrder[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2c. Section 1202 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. Collectibles (28%) gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box2e_ReadOrder[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Section 897 ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2f. Section 897 capital gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box3_ReadOrder[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Nondividend distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box5_ReadOrder[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Section 199A dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Investment expenses. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box7_ReadOrder[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Foreign tax paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_22[0]",
       "fieldType": "country",
       "labelHint": "8. Foreign country or U.S. possession.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box9_ReadOrder[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Cash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Noncash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].TagCorrectingSubform[0].c1_3[0]",
@@ -191,57 +207,66 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box12_ReadOrder[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Exempt-interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Specified private activity bond interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box14_ReadOrder[0].f1_27[0]",
       "fieldType": "state",
       "labelHint": "14. 1. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box14_ReadOrder[0].f1_28[0]",
       "fieldType": "state",
       "labelHint": "14. 2. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box15_ReadOrder[0].f1_29[0]",
       "fieldType": "state",
       "labelHint": "15. 1. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].Box15_ReadOrder[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "15. 2. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_31[0]",
       "fieldType": "state",
       "labelHint": "16. 1. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_32[0]",
       "fieldType": "state",
       "labelHint": "16. 2. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
@@ -319,97 +344,113 @@
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1a. Total ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Qualified dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box2a_ReadOrder[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. Total capital gain distr. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Unrecap. Sec. 1250 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box2c_ReadOrder[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2c. Section 1202 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. Collectibles (28%) gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box2e_ReadOrder[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Section 897 ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2f. Section 897 capital gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box3_ReadOrder[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Nondividend distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box5_ReadOrder[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Section 199A dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Investment expenses. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box7_ReadOrder[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Foreign tax paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_22[0]",
       "fieldType": "country",
       "labelHint": "8. Foreign country or U.S. possession.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box9_ReadOrder[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Cash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Noncash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].TagCorrectingSubform[0].c2_3[0]",
@@ -419,57 +460,66 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box12_ReadOrder[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Exempt-interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Specified private activity bond interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box14_ReadOrder[0].f2_27[0]",
       "fieldType": "state",
       "labelHint": "14. 1. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box14_ReadOrder[0].f2_28[0]",
       "fieldType": "state",
       "labelHint": "14. 2. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box15_ReadOrder[0].f2_29[0]",
       "fieldType": "state",
       "labelHint": "15. 1. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].Box15_ReadOrder[0].f2_30[0]",
       "fieldType": "state",
       "labelHint": "15. 2. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_31[0]",
       "fieldType": "state",
       "labelHint": "16. 1. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_32[0]",
       "fieldType": "state",
       "labelHint": "16. 2. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
@@ -537,97 +587,113 @@
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1a. Total ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Qualified dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box2a_ReadOrder[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. Total capital gain distr. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Unrecap. Sec. 1250 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box2c_ReadOrder[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2c. Section 1202 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. Collectibles (28%) gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box2e_ReadOrder[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Section 897 ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2f. Section 897 capital gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box3_ReadOrder[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Nondividend distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box5_ReadOrder[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Section 199A dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Investment expenses. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box7_ReadOrder[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Foreign tax paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_22[0]",
       "fieldType": "country",
       "labelHint": "8. Foreign country or U.S. possession.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box9_ReadOrder[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Cash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Noncash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].TagCorrectingSubform[0].c2_3[0]",
@@ -637,57 +703,66 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box12_ReadOrder[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Exempt-interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Specified private activity bond interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box14_ReadOrder[0].f2_27[0]",
       "fieldType": "state",
       "labelHint": "14. 1. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box14_ReadOrder[0].f2_28[0]",
       "fieldType": "state",
       "labelHint": "14. 2. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box15_ReadOrder[0].f2_29[0]",
       "fieldType": "state",
       "labelHint": "15. 1. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].Box15_ReadOrder[0].f2_30[0]",
       "fieldType": "state",
       "labelHint": "15. 2. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_31[0]",
       "fieldType": "state",
       "labelHint": "16. 1. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RghtCol[0].f2_32[0]",
       "fieldType": "state",
       "labelHint": "16. 2. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
@@ -765,97 +840,113 @@
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1a. Total ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Qualified dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box2a_ReadOrder[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. Total capital gain distr. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Unrecap. Sec. 1250 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box2c_ReadOrder[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2c. Section 1202 gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. Collectibles (28%) gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box2e_ReadOrder[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Section 897 ordinary dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2f. Section 897 capital gain. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box3_ReadOrder[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Nondividend distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box5_ReadOrder[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Section 199A dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Investment expenses. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box7_ReadOrder[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Foreign tax paid. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_22[0]",
       "fieldType": "country",
       "labelHint": "8. Foreign country or U.S. possession.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box9_ReadOrder[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Cash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Noncash liquidation distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].TagCorrectingSubform[0].c2_3[0]",
@@ -865,57 +956,66 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box12_ReadOrder[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Exempt-interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Specified private activity bond interest dividends. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box14_ReadOrder[0].f2_27[0]",
       "fieldType": "state",
       "labelHint": "14. 1. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box14_ReadOrder[0].f2_28[0]",
       "fieldType": "state",
       "labelHint": "14. 2. State.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box15_ReadOrder[0].f2_29[0]",
       "fieldType": "state",
       "labelHint": "15. 1. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].Box15_ReadOrder[0].f2_30[0]",
       "fieldType": "state",
       "labelHint": "15. 2. State identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_31[0]",
       "fieldType": "state",
       "labelHint": "16. 1. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_32[0]",
       "fieldType": "state",
       "labelHint": "16. 2. State tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     }
   ]
 }

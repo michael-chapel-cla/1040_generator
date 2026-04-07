@@ -3,7 +3,7 @@
   "displayName": "Form 8288",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8288.pdf",
-  "generatedAt": "2026-04-06T21:46:34.578Z",
+  "generatedAt": "2026-04-07T00:27:59.429Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -19,80 +19,93 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
       "fieldType": "full_name",
       "labelHint": "Complete the withholding agent information and Part I through Part V, as applicable. Also, complete ",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
       "fieldType": "ssn",
       "labelHint": "1b. U.S. taxpayer identification number (T I N).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
       "fieldType": "street_address",
       "labelHint": "1c. Street address. Do not use a P.O. box.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
       "fieldType": "street_address",
       "labelHint": "1d. Apt. or suite no.",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
       "fieldType": "city",
       "labelHint": "1e. City or town.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
       "fieldType": "state",
       "labelHint": "1f. State or province.",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1g. Country.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
       "fieldType": "zip_code",
       "labelHint": "1h. Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
       "fieldType": "phone_number",
       "labelHint": "1i. Phone number (optional).",
-      "required": false
+      "required": false,
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Description and location of the U.S. real property interest acquired, transferred, or distributed",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "date",
       "labelHint": "3. Date of transfer.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "date",
       "labelHint": "4. Date of withholding certificate or date of distribution (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Number of Forms 8288-A or 8288-C attached.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
@@ -104,13 +117,15 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "percentage",
       "labelHint": "7. Withholding tax liability. Multiply line 6 by the applicable withholding rate on line 7a or 7b. O",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7b. 15% (0.15). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -120,19 +135,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7c. Amount. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Amount withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -148,25 +166,29 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10a. Amount subject to withholding. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "percentage",
       "labelHint": "11. Withholding tax liability. Multiply line 10 by the applicable withholding rate on line 11a, 11b,",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11b. 15% (0.15). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11c. 21% (0.21) (or 35% (0.35) for distributions made before January 1, 2018). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
@@ -176,19 +198,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11d. Amount. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "11d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Amount withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
@@ -200,7 +225,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "percentage",
       "labelHint": "14. Withholding tax liability. Multiply line 13 by the applicable withholding rate on line 14a or ch",
-      "required": false
+      "required": false,
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
@@ -210,49 +236,57 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14b. Amount. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Amount withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I V. To Be Completed by the Partnership Required To Withhold Under Section 1446(f)(4). ",
-      "required": false
+      "required": false,
+      "lineNumber": "16a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16b. Total amount of distributions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16c. Total amount of other withholding. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Transferee’s liability under section 1446(f)(1) (if known). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Total amount withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
@@ -264,13 +298,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Amount withheld (see instructions). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
       "fieldType": "percentage",
       "labelHint": "21. Withholding tax liability. Multiply line 19 by the applicable withholding rate on line 21a or ch",
-      "required": false
+      "required": false,
+      "lineNumber": "21a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -280,19 +316,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "21b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21b. Amount. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "21b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22a. Amount of refund requested. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "22a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].RoutingNo[0].f2_11[0]",
@@ -326,7 +365,8 @@
       "fieldType": "account_number",
       "labelHint": "22d. Account number.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "22d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",

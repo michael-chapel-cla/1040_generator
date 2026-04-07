@@ -3,27 +3,30 @@
   "displayName": "Form 941",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f941.pdf",
-  "generatedAt": "2026-04-06T21:46:28.876Z",
+  "generatedAt": "2026-04-07T00:27:53.689Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Header[0].EntityArea[0].f1_1[0]",
       "fieldType": "employer_ein",
       "labelHint": "Page 3. 1. Enter your employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Header[0].EntityArea[0].f1_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Header[0].EntityArea[0].f1_3[0]",
       "fieldType": "business_name",
       "labelHint": "4. Enter your business name (individual name if sole proprietor).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Header[0].EntityArea[0].f1_4[0]",
@@ -155,27 +158,31 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Wages, tips, and other compensation. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Federal income tax withheld from wages, tips, and other compensation. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -185,267 +192,329 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5a. Taxable social security wages. Column 1. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5a. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5a. Column 1 multiplied by 0.124 equals Column 2. Column 2. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5a. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Taxable social security tips. Column 1. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Column 1 multiplied by 0.124 equals Column 2. Column 2. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Taxable Medicare wages &amp; tips. Column 1. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Column 1 multiplied by 0.029 equals Column 2. Column 2. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Taxable wages &amp; tips subject to Additional Medicare Tax withholding. Column 1. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Column 1 multiplied by 0.009 equals Column 2. Column 2. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5e. Total social security and Medicare taxes. Add Column 2 from lines 5a, 5b, 5c, and 5d. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5e. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5f. Section 3121(q) Notice and Demand—Tax due on unreported tips (see instructions). Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5f. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Total taxes before adjustments. Add lines 3, 5e, and 5f. Dollars.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3",
+            "5e",
+            "5f"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. Total taxes before adjustments. Add lines 3, 5e, and 5f. Dollars."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Current quarter’s adjustment for fractions of cents. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Current quarter’s adjustment for sick pay. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Current quarter’s adjustments for tips and group-term life insurance. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Total taxes after adjustments. Combine lines 6 through 9. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Qualified small business payroll tax credit for increasing research activities. Attach Form 8974",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Total taxes after adjustments and nonrefundable credits. Subtract line 11 from 10. Dollars.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Total taxes after adjustments and nonrefundable credits. Subtract line 11 from 10. Dollars."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Total deposits for this quarter, including overpayment applied from a prior quarter and overpaym",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Balance due. If line 12 is more than line 13, enter the difference and see instructions. Dollars",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15a. Overpayment. If line 13 is more than line 12, enter the difference. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15a. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
@@ -455,7 +524,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
@@ -465,14 +535,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].RoutingNo[0].f1_57[0]",
       "fieldType": "routing_number",
       "labelHint": "15c. Routing number.",
       "required": false,
-      "maxLength": 9
+      "maxLength": 9,
+      "lineNumber": "15c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
@@ -499,27 +571,31 @@
       "fieldType": "account_number",
       "labelHint": "15e. Account number.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "15e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Name_ReadOrder[0].f1_3[0]",
       "fieldType": "business_name",
       "labelHint": "4. Enter your business name (individual name if sole proprietor).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].EIN_Number[0].f1_1[0]",
       "fieldType": "employer_ein",
       "labelHint": "Page 3. 1. Enter your employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].EIN_Number[0].f1_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -529,7 +605,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
@@ -539,59 +616,68 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Tax liability: Month 1. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Month 1. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Month 2. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Month 2. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Month 3. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Month 3. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Total liability for quarter. Total must equal line 12. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Total liability for quarter. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[2]",
@@ -601,7 +687,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -618,7 +705,8 @@
       "fieldType": "date",
       "labelHint": "17. enter the final date you paid wages (2 digit month, 2 digit day, 4 digit year).",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
@@ -628,7 +716,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
@@ -760,27 +849,31 @@
       "fieldType": "employer_ein",
       "labelHint": "Page 3. 1. Enter your employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].EIN_Number[0].f1_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Last 7 digits.",
       "required": false,
-      "maxLength": 7
+      "maxLength": 7,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f4_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the amount of your payment. Make your check or money order payable to \"United States Treasu",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f4_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line3_ReadOrder[0].c4_1[0]",
@@ -790,7 +883,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line3_ReadOrder[0].c4_1[1]",
@@ -800,7 +894,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line3_ReadOrder[0].c4_1[2]",
@@ -810,7 +905,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line3_ReadOrder[0].c4_1[3]",
@@ -820,25 +916,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f1_3[0]",
       "fieldType": "business_name",
       "labelHint": "4. Enter your business name (individual name if sole proprietor).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f4_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Enter your address.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f4_6[0]",
       "fieldType": "full_name",
       "labelHint": "4. Enter your city, state, and Z I P code; or your city, foreign country name, foreign province/coun",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     }
   ]
 }

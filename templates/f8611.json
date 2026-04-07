@@ -3,7 +3,7 @@
   "displayName": "Form 8611",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8611.pdf",
-  "generatedAt": "2026-04-06T21:46:35.975Z",
+  "generatedAt": "2026-04-07T00:28:00.841Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -69,97 +69,151 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Credits included on line 1 attributable to additions to qualified basis (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Credits subject to recapture. Subtract line 2 from line 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1",
+          "subtrahend": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Credits subject to recapture. Subtract line 2 from line 1."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "percentage",
       "labelHint": "4. Credit recapture percentage (see instructions). Digits before the decimal.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Digits after the decimal.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Accelerated portion of credit. Multiply line 3 by line 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "percentage",
       "labelHint": "6. Percentage decrease in qualified basis. Express as a decimal amount carried out to at least 3 pla",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Digits after the decimal.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Amount of accelerated portion recaptured (see instructions if prior recapture on building). Multi",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Enter recapture amount from flow-through entity (see Note above).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Enter the unused portion of the accelerated amount from line 7 (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Net recapture. Subtract line 9 from line 7 or line 8. If less than zero, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "7",
+          "subtrahend": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Net recapture. Subtract line 9 from line 7 or line 8. If less than zero, enter 0."
+      },
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Enter interest on the line 10 recapture amount (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Total amount subject to recapture. Add lines 10 and 11.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "10",
+            "11"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Total amount subject to recapture. Add lines 10 and 11."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Unused credits attributable to this building reduced by the accelerated portion included on line",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Recapture tax. Subtract line 13 from line 12. If zero or less, enter 0. Enter the result here an",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "13"
+        },
+        "floorAtZero": true,
+        "rawLabel": "14. Recapture tax. Subtract line 13 from line 12. If zero or less, enter 0. Enter the result here an"
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Carryforward of the low-income housing credit attributable to this building. Subtract line 12 fr",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
@@ -171,7 +225,19 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Total recapture. Add lines 7 and 16 (see instructions).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "7",
+            "16"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Total recapture. Add lines 7 and 16 (see instructions)."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",

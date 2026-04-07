@@ -3,7 +3,7 @@
   "displayName": "Form 4684",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4684.pdf",
-  "generatedAt": "2026-04-06T21:46:18.974Z",
+  "generatedAt": "2026-04-07T00:27:43.775Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -46,7 +46,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowA[0].f1_5[0]",
       "fieldType": "city",
       "labelHint": "1. Description of properties (show type, location (city, state, and Z I P code), and date acquired f",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1[0].RowA[0].f1_6[0]",
@@ -146,49 +147,57 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line2[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Cost or other basis of each property. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line2[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Cost or other basis of each property. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line2[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Cost or other basis of each property. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line2[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Cost or other basis of each property. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line3[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Insurance or other reimbursement (whether or not you filed a claim) (see instructions). Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line3[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Insurance or other reimbursement (whether or not you filed a claim) (see instructions). Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line3[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Insurance or other reimbursement (whether or not you filed a claim) (see instructions). Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line3[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Insurance or other reimbursement (whether or not you filed a claim) (see instructions). Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line4[0].f1_29[0]",
@@ -200,157 +209,300 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line4[0].f1_30[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Gain from casualty or theft. If line 3 is more than line 2, enter the difference here and sk",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line4[0].f1_31[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Gain from casualty or theft. If line 3 is more than line 2, enter the difference here and sk",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line4[0].f1_32[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Gain from casualty or theft. If line 3 is more than line 2, enter the difference here and sk",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line5[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Fair market value before casualty or theft. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line5[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Fair market value before casualty or theft. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line5[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Fair market value before casualty or theft. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line5[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Fair market value before casualty or theft. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line6[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Fair market value after casualty or theft. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line6[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Fair market value after casualty or theft. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line6[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Fair market value after casualty or theft. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line6[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Fair market value after casualty or theft. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line7[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Subtract line 6 from line 5. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 7. Subtract line 6 from line 5. Column: Property A."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line7[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Subtract line 6 from line 5. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 7. Subtract line 6 from line 5. Column: Property B."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line7[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Subtract line 6 from line 5. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 7. Subtract line 6 from line 5. Column: Property C."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line7[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Subtract line 6 from line 5. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 7. Subtract line 6 from line 5. Column: Property D."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line8[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "2",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property A."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line8[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "2",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property B."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line8[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "2",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property C."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line8[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "2",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the smaller of line 2 or line 7. Column: Property D."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line9[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "8",
+          "subtrahend": "3"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property A."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line9[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "8",
+          "subtrahend": "3"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property B."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line9[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "8",
+          "subtrahend": "3"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property C."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line9[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "8",
+          "subtrahend": "3"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 9. Subtract line 3 from line 8. If zero or less, enter 0. Column: Property D."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Casualty or theft loss. Add the amounts on line 9 in columns A through D.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Enter $100 ($500 if qualified disaster loss rules apply; see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Subtract line 11 from line 10. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "11"
+        },
+        "floorAtZero": true,
+        "rawLabel": "12. Subtract line 11 from line 10. If zero or less, enter 0."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_56[0]",
@@ -362,31 +514,56 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Add the amounts on line 12 of all Forms 4684. If you have losses not attributable to a federally",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. If line 13 is more than line 14, enter the difference here and on Schedule D. Do not complete th",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Add lines 13 and 15. Subtract the result from line 14.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "13",
+            "15"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "16. Add lines 13 and 15. Subtract the result from line 14."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Enter 10% of your adjusted gross income from Form 1040, 1040-S R, or 1040-N R, line 11b. Estates",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Subtract line 17 from line 16. If zero or less, enter 0. Also, enter the result on Schedule A (F",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "16",
+          "subtrahend": "17"
+        },
+        "floorAtZero": true,
+        "rawLabel": "18. Subtract line 17 from line 16. If zero or less, enter 0. Also, enter the result on Schedule A (F"
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
@@ -411,67 +588,78 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line20[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Cost or adjusted basis of each property. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line20[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Cost or adjusted basis of each property. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line20[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Cost or adjusted basis of each property. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line20[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Cost or adjusted basis of each property. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line21[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Insurance or other reimbursement (whether or not you filed a claim). See the instructions f",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line21[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Insurance or other reimbursement (whether or not you filed a claim). See the instructions f",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line21[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Insurance or other reimbursement (whether or not you filed a claim). See the instructions f",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line21[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Insurance or other reimbursement (whether or not you filed a claim). See the instructions f",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line22[0].f2_15[0]",
@@ -483,146 +671,278 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line22[0].f2_16[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Gain from casualty or theft. If line 21 is more than line 20, enter the difference here and",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line22[0].f2_17[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Gain from casualty or theft. If line 21 is more than line 20, enter the difference here and",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line22[0].f2_18[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Gain from casualty or theft. If line 21 is more than line 20, enter the difference here and",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line23[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Fair market value before casualty or theft. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line23[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Fair market value before casualty or theft. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line23[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Fair market value before casualty or theft. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line23[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Fair market value before casualty or theft. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line24[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Fair market value after casualty or theft. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line24[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Fair market value after casualty or theft. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line24[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Fair market value after casualty or theft. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line24[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Fair market value after casualty or theft. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line25[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 24 from line 23. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "23",
+          "subtrahend": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Subtract line 24 from line 23. Column: Property A."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line25[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 24 from line 23. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "23",
+          "subtrahend": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Subtract line 24 from line 23. Column: Property B."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line25[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 24 from line 23. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "23",
+          "subtrahend": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Subtract line 24 from line 23. Column: Property C."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line25[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Subtract line 24 from line 23. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "23",
+          "subtrahend": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Subtract line 24 from line 23. Column: Property D."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line26[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "20",
+          "b": "25"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas"
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line26[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "20",
+          "b": "25"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas"
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line26[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "20",
+          "b": "25"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas"
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line26[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "20",
+          "b": "25"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Enter the smaller of line 20 or line 25. Note: If the property was totally destroyed by cas"
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line27[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "26",
+          "subtrahend": "21"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property A."
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line27[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "26",
+          "subtrahend": "21"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property B."
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line27[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "26",
+          "subtrahend": "21"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property C."
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line27[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "26",
+          "subtrahend": "21"
+        },
+        "floorAtZero": true,
+        "rawLabel": "Row: 27. Subtract line 21 from line 26. If zero or less, enter 0. Column: Property D."
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Casualty or theft loss. Add the amounts on line 27. Enter the total here and on line 29 or line ",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row1[0].f2_40[0]",
@@ -634,169 +954,208 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row1[0].bi[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Open parenthesis. Losses from casualties or thefts. (i) Trade, business, rental,",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row1[0].bii[0].f2_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Open parenthesis. Losses from casualties or thefts. (i i) Income-producing prope",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row1[0].c[0].f2_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Gains from casualties or thefts includible in income.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row2[0].f2_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (a) Identify casualty or theft.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row2[0].bi[0].f2_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Open parenthesis. Losses from casualties or thefts. (i) Trade, business, rental,",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row2[0].bii[0].f2_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Open parenthesis. Losses from casualties or thefts. (i i) Income-producing prope",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line29[0].Row2[0].c[0].f2_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) Gains from casualties or thefts includible in income.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Totals. Add the amounts on line 29. (b) Open parenthesis. Losses from casualties or thefts. (i) ",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. (b) Open parenthesis. Losses from casualties or thefts. (i i) Income-producing property. Close p",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. (c) Gains from casualties or thefts includible in income.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Combine line 30, columns (b)(i) and (c). Enter the net gain or (loss) here and on Form 4797, lin",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Enter the amount from line 30, column (b)(i i), here. Individuals, enter the amount from income-",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line33_ReadOrder[0].f2_53[0]",
       "fieldType": "tax_year",
       "labelHint": "Casualty or Theft of Property Held More Than One Year. 33. Casualty or theft gains from Form 4797, l",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row1[0].f2_54[0]",
       "fieldType": "tax_year",
       "labelHint": "Casualty or Theft of Property Held More Than One Year. 34. Row: 1. Column: (a) Identify casualty or ",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row1[0].bi[0].f2_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Open parenthesis. Losses from casualties or thefts. (i) Trade, business, rental ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row1[0].bii[0].f2_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Open parenthesis. Losses from casualties or thefts. (i i) Income-producing prope",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row1[0].c[0].f2_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Gains from casualties or thefts includible in income.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row2[0].f2_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (a) Identify casualty or theft.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row2[0].bi[0].f2_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Open parenthesis. Losses from casualties or thefts. (i) Trade, business, rental ",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row2[0].bii[0].f2_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Open parenthesis. Losses from casualties or thefts. (i i) Income-producing prope",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line34[0].Row2[0].c[0].f2_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) Gains from casualties or thefts includible in income.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. Total losses. Add amounts on line 34, columns (b)(i) and (b)(i i). (b) Open parenthesis. Losses ",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. (b) Open parenthesis. Losses from casualties or thefts. (i i) Income-producing property. Close p",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. Total gains. Add lines 33 and 34, column (c).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "33",
+            "34"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "36. Total gains. Add lines 33 and 34, column (c)."
+      },
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "37. Add amounts on line 35, columns (b)(i) and (b)(i i).",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38. If the loss on line 37 is more than the gain on line 36: a. Combine line 35, column (b)(i), and ",
-      "required": false
+      "required": false,
+      "lineNumber": "38a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38b. Enter the amount from line 35, column (b)(i i), here. Individuals, enter the amount from income",
-      "required": false
+      "required": false,
+      "lineNumber": "38b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "39. If the loss on line 37 is less than or equal to the gain on line 36, combine lines 36 and 37 and",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
@@ -821,75 +1180,128 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41. Subsequent investments (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "tax_year",
       "labelHint": "42. Income reported on your tax returns for tax years prior to the discovery year (see instructions)",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43. Add lines 40, 41, and 42.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "40",
+            "41",
+            "42"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "43. Add lines 40, 41, and 42."
+      },
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Withdrawals for all years (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "45. Subtract line 44 from line 43. This is your total qualified investment.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "43",
+          "subtrahend": "44"
+        },
+        "floorAtZero": false,
+        "rawLabel": "45. Subtract line 44 from line 43. This is your total qualified investment."
+      },
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "46. Enter 0.95 (95%) if you have no potential third-party recovery. Enter 0.75 (75%) if you have potential third-party recovery. Number before decimal.",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "46. Numbers after decimal.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "47. Multiply line 46 by line 45.",
-      "required": false
+      "required": false,
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "48. Actual recovery.",
-      "required": false
+      "required": false,
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "49. Potential insurance/Securities Investor Protection Corporation (S I P C) recovery.",
-      "required": false
+      "required": false,
+      "lineNumber": "49"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "50. Add lines 48 and 49. This is your total recovery.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "48",
+            "49"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "50. Add lines 48 and 49. This is your total recovery."
+      },
+      "lineNumber": "50"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "51. Subtract line 50 from line 47. This is your deductible theft loss. Include this amount on line 2",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "47",
+          "subtrahend": "50"
+        },
+        "floorAtZero": false,
+        "rawLabel": "51. Subtract line 50 from line 47. This is your deductible theft loss. Include this amount on line 2"
+      },
+      "lineNumber": "51"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].BulletedList2[0].Bullet1[0].f3_16[0]",
@@ -939,31 +1351,36 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "52. Entry line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "52"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_5[0]",
       "fieldType": "date",
       "labelHint": "53. Provide the date or dates (m m/d d/y y y y) of the loss or losses attributable to the federally ",
-      "required": false
+      "required": false,
+      "lineNumber": "53"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "53. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "53"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_7[0]",
       "fieldType": "city",
       "labelHint": "54. Specify the address, including the city or town, county or parish, state, and Z I P code where t",
-      "required": false
+      "required": false,
+      "lineNumber": "54"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "54. Entry line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "54"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_9[0]",
@@ -975,26 +1392,30 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "55. Entry line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "55"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
       "fieldType": "date",
       "labelHint": "56. Specify the date (m m/d d/y y y y) you filed the prior election, which you are now revoking. (Se",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "56"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "57. Enclose your payment or otherwise provide evidence for, or explanation of, your arrangements for",
-      "required": false
+      "required": false,
+      "lineNumber": "57"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "57. Entry line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "57"
     }
   ]
 }

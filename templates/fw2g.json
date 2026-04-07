@@ -3,7 +3,7 @@
   "displayName": "Form W-2G",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw2g.pdf",
-  "generatedAt": "2026-04-06T21:46:29.959Z",
+  "generatedAt": "2026-04-07T00:27:54.789Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyA_Header[0].f1_01[0]",
@@ -133,111 +133,129 @@
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].Box1_ReadOrder[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Reportable winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_19[0]",
       "fieldType": "date",
       "labelHint": "2. Date won.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of wager.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Race.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].Box7_ReadOrder[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Winnings from identical wagers. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cashier.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Window.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. First identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Second identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "13. State/Payer's state identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_31[0]",
       "fieldType": "state",
       "labelHint": "14. State winnings. $.",
       "required": false,
-      "maxLength": 20
+      "maxLength": 20,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].Box15_ReadOrder[0].f1_32[0]",
       "fieldType": "state",
       "labelHint": "15. State income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Local winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].Box17_ReadOrder[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Local income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_35[0]",
       "fieldType": "full_name",
       "labelHint": "18. Name of locality.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Copy1Header[0].f1_01[0]",
@@ -367,111 +385,129 @@
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].Box1_ReadOrder[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Reportable winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_19[0]",
       "fieldType": "date",
       "labelHint": "2. Date won.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of wager.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Race.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].Box7_ReadOrder[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Winnings from identical wagers. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cashier.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Window.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. First identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Second identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "13. State/Payer's state identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_31[0]",
       "fieldType": "state",
       "labelHint": "14. State winnings. $.",
       "required": false,
-      "maxLength": 20
+      "maxLength": 20,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].Box15_ReadOrder[0].f1_32[0]",
       "fieldType": "state",
       "labelHint": "15. State income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Local winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].Box17_ReadOrder[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Local income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_35[0]",
       "fieldType": "full_name",
       "labelHint": "18. Name of locality.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].CopyBHeader[0].f1_01[0]",
@@ -591,111 +627,129 @@
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].Box1_ReadOrder[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Reportable winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_19[0]",
       "fieldType": "date",
       "labelHint": "2. Date won.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of wager.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Race.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].Box7_ReadOrder[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Winnings from identical wagers. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cashier.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Window.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. First identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Second identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "13. State/Payer's state identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_31[0]",
       "fieldType": "state",
       "labelHint": "14. State winnings. $.",
       "required": false,
-      "maxLength": 20
+      "maxLength": 20,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].Box15_ReadOrder[0].f1_32[0]",
       "fieldType": "state",
       "labelHint": "15. State income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Local winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].Box17_ReadOrder[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Local income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_35[0]",
       "fieldType": "full_name",
       "labelHint": "18. Name of locality.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].CopyCHeader[0].f1_01[0]",
@@ -815,111 +869,129 @@
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].Box1_ReadOrder[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Reportable winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_19[0]",
       "fieldType": "date",
       "labelHint": "2. Date won.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of wager.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Race.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].Box7_ReadOrder[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Winnings from identical wagers. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cashier.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Window.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. First identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Second identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "13. State/Payer's state identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_31[0]",
       "fieldType": "state",
       "labelHint": "14. State winnings. $.",
       "required": false,
-      "maxLength": 20
+      "maxLength": 20,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].Box15_ReadOrder[0].f1_32[0]",
       "fieldType": "state",
       "labelHint": "15. State income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Local winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].Box17_ReadOrder[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Local income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_35[0]",
       "fieldType": "full_name",
       "labelHint": "18. Name of locality.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Copy2Header[0].f1_01[0]",
@@ -1039,111 +1111,129 @@
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].Box1_ReadOrder[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Reportable winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_19[0]",
       "fieldType": "date",
       "labelHint": "2. Date won.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of wager.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Race.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].Box7_ReadOrder[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Winnings from identical wagers. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cashier.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Window.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. First identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Second identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "13. State/Payer's state identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_31[0]",
       "fieldType": "state",
       "labelHint": "14. State winnings. $.",
       "required": false,
-      "maxLength": 20
+      "maxLength": 20,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].Box15_ReadOrder[0].f1_32[0]",
       "fieldType": "state",
       "labelHint": "15. State income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Local winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].Box17_ReadOrder[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Local income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_35[0]",
       "fieldType": "full_name",
       "labelHint": "18. Name of locality.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].CopyDHeader[0].f1_01[0]",
@@ -1273,111 +1363,129 @@
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].Box1_ReadOrder[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Reportable winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_19[0]",
       "fieldType": "date",
       "labelHint": "2. Date won.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of wager.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Federal income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Race.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].Box7_ReadOrder[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Winnings from identical wagers. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cashier.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Window.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. First identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Second identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "13. State/Payer's state identification no.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_31[0]",
       "fieldType": "state",
       "labelHint": "14. State winnings. $.",
       "required": false,
-      "maxLength": 20
+      "maxLength": 20,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].Box15_ReadOrder[0].f1_32[0]",
       "fieldType": "state",
       "labelHint": "15. State income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Local winnings. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].Box17_ReadOrder[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Local income tax withheld. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_35[0]",
       "fieldType": "full_name",
       "labelHint": "18. Name of locality.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     }
   ]
 }

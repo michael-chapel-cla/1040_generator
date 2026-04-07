@@ -3,7 +3,7 @@
   "displayName": "Form 8822",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8822.pdf",
-  "generatedAt": "2026-04-06T21:46:36.813Z",
+  "generatedAt": "2026-04-07T00:28:01.655Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -23,7 +23,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -33,130 +34,151 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
       "fieldType": "full_name",
       "labelHint": "2. Decedent's name.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_2[0]",
       "fieldType": "ssn",
       "labelHint": "2. Social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
       "fieldType": "last_name",
       "labelHint": "3a. Your name (first name, initial, and last name).",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "ssn",
       "labelHint": "3b. Your social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "first_name",
       "labelHint": "4a. Spouse's name (first name, initial, and last name).",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "ssn",
       "labelHint": "4b. Spouse's social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "full_name",
       "labelHint": "5a. Your prior name(s). See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "full_name",
       "labelHint": "5b. Spouse's prior name(s). See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "street_address",
       "labelHint": "6a. Your old address (no., street, apt. no., city or town, state, and Z I P code). If a P. O. box, s",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "full_name",
       "labelHint": "6a. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "street_address",
       "labelHint": "6a. Foreign province/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "zip_code",
       "labelHint": "6a. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "street_address",
       "labelHint": "6b. Spouse’s old address, if different from line 6a (no., street, apt. no., city or town, state, and",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "full_name",
       "labelHint": "6b. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "street_address",
       "labelHint": "6b. Foreign province/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "zip_code",
       "labelHint": "6b. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "street_address",
       "labelHint": "7. New address (no., street, apt. no., city or town, state, and Z I P code). If a P. O. box, see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "full_name",
       "labelHint": "7. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "street_address",
       "labelHint": "7. Foreign province/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "zip_code",
       "labelHint": "7. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",

@@ -3,7 +3,7 @@
   "displayName": "Form 1098",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1098.pdf",
-  "generatedAt": "2026-04-06T21:46:31.784Z",
+  "generatedAt": "2026-04-07T00:27:56.598Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -80,37 +80,43 @@
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Mortgage interest received from payer(s)/borrower(s). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Outstanding mortgage principal. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_13[0]",
       "fieldType": "date",
       "labelHint": "3. Mortgage origination date.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Refund of overpaid interest. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Mortgage insurance premiums. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Points paid on purchase of principal residence. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].c1_3[0]",
@@ -126,25 +132,29 @@
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Address or description of property securing mortgage (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].f1_18[0]",
       "fieldType": "date",
       "labelHint": "11. Mortgage acquisition date.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].TagCorrectingSubform[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Number of properties securing the mortgage.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RightCol[0].TagCorrectingSubform[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Other.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].CalendarYear[0].f2_1[0]",
@@ -211,37 +221,43 @@
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Mortgage interest received from payer(s)/borrower(s).* *Caution: The amount shown may not be full",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Outstanding mortgage principal. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_13[0]",
       "fieldType": "date",
       "labelHint": "3. Mortgage origination date.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Refund of overpaid interest. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Mortgage insurance premiums. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Points paid on purchase of principal residence. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].c2_3[0]",
@@ -257,25 +273,29 @@
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Address or description of property securing mortgage.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].TagCorrectingSubform[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Number of properties securing the mortgage.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].TagCorrectingSubform[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Other.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_18[0]",
       "fieldType": "date",
       "labelHint": "11. Mortgage acquisition date.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     }
   ]
 }

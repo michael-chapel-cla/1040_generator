@@ -3,7 +3,7 @@
   "displayName": "Form 8805",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8805.pdf",
-  "generatedAt": "2026-04-06T21:46:34.857Z",
+  "generatedAt": "2026-04-07T00:27:59.717Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_01[0]",
@@ -42,70 +42,81 @@
       "pdfFieldName": "topmostSubform[0].CopyA[0].Lines1-4[0].f1_06[0]",
       "fieldType": "full_name",
       "labelHint": "1a. Foreign partner’s name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Lines1-4[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. U.S. identifying number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Lines1-4[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Lines1-4[0].f1_09[0]",
       "fieldType": "account_number",
       "labelHint": "2. Account number assigned by partnership (if any).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Lines1-4[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of partner (specify—see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Lines1-4[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Country code of partner (enter two-letter code—see instructions).",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_12[0]",
       "fieldType": "full_name",
       "labelHint": "5a. Name of partnership.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_13[0]",
       "fieldType": "employer_ein",
       "labelHint": "5b. U.S. Employer Identification Number (E I N).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "6. Withholding agent’s name. If partnership is also the withholding agent, enter “SAME” and do not c",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].c1_1[0]",
@@ -115,7 +126,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].c1_2[0]",
@@ -125,49 +137,57 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_17[0]",
       "fieldType": "tax_year",
       "labelHint": "9. Partnership’s E C T I allocable to partner for the tax year (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Total tax credit allowed to partner under section 1446 (see instructions). Individual and corpor",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Line11_ReadOrder[0].f1_19[0]",
       "fieldType": "full_name",
       "labelHint": "Schedule T—Beneficiary Information (see instructions). 11a. Name of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Line11_ReadOrder[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11b. U.S. identifying number of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Amount of E C T I on line 9 to be included in the beneficiary’s gross income (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Amount of tax credit on line 10 that the beneficiary is entitled to claim on its return (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_01[0]",
@@ -206,70 +226,81 @@
       "pdfFieldName": "topmostSubform[0].CopyB[0].Lines1-4[0].f1_06[0]",
       "fieldType": "full_name",
       "labelHint": "1a. Foreign partner’s name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Lines1-4[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. U.S. identifying number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Lines1-4[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Lines1-4[0].f1_09[0]",
       "fieldType": "account_number",
       "labelHint": "2. Account number assigned by partnership (if any).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Lines1-4[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of partner (specify—see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Lines1-4[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Country code of partner (enter two-letter code—see instructions).",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_12[0]",
       "fieldType": "full_name",
       "labelHint": "5a. Name of partnership.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_13[0]",
       "fieldType": "employer_ein",
       "labelHint": "5b. U.S. Employer Identification Number (E I N).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "6. Withholding agent’s name. If partnership is also the withholding agent, enter “SAME” and do not c",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].c1_1[0]",
@@ -279,7 +310,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].c1_2[0]",
@@ -289,49 +321,57 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_17[0]",
       "fieldType": "tax_year",
       "labelHint": "9. Partnership’s E C T I allocable to partner for the tax year (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Total tax credit allowed to partner under section 1446 (see instructions). Individual and corpor",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Line11_ReadOrder[0].f1_19[0]",
       "fieldType": "full_name",
       "labelHint": "Schedule T—Beneficiary Information (see instructions). 11a. Name of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Line11_ReadOrder[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11b. U.S. identifying number of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Amount of E C T I on line 9 to be included in the beneficiary’s gross income (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Amount of tax credit on line 10 that the beneficiary is entitled to claim on its return (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_01[0]",
@@ -370,70 +410,81 @@
       "pdfFieldName": "topmostSubform[0].CopyC[0].Lines1-4[0].f1_06[0]",
       "fieldType": "full_name",
       "labelHint": "1a. Foreign partner’s name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Lines1-4[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. U.S. identifying number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Lines1-4[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Lines1-4[0].f1_09[0]",
       "fieldType": "account_number",
       "labelHint": "2. Account number assigned by partnership (if any).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Lines1-4[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of partner (specify—see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Lines1-4[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Country code of partner (enter two-letter code—see instructions).",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_12[0]",
       "fieldType": "full_name",
       "labelHint": "5a. Name of partnership.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_13[0]",
       "fieldType": "employer_ein",
       "labelHint": "5b. U.S. Employer Identification Number (E I N).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "6. Withholding agent’s name. If partnership is also the withholding agent, enter “SAME” and do not c",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].c1_1[0]",
@@ -443,7 +494,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].c1_2[0]",
@@ -453,49 +505,57 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_17[0]",
       "fieldType": "tax_year",
       "labelHint": "9. Partnership’s E C T I allocable to partner for the tax year (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Total tax credit allowed to partner under section 1446 (see instructions). Individual and corpor",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Line11_ReadOrder[0].f1_19[0]",
       "fieldType": "full_name",
       "labelHint": "Schedule T—Beneficiary Information (see instructions). 11a. Name of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Line11_ReadOrder[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11b. U.S. identifying number of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Amount of E C T I on line 9 to be included in the beneficiary’s gross income (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Amount of tax credit on line 10 that the beneficiary is entitled to claim on its return (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_01[0]",
@@ -534,70 +594,81 @@
       "pdfFieldName": "topmostSubform[0].CopyD[0].Lines1-4[0].f1_06[0]",
       "fieldType": "full_name",
       "labelHint": "1a. Foreign partner’s name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Lines1-4[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. U.S. identifying number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Lines1-4[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Lines1-4[0].f1_09[0]",
       "fieldType": "account_number",
       "labelHint": "2. Account number assigned by partnership (if any).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Lines1-4[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Type of partner (specify—see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Lines1-4[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Country code of partner (enter two-letter code—see instructions).",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_12[0]",
       "fieldType": "full_name",
       "labelHint": "5a. Name of partnership.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_13[0]",
       "fieldType": "employer_ein",
       "labelHint": "5b. U.S. Employer Identification Number (E I N).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "6. Withholding agent’s name. If partnership is also the withholding agent, enter “SAME” and do not c",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].c1_1[0]",
@@ -607,7 +678,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].c1_2[0]",
@@ -617,49 +689,57 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_17[0]",
       "fieldType": "tax_year",
       "labelHint": "9. Partnership’s E C T I allocable to partner for the tax year (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Total tax credit allowed to partner under section 1446 (see instructions). Individual and corpor",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Line11_ReadOrder[0].f1_19[0]",
       "fieldType": "full_name",
       "labelHint": "Schedule T—Beneficiary Information (see instructions). 11a. Name of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Line11_ReadOrder[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11b. U.S. identifying number of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11c. Address (if a foreign address, see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11c"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Amount of E C T I on line 9 to be included in the beneficiary’s gross income (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Amount of tax credit on line 10 that the beneficiary is entitled to claim on its return (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "displayName": "Schedule 3",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040s3.pdf",
-  "generatedAt": "2026-04-06T21:46:17.692Z",
+  "generatedAt": "2026-04-07T00:27:42.497Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -22,211 +22,282 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Nonrefundable Credits. 1. Foreign tax credit. Attach Form 1116 if required.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Credit for child and dependent care expenses from Form 2441, line 11. Attach Form 2441.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Education credits from Form 8863, line 19.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Retirement savings contributions credit. Attach Form 8880.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5a. Residential clean energy credit from Form 5695, line 15.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Energy efficient home improvement credit from Form 5695, line 32.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line6a_ReadOrder[0].f1_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Other nonrefundable credits: a. General business credit. Attach Form 3800.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "tax_year",
       "labelHint": "6b. Credit for prior year minimum tax. Attach Form 8801.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6c. Adoption credit. Attach Form 8839.",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Credit for the elderly or disabled. Attach Schedule R.",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6e. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "6e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6f. Clean vehicle credit. Attach Form 8936.",
-      "required": false
+      "required": false,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6g. Mortgage interest credit. Attach Form 8396.",
-      "required": false
+      "required": false,
+      "lineNumber": "6g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6h. District of Columbia first-time homebuyer credit. Attach Form 8859.",
-      "required": false
+      "required": false,
+      "lineNumber": "6h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6i. Qualified electric vehicle credit. Attach Form 8834.",
-      "required": false
+      "required": false,
+      "lineNumber": "6i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6j. Alternative fuel vehicle refueling property credit. Attach Form 8911.",
-      "required": false
+      "required": false,
+      "lineNumber": "6j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6k. Credit to holders of tax credit bonds. Attach Form 8912.",
-      "required": false
+      "required": false,
+      "lineNumber": "6k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6l. Amount on Form 8978, line 14. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "6l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6m. Credit for previously owned clean vehicles. Attach Form 8936.",
-      "required": false
+      "required": false,
+      "lineNumber": "6m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line6z_ReadOrder[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6z. Other nonrefundable credits. List type.",
-      "required": false
+      "required": false,
+      "lineNumber": "6z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6z. and amount:",
-      "required": false
+      "required": false,
+      "lineNumber": "6z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Total other nonrefundable credits. Add lines 6a through 6z.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "6a",
+          "end": "6z"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Total other nonrefundable credits. Add lines 6a through 6z."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Add lines 1 through 4, 5a, 5b, and 7. Enter here and on Form 1040, 1040-S R, or 1040-N R, line 20",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "4"
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Add lines 1 through 4, 5a, 5b, and 7. Enter here and on Form 1040, 1040-S R, or 1040-N R, line 20"
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Other Payments and Refundable Credits. 9. Net premium tax credit. Attach Form 8962.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Amount paid with request for extension to file (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Excess social security and tier 1 R R T A tax withheld.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Credit for federal tax on fuels. Attach Form 4136.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line13_ReadOrder[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Other payments or refundable credits: a. Form 2439.",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13b. Section 1341 credit for repayment of amounts included in income from earlier years.",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13c. Net elective payment election amount from Form 3800, Part I I I, line 6, column (j).",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13d. Deferred amount of net 965 tax liability (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line13z_ReadOrder[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13z. Other nonrefundable credits (see instructions):",
-      "required": false
+      "required": false,
+      "lineNumber": "13z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13z. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "13z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Total other payments or refundable credits. Add lines 13a through 13z.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "13a",
+          "end": "13z"
+        },
+        "floorAtZero": false,
+        "rawLabel": "14. Total other payments or refundable credits. Add lines 13a through 13z."
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Add lines 9 through 12 and 14. Enter here and on Form 1040, 1040-S R, or 1040-N R, line 31.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "9",
+          "end": "12"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Add lines 9 through 12 and 14. Enter here and on Form 1040, 1040-S R, or 1040-N R, line 31."
+      },
+      "lineNumber": "15"
     }
   ]
 }

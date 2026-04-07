@@ -3,7 +3,7 @@
   "displayName": "Schedule 2",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040s2.pdf",
-  "generatedAt": "2026-04-06T21:46:17.656Z",
+  "generatedAt": "2026-04-07T00:27:42.465Z",
   "fields": [
     {
       "pdfFieldName": "form1[0].Page1[0].f1_01[0]",
@@ -22,25 +22,29 @@
       "pdfFieldName": "form1[0].Page1[0].Line1a_ReadOrder[0].f1_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Tax. 1. Additions to tax: a. Excess advance premium tax credit repayment. Attach Form 8962.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Repayment of new clean vehicle credit(s) transferred to a registered dealer from Schedule A (For",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Repayment of previously owned clean vehicle credit(s) transferred to a registered dealer from Sc",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. Recapture of net E P E from Form 4255, line 2a, column (l).",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[0]",
@@ -50,7 +54,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[1]",
@@ -60,7 +65,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[2]",
@@ -70,7 +76,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1e_ReadOrder[0].c1_1[3]",
@@ -80,13 +87,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1e. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[0]",
@@ -96,7 +105,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[1]",
@@ -106,7 +116,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[2]",
@@ -116,7 +127,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line1f_ReadOrder[0].c1_2[3]",
@@ -126,43 +138,70 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1f. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1y. Other additions to tax (see instructions):",
-      "required": false
+      "required": false,
+      "lineNumber": "1y"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1y. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "1y"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1z. Add lines 1a through 1y.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1a",
+          "end": "1y"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1z. Add lines 1a through 1y."
+      },
+      "lineNumber": "1z"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Alternative minimum tax. Attach Form 6251.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Add lines 1z and 2. Enter here and on Form 1040, 1040-S R, or 1040-N R, line 17.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1z",
+            "2"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Add lines 1z and 2. Enter here and on Form 1040, 1040-S R, or 1040-N R, line 17."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line4_ReadOrder[0].c1_3[0]",
@@ -172,7 +211,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line4_ReadOrder[0].c1_4[0]",
@@ -182,7 +222,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line4_ReadOrder[0].c1_5[0]",
@@ -192,37 +233,54 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line4_ReadOrder[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. 3. (specify).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Social security and Medicare tax on unreported tip income. Attach Form 4137.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Uncollected social security and Medicare tax on wages. Attach Form 8919.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Total additional social security and Medicare tax. Add lines 5 and 6.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "5",
+            "6"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Total additional social security and Medicare tax. Add lines 5 and 6."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line8_ReadOrder[0].c1_6[0]",
@@ -232,205 +290,259 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Household employment taxes. Attach Schedule H.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Reserved for future use.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Additional Medicare Tax. Attach Form 8959.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Net investment income tax. Attach Form 8960.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Uncollected social security and Medicare or R R T A tax on tips or group-term life insurance fro",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_25[0]",
       "fieldType": "shares",
       "labelHint": "14. Interest on tax due on installment income from the sale of certain residential lots and timeshar",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Interest on the deferred tax on gain from certain installment sales with a sales price over $150",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Recapture of low-income housing credit. Attach Form 8611.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].Line17a_ReadOrder[0].Line17_ReadOrder[0].f2_01[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I. Other Taxes (continued). 17. Other additional taxes: a. Recapture of other credits",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].Line17a_ReadOrder[0].f2_02[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17a. and amount:",
-      "required": false
+      "required": false,
+      "lineNumber": "17a"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17b. Recapture of federal mortgage subsidy. If you sold your home, see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "17b"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17c. Additional tax on H S A distributions. Attach Form 8889.",
-      "required": false
+      "required": false,
+      "lineNumber": "17c"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17d. Additional tax on an H S A because you didn't remain an eligible individual. Attach Form 8889.",
-      "required": false
+      "required": false,
+      "lineNumber": "17d"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17e. Additional tax on Archer M S A distributions. Attach Form 8853.",
-      "required": false
+      "required": false,
+      "lineNumber": "17e"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17f. Additional tax on Medicare Advantage M S A distributions. Attach Form 8853.",
-      "required": false
+      "required": false,
+      "lineNumber": "17f"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17g. Recapture of a charitable contribution deduction related to a fractional interest in tangible p",
-      "required": false
+      "required": false,
+      "lineNumber": "17g"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17h. Income your received from a nonqualified deferred compensation plan that fails to meet the requ",
-      "required": false
+      "required": false,
+      "lineNumber": "17h"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17i. Compensation you received from a nonqualified deferred compensation plan described in section 4",
-      "required": false
+      "required": false,
+      "lineNumber": "17i"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17j. Section 72(m)(5) excess benefits tax.",
-      "required": false
+      "required": false,
+      "lineNumber": "17j"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17k. Golden parachute payments.",
-      "required": false
+      "required": false,
+      "lineNumber": "17k"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17l. Tax on accumulation distribution of trusts.",
-      "required": false
+      "required": false,
+      "lineNumber": "17l"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17m. Excise tax on insider stock compensation from an expatriated corporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "17m"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17n. Look-back interest under section 167(g) or 460(b) from Form 8697 or 8866.",
-      "required": false
+      "required": false,
+      "lineNumber": "17n"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_16[0]",
       "fieldType": "tax_year",
       "labelHint": "17o. Tax on non-effectively connected income for any part of the year you were a nonresident alien f",
-      "required": false
+      "required": false,
+      "lineNumber": "17o"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17p. Any interest from Form 8621, line 16f, relating to distributions from, and dispositions of, sto",
-      "required": false
+      "required": false,
+      "lineNumber": "17p"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17q. Any interest from Form 8621, line 24.",
-      "required": false
+      "required": false,
+      "lineNumber": "17q"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].Line17z_ReadOrder[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17z. Any other taxes. List type.",
-      "required": false
+      "required": false,
+      "lineNumber": "17z"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17z. and amount:",
-      "required": false
+      "required": false,
+      "lineNumber": "17z"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Total additional taxes. Add lines 17a through 17z.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "17a",
+          "end": "17z"
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Total additional taxes. Add lines 17a through 17z."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Recapture of net E P E from Form 4255, line 1d, column (l).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Section 965 net tax liability installment from Form 965-A.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "form1[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Add lines 4, 7 through 16, 18, and 19. These are your total other taxes. Enter here and on Form ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "4",
+            "7"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "21. Add lines 4, 7 through 16, 18, and 19. These are your total other taxes. Enter here and on Form "
+      },
+      "lineNumber": "21"
     }
   ]
 }

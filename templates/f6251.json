@@ -3,7 +3,7 @@
   "displayName": "Form 6251",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f6251.pdf",
-  "generatedAt": "2026-04-06T21:46:19.371Z",
+  "generatedAt": "2026-04-07T00:27:44.170Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -22,187 +22,245 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Alternative Minimum Taxable Income (See instructions for how to complete each line.). 1a. Su",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Subtract line 1a from Form 1040, 1040-S R, or 1040-N R, line 11b (if less than zero, enter as a ",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. If filing Schedule A (Form 1040), enter the taxes from Schedule A, line 7; otherwise, enter the ",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Open parenthesis. Tax refund from Schedule 1 (Form 1040), line 1 or line 8z. Close parenthesis.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2c. Investment interest expense (difference between regular tax and A M T).",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2d. Depletion (difference between regular tax and A M T).",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2e. Net operating loss deduction from Schedule 1 (Form 1040), line 8a. Enter as a positive amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2f. Open parenthesis. Alternative tax net operating loss deduction. Close parenthesis.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2g. Interest from specified private activity bonds exempt from the regular tax.",
-      "required": false
+      "required": false,
+      "lineNumber": "2g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2h. Qualified small business stock, see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2i. Exercise of incentive stock options (excess of A M T income over regular tax income).",
-      "required": false
+      "required": false,
+      "lineNumber": "2i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2j. Estates and trusts (amount from Schedule K-1 (Form 1041), box 12, code A).",
-      "required": false
+      "required": false,
+      "lineNumber": "2j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2k. Disposition of property (difference between A M T and regular tax gain or loss).",
-      "required": false
+      "required": false,
+      "lineNumber": "2k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2l. Depreciation on assets placed in service after 1986 (difference between regular tax and A M T).",
-      "required": false
+      "required": false,
+      "lineNumber": "2l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2m. Passive activities (difference between A M T and regular tax income or loss).",
-      "required": false
+      "required": false,
+      "lineNumber": "2m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2n. Loss limitations (difference between A M T and regular tax income or loss).",
-      "required": false
+      "required": false,
+      "lineNumber": "2n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2o. Circulation costs (difference between regular tax and A M T).",
-      "required": false
+      "required": false,
+      "lineNumber": "2o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2p. Long-term contracts (difference between A M T and regular tax income).",
-      "required": false
+      "required": false,
+      "lineNumber": "2p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2q. Mining costs (difference between regular tax and A M T).",
-      "required": false
+      "required": false,
+      "lineNumber": "2q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2r. Research and experimental costs (difference between regular tax and A M T).",
-      "required": false
+      "required": false,
+      "lineNumber": "2r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2s. Open parenthesis. Income from certain installment sales before January 1, 1987. Close parenthesi",
-      "required": false
+      "required": false,
+      "lineNumber": "2s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2t. Intangible drilling costs preference.",
-      "required": false
+      "required": false,
+      "lineNumber": "2t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Other adjustments, including income-based related adjustments.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "filing_status",
       "labelHint": "4. Alternative minimum taxable income. Combine lines 1b through 3. (If married filing separately and",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "filing_status",
       "labelHint": "Part I I. Alternative Minimum Tax (A M T). 5. Exemption. IF your filing status is Single or head of ",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Subtract line 5 from line 4. If more than zero, go to line 7. If zero or less, enter 0 here and o",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "4",
+          "subtrahend": "5"
+        },
+        "floorAtZero": true,
+        "rawLabel": "6. Subtract line 5 from line 4. If more than zero, go to line 7. If zero or less, enter 0 here and o"
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "filing_status",
       "labelHint": "7. If you are filing Form 2555, see instructions for the amount to enter. If you reported capital ga",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Alternative minimum tax foreign tax credit (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Tentative minimum tax. Subtract line 8 from line 7.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "7",
+          "subtrahend": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Tentative minimum tax. Subtract line 8 from line 7."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Add Form 1040 or 1040-S R, line 16 (minus any tax from Form 4972), and Schedule 2 (Form 1040), l",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. A M T. Subtract line 10 from line 9. If zero or less, enter 0. Enter here and on Schedule 2 (For",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "9",
+          "subtrahend": "10"
+        },
+        "floorAtZero": true,
+        "rawLabel": "11. A M T. Subtract line 10 from line 9. If zero or less, enter 0. Enter here and on Schedule 2 (For"
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
@@ -214,121 +272,233 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Enter the amount from line 4 of the Qualified Dividends and Capital Gain Tax Worksheet in the In",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Enter the amount from Schedule D (Form 1040), line 19 (as refigured for the A M T, if necessary)",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. If you did not complete a Schedule D Tax Worksheet for the regular tax or the A M T, enter the a",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Enter the smaller of line 12 or line 15.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "12",
+          "b": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "16. Enter the smaller of line 12 or line 15."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Subtract line 16 from line 12.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "16"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Subtract line 16 from line 12."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "filing_status",
       "labelHint": "18. If line 17 is $239,100 or less ($119,550 or less if married filing separately), multiply line 17",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "filing_status",
       "labelHint": "19. Enter: $96,700 if married filing jointly or qualifying surviving spouse. $48,350 if single or ma",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Enter the amount from line 5 of the Qualified Dividends and Capital Gain Tax Worksheet or the am",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Subtract line 20 from line 19. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "19",
+          "subtrahend": "20"
+        },
+        "floorAtZero": true,
+        "rawLabel": "21. Subtract line 20 from line 19. If zero or less, enter 0."
+      },
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Enter the smaller of line 12 or line 13.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "12",
+          "b": "13"
+        },
+        "floorAtZero": false,
+        "rawLabel": "22. Enter the smaller of line 12 or line 13."
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Enter the smaller of line 21 or line 22. This amount is taxed at 0%.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "21",
+          "b": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23. Enter the smaller of line 21 or line 22. This amount is taxed at 0%."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Subtract line 23 from line 22.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "22",
+          "subtrahend": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Subtract line 23 from line 22."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "filing_status",
       "labelHint": "25. Enter: $533,400 if single. $300,000 if married filing separately. $600,050 if married filing joi",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Enter the amount from line 21.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. Enter the amount from line 5 of the Qualified Dividends and Capital Gain Tax Worksheet or the am",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Add line 26 and line 27.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Subtract line 28 from line 25. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "25",
+          "subtrahend": "28"
+        },
+        "floorAtZero": true,
+        "rawLabel": "29. Subtract line 28 from line 25. If zero or less, enter 0."
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Enter the smaller of line 24 or line 29.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "24",
+          "b": "29"
+        },
+        "floorAtZero": false,
+        "rawLabel": "30. Enter the smaller of line 24 or line 29."
+      },
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Multiply line 30 by 15% (0.15).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "30",
+          "factor": 0.15
+        },
+        "floorAtZero": false,
+        "rawLabel": "31. Multiply line 30 by 15% (0.15)."
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Add lines 23 and 30.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "23",
+            "30"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Add lines 23 and 30."
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
@@ -340,7 +510,17 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Multiply line 33 by 20% (0.20).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "33",
+          "factor": 0.2
+        },
+        "floorAtZero": false,
+        "rawLabel": "34. Multiply line 33 by 20% (0.20)."
+      },
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
@@ -352,31 +532,76 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. Subtract line 35 from line 12.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "35"
+        },
+        "floorAtZero": false,
+        "rawLabel": "36. Subtract line 35 from line 12."
+      },
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "37. Multiply line 36 by 25% (0.25).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "36",
+          "factor": 0.25
+        },
+        "floorAtZero": false,
+        "rawLabel": "37. Multiply line 36 by 25% (0.25)."
+      },
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38. Add lines 18, 31, 34, and 37.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "18",
+            "31",
+            "34",
+            "37"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "38. Add lines 18, 31, 34, and 37."
+      },
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
       "fieldType": "filing_status",
       "labelHint": "39. If line 12 is $239,100 or less ($119,550 or less if married filing separately), multiply line 12",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40. Enter the smaller of line 38 or line 39 here and on line 7. If you are filing Form 2555, do not ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "38",
+          "b": "39"
+        },
+        "floorAtZero": false,
+        "rawLabel": "40. Enter the smaller of line 38 or line 39 here and on line 7. If you are filing Form 2555, do not "
+      },
+      "lineNumber": "40"
     }
   ]
 }

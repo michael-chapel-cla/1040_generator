@@ -3,7 +3,7 @@
   "displayName": "Form 1116",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1116.pdf",
-  "generatedAt": "2026-04-06T21:46:20.592Z",
+  "generatedAt": "2026-04-07T00:27:45.370Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -116,31 +116,36 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_LinesI-1a[0].Line1a[0].Line1a_Text[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1a. Gross income from sources within country shown above and of the type checked above (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_LinesI-1a[0].Line1a[0].ColA[0].f1_10[0]",
       "fieldType": "country",
       "labelHint": "Row: 1a. Gross income from sources within country shown above and of the type checked above (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_LinesI-1a[0].Line1a[0].ColB[0].f1_11[0]",
       "fieldType": "country",
       "labelHint": "Row: 1a. Gross income from sources within country shown above and of the type checked above (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_LinesI-1a[0].Line1a[0].ColC[0].f1_12[0]",
       "fieldType": "country",
       "labelHint": "Row: 1a. Gross income from sources within country shown above and of the type checked above (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1a. Gross income from sources within country shown above and of the type checked above (see ins",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1b_ReadOrder[0].c1_2[0]",
@@ -162,223 +167,358 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line2[0].f1_15[0]",
       "fieldType": "country",
       "labelHint": "Row: 2. Expenses definitely related to the income on line 1a (attach statement). Column: Foreign Cou",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line2[0].f1_16[0]",
       "fieldType": "country",
       "labelHint": "Row: 2. Expenses definitely related to the income on line 1a (attach statement). Column: Foreign Cou",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3a[0].f1_17[0]",
       "fieldType": "country",
       "labelHint": "Row: 3a. Certain itemized deductions or standard deduction (see instructions). Column: Foreign Count",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3a[0].f1_18[0]",
       "fieldType": "country",
       "labelHint": "Row: 3a. Certain itemized deductions or standard deduction (see instructions). Column: Foreign Count",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3a[0].f1_19[0]",
       "fieldType": "country",
       "labelHint": "Row: 3a. Certain itemized deductions or standard deduction (see instructions). Column: Foreign Count",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3b[0].f1_20[0]",
       "fieldType": "country",
       "labelHint": "Row: 3b. Other deductions (attach statement). Column: Foreign Country or U.S. Territory. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3b[0].f1_21[0]",
       "fieldType": "country",
       "labelHint": "Row: 3b. Other deductions (attach statement). Column: Foreign Country or U.S. Territory. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3b[0].f1_22[0]",
       "fieldType": "country",
       "labelHint": "Row: 3b. Other deductions (attach statement). Column: Foreign Country or U.S. Territory. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3c[0].f1_23[0]",
       "fieldType": "country",
       "labelHint": "Row: 3c. Add lines 3a and 3b. Column: Foreign Country or U.S. Territory. A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3a",
+            "3b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3c. Add lines 3a and 3b. Column: Foreign Country or U.S. Territory. A."
+      },
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3c[0].f1_24[0]",
       "fieldType": "country",
       "labelHint": "Row: 3c. Add lines 3a and 3b. Column: Foreign Country or U.S. Territory. B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3a",
+            "3b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3c. Add lines 3a and 3b. Column: Foreign Country or U.S. Territory. B."
+      },
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3c[0].f1_25[0]",
       "fieldType": "country",
       "labelHint": "Row: 3c. Add lines 3a and 3b. Column: Foreign Country or U.S. Territory. C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "3a",
+            "3b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3c. Add lines 3a and 3b. Column: Foreign Country or U.S. Territory. C."
+      },
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3d[0].f1_26[0]",
       "fieldType": "country",
       "labelHint": "Row: 3d. Gross foreign source income (see instructions). Column: Foreign Country or U.S. Territory. ",
-      "required": false
+      "required": false,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3d[0].f1_27[0]",
       "fieldType": "country",
       "labelHint": "Row: 3d. Gross foreign source income (see instructions). Column: Foreign Country or U.S. Territory. ",
-      "required": false
+      "required": false,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3d[0].f1_28[0]",
       "fieldType": "country",
       "labelHint": "Row: 3d. Gross foreign source income (see instructions). Column: Foreign Country or U.S. Territory. ",
-      "required": false
+      "required": false,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3e[0].f1_29[0]",
       "fieldType": "country",
       "labelHint": "Row: 3e. Gross income from all sources (see instructions). Column: Foreign Country or U.S. Territory",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3e[0].f1_30[0]",
       "fieldType": "country",
       "labelHint": "Row: 3e. Gross income from all sources (see instructions). Column: Foreign Country or U.S. Territory",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3e[0].f1_31[0]",
       "fieldType": "country",
       "labelHint": "Row: 3e. Gross income from all sources (see instructions). Column: Foreign Country or U.S. Territory",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3f[0].f1_32[0]",
       "fieldType": "country",
       "labelHint": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3f[0].f1_33[0]",
       "fieldType": "country",
       "labelHint": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3f[0].f1_34[0]",
       "fieldType": "country",
       "labelHint": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3g[0].f1_35[0]",
       "fieldType": "country",
       "labelHint": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3g[0].f1_36[0]",
       "fieldType": "country",
       "labelHint": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line3g[0].f1_37[0]",
       "fieldType": "country",
       "labelHint": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line4a[0].f1_38[0]",
       "fieldType": "country",
       "labelHint": "Row: 4a. Home mortgage interest (use the Worksheet for Home Mortgage Interest in the instructions). ",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line4a[0].f1_39[0]",
       "fieldType": "country",
       "labelHint": "Row: 4a. Home mortgage interest (use the Worksheet for Home Mortgage Interest in the instructions). ",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line4a[0].f1_40[0]",
       "fieldType": "country",
       "labelHint": "Row: 4a. Home mortgage interest (use the Worksheet for Home Mortgage Interest in the instructions). ",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line4b[0].f1_41[0]",
       "fieldType": "country",
       "labelHint": "Row: 4b. Other interest expense. Column: Foreign Country or U.S. Territory. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line4b[0].f1_42[0]",
       "fieldType": "country",
       "labelHint": "Row: 4b. Other interest expense. Column: Foreign Country or U.S. Territory. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line4b[0].f1_43[0]",
       "fieldType": "country",
       "labelHint": "Row: 4b. Other interest expense. Column: Foreign Country or U.S. Territory. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line5[0].f1_44[0]",
       "fieldType": "country",
       "labelHint": "Row: 5. Losses from foreign sources. Column: Foreign Country or U.S. Territory. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line5[0].f1_45[0]",
       "fieldType": "country",
       "labelHint": "Row: 5. Losses from foreign sources. Column: Foreign Country or U.S. Territory. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line5[0].f1_46[0]",
       "fieldType": "country",
       "labelHint": "Row: 5. Losses from foreign sources. Column: Foreign Country or U.S. Territory. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line6[0].f1_47[0]",
       "fieldType": "country",
       "labelHint": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Foreign Country or U.S. Territory. A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "2",
+            "3g",
+            "4a",
+            "4b",
+            "5"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Foreign Country or U.S. Territory. A."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line6[0].f1_48[0]",
       "fieldType": "country",
       "labelHint": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Foreign Country or U.S. Territory. B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "2",
+            "3g",
+            "4a",
+            "4b",
+            "5"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Foreign Country or U.S. Territory. B."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line6[0].f1_49[0]",
       "fieldType": "country",
       "labelHint": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Foreign Country or U.S. Territory. C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "2",
+            "3g",
+            "4a",
+            "4b",
+            "5"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Foreign Country or U.S. Territory. C."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Total (Add cols. A, B, and C.).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "2",
+            "3g",
+            "4a",
+            "4b",
+            "5"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Add lines 2, 3g, 4a, 4b, and 5. Column: Total (Add cols. A, B, and C.)."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Subtract line 6 from line 1a. Enter the result here and on line 15, page 2.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1a",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Subtract line 6 from line 1a. Enter the result here and on line 15, page 2."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Part2[0].ActiveHeaderElements[0].c1_3[0]",
@@ -584,13 +724,15 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Add lines A through C, column (u). Enter the total here and on line 9, page 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line9_ReadOrder[0].f2_01[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I I. Figuring the Credit. 9. Enter the amount from line 8. These are your total forei",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line10_ReadOrder[0].c2_1[0]",
@@ -606,91 +748,137 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Add lines 9 and 10.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9",
+            "10"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Add lines 9 and 10."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Open parenthesis. Reduction in foreign taxes (see instructions). Close parenthesis.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Taxes reclassified under high tax kickout (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Combine lines 11, 12, and 13. This is the total amount of foreign taxes available for credit.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line15_ReadOrder[0].f2_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Enter the amount from line 7. This is your taxable income or (loss) from sources outside the Uni",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Adjustments to line 15 (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Combine the amounts on lines 15 and 16. This is your net foreign source taxable income. (If the ",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Individuals: Enter the sum of (i) Form 1040, 1040-S R, or 1040-N R, line 11b, minus Form 1040, 1",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Divide line 17 by line 18. If line 17 is more than line 18, enter “1”.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "tax_year",
       "labelHint": "20. Individuals: Enter the total of Form 1040, 1040-S R, or 1040-N R, line 16, and Schedule 2 (Form ",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Multiply line 20 by line 19 (maximum amount of credit).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Increase in limitation (section 960(c)) (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Add lines 21 and 22.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21",
+            "22"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "23. Add lines 21 and 22."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Enter the smaller of line 14 or line 23. Enter here and on the appropriate line of Part I V. See",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "14",
+          "b": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Enter the smaller of line 14 or line 23. Enter here and on the appropriate line of Part I V. See"
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
@@ -702,61 +890,98 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Credit for taxes on foreign branch category income.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. Credit for taxes on passive category income.",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Credit for taxes on general category income.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Credit for taxes on section 901(j) income.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Credit for taxes on certain income re-sourced by treaty.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Credit for taxes on lump-sum distributions.",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Add lines 25 through 31.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "25",
+          "end": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Add lines 25 through 31."
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "33. Enter the smaller of line 20 or line 32.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "20",
+          "b": "32"
+        },
+        "floorAtZero": false,
+        "rawLabel": "33. Enter the smaller of line 20 or line 32."
+      },
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Reduction of credit for international boycott operations. See instructions for line 12.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. Subtract line 34 from line 33. This is your foreign tax credit. Enter here and on Schedule 3 (Fo",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "33",
+          "subtrahend": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "35. Subtract line 34 from line 33. This is your foreign tax credit. Enter here and on Schedule 3 (Fo"
+      },
+      "lineNumber": "35"
     }
   ]
 }

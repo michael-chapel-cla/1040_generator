@@ -3,7 +3,7 @@
   "displayName": "Form 3520",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3520.pdf",
-  "generatedAt": "2026-04-06T21:46:33.732Z",
+  "generatedAt": "2026-04-07T00:27:58.539Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -172,51 +172,59 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "full_name",
       "labelHint": "1a. Name of U.S. person(s) with respect to whom this Form 3520 is being filed (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "ssn",
       "labelHint": "1b. Taxpayer identification number (T I N).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "street_address",
       "labelHint": "1c. Number, street, and room or suite no. If a P.O. box, see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. Spouse’s T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "city",
       "labelHint": "1e. City or town.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "state",
       "labelHint": "1f. State or province.",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "zip_code",
       "labelHint": "1g. Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1h. Country.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
@@ -226,7 +234,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[0]",
@@ -236,7 +245,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_12[0]",
@@ -246,62 +256,72 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1k. and enter the form number of the tax return to be filed.",
-      "required": false
+      "required": false,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "2a. Name of foreign trust (if applicable).",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "employer_ein",
       "labelHint": "2b. Employer identification number (E I N), if any.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "street_address",
       "labelHint": "2c. Number, street, and room or suite no. If a P.O. box, see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "date",
       "labelHint": "2d. Date foreign trust was created.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "city",
       "labelHint": "2e. City or town.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "state",
       "labelHint": "2f. State or province.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "zip_code",
       "labelHint": "2g. Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2h. Country.",
-      "required": false
+      "required": false,
+      "lineNumber": "2h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_13[0]",
@@ -311,7 +331,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_13[1]",
@@ -321,82 +342,95 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "full_name",
       "labelHint": "3a. Name of U.S. agent.",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "street_address",
       "labelHint": "3c. Number, street, and room or suite no. If a P.O. box, see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "city",
       "labelHint": "3d. City or town.",
-      "required": false
+      "required": false,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "state",
       "labelHint": "3e. State or province.",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "zip_code",
       "labelHint": "3f. Z I P or postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3g. Country.",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "full_name",
       "labelHint": "4a. Name of U.S. decedent (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. T I N of decedent.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "date",
       "labelHint": "4d. Date of death.",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4e. E I N of estate.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_14[0]",
@@ -406,7 +440,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_14[1]",
@@ -416,7 +451,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_14[2]",
@@ -426,44 +462,51 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "full_name",
       "labelHint": "Page 2. Part I. Transfers by U.S. Persons to a Foreign Trust During the Current Tax Year (see instru",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6a. Country code of country where trust was created.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6b. Country code of country whose law governs the trust.",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "date",
       "labelHint": "6c. Date trust was created.",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -473,7 +516,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
@@ -483,100 +527,116 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row1[0].f2_7[0]",
       "fieldType": "full_name",
       "labelHint": "7b. Row: 1. Column: (i) Name of foreign trust owner.",
-      "required": false
+      "required": false,
+      "lineNumber": "7b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row1[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i i) Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row1[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i i i) Country of residence.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row1[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i v) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row1[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (v) Relevant Code section.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row2[0].f2_12[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (i) Name of foreign trust owner.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i i) Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i i i) Country of residence.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i v) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (v) Relevant Code section.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row3[0].f2_17[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (i) Name of foreign trust owner.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row3[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i i) Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row3[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i i i) Country of residence.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row3[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i v) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row3[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (v) Relevant Code section.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -586,7 +646,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
@@ -596,7 +657,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
@@ -606,7 +668,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
@@ -616,7 +679,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
@@ -626,7 +690,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[1]",
@@ -636,7 +701,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
@@ -646,7 +712,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
@@ -656,7 +723,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
@@ -666,7 +734,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[1]",
@@ -676,7 +745,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[0]",
@@ -686,7 +756,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[1]",
@@ -696,79 +767,92 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row1[0].f2_22[0]",
       "fieldType": "date",
       "labelHint": "11b. Row: 1. Column: (i) Date of transfer giving rise to obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row1[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i i) Maximum term.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row1[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i i i) Yield to maturity.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row1[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i v) F M V of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row2[0].f2_26[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (i) Date of transfer giving rise to obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row2[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i i) Maximum term.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row2[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i i i) Yield to maturity.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row2[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i v) F M V of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row3[0].f2_30[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (i) Date of transfer giving rise to obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row3[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i i) Maximum term.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row3[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i i i) Yield to maturity.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line11b[0].Row3[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i v) F M V of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[0]",
@@ -778,7 +862,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_8[1]",
@@ -788,7 +873,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_9[0]",
@@ -798,7 +884,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_9[1]",
@@ -808,169 +895,197 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_34[0]",
       "fieldType": "date",
       "labelHint": "13. Row: 1. Column: (a) Date of transfer.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Description of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) U.S. adjusted basis of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) Gain recognized at time of transfer, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (f) Excess, if any, of column (c) over the sum of columns (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (g) Description of property received, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (h) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row1[0].f2_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i) Excess of column (c) over column (h).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_43[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (a) Date of transfer.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Description of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) U.S. adjusted basis of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (e) Gain recognized at time of transfer, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (f) Excess, if any, of column (c) over the sum of columns (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (g) Description of property received, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (h) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row2[0].f2_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i) Excess of column (c) over column (h).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_52[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (a) Date of transfer.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (b) Description of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) U.S. adjusted basis of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (e) Gain recognized at time of transfer, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (f) Excess, if any, of column (c) over the sum of columns (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (g) Description of property received, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (h) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line13[0].Row3[0].f2_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (i) Excess of column (c) over column (h).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Totals[0].f2_61[0]",
@@ -992,7 +1107,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14a[0].c2_10[1]",
@@ -1002,7 +1118,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14a[0].c2_10[2]",
@@ -1012,14 +1129,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14a[0].f2_63[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14a. Sale document. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14b[0].c2_11[0]",
@@ -1029,7 +1148,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14b[0].c2_11[1]",
@@ -1039,7 +1159,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14b[0].c2_11[2]",
@@ -1049,14 +1170,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14b[0].f2_64[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14b. Loan document. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14c[0].c2_12[0]",
@@ -1066,7 +1189,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14c[0].c2_12[1]",
@@ -1076,7 +1200,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14c[0].c2_12[2]",
@@ -1086,14 +1211,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line14[0].Line14c[0].f2_65[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14c. Subsequent variances to original sale or loan documents. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "14c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row1[0].f3_1[0]",
@@ -1105,7 +1232,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row1[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Address of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row1[0].c3_1[0]",
@@ -1115,7 +1243,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row1[0].c3_1[1]",
@@ -1125,26 +1254,30 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row1[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row2[0].f3_4[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Name of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row2[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Address of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row2[0].c3_2[0]",
@@ -1154,7 +1287,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row2[0].c3_2[1]",
@@ -1164,26 +1298,30 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row2[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row3[0].f3_7[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (a) Name of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (b) Address of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row3[0].c3_3[0]",
@@ -1193,7 +1331,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row3[0].c3_3[1]",
@@ -1203,26 +1342,30 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row4[0].f3_10[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (a) Name of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row4[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (b) Address of beneficiary.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row4[0].c3_4[0]",
@@ -1232,7 +1375,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row4[0].c3_4[1]",
@@ -1242,190 +1386,220 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row4[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row1[0].f3_13[0]",
       "fieldType": "full_name",
       "labelHint": "16. Row: 1. Column: (a) Name of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row1[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Address of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row1[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row2[0].f3_16[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Name of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row2[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Address of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row2[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row3[0].f3_19[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (a) Name of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row3[0].f3_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (b) Address of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row3[0].f3_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row4[0].f3_22[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (a) Name of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row4[0].f3_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (b) Address of trustee.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row4[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (c) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row1[0].f3_25[0]",
       "fieldType": "full_name",
       "labelHint": "17. Row: 1. Column: (a) Name of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row1[0].f3_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Address of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row1[0].f3_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Description of powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row1[0].f3_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row2[0].f3_29[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Name of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row2[0].f3_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Address of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row2[0].f3_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) Description of powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row2[0].f3_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row3[0].f3_33[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (a) Name of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row3[0].f3_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (b) Address of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row3[0].f3_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) Description of powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row3[0].f3_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row4[0].f3_37[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (a) Name of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row4[0].f3_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (b) Address of other person with trust powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row4[0].f3_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (c) Description of powers.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row4[0].f3_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18a[0].c3_5[0]",
@@ -1435,7 +1609,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18a[0].c3_5[1]",
@@ -1445,7 +1620,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18a[0].c3_5[2]",
@@ -1455,14 +1631,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18a[0].f3_41[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18a. Summary of all written and oral agreements and understandings relating to the trust. Colum",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18b[0].c3_6[0]",
@@ -1472,7 +1650,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18b[0].c3_6[1]",
@@ -1482,7 +1661,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18b[0].c3_6[2]",
@@ -1492,14 +1672,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18b[0].f3_42[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18b. Trust instrument. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18c[0].c3_7[0]",
@@ -1509,7 +1691,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18c[0].c3_7[1]",
@@ -1519,7 +1702,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18c[0].c3_7[2]",
@@ -1529,14 +1713,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18c[0].f3_43[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18c. Memoranda or letters of wishes. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "18c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18d[0].c3_8[0]",
@@ -1546,7 +1732,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18d[0].c3_8[1]",
@@ -1556,7 +1743,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18d[0].c3_8[2]",
@@ -1566,14 +1754,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18d[0].f3_44[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18d. Subsequent variances to original trust documents. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "18d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18e[0].c3_9[0]",
@@ -1583,7 +1773,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18e[0].c3_9[1]",
@@ -1593,7 +1784,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18e[0].c3_9[2]",
@@ -1603,14 +1795,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18e[0].f3_45[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18e. Trust financial statements. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "18e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18f[0].c3_10[0]",
@@ -1620,7 +1814,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18f[0].c3_10[1]",
@@ -1630,7 +1825,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18f[0].c3_10[2]",
@@ -1640,14 +1836,16 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line18[0].Line18f[0].f3_46[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18f. Organizational chart and other trust documents. Column: Year Attached.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "18f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[0]",
@@ -1657,7 +1855,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[1]",
@@ -1667,31 +1866,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row1[0].f3_47[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (a) Date of original obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row1[0].f3_48[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: (b) Tax year qualified obligation first reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row1[0].f3_49[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: (c) Amount of principal payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row1[0].f3_50[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: (d) Amount of interest payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row1[0].f3_51[0]",
@@ -1707,7 +1911,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row1[0].c3_12[1]",
@@ -1717,31 +1922,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row2[0].f3_52[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (a) Date of original obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row2[0].f3_53[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Column: (b) Tax year qualified obligation first reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row2[0].f3_54[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Column: (c) Amount of principal payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row2[0].f3_55[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Column: (d) Amount of interest payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row2[0].f3_56[0]",
@@ -1757,7 +1967,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row2[0].c3_13[1]",
@@ -1767,31 +1978,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row3[0].f3_57[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (a) Date of original obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row3[0].f3_58[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Column: (b) Tax year qualified obligation first reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row3[0].f3_59[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Column: (c) Amount of principal payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row3[0].f3_60[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Column: (d) Amount of interest payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row3[0].f3_61[0]",
@@ -1807,7 +2023,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line19[0].Row3[0].c3_14[1]",
@@ -1817,7 +2034,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_1[0]",
@@ -1829,106 +2047,123 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Country of tax residence.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) Relevant Code section.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row2[0].f4_6[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Name of foreign trust owner.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row2[0].f4_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row2[0].f4_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) Country of tax residence.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row2[0].f4_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row2[0].f4_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (e) Relevant Code section.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row3[0].f4_11[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (a) Name of foreign trust owner.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row3[0].f4_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (b) Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row3[0].f4_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) Country of tax residence.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row3[0].f4_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row3[0].f4_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (e) Relevant Code section.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21a. Country code of country where foreign trust was created.",
-      "required": false
+      "required": false,
+      "lineNumber": "21a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21b. Country code of country whose law governs the trust.",
-      "required": false
+      "required": false,
+      "lineNumber": "21b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_18[0]",
       "fieldType": "date",
       "labelHint": "21c. Date trust was created.",
-      "required": false
+      "required": false,
+      "lineNumber": "21c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[0]",
@@ -1938,7 +2173,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_1[1]",
@@ -1948,13 +2184,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_19[0]",
       "fieldType": "tax_year",
       "labelHint": "23. Enter the gross value of the portion of the foreign trust that you are treated as owning at the ",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row1[0].f4_20[0]",
@@ -1966,289 +2204,337 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row1[0].f4_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row1[0].f4_22[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row1[0].f4_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row1[0].f4_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row1[0].f4_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row2[0].f4_26[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (a) Date of distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row2[0].f4_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row2[0].f4_28[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row2[0].f4_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row2[0].f4_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row2[0].f4_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row3[0].f4_32[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (a) Date of distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row3[0].f4_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row3[0].f4_34[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row3[0].f4_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row3[0].f4_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row3[0].f4_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row4[0].f4_38[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (a) Date of distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row4[0].f4_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row4[0].f4_40[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row4[0].f4_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row4[0].f4_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row4[0].f4_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row5[0].f4_44[0]",
       "fieldType": "date",
       "labelHint": "Row: 5. Column: (a) Date of distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row5[0].f4_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row5[0].f4_46[0]",
       "fieldType": "date",
       "labelHint": "Row: 5. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row5[0].f4_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row5[0].f4_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row5[0].f4_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row6[0].f4_50[0]",
       "fieldType": "date",
       "labelHint": "Row: 6. Column: (a) Date of distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row6[0].f4_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row6[0].f4_52[0]",
       "fieldType": "date",
       "labelHint": "Row: 6. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row6[0].f4_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row6[0].f4_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row6[0].f4_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row7[0].f4_56[0]",
       "fieldType": "date",
       "labelHint": "Row: 7. Column: (a) Date of distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row7[0].f4_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row7[0].f4_58[0]",
       "fieldType": "date",
       "labelHint": "Row: 7. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row7[0].f4_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row7[0].f4_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row7[0].f4_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row8[0].f4_62[0]",
       "fieldType": "date",
       "labelHint": "Row: 8. Column: (a) Date of distribution.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row8[0].f4_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row8[0].f4_64[0]",
       "fieldType": "date",
       "labelHint": "Row: 8. Column: (c) F M V of property received (determined on date of distribution).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row8[0].f4_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: (d) Description of property transferred, if any.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row8[0].f4_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: (e) F M V of property transferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line24[0].Row8[0].f4_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Column: (f) Excess of column (c) over column (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Total. (f) Excess of column (c) over column (e). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[0]",
@@ -2258,7 +2544,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_2[1]",
@@ -2268,31 +2555,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].f4_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Note: See instructions for additional information, including how to complete columns (a) through",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].f4_70[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (b) Date of original transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].f4_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Maximum term of repayment of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].f4_72[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 1. Column: (d) Interest rate of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].c4_3[0]",
@@ -2302,7 +2594,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].c4_3[1]",
@@ -2312,43 +2605,50 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].f4_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (f) F M V of qualified obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row1[0].f4_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (g) Amount treated as distribution from the trust (subtract column (f) from column (",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].f4_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (a) F M V of loan proceeds or property .",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].f4_76[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (b) Date of original transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].f4_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) Maximum term of repayment of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].f4_78[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 2. Column: (d) Interest rate of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].c4_4[0]",
@@ -2358,7 +2658,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].c4_4[1]",
@@ -2368,43 +2669,50 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].f4_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (f) F M V of qualified obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row2[0].f4_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (g) Amount treated as distribution from the trust (subtract column (f) from column (",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].f4_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (a) F M V of loan proceeds or property.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].f4_82[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (b) Date of original transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].f4_83[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) Maximum term of repayment of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].f4_84[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 3. Column: (d) Interest rate of obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].c4_5[0]",
@@ -2414,7 +2722,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].c4_5[1]",
@@ -2424,25 +2733,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].f4_85[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (f) F M V of qualified obligation.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line25[0].Row3[0].f4_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (g) Amount treated as distribution from the trust (subtract column (f) from column (",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Total. (g) Amount treated as distribution from the trust (subtract column (f) from column (a)). ",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[0]",
@@ -2452,7 +2765,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_6[1]",
@@ -2462,13 +2776,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_88[0]",
       "fieldType": "tax_year",
       "labelHint": "27. Total distributions received during your current tax year. Add line 24, column (f), and line 25,",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[0]",
@@ -2478,7 +2794,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].c4_7[1]",
@@ -2488,31 +2805,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row1[0].f4_89[0]",
       "fieldType": "date",
       "labelHint": "28. Row: 1. Column: (a) Date of original loan transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row1[0].f4_90[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: (b) Tax year qualified obligation first reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row1[0].f4_91[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: (c) Amount of principal payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row1[0].f4_92[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Column: (d) Amount of interest payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row1[0].f4_93[0]",
@@ -2528,7 +2850,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row1[0].c4_8[1]",
@@ -2538,31 +2861,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row2[0].f4_94[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (a) Date of original loan transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row2[0].f4_95[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Column: (b) Tax year qualified obligation first reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row2[0].f4_96[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Column: (c) Amount of principal payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row2[0].f4_97[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2. Column: (d) Amount of interest payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row2[0].f4_98[0]",
@@ -2578,7 +2906,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row2[0].c4_9[1]",
@@ -2588,31 +2917,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row3[0].f4_99[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (a) Date of original loan transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row3[0].f4_100[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Column: (b) Tax year qualified obligation first reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row3[0].f4_101[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Column: (c) Amount of principal payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row3[0].f4_102[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Column: (d) Amount of interest payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row3[0].f4_103[0]",
@@ -2628,7 +2962,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row3[0].c4_10[1]",
@@ -2638,31 +2973,36 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row4[0].f4_104[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (a) Date of original loan transaction.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row4[0].f4_105[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Column: (b) Tax year qualified obligation first reported.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row4[0].f4_106[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Column: (c) Amount of principal payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row4[0].f4_107[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. Column: (d) Amount of interest payments made during your tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row4[0].f4_108[0]",
@@ -2678,7 +3018,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line28[0].Row4[0].c4_11[1]",
@@ -2688,7 +3029,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[0]",
@@ -2698,7 +3040,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[1]",
@@ -2708,7 +3051,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[2]",
@@ -2718,7 +3062,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[0]",
@@ -2728,7 +3073,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[1]",
@@ -2738,7 +3084,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[2]",
@@ -2748,7 +3095,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
@@ -2760,43 +3108,59 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
       "fieldType": "tax_year",
       "labelHint": "32. Number of years the trust has been a foreign trust, including the current tax year (see instruct",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_3[0]",
       "fieldType": "tax_year",
       "labelHint": "33. Enter total distributions received from the foreign trust during the 3 preceding tax years (or d",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Multiply line 33 by 1.25.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
       "fieldType": "tax_year",
       "labelHint": "35. Average distribution. Divide line 34 by 3.0 (or the number of years the trust has been a foreign",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_6[0]",
       "fieldType": "tax_year",
       "labelHint": "36. Amount treated as ordinary income earned in the current tax year. Enter the smaller of line 31 o",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "37. Amount treated as accumulation distribution. Subtract line 36 from line 31. If zero, do not comp",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "31",
+          "subtrahend": "36"
+        },
+        "floorAtZero": false,
+        "rawLabel": "37. Amount treated as accumulation distribution. Subtract line 36 from line 31. If zero, do not comp"
+      },
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38. Applicable number of years of trust. Divide line 32 by 2.0 and enter the result here.",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_9[0]",
@@ -2808,79 +3172,92 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_10[0]",
       "fieldType": "tax_year",
       "labelHint": "40a. Amount treated as ordinary income in the current tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "40a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40b. Qualified dividends.",
-      "required": false
+      "required": false,
+      "lineNumber": "40b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41a. Amount treated as accumulation distribution. If zero, do not complete Schedule C below.",
-      "required": false
+      "required": false,
+      "lineNumber": "41a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41b. Amount of line 41a that is tax exempt.",
-      "required": false
+      "required": false,
+      "lineNumber": "41b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_14[0]",
       "fieldType": "tax_year",
       "labelHint": "42a. Amount treated as net short-term capital gain in the current tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "42a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_15[0]",
       "fieldType": "tax_year",
       "labelHint": "42b. Amount treated as net long-term capital gain in the current tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "42b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_16[0]",
       "fieldType": "percentage",
       "labelHint": "42c. 28% rate gain.",
-      "required": false
+      "required": false,
+      "lineNumber": "42c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "42d. Unrecaptured section 1250 gain.",
-      "required": false
+      "required": false,
+      "lineNumber": "42d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43. Amount treated as distribution from trust corpus.",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Enter any other distributed amount received from the foreign trust not included on lines 40a, 41a, 42a, 42b, and 43. (Attach explanation.).",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "45. Amount of foreign trust’s aggregate undistributed net income.",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "46. Amount of foreign trust’s weighted undistributed net income.",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line47_ReadOrder[0].f5_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "47. Applicable number of years of trust. Divide line 46 by line 45 and enter the result here.",
-      "required": false
+      "required": false,
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_23[0]",
@@ -2892,31 +3269,47 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "49. Enter tax on total accumulation distribution from line 28 of Form 4970. (Attach Form 4970—see in",
-      "required": false
+      "required": false,
+      "lineNumber": "49"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Line50_ReadOrder[0].f5_25[0]",
       "fieldType": "tax_year",
       "labelHint": "50. Enter applicable number of years of foreign trust from line 38 or line 47, as applicable (round ",
-      "required": false
+      "required": false,
+      "lineNumber": "50"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_26[0]",
       "fieldType": "percentage",
       "labelHint": "51. Combined interest rate imposed on the total accumulation distribution (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "51"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_27[0]",
       "fieldType": "percentage",
       "labelHint": "52. Interest charge. Multiply the amount on line 49 by the combined interest rate on line 51.",
-      "required": false
+      "required": false,
+      "lineNumber": "52"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "53. Tax attributable to accumulation distributions. Add lines 49 and 52. Enter here and as “addition",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "49",
+            "52"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "53. Tax attributable to accumulation distributions. Add lines 49 and 52. Enter here and as “addition"
+      },
+      "lineNumber": "53"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[0]",
@@ -2926,7 +3319,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "54"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[1]",
@@ -2936,67 +3330,78 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "54"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row1[0].f6_1[0]",
       "fieldType": "date",
       "labelHint": "54. Row: 1. Column: (a) Date of gift or bequest.",
-      "required": false
+      "required": false,
+      "lineNumber": "54"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row1[0].f6_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row1[0].f6_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row2[0].f6_4[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (a) Date of gift or bequest.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row2[0].f6_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row2[0].f6_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row3[0].f6_7[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (a) Date of gift or bequest.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row3[0].f6_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (b) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line54[0].Row3[0].f6_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "54. Total. (c) F M V of property received. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "54"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
@@ -3006,7 +3411,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "55"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[1]",
@@ -3016,107 +3422,124 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "55"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row1[0].f6_11[0]",
       "fieldType": "date",
       "labelHint": "55. Row: 1. Column: (a) Date of gift.",
-      "required": false
+      "required": false,
+      "lineNumber": "55"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row1[0].f6_12[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 1. Column: (b) Name of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row1[0].f6_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Address of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row1[0].f6_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row2[0].f6_15[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (a) Date of gift.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row2[0].f6_16[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (b) Name of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row2[0].f6_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (c) Address of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row2[0].f6_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row3[0].f6_19[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (a) Date of gift.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row3[0].f6_20[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. Column: (b) Name of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row3[0].f6_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (c) Address of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row3[0].f6_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row4[0].f6_23[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (a) Date of gift.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row4[0].f6_24[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. Column: (b) Name of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row4[0].f6_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (c) Address of foreign donor.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row4[0].f6_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) T I N, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row1[0].c6_3[0]",
@@ -3126,7 +3549,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row1[0].c6_3[1]",
@@ -3136,19 +3560,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row1[0].f6_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (f) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row1[0].f6_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (g) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row2[0].c6_4[0]",
@@ -3158,7 +3585,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row2[0].c6_4[1]",
@@ -3168,19 +3596,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row2[0].f6_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (f) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row2[0].f6_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (g) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row3[0].c6_5[0]",
@@ -3190,7 +3621,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row3[0].c6_5[1]",
@@ -3200,19 +3632,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row3[0].f6_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (f) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row3[0].f6_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (g) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row4[0].c6_6[0]",
@@ -3222,7 +3657,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row4[0].c6_6[1]",
@@ -3232,19 +3668,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row4[0].f6_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (f) Description of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55e-g[0].Row4[0].f6_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (g) F M V of property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[0]",
@@ -3254,7 +3693,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "56"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_7[1]",
@@ -3264,7 +3704,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "56"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_35[0]",

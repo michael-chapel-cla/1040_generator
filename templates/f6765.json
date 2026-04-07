@@ -3,7 +3,7 @@
   "displayName": "Form 6765",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f6765.pdf",
-  "generatedAt": "2026-04-06T21:46:23.547Z",
+  "generatedAt": "2026-04-07T00:27:48.338Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -68,19 +68,31 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Basic research payments to qualified organizations (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Qualified organization base period amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Subtract line 3 from line 2. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "2",
+          "subtrahend": "3"
+        },
+        "floorAtZero": true,
+        "rawLabel": "4. Subtract line 3 from line 2. If zero or less, enter 0."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
@@ -92,49 +104,105 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Enter average annual gross receipts. See instructions. %.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Enter average annual gross receipts. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "percentage",
       "labelHint": "8. Multiply line 7 by the percentage on line 6.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Subtract line 8 from line 5. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "8"
+        },
+        "floorAtZero": true,
+        "rawLabel": "9. Subtract line 8 from line 5. If zero or less, enter 0."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Multiply line 5 by 50% (0.50).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "5",
+          "factor": 0.5
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Multiply line 5 by 50% (0.50)."
+      },
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Enter the smaller of line 9 or line 10.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "9",
+          "b": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Enter the smaller of line 9 or line 10."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Add lines 1, 4, and 11.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1",
+            "4",
+            "11"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Add lines 1, 4, and 11."
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. If you elect to reduce the credit under section 280C, then multiply line 12 by 15.8% (0.158). If",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "12",
+          "factor": 0.158
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. If you elect to reduce the credit under section 280C, then multiply line 12 by 15.8% (0.158). If"
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
@@ -146,73 +214,152 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Basic research payments to qualified organizations (see the line 2 instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Qualified organization base period amount (see the line 3 instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Subtract line 16 from line 15. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "15",
+          "subtrahend": "16"
+        },
+        "floorAtZero": true,
+        "rawLabel": "17. Subtract line 16 from line 15. If zero or less, enter 0."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Add lines 14 and 17.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "14",
+            "17"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Add lines 14 and 17."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Multiply line 18 by 20% (0.20).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "18",
+          "factor": 0.2
+        },
+        "floorAtZero": false,
+        "rawLabel": "19. Multiply line 18 by 20% (0.20)."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Total qualified research expenses (Q R Es). Enter amount from line 48.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Enter your total Q R Es for the prior 3 tax years. If you had no Q R Es in any 1 of those years, skip lines 22 and 23.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Divide line 21 by 6.0.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Subtract line 22 from line 20. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "20",
+          "subtrahend": "22"
+        },
+        "floorAtZero": true,
+        "rawLabel": "23. Subtract line 22 from line 20. If zero or less, enter 0."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Multiply line 23 by 14% (0.14). If you skipped lines 22 and 23, multiply line 20 by 6% (0.06).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "23",
+          "factor": 0.14
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Multiply line 23 by 14% (0.14). If you skipped lines 22 and 23, multiply line 20 by 6% (0.06)."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Add lines 19 and 24.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "19",
+            "24"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "25. Add lines 19 and 24."
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. If you elect to reduce the credit under section 280C, then multiply line 25 by 79% (0.79). If no",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "25",
+          "factor": 0.79
+        },
+        "floorAtZero": false,
+        "rawLabel": "26. If you elect to reduce the credit under section 280C, then multiply line 25 by 79% (0.79). If no"
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
@@ -224,31 +371,65 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Subtract line 27 from line 13 or line 26 (whichever applies). If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "13",
+          "subtrahend": "27"
+        },
+        "floorAtZero": true,
+        "rawLabel": "28. Subtract line 27 from line 13 or line 26 (whichever applies). If zero or less, enter 0."
+      },
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Credit for increasing research activities from partnerships, S corporations, estates, and trusts",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Add lines 28 and 29. Estates and trusts, go to line 31. Partnerships and S corporations not elec",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "28",
+            "29"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "30. Add lines 28 and 29. Estates and trusts, go to line 31. Partnerships and S corporations not elec"
+      },
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Amount allocated to beneficiaries of the estate or trust (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Estates and trusts, subtract line 31 from line 30. For eligible small businesses, report the cre",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "30",
+          "subtrahend": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Estates and trusts, subtract line 31 from line 30. For eligible small businesses, report the cre"
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -274,19 +455,31 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Enter the portion of line 28 elected as a payroll tax credit (do not enter more than $500,000). ",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
       "fieldType": "tax_year",
       "labelHint": "35. General business credit carryforward from the current year. See instructions. Partnerships and S",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. Partnerships and S corporations, enter the smaller of line 28 or line 34. All others, enter the ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "28",
+          "b": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "36. Partnerships and S corporations, enter the smaller of line 28 or line 34. All others, enter the "
+      },
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
@@ -298,7 +491,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38. Enter the amount of officers' wages included on line 42.",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
@@ -308,7 +502,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
@@ -318,7 +513,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
@@ -328,7 +524,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[1]",
@@ -338,7 +535,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
@@ -348,7 +546,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
@@ -358,13 +557,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41. If \"Yes\" enter the amount from Appendix C Line 19 (you may attach your Appendices A, B, C, and D",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
@@ -390,43 +591,63 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "42. Total wages for qualified services for all business components (do not include any wages used in",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43. Total costs of supplies for all business components.",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Total rental or lease cost of computers for all business components.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "45. Total applicable amount of contract research for all business components (do not include basic r",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "46. Enter the applicable amount of all basic research payments. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "47. Add line 45 and line 46.",
-      "required": false
+      "required": false,
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "48. Add lines 42, 43, 44, and 47, then enter line 48 on either line 5 or line 20, whichever is appro",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "42",
+            "43",
+            "44",
+            "47"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "48. Add lines 42, 43, 44, and 47, then enter line 48 on either line 5 or line 20, whichever is appro"
+      },
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row1[0].f3_01[0]",
@@ -439,26 +660,30 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row1[0].f3_02[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 49(b) Controlled group member’s principal business activity code.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row1[0].f3_03[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 1. Column: 49(c) Business component’s name or unique alphanumeric identifier (see instructions)",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row1[0].f3_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 49(d) Business component type (select one from available options).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row2[0].f3_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row2[0].f3_06[0]",
@@ -483,7 +708,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row3[0].f3_10[0]",
@@ -495,20 +721,23 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row3[0].f3_11[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 3. 49(c) Business component’s name or unique alphanumeric identifier (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 49(d) Business component type (select one from available options).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row4[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row4[0].f3_14[0]",
@@ -520,13 +749,15 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row4[0].f3_15[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 4. 49(c) Business component’s name or unique alphanumeric identifier (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row4[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 49(d) Business component type (select one from available options).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row5[0].f3_17[0]",
@@ -807,19 +1038,22 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row1[0].f3_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 49(e) Software (if applicable, select from the available options).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row1[0].f3_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 49(f) Describe the information sought to be discovered. Use the space provided.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row2[0].f3_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: 49(e) Software (if applicable, select from the available options).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row2[0].f3_64[0]",
@@ -831,7 +1065,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row3[0].f3_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 49(e) Software (if applicable, select from the available options).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row3[0].f3_66[0]",
@@ -843,7 +1078,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row4[0].f3_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 49(e) Software (if applicable, select from the available options).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartII[0].Row4[0].f3_68[0]",
@@ -993,25 +1229,29 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row1[0].f4_02[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 51 Direct supervision wages for qualified services.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row1[0].f4_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 52 Direct support wages for qualified services.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row1[0].f4_04[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 53 Total qualified wages (add line 50, line 51, and line 52).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row2[0].f4_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: 50 Direct research wages for qualified services.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row2[0].f4_06[0]",
@@ -1035,7 +1275,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row3[0].f4_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 50 Direct research wages for qualified services.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row3[0].f4_10[0]",
@@ -1047,19 +1288,22 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row3[0].f4_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 52 Direct support wages for qualified services.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row3[0].f4_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 53 Total qualified wages (add line 50, line 51, and line 52).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row4[0].f4_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 50 Direct research wages for qualified services.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row4[0].f4_14[0]",
@@ -1071,13 +1315,15 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row4[0].f4_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 52 Direct support wages for qualified services.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row4[0].f4_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 53 Total qualified wages (add line 50, line 51, and line 52).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIII[0].Row5[0].f4_17[0]",
@@ -1395,25 +1641,29 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row1[0].f4_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 54 Cost of supplies.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row1[0].f4_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 55 Rental or lease cost of computers.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row1[0].f4_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: 56 Applicable amount of contract research expenses (see instructions for reporting b",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row2[0].f4_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: 54 Cost of supplies.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row2[0].f4_73[0]",
@@ -1431,7 +1681,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row3[0].f4_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 54 Cost of supplies.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row3[0].f4_76[0]",
@@ -1443,13 +1694,15 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row3[0].f4_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: 56 Applicable amount of contract research expenses (see instructions for reporting b",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row4[0].f4_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 54 Cost of supplies.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row4[0].f4_79[0]",
@@ -1461,7 +1714,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row4[0].f4_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: 56 Applicable amount of contract research expenses (see instructions for reporting b",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_PartIV[0].Row5[0].f4_81[0]",

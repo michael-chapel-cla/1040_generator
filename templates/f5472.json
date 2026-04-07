@@ -3,7 +3,7 @@
   "displayName": "Form 5472",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5472.pdf",
-  "generatedAt": "2026-04-06T21:46:34.319Z",
+  "generatedAt": "2026-04-07T00:27:59.137Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].f1_1[0]",
@@ -41,56 +41,65 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_6[0]",
       "fieldType": "street_address",
       "labelHint": "1a. Number, street, and room or suite no. (If a P.O. box, see instructions.).",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_7[0]",
       "fieldType": "city",
       "labelHint": "1a. City or town, state, and Z I P code (If a foreign address, see instructions.).",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "employer_ein",
       "labelHint": "1b. Employer identification number.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Total assets. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. Principal business activity.",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1e. Principal business activity code.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1f_ReadOrder[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1f. Total value of gross payments made or received reported on this Form 5472. See instructions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "tax_year",
       "labelHint": "1g. Total number of Forms 5472 filed for the tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1h. Total value of gross payments made or received reported on all Forms 5472. See instructions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1i_ReadOrder[0].c1_1[0]",
@@ -116,31 +125,36 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1k. Total number of Parts V I I I attached to Form 5472.",
-      "required": false
+      "required": false,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1l. Country of incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "date",
       "labelHint": "1m. Date of incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1n. Country(ies) under whose laws the reporting corporation files an income tax return as a resident",
-      "required": false
+      "required": false,
+      "lineNumber": "1n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1o. Principal country(ies) where business is conducted.",
-      "required": false
+      "required": false,
+      "lineNumber": "1o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -176,7 +190,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "full_name",
       "labelHint": "4a. Name and address of direct 25% foreign shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
@@ -200,25 +215,29 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. Principal country(ies) where business is conducted.",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4d. Country of citizenship, organization, or incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4e. Country(ies) under whose laws the direct 25% foreign shareholder files an income tax return as a",
-      "required": false
+      "required": false,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "full_name",
       "labelHint": "5a. Name and address of direct 25% foreign shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
@@ -242,25 +261,29 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Principal country(ies) where business is conducted.",
-      "required": false
+      "required": false,
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Country of citizenship, organization, or incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5e. Country(ies) under whose laws the direct 25% foreign shareholder files an income tax return as a",
-      "required": false
+      "required": false,
+      "lineNumber": "5e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "full_name",
       "labelHint": "6a. Name and address of ultimate indirect 25% foreign shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
@@ -284,25 +307,29 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6c. Principal country(ies) where business is conducted.",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6d. Country of citizenship, organization, or incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6e. Country(ies) under whose laws the ultimate indirect 25% foreign shareholder files an income tax ",
-      "required": false
+      "required": false,
+      "lineNumber": "6e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
       "fieldType": "full_name",
       "labelHint": "7a. Name and address of ultimate indirect 25% foreign shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
@@ -326,19 +353,22 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7c. Principal country(ies) where business is conducted.",
-      "required": false
+      "required": false,
+      "lineNumber": "7c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7d. Country of citizenship, organization, or incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "7d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7e. Country(ies) under whose laws the ultimate indirect 25% foreign shareholder files an income tax ",
-      "required": false
+      "required": false,
+      "lineNumber": "7e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -364,7 +394,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "full_name",
       "labelHint": "8a. Name and address of related party.",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
@@ -388,13 +419,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. Principal business activity.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8d. Principal business activity code.",
-      "required": false
+      "required": false,
+      "lineNumber": "8d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -430,13 +463,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8f. Principal country(ies) where business is conducted.",
-      "required": false
+      "required": false,
+      "lineNumber": "8f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8g. Country(ies) under whose laws the related party files an income tax return as a resident.",
-      "required": false
+      "required": false,
+      "lineNumber": "8g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIV[0].c2_5[0]",
@@ -452,193 +487,225 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Sales of stock in trade (inventory).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Sales of tangible property other than stock in trade.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Platform contribution transaction payments received.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Cost sharing transaction payments received.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13a. Rents received (for other than intangible property rights).",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13b. Royalties received (for other than intangible property rights).",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Sales, leases, licenses, etc., of intangible property rights (for example, patents, trademarks, secret formulas).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Consideration received for technical, managerial, engineering, construction, scientific, or like services.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Commissions received.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Amounts borrowed (see instructions). a. Beginning balance.",
-      "required": false
+      "required": false,
+      "lineNumber": "17a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17b. Ending balance or monthly average.",
-      "required": false
+      "required": false,
+      "lineNumber": "17b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Interest received.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Premiums received for insurance or reinsurance.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Loan guarantee fees received.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Other amounts received (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Total. Combine amounts on lines 9 through 21.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Purchases of stock in trade (inventory).",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Purchases of tangible property other than stock in trade.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Platform contribution transaction payments paid.",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Cost sharing transaction payments paid.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27a. Rents paid (for other than intangible property rights).",
-      "required": false
+      "required": false,
+      "lineNumber": "27a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27b. Royalties paid (for other than intangible property rights).",
-      "required": false
+      "required": false,
+      "lineNumber": "27b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Purchases, leases, licenses, etc., of intangible property rights (for example, patents, trademarks, secret formulas).",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Consideration paid for technical, managerial, engineering, construction, scientific, or like services.",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Commissions paid.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Amounts loaned (see instructions). a. Beginning balance.",
-      "required": false
+      "required": false,
+      "lineNumber": "31a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31b. Ending balance or monthly average.",
-      "required": false
+      "required": false,
+      "lineNumber": "31b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Interest paid.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "33. Premiums paid for insurance or reinsurance.",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Loan guarantee fees paid.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. Other amounts paid (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. Total. Combine amounts on lines 23 through 35.",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartV[0].c2_6[0]",
@@ -758,13 +825,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "40a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40b. If “Yes,” enter the total amount of the deductions. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "40b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[0]",
@@ -784,25 +853,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "41a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "date",
       "labelHint": "41b. Enter the amount of gross receipts derived from all sales of general property to the foreign re",
-      "required": false
+      "required": false,
+      "lineNumber": "41b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
       "fieldType": "date",
       "labelHint": "41c. Enter the amount of gross receipts derived from all sales of intangible property to the foreign",
-      "required": false
+      "required": false,
+      "lineNumber": "41c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "date",
       "labelHint": "41d. Enter the amount of gross receipts derived from all services provided to the foreign related pa",
-      "required": false
+      "required": false,
+      "lineNumber": "41d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[0]",
@@ -862,19 +935,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "43a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43b. The amount of such transaction(s), distribution(s), and acquisition(s). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "43b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43b. (2). The amount of such related party indebtedness. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "43b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
@@ -886,19 +962,22 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Line 2 of 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Line 3 of 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. Line 4 of 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[0]",
@@ -944,19 +1023,22 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "47. What was the reporting corporation’s share of reasonably anticipated benefits for the C S A? %.",
-      "required": false
+      "required": false,
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "48a. Enter the total amount of stock-based compensation deductions claimed by the reporting corporat",
-      "required": false
+      "required": false,
+      "lineNumber": "48a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "tax_year",
       "labelHint": "48b. Enter the total amount of deductions for the tax year for stock-based compensation that was gra",
-      "required": false
+      "required": false,
+      "lineNumber": "48b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[0]",
@@ -982,13 +1064,15 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "49a. Enter the total amount of intangible development costs for the C S A. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "49a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "49b. Enter the amount of intangible development costs allocable to the reporting corporation based o",
-      "required": false
+      "required": false,
+      "lineNumber": "49b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
@@ -1000,13 +1084,15 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "51. Amount of base erosion tax benefits under section 59A(c)(2). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "51"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "52. Amount of total qualified derivative payments as described in section 59A(h) made by the reporti",
-      "required": false
+      "required": false,
+      "lineNumber": "52"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c2_12[0]",

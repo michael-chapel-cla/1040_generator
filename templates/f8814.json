@@ -3,7 +3,7 @@
   "displayName": "Form 8814",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8814.pdf",
-  "generatedAt": "2026-04-06T21:46:19.708Z",
+  "generatedAt": "2026-04-07T00:27:44.498Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -45,49 +45,78 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Child's Interest and Dividends To Report on Your Return. 1a. Enter your child's taxable inte",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Enter your child's tax-exempt interest. Do not include this amount on line 1a.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2a. Enter your child’s ordinary dividends, including any Alaska Permanent Fund dividends. If your ch",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Enter your child’s qualified dividends included on line 2a. See the instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Enter your child’s capital gain distributions. If your child received any capital gain distributi",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Add lines 1a, 2a, and 3. If the total is $2,700 or less, skip lines 5 through 12 and go to line 1",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1a",
+            "2a",
+            "3"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Add lines 1a, 2a, and 3. If the total is $2,700 or less, skip lines 5 through 12 and go to line 1"
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Base amount. $2,700.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Subtract line 5 from line 4.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "4",
+          "subtrahend": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. Subtract line 5 from line 4."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
@@ -100,44 +129,71 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Numbers after the decimal.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Divide line 3 by line 4. Enter the result as a decimal (rounded to at least three places). Number",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Numbers after the decimal.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Multiply line 6 by line 7. Enter the result here. See the instructions for where to report this a",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Multiply line 6 by line 8. Enter the result here. See the instructions for where to report this ",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Add lines 9 and 10.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9",
+            "10"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Add lines 9 and 10."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Subtract line 11 from line 6. Include this amount in the total on Schedule 1 (Form 1040), line 8",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Subtract line 11 from line 6. Include this amount in the total on Schedule 1 (Form 1040), line 8"
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
@@ -149,7 +205,17 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Subtract line 13 from line 4. If the result is zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "4",
+          "subtrahend": "13"
+        },
+        "floorAtZero": false,
+        "rawLabel": "14. Subtract line 13 from line 4. If the result is zero or less, enter 0."
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line15_ReadOrder[0].c1_2[0]",
@@ -159,7 +225,17 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "14",
+          "factor": 0.1
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Yes. Multiply line 14 by 10% (0.10). Enter the result here and see the Note below."
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line15_ReadOrder[0].c1_2[1]",
@@ -169,13 +245,24 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "14",
+          "factor": 0.1
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Yes. Multiply line 14 by 10% (0.10). Enter the result here and see the Note below."
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Amount. Note: If you checked the box on line C above, see the instructions. Otherwise, include t",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "displayName": "Form 5329",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5329.pdf",
-  "generatedAt": "2026-04-06T21:46:19.323Z",
+  "generatedAt": "2026-04-07T00:27:44.122Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -74,25 +74,38 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the appropriate exception number from the instructions:",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Early distributions included on line 1 that are not subject to the additional tax (see instructio",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Amount subject to additional tax. Subtract line 2 from line 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1",
+          "subtrahend": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Amount subject to additional tax. Subtract line 2 from line 1."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Additional tax. Enter 10% (0.10) of line 3. Include this amount on Schedule 2 (Form 1040), line 8",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
@@ -104,19 +117,31 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Distributions included on line 5 that are not subject to the additional tax (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Amount subject to additional tax. Subtract line 6 from line 5.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Amount subject to additional tax. Subtract line 6 from line 5."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Additional tax. Enter 10% (0.10) of line 7. Include this amount on Schedule 2 (Form 1040), line 8",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
@@ -128,49 +153,89 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. If your traditional I R A contributions for 2025 are less than your maximum allowable contributi",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. 2025 traditional I R A distributions included in income (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "tax_year",
       "labelHint": "12. 2025 distributions of prior year excess contributions to traditional I R A s (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Add lines 10, 11, and 12.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "10",
+            "11",
+            "12"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. Add lines 10, 11, and 12."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "tax_year",
       "labelHint": "14. Prior year excess contributions. Subtract line 13 from line 9. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "9",
+          "subtrahend": "13"
+        },
+        "floorAtZero": true,
+        "rawLabel": "14. Prior year excess contributions. Subtract line 13 from line 9. If zero or less, enter 0."
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Excess contributions for 2025 (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Total excess contributions. Add lines 14 and 15.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "14",
+            "15"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "16. Total excess contributions. Add lines 14 and 15."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Additional tax. Enter 6% (0.06) of the smaller of line 16 or the value of your traditional I R A",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
@@ -182,43 +247,81 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. If your Roth I R A contributions for 2025 are less than your maximum allowable contribution, see",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. 2025 distributions from your Roth I R A s (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Add lines 19 and 20.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "19",
+            "20"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "21. Add lines 19 and 20."
+      },
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "tax_year",
       "labelHint": "22. Prior year excess contributions. Subtract line 21 from line 18. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "18",
+          "subtrahend": "21"
+        },
+        "floorAtZero": true,
+        "rawLabel": "22. Prior year excess contributions. Subtract line 21 from line 18. If zero or less, enter 0."
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Excess contributions for 2025 (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Total excess contributions. Add lines 22 and 23.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "22",
+            "23"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Total excess contributions. Add lines 22 and 23."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Additional tax. Enter 6% (0.06) of the smaller of line 24 or the value of your Roth I R A s on D",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
@@ -230,43 +333,81 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. If the contributions to your Coverdell E S A s for 2025 were less than the maximum allowable con",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. 2025 distributions from your Coverdell E S A s (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Add lines 27 and 28.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "27",
+            "28"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "29. Add lines 27 and 28."
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "tax_year",
       "labelHint": "30. Prior year excess contributions. Subtract line 29 from line 26. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "26",
+          "subtrahend": "29"
+        },
+        "floorAtZero": true,
+        "rawLabel": "30. Prior year excess contributions. Subtract line 29 from line 26. If zero or less, enter 0."
+      },
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Excess contributions for 2025 (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Total excess contributions. Add lines 30 and 31.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "30",
+            "31"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Total excess contributions. Add lines 30 and 31."
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "33. Additional tax. Enter 6% (0.06) of the smaller of line 32 or the value of your Coverdell E S A s",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
@@ -278,43 +419,81 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. If the contributions to your Archer M S A s for 2025 are less than the maximum allowable contrib",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. 2025 distributions from your Archer M S A s from Form 8853, line 8.",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "37. Add lines 35 and 36.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "35",
+            "36"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "37. Add lines 35 and 36."
+      },
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "tax_year",
       "labelHint": "38. Prior year excess contributions. Subtract line 37 from line 34. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "34",
+          "subtrahend": "37"
+        },
+        "floorAtZero": true,
+        "rawLabel": "38. Prior year excess contributions. Subtract line 37 from line 34. If zero or less, enter 0."
+      },
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "39. Excess contributions for 2025 (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "40. Total excess contributions. Add lines 38 and 39.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "38",
+            "39"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "40. Total excess contributions. Add lines 38 and 39."
+      },
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41. Additional tax. Enter 6% (0.06) of the smaller of line 40 or the value of your Archer M S A s on",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
@@ -326,43 +505,81 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43. If the contributions to your H S A s for 2025 are less than the maximum allowable contribution, ",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "44. 2025 distributions from your H S A s from Form 8889, line 16.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "45. Add lines 43 and 44.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "43",
+            "44"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "45. Add lines 43 and 44."
+      },
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "tax_year",
       "labelHint": "46. Prior year excess contributions. Subtract line 45 from line 42. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "42",
+          "subtrahend": "45"
+        },
+        "floorAtZero": true,
+        "rawLabel": "46. Prior year excess contributions. Subtract line 45 from line 42. If zero or less, enter 0."
+      },
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "47. Excess contributions for 2025 (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "48. Total excess contributions. Add lines 46 and 47.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "46",
+            "47"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "48. Total excess contributions. Add lines 46 and 47."
+      },
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "49. Additional tax. Enter 6% (0.06) of the smaller of line 48 or the value of your H S A s on Decemb",
-      "required": false
+      "required": false,
+      "lineNumber": "49"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
@@ -374,49 +591,86 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "51. Additional tax. Enter 6% (0.06) of the smaller of line 50 or the value of your A B L E account o",
-      "required": false
+      "required": false,
+      "lineNumber": "51"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 3. Part I X. Additional Tax on Excess Accumulation in Qualified Retirement Plans (Including I R",
-      "required": false
+      "required": false,
+      "lineNumber": "52a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "52b. Minimum required distribution for 2025 from all other plans.",
-      "required": false
+      "required": false,
+      "lineNumber": "52b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "53a. Amount distributed to you during 2025 from all qualified plans for which you received a distrib",
-      "required": false
+      "required": false,
+      "lineNumber": "53a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "53b. Amount distributed to you during 2025 from all other plans.",
-      "required": false
+      "required": false,
+      "lineNumber": "53b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "54a. Subtract line 53a from line 52a and multiply the result by 10% (0.10). If zero or less, enter 0",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "52a",
+          "subtrahend": "53a"
+        },
+        "floorAtZero": true,
+        "rawLabel": "54a. Subtract line 53a from line 52a and multiply the result by 10% (0.10). If zero or less, enter 0"
+      },
+      "lineNumber": "54a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "54b. Subtract line 53b from line 52b and multiply the result by 25% (0.25). If zero or less, enter 0",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "52b",
+          "subtrahend": "53b"
+        },
+        "floorAtZero": true,
+        "rawLabel": "54b. Subtract line 53b from line 52b and multiply the result by 25% (0.25). If zero or less, enter 0"
+      },
+      "lineNumber": "54b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "55. Add lines 54a and 54b. Include the total on Schedule 2 (Form 1040), line 8, or Form 1041, Schedu",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "54a",
+            "54b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "55. Add lines 54a and 54b. Include the total on Schedule 2 (Form 1040), line 8, or Form 1041, Schedu"
+      },
+      "lineNumber": "55"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",

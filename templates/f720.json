@@ -3,7 +3,7 @@
   "displayName": "Form 720",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f720.pdf",
-  "generatedAt": "2026-04-06T21:46:35.661Z",
+  "generatedAt": "2026-04-07T00:28:00.528Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].CheckHere[0].c1_1[0]",
@@ -1157,14 +1157,16 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Total. Add all amounts in Part I. Complete Schedule A unless one-time filing. Tax. Dollars. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIITable[0].BodyRow2[0].f2_63[0]",
@@ -1520,53 +1522,61 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_119[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Total. Add all amounts in Part I I. Tax. Dollars. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_120[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 3. Part I I I. 3. Total tax. Add Part I, line 1, and Part I I, line 2. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Claims (see instructions; complete Schedule C). Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Deposits made for the quarter. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[0]",
@@ -1576,72 +1586,105 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Overpayment from previous quarters. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Enter the amount from Form 720-X included on line 6, if any. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Add lines 5 and 6. Dollars.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "5",
+            "6"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Add lines 5 and 6. Dollars."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Add lines 4 and 8. Dollars.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "4",
+            "8"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Add lines 4 and 8. Dollars."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Balance Due. If line 3 is greater than line 9, enter the difference. Pay the full amount with th",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line11_ReadOrder[0].c3_2[0]",
@@ -1651,7 +1694,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Line11_ReadOrder[0].c3_2[1]",
@@ -1661,20 +1705,23 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Overpayment. If line 9 is greater than line 3, enter the difference. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
@@ -1876,20 +1923,23 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. (b) Net liability for regular method taxes. Add the amounts for each semimonthly period. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. (b). Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].FirstMonth[0].FirstThru15[0].f4_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Alternative method taxes (I R S Nos. 22, 26, 28, and 27). (a) Record of Taxes Considered as Collected. Row: First month. M. Column: Period. 1st–15th day. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchA_2a[0].FirstMonth[0].FirstThru15[0].f4_18[0]",
@@ -1980,14 +2030,16 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. (b) Alternative method taxes. Add the amounts for each semimonthly period. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. (b). Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].TwoPartyExchangeTable[0].Row1[0].f4_33[0]",
@@ -2127,7 +2179,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Nontaxable Use of Aviation Gasoline. Period of claim.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line2[0].Line2a[0].f5_16[0]",
@@ -2281,7 +2334,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Nontaxable Use of Undyed Diesel Fuel. Period of claim.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_1[0]",
@@ -2291,7 +2345,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line3[0].Line3a[0].f5_41[0]",
@@ -2482,7 +2537,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Nontaxable Use of Undyed Kerosene (Other Than Kerosene Used in Aviation) Period of claim.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[0]",
@@ -2492,7 +2548,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line4[0].Line4a[0].f5_72[0]",
@@ -2720,7 +2777,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_107[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Kerosene Used in Aviation (see Caution above line 1). Period of claim.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Line5[0].Line5a[0].f5_108[0]",
@@ -2911,7 +2969,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].f6_1[0]",
       "fieldType": "percentage",
       "labelHint": "Page 6. 6. Nontaxable Use of Alternative Fuel. Caution: There is a reduced credit rate for use in ce",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line6[0].Line6a[0].Rate183A[0]",
@@ -3207,13 +3266,15 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Sales by Registered Ultimate Vendors of Undyed Diesel Fuel. Period of claim.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Registration number.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_1[0]",
@@ -3223,7 +3284,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line7[0].Line7a[0].f6_49[0]",
@@ -3291,13 +3353,15 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Sales by Registered Ultimate Vendors of Undyed Kerosene (Other Than Kerosene for Use in Aviation). Period of claim.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Registration number.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
@@ -3307,7 +3371,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line8[0].Line8a[0].f6_61[0]",
@@ -3406,7 +3471,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Sales by Registered Ultimate Vendors of Kerosene for Use in Aviation. Registration number.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line9[0].Line9a[0].f6_77[0]",
@@ -3634,7 +3700,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Sales by Registered Ultimate Vendors of Gasoline. Registration number.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line10[0].Line10a[0].f6_114[0]",
@@ -3702,7 +3769,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_124[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Sales by Registered Ultimate Vendors of Aviation Gasoline. Registration number.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Line11Table[0].Line11a[0].f6_125[0]",
@@ -3776,70 +3844,81 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12a[0].AmountOfClaim[0].f7_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12a. Reserved for future use. Column: Amount of claim. Dollars. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12a[0].AmountOfClaim[0].f7_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12a. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12a[0].f7_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12a. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].f7_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12b. Reserved for future use. Column: Number of gallons sold or used.",
-      "required": false
+      "required": false,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].AmountOfClaim[0].f7_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12b. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].AmountOfClaim[0].f7_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12b. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12b[0].f7_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12b. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].f7_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12c. Reserved for future use. Column: Number of gallons sold or used.",
-      "required": false
+      "required": false,
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].AmountOfClaim[0].f7_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12c. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].AmountOfClaim[0].f7_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12c. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12c[0].f7_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12c. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].f7_15[0]",
@@ -3851,14 +3930,16 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].AmountOfClaim[0].f7_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12d. Sustainable aviation fuel mixtures (see instructions). Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].AmountOfClaim[0].f7_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12d. Sustainable aviation fuel mixtures (see instructions). Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line12[0].Line12d[0].f7_18[0]",
@@ -3870,286 +3951,332 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].f7_19[0]",
       "fieldType": "percentage",
       "labelHint": "13. Reserved for future use. Row: 13a. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].f7_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13a. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].AmountOfClaim[0].f7_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13a. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].AmountOfClaim[0].f7_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13a. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13a[0].f7_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13a. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].f7_24[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13b. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].f7_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13b. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].AmountOfClaim[0].f7_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13b. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].AmountOfClaim[0].f7_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13b. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13b[0].f7_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13b. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].f7_29[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13c. Reserved for future use. Column: Rate. 50.",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].f7_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13c. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].AmountOfClaim[0].f7_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13c. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].AmountOfClaim[0].f7_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13c. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13c[0].f7_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13c. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].f7_34[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13d. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].f7_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13d. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].AmountOfClaim[0].f7_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13d. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].AmountOfClaim[0].f7_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13d. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13d[0].f7_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13d. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].f7_39[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13e. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].f7_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13e. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].AmountOfClaim[0].f7_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13e. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].AmountOfClaim[0].f7_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13e. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13e[0].f7_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13e. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].f7_44[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13f. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].f7_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13f. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].AmountOfClaim[0].f7_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13f. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].AmountOfClaim[0].f7_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13f. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13f[0].f7_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13f. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].f7_49[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13g. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].f7_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13g. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].AmountOfClaim[0].f7_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13g. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].AmountOfClaim[0].f7_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13g. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13g[0].f7_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13g. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].f7_54[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13h. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].f7_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13h. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].AmountOfClaim[0].f7_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13h. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].AmountOfClaim[0].f7_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13h. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13h[0].f7_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13h. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].f7_59[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 13i. Reserved for future use. Column: Rate.",
-      "required": false
+      "required": false,
+      "lineNumber": "13i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].f7_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13i. Reserved for future use. Column: Gallons or gasoline or diesel gallon equivalents (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].AmountOfClaim[0].f7_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13i. Reserved for future use. Column: Amount of claim. Dollars.",
-      "required": false
+      "required": false,
+      "lineNumber": "13i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].AmountOfClaim[0].f7_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13i. Reserved for future use. Column: Amount of claim. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "13i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Line13_2[0].Line13i[0].f7_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13i. Reserved for future use. Column: C R N.",
-      "required": false
+      "required": false,
+      "lineNumber": "13i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14a[0].AmountOfClaim[0].f7_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Other claims. See the instructions. For lines 14b and 14c, see the Caution above line 1 on page ",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Line14Table[0].Line14a[0].AmountOfClaim[0].f7_65[0]",
@@ -4394,14 +4521,16 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_103[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Total claims. Add amounts on lines 1 through 14. Enter the result here and on Form 720, Part I I",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_1[0]",
@@ -4414,14 +4543,16 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Enter the amount of your payment. Make your check or money order payable to \"United States Treasu",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Cents.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].Quarter_ReadOrder[0].c8_1[0]",
@@ -4431,7 +4562,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].Quarter_ReadOrder[0].c8_1[1]",
@@ -4441,7 +4573,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].c8_1[0]",
@@ -4451,7 +4584,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line3_ReadOrder[0].c8_1[1]",
@@ -4461,25 +4595,29 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_4[0]",
       "fieldType": "business_name",
       "labelHint": "4. Enter your business name (individual name if sole proprietor).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Enter your address.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_6[0]",
       "fieldType": "city",
       "labelHint": "4. Enter your city or town, state or province, country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     }
   ]
 }

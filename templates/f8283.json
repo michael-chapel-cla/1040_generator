@@ -3,7 +3,7 @@
   "displayName": "Form 8283",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8283.pdf",
-  "generatedAt": "2026-04-06T21:46:19.469Z",
+  "generatedAt": "2026-04-07T00:27:44.264Z",
   "fields": [
     {
       "pdfFieldName": "Form8283[0].Page1[0].f1_1[0]",
@@ -309,7 +309,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2a-c[0].c1_6[1]",
@@ -319,7 +320,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2a-c[0].c1_7[0]",
@@ -329,13 +331,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2a-c[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. b(1). N P S #.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2a-c[0].c1_6[2]",
@@ -345,7 +349,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2d-h[0].c1_6[0]",
@@ -355,7 +360,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2d-h[0].c1_6[1]",
@@ -365,7 +371,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2d-h[0].c1_6[2]",
@@ -375,7 +382,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2d-h[0].c1_6[3]",
@@ -385,7 +393,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2d-h[0].c1_6[4]",
@@ -395,7 +404,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2i-l[0].c1_6[0]",
@@ -405,7 +415,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2i-l[0].c1_6[1]",
@@ -415,7 +426,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2i-l[0].c1_6[2]",
@@ -425,7 +437,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Lines2i-l[0].c1_6[3]",
@@ -435,13 +448,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Row3A[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Row: A. Column: (a) Description of donated property (if you need more space, attach a separate statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Row3A[0].f1_43[0]",
@@ -617,55 +632,64 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Partial Interests and Restricted Use Property (Other Than Qualified Conservation Contribut",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_4[0]",
       "fieldType": "tax_year",
       "labelHint": "4b. Total amount claimed as a deduction for the property listed in Section B, Part I: (1). For this ",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. (2). For any prior tax years.",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_6[0]",
       "fieldType": "full_name",
       "labelHint": "4c. Name and address of each organization to which any such contribution was made in a prior year (c",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_7[0]",
       "fieldType": "street_address",
       "labelHint": "4c. Address (number, street, and room or suite no.).",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_8[0]",
       "fieldType": "city",
       "labelHint": "4c. City or town, state, and Z I P code.",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4d. For tangible property, enter the place where the property is located or kept.",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_10[0]",
       "fieldType": "full_name",
       "labelHint": "4e. Name of any person, other than the donee organization, having actual possession of the property.",
-      "required": false
+      "required": false,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4e. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].c2_1[0]",
@@ -675,7 +699,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].c2_1[1]",
@@ -685,7 +710,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].c2_2[0]",
@@ -695,7 +721,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].c2_2[1]",
@@ -705,7 +732,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].c2_3[0]",
@@ -715,7 +743,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].c2_3[1]",
@@ -725,7 +754,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "Form8283[0].Page2[0].f2_12[0]",

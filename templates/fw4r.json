@@ -3,45 +3,51 @@
   "displayName": "Form W-4R",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw4r.pdf",
-  "generatedAt": "2026-04-06T21:46:30.285Z",
+  "generatedAt": "2026-04-07T00:27:55.110Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_01[0]",
       "fieldType": "first_name",
       "labelHint": "Page 1. 1a. First name and middle initial.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_02[0]",
       "fieldType": "last_name",
       "labelHint": "1a. Last name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1a. Address.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_04[0]",
       "fieldType": "city",
       "labelHint": "1a. City or town, state, and Z I P code.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
       "fieldType": "ssn",
       "labelHint": "1b. Social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
       "fieldType": "percentage",
       "labelHint": "2. Complete this line if you would like a rate of withholding that is different from the default wit",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "2"
     }
   ]
 }

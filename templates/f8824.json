@@ -3,7 +3,7 @@
   "displayName": "Form 8824",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8824.pdf",
-  "generatedAt": "2026-04-06T21:46:23.646Z",
+  "generatedAt": "2026-04-07T00:27:48.438Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -28,47 +28,54 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Description of like-kind property received: Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "date",
       "labelHint": "3. Date like-kind property given up was originally acquired (month, day, year). M M/D D/Y Y Y Y.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "date",
       "labelHint": "4. Date you actually transferred your property to the other party (month, day, year). M M/D D/Y Y Y ",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "date",
       "labelHint": "5. Date like-kind property you received was identified by written notice to another party (month, da",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "date",
       "labelHint": "6. Date you actually received the like-kind property from other party (month, day, year). See instru",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -100,20 +107,23 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "relationship",
       "labelHint": "8. Relationship to you.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Related party's identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "street_address",
       "labelHint": "8. Address (no., street, and apt., room, or suite no.; city or town; state; and Z I P code).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -208,127 +218,215 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12a. Description of other property given up. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12a. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Adjusted basis of other property given up.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Gain or (loss) recognized on other property given up. Subtract line 13 from line 12. Report the ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "13"
+        },
+        "floorAtZero": false,
+        "rawLabel": "14. Gain or (loss) recognized on other property given up. Subtract line 13 from line 12. Report the "
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Cash received, F M V of other property received, plus net liabilities assumed by other party, reduced (but not below zero) by any exchange expenses you incurred. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15a. Description of other property received. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15a. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. F M V of like-kind property you received.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Add lines 15 and 16.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "15",
+            "16"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Add lines 15 and 16."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Adjusted basis of like-kind property you gave up, net amounts paid to other party, plus any exch",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Realized gain or (loss). Subtract line 18 from line 17.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "17",
+          "subtrahend": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19. Realized gain or (loss). Subtract line 18 from line 17."
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Enter the smaller of line 15 or line 19, but not less than zero.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "15",
+          "b": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Enter the smaller of line 15 or line 19, but not less than zero."
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Ordinary income under recapture rules. Enter here and on Form 4797, line 16. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Subtract line 21 from line 20. If zero or less, enter 0. If more than zero, enter here and on Sc",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "20",
+          "subtrahend": "21"
+        },
+        "floorAtZero": true,
+        "rawLabel": "22. Subtract line 21 from line 20. If zero or less, enter 0. If more than zero, enter here and on Sc"
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Recognized gain. Add lines 21 and 22.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21",
+            "22"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "23. Recognized gain. Add lines 21 and 22."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Deferred gain or (loss). Subtract line 23 from line 19. If a related party exchange, see instruc",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "19",
+          "subtrahend": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Deferred gain or (loss). Subtract line 23 from line 19. If a related party exchange, see instruc"
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Basis of like-kind property received. Subtract line 15 from the sum of lines 18 and 23. See inst",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25a. Basis of like-kind section 1250 property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25b. Basis of like-kind section 1245, 1252, 1254, and 1255 property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25c. Basis of like-kind intangible property received.",
-      "required": false
+      "required": false,
+      "lineNumber": "25c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
@@ -340,92 +438,143 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Numbers after the dash.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. Description of divested property. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Description of replacement property. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_32[0]",
       "fieldType": "date",
       "labelHint": "29. Date divested property was sold (month, day, year). M M/D D/Y Y Y Y.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Sales price of divested property. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Basis of divested property.",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Realized gain. Subtract line 31 from line 30.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "30",
+          "subtrahend": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Realized gain. Subtract line 31 from line 30."
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
       "fieldType": "date",
       "labelHint": "33. Cost of replacement property purchased within 60 days after date of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. Subtract line 33 from line 30. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "30",
+          "subtrahend": "33"
+        },
+        "floorAtZero": true,
+        "rawLabel": "34. Subtract line 33 from line 30. If zero or less, enter 0."
+      },
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. Ordinary income under recapture rules. Enter here and on Form 4797, line 10. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. Subtract line 35 from line 34. If zero or less, enter 0. If more than zero, enter here and on Sc",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "34",
+          "subtrahend": "35"
+        },
+        "floorAtZero": true,
+        "rawLabel": "36. Subtract line 35 from line 34. If zero or less, enter 0. If more than zero, enter here and on Sc"
+      },
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "37. Deferred gain. Subtract the sum of lines 35 and 36 from line 32.",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "38. Basis of replacement property. Subtract line 37 from line 33.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "33",
+          "subtrahend": "37"
+        },
+        "floorAtZero": false,
+        "rawLabel": "38. Basis of replacement property. Subtract line 37 from line 33."
+      },
+      "lineNumber": "38"
     }
   ]
 }

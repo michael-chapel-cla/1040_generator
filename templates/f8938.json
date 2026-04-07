@@ -3,7 +3,7 @@
   "displayName": "Form 8938",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8938.pdf",
-  "generatedAt": "2026-04-06T21:46:35.140Z",
+  "generatedAt": "2026-04-07T00:27:59.996Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].f1_01[0]",
@@ -58,14 +58,16 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
       "fieldType": "full_name",
       "labelHint": "1. Name(s) shown on return.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
       "fieldType": "ssn",
       "labelHint": "2. Taxpayer identification number (T I N).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -111,38 +113,44 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
       "fieldType": "full_name",
       "labelHint": "4. If you checked box 3a, skip this line 4. If you checked box 3b or 3c, enter the name and T I N of",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4b. T I N.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Foreign Deposit and Custodial Accounts Summary. 5. Number of deposit accounts (reported in Part V).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Maximum value of all deposit accounts. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Number of custodial accounts (reported in Part V).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Maximum value of all custodial accounts. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -152,7 +160,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
@@ -162,19 +171,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Other Foreign Assets Summary. 10. Number of foreign assets (reported in Part V I).",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Maximum value of all assets (reported in Part V I). $.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
@@ -184,7 +196,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
@@ -194,7 +207,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part3[0].BodyRow13a[0].f1_17[0]",
@@ -458,25 +472,29 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Number of Forms 3520-A.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Number of Forms 5471.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Number of Forms 8621.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Number of Forms 8865.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line20_ReadOrder[0].c2_1[0]",
@@ -502,7 +520,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
       "fieldType": "account_number",
       "labelHint": "21. Account number or other designation.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -548,7 +567,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
       "fieldType": "tax_year",
       "labelHint": "23. Maximum value of account during tax year. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
@@ -558,7 +578,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[1]",
@@ -568,13 +589,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. If you answered “Yes” to line 24, complete all that apply. (a). Foreign currency in which accoun",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
@@ -592,47 +615,54 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
       "fieldType": "full_name",
       "labelHint": "26a. Name of financial institution in which account is maintained.",
-      "required": false
+      "required": false,
+      "lineNumber": "26a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26b. Global Intermediary Identification Number (G I I N) (Optional). First 6 numbers.",
       "required": false,
-      "maxLength": 6
+      "maxLength": 6,
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26b. Next 5 numbers.",
       "required": false,
-      "maxLength": 5
+      "maxLength": 5,
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26b. Next 2 numbers.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26b. Last 3 numbers.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "street_address",
       "labelHint": "27. Mailing address of financial institution in which account is maintained. Number, street, and roo",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "city",
       "labelHint": "28. City or town, state or province, and country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
@@ -644,19 +674,22 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Identifying number or other designation.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "date",
       "labelHint": "31. Complete all that apply. See instructions for reporting of multiple acquisition or disposition d",
-      "required": false
+      "required": false,
+      "lineNumber": "31a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "date",
       "labelHint": "31b. Date asset disposed of during tax year, if applicable.",
-      "required": false
+      "required": false,
+      "lineNumber": "31b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[0]",
@@ -722,7 +755,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32e. If more than $200,000, list value. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "32e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_10[0]",
@@ -732,7 +766,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_10[1]",
@@ -742,13 +777,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34. If you answered “Yes” to line 33, complete all that apply. (a). Foreign currency in which asset ",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
@@ -766,35 +803,40 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "full_name",
       "labelHint": "35. If asset reported on line 29 is stock of a foreign entity or an interest in a foreign entity, en",
-      "required": false
+      "required": false,
+      "lineNumber": "35a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35b. G I I N (Optional). First 6 numbers.",
       "required": false,
-      "maxLength": 6
+      "maxLength": 6,
+      "lineNumber": "35b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35b. Next 5 numbers.",
       "required": false,
-      "maxLength": 5
+      "maxLength": 5,
+      "lineNumber": "35b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35b. Next 2 numbers.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "35b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35b. Last 3 numbers.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "35b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_11[0]",
@@ -840,19 +882,22 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_26[0]",
       "fieldType": "street_address",
       "labelHint": "35d. Mailing address of foreign entity. Number, street, and room or suite no.",
-      "required": false
+      "required": false,
+      "lineNumber": "35d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_27[0]",
       "fieldType": "city",
       "labelHint": "35e. City or town, state or province, country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "35e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_28[0]",
       "fieldType": "full_name",
       "labelHint": "36. If asset reported on line 29 is not stock of a foreign entity or an interest in a foreign entity",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_12[0]",
@@ -948,13 +993,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",
       "fieldType": "street_address",
       "labelHint": "36d. Mailing address of issuer or counterparty. Number, street, and room or suite no.",
-      "required": false
+      "required": false,
+      "lineNumber": "36d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_30[0]",
       "fieldType": "city",
       "labelHint": "36e. City or town, state or province, country, and Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "36e"
     }
   ]
 }

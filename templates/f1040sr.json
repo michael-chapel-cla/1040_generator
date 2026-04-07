@@ -3,7 +3,7 @@
   "displayName": "Form 1040-SR",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sr.pdf",
-  "generatedAt": "2026-04-06T21:46:17.009Z",
+  "generatedAt": "2026-04-07T00:27:41.827Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -122,91 +122,173 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I I. Figure Your Credit. 10. If you checked (in Part I): Box 1, 2, 4, or 7, Enter: $5",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. If you checked (in Part I): Box 6, add $5,000 to the taxable disability income of the spouse who",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. If you completed line 11, enter the smaller of line 10 or line 11. All others, enter the amount ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "10",
+          "b": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. If you completed line 11, enter the smaller of line 10 or line 11. All others, enter the amount "
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Enter the following pensions, annuities, or disability income that you (and your spouse if filin",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13b. Nontaxable veterans' pensions and any other pension, annuity, or disability benefit that is exc",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13c. Add lines 13a and 13b. (Even though these income items aren't taxable, they must be included he",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "13a",
+            "13b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "13c. Add lines 13a and 13b. (Even though these income items aren't taxable, they must be included he"
+      },
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Enter the amount from Form 1040 or 1040-S R, line 11a.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. If you checked (in Part I): Box 1 or 2, Enter: $7,500. Box 3, 4, 5, 6, or 7, Enter: $10,000. Box 8 or 9, Enter: $5,000.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Subtract line 15 from line 14. If zero or less, enter 0.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "14",
+          "subtrahend": "15"
+        },
+        "floorAtZero": true,
+        "rawLabel": "16. Subtract line 15 from line 14. If zero or less, enter 0."
+      },
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Enter one-half of line 16.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Add lines 13c and 17.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "13c",
+            "17"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Add lines 13c and 17."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Subtract line 18 from line 12. If zero or less, stop; you can't take the credit. Otherwise, go t",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "12",
+          "subtrahend": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19. Subtract line 18 from line 12. If zero or less, stop; you can't take the credit. Otherwise, go t"
+      },
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Multiply line 19 by 15% (0.15).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "19",
+          "factor": 0.15
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Multiply line 19 by 15% (0.15)."
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Tax liability limit. Enter the amount from the Credit Limit Worksheet in the instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Credit for the elderly or the disabled. Enter the smaller of line 20 or line 21. Also enter this",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "20",
+          "b": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "22. Credit for the elderly or the disabled. Enter the smaller of line 20 or line 21. Also enter this"
+      },
+      "lineNumber": "22"
     }
   ]
 }

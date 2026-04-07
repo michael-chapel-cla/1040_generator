@@ -3,7 +3,7 @@
   "displayName": "Form 2441",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2441.pdf",
-  "generatedAt": "2026-04-06T21:46:18.516Z",
+  "generatedAt": "2026-04-07T00:27:43.321Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -52,20 +52,23 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow1[0].f1_3[0]",
       "fieldType": "full_name",
       "labelHint": "1. Row: 1. Column: (a) Care provider's name.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow1[0].ColB[0].f1_4[0]",
       "fieldType": "street_address",
       "labelHint": "Row: 1. Column: (b) Address (number, street, apt. no., city, state, and Z I P code).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow1[0].f1_5[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (c) Identifying number (S S N or E I N).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow1[0].ColD[0].c1_4[0]",
@@ -91,26 +94,30 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) Amount paid (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow2[0].f1_7[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Care provider's name.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow2[0].ColB[0].f1_8[0]",
       "fieldType": "street_address",
       "labelHint": "Row: 2. Column: (b) Address (number, street, apt. no., city, state, and Z I P code).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow2[0].f1_9[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (c) Identifying number (S S N or E I N).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow2[0].ColD[0].c1_5[0]",
@@ -136,7 +143,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow2[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (e) Amount paid (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow3[0].f1_11[0]",
@@ -148,7 +156,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow3[0].ColB[0].f1_12[0]",
       "fieldType": "street_address",
       "labelHint": "Row: 3. Column: (b) Address (number, street, apt. no., city, state, and Z I P code).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartITable[0].BodyRow3[0].f1_13[0]",
@@ -197,20 +206,23 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row1[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 1. Column: (a) Qualifying person's name. First.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row1[0].f1_16[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 1. Column: (a) Qualifying person's name. Last.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row1[0].f1_17[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (b) Qualifying person's social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row1[0].c1_8[0]",
@@ -226,26 +238,30 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) Qualified expenses you incurred and paid in 2025 for the person listed in column (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row2[0].f1_19[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Qualifying person's name. First.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row2[0].f1_20[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (a) Qualifying person's name. Last.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row2[0].f1_21[0]",
       "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (b) Qualifying person's social security number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row2[0].c1_9[0]",
@@ -261,7 +277,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row2[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) Qualified expenses you incurred and paid in 2025 for the person listed in column (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row3[0].f1_23[0]",
@@ -303,144 +320,194 @@
       "fieldType": "dollar_amount",
       "labelHint": "3. Add the amounts in column (d) of line 2. Don't enter more than $3,000 if you had one qualifying p",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Enter your earned income. See instructions.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "filing_status",
       "labelHint": "5. If married filing jointly, enter your spouse's earned income (if you or your spouse was a student",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Enter the smallest of line 3, 4, or 5. If zero or less, enter 0.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Enter the amount from Form 1040, 1040-S R, or 1040-N R, line 11a.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Enter on line 8 the decimal amount shown below that applies to the amount on line 7. Numbers afte",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9a. Multiply line 6 by the decimal amount on line 8.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "9a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9b. If you paid 2024 expenses in 2025, complete Worksheet A in the instructions. Enter the amount fr",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "9b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9c. Add lines 9a and 9b and enter the result.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "9a",
+            "9b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "9c. Add lines 9a and 9b and enter the result."
+      },
+      "lineNumber": "9c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Tax liability limit. Enter the amount from the Credit Limit Worksheet in the instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Credit for child and dependent care expenses. Enter the smaller of line 9c or line 10 here and o",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "9c",
+          "b": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Credit for child and dependent care expenses. Enter the smaller of line 9c or line 10 here and o"
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I I. Dependent Care Benefits. 12. Enter the total amount of dependent care benefits y",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Enter the amount, if any, you carried over from 2024 and used in 2025 during the grace period. See instructions.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Open parenthesis. Enter the amount, if any, you forfeited or carried forward to 2026. See instru",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Combine lines 12 through 14. See instructions.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line16_ReadOrder[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Enter the total amount of qualified expenses incurred in 2025 for the care of the qualifying per",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Enter the smaller of line 15 or 16.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "15",
+          "constant": 16
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Enter the smaller of line 15 or 16."
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Enter your earned income. See instructions.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "filing_status",
       "labelHint": "19. Enter the amount shown below that applies to you. If married filing jointly, enter your spouse's",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Enter the smallest of line 17, 18, or 19. If zero or less, enter 0.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "filing_status",
       "labelHint": "21. Enter $5,000 ($2,500 if married filing separately and you were required to enter your spouse’s e",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -467,34 +534,66 @@
       "fieldType": "dollar_amount",
       "labelHint": "22. Amount.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23. Subtract line 22 from line 15.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "15",
+          "subtrahend": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23. Subtract line 22 from line 15."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Deductible benefits. Enter the smallest of line 20, 21, or 22. Also, include this amount on the ",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Excluded benefits. If you checked \"No\" on line 22, enter the smaller of line 20 or line 21. Othe",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "20",
+          "b": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "25. Excluded benefits. If you checked \"No\" on line 22, enter the smaller of line 20 or line 21. Othe"
+      },
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Taxable benefits. Subtract line 25 from line 23. If zero or less, enter 0. Also, enter this amou",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "23",
+          "subtrahend": "25"
+        },
+        "floorAtZero": true,
+        "rawLabel": "26. Taxable benefits. Subtract line 25 from line 23. If zero or less, enter 0. Also, enter this amou"
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
@@ -508,28 +607,61 @@
       "fieldType": "dollar_amount",
       "labelHint": "28. Add lines 24 and 25.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "24",
+            "25"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "28. Add lines 24 and 25."
+      },
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. Subtract line 28 from line 27. If zero or less, stop. You can't take the credit. Exception. If y",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "28"
+        },
+        "floorAtZero": false,
+        "rawLabel": "29. Subtract line 28 from line 27. If zero or less, stop. You can't take the credit. Exception. If y"
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Complete line 2 on page 1 of this form. Don't include in column (d) any benefits shown on line 2",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Enter the smaller of line 29 or 30. Also, enter this amount on line 3 on page 1 of this form and",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "29",
+          "constant": 30
+        },
+        "floorAtZero": false,
+        "rawLabel": "31. Enter the smaller of line 29 or 30. Also, enter this amount on line 3 on page 1 of this form and"
+      },
+      "lineNumber": "31"
     }
   ]
 }

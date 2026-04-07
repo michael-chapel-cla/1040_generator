@@ -3,7 +3,7 @@
   "displayName": "Form 8822-B",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8822b.pdf",
-  "generatedAt": "2026-04-06T21:46:36.844Z",
+  "generatedAt": "2026-04-07T00:28:01.686Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -23,7 +23,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -33,7 +34,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
@@ -43,111 +45,129 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line4aReadOrder[0].f1_1[0]",
       "fieldType": "business_name",
       "labelHint": "4a. Business name.",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line4bReadOrder[0].f1_2[0]",
       "fieldType": "employer_ein",
       "labelHint": "4b. Employer identification number.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_3[0]",
       "fieldType": "street_address",
       "labelHint": "5. Old mailing address (no., street, room or suite no., city or town, state, and Z I P code). If a P",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "full_name",
       "labelHint": "5. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "street_address",
       "labelHint": "5. Foreign province/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "zip_code",
       "labelHint": "5. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "street_address",
       "labelHint": "6. New mailing address (no., street, room or suite no., city or town, state, and Z I P code). If a P",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "full_name",
       "labelHint": "6. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
       "fieldType": "street_address",
       "labelHint": "6. Foreign province/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "zip_code",
       "labelHint": "6. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "street_address",
       "labelHint": "7. New business location (no., street, room or suite no., city or town, state, and Z I P code). If a",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "full_name",
       "labelHint": "7. Foreign country name.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "street_address",
       "labelHint": "7. Foreign province/county.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "zip_code",
       "labelHint": "7. Foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "8. New responsible party's name.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "ssn",
       "labelHint": "9. New responsible party's S S N, I T I N, or E I N. (CAUTION: YOU MUST REFER TO THE INSTRUCTIONS FO",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "phone_number",
       "labelHint": "10. Signature. Under penalties of perjury, I declare that I have examined this application, and to t",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",

@@ -3,7 +3,7 @@
   "displayName": "Form 8804",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8804.pdf",
-  "generatedAt": "2026-04-06T21:46:34.805Z",
+  "generatedAt": "2026-04-07T00:27:59.664Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -52,321 +52,437 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_06[0]",
       "fieldType": "full_name",
       "labelHint": "Part I. Partnership. 1a. Name of partnership.",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_07[0]",
       "fieldType": "employer_ein",
       "labelHint": "1b. U.S. employer identification number (E I N).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_08[0]",
       "fieldType": "street_address",
       "labelHint": "1c. Number and street. If a P.O. box, see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_09[0]",
       "fieldType": "street_address",
       "labelHint": "1d. Room or suite no.",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_10[0]",
       "fieldType": "city",
       "labelHint": "1e. City or town.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_11[0]",
       "fieldType": "state",
       "labelHint": "1f. State or province.",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1g. Country.",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1[0].f1_13[0]",
       "fieldType": "zip_code",
       "labelHint": "1h. Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "full_name",
       "labelHint": "Part I I. Withholding Agent. 2a. Name of withholding agent. If partnership is also the withholding a",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2b. Withholding agent's U.S. E I N.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "street_address",
       "labelHint": "2c. Number and street. If a P.O. box, see instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "street_address",
       "labelHint": "2d. Room or suite no.",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "city",
       "labelHint": "2e. City or town.",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "state",
       "labelHint": "2f. State or province.",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2g. Country.",
-      "required": false
+      "required": false,
+      "lineNumber": "2g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "zip_code",
       "labelHint": "2h. Z I P or foreign postal code.",
-      "required": false
+      "required": false,
+      "lineNumber": "2h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I I. Section 1446 Tax Liability and Payments. 3a. Enter number of foreign partners.",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Enter number of Forms 8805 attached to this Form 8804.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Enter number of Forms 8804-C attached to Forms 8805.",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Total effectively connected taxable income (E C T I) allocable to foreign partners. See instructi",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "state",
       "labelHint": "4b. Open parenthesis. Reduction to line 4a for state and local taxes under Regulations section 1.144",
-      "required": false
+      "required": false,
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4c. Open parenthesis. Reduction to line 4a for certified foreign partner-level items submitted using",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4d. Combine lines 4a, 4b, and 4c.",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line4e_ReadOrder[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4e. Total E C T I allocable to non-corporate partners other than on lines 4i, 4m, and 4q.",
-      "required": false
+      "required": false,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "state",
       "labelHint": "4f. Open parenthesis. Reduction to line 4e for state and local taxes under Regulations section 1.144",
-      "required": false
+      "required": false,
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4g. Open parenthesis. Reduction to line 4e for certified foreign partner-level items submitted using",
-      "required": false
+      "required": false,
+      "lineNumber": "4g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4h. Combine lines 4e, 4f, and 4g.",
-      "required": false
+      "required": false,
+      "lineNumber": "4h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "percentage",
       "labelHint": "4i. 28% rate gain allocable to non-corporate partners.",
-      "required": false
+      "required": false,
+      "lineNumber": "4i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "state",
       "labelHint": "4j. Open parenthesis. Reduction to line 4i for state and local taxes under Regulations section 1.144",
-      "required": false
+      "required": false,
+      "lineNumber": "4j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4k. Open parenthesis. Reduction to line 4i for certified foreign partner-level items submitted using",
-      "required": false
+      "required": false,
+      "lineNumber": "4k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4l. Combine lines 4i, 4j, and 4k.",
-      "required": false
+      "required": false,
+      "lineNumber": "4l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4m. Unrecaptured section 1250 gain allocable to non-corporate partners.",
-      "required": false
+      "required": false,
+      "lineNumber": "4m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "state",
       "labelHint": "4n. Open parenthesis. Reduction to line 4m for state and local taxes under Regulations section 1.144",
-      "required": false
+      "required": false,
+      "lineNumber": "4n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4o. Open parenthesis. Reduction to line 4m for certified foreign partner-level items submitted using",
-      "required": false
+      "required": false,
+      "lineNumber": "4o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4p. Combine lines 4m, 4n, and 4o.",
-      "required": false
+      "required": false,
+      "lineNumber": "4p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line4q_ReadOrder[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. 4q. Adjusted net capital gain (including qualified dividend income and net section 1231 gain",
-      "required": false
+      "required": false,
+      "lineNumber": "4q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "state",
       "labelHint": "4r. Open parenthesis. Reduction to line 4q for state and local taxes under Regulations section 1.144",
-      "required": false
+      "required": false,
+      "lineNumber": "4r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4s. Open parenthesis. Reduction to line 4q for certified foreign partner-level items submitted using",
-      "required": false
+      "required": false,
+      "lineNumber": "4s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4t. Combine lines 4q, 4r, and 4s.",
-      "required": false
+      "required": false,
+      "lineNumber": "4t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line_5a_ReadOrder[0].f2_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Gross section 1446 tax liability: a. Multiply line 4d by 21% (0.21).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "4d",
+          "factor": 0.21
+        },
+        "floorAtZero": false,
+        "rawLabel": "5. Gross section 1446 tax liability: a. Multiply line 4d by 21% (0.21)."
+      },
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Multiply line 4h by 37% (0.37).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "4h",
+          "factor": 0.37
+        },
+        "floorAtZero": false,
+        "rawLabel": "5b. Multiply line 4h by 37% (0.37)."
+      },
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5c. Multiply line 4l by 28% (0.28).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "4l",
+          "factor": 0.28
+        },
+        "floorAtZero": false,
+        "rawLabel": "5c. Multiply line 4l by 28% (0.28)."
+      },
+      "lineNumber": "5c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5d. Multiply line 4p by 25% (0.25).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "4p",
+          "factor": 0.25
+        },
+        "floorAtZero": false,
+        "rawLabel": "5d. Multiply line 4p by 25% (0.25)."
+      },
+      "lineNumber": "5d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5e. Multiply line 4t by 20% (0.20).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply",
+          "operand": "4t",
+          "factor": 0.2
+        },
+        "floorAtZero": false,
+        "rawLabel": "5e. Multiply line 4t by 20% (0.20)."
+      },
+      "lineNumber": "5e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5f. Add lines 5a through 5e.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "5a",
+          "end": "5e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "5f. Add lines 5a through 5e."
+      },
+      "lineNumber": "5f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line6a_ReadOrder[0].f2_11[0]",
       "fieldType": "tax_year",
       "labelHint": "6a. Payments of section 1446 tax made by the partnership identified on line 1a during its tax year (",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",
       "fieldType": "tax_year",
       "labelHint": "6b. Section 1446 tax paid or withheld by another partnership in which the partnership identified on ",
-      "required": false
+      "required": false,
+      "lineNumber": "6b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_13[0]",
       "fieldType": "tax_year",
       "labelHint": "6c. Section 1446 tax paid or withheld by another partnership in which the partnership identified on ",
-      "required": false
+      "required": false,
+      "lineNumber": "6c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_14[0]",
       "fieldType": "tax_year",
       "labelHint": "6d. Section 1445(a) or 1445(e)(1) tax withheld from or paid by the partnership identified on line 1a",
-      "required": false
+      "required": false,
+      "lineNumber": "6d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
       "fieldType": "tax_year",
       "labelHint": "6e. Section 1445(e) tax withheld from the partnership identified on line 1a during the tax year for ",
-      "required": false
+      "required": false,
+      "lineNumber": "6e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6f. Section 1446(f)(1) tax withheld from the partnership identified on line 1a for a disposition of ",
-      "required": false
+      "required": false,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6g. Section 1446(f)(1) tax withheld from the partnership identified on line 1a for a disposition of ",
-      "required": false
+      "required": false,
+      "lineNumber": "6g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Total payments. Add lines 6a through 6g.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "6a",
+          "end": "6g"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Total payments. Add lines 6a through 6g."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -376,49 +492,97 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Add lines 5f and 8.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "5f",
+            "8"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Add lines 5f and 8."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Balance due. If line 7 is smaller than line 9, subtract line 7 from line 9. For details on how t",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "9",
+          "subtrahend": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Balance due. If line 7 is smaller than line 9, subtract line 7 from line 9. For details on how t"
+      },
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Overpayment. If line 7 is more than line 9, subtract line 9 from line 7.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "conditional_subtract",
+          "condA": "7",
+          "condB": "9",
+          "minuend": "7",
+          "subtrahend": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Overpayment. If line 7 is more than line 9, subtract line 9 from line 7."
+      },
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Amount of line 11 reported on Form(s) 8805 as allocated to partners.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Net overpayment. Subtract line 12 from line 11.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "11",
+          "subtrahend": "12"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. Net overpayment. Subtract line 12 from line 11."
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14a. Refund. Amount, if any, of line 13 you want to be refunded to you.",
-      "required": false
+      "required": false,
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Routing_Number[0].f2_26[0]",
@@ -452,13 +616,24 @@
       "fieldType": "account_number",
       "labelHint": "14d. Account number.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "14d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line15_ReadOrder[0].f2_28[0]",
       "fieldType": "tax_year",
       "labelHint": "15. Amount of line 13 to be credited to next year's Form 8804. Subtract line 14a from line 13.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "13",
+          "subtrahend": "14a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Amount of line 13 to be credited to next year's Form 8804. Subtract line 14a from line 13."
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_29[0]",

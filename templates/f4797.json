@@ -3,7 +3,7 @@
   "displayName": "Form 4797",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4797.pdf",
-  "generatedAt": "2026-04-06T21:46:19.056Z",
+  "generatedAt": "2026-04-07T00:27:43.859Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -23,21 +23,24 @@
       "fieldType": "dollar_amount",
       "labelHint": "1a. Enter the gross proceeds from sales or exchanges reported to you for 2025 on Form(s) 1099-B or 1",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Enter the total amount of gain that you are including on lines 2, 10, and 24 due to the partial ",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Enter the total amount of loss that you are including on lines 2 and 10 due to the partial dispo",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row1[0].f1_6[0]",
@@ -49,434 +52,514 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row1[0].f1_7[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (b) Date acquired (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row1[0].f1_8[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (c) Date sold (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row1[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row2[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (a) Description of property.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row2[0].f1_14[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (b) Date acquired (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row2[0].f1_15[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (c) Date sold (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row2[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row2[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row2[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row2[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row3[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (a) Description of property.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row3[0].f1_21[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (b) Date acquired (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row3[0].f1_22[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (c) Date sold (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row3[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row3[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row3[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row3[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row4[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (a) Description of property.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row4[0].f1_28[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (b) Date acquired (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row4[0].f1_29[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (c) Date sold (mo., day, yr.)",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row4[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row4[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row4[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine2[0].Row4[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Gain, if any, from Form 4684, line 39.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Section 1231 gain from installment sales from Form 6252, line 26 or 37.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Section 1231 gain or (loss) from like-kind exchanges from Form 8824.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Gain, if any, from line 32, from other than casualty or theft.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "tax_year",
       "labelHint": "7. Combine lines 2 through 6. Enter the gain or (loss) here and on the appropriate line as follows: ",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Nonrecaptured net section 1231 losses from prior years. See instructions.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Subtract line 8 from line 7. If zero or less, enter 0. If line 9 is zero, enter the gain from lin",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "7",
+          "subtrahend": "8"
+        },
+        "floorAtZero": true,
+        "rawLabel": "9. Subtract line 8 from line 7. If zero or less, enter 0. If line 9 is zero, enter the gain from lin"
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row1[0].f1_41[0]",
       "fieldType": "tax_year",
       "labelHint": "Part I I. Ordinary Gains and Losses (see instructions). 10. Ordinary gains and losses not included o",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row1[0].f1_42[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (b) Date acquired (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row1[0].f1_43[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (c) Date sold (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row1[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row1[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row2[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (a) Description of property.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row2[0].f1_49[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (b) Date acquired (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row2[0].f1_50[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (c) Date sold (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row2[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row2[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row2[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row2[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row3[0].f1_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (a) Description of property.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row3[0].f1_56[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (b) Date acquired (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row3[0].f1_57[0]",
       "fieldType": "date",
       "labelHint": "Row: 3. Column: (c) Date sold (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row3[0].f1_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row3[0].f1_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row3[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row3[0].f1_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row4[0].f1_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (a) Description of property.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row4[0].f1_63[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (b) Date acquired (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row4[0].f1_64[0]",
       "fieldType": "date",
       "labelHint": "Row: 4. Column: (c) Date sold (month, day, year).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row4[0].f1_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (d) Gross sales price.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row4[0].f1_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (e) Depreciation allowed or allowable since acquisition.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row4[0].f1_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (f) Cost or other basis, plus improvements and expense of sale.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TableLine10[0].Row4[0].f1_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Column: (g) Gain or (loss). Subtract (f) from the sum of (d) and (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Open parenthesis. Loss, if any, from line 7. Close parenthesis.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Gain, if any, from line 7 or amount from line 8, if applicable.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Gain, if any, from line 31.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Net gain or (loss) from Form 4684, lines 31 and 38a.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Ordinary gain from installment sales from Form 6252, line 25 or 36.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Ordinary gain or (loss) from like-kind exchanges from Form 8824.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Combine lines 10 through 16.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. For all except individual returns, enter the amount from line 17 on the appropriate line of your",
-      "required": false
+      "required": false,
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18b. Redetermine the gain or (loss) on line 17 excluding the loss, if any, on line 18a. Enter here a",
-      "required": false
+      "required": false,
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable1[0].Row1[0].f2_1[0]",
@@ -560,499 +643,927 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row20[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Gross sales price (Note: See line 1a before completing.) Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row20[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Gross sales price (Note: See line 1a before completing.) Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row20[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Gross sales price (Note: See line 1a before completing.) Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row21[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Cost or other basis plus expense of sale. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row21[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Cost or other basis plus expense of sale. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row21[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Cost or other basis plus expense of sale. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row21[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Cost or other basis plus expense of sale. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row22[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation (or depletion) allowed or allowable. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row22[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation (or depletion) allowed or allowable. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row22[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation (or depletion) allowed or allowable. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row22[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Depreciation (or depletion) allowed or allowable. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row23[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property A."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row23[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property B."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row23[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property C."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row23[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "21",
+          "subtrahend": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23. Adjusted basis. Subtract line 22 from line 21. Column: Property D."
+      },
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row24[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Total gain. Subtract line 23 from line 20. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "20",
+          "subtrahend": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Total gain. Subtract line 23 from line 20. Column: Property A."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row24[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row24[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row24[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25a[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. If section 1245 property: Row: a. Depreciation allowed or allowable from line 22. Column: Proper",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25a[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25a. Depreciation allowed or allowable from line 22. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25a[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25a. Depreciation allowed or allowable from line 22. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25a[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25a. Depreciation allowed or allowable from line 22. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25b[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. If section 1245 property: Row: b. Enter the smaller of line 24 or 25a. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 25
+        },
+        "floorAtZero": false,
+        "rawLabel": "25. If section 1245 property: Row: b. Enter the smaller of line 24 or 25a. Column: Property A."
+      },
+      "lineNumber": "25a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25b[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25b. Enter the smaller of line 24 or 25a. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 25
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25b. Enter the smaller of line 24 or 25a. Column: Property B."
+      },
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25b[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25b. Enter the smaller of line 24 or 25a. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 25
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25b. Enter the smaller of line 24 or 25a. Column: Property C."
+      },
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row25b[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25b. Enter the smaller of line 24 or 25a. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 25
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25b. Enter the smaller of line 24 or 25a. Column: Property D."
+      },
+      "lineNumber": "25b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26a[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. If section 1250 property: If straight line depreciation was used, enter 0 on line 26g, except fo",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26a[0].f2_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26a. Additional depreciation after 1975. See instructions. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "26a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26a[0].f2_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26a. Additional depreciation after 1975. See instructions. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "26a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26a[0].f2_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26a. Additional depreciation after 1975. See instructions. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "26a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26b[0].f2_45[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "24",
+          "b": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. "
+      },
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26b[0].f2_46[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "24",
+          "b": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. "
+      },
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26b[0].f2_47[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "24",
+          "b": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. "
+      },
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26b[0].f2_48[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "24",
+          "b": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26b. Applicable percentage multiplied by the smaller of line 24 or line 26a. See instructions. "
+      },
+      "lineNumber": "26b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26c[0].f2_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than "
+      },
+      "lineNumber": "26c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26c[0].f2_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than "
+      },
+      "lineNumber": "26c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26c[0].f2_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than "
+      },
+      "lineNumber": "26c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26c[0].f2_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26c. Subtract line 26a from line 24. If residential rental property or line 24 isn't more than "
+      },
+      "lineNumber": "26c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26d[0].f2_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26d. Additional depreciation after 1969 and before 1976. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "26d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26d[0].f2_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26d. Additional depreciation after 1969 and before 1976. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "26d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26d[0].f2_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26d. Additional depreciation after 1969 and before 1976. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "26d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26d[0].f2_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26d. Additional depreciation after 1969 and before 1976. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "26d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26e[0].f2_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "26c",
+          "constant": 26
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property A."
+      },
+      "lineNumber": "26e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26e[0].f2_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "26c",
+          "constant": 26
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property B."
+      },
+      "lineNumber": "26e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26e[0].f2_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "26c",
+          "constant": 26
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property C."
+      },
+      "lineNumber": "26e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26e[0].f2_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "26c",
+          "constant": 26
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26e. Enter the smaller of line 26c or 26d. Column: Property D."
+      },
+      "lineNumber": "26e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26f[0].f2_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26f. Section 291 amount (corporations only). Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "26f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26f[0].f2_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26f. Section 291 amount (corporations only). Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "26f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26f[0].f2_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26f. Section 291 amount (corporations only). Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "26f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26f[0].f2_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26f. Section 291 amount (corporations only). Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "26f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26g[0].f2_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "26b",
+            "26e",
+            "26f"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property A."
+      },
+      "lineNumber": "26g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26g[0].f2_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "26b",
+            "26e",
+            "26f"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property B."
+      },
+      "lineNumber": "26g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26g[0].f2_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "26b",
+            "26e",
+            "26f"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property C."
+      },
+      "lineNumber": "26g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row26g[0].f2_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "26b",
+            "26e",
+            "26f"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26g. Add lines 26b, 26e, and 26f. Column: Property D."
+      },
+      "lineNumber": "26g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27a[0].f2_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. If section 1252 property: Skip this section if you didn't dispose of farmland or if this form is being completed for a partnership. Row: a. Soil, water, and land clearing expenses. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27a[0].f2_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27a. Soil, water, and land clearing expenses. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "27a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27a[0].f2_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27a. Soil, water, and land clearing expenses. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "27a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27a[0].f2_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27a. Soil, water, and land clearing expenses. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "27a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27b[0].f2_73[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 27b. Line 27a multiplied by applicable percentage. See instructions. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "27b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27b[0].f2_74[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 27b. Line 27a multiplied by applicable percentage. See instructions. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "27b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27b[0].f2_75[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 27b. Line 27a multiplied by applicable percentage. See instructions. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "27b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27b[0].f2_76[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 27b. Line 27a multiplied by applicable percentage. See instructions. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "27b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27c[0].f2_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 27
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property A."
+      },
+      "lineNumber": "27c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27c[0].f2_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 27
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property B."
+      },
+      "lineNumber": "27c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27c[0].f2_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 27
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property C."
+      },
+      "lineNumber": "27c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row27c[0].f2_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 27
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27c. Enter the smaller of line 24 or 27b. Column: Property D."
+      },
+      "lineNumber": "27c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28a[0].f2_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. If section 1254 property: Row: a. Intangible drilling and development costs, expenditures for development of mines and other natural deposits, mining exploration costs, and depletion. See instructions. Column: Property A.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28a[0].f2_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28a. Intangible drilling and development costs, expenditures for development of mines and other natural deposits, mining exploration costs, and depletion. See instructions. Column: Property B.",
-      "required": false
+      "required": false,
+      "lineNumber": "28a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28a[0].f2_83[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28a. Intangible drilling and development costs, expenditures for development of mines and other natural deposits, mining exploration costs, and depletion. See instructions. Column: Property C.",
-      "required": false
+      "required": false,
+      "lineNumber": "28a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28a[0].f2_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28a. Intangible drilling and development costs, expenditures for development of mines and other natural deposits, mining exploration costs, and depletion. See instructions. Column: Property D.",
-      "required": false
+      "required": false,
+      "lineNumber": "28a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28b[0].f2_85[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 28
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property A."
+      },
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28b[0].f2_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 28
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property B."
+      },
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28b[0].f2_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 28
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property C."
+      },
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row28b[0].f2_88[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 28
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 28b. Enter the smaller of line 24 or 28a. Column: Property D."
+      },
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29a[0].f2_89[0]",
       "fieldType": "percentage",
       "labelHint": "29. If section 1255 property: Row: a. Applicable percentage of payments excluded from income under s",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29a[0].f2_90[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 29a. Applicable percentage of payments excluded from income under section 126. See instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29a[0].f2_91[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 29a. Applicable percentage of payments excluded from income under section 126. See instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29a[0].f2_92[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 29a. Applicable percentage of payments excluded from income under section 126. See instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29b[0].f2_93[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29. If section 1255 property: Row: b. Enter the smaller of line 24 or 29a. See instructions. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 29
+        },
+        "floorAtZero": false,
+        "rawLabel": "29. If section 1255 property: Row: b. Enter the smaller of line 24 or 29a. See instructions. Column:"
+      },
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29b[0].f2_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29b. Enter the smaller of line 24 or 29a. See instructions. Column: Property B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 29
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 29b. Enter the smaller of line 24 or 29a. See instructions. Column: Property B."
+      },
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29b[0].f2_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29b. Enter the smaller of line 24 or 29a. See instructions. Column: Property C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 29
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 29b. Enter the smaller of line 24 or 29a. See instructions. Column: Property C."
+      },
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIIITable2[0].Row29b[0].f2_96[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29b. Enter the smaller of line 24 or 29a. See instructions. Column: Property D.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_line_const",
+          "operand": "24",
+          "constant": 29
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 29b. Enter the smaller of line 24 or 29a. See instructions. Column: Property D."
+      },
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_97[0]",
@@ -1066,14 +1577,25 @@
       "fieldType": "dollar_amount",
       "labelHint": "31. Add property columns A through D, lines 25b, 26g, 27c, 28b, and 29b. Enter here and on line 13.",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_99[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Subtract line 31 from line 30. Enter the portion from casualty or theft on Form 4684, line 33. E",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "30",
+          "subtrahend": "31"
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Subtract line 31 from line 30. Enter the portion from casualty or theft on Form 4684, line 33. E"
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].Row33[0].f2_100[0]",
@@ -1085,31 +1607,54 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].Row33[0].f2_101[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Section 179 expense deduction or depreciation allowable in prior years. Column: (b) Section",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].Row34[0].f2_102[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Recomputed depreciation. See instructions. Column: (a) Section 179.",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].Row34[0].f2_103[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Recomputed depreciation. See instructions. Column: (b) Section 280F(b)(2).",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].Row35[0].f2_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Recapture amount. Subtract line 34 from line 33. See the instructions for where to report. ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "33",
+          "subtrahend": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 35. Recapture amount. Subtract line 34 from line 33. See the instructions for where to report. "
+      },
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartIVTable[0].Row35[0].f2_105[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Recapture amount. Subtract line 34 from line 33. See the instructions for where to report. ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "33",
+          "subtrahend": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 35. Recapture amount. Subtract line 34 from line 33. See the instructions for where to report. "
+      },
+      "lineNumber": "35"
     }
   ]
 }

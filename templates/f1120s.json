@@ -3,7 +3,7 @@
   "displayName": "Form 1120-S",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1120s.pdf",
-  "generatedAt": "2026-04-06T21:46:21.731Z",
+  "generatedAt": "2026-04-07T00:27:46.498Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Date_Name_ReadOrder[0].f1_1[0]",
@@ -207,193 +207,290 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Caution: Include only trade or business income and expenses on lines 1a through 22. See the instruct",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Less returns and allowances.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Balance. Subtract line 1b from line 1a.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1a",
+          "subtrahend": "1b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1c. Balance. Subtract line 1b from line 1a."
+      },
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Cost of goods sold (attach Form 1125-A).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Gross profit. Subtract line 2 from line 1c.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "1c",
+          "subtrahend": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Gross profit. Subtract line 2 from line 1c."
+      },
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Net gain (loss) from Form 4797, Part I I, line 17 (attach Form 4797).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Other income (loss) (see instructions—attach statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Total income (loss). Add lines 3 through 5.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "3",
+          "end": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. Total income (loss). Add lines 3 through 5."
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Deductions (see instructions for limitations). 7. Compensation of officers (see instructions—attach ",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Salaries and wages (less employment credits).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Repairs and maintenance.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Bad debts.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Rents.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Taxes and licenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Interest (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Depreciation from Form 4562 not claimed on Form 1125-A or elsewhere on return (attach Form 4562).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Depletion (do not deduct oil and gas depletion).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Advertising.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Pension, profit-sharing, etc., plans.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Employee benefit programs.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "19. Energy efficient commercial buildings deduction (attach Form 7205).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Other deductions (attach statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Total deductions. Add lines 7 through 20.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "7",
+          "end": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "21. Total deductions. Add lines 7 through 20."
+      },
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "22. Ordinary business income (loss). Subtract line 21 from line 6.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "22. Ordinary business income (loss). Subtract line 21 from line 6."
+      },
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Tax and Payments. 23a. Excess net passive income or L I F O recapture tax (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "23a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23b. Tax from Schedule D (Form 1120-S).",
-      "required": false
+      "required": false,
+      "lineNumber": "23b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23c. Add lines 23a and 23b (see instructions for additional taxes).",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "23a",
+            "23b"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "23c. Add lines 23a and 23b (see instructions for additional taxes)."
+      },
+      "lineNumber": "23c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
       "fieldType": "tax_year",
       "labelHint": "24a. Current year’s estimated tax payments and preceding year’s overpayment credited to the current ",
-      "required": false
+      "required": false,
+      "lineNumber": "24a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24b. Tax deposited with Form 7004.",
-      "required": false
+      "required": false,
+      "lineNumber": "24b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24c. Credit for federal tax paid on fuels (attach Form 4136).",
-      "required": false
+      "required": false,
+      "lineNumber": "24c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24d. Elective payment election amount from Form 3800.",
-      "required": false
+      "required": false,
+      "lineNumber": "24d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24z. Add lines 24a through 24d.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "24a",
+          "end": "24d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "24z. Add lines 24a through 24d."
+      },
+      "lineNumber": "24z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
@@ -409,38 +506,66 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Amount owed. If line 24z is smaller than the total of lines 23c and 25, enter amount owed.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "23c",
+            "25"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "26. Amount owed. If line 24z is smaller than the total of lines 23c and 25, enter amount owed."
+      },
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "27. Overpayment. If line 24z is larger than the total of lines 23c and 25, enter amount overpaid.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "23c",
+            "25"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "27. Overpayment. If line 24z is larger than the total of lines 23c and 25, enter amount overpaid."
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28. Enter amount from line 27: a. Credited to 2026 estimated tax.",
-      "required": false
+      "required": false,
+      "lineNumber": "28a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "28b. Refunded.",
-      "required": false
+      "required": false,
+      "lineNumber": "28b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Routing_Number[0].f1_54[0]",
       "fieldType": "routing_number",
       "labelHint": "28c. Routing number.",
       "required": false,
-      "maxLength": 9
+      "maxLength": 9,
+      "lineNumber": "28c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_10[0]",
@@ -467,7 +592,8 @@
       "fieldType": "account_number",
       "labelHint": "28e. Account number.",
       "required": false,
-      "maxLength": 17
+      "maxLength": 17,
+      "lineNumber": "28e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_11[0]",
@@ -577,19 +703,22 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1. c. Other (specify).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. See the instructions and enter the: a. Business activity.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. b. Product or service.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",
@@ -635,63 +764,73 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow1[0].f2_4[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 1. Column: (i) Name of Corporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow1[0].f2_5[0]",
       "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (i i) Employer Identification Number (if any).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow1[0].f2_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i i i) Country of Incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow1[0].f2_7[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 1. Column: (i v) Percentage of Stock Owned.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow1[0].f2_8[0]",
       "fieldType": "date",
       "labelHint": "Row: 1. Column: (v) If Percentage in (i v) Is 100%, Enter the Date (if applicable) a Qualified Subch",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow2[0].f2_9[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (i) Name of Corporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow2[0].f2_10[0]",
       "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (i i) Employer Identification Number (if any).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i i i) Country of Incorporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow2[0].f2_12[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 2. Column: (i v) Percentage of Stock Owned.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow2[0].f2_13[0]",
       "fieldType": "date",
       "labelHint": "Row: 2. Column: (v) If Percentage in (i v) Is 100%, Enter the Date (if applicable) a Qualified Subch",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4a[0].BodyRow3[0].f2_14[0]",
@@ -779,63 +918,73 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow1[0].f2_24[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 1. Column: (i) Name of Entity.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow1[0].f2_25[0]",
       "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (i i) Employer Identification Number (if any).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow1[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i i i) Type of Entity.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow1[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (i v) Country of Organization.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow1[0].f2_28[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 1. Column: (v) Maximum Percentage Owned in Profit, Loss, or Capital.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow2[0].f2_29[0]",
       "fieldType": "full_name",
       "labelHint": "Row: 2. Column: (i) Name of Entity.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow2[0].f2_30[0]",
       "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (i i) Employer Identification Number (if any).",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow2[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i i i) Type of Entity.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow2[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Column: (i v) Country of Organization.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow2[0].f2_33[0]",
       "fieldType": "percentage",
       "labelHint": "Row: 2. Column: (v) Maximum Percentage Owned in Profit, Loss, or Capital.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line4b[0].BodyRow3[0].f2_34[0]",
@@ -923,13 +1072,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_44[0]",
       "fieldType": "shares",
       "labelHint": "5a. (i). Total shares of restricted stock.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_45[0]",
       "fieldType": "shares",
       "labelHint": "5a. (i i). Total shares of non-restricted stock.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
@@ -949,19 +1100,22 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_46[0]",
       "fieldType": "tax_year",
       "labelHint": "5b. (i). Total shares of stock outstanding at the end of the tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_47[0]",
       "fieldType": "shares",
       "labelHint": "5b. (i i). Total shares of stock outstanding if all instruments were executed.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_7[0]",
@@ -997,7 +1151,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. If the corporation (a) was a C corporation before it elected to be an S corporation or the corpor",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_9[0]",
@@ -1083,7 +1238,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. If “Yes,” enter the amount of principal reduction. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
@@ -1113,7 +1269,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
@@ -1123,7 +1280,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
@@ -1133,7 +1291,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
@@ -1143,7 +1302,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
@@ -1169,7 +1329,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. If “Yes,” complete and attach Form 8996. Enter the amount (if any) from Form 8996, line 15. $.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[0]",
@@ -1221,199 +1382,241 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Net rental real estate income (loss) (attach Form 8825).",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Other gross rental income (loss).",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Expenses from other rental activities (attach statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Other net rental income (loss). Subtract line 3b from line 3a.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3a",
+          "subtrahend": "3b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3c. Other net rental income (loss). Subtract line 3b from line 3a."
+      },
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Interest income.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Dividends: a. Ordinary dividends.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5b. Qualified dividends.",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Royalties.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Net short-term capital gain (loss) (attach Schedule D (Form 1120-S)).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8a. Net long-term capital gain (loss) (attach Schedule D (Form 1120-S)).",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8b. Collectibles (28%) gain (loss).",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. Unrecaptured section 1250 gain (attach statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Net section 1231 gain (loss) (attach Form 4797).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Other income (loss) (see instructions). Type:",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Deductions. 11. Section 179 deduction (attach Form 4562).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12a. Cash charitable contributions.",
-      "required": false
+      "required": false,
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12b. Noncash charitable contributions.",
-      "required": false
+      "required": false,
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12c. Investment interest expense.",
-      "required": false
+      "required": false,
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12d. Section 59(e)(2) expenditures. Type:",
-      "required": false
+      "required": false,
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12d. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12e. Other deductions (see instructions). Type:",
-      "required": false
+      "required": false,
+      "lineNumber": "12e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12e. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "12e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Credits. 13a. Low-income housing credit (section 42(j)(5)).",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13b. Low-income housing credit (other).",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13c. Qualified rehabilitation expenditures (rental real estate) (attach Form 3468, if applicable).",
-      "required": false
+      "required": false,
+      "lineNumber": "13c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13d. Other rental real estate credits (see instructions). Type:",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13d. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "13d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13e. Other rental credits (see instructions). Type:",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13e. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "13e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13f. Biofuel producer credit (attach Form 6478).",
-      "required": false
+      "required": false,
+      "lineNumber": "13f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13g. Other credits (see instructions). Type:",
-      "required": false
+      "required": false,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13g. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "13g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[2]",
@@ -1439,97 +1642,113 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Alternative Minimum Tax (A M T) Items. 15a. Post-1986 depreciation adjustment.",
-      "required": false
+      "required": false,
+      "lineNumber": "15a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15b. Adjusted gain or loss.",
-      "required": false
+      "required": false,
+      "lineNumber": "15b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15c. Depletion (other than oil and gas).",
-      "required": false
+      "required": false,
+      "lineNumber": "15c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15d. Oil, gas, and geothermal properties—gross income.",
-      "required": false
+      "required": false,
+      "lineNumber": "15d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15e. Oil, gas, and geothermal properties—deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "15e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15f. Other A M T items (attach statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "15f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Items Affecting Shareholder Basis. 16a. Tax-exempt interest income.",
-      "required": false
+      "required": false,
+      "lineNumber": "16a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16b. Other tax-exempt income.",
-      "required": false
+      "required": false,
+      "lineNumber": "16b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16c. Nondeductible expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "16c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16d. Distributions (attach statement if required) (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "16d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16e. Repayment of loans from shareholders.",
-      "required": false
+      "required": false,
+      "lineNumber": "16e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16f. Foreign taxes paid or accrued.",
-      "required": false
+      "required": false,
+      "lineNumber": "16f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 4. Schedule K. Shareholders' Pro Rata Share Items (continued). Other Information. 17a. Investme",
-      "required": false
+      "required": false,
+      "lineNumber": "17a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17b. Investment expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "17b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17c. Dividend distributions paid from accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "17c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Reconciliation. 18. Income (loss) reconciliation. Combine the total amounts on lines 1 through 10. F",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line1[0].f4_5[0]",
@@ -1541,451 +1760,526 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line1[0].f4_6[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Cash. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line1[0].f4_7[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Cash. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line1[0].f4_8[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Cash. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2a[0].f4_9[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2a[0].f4_10[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2a[0].f4_11[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2a[0].f4_12[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2a. Trade notes and accounts receivable. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2b[0].f4_13[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2b. Less allowance for bad debts. Column: Open parenthesis. Beginning of tax year. (a). Close p",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2b[0].f4_14[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2b. Less allowance for bad debts. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2b[0].f4_15[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2b. Less allowance for bad debts. Column: Open parenthesis. End of tax year. (c). Close parenth",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line2b[0].f4_16[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 2b. Less allowance for bad debts. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line3[0].f4_17[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Inventories. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line3[0].f4_18[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Inventories. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line3[0].f4_19[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Inventories. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line3[0].f4_20[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 3. Inventories. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line4[0].f4_21[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. U.S. government obligations. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line4[0].f4_22[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. U.S. government obligations. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line4[0].f4_23[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. U.S. government obligations. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line4[0].f4_24[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 4. U.S. government obligations. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line5[0].f4_25[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 5. Tax-exempt securities (see instructions). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line5[0].f4_26[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 5. Tax-exempt securities (see instructions). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line5[0].f4_27[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 5. Tax-exempt securities (see instructions). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line5[0].f4_28[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 5. Tax-exempt securities (see instructions). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line6[0].f4_29[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 6. Other current assets (attach statement). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line6[0].f4_30[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 6. Other current assets (attach statement). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line6[0].f4_31[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 6. Other current assets (attach statement). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line6[0].f4_32[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 6. Other current assets (attach statement). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line7[0].f4_33[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 7. Loans to shareholders. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line7[0].f4_34[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 7. Loans to shareholders. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line7[0].f4_35[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 7. Loans to shareholders. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line7[0].f4_36[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 7. Loans to shareholders. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line8[0].f4_37[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Mortgage and real estate loans. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line8[0].f4_38[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Mortgage and real estate loans. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line8[0].f4_39[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Mortgage and real estate loans. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line8[0].f4_40[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Mortgage and real estate loans. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line9[0].f4_41[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Other investments (attach statement). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line9[0].f4_42[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Other investments (attach statement). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line9[0].f4_43[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Other investments (attach statement). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line9[0].f4_44[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 9. Other investments (attach statement). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10a[0].f4_45[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10a. Buildings and other depreciable assets. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10a[0].f4_46[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10a. Buildings and other depreciable assets. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10a[0].f4_47[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10a. Buildings and other depreciable assets. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10a[0].f4_48[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10a. Buildings and other depreciable assets. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "10a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10b[0].f4_49[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10b. Less accumulated depreciation. Column: Open parenthesis. Beginning of tax year. (a). Close",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10b[0].f4_50[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10b. Less accumulated depreciation. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10b[0].f4_51[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10b. Less accumulated depreciation. Column: Open parenthesis. End of tax year. (c). Close paren",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line10b[0].f4_52[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 10b. Less accumulated depreciation. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "10b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11a[0].f4_53[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11a. Depletable assets. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11a[0].f4_54[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11a. Depletable assets. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11a[0].f4_55[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11a. Depletable assets. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11a[0].f4_56[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11a. Depletable assets. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "11a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11b[0].f4_57[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11b. Less accumulated depletion. Column: Open parenthesis. Beginning of tax year. (a). Close pa",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11b[0].f4_58[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11b. Less accumulated depletion. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11b[0].f4_59[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11b. Less accumulated depletion. Column: Open parenthesis. End of tax year. (c). Close parenthe",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line11b[0].f4_60[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 11b. Less accumulated depletion. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "11b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line12[0].f4_61[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Land (net of any amortization). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line12[0].f4_62[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Land (net of any amortization). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line12[0].f4_63[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Land (net of any amortization). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line12[0].f4_64[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 12. Land (net of any amortization). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13a[0].f4_65[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13a. Intangible assets (amortizable only). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13a[0].f4_66[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13a. Intangible assets (amortizable only). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13a[0].f4_67[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13a. Intangible assets (amortizable only). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13a[0].f4_68[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13a. Intangible assets (amortizable only). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "13a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13b[0].f4_69[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13b. Less accumulated amortization. Column: Open parenthesis. Beginning of tax year. (a). Close",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13b[0].f4_70[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13b. Less accumulated amortization. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13b[0].f4_71[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13b. Less accumulated amortization. Column: Open parenthesis. End of tax year. (c). Close paren",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line13b[0].f4_72[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 13b. Less accumulated amortization. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "13b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line14[0].f4_73[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Other assets (attach statement). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line14[0].f4_74[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Other assets (attach statement). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line14[0].f4_75[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Other assets (attach statement). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line14[0].f4_76[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 14. Other assets (attach statement). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line15[0].f4_77[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Total assets. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line15[0].f4_78[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Total assets. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line15[0].f4_79[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Total assets. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Assets[0].Line15[0].f4_80[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 15. Total assets. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line16[0].f4_81[0]",
@@ -1997,283 +2291,330 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line16[0].f4_82[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Accounts payable. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line16[0].f4_83[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Accounts payable. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line16[0].f4_84[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Accounts payable. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line17[0].f4_85[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 17. Mortgages, notes, bonds payable in less than 1 year. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line17[0].f4_86[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 17. Mortgages, notes, bonds payable in less than 1 year. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line17[0].f4_87[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 17. Mortgages, notes, bonds payable in less than 1 year. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line17[0].f4_88[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 17. Mortgages, notes, bonds payable in less than 1 year. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line18[0].f4_89[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Other current liabilities (attach statement). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line18[0].f4_90[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Other current liabilities (attach statement). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line18[0].f4_91[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Other current liabilities (attach statement). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line18[0].f4_92[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 18. Other current liabilities (attach statement). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line19[0].f4_93[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Loans from shareholders. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line19[0].f4_94[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Loans from shareholders. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line19[0].f4_95[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Loans from shareholders. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line19[0].f4_96[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 19. Loans from shareholders. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line20[0].f4_97[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Mortgages, notes, bonds payable in 1 year or more. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line20[0].f4_98[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Mortgages, notes, bonds payable in 1 year or more. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line20[0].f4_99[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Mortgages, notes, bonds payable in 1 year or more. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line20[0].f4_100[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Mortgages, notes, bonds payable in 1 year or more. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line21[0].f4_101[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Other liabilities (attach statement). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line21[0].f4_102[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Other liabilities (attach statement). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line21[0].f4_103[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Other liabilities (attach statement). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line21[0].f4_104[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Other liabilities (attach statement). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line22[0].f4_105[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Capital stock. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line22[0].f4_106[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Capital stock. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line22[0].f4_107[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Capital stock. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line22[0].f4_108[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 22. Capital stock. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line23[0].f4_109[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 23. Additional paid-in capital. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line23[0].f4_110[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 23. Additional paid-in capital. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line23[0].f4_111[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 23. Additional paid-in capital. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line23[0].f4_112[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 23. Additional paid-in capital. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line24[0].f4_113[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 24. Retained earnings. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line24[0].f4_114[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 24. Retained earnings. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line24[0].f4_115[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 24. Retained earnings. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line24[0].f4_116[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 24. Retained earnings. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line25[0].f4_117[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 25. Adjustments to shareholders' equity (attach statement). Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line25[0].f4_118[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 25. Adjustments to shareholders' equity (attach statement). Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line25[0].f4_119[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 25. Adjustments to shareholders' equity (attach statement). Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line25[0].f4_120[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 25. Adjustments to shareholders' equity (attach statement). Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line26[0].f4_121[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 26. Less cost of treasury stock. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line26[0].f4_122[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 26. Less cost of treasury stock. Column: Open parenthesis. Beginning of tax year. (b). Close pa",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line26[0].f4_123[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 26. Less cost of treasury stock. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line26[0].f4_124[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 26. Less cost of treasury stock. Column: Open parenthesis. End of tax year. (d). Close parenthe",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line27[0].f4_125[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 27. Total liabilities and shareholders' equity. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line27[0].f4_126[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 27. Total liabilities and shareholders' equity. Column: Beginning of tax year. (b).",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line27[0].f4_127[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 27. Total liabilities and shareholders' equity. Column: End of tax year. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Liabilities[0].Line27[0].f4_128[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 27. Total liabilities and shareholders' equity. Column: End of tax year. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_1[0]",
@@ -2285,103 +2626,149 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_2[0]",
       "fieldType": "tax_year",
       "labelHint": "2. Income included on Schedule K, lines 1, 2, 3c, 4, 5a, 6, 7, 8a, 9, and 10, not recorded on books ",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_5[0]",
       "fieldType": "tax_year",
       "labelHint": "3. Expenses recorded on books this year not included on Schedule K, lines 1 through 12e, and 16f (it",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Travel and entertainment. $. Line 1 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Left[0].f5_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Add lines 1 through 3.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1",
+          "end": "3"
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Add lines 1 through 3."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_11[0]",
       "fieldType": "tax_year",
       "labelHint": "5. Income recorded on books this year not included on Schedule K, lines 1 through 10 (itemize): a. T",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5a. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_14[0]",
       "fieldType": "tax_year",
       "labelHint": "6. Deductions included on Schedule K, lines 1 through 12e, and 16f, not charged against book income ",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6a. Line 2 of 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "6a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Amount.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Add lines 5 and 6.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "5",
+            "6"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Add lines 5 and 6."
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].SchM-1_Right[0].f5_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Income (loss) (Schedule K, line 18). Subtract line 7 from line 4.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "4",
+          "subtrahend": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Income (loss) (Schedule K, line 18). Subtract line 7 from line 4."
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line1[0].f5_19[0]",
@@ -2393,13 +2780,15 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line1[0].f5_20[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Balance at beginning of tax year. Column: (b) Shareholders’ undistributed taxable income pre",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line1[0].f5_21[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 1. Balance at beginning of tax year. Column: (c) Accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line1[0].f5_22[0]",
@@ -2411,43 +2800,50 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line2[0].f5_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Ordinary income from page 1, line 22. Column: (a) Accumulated adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line2[0].f5_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Ordinary income from page 1, line 22. Column: (b) Shareholders’ undistributed taxable income",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line2[0].f5_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Ordinary income from page 1, line 22. Column: (c) Accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line2[0].f5_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 2. Ordinary income from page 1, line 22. Column: (d) Other adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line3[0].f5_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Other additions. Column: (a) Accumulated adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line3[0].f5_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Other additions. Column: (b) Shareholders’ undistributed taxable income previously taxed.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line3[0].f5_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Other additions. Column: (c) Accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line3[0].f5_30[0]",
@@ -2459,43 +2855,50 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line4[0].f5_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Loss from page 1, line 22. Column: Open parenthesis. (a) Accumulated adjustments account. Cl",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line4[0].f5_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Loss from page 1, line 22. Column: (b) Shareholders’ undistributed taxable income previously",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line4[0].f5_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Loss from page 1, line 22. Column: (c) Accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line4[0].f5_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Loss from page 1, line 22. Column: (d) Other adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line5[0].f5_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Other reductions. Column: Open parenthesis. (a) Accumulated adjustments account. Close paren",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line5[0].f5_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Other reductions. Column: (b) Shareholders’ undistributed taxable income previously taxed.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line5[0].f5_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Other reductions. Column: (c) Accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line5[0].f5_38[0]",
@@ -2507,73 +2910,121 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line6[0].f5_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Combine lines 1 through 5. Column: (a) Accumulated adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line6[0].f5_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Combine lines 1 through 5. Column: (b) Shareholders’ undistributed taxable income previously",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line6[0].f5_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Combine lines 1 through 5. Column: (c) Accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line6[0].f5_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Combine lines 1 through 5. Column: (d) Other adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line7[0].f5_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Distributions. Column: (a) Accumulated adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line7[0].f5_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Distributions. Column: (b) Shareholders’ undistributed taxable income previously taxed.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line7[0].f5_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Distributions. Column: (c) Accumulated earnings and profits.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line7[0].f5_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Distributions. Column: (d) Other adjustments account.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line8[0].f5_47[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (a) Accumulated adjustments",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (a) Accumulated adjustments"
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line8[0].f5_48[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (b) Shareholders’ undistrib",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (b) Shareholders’ undistrib"
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line8[0].f5_49[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (c) Accumulated earnings an",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (c) Accumulated earnings an"
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SchM-2[0].Line8[0].f5_50[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (d) Other adjustments accou",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "6",
+          "subtrahend": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Balance at end of tax year. Subtract line 7 from line 6. Column: (d) Other adjustments accou"
+      },
+      "lineNumber": "8"
     }
   ]
 }

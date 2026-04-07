@@ -3,7 +3,7 @@
   "displayName": "Form 8936",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8936.pdf",
-  "generatedAt": "2026-04-06T21:46:20.027Z",
+  "generatedAt": "2026-04-07T00:27:44.807Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -22,79 +22,110 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a_ReadOrder[0].f1_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Modified Adjusted Gross Income (M A G I) Amount. 1a. Enter the amount from line 11a of your ",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Enter any income from Puerto Rico you excluded.",
-      "required": false
+      "required": false,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1c. Enter any amount from Form 2555, line 45.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1d. Enter any amount from Form 2555, line 50.",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1e. Enter any amount from Form 4563, line 15.",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. Add lines 1a through 1e.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "1a",
+          "end": "1e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "2. Add lines 1a through 1e."
+      },
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line3a_ReadOrder[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Enter the amount from line 11 of your 2024 Form 1040, 1040-S R, or 1040-N R. Estates and trusts,",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Enter any income from Puerto Rico you excluded.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Enter any amount from Form 2555, line 45.",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. Enter any amount from Form 2555, line 50.",
-      "required": false
+      "required": false,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3e. Enter any amount from Form 4563, line 15.",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Add lines 3a through 3e.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "3a",
+          "end": "3e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Add lines 3a through 3e."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "filing_status",
       "labelHint": "5. Enter your 2024 filing status (S, M F S, etc., see chart below).",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
@@ -106,91 +137,164 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. New clean vehicle credit from partnerships and S corporations (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8. Business/investment use part of credit. Add lines 6 and 7. Partnerships and S corporations, stop ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "6",
+            "7"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Business/investment use part of credit. Add lines 6 and 7. Partnerships and S corporations, stop "
+      },
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I I. Credit for Personal Use Part of New Clean Vehicles. 9. Enter the total credit amount fig",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Enter the amount from Form 1040, 1040-S R, or 1040-N R, line 18.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Personal credits from Form 1040, 1040-S R, or 1040-N R (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Subtract line 11 from line 10. If zero or less, enter 0 and stop here. You can't claim the perso",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "11"
+        },
+        "floorAtZero": true,
+        "rawLabel": "12. Subtract line 11 from line 10. If zero or less, enter 0 and stop here. You can't claim the perso"
+      },
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Personal use part of credit. Enter the smaller of line 9 or line 12 here and on Schedule 3 (Form",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "9",
+          "b": "12"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. Personal use part of credit. Enter the smaller of line 9 or line 12 here and on Schedule 3 (Form"
+      },
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I V. Credit for Previously Owned Clean Vehicles. 14. Enter the total credit amount figured in P",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "15. Enter the amount from Form 1040, 1040-S R, or 1040-N R, line 18.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "16. Personal credits from Form 1040, 1040-S R, or 1040-N R (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "17. Subtract line 16 from line 15. If zero or less, enter 0 and stop here. You can’t claim the Part ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "15",
+          "subtrahend": "16"
+        },
+        "floorAtZero": true,
+        "rawLabel": "17. Subtract line 16 from line 15. If zero or less, enter 0 and stop here. You can’t claim the Part "
+      },
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "18. Enter the smaller of line 14 or line 17 here and on Schedule 3 (Form 1040), line 6m. If line 17 ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "min_two_lines",
+          "a": "14",
+          "b": "17"
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Enter the smaller of line 14 or line 17 here and on Schedule 3 (Form 1040), line 6m. If line 17 "
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part V. Credit for Qualified Commercial Clean Vehicles. 19. Enter the total credit amount figured in",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "20. Qualified commercial clean vehicle credit from partnerships and S corporations (see instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "21. Add lines 19 and 20. Partnerships and S corporations, stop here and report this amount on Schedu",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "19",
+            "20"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "21. Add lines 19 and 20. Partnerships and S corporations, stop here and report this amount on Schedu"
+      },
+      "lineNumber": "21"
     }
   ]
 }

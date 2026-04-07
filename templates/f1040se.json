@@ -3,7 +3,7 @@
   "displayName": "Schedule E",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040se.pdf",
-  "generatedAt": "2026-04-06T21:46:18.045Z",
+  "generatedAt": "2026-04-07T00:27:42.847Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -62,46 +62,53 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1a[0].RowA[0].f1_3[0]",
       "fieldType": "city",
       "labelHint": "1a. Row: A. Column: Physical address of each property (street, city, state, Z I P code).",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1a[0].RowB[0].f1_4[0]",
       "fieldType": "city",
       "labelHint": "1a. Row: B. Column: Physical address of each property (street, city, state, Z I P code).",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1a[0].RowC[0].f1_5[0]",
       "fieldType": "city",
       "labelHint": "1a. Row: C. Column: Physical address of each property (street, city, state, Z I P code).",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1b[0].RowA[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Row: A. Column: Type of Property (from list below).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1b[0].RowB[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Row: B. Column: Type of Property (from list below).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line1b[0].RowC[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "1b. Row: C. Column: Type of Property (from list below).",
       "required": false,
-      "maxLength": 1
+      "maxLength": 1,
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].RowA[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "2. For each rental real estate property listed above, report the number of fair rental and personal ",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].RowA[0].f1_10[0]",
@@ -179,31 +186,36 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Income[0].Line3[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Rents received. Properties. Column: B.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Income[0].Line3[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Rents received. Properties. Column: C.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Income[0].Line4[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Royalties received. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Income[0].Line4[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Royalties received. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Income[0].Line4[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 4. Royalties received. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line5[0].f1_22[0]",
@@ -215,373 +227,489 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line5[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Advertising. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line5[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 5. Advertising. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line6[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Auto and travel (see instructions). Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line6[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Auto and travel (see instructions). Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line6[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Auto and travel (see instructions). Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line7[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Cleaning and maintenance. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line7[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Cleaning and maintenance. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line7[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 7. Cleaning and maintenance. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line8[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Commissions. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line8[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Commissions. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line8[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Commissions. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line9[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Insurance. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line9[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Insurance. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line9[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. Insurance. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line10[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Legal and other professional fees. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line10[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Legal and other professional fees. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line10[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Legal and other professional fees. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line11[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Management fees. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line11[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Management fees. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line11[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 11. Management fees. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line12[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Mortgage interest paid to banks, etc. (see instructions). Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line12[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Mortgage interest paid to banks, etc. (see instructions). Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line12[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Mortgage interest paid to banks, etc. (see instructions). Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line13[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Other interest. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line13[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Other interest. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line13[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Other interest. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line14[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Repairs. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line14[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Repairs. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line14[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. Repairs. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line15[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Supplies. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line15[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Supplies. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line15[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. Supplies. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line16[0].f1_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Taxes. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line16[0].f1_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Taxes. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line16[0].f1_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. Taxes. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line17[0].f1_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Utilities. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line17[0].f1_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Utilities. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line17[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Utilities. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line18[0].f1_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Depreciation expense or depletion. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line18[0].f1_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Depreciation expense or depletion. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line18[0].f1_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Depreciation expense or depletion. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line19[0].f1_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Column: Expenses. Other (list).",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line19[0].f1_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Other. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line19[0].f1_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Other. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line19[0].f1_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Other. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line20[0].f1_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Total expenses. Add lines 5 through 19. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "5",
+          "end": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. Total expenses. Add lines 5 through 19. Column: Properties. A."
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line20[0].f1_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Total expenses. Add lines 5 through 19. Column: Properties. B.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "5",
+          "end": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. Total expenses. Add lines 5 through 19. Column: Properties. B."
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line20[0].f1_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. Total expenses. Add lines 5 through 19. Column: Properties. C.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "5",
+          "end": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. Total expenses. Add lines 5 through 19. Column: Properties. C."
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line21[0].f1_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Subtract line 20 from line 3 (rents) and/or 4 (royalties). If result is a (loss), see instr",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. Subtract line 20 from line 3 (rents) and/or 4 (royalties). If result is a (loss), see instr"
+      },
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line21[0].f1_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Subtract line 20 from line 3 (rents) and/or 4 (royalties). If result is a (loss), see instr",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. Subtract line 20 from line 3 (rents) and/or 4 (royalties). If result is a (loss), see instr"
+      },
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line21[0].f1_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Subtract line 20 from line 3 (rents) and/or 4 (royalties). If result is a (loss), see instr",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "3",
+          "subtrahend": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. Subtract line 20 from line 3 (rents) and/or 4 (royalties). If result is a (loss), see instr"
+      },
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line22[0].f1_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Deductible rental real estate loss after limitation, if any, on Form 8582 (see instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line22[0].f1_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Deductible rental real estate loss after limitation, if any, on Form 8582 (see instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Expenses[0].Line22[0].f1_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Deductible rental real estate loss after limitation, if any, on Form 8582 (see instructions",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23a. Total of all amounts reported on line 3 for all rental properties.",
-      "required": false
+      "required": false,
+      "lineNumber": "23a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23b. Total of all amounts reported on line 4 for all royalty properties.",
-      "required": false
+      "required": false,
+      "lineNumber": "23b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23c. Total of all amounts reported on line 12 for all properties.",
-      "required": false
+      "required": false,
+      "lineNumber": "23c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23d. Total of all amounts reported on line 18 for all properties.",
-      "required": false
+      "required": false,
+      "lineNumber": "23d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "23e. Total of all amounts reported on line 20 for all properties.",
-      "required": false
+      "required": false,
+      "lineNumber": "23e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "24. Income. Add positive amounts shown on line 21. Do not include any losses.",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_83[0]",
       "fieldType": "dollar_amount",
       "labelHint": "25. Losses. Add royalty losses from line 21 and rental real estate losses from line 22. Enter total ",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "26. Total rental real estate and royalty income or (loss). Combine lines 24 and 25. Enter the result",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
@@ -604,7 +732,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
@@ -614,13 +743,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line28a-f[0].RowA[0].f2_3[0]",
       "fieldType": "full_name",
       "labelHint": "28. Row: A. Column: (a) Name.",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line28a-f[0].RowA[0].f2_4[0]",
@@ -940,85 +1071,99 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29a. Totals. (g) Passive loss allowed (attach Form 8582 if required).",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29a. (h) Passive income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29a. (i) Nonpassive loss allowed (see Schedule K-1).",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29a. (j) Section 179 expense deduction from Form 4562.",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29a. (k) Nonpassive income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "29a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29b. Totals. (g) Passive loss allowed (attach Form 8582 if required).",
-      "required": false
+      "required": false,
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29b. (h) Passive income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29b. (i) Nonpassive loss allowed (see Schedule K-1).",
-      "required": false
+      "required": false,
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29b. (j) Section 179 expense deduction from Form 4562.",
-      "required": false
+      "required": false,
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "29b. (k) Nonpassive income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "29b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "30. Add columns (h) and (k) of line 29a.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "31. Add columns (g), (i), and (j) of line 29b. Open parenthesis. Close parenthesis.",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "32. Total partnership and S corporation income or (loss). Combine lines 30 and 31.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line33a-b[0].RowA[0].f2_48[0]",
       "fieldType": "full_name",
       "labelHint": "Part I I I. Income or Loss From Estates and Trusts. 33. Row: A. Column: (a) Name.",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line33a-b[0].RowA[0].f2_49[0]",
@@ -1092,67 +1237,78 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34a. Totals. (c) Passive deduction or loss allowed (attach Form 8582 if required).",
-      "required": false
+      "required": false,
+      "lineNumber": "34a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34a. (d) Passive income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "34a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34a. (e) Deduction or loss from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "34a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34a. (f) Other income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "34a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34b. Totals. (c) Passive deduction or loss allowed (attach Form 8582 if required).",
-      "required": false
+      "required": false,
+      "lineNumber": "34b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34b. (d) Passive income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "34b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34b. (e) Deduction or loss from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "34b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "34b. (f) Other income from Schedule K-1.",
-      "required": false
+      "required": false,
+      "lineNumber": "34b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "35. Add columns (d) and (f) of line 34a.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "36. Add columns (c) and (e) of line 34b. Open parenthesis. Close parenthesis.",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "37. Total estate and trust income or (loss). Combine lines 35 and 36.",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line38[0].Row1[0].f2_71[0]",
@@ -1165,55 +1321,64 @@
       "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (b) Employer identification number.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line38[0].Row1[0].f2_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (c) Excess inclusion from Schedules Q, line 2c (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line38[0].Row1[0].f2_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (d) Taxable income (net loss) from Schedules Q, line 1b.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line38[0].Row1[0].f2_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 1. Column: (e) Income from Schedules Q, line 3b.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "39. Combine columns (d) and (e) only. Enter the result here and include in the total on line 41 belo",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part V. Summary. 40. Net farm rental income or (loss) from Form 4835. Also, complete line 42 below.",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "41. Total income or (loss). Combine lines 26, 32, 37, 39, and 40. Enter the result here and on Sched",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line42_ReadOrder[0].f2_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "42. Reconciliation of farming and fishing income. Enter your gross farming and fishing income report",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "43. Reconciliation for real estate professionals. If you were a real estate professional (see instru",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     }
   ]
 }

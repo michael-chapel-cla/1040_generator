@@ -3,7 +3,7 @@
   "displayName": "Form 7203",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f7203.pdf",
-  "generatedAt": "2026-04-06T21:46:21.900Z",
+  "generatedAt": "2026-04-07T00:27:46.670Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -107,175 +107,273 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
       "fieldType": "tax_year",
       "labelHint": "Part I. Shareholder Stock Basis. 1. Stock basis at the beginning of the corporation's tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
       "fieldType": "tax_year",
       "labelHint": "2. Basis from any capital contributions made or additional stock acquired during the tax year.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3a. Ordinary business income (enter losses in Part I I I).",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3b. Net rental real estate income (enter losses in Part I I I).",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3c. Other net rental income (enter losses in Part I I I).",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3d. Interest income.",
-      "required": false
+      "required": false,
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3e. Ordinary dividends.",
-      "required": false
+      "required": false,
+      "lineNumber": "3e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3f. Royalties.",
-      "required": false
+      "required": false,
+      "lineNumber": "3f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3g. Net capital gains (enter losses in Part I I I).",
-      "required": false
+      "required": false,
+      "lineNumber": "3g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3h. Net section 1231 gain (enter losses in Part I I I).",
-      "required": false
+      "required": false,
+      "lineNumber": "3h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3i. Other income (enter losses in Part I I I).",
-      "required": false
+      "required": false,
+      "lineNumber": "3i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3j. Excess depletion adjustment.",
-      "required": false
+      "required": false,
+      "lineNumber": "3j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3k. Tax-exempt income.",
-      "required": false
+      "required": false,
+      "lineNumber": "3k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3l. Recapture of business credits.",
-      "required": false
+      "required": false,
+      "lineNumber": "3l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "3m. Other items that increase stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "3m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "4. Add lines 3a through 3m.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "3a",
+          "end": "3m"
+        },
+        "floorAtZero": false,
+        "rawLabel": "4. Add lines 3a through 3m."
+      },
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "5. Stock basis before distributions. Add lines 1, 2, and 4.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "1",
+            "2",
+            "4"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "5. Stock basis before distributions. Add lines 1, 2, and 4."
+      },
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "6. Distributions (excluding dividend distributions). Note: If line 6 is larger than line 5, subtract",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "7. Stock basis after distributions. Subtract line 6 from line 5. If the result is zero or less, ente",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "5",
+          "subtrahend": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Stock basis after distributions. Subtract line 6 from line 5. If the result is zero or less, ente"
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8a. Nondeductible expenses.",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8b. Depletion for oil and gas.",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "8c. Business credits (sections 50(c)(1) and (5)).",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "9. Add lines 8a through 8c.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "8a",
+          "end": "8c"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Add lines 8a through 8c."
+      },
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "10. Stock basis before loss and deduction items. Subtract line 9 from line 7. If the result is zero ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "7",
+          "subtrahend": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Stock basis before loss and deduction items. Subtract line 9 from line 7. If the result is zero "
+      },
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "11. Allowable loss and deduction items. Enter the amount from line 47, column (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "12. Debt basis restoration (see net increase in instructions for line 23).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "13. Other items that decrease stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "14. Add lines 11, 12, and 13.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "11",
+            "12",
+            "13"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "14. Add lines 11, 12, and 13."
+      },
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_35[0]",
       "fieldType": "tax_year",
       "labelHint": "15. Stock basis at the end of the corporation’s tax year. Subtract line 14 from line 10. If the resu",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "10",
+          "subtrahend": "14"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Stock basis at the end of the corporation’s tax year. Subtract line 14 from line 10. If the resu"
+      },
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Header[0].aDebt1[0].c1_7[0]",
@@ -341,25 +439,29 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line16[0].f1_36[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Loan balance at the beginning of the corporation’s tax year. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line16[0].f1_37[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Loan balance at the beginning of the corporation’s tax year. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line16[0].f1_38[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 16. Loan balance at the beginning of the corporation’s tax year. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line16[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line17[0].f1_40[0]",
@@ -371,91 +473,186 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line17[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Additional loans (see instructions). Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line17[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Additional loans (see instructions). Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line17[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. Additional loans (see instructions). Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line18[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "16",
+            "17"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (a) Debt 1."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line18[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "16",
+            "17"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (b) Debt 2."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line18[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "16",
+            "17"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (c) Debt 3."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line18[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "16",
+            "17"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. Loan balance before repayment. Add lines 16 and 17. Column: (d) Total."
+      },
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line19[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Principal portion of debt repayment (this line doesn’t include interest). Column: Debt 1. C",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line19[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Principal portion of debt repayment (this line doesn’t include interest). Column: (b) Debt ",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line19[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Principal portion of debt repayment (this line doesn’t include interest). Column: (c) Debt ",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line19[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. Principal portion of debt repayment (this line doesn’t include interest). Column: (d) Total",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_52[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "18",
+          "subtrahend": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum"
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_53[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "18",
+          "subtrahend": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum"
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_54[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "18",
+          "subtrahend": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum"
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_55[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "18",
+          "subtrahend": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. Loan balance at the end of the corporation’s tax year. Subtract line 19 from line 18. Colum"
+      },
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_01[0]",
@@ -473,13 +670,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_03[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Debt basis at the beginning of the corporation’s tax year. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_04[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21. Debt basis at the beginning of the corporation’s tax year. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line22[0].f2_05[0]",
@@ -491,235 +690,430 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line22[0].f2_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Enter the amount, if any, from line 17. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line22[0].f2_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Enter the amount, if any, from line 17. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line22[0].f2_08[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. Enter the amount, if any, from line 17. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line23[0].f2_09[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Debt basis restoration (see instructions). Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line23[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Debt basis restoration (see instructions). Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line23[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Debt basis restoration (see instructions). Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line23[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. Debt basis restoration (see instructions). Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line24[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21",
+            "22",
+            "23"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (a) Debt 1."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line24[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21",
+            "22",
+            "23"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (b) Debt 2."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line24[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21",
+            "22",
+            "23"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (c) Debt 3."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line24[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_list",
+          "operands": [
+            "21",
+            "22",
+            "23"
+          ]
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Debt basis before repayment. Add lines 21, 22, and 23. Column: (d) Total."
+      },
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line25[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line25[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line25[0].f2_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line25[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line26[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line26[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line26[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line26[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line27[0].f2_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line27[0].f2_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line27[0].f2_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line27[0].f2_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "24",
+          "subtrahend": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 27. Debt basis before nondeductible expenses and losses. Subtract line 26 from line 24. Column:"
+      },
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line28[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. Nondeductible expenses and oil and gas depletion deductions in excess of stock basis. Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line28[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. Nondeductible expenses and oil and gas depletion deductions in excess of stock basis. Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line28[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. Nondeductible expenses and oil and gas depletion deductions in excess of stock basis. Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line28[0].f2_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 28. Nondeductible expenses and oil and gas depletion deductions in excess of stock basis. Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line29[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "28"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze"
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line29[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "28"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze"
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line29[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "28"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze"
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line29[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "27",
+          "subtrahend": "28"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 29. Debt basis before losses and deductions. Subtract line 28 from line 27. If the result is ze"
+      },
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line30[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line30[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line30[0].f2_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line30[0].f2_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line31[0].f2_41[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the "
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line31[0].f2_42[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the "
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line31[0].f2_43[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the "
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line31[0].f2_44[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "29",
+          "subtrahend": "30"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 31. Debt basis at the end of the corporation’s tax year. Subtract line 30 from line 29. If the "
+      },
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line32[0].f2_45[0]",
@@ -731,67 +1125,114 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line32[0].f2_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Repayment. Enter the amount from line 19. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line32[0].f2_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Repayment. Enter the amount from line 19. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line32[0].f2_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Repayment. Enter the amount from line 19. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line33[0].f2_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line33[0].f2_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line33[0].f2_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line33[0].f2_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line34[0].f2_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "32",
+          "subtrahend": "33"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (a) Debt 1."
+      },
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line34[0].f2_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "32",
+          "subtrahend": "33"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (b) Debt 2."
+      },
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line34[0].f2_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (c) Debt 3.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "32",
+          "subtrahend": "33"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (c) Debt 3."
+      },
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line34[0].f2_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (d) Total.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "subtract",
+          "minuend": "32",
+          "subtrahend": "33"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 34. Reportable gain. Subtract line 33 from line 32. Column: (d) Total."
+      },
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line35[0].f2_57[0]",
@@ -803,385 +1244,494 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line35[0].f2_58[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 35. Ordinary business loss. Column: (b) Carryover amounts (column (e)) from the previous year.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line35[0].f2_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Ordinary business loss. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line35[0].f2_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Ordinary business loss. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line35[0].f2_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Ordinary business loss. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line36[0].f2_62[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 36. Net rental real estate loss. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line36[0].f2_63[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 36. Net rental real estate loss. Column: (b) Carryover amounts (column (e)) from the previous y",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line36[0].f2_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Net rental real estate loss. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line36[0].f2_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Net rental real estate loss. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line36[0].f2_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 36. Net rental real estate loss. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "36"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line37[0].f2_67[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 37. Other net rental loss. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line37[0].f2_68[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 37. Other net rental loss. Column: (b) Carryover amounts (column (e)) from the previous year.",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line37[0].f2_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 37. Other net rental loss. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line37[0].f2_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 37. Other net rental loss. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line37[0].f2_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 37. Other net rental loss. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line38[0].f2_72[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 38. Net capital loss. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line38[0].f2_73[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 38. Net capital loss. Column: (b) Carryover amounts (column (e)) from the previous year.",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line38[0].f2_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 38. Net capital loss. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line38[0].f2_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 38. Net capital loss. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line38[0].f2_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 38. Net capital loss. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line39[0].f2_77[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 39. Net section 1231 loss. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line39[0].f2_78[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 39. Net section 1231 loss. Column: (b) Carryover amounts (column (e)) from the previous year.",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line39[0].f2_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 39. Net section 1231 loss. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line39[0].f2_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 39. Net section 1231 loss. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line39[0].f2_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 39. Net section 1231 loss. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line40[0].f2_82[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 40. Other loss. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line40[0].f2_83[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 40. Other loss. Column: (b) Carryover amounts (column (e)) from the previous year.",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line40[0].f2_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 40. Other loss. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line40[0].f2_85[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 40. Other loss. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line40[0].f2_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 40. Other loss. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "40"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line41[0].f2_87[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 41. Section 179 deductions. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line41[0].f2_88[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 41. Section 179 deductions. Column: (b) Carryover amounts (column (e)) from the previous year.",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line41[0].f2_90[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 41. Section 179 deductions. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line41[0].f2_91[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 41. Section 179 deductions. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line41[0].f2_92[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 41. Section 179 deductions. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line42[0].f2_93[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 42. Charitable contributions. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line42[0].f2_94[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 42. Charitable contributions. Column: (b) Carryover amounts (column (e)) from the previous year",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line42[0].f2_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 42. Charitable contributions. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line42[0].f2_96[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 42. Charitable contributions. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line42[0].f2_97[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 42. Charitable contributions. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "42"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line43[0].f2_98[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 43. Investment interest expense. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line43[0].f2_99[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 43. Investment interest expense. Column: (b) Carryover amounts (column (e)) from the previous y",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line43[0].f2_100[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 43. Investment interest expense. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line43[0].f2_101[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 43. Investment interest expense. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line43[0].f2_102[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 43. Investment interest expense. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line44[0].f2_103[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 44. Section 59(e)(2) expenditures. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line44[0].f2_104[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 44. Section 59(e)(2) expenditures. Column: (b) Carryover amounts (column (e)) from the previous",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line44[0].f2_105[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 44. Section 59(e)(2) expenditures. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line44[0].f2_106[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 44. Section 59(e)(2) expenditures. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line44[0].f2_107[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 44. Section 59(e)(2) expenditures. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "44"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line45[0].f2_108[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 45. Other deductions. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line45[0].f2_109[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 45. Other deductions. Column: (b) Carryover amounts (column (e)) from the previous year.",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line45[0].f2_110[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 45. Other deductions. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line45[0].f2_111[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 45. Other deductions. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line45[0].f2_112[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 45. Other deductions. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "45"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line46[0].f2_113[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 46. Foreign taxes paid or accrued. Column: (a) Current year losses and deductions.",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line46[0].f2_114[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 46. Foreign taxes paid or accrued. Column: (b) Carryover amounts (column (e)) from the previous",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line46[0].f2_115[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 46. Foreign taxes paid or accrued. Column: (c) Allowable loss from stock basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line46[0].f2_116[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 46. Foreign taxes paid or accrued. Column: (d) Allowable loss from debt basis.",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line46[0].f2_117[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 46. Foreign taxes paid or accrued. Column: (e) Carryover amounts.",
-      "required": false
+      "required": false,
+      "lineNumber": "46"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_118[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "35",
+          "end": "46"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on "
+      },
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_119[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "35",
+          "end": "46"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on "
+      },
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_120[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "35",
+          "end": "46"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on "
+      },
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_121[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "35",
+          "end": "46"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on "
+      },
+      "lineNumber": "47"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on ",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "add_range",
+          "start": "35",
+          "end": "46"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 47. Total loss. Add lines 35 through 46 for each column. Enter the total loss in column (c) on "
+      },
+      "lineNumber": "47"
     }
   ]
 }
