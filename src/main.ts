@@ -13,12 +13,13 @@
 
 import { Command } from "commander";
 import chalk from "chalk";
-import { runBatch } from "./pipeline/batch";
+import { runBatch, parseFormSpecs } from "./pipeline/batch";
 import { downloadForms } from "./downloader/index";
 import { FORM_REGISTRY } from "./registry/forms";
 import { analyzeForm } from "./analyzer/index";
 import { buildTemplate, saveTemplate } from "./templates/store";
 import { createTaxpayer } from "./faker/factory";
+import { mergePdfs } from "./merger/index";
 import path from "path";
 
 const program = new Command();
@@ -27,14 +28,16 @@ program
   .name("1040-form-builder")
   .description("Downloads IRS tax forms and fills them with randomized fake data")
   .version("1.0.0")
-  .option("-c, --count <n>",    "Number of unique taxpayer submissions to generate", "1")
-  .option("-f, --forms <ids>",  "Comma-separated form IDs to process (default: all)")
-  .option("-s, --seed <n>",     "Base random seed for reproducible output")
-  .option("-y, --year <n>",     "Tax year", "2024")
+  .option("-c, --count <n>",       "Global number of unique submissions per form (default: 1)", "1")
+  .option("-f, --forms <ids>",     "Forms to fill. Use 'id' or 'id:N' for per-form counts (e.g. f1040:3,fw2:5)")
+  .option("-s, --seed <n>",        "Base random seed for reproducible output")
+  .option("-y, --year <n>",        "Tax year", "2024")
   .option("-j, --concurrency <n>", "Max parallel operations", "3")
-  .option("--download-only",    "Only download PDFs, do not fill")
-  .option("--analyze-only",     "Download PDFs and generate templates only")
-  .option("--force-reanalyze",  "Regenerate templates even if they already exist")
+  .option("-m, --merge",           "Merge all generated PDFs into a single bundled PDF")
+  .option("--merge-name <name>",   "Output filename for the merged PDF")
+  .option("--download-only",       "Only download PDFs, do not fill")
+  .option("--analyze-only",        "Download PDFs and generate templates only")
+  .option("--force-reanalyze",     "Regenerate templates even if they already exist")
   .parse(process.argv);
 
 const opts = program.opts();
@@ -44,9 +47,8 @@ async function main() {
   const taxYear     = parseInt(opts.year, 10);
   const concurrency = parseInt(opts.concurrency, 10);
   const baseSeed    = opts.seed ? parseInt(opts.seed, 10) : undefined;
-  const formIds: string[] | undefined = opts.forms
-    ? opts.forms.split(",").map((s: string) => s.trim())
-    : undefined;
+  const formSpecs   = opts.forms ? parseFormSpecs(opts.forms as string) : undefined;
+  const formIds     = formSpecs?.map((s) => s.formId);
 
   const targetForms = formIds
     ? FORM_REGISTRY.filter((f) => formIds.includes(f.id))
@@ -93,7 +95,7 @@ async function main() {
   // ── Fill ───────────────────────────────────────────────────────────────────
   console.log(chalk.yellow(`► Filling forms (${count} submission${count > 1 ? "s" : ""})...`));
   const batch = await runBatch({
-    formIds,
+    forms: formSpecs,
     count,
     baseSeed,
     taxYear,
@@ -110,6 +112,21 @@ async function main() {
       console.log(chalk.red(`    [submission ${e.submission}] ${e.formId}: ${e.error}`))
     );
   }
+
+  // ── Merge ──────────────────────────────────────────────────────────────────
+  if (opts.merge && batch.results.length > 0) {
+    const sorted = [...batch.results].sort((a, b) =>
+      a.formId.localeCompare(b.formId) || a.submission - b.submission
+    );
+    console.log(chalk.yellow(`\n  Merging ${sorted.length} PDFs...`));
+    try {
+      const merged = await mergePdfs(sorted.map((r) => r.outputPath), opts.mergeName);
+      console.log(chalk.green(`  ✓ Merged → ${path.basename(merged)}`));
+    } catch (err) {
+      console.log(chalk.red(`  ✗ Merge failed: ${(err as Error).message}`));
+    }
+  }
+
   console.log(chalk.gray(`\n  Output written to: ${path.resolve(process.cwd(), "output")}\n`));
 }
 

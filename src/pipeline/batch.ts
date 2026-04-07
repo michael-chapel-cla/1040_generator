@@ -4,10 +4,26 @@ import { createTaxpayer } from "../faker/factory";
 import { FillResult } from "../filler/index";
 import { FORM_REGISTRY, FormEntry, getForm } from "../registry/forms";
 
+/** A form with an optional per-form submission count override. */
+export interface FormSpec {
+  formId: string;
+  /** Overrides the global `count` for this form only. */
+  count?: number;
+}
+
 export interface BatchOptions {
-  /** Form IDs to fill. Defaults to ALL forms in registry. */
+  /**
+   * Forms to fill. Each entry is either a plain form ID string or a FormSpec
+   * with an optional per-form count override.
+   *
+   * Examples:
+   *   ["f1040", "fw2"]                       // use global count for all
+   *   [{ formId: "f1040", count: 3 }, "fw2"] // 3 copies of 1040, global count for W-2
+   */
+  forms?: Array<string | FormSpec>;
+  /** @deprecated Use `forms` instead. Kept for backward compatibility. */
   formIds?: string[];
-  /** How many unique fake taxpayer submissions to generate. Default: 1 */
+  /** Global number of unique fake taxpayer submissions. Default: 1 */
   count?: number;
   /** Base seed. Each submission uses seed + index. Omit for random. */
   baseSeed?: number;
@@ -27,45 +43,67 @@ export interface BatchResult {
   errors: Array<{ formId: string; submission: number; error: string }>;
 }
 
+/** Normalise the `forms` / `formIds` option into a list of FormSpecs. */
+function resolveFormSpecs(opts: BatchOptions): FormSpec[] {
+  // Prefer `forms` over deprecated `formIds`
+  const raw = opts.forms ?? opts.formIds?.map((id) => ({ formId: id }));
+  if (!raw) {
+    // Default: all forms in the registry, each using global count
+    return FORM_REGISTRY.map((f) => ({ formId: f.id }));
+  }
+  return raw.map((entry) =>
+    typeof entry === "string" ? { formId: entry } : entry
+  );
+}
+
 /**
  * Fills every requested form for every requested fake taxpayer in parallel.
+ * Supports per-form count overrides via FormSpec entries.
  */
 export async function runBatch(opts: BatchOptions = {}): Promise<BatchResult> {
   const {
-    formIds,
-    count = 1,
+    count: globalCount = 1,
     baseSeed,
     taxYear = 2024,
     concurrency = 3,
     forceReanalyze = false,
   } = opts;
 
-  const forms: FormEntry[] = formIds
-    ? formIds.map((id) => getForm(id))
-    : FORM_REGISTRY;
-
+  const formSpecs = resolveFormSpecs(opts);
   const limit = pLimit(concurrency);
   const results: BatchResult["results"] = [];
   const errors:  BatchResult["errors"]  = [];
 
-  // Build one taxpayer per submission
-  const taxpayers = Array.from({ length: count }, (_, i) => {
+  // Pre-generate a pool of taxpayers large enough for the largest per-form count
+  const maxCount = Math.max(globalCount, ...formSpecs.map((s) => s.count ?? globalCount));
+  const taxpayers = Array.from({ length: maxCount }, (_, i) => {
     const seed = baseSeed !== undefined ? baseSeed + i : undefined;
     return { index: i, taxpayer: createTaxpayer(seed, taxYear) };
   });
 
   const tasks: Array<Promise<void>> = [];
 
-  for (const { index, taxpayer } of taxpayers) {
-    for (const form of forms) {
+  for (const spec of formSpecs) {
+    const formCount = spec.count ?? globalCount;
+    let form: FormEntry;
+    try { form = getForm(spec.formId); } catch (err) {
+      // Unknown form ID — record error for all requested submissions and skip
+      for (let i = 0; i < formCount; i++) {
+        errors.push({ formId: spec.formId, submission: i, error: (err as Error).message });
+      }
+      continue;
+    }
+
+    for (let i = 0; i < formCount; i++) {
+      const { index, taxpayer } = taxpayers[i];
       tasks.push(
         limit(async () => {
           try {
             const result = await runForm({
               formId: form.id,
               taxpayer,
-              forceReanalyze: forceReanalyze && index === 0, // only re-analyze once
-              runId: count > 1 ? index : undefined,
+              forceReanalyze: forceReanalyze && index === 0,
+              runId: formCount > 1 ? index : undefined,
             });
             results.push({ submission: index, seed: taxpayer.seed, ...result });
           } catch (err) {
@@ -89,4 +127,23 @@ export async function runBatch(opts: BatchOptions = {}): Promise<BatchResult> {
     results,
     errors,
   };
+}
+
+/**
+ * Parse a comma-separated form string into FormSpecs.
+ * Supports optional per-form count suffix with `:N`.
+ *
+ * Examples:
+ *   "f1040,fw2"          → [{ formId: "f1040" }, { formId: "fw2" }]
+ *   "f1040:3,fw2:5"      → [{ formId: "f1040", count: 3 }, { formId: "fw2", count: 5 }]
+ *   "f1040:3,fw2"        → [{ formId: "f1040", count: 3 }, { formId: "fw2" }]
+ */
+export function parseFormSpecs(raw: string): FormSpec[] {
+  return raw.split(",").map((token) => {
+    const [formId, countStr] = token.trim().split(":");
+    const count = countStr ? parseInt(countStr, 10) : undefined;
+    return count !== undefined && !isNaN(count)
+      ? { formId, count }
+      : { formId };
+  });
 }

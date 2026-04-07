@@ -17,8 +17,10 @@ Covers **173 IRS and SSA forms** across 14 categories — from core 1040 returns
   - [Full Pipeline (download → analyze → fill)](#full-pipeline)
   - [Step-by-Step](#step-by-step)
   - [Fill Specific Forms](#fill-specific-forms)
+  - [Per-Form Counts](#per-form-counts)
   - [Reproducible Output](#reproducible-output)
   - [Batch Generation](#batch-generation)
+  - [Merging into One PDF](#merging-into-one-pdf)
 - [CLI Reference](#cli-reference)
   - [Main Entry Point](#main-entry-point-npm-run-dev)
   - [scripts/fill.ts](#scriptsfillts)
@@ -42,8 +44,9 @@ Covers **173 IRS and SSA forms** across 14 categories — from core 1040 returns
 - **173 forms** — 1040, W-2, 1099 series, Schedules A–SE, business returns (1065, 1120), payroll (940/941), international (FBAR, 5471), and more
 - **Realistic fake data** — context-aware field resolution: names, SSNs, EINs, addresses, dates, dollar amounts all look authentic
 - **Formula-aware fills** — calculated fields (totals, subtractions, percentages) are computed from their source lines rather than filled randomly
+- **Per-form counts** — generate a different number of copies per form type in a single command (`f1040:3,fw2:5`)
+- **PDF bundling** — merge all generated PDFs into a single document with `--merge`
 - **Seed-based reproducibility** — the same seed always produces the same PDFs
-- **Batch mode** — generate N unique taxpayer submissions per form in a single command
 - **JSON templates** — each form's field structure is persisted so re-analysis is not needed on every run
 - **Dev Container ready** — zero-config setup in VS Code
 
@@ -156,6 +159,29 @@ FORMS.filter(f => f.pdfAvailable !== false).forEach(f => console.log(f.id.padEnd
 
 ---
 
+### Per-Form Counts
+
+Append `:N` to any form ID to generate exactly N copies of that form, independent of the global `--count`:
+
+```bash
+# 3 copies of 1040, 5 copies of W-2, 1 copy of Schedule A
+npx ts-node scripts/fill.ts --forms "f1040:3,fw2:5,f1040sa:1" --seed 50
+
+# Output:
+#   f1040_seed50_0.pdf   f1040_seed51_1.pdf   f1040_seed52_2.pdf
+#   fw2_seed50_0.pdf     fw2_seed51_1.pdf     fw2_seed52_2.pdf     fw2_seed53_3.pdf  fw2_seed54_4.pdf
+#   f1040sa_seed50.pdf
+```
+
+You can mix per-form counts with undecorated form IDs. Undecorated IDs use the global `--count`:
+
+```bash
+# f1040 gets 4 copies, fw2 uses global count (2)
+npx ts-node scripts/fill.ts --forms "f1040:4,fw2" --count 2 --seed 10
+```
+
+---
+
 ### Reproducible Output
 
 Use `--seed` to pin the random data. The same seed always produces identical PDFs:
@@ -190,6 +216,32 @@ npm run fill:batch
 
 ---
 
+### Merging into One PDF
+
+Use `--merge` to combine all generated PDFs into a single multi-page document after filling. Pages are ordered by form ID then submission index.
+
+```bash
+# Fill 3 forms and bundle them into one PDF
+npx ts-node scripts/fill.ts --forms f1040,fw2,f1040sa --seed 77 --merge
+# Output: output/f1040_seed77.pdf  output/fw2_seed77.pdf  output/f1040sa_seed77.pdf
+#         output/merged_2026-04-07T12-00-00.pdf  (all pages combined)
+
+# Specify a custom name for the merged file
+npx ts-node scripts/fill.ts --forms f1040,fw2 --count 3 --merge --merge-name "taxpayer_bundle.pdf"
+```
+
+Combine with per-form counts for a fully custom bundle:
+
+```bash
+npx ts-node scripts/fill.ts \
+  --forms "f1040:2,fw2:3,f1040sa:1,f1099int:2" \
+  --seed 100 \
+  --merge \
+  --merge-name "full_submission.pdf"
+```
+
+---
+
 ## CLI Reference
 
 ### Main Entry Point (`npm run dev`)
@@ -200,11 +252,13 @@ npx ts-node src/main.ts [options]
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `-c, --count <n>` | `1` | Number of unique taxpayer submissions to generate |
-| `-f, --forms <ids>` | all | Comma-separated form IDs to process |
+| `-c, --count <n>` | `1` | Global number of unique submissions per form |
+| `-f, --forms <ids>` | all | Forms to fill. Use `id` or `id:N` for per-form counts (e.g. `f1040:3,fw2:5`) |
 | `-s, --seed <n>` | random | Base seed for reproducible output |
 | `-y, --year <n>` | `2024` | Tax year stamped on templates |
 | `-j, --concurrency <n>` | `3` | Max parallel form operations |
+| `-m, --merge` | — | Merge all generated PDFs into a single bundled PDF |
+| `--merge-name <name>` | timestamped | Output filename for the merged PDF |
 | `--download-only` | — | Download PDFs only; skip analyze and fill |
 | `--analyze-only` | — | Download + build templates; skip fill |
 | `--force-reanalyze` | — | Rebuild templates even if they already exist |
@@ -214,6 +268,8 @@ npx ts-node src/main.ts [options]
 ```bash
 npm run dev -- --count 10
 npm run dev -- --forms f1040,fw2 --seed 99 --count 3
+npm run dev -- --forms "f1040:3,fw2:5" --seed 42 --merge
+npm run dev -- --forms "f1040:2,fw2:3" --merge --merge-name "bundle.pdf"
 npm run dev -- --download-only
 npm run dev -- --analyze-only --year 2025
 npm run dev -- --force-reanalyze
@@ -231,11 +287,13 @@ npx ts-node scripts/fill.ts [options]
 
 | Flag | Default | Description |
 |------|---------|-------------|
-| `-c, --count <n>` | `1` | Number of submissions |
-| `-f, --forms <ids>` | all | Comma-separated form IDs |
+| `-c, --count <n>` | `1` | Global number of submissions per form |
+| `-f, --forms <ids>` | all | Forms to fill. Use `id` or `id:N` for per-form counts |
 | `-s, --seed <n>` | random | Base seed |
 | `-y, --year <n>` | `2024` | Tax year |
 | `-j, --concurrency <n>` | `3` | Parallel workers |
+| `-m, --merge` | — | Merge all generated PDFs into one bundled PDF |
+| `--merge-name <name>` | timestamped | Output filename for the merged PDF |
 
 ---
 
@@ -345,9 +403,11 @@ Across the 20 most common forms, the system detects **89 calculated fields** wit
 │   ├── filler/
 │   │   ├── index.ts               # Two-pass PDF filler
 │   │   └── formula-evaluator.ts   # IRS formula computation engine
+│   ├── merger/
+│   │   └── index.ts               # mergePdfs() — combines PDFs into one document
 │   ├── pipeline/
 │   │   ├── runner.ts              # Single-form pipeline orchestration
-│   │   └── batch.ts               # Multi-form, multi-submission batch runner
+│   │   └── batch.ts               # Multi-form, multi-submission batch runner (FormSpec, parseFormSpecs)
 │   ├── registry/
 │   │   └── forms.ts               # 173-form registry with URLs and categories
 │   └── templates/
