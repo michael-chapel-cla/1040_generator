@@ -88,7 +88,7 @@ function buildDependent(faker: Faker, taxpayerBirthYear: number): Dependent {
 function buildW2(faker: Faker, state: string): W2Record {
   const wages = fakeDollar(faker, 25000, 150000);
   const federalWithheld = Math.round(wages * faker.number.float({ min: 0.12, max: 0.24, fractionDigits: 3 }) * 100) / 100;
-  const ssWages = Math.min(wages, 168600); // 2024 SS wage base
+  const ssWages = Math.min(wages, 176100); // 2025 SS wage base
   const ssWithheld = Math.round(ssWages * 0.062 * 100) / 100;
   const medicareWages = wages;
   const medicareWithheld = Math.round(wages * 0.0145 * 100) / 100;
@@ -115,7 +115,7 @@ function buildW2(faker: Faker, state: string): W2Record {
 
 // ─── Main Factory ─────────────────────────────────────────────────────────────
 
-export function createTaxpayer(seed?: number, taxYear = 2024): FakeTaxpayer {
+export function createTaxpayer(seed?: number, taxYear = 2025): FakeTaxpayer {
   const resolvedSeed = seed ?? Math.floor(Math.random() * 1_000_000);
   const faker = new Faker({ locale: [en] });
   faker.seed(resolvedSeed);

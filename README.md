@@ -271,7 +271,7 @@ All flags work the same way on `npm run dev` and `npm run fill`.
 | `-c, --count <n>` | `1` | Global number of unique submissions per form |
 | `-f, --forms <ids>` | all | Forms to fill. Use `id` or `id:N` for per-form counts |
 | `-s, --seed <n>` | random | Base seed for reproducible output |
-| `-y, --year <n>` | `2024` | Tax year |
+| `-y, --year <n>` | `2025` | Tax year |
 | `-j, --concurrency <n>` | `3` | Max parallel operations |
 | `-m, --merge` | off | Merge all generated PDFs into a single bundled PDF |
 | `--merge-name <name>` | timestamped | Output filename for the merged PDF |
@@ -451,7 +451,7 @@ Each analyzed form produces a JSON template at `templates/{formId}.json`:
 {
   "formId": "f1040",
   "displayName": "Form 1040",
-  "taxYear": 2024,
+  "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
   "generatedAt": "2026-04-07T00:00:00.000Z",
   "fields": [

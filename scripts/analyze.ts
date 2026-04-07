@@ -16,7 +16,7 @@ import { buildTemplate, saveTemplate } from "../src/templates/store";
 const program = new Command();
 program
   .option("-f, --forms <ids>", "Comma-separated form IDs (default: all)")
-  .option("-y, --year <n>",    "Tax year to stamp on templates", "2024")
+  .option("-y, --year <n>",    "Tax year to stamp on templates", "2025")
   .parse(process.argv);
 
 const opts = program.opts();

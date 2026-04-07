@@ -31,7 +31,7 @@ program
   .option("-c, --count <n>",       "Global number of unique submissions per form (default: 1)", "1")
   .option("-f, --forms <ids>",     "Forms to fill. Use 'id' or 'id:N' for per-form counts (e.g. f1040:3,fw2:5)")
   .option("-s, --seed <n>",        "Base random seed for reproducible output")
-  .option("-y, --year <n>",        "Tax year", "2024")
+  .option("-y, --year <n>",        "Tax year", "2025")
   .option("-j, --concurrency <n>", "Max parallel operations", "3")
   .option("-m, --merge",           "Merge all generated PDFs into a single bundled PDF")
   .option("--merge-name <name>",   "Output filename for the merged PDF")

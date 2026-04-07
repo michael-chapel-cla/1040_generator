@@ -27,7 +27,7 @@ export interface BatchOptions {
   count?: number;
   /** Base seed. Each submission uses seed + index. Omit for random. */
   baseSeed?: number;
-  /** Tax year for all generated returns. Default: 2024 */
+  /** Tax year for all generated returns. Default: 2025 */
   taxYear?: number;
   /** Max concurrent form-fill operations. Default: 3 */
   concurrency?: number;
@@ -64,7 +64,7 @@ export async function runBatch(opts: BatchOptions = {}): Promise<BatchResult> {
   const {
     count: globalCount = 1,
     baseSeed,
-    taxYear = 2024,
+    taxYear = 2025,
     concurrency = 3,
     forceReanalyze = false,
   } = opts;
