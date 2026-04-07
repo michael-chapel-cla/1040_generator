@@ -3,7 +3,7 @@
   "displayName": "Form 4720",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4720.pdf",
-  "generatedAt": "2026-04-07T00:27:53.445Z",
+  "generatedAt": "2026-04-07T12:45:19.377Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -2206,6 +2206,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3. Excess lobbying expenditures—enter the larger of line 1 or line 2.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "1",
+          "b": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Excess lobbying expenditures—enter the larger of line 1 or line 2."
+      },
       "lineNumber": "3"
     },
     {

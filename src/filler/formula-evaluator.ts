@@ -92,6 +92,46 @@ export function evaluateFormula(
       break;
     }
 
+    case "multiply_two_lines": {
+      const a = lookup(formula.op.multiplicand);
+      const b = lookup(formula.op.multiplier);
+      if (a === null || b === null) return null;
+      result = a * b;
+      break;
+    }
+
+    case "divide_two_lines": {
+      const dividend = lookup(formula.op.dividend);
+      const divisor  = lookup(formula.op.divisor);
+      if (dividend === null || divisor === null) return null;
+      if (divisor === 0) return null;
+      result = dividend / divisor;
+      break;
+    }
+
+    case "divide_const": {
+      const v = lookup(formula.op.operand);
+      if (v === null) return null;
+      if (formula.op.divisor === 0) return null;
+      result = v / formula.op.divisor;
+      break;
+    }
+
+    case "max_two_lines": {
+      const a = lookup(formula.op.a);
+      const b = lookup(formula.op.b);
+      if (a === null || b === null) return null;
+      result = Math.max(a, b);
+      break;
+    }
+
+    case "reference": {
+      const v = lookup(formula.op.source);
+      if (v === null) return null;
+      result = v;
+      break;
+    }
+
     case "unresolved":
       return null;
   }

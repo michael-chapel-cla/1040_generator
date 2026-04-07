@@ -3,7 +3,7 @@
   "displayName": "Form 6765",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f6765.pdf",
-  "generatedAt": "2026-04-07T00:27:48.338Z",
+  "generatedAt": "2026-04-07T12:45:14.246Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -279,6 +279,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "20. Total qualified research expenses (Q R Es). Enter amount from line 48.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "48"
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Total qualified research expenses (Q R Es). Enter amount from line 48."
+      },
       "lineNumber": "20"
     },
     {
@@ -293,6 +301,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "22. Divide line 21 by 6.0.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "21",
+          "divisor": 6
+        },
+        "floorAtZero": false,
+        "rawLabel": "22. Divide line 21 by 6.0."
+      },
       "lineNumber": "22"
     },
     {

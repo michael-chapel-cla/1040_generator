@@ -3,7 +3,7 @@
   "displayName": "Schedule H",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sh.pdf",
-  "generatedAt": "2026-04-07T00:27:42.995Z",
+  "generatedAt": "2026-04-07T12:45:08.778Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -190,6 +190,14 @@
         "Yes",
         "Off"
       ],
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Did you pay total cash wages of $1,000 or more in any calendar quarter of 2024 or 2025 to all household employees? &#xD;(Don’t count cash wages paid in 2024 or 2025 to your spouse, your child under age 21, or your parent.) No. Stop. Include the amount from line 8 above on Schedule 2 (Form 1040), line 9. If you’re not required to file Form 1040, see the line 9 instructions."
+      },
       "lineNumber": "9"
     },
     {
@@ -201,6 +209,14 @@
         "Yes",
         "Off"
       ],
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Did you pay total cash wages of $1,000 or more in any calendar quarter of 2024 or 2025 to all household employees? &#xD;(Don’t count cash wages paid in 2024 or 2025 to your spouse, your child under age 21, or your parent.) No. Stop. Include the amount from line 8 above on Schedule 2 (Form 1040), line 9. If you’re not required to file Form 1040, see the line 9 instructions."
+      },
       "lineNumber": "9"
     },
     {
@@ -530,6 +546,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I I I. Total Household Employment Taxes. 25. Enter the amount from line 8. If you checked the “",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Part I I I. Total Household Employment Taxes. 25. Enter the amount from line 8. If you checked the “"
+      },
       "lineNumber": "25"
     },
     {

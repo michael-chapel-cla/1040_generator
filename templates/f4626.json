@@ -3,7 +3,7 @@
   "displayName": "Form 4626",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4626.pdf",
-  "generatedAt": "2026-04-07T00:27:48.185Z",
+  "generatedAt": "2026-04-07T12:45:14.092Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -1656,6 +1656,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3g. C F C C A M T F T C limitation (multiply line 3e by line 3f).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3e",
+          "multiplier": "3f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3g. C F C C A M T F T C limitation (multiply line 3e by line 3f)."
+      },
       "lineNumber": "3g"
     },
     {

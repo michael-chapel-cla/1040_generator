@@ -3,7 +3,7 @@
   "displayName": "Form 2106",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2106.pdf",
-  "generatedAt": "2026-04-07T00:27:43.130Z",
+  "generatedAt": "2026-04-07T12:45:08.916Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -128,6 +128,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Total expenses. In Column B, enter the amount from line 5. Column: Column B. Meals.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Total expenses. In Column B, enter the amount from line 5. Column: Column B. Meals."
+      },
       "lineNumber": "6"
     },
     {
@@ -179,6 +187,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. In Column A, enter the amount from line 8. In Column B, see the instructions for the amount ",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9. In Column A, enter the amount from line 8. In Column B, see the instructions for the amount "
+      },
       "lineNumber": "9"
     },
     {
@@ -186,6 +202,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9. In Column A, enter the amount from line 8. In Column B, see the instructions for the amount ",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9. In Column A, enter the amount from line 8. In Column B, see the instructions for the amount "
+      },
       "lineNumber": "9"
     },
     {
@@ -275,6 +299,15 @@
       "fieldType": "percentage",
       "labelHint": "Row: 14. Percent of business use. Divide line 13 by line 12. Column: (a) Vehicle 1. %.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "13",
+          "divisor": "12"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 14. Percent of business use. Divide line 13 by line 12. Column: (a) Vehicle 1. %."
+      },
       "lineNumber": "14"
     },
     {
@@ -282,6 +315,15 @@
       "fieldType": "percentage",
       "labelHint": "Row: 14. Percent of business use. Divide line 13 by line 12. Column: (b) Vehicle 2. %.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "13",
+          "divisor": "12"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 14. Percent of business use. Divide line 13 by line 12. Column: (b) Vehicle 2. %."
+      },
       "lineNumber": "14"
     },
     {
@@ -655,6 +697,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Multiply line 30 by line 14 (see instructions if you claimed the section 179 deduction or s",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "30",
+          "multiplier": "14"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 32. Multiply line 30 by line 14 (see instructions if you claimed the section 179 deduction or s"
+      },
       "lineNumber": "32"
     },
     {
@@ -662,6 +713,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Multiply line 30 by line 14 (see instructions if you claimed the section 179 deduction or s",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "30",
+          "multiplier": "14"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 32. Multiply line 30 by line 14 (see instructions if you claimed the section 179 deduction or s"
+      },
       "lineNumber": "32"
     },
     {

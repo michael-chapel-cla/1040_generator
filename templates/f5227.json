@@ -3,7 +3,7 @@
   "displayName": "Form 5227",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5227.pdf",
-  "generatedAt": "2026-04-07T00:27:49.446Z",
+  "generatedAt": "2026-04-07T12:45:15.321Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
@@ -406,6 +406,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "25a. Enter the amount from line 22 allocable to capital gains (losses).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "25a. Enter the amount from line 22 allocable to capital gains (losses)."
+      },
       "lineNumber": "25a"
     },
     {
@@ -429,6 +437,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "26a. Enter the amount from line 22 allocable to nontaxable income.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "26a. Enter the amount from line 22 allocable to nontaxable income."
+      },
       "lineNumber": "26a"
     },
     {

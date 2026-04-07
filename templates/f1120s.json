@@ -3,7 +3,7 @@
   "displayName": "Form 1120-S",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1120s.pdf",
-  "generatedAt": "2026-04-07T00:27:46.498Z",
+  "generatedAt": "2026-04-07T12:45:12.386Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Date_Name_ReadOrder[0].f1_1[0]",
@@ -550,6 +550,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "28. Enter amount from line 27: a. Credited to 2026 estimated tax.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "27"
+        },
+        "floorAtZero": false,
+        "rawLabel": "28. Enter amount from line 27: a. Credited to 2026 estimated tax."
+      },
       "lineNumber": "28a"
     },
     {

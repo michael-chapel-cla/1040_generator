@@ -3,7 +3,7 @@
   "displayName": "Form 8611",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8611.pdf",
-  "generatedAt": "2026-04-07T00:28:00.841Z",
+  "generatedAt": "2026-04-07T12:45:26.859Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -107,6 +107,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "5. Accelerated portion of credit. Multiply line 3 by line 4.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3",
+          "multiplier": "4"
+        },
+        "floorAtZero": false,
+        "rawLabel": "5. Accelerated portion of credit. Multiply line 3 by line 4."
+      },
       "lineNumber": "5"
     },
     {
@@ -142,6 +151,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "9. Enter the unused portion of the accelerated amount from line 7 (see instructions).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Enter the unused portion of the accelerated amount from line 7 (see instructions)."
+      },
       "lineNumber": "9"
     },
     {
@@ -255,7 +272,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "c. Enter the amount from line 11*. (* Line reference is to Form 8609-A (or predecessor, Schedule A (",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "c. Enter the amount from line 11*. (* Line reference is to Form 8609-A (or predecessor, Schedule A ("
+      }
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
@@ -285,7 +310,16 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "h. Divide line 16 by line 15*. Enter the result here. (* Line reference is to Form 8609-A (or predec",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "16",
+          "divisor": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "h. Divide line 16 by line 15*. Enter the result here. (* Line reference is to Form 8609-A (or predec"
+      }
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",

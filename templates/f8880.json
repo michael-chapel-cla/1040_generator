@@ -3,7 +3,7 @@
   "displayName": "Form 8880",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8880.pdf",
-  "generatedAt": "2026-04-07T00:27:44.739Z",
+  "generatedAt": "2026-04-07T12:45:10.579Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -186,6 +186,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "10. Multiply line 7 by line 9.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "7",
+          "multiplier": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Multiply line 7 by line 9."
+      },
       "lineNumber": "10"
     },
     {

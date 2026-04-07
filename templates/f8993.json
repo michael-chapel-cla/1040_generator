@@ -3,7 +3,7 @@
   "displayName": "Form 8993",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8993.pdf",
-  "generatedAt": "2026-04-07T00:27:48.588Z",
+  "generatedAt": "2026-04-07T12:45:14.496Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -581,6 +581,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "21. F D I I (multiply line 8 by line 20).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "8",
+          "multiplier": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "21. F D I I (multiply line 8 by line 20)."
+      },
       "lineNumber": "21"
     },
     {
@@ -636,6 +645,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "26. F D I I reduction (divide line 21 by line 23; multiply by line 25).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "21",
+          "divisor": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "26. F D I I reduction (divide line 21 by line 23; multiply by line 25)."
+      },
       "lineNumber": "26"
     },
     {

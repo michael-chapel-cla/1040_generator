@@ -3,7 +3,7 @@
   "displayName": "Form 8995-A",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8995a.pdf",
-  "generatedAt": "2026-04-07T00:27:45.215Z",
+  "generatedAt": "2026-04-07T12:45:11.071Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -460,6 +460,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Enter the greater of line 5 or line 9. Column: A.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "5",
+          "b": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 10. Enter the greater of line 5 or line 9. Column: A."
+      },
       "lineNumber": "10"
     },
     {
@@ -467,6 +476,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Enter the greater of line 5 or line 9. Column: B.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "5",
+          "b": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 10. Enter the greater of line 5 or line 9. Column: B."
+      },
       "lineNumber": "10"
     },
     {
@@ -474,6 +492,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 10. Enter the greater of line 5 or line 9. Column: C.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "5",
+          "b": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 10. Enter the greater of line 5 or line 9. Column: C."
+      },
       "lineNumber": "10"
     },
     {
@@ -502,6 +529,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Phased-in reduction. Enter the amount from line 26, if any. Column: A.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 12. Phased-in reduction. Enter the amount from line 26, if any. Column: A."
+      },
       "lineNumber": "12"
     },
     {
@@ -509,6 +544,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Phased-in reduction. Enter the amount from line 26, if any. Column: B.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 12. Phased-in reduction. Enter the amount from line 26, if any. Column: B."
+      },
       "lineNumber": "12"
     },
     {
@@ -516,6 +559,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. Phased-in reduction. Enter the amount from line 26, if any. Column: C.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 12. Phased-in reduction. Enter the amount from line 26, if any. Column: C."
+      },
       "lineNumber": "12"
     },
     {
@@ -871,6 +922,15 @@
       "fieldType": "percentage",
       "labelHint": "Row: 24. Phase-in percentage. Divide line 22 by line 23. %.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "22",
+          "divisor": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Phase-in percentage. Divide line 22 by line 23. %."
+      },
       "lineNumber": "24"
     },
     {
@@ -878,6 +938,15 @@
       "fieldType": "percentage",
       "labelHint": "Row: 24. Phase-in percentage. Divide line 22 by line 23. Column: A.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "22",
+          "divisor": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Phase-in percentage. Divide line 22 by line 23. Column: A."
+      },
       "lineNumber": "24"
     },
     {
@@ -885,6 +954,15 @@
       "fieldType": "percentage",
       "labelHint": "Row: 24. Phase-in percentage. Divide line 22 by line 23. Column: B.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "22",
+          "divisor": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Phase-in percentage. Divide line 22 by line 23. Column: B."
+      },
       "lineNumber": "24"
     },
     {
@@ -892,6 +970,15 @@
       "fieldType": "percentage",
       "labelHint": "Row: 24. Phase-in percentage. Divide line 22 by line 23. Column: C.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "22",
+          "divisor": "23"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 24. Phase-in percentage. Divide line 22 by line 23. Column: C."
+      },
       "lineNumber": "24"
     },
     {
@@ -899,6 +986,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Total phase-in reduction. Multiply line 19 by line 24. Column: A.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19",
+          "multiplier": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Total phase-in reduction. Multiply line 19 by line 24. Column: A."
+      },
       "lineNumber": "25"
     },
     {
@@ -906,6 +1002,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Total phase-in reduction. Multiply line 19 by line 24. Column: B.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19",
+          "multiplier": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Total phase-in reduction. Multiply line 19 by line 24. Column: B."
+      },
       "lineNumber": "25"
     },
     {
@@ -913,6 +1018,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Total phase-in reduction. Multiply line 19 by line 24. Column: C.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19",
+          "multiplier": "24"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Total phase-in reduction. Multiply line 19 by line 24. Column: C."
+      },
       "lineNumber": "25"
     },
     {

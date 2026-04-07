@@ -3,7 +3,7 @@
   "displayName": "Form 8839",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8839.pdf",
-  "generatedAt": "2026-04-07T00:27:44.627Z",
+  "generatedAt": "2026-04-07T12:45:10.466Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -503,6 +503,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "13. Refundable adoption credit. Enter the amount from line 11(c) here and on Form 1040, 1040-SR, or ",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. Refundable adoption credit. Enter the amount from line 11(c) here and on Form 1040, 1040-SR, or "
+      },
       "lineNumber": "13"
     },
     {
@@ -551,6 +559,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "17. Enter the amount from line 5 of the Credit Limit Worksheet in the instructions.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Enter the amount from line 5 of the Credit Limit Worksheet in the instructions."
+      },
       "lineNumber": "17"
     },
     {

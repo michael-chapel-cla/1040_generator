@@ -3,7 +3,7 @@
   "displayName": "Form 4797",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4797.pdf",
-  "generatedAt": "2026-04-07T00:27:43.859Z",
+  "generatedAt": "2026-04-07T12:45:09.665Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -510,6 +510,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "12. Gain, if any, from line 7 or amount from line 8, if applicable.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Gain, if any, from line 7 or amount from line 8, if applicable."
+      },
       "lineNumber": "12"
     },
     {
@@ -552,6 +560,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "18. For all except individual returns, enter the amount from line 17 on the appropriate line of your",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "17"
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. For all except individual returns, enter the amount from line 17 on the appropriate line of your"
+      },
       "lineNumber": "18a"
     },
     {

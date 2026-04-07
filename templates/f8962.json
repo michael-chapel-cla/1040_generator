@@ -3,7 +3,7 @@
   "displayName": "Form 8962",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8962.pdf",
-  "generatedAt": "2026-04-07T00:27:45.040Z",
+  "generatedAt": "2026-04-07T12:45:10.888Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -112,6 +112,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "8a. Annual contribution amount. Multiply line 3 by line 7. Round to nearest whole dollar amount.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3",
+          "multiplier": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "8a. Annual contribution amount. Multiply line 3 by line 7. Round to nearest whole dollar amount."
+      },
       "lineNumber": "8a"
     },
     {
@@ -119,6 +128,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "8b. Monthly contribution amount. Divide line 8a by 12. Round to nearest whole dollar amount.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "8a",
+          "divisor": 12
+        },
+        "floorAtZero": false,
+        "rawLabel": "8b. Monthly contribution amount. Divide line 8a by 12. Round to nearest whole dollar amount."
+      },
       "lineNumber": "8b"
     },
     {
@@ -220,6 +238,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 12. January. Column: (c) Monthly contribution amount (amount from line 8b or alternative marria",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 12. January. Column: (c) Monthly contribution amount (amount from line 8b or alternative marria"
+      },
       "lineNumber": "12"
     },
     {
@@ -262,6 +288,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. February. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. February. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri"
+      },
       "lineNumber": "13"
     },
     {
@@ -304,6 +338,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 14. March. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 14. March. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage"
+      },
       "lineNumber": "14"
     },
     {
@@ -346,6 +388,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 15. April. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 15. April. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage"
+      },
       "lineNumber": "15"
     },
     {
@@ -388,6 +438,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 16. May. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage m",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 16. May. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage m"
+      },
       "lineNumber": "16"
     },
     {
@@ -430,6 +488,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 17. June. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage ",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 17. June. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage "
+      },
       "lineNumber": "17"
     },
     {
@@ -472,6 +538,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 18. July. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage ",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 18. July. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriage "
+      },
       "lineNumber": "18"
     },
     {
@@ -514,6 +588,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 19. August. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriag",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 19. August. Column: (c) Monthly contribution amount (amount from line 8b or alternative marriag"
+      },
       "lineNumber": "19"
     },
     {
@@ -556,6 +638,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 20. September. Column: (c) Monthly contribution amount (amount from line 8b or alternative marr",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 20. September. Column: (c) Monthly contribution amount (amount from line 8b or alternative marr"
+      },
       "lineNumber": "20"
     },
     {
@@ -598,6 +688,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. October. Column: (c) Monthly contribution amount (amount from line 8b or alternative marria",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. October. Column: (c) Monthly contribution amount (amount from line 8b or alternative marria"
+      },
       "lineNumber": "21"
     },
     {
@@ -640,6 +738,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22. November. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 22. November. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri"
+      },
       "lineNumber": "22"
     },
     {
@@ -682,6 +788,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23. December. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23. December. Column: (c) Monthly contribution amount (amount from line 8b or alternative marri"
+      },
       "lineNumber": "23"
     },
     {

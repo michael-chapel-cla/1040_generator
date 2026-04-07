@@ -3,7 +3,7 @@
   "displayName": "Form 8615",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8615.pdf",
-  "generatedAt": "2026-04-07T00:27:44.426Z",
+  "generatedAt": "2026-04-07T12:45:10.257Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -239,6 +239,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "12b. Divide line 5 by line 12a. Enter the result as a decimal (rounded to at least three places).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "5",
+          "divisor": "12a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "12b. Divide line 5 by line 12a. Enter the result as a decimal (rounded to at least three places)."
+      },
       "lineNumber": "12b"
     },
     {
@@ -246,6 +255,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "13. Multiply line 11 by line 12b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "11",
+          "multiplier": "12b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. Multiply line 11 by line 12b."
+      },
       "lineNumber": "13"
     },
     {
@@ -311,6 +329,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "18. Enter the larger of line 16 or line 17 here and on the child’s Form 1040 or 1040-N R, line 16. I",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "16",
+          "b": "17"
+        },
+        "floorAtZero": false,
+        "rawLabel": "18. Enter the larger of line 16 or line 17 here and on the child’s Form 1040 or 1040-N R, line 16. I"
+      },
       "lineNumber": "18"
     }
   ]

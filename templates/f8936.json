@@ -3,7 +3,7 @@
   "displayName": "Form 8936",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8936.pdf",
-  "generatedAt": "2026-04-07T00:27:44.807Z",
+  "generatedAt": "2026-04-07T12:45:10.648Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -23,6 +23,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Modified Adjusted Gross Income (M A G I) Amount. 1a. Enter the amount from line 11a of your ",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "11a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Part I. Modified Adjusted Gross Income (M A G I) Amount. 1a. Enter the amount from line 11a of your "
+      },
       "lineNumber": "1a"
     },
     {
@@ -74,6 +82,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "3a. Enter the amount from line 11 of your 2024 Form 1040, 1040-S R, or 1040-N R. Estates and trusts,",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3a. Enter the amount from line 11 of your 2024 Form 1040, 1040-S R, or 1040-N R. Estates and trusts,"
+      },
       "lineNumber": "3a"
     },
     {

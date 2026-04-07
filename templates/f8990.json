@@ -3,7 +3,7 @@
   "displayName": "Form 8990",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8990.pdf",
-  "generatedAt": "2026-04-07T00:27:45.113Z",
+  "generatedAt": "2026-04-07T12:45:10.965Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -199,6 +199,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "40. Divide line 39 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "39",
+          "divisor": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "40. Divide line 39 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers"
+      },
       "lineNumber": "40"
     },
     {
@@ -392,6 +401,15 @@
       "labelHint": "35. Divide line 34 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers",
       "required": false,
       "maxLength": 3,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "34",
+          "divisor": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "35. Divide line 34 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers"
+      },
       "lineNumber": "35"
     },
     {
@@ -406,6 +424,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "36. Excess taxable income. Multiply line 35 by line 22.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "35",
+          "multiplier": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "36. Excess taxable income. Multiply line 35 by line 22."
+      },
       "lineNumber": "36"
     },
     {
@@ -443,6 +470,15 @@
       "labelHint": "40. Divide line 39 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers",
       "required": false,
       "maxLength": 3,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "39",
+          "divisor": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "40. Divide line 39 by line 26. Enter the result as a decimal. (If line 26 is zero, enter 0.) Numbers"
+      },
       "lineNumber": "40"
     },
     {
@@ -457,6 +493,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "41. Excess taxable income. Multiply line 40 by line 22.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "40",
+          "multiplier": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "41. Excess taxable income. Multiply line 40 by line 22."
+      },
       "lineNumber": "41"
     },
     {

@@ -3,7 +3,7 @@
   "displayName": "Form 4684",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4684.pdf",
-  "generatedAt": "2026-04-07T00:27:43.775Z",
+  "generatedAt": "2026-04-07T12:45:09.577Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -1032,6 +1032,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "32. Enter the amount from line 30, column (b)(i i), here. Individuals, enter the amount from income-",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "30"
+        },
+        "floorAtZero": false,
+        "rawLabel": "32. Enter the amount from line 30, column (b)(i i), here. Individuals, enter the amount from income-"
+      },
       "lineNumber": "32"
     },
     {
@@ -1148,6 +1156,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "38b. Enter the amount from line 35, column (b)(i i), here. Individuals, enter the amount from income",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "35"
+        },
+        "floorAtZero": false,
+        "rawLabel": "38b. Enter the amount from line 35, column (b)(i i), here. Individuals, enter the amount from income"
+      },
       "lineNumber": "38b"
     },
     {
@@ -1253,6 +1269,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "47. Multiply line 46 by line 45.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "46",
+          "multiplier": "45"
+        },
+        "floorAtZero": false,
+        "rawLabel": "47. Multiply line 46 by line 45."
+      },
       "lineNumber": "47"
     },
     {

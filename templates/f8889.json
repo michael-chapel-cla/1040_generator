@@ -3,7 +3,7 @@
   "displayName": "Form 8889",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8889.pdf",
-  "generatedAt": "2026-04-07T00:27:44.773Z",
+  "generatedAt": "2026-04-07T12:45:10.614Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -82,6 +82,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "6. Enter the amount from line 5. But if you and your spouse each have separate H S As and had family",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. Enter the amount from line 5. But if you and your spouse each have separate H S As and had family"
+      },
       "lineNumber": "6"
     },
     {

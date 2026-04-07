@@ -7,9 +7,14 @@ export type FormulaOp =
   | { kind: "add_list";             operands: string[] }
   | { kind: "subtract";             minuend: string; subtrahend: string }
   | { kind: "multiply";             operand: string; factor: number }
+  | { kind: "multiply_two_lines";   multiplicand: string; multiplier: string }
+  | { kind: "divide_two_lines";     dividend: string; divisor: string }
+  | { kind: "divide_const";         operand: string; divisor: number }
   | { kind: "min_line_const";       operand: string; constant: number }
   | { kind: "min_two_lines";        a: string; b: string }
+  | { kind: "max_two_lines";        a: string; b: string }
   | { kind: "conditional_subtract"; condA: string; condB: string; minuend: string; subtrahend: string }
+  | { kind: "reference";            source: string }
   | { kind: "unresolved" };
 
 export interface FieldFormula {

@@ -3,7 +3,7 @@
   "displayName": "Form 8829",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8829.pdf",
-  "generatedAt": "2026-04-07T00:27:44.539Z",
+  "generatedAt": "2026-04-07T12:45:10.376Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -37,6 +37,15 @@
       "fieldType": "percentage",
       "labelHint": "3. Divide line 1 by line 2. Enter the result as a percentage. %.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "1",
+          "divisor": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3. Divide line 1 by line 2. Enter the result as a percentage. %."
+      },
       "lineNumber": "3"
     },
     {
@@ -57,6 +66,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "6. Divide line 4 by line 5. Enter the result as a decimal amount. Numbers after the decimal.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "4",
+          "divisor": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6. Divide line 4 by line 5. Enter the result as a decimal amount. Numbers after the decimal."
+      },
       "lineNumber": "6"
     },
     {
@@ -495,6 +513,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "40. Business basis of building. Multiply line 39 by line 7.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "39",
+          "multiplier": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "40. Business basis of building. Multiply line 39 by line 7."
+      },
       "lineNumber": "40"
     },
     {
@@ -509,6 +536,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "42. Depreciation allowable (see instructions). Multiply line 40 by line 41. Enter here and on line 3",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "40",
+          "multiplier": "41"
+        },
+        "floorAtZero": false,
+        "rawLabel": "42. Depreciation allowable (see instructions). Multiply line 40 by line 41. Enter here and on line 3"
+      },
       "lineNumber": "42"
     },
     {

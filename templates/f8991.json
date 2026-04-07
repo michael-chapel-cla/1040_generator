@@ -3,7 +3,7 @@
   "displayName": "Form 8991",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8991.pdf",
-  "generatedAt": "2026-04-07T00:28:00.201Z",
+  "generatedAt": "2026-04-07T12:45:26.197Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
@@ -338,6 +338,15 @@
       "fieldType": "percentage",
       "labelHint": "2o. Base erosion percentage. Divide line 2a by line 2n. %.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "2a",
+          "divisor": "2n"
+        },
+        "floorAtZero": false,
+        "rawLabel": "2o. Base erosion percentage. Divide line 2a by line 2n. %."
+      },
       "lineNumber": "2o"
     },
     {
@@ -438,6 +447,15 @@
       "labelHint": "5c. Base erosion minimum tax. Multiply line 5a by line 5b.",
       "required": false,
       "maxLength": 13,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "5a",
+          "multiplier": "5b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "5c. Base erosion minimum tax. Multiply line 5a by line 5b."
+      },
       "lineNumber": "5c"
     },
     {

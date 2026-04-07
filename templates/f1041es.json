@@ -3,7 +3,7 @@
   "displayName": "Form 1041-ES",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1041es.pdf",
-  "generatedAt": "2026-04-07T00:27:49.120Z",
+  "generatedAt": "2026-04-07T12:45:15.005Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
@@ -167,6 +167,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11. Enter the larger of line 10a or line 10c.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "10a",
+          "b": "10c"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Enter the larger of line 10a or line 10c."
+      },
       "lineNumber": "11"
     },
     {
@@ -187,6 +196,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "14. Enter the amount from line 7.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "14. Enter the amount from line 7."
+      },
       "lineNumber": "14"
     },
     {
@@ -216,6 +233,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "17. Enter the amount from line 15. If line 15 is blank, enter 0.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "15"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. Enter the amount from line 15. If line 15 is blank, enter 0."
+      },
       "lineNumber": "17"
     },
     {
@@ -321,6 +346,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "24. Enter the amount from line 16.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "16"
+        },
+        "floorAtZero": false,
+        "rawLabel": "24. Enter the amount from line 16."
+      },
       "lineNumber": "24"
     },
     {
@@ -402,6 +435,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "30. Enter the amount from line 1.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "1"
+        },
+        "floorAtZero": false,
+        "rawLabel": "30. Enter the amount from line 1."
+      },
       "lineNumber": "30"
     },
     {

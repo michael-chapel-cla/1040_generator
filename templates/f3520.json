@@ -3,7 +3,7 @@
   "displayName": "Form 3520",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3520.pdf",
-  "generatedAt": "2026-04-07T00:27:58.539Z",
+  "generatedAt": "2026-04-07T12:45:24.521Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -3130,6 +3130,15 @@
       "fieldType": "tax_year",
       "labelHint": "35. Average distribution. Divide line 34 by 3.0 (or the number of years the trust has been a foreign",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "34",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "35. Average distribution. Divide line 34 by 3.0 (or the number of years the trust has been a foreign"
+      },
       "lineNumber": "35"
     },
     {
@@ -3160,6 +3169,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "38. Applicable number of years of trust. Divide line 32 by 2.0 and enter the result here.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "32",
+          "divisor": 2
+        },
+        "floorAtZero": false,
+        "rawLabel": "38. Applicable number of years of trust. Divide line 32 by 2.0 and enter the result here."
+      },
       "lineNumber": "38"
     },
     {
@@ -3257,6 +3275,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "47. Applicable number of years of trust. Divide line 46 by line 45 and enter the result here.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "46",
+          "divisor": "45"
+        },
+        "floorAtZero": false,
+        "rawLabel": "47. Applicable number of years of trust. Divide line 46 by line 45 and enter the result here."
+      },
       "lineNumber": "47"
     },
     {

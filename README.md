@@ -335,15 +335,37 @@ Filling uses a two-pass approach:
 | `add_list` | "Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7a, and 8" |
 | `subtract` | "Subtract line 10 from line 9" |
 | `multiply` | "Multiply line 2 by 7.5% (0.075)" |
+| `multiply_two_lines` | "Multiply line 3c by line 3f" |
+| `divide_two_lines` | "Divide line 3d by line 3e" |
+| `divide_const` | "Divide line 7 by 3.0" |
 | `min_line_const` | "Enter the smaller of line 5d or $40,000" |
 | `min_two_lines` | "Enter the smaller of line 6 or line 9" |
+| `max_two_lines` | "Enter the larger of line 10a or line 10c" |
 | `conditional_subtract` | "If line 33 is more than line 24, subtract line 24 from line 33" |
+| `reference` | "Amount from line 11a" |
 
 Pass 2 retries up to 3 times to handle dependency chains (e.g. line 15 depends on 11b which depends on 11a).
 
 ### Formula Resolution
 
-Across the 20 most common forms, the system detects **89 calculated fields** with a **92% resolution rate** from XFA labels alone. Unresolvable formulas (where a referenced line number can't be found in the template) fall back to faker-generated values with a warning logged.
+Across all 173 forms, the system detects **1,435 calculated fields** with a **100% resolution rate** — every formula is classified and evaluable. The 12 supported formula types cover the full range of IRS calculation patterns found in the form library:
+
+| Formula type | Example label |
+|---|---|
+| `add_range` | "Add lines 1a through 1h" |
+| `add_list` | "Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7a, and 8" |
+| `subtract` | "Subtract line 10 from line 9" |
+| `multiply` | "Multiply line 2 by 7.5% (0.075)" |
+| `multiply_two_lines` | "Multiply line 3c by line 3f" |
+| `divide_two_lines` | "Divide line 3d by line 3e" |
+| `divide_const` | "Divide line 7 by 3.0" |
+| `min_line_const` | "Enter the smaller of line 5d or $40,000" |
+| `min_two_lines` | "Enter the smaller of line 6 or line 9" |
+| `max_two_lines` | "Enter the larger of line 10a or line 10c" |
+| `conditional_subtract` | "If line 33 is more than line 24, subtract line 24 from line 33" |
+| `reference` | "Amount from line 11a" |
+
+Unresolvable formulas (where a referenced line number can't be found in the template) fall back to faker-generated values with a warning logged.
 
 ---
 
@@ -459,7 +481,7 @@ Each analyzed form produces a JSON template at `templates/{formId}.json`:
 
 **Field types:** `first_name`, `last_name`, `full_name`, `ssn`, `ein`, `employer_ein`, `payer_tin`, `itin`, `ptin`, `ip_pin`, `street_address`, `city`, `state`, `zip_code`, `country`, `date`, `tax_year`, `dollar_amount`, `percentage`, `shares`, `phone_number`, `email`, `routing_number`, `account_number`, `filing_status`, `occupation`, `dependent_name`, `dependent_ssn`, `relationship`, `employer_name`, `payer_name`, `entity_name`, `business_name`, `checkbox`, `radio`, `signature`, `generic_number`, `generic_text`
 
-**Formula types:** `add_range`, `add_list`, `subtract`, `multiply`, `min_line_const`, `min_two_lines`, `conditional_subtract`
+**Formula types:** `add_range`, `add_list`, `subtract`, `multiply`, `multiply_two_lines`, `divide_two_lines`, `divide_const`, `min_line_const`, `min_two_lines`, `max_two_lines`, `conditional_subtract`, `reference`
 
 ---
 

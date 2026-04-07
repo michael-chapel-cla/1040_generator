@@ -3,7 +3,7 @@
   "displayName": "Form W-4",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
-  "generatedAt": "2026-04-07T00:27:55.033Z",
+  "generatedAt": "2026-04-07T12:45:21.007Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Step1a[0].f1_01[0]",
@@ -353,6 +353,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "10. If line 9 is greater than line 8b, enter the amount from line 7. Otherwise, multiply line 7 by 9",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. If line 9 is greater than line 8b, enter the amount from line 7. Otherwise, multiply line 7 by 9"
+      },
       "lineNumber": "10"
     },
     {

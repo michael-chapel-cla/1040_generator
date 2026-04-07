@@ -3,7 +3,7 @@
   "displayName": "Form 6251",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f6251.pdf",
-  "generatedAt": "2026-04-07T00:27:44.170Z",
+  "generatedAt": "2026-04-07T12:45:09.985Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -273,6 +273,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "13. Enter the amount from line 4 of the Qualified Dividends and Capital Gain Tax Worksheet in the In",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "4"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13. Enter the amount from line 4 of the Qualified Dividends and Capital Gain Tax Worksheet in the In"
+      },
       "lineNumber": "13"
     },
     {
@@ -340,6 +348,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "20. Enter the amount from line 5 of the Qualified Dividends and Capital Gain Tax Worksheet or the am",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Enter the amount from line 5 of the Qualified Dividends and Capital Gain Tax Worksheet or the am"
+      },
       "lineNumber": "20"
     },
     {
@@ -418,6 +434,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "26. Enter the amount from line 21.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "21"
+        },
+        "floorAtZero": false,
+        "rawLabel": "26. Enter the amount from line 21."
+      },
       "lineNumber": "26"
     },
     {
@@ -425,6 +449,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "27. Enter the amount from line 5 of the Qualified Dividends and Capital Gain Tax Worksheet or the am",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "27. Enter the amount from line 5 of the Qualified Dividends and Capital Gain Tax Worksheet or the am"
+      },
       "lineNumber": "27"
     },
     {

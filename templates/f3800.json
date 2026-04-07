@@ -3,7 +3,7 @@
   "displayName": "Form 3800",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3800.pdf",
-  "generatedAt": "2026-04-07T00:27:47.812Z",
+  "generatedAt": "2026-04-07T12:45:13.714Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -242,6 +242,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "15. Enter the greater of line 13 or line 14.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "13",
+          "b": "14"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Enter the greater of line 13 or line 14."
+      },
       "lineNumber": "15"
     },
     {
@@ -287,6 +296,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "19. Enter the greater of line 13 or line 18.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "13",
+          "b": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19. Enter the greater of line 13 or line 18."
+      },
       "lineNumber": "19"
     },
     {

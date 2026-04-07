@@ -3,7 +3,7 @@
   "displayName": "Form 3468",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3468.pdf",
-  "generatedAt": "2026-04-07T00:27:48.825Z",
+  "generatedAt": "2026-04-07T12:45:14.729Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -787,6 +787,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1c. Multiply line 1a by line 1b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1c. Multiply line 1a by line 1b."
+      },
       "lineNumber": "1c"
     },
     {
@@ -940,6 +949,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1c. Multiply line 1a by line 1b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1c. Multiply line 1a by line 1b."
+      },
       "lineNumber": "1c"
     },
     {
@@ -954,6 +972,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1e. Multiply line 1a by line 1d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1e. Multiply line 1a by line 1d."
+      },
       "lineNumber": "1e"
     },
     {
@@ -968,6 +995,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1g. Multiply line 1a by line 1f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1g. Multiply line 1a by line 1f."
+      },
       "lineNumber": "1g"
     },
     {
@@ -1003,6 +1039,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1l. Multiply line 1h by line 1k.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1h",
+          "multiplier": "1k"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1l. Multiply line 1h by line 1k."
+      },
       "lineNumber": "1l"
     },
     {
@@ -1010,6 +1055,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1m. Multiply line 1a by line 1l.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1l"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1m. Multiply line 1a by line 1l."
+      },
       "lineNumber": "1m"
     },
     {
@@ -1058,6 +1112,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3c. Multiply line 3a by line 3b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3c. Multiply line 3a by line 3b."
+      },
       "lineNumber": "3c"
     },
     {
@@ -1072,6 +1135,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3e. Multiply line 3a by line 3d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3e. Multiply line 3a by line 3d."
+      },
       "lineNumber": "3e"
     },
     {
@@ -1086,6 +1158,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3g. Multiply line 3a by line 3f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3g. Multiply line 3a by line 3f."
+      },
       "lineNumber": "3g"
     },
     {
@@ -1174,6 +1255,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "6b. Multiply line 5 by line 6a.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "5",
+          "multiplier": "6a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "6b. Multiply line 5 by line 6a."
+      },
       "lineNumber": "6b"
     },
     {
@@ -1289,6 +1379,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1c. Multiply line 1a by line 1b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1c. Multiply line 1a by line 1b."
+      },
       "lineNumber": "1c"
     },
     {
@@ -1303,6 +1402,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1e. Multiply line 1a by line 1d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1e. Multiply line 1a by line 1d."
+      },
       "lineNumber": "1e"
     },
     {
@@ -1317,6 +1425,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "1g. Multiply line 1a by line 1f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1a",
+          "multiplier": "1f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "1g. Multiply line 1a by line 1f."
+      },
       "lineNumber": "1g"
     },
     {
@@ -1357,6 +1474,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3c. Multiply line 3a by line 3b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3c. Multiply line 3a by line 3b."
+      },
       "lineNumber": "3c"
     },
     {
@@ -1377,6 +1503,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3f. If the entry on Part I, line 12a(i), equals the entry on line 3e, multiply line 3a by line 3d an",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3f. If the entry on Part I, line 12a(i), equals the entry on line 3e, multiply line 3a by line 3d an"
+      },
       "lineNumber": "3f"
     },
     {
@@ -1391,6 +1526,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3h. Multiply line 3d by line 3g.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3d",
+          "multiplier": "3g"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3h. Multiply line 3d by line 3g."
+      },
       "lineNumber": "3h"
     },
     {
@@ -1398,6 +1542,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3i. Multiply line 3a by line 3h.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3h"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3i. Multiply line 3a by line 3h."
+      },
       "lineNumber": "3i"
     },
     {
@@ -1405,6 +1558,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "3j. If Part I, line 12a(i), is more than the entry on line 3e, enter the amount from line 3i. Otherw",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "3i"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3j. If Part I, line 12a(i), is more than the entry on line 3e, enter the amount from line 3i. Otherw"
+      },
       "lineNumber": "3j"
     },
     {
@@ -1419,6 +1580,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3l. Multiply line 3a by line 3k.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3k"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3l. Multiply line 3a by line 3k."
+      },
       "lineNumber": "3l"
     },
     {
@@ -1433,6 +1603,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "3n. Multiply line 3a by line 3m.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3a",
+          "multiplier": "3m"
+        },
+        "floorAtZero": false,
+        "rawLabel": "3n. Multiply line 3a by line 3m."
+      },
       "lineNumber": "3n"
     },
     {
@@ -1527,6 +1706,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "5h. Multiply line 5f by line 5g.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "5f",
+          "multiplier": "5g"
+        },
+        "floorAtZero": false,
+        "rawLabel": "5h. Multiply line 5f by line 5g."
+      },
       "lineNumber": "5h"
     },
     {
@@ -1541,6 +1729,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "5j. Multiply line 5f by line 5i.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "5f",
+          "multiplier": "5i"
+        },
+        "floorAtZero": false,
+        "rawLabel": "5j. Multiply line 5f by line 5i."
+      },
       "lineNumber": "5j"
     },
     {
@@ -1562,6 +1759,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "5m. Multiply line 5f by line 5l.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "5f",
+          "multiplier": "5l"
+        },
+        "floorAtZero": false,
+        "rawLabel": "5m. Multiply line 5f by line 5l."
+      },
       "lineNumber": "5m"
     },
     {
@@ -1650,6 +1856,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "7c. Multiply line 7a by line 7b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "7a",
+          "multiplier": "7b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7c. Multiply line 7a by line 7b."
+      },
       "lineNumber": "7c"
     },
     {
@@ -1664,6 +1879,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "7e. Multiply line 7a by line 7d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "7a",
+          "multiplier": "7d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7e. Multiply line 7a by line 7d."
+      },
       "lineNumber": "7e"
     },
     {
@@ -1685,6 +1909,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "7h. Multiply line 7a by line 7g.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "7a",
+          "multiplier": "7g"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7h. Multiply line 7a by line 7g."
+      },
       "lineNumber": "7h"
     },
     {
@@ -1769,6 +2002,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "9c. Multiply line 9a by line 9b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "9a",
+          "multiplier": "9b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9c. Multiply line 9a by line 9b."
+      },
       "lineNumber": "9c"
     },
     {
@@ -1783,6 +2025,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "9e. Multiply line 9c by line 9d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "9c",
+          "multiplier": "9d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9e. Multiply line 9c by line 9d."
+      },
       "lineNumber": "9e"
     },
     {
@@ -1797,6 +2048,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "9g. Multiply line 9c by line 9f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "9c",
+          "multiplier": "9f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9g. Multiply line 9c by line 9f."
+      },
       "lineNumber": "9g"
     },
     {
@@ -1811,6 +2071,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "9i. Multiply line 9c by line 9h.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "9c",
+          "multiplier": "9h"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9i. Multiply line 9c by line 9h."
+      },
       "lineNumber": "9i"
     },
     {
@@ -1872,6 +2141,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11f. Multiply line 11d by line 11e.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "11d",
+          "multiplier": "11e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11f. Multiply line 11d by line 11e."
+      },
       "lineNumber": "11f"
     },
     {
@@ -1893,6 +2171,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11i. If the entry on Part I, line 12b, equals the entry on line 11h, multiply line 11d by line 11g a",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "11d",
+          "multiplier": "11g"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11i. If the entry on Part I, line 12b, equals the entry on line 11h, multiply line 11d by line 11g a"
+      },
       "lineNumber": "11i"
     },
     {
@@ -1907,6 +2194,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11k. Multiply line 11g by line 11j.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "11g",
+          "multiplier": "11j"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11k. Multiply line 11g by line 11j."
+      },
       "lineNumber": "11k"
     },
     {
@@ -1914,6 +2210,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11l. Multiply line 11d by line 11k.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "11d",
+          "multiplier": "11k"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11l. Multiply line 11d by line 11k."
+      },
       "lineNumber": "11l"
     },
     {
@@ -1921,6 +2226,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "11m. If Part I, line 12b, is more than the entry on line 11h, enter the amount from line 11l. Otherw",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "11l"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11m. If Part I, line 12b, is more than the entry on line 11h, enter the amount from line 11l. Otherw"
+      },
       "lineNumber": "11m"
     },
     {
@@ -1935,6 +2248,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11o. Multiply line 11d by line 11n.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "11d",
+          "multiplier": "11n"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11o. Multiply line 11d by line 11n."
+      },
       "lineNumber": "11o"
     },
     {
@@ -1949,6 +2271,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11q. Multiply line 11d by line 11p.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "11d",
+          "multiplier": "11p"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11q. Multiply line 11d by line 11p."
+      },
       "lineNumber": "11q"
     },
     {
@@ -1990,6 +2321,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "13c. Multiply line 13a by line 13b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "13a",
+          "multiplier": "13b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13c. Multiply line 13a by line 13b."
+      },
       "lineNumber": "13c"
     },
     {
@@ -2004,6 +2344,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "13e. Multiply line 13a by line 13d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "13a",
+          "multiplier": "13d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13e. Multiply line 13a by line 13d."
+      },
       "lineNumber": "13e"
     },
     {
@@ -2018,6 +2367,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "13g. Multiply line 13a by line 13f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "13a",
+          "multiplier": "13f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "13g. Multiply line 13a by line 13f."
+      },
       "lineNumber": "13g"
     },
     {
@@ -2058,6 +2416,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "15c. Multiply line 15a by line 15b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "15a",
+          "multiplier": "15b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15c. Multiply line 15a by line 15b."
+      },
       "lineNumber": "15c"
     },
     {
@@ -2072,6 +2439,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "15e. Multiply line 15a by line 15d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "15a",
+          "multiplier": "15d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15e. Multiply line 15a by line 15d."
+      },
       "lineNumber": "15e"
     },
     {
@@ -2086,6 +2462,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "15g. Multiply line 15a by line 15f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "15a",
+          "multiplier": "15f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15g. Multiply line 15a by line 15f."
+      },
       "lineNumber": "15g"
     },
     {
@@ -2126,6 +2511,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "17c. Multiply line 17a by line 17b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "17a",
+          "multiplier": "17b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17c. Multiply line 17a by line 17b."
+      },
       "lineNumber": "17c"
     },
     {
@@ -2160,6 +2554,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "17h. Multiply line 17d by line 17g.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "17d",
+          "multiplier": "17g"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17h. Multiply line 17d by line 17g."
+      },
       "lineNumber": "17h"
     },
     {
@@ -2167,6 +2570,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "17i. Multiply line 17a by line 17h.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "17a",
+          "multiplier": "17h"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17i. Multiply line 17a by line 17h."
+      },
       "lineNumber": "17i"
     },
     {
@@ -2188,6 +2600,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "17l. Multiply line 17a by line 17k.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "17a",
+          "multiplier": "17k"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17l. Multiply line 17a by line 17k."
+      },
       "lineNumber": "17l"
     },
     {
@@ -2202,6 +2623,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "17n. Multiply line 17a by line 17m.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "17a",
+          "multiplier": "17m"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17n. Multiply line 17a by line 17m."
+      },
       "lineNumber": "17n"
     },
     {
@@ -2243,6 +2673,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "19c. Multiply line 19a by line 19b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19a",
+          "multiplier": "19b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19c. Multiply line 19a by line 19b."
+      },
       "lineNumber": "19c"
     },
     {
@@ -2257,6 +2696,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "19e. Multiply line 19a by line 19d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19a",
+          "multiplier": "19d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19e. Multiply line 19a by line 19d."
+      },
       "lineNumber": "19e"
     },
     {
@@ -2271,6 +2719,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "19g. Multiply line 19a by line 19f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19a",
+          "multiplier": "19f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19g. Multiply line 19a by line 19f."
+      },
       "lineNumber": "19g"
     },
     {
@@ -2311,6 +2768,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "21c. Multiply line 21a by line 21b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "21a",
+          "multiplier": "21b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "21c. Multiply line 21a by line 21b."
+      },
       "lineNumber": "21c"
     },
     {
@@ -2325,6 +2791,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "21e. Multiply line 21a by line 21d.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "21a",
+          "multiplier": "21d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "21e. Multiply line 21a by line 21d."
+      },
       "lineNumber": "21e"
     },
     {
@@ -2339,6 +2814,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "21g. Multiply line 21a by line 21f.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "21a",
+          "multiplier": "21f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "21g. Multiply line 21a by line 21f."
+      },
       "lineNumber": "21g"
     },
     {
@@ -2379,6 +2863,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "23c. Multiply line 23a by line 23b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "23a",
+          "multiplier": "23b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23c. Multiply line 23a by line 23b."
+      },
       "lineNumber": "23c"
     },
     {
@@ -2399,6 +2892,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "23f. If the entry on Part I, line 12b, equals the entry on line 23e, multiply line 23a by line 23d a",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "23a",
+          "multiplier": "23d"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23f. If the entry on Part I, line 12b, equals the entry on line 23e, multiply line 23a by line 23d a"
+      },
       "lineNumber": "23f"
     },
     {
@@ -2413,6 +2915,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "23h. Multiply line 23d by line 23g.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "23d",
+          "multiplier": "23g"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23h. Multiply line 23d by line 23g."
+      },
       "lineNumber": "23h"
     },
     {
@@ -2420,6 +2931,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "23i. Multiply line 23a by line 23h.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "23a",
+          "multiplier": "23h"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23i. Multiply line 23a by line 23h."
+      },
       "lineNumber": "23i"
     },
     {
@@ -2427,6 +2947,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "23j. If Part I, line 12b, is more than the entry on line 23e, enter the amount from line 23i. Otherw",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "23i"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23j. If Part I, line 12b, is more than the entry on line 23e, enter the amount from line 23i. Otherw"
+      },
       "lineNumber": "23j"
     },
     {
@@ -2441,6 +2969,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "23l. Multiply line 23a by line 23k.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "23a",
+          "multiplier": "23k"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23l. Multiply line 23a by line 23k."
+      },
       "lineNumber": "23l"
     },
     {
@@ -2455,6 +2992,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "23n. Multiply line 23a by line 23m.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "23a",
+          "multiplier": "23m"
+        },
+        "floorAtZero": false,
+        "rawLabel": "23n. Multiply line 23a by line 23m."
+      },
       "lineNumber": "23n"
     },
     {
@@ -2496,6 +3042,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "25c. Multiply line 25a by line 25b.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25a",
+          "multiplier": "25b"
+        },
+        "floorAtZero": false,
+        "rawLabel": "25c. Multiply line 25a by line 25b."
+      },
       "lineNumber": "25c"
     },
     {
@@ -2517,6 +3072,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "25f. Multiply line 25d by line 25e.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25d",
+          "multiplier": "25e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "25f. Multiply line 25d by line 25e."
+      },
       "lineNumber": "25f"
     },
     {
@@ -2538,6 +3102,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "25i. Multiply line 25g by line 25h.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25g",
+          "multiplier": "25h"
+        },
+        "floorAtZero": false,
+        "rawLabel": "25i. Multiply line 25g by line 25h."
+      },
       "lineNumber": "25i"
     },
     {
@@ -2559,6 +3132,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "25l. Multiply line 25j by line 25k.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25j",
+          "multiplier": "25k"
+        },
+        "floorAtZero": false,
+        "rawLabel": "25l. Multiply line 25j by line 25k."
+      },
       "lineNumber": "25l"
     },
     {
@@ -2599,6 +3181,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "28b. Multiply line 27 by line 28a.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "27",
+          "multiplier": "28a"
+        },
+        "floorAtZero": false,
+        "rawLabel": "28b. Multiply line 27 by line 28a."
+      },
       "lineNumber": "28b"
     },
     {
@@ -2654,6 +3245,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "29. If proceeds of tax-exempt bonds were used to finance your facility, enter the amount from line 2",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "29. If proceeds of tax-exempt bonds were used to finance your facility, enter the amount from line 2"
+      },
       "lineNumber": "29"
     },
     {

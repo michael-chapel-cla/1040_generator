@@ -3,7 +3,7 @@
   "displayName": "Form 2555",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2555.pdf",
-  "generatedAt": "2026-04-07T00:27:43.435Z",
+  "generatedAt": "2026-04-07T12:45:09.227Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -1023,6 +1023,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Page 3. Part V. All Taxpayers. 27. Enter the amount from line 26.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Page 3. Part V. All Taxpayers. 27. Enter the amount from line 26."
+      },
       "lineNumber": "27"
     },
     {
@@ -1124,6 +1132,15 @@
       "labelHint": "35. Divide line 34 by line 27. Enter the result as a decimal (rounded to at least three places), but",
       "required": false,
       "maxLength": 1,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "34",
+          "divisor": "27"
+        },
+        "floorAtZero": false,
+        "rawLabel": "35. Divide line 34 by line 27. Enter the result as a decimal (rounded to at least three places), but"
+      },
       "lineNumber": "35"
     },
     {
@@ -1139,6 +1156,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "36. Housing exclusion. Multiply line 33 by line 35. Enter the result but don't enter more than the a",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "33",
+          "multiplier": "35"
+        },
+        "floorAtZero": false,
+        "rawLabel": "36. Housing exclusion. Multiply line 33 by line 35. Enter the result but don't enter more than the a"
+      },
       "lineNumber": "36"
     },
     {
@@ -1176,6 +1202,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "40. Multiply line 37 by line 39.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "37",
+          "multiplier": "39"
+        },
+        "floorAtZero": false,
+        "rawLabel": "40. Multiply line 37 by line 39."
+      },
       "lineNumber": "40"
     },
     {

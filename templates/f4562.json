@@ -3,7 +3,7 @@
   "displayName": "Form 4562",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4562.pdf",
-  "generatedAt": "2026-04-07T00:27:43.681Z",
+  "generatedAt": "2026-04-07T12:45:09.482Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -123,6 +123,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "7. Listed property. Enter the amount from line 29.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "29"
+        },
+        "floorAtZero": false,
+        "rawLabel": "7. Listed property. Enter the amount from line 29."
+      },
       "lineNumber": "7"
     },
     {
@@ -944,7 +952,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I V. Summary (See instructions.). 21. Listed property. Enter amount from line 28.",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "28"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Page 2. Part I V. Summary (See instructions.). 21. Listed property. Enter amount from line 28."
+      }
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",

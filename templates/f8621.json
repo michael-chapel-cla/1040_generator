@@ -3,7 +3,7 @@
   "displayName": "Form 8621",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8621.pdf",
-  "generatedAt": "2026-04-07T00:27:59.610Z",
+  "generatedAt": "2026-04-07T12:45:25.587Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_1[0]",
@@ -707,6 +707,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "15c. Divide line 15b by 3.0. (See instructions if the number of preceding tax years is less than 3.)",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "15b",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "15c. Divide line 15b by 3.0. (See instructions if the number of preceding tax years is less than 3.)"
+      },
       "lineNumber": "15c"
     },
     {

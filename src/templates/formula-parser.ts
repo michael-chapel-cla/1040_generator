@@ -27,6 +27,21 @@ const HYBRID_EXTRA_RE =
 const ADD_LIST_RE =
   /(?:add(?:\s+the\s+amounts\s+in)?|total\s+of)\s+lines?\s+((?:\d+[a-z]*(?:,?\s+(?:and\s+)?)?)+)/i;
 
+const MULTIPLY_TWO_RE =
+  /multiply\s+(?:line\s+)?(\d+[a-z]*)\s+by\s+line\s+(\d+[a-z]*)/i;
+
+const DIVIDE_TWO_RE =
+  /divide\s+(?:line\s+)?(\d+[a-z]*)\s+by\s+line\s+(\d+[a-z]*)/i;
+
+const DIVIDE_CONST_RE =
+  /divide\s+(?:line\s+)?(\d+[a-z]*)\s+by\s+([\d,]+\.?\d*)/i;
+
+const MAX_TWO_RE =
+  /(?:enter\s+)?the\s+(?:larger|greater)\s+of\s+(?:line\s+)?(\d+[a-z]*)\s+(?:and|or)\s+(?:line\s+)?(\d+[a-z]*)/i;
+
+const REFERENCE_RE =
+  /amount\s+from\s+line\s+(\d+[a-z]*)/i;
+
 const LINE_TOKEN_RE = /\d+[a-z]*/gi;
 
 const FLOOR_ZERO_RE = /if\s+zero\s+or\s+less,?\s+enter[\s\-–]+0/i;
@@ -82,14 +97,38 @@ export function parseFormula(label: string): FieldFormula | undefined {
     });
   }
 
-  // 4. Multiply by percentage
+  // 4. Multiply line by line (before multiply-by-pct so "by line N" wins)
+  const mulTwoM = MULTIPLY_TWO_RE.exec(label);
+  if (mulTwoM) {
+    return make({ kind: "multiply_two_lines", multiplicand: mulTwoM[1], multiplier: mulTwoM[2] });
+  }
+
+  // 5. Multiply by percentage
   const mulM = MULTIPLY_RE.exec(label);
   if (mulM) {
     const pct = parseFloat(mulM[2]);
     return make({ kind: "multiply", operand: mulM[1], factor: pct / 100 });
   }
 
-  // 5. Subtract
+  // 5a. Divide line by line (before divide-by-const so "by line N" wins)
+  const divTwoM = DIVIDE_TWO_RE.exec(label);
+  if (divTwoM) {
+    return make({ kind: "divide_two_lines", dividend: divTwoM[1], divisor: divTwoM[2] });
+  }
+
+  // 5b. Divide line by constant
+  const divConstM = DIVIDE_CONST_RE.exec(label);
+  if (divConstM) {
+    return make({ kind: "divide_const", operand: divConstM[1], divisor: parseConstant(divConstM[2]) });
+  }
+
+  // 5c. Max of two lines
+  const maxTwoM = MAX_TWO_RE.exec(label);
+  if (maxTwoM) {
+    return make({ kind: "max_two_lines", a: maxTwoM[1], b: maxTwoM[2] });
+  }
+
+  // 6. Subtract
   const subM = SUBTRACT_RE.exec(label);
   if (subM) {
     return make({ kind: "subtract", minuend: subM[2], subtrahend: subM[1] });
@@ -109,13 +148,19 @@ export function parseFormula(label: string): FieldFormula | undefined {
     return make({ kind: "add_range", start: rangeM[1], end: rangeM[2] });
   }
 
-  // 7. Add list
+  // 8. Add list
   const listM = ADD_LIST_RE.exec(label);
   if (listM) {
     const operands = tokenizeLines(listM[1]);
     if (operands.length >= 2) {
       return make({ kind: "add_list", operands });
     }
+  }
+
+  // 9. Reference — "Amount from line N" (only when no other calc detected above)
+  const refM = REFERENCE_RE.exec(label);
+  if (refM) {
+    return make({ kind: "reference", source: refM[1] });
   }
 
   return undefined;

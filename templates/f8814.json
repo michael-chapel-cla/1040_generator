@@ -3,7 +3,7 @@
   "displayName": "Form 8814",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8814.pdf",
-  "generatedAt": "2026-04-07T00:27:44.498Z",
+  "generatedAt": "2026-04-07T12:45:10.331Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -138,6 +138,15 @@
       "labelHint": "8. Divide line 3 by line 4. Enter the result as a decimal (rounded to at least three places). Number",
       "required": false,
       "maxLength": 3,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "3",
+          "divisor": "4"
+        },
+        "floorAtZero": false,
+        "rawLabel": "8. Divide line 3 by line 4. Enter the result as a decimal (rounded to at least three places). Number"
+      },
       "lineNumber": "8"
     },
     {
@@ -152,6 +161,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "9. Multiply line 6 by line 7. Enter the result here. See the instructions for where to report this a",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "6",
+          "multiplier": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "9. Multiply line 6 by line 7. Enter the result here. See the instructions for where to report this a"
+      },
       "lineNumber": "9"
     },
     {
@@ -159,6 +177,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "10. Multiply line 6 by line 8. Enter the result here. See the instructions for where to report this ",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "6",
+          "multiplier": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Multiply line 6 by line 8. Enter the result here. See the instructions for where to report this "
+      },
       "lineNumber": "10"
     },
     {

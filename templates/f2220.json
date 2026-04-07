@@ -3,7 +3,7 @@
   "displayName": "Form 2220",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2220.pdf",
-  "generatedAt": "2026-04-07T00:27:47.239Z",
+  "generatedAt": "2026-04-07T12:45:13.127Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -1550,6 +1550,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Divide line 7 by 3.0. Column: (a) First 4 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "7",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Divide line 7 by 3.0. Column: (a) First 4 months."
+      },
       "lineNumber": "8"
     },
     {
@@ -1557,6 +1566,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Divide line 7 by 3.0. Column: (b) First 6 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "7",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Divide line 7 by 3.0. Column: (b) First 6 months."
+      },
       "lineNumber": "8"
     },
     {
@@ -1564,6 +1582,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Divide line 7 by 3.0. Column: (c) First 9 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "7",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Divide line 7 by 3.0. Column: (c) First 9 months."
+      },
       "lineNumber": "8"
     },
     {
@@ -1571,6 +1598,15 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 8. Divide line 7 by 3.0. Column: (d) Entire year.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "7",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Divide line 7 by 3.0. Column: (d) Entire year."
+      },
       "lineNumber": "8"
     },
     {
@@ -1578,6 +1614,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9a. Divide line 2 by line 8. Column: (a) First 4 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "2",
+          "divisor": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9a. Divide line 2 by line 8. Column: (a) First 4 months."
+      },
       "lineNumber": "9a"
     },
     {
@@ -1585,6 +1630,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9a. Divide line 2 by line 8. Column: (b) First 6 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "2",
+          "divisor": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9a. Divide line 2 by line 8. Column: (b) First 6 months."
+      },
       "lineNumber": "9a"
     },
     {
@@ -1592,6 +1646,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 9a. Divide line 2 by line 8. Column: (c) First 9 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "2",
+          "divisor": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9a. Divide line 2 by line 8. Column: (c) First 9 months."
+      },
       "lineNumber": "9a"
     },
     {
@@ -1599,6 +1662,15 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 9a. Divide line 2 by line 8. Column: (d) Entire year.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "2",
+          "divisor": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 9a. Divide line 2 by line 8. Column: (d) Entire year."
+      },
       "lineNumber": "9a"
     },
     {
@@ -1882,6 +1954,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Divide line 12 by 3.0. Column: (a) First 4 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "12",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Divide line 12 by 3.0. Column: (a) First 4 months."
+      },
       "lineNumber": "13"
     },
     {
@@ -1889,6 +1970,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Divide line 12 by 3.0. Column: (b) First 6 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "12",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Divide line 12 by 3.0. Column: (b) First 6 months."
+      },
       "lineNumber": "13"
     },
     {
@@ -1896,6 +1986,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 13. Divide line 12 by 3.0. Column: (c) First 9 months.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "12",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Divide line 12 by 3.0. Column: (c) First 9 months."
+      },
       "lineNumber": "13"
     },
     {
@@ -1903,6 +2002,15 @@
       "fieldType": "tax_year",
       "labelHint": "Row: 13. Divide line 12 by 3.0. Column: (d) Entire year.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_const",
+          "operand": "12",
+          "divisor": 3
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 13. Divide line 12 by 3.0. Column: (d) Entire year."
+      },
       "lineNumber": "13"
     },
     {
@@ -2237,6 +2345,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (a).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "21",
+          "multiplier": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (a)."
+      },
       "lineNumber": "23a"
     },
     {
@@ -2244,6 +2361,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (b).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "21",
+          "multiplier": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (b)."
+      },
       "lineNumber": "23a"
     },
     {
@@ -2251,6 +2377,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (c).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "21",
+          "multiplier": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (c)."
+      },
       "lineNumber": "23a"
     },
     {
@@ -2258,6 +2393,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (d).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "21",
+          "multiplier": "22"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 23a. Annualized taxable income. Multiply line 21 by line 22. Column: (d)."
+      },
       "lineNumber": "23a"
     },
     {

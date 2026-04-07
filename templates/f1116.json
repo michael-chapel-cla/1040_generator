@@ -3,7 +3,7 @@
   "displayName": "Form 1116",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1116.pdf",
-  "generatedAt": "2026-04-07T00:27:45.370Z",
+  "generatedAt": "2026-04-07T12:45:11.231Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -320,6 +320,15 @@
       "fieldType": "country",
       "labelHint": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. A.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "3d",
+          "divisor": "3e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. A."
+      },
       "lineNumber": "3f"
     },
     {
@@ -327,6 +336,15 @@
       "fieldType": "country",
       "labelHint": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. B.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "3d",
+          "divisor": "3e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. B."
+      },
       "lineNumber": "3f"
     },
     {
@@ -334,6 +352,15 @@
       "fieldType": "country",
       "labelHint": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. C.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "3d",
+          "divisor": "3e"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3f. Divide line 3d by line 3e (see instructions). Column: Foreign Country or U.S. Territory. C."
+      },
       "lineNumber": "3f"
     },
     {
@@ -341,6 +368,15 @@
       "fieldType": "country",
       "labelHint": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. A.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3c",
+          "multiplier": "3f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. A."
+      },
       "lineNumber": "3g"
     },
     {
@@ -348,6 +384,15 @@
       "fieldType": "country",
       "labelHint": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. B.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3c",
+          "multiplier": "3f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. B."
+      },
       "lineNumber": "3g"
     },
     {
@@ -355,6 +400,15 @@
       "fieldType": "country",
       "labelHint": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. C.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "3c",
+          "multiplier": "3f"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3g. Multiply line 3c by line 3f. Column: Foreign Country or U.S. Territory. C."
+      },
       "lineNumber": "3g"
     },
     {
@@ -732,6 +786,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I I. Figuring the Credit. 9. Enter the amount from line 8. These are your total forei",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "8"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Page 2. Part I I I. Figuring the Credit. 9. Enter the amount from line 8. These are your total forei"
+      },
       "lineNumber": "9"
     },
     {
@@ -795,6 +857,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "15. Enter the amount from line 7. This is your taxable income or (loss) from sources outside the Uni",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "15. Enter the amount from line 7. This is your taxable income or (loss) from sources outside the Uni"
+      },
       "lineNumber": "15"
     },
     {
@@ -823,6 +893,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "19. Divide line 17 by line 18. If line 17 is more than line 18, enter “1”.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "17",
+          "divisor": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "19. Divide line 17 by line 18. If line 17 is more than line 18, enter “1”."
+      },
       "lineNumber": "19"
     },
     {
@@ -837,6 +916,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "21. Multiply line 20 by line 19 (maximum amount of credit).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "20",
+          "multiplier": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "21. Multiply line 20 by line 19 (maximum amount of credit)."
+      },
       "lineNumber": "21"
     },
     {

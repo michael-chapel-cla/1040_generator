@@ -3,7 +3,7 @@
   "displayName": "Schedule J",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sj.pdf",
-  "generatedAt": "2026-04-07T00:27:43.026Z",
+  "generatedAt": "2026-04-07T12:45:08.808Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -108,6 +108,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "10. Enter the amount from line 6.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Enter the amount from line 6."
+      },
       "lineNumber": "10"
     },
     {
@@ -136,6 +144,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "14. Enter the amount from line 6.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "6"
+        },
+        "floorAtZero": false,
+        "rawLabel": "14. Enter the amount from line 6."
+      },
       "lineNumber": "14"
     },
     {
@@ -177,6 +193,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. 18. Amount from line 17.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "17"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Page 2. 18. Amount from line 17."
+      },
       "lineNumber": "18"
     },
     {

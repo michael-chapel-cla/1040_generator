@@ -3,7 +3,7 @@
   "displayName": "Form 8606",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8606.pdf",
-  "generatedAt": "2026-04-07T00:27:44.384Z",
+  "generatedAt": "2026-04-07T12:45:10.212Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -154,6 +154,15 @@
       "labelHint": "10. Divide line 5 by line 9. Enter the result as a decimal rounded to at least 3 places. If the resu",
       "required": false,
       "maxLength": 1,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "5",
+          "divisor": "9"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Divide line 5 by line 9. Enter the result as a decimal rounded to at least 3 places. If the resu"
+      },
       "lineNumber": "10"
     },
     {
@@ -168,6 +177,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "11. Multiply line 8 by line 10. This is the nontaxable portion of the amount you converted to Roth I",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "8",
+          "multiplier": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Multiply line 8 by line 10. This is the nontaxable portion of the amount you converted to Roth I"
+      },
       "lineNumber": "11"
     },
     {
@@ -175,6 +193,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "12. Multiply line 7 by line 10. This is the nontaxable portion of your distributions that you did no",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "7",
+          "multiplier": "10"
+        },
+        "floorAtZero": false,
+        "rawLabel": "12. Multiply line 7 by line 10. This is the nontaxable portion of your distributions that you did no"
+      },
       "lineNumber": "12"
     },
     {
@@ -252,6 +279,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "17. If you completed Part I, enter the amount from line 11. Otherwise, enter your basis in the amoun",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "11"
+        },
+        "floorAtZero": false,
+        "rawLabel": "17. If you completed Part I, enter the amount from line 11. Otherwise, enter your basis in the amoun"
+      },
       "lineNumber": "17"
     },
     {

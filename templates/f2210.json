@@ -3,7 +3,7 @@
   "displayName": "Form 2210",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2210.pdf",
-  "generatedAt": "2026-04-07T00:27:43.241Z",
+  "generatedAt": "2026-04-07T12:45:09.026Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -692,6 +692,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (a) 1/1/25–3/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1",
+          "multiplier": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (a) 1/1/25–3/31/25."
+      },
       "lineNumber": "3"
     },
     {
@@ -699,6 +708,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (b) 1/1/25–5/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1",
+          "multiplier": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (b) 1/1/25–5/31/25."
+      },
       "lineNumber": "3"
     },
     {
@@ -706,6 +724,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (c) 1/1/25–8/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1",
+          "multiplier": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (c) 1/1/25–8/31/25."
+      },
       "lineNumber": "3"
     },
     {
@@ -713,6 +740,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (d) 1/1/25–12/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "1",
+          "multiplier": "2"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 3. Annualized income. Multiply line 1 by line 2. Column: (d) 1/1/25–12/31/25."
+      },
       "lineNumber": "3"
     },
     {
@@ -776,6 +812,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (a) 1/1/25–3/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "4",
+          "multiplier": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Multiply line 4 by line 5. Column: (a) 1/1/25–3/31/25."
+      },
       "lineNumber": "6"
     },
     {
@@ -783,6 +828,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (b) 1/1/25–5/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "4",
+          "multiplier": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Multiply line 4 by line 5. Column: (b) 1/1/25–5/31/25."
+      },
       "lineNumber": "6"
     },
     {
@@ -790,6 +844,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (c) 1/1/25–8/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "4",
+          "multiplier": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Multiply line 4 by line 5. Column: (c) 1/1/25–8/31/25."
+      },
       "lineNumber": "6"
     },
     {
@@ -797,6 +860,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 6. Multiply line 4 by line 5. Column: (d) 1/1/25–12/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "4",
+          "multiplier": "5"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 6. Multiply line 4 by line 5. Column: (d) 1/1/25–12/31/25."
+      },
       "lineNumber": "6"
     },
     {
@@ -832,6 +904,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (a) 1/1/25–3/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "6",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the larger of line 6 or line 7. Column: (a) 1/1/25–3/31/25."
+      },
       "lineNumber": "8"
     },
     {
@@ -839,6 +920,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (b) 1/1/25–5/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "6",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the larger of line 6 or line 7. Column: (b) 1/1/25–5/31/25."
+      },
       "lineNumber": "8"
     },
     {
@@ -846,6 +936,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (c) 1/1/25–8/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "6",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the larger of line 6 or line 7. Column: (c) 1/1/25–8/31/25."
+      },
       "lineNumber": "8"
     },
     {
@@ -853,6 +952,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 8. Enter the larger of line 6 or line 7. Column: (d) 1/1/25–12/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "max_two_lines",
+          "a": "6",
+          "b": "7"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 8. Enter the larger of line 6 or line 7. Column: (d) 1/1/25–12/31/25."
+      },
       "lineNumber": "8"
     },
     {
@@ -1344,6 +1452,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (a) 1/1/25–3/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19",
+          "multiplier": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. Multiply line 19 by line 20. Column: (a) 1/1/25–3/31/25."
+      },
       "lineNumber": "21"
     },
     {
@@ -1351,6 +1468,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (b) 1/1/25–5/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19",
+          "multiplier": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. Multiply line 19 by line 20. Column: (b) 1/1/25–5/31/25."
+      },
       "lineNumber": "21"
     },
     {
@@ -1358,6 +1484,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (c) 1/1/25–8/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19",
+          "multiplier": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. Multiply line 19 by line 20. Column: (c) 1/1/25–8/31/25."
+      },
       "lineNumber": "21"
     },
     {
@@ -1365,6 +1500,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 21. Multiply line 19 by line 20. Column: (d) 1/1/25–12/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "19",
+          "multiplier": "20"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 21. Multiply line 19 by line 20. Column: (d) 1/1/25–12/31/25."
+      },
       "lineNumber": "21"
     },
     {
@@ -1922,6 +2066,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (a) 1/1/25–3/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "28",
+          "multiplier": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 35. Multiply line 28 by line 34. Column: (a) 1/1/25–3/31/25."
+      },
       "lineNumber": "35"
     },
     {
@@ -1929,6 +2082,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (b) 1/1/25–5/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "28",
+          "multiplier": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 35. Multiply line 28 by line 34. Column: (b) 1/1/25–5/31/25."
+      },
       "lineNumber": "35"
     },
     {
@@ -1936,6 +2098,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (c) 1/1/25–8/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "28",
+          "multiplier": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 35. Multiply line 28 by line 34. Column: (c) 1/1/25–8/31/25."
+      },
       "lineNumber": "35"
     },
     {
@@ -1943,6 +2114,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 35. Multiply line 28 by line 34. Column: (d) 1/1/25–12/31/25.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "28",
+          "multiplier": "34"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 35. Multiply line 28 by line 34. Column: (d) 1/1/25–12/31/25."
+      },
       "lineNumber": "35"
     },
     {

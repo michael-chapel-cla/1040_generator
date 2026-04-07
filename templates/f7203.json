@@ -3,7 +3,7 @@
   "displayName": "Form 7203",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f7203.pdf",
-  "generatedAt": "2026-04-07T00:27:46.670Z",
+  "generatedAt": "2026-04-07T12:45:12.558Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -324,6 +324,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "11. Allowable loss and deduction items. Enter the amount from line 47, column (c).",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "47"
+        },
+        "floorAtZero": false,
+        "rawLabel": "11. Allowable loss and deduction items. Enter the amount from line 47, column (c)."
+      },
       "lineNumber": "11"
     },
     {
@@ -461,6 +469,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "47"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum"
+      },
       "lineNumber": "30"
     },
     {
@@ -816,6 +832,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (a) Debt 1.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "24",
+          "divisor": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Divide line 24 by line 18. Column: (a) Debt 1."
+      },
       "lineNumber": "25"
     },
     {
@@ -823,6 +848,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (b) Debt 2.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "24",
+          "divisor": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Divide line 24 by line 18. Column: (b) Debt 2."
+      },
       "lineNumber": "25"
     },
     {
@@ -830,6 +864,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (c) Debt 3.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "24",
+          "divisor": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Divide line 24 by line 18. Column: (c) Debt 3."
+      },
       "lineNumber": "25"
     },
     {
@@ -837,6 +880,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 25. Divide line 24 by line 18. Column: (d) Total.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "divide_two_lines",
+          "dividend": "24",
+          "divisor": "18"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 25. Divide line 24 by line 18. Column: (d) Total."
+      },
       "lineNumber": "25"
     },
     {
@@ -844,6 +896,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (a) Debt 1.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25",
+          "multiplier": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (a) Debt 1."
+      },
       "lineNumber": "26"
     },
     {
@@ -851,6 +912,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (b) Debt 2.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25",
+          "multiplier": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (b) Debt 2."
+      },
       "lineNumber": "26"
     },
     {
@@ -858,6 +928,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (c) Debt 3.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25",
+          "multiplier": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (c) Debt 3."
+      },
       "lineNumber": "26"
     },
     {
@@ -865,6 +944,15 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (d) Total.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "multiply_two_lines",
+          "multiplicand": "25",
+          "multiplier": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 26. Nontaxable debt repayment. Multiply line 25 by line 19. Column: (d) Total."
+      },
       "lineNumber": "26"
     },
     {
@@ -1028,6 +1116,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "47"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum"
+      },
       "lineNumber": "30"
     },
     {
@@ -1035,6 +1131,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "47"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum"
+      },
       "lineNumber": "30"
     },
     {
@@ -1042,6 +1146,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "47"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum"
+      },
       "lineNumber": "30"
     },
     {
@@ -1049,6 +1161,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "47"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 30. Allowable losses in excess of stock basis. Enter the amount from line 47, column (d). Colum"
+      },
       "lineNumber": "30"
     },
     {
@@ -1119,13 +1239,29 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line32[0].f2_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section C—Gain on Loan Repayment. Row: 32. Repayment. Enter the amount from line 19. Column: (a) Deb",
-      "required": false
+      "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Section C—Gain on Loan Repayment. Row: 32. Repayment. Enter the amount from line 19. Column: (a) Deb"
+      }
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line32[0].f2_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Repayment. Enter the amount from line 19. Column: (b) Debt 2.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 32. Repayment. Enter the amount from line 19. Column: (b) Debt 2."
+      },
       "lineNumber": "32"
     },
     {
@@ -1133,6 +1269,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Repayment. Enter the amount from line 19. Column: (c) Debt 3.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 32. Repayment. Enter the amount from line 19. Column: (c) Debt 3."
+      },
       "lineNumber": "32"
     },
     {
@@ -1140,6 +1284,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 32. Repayment. Enter the amount from line 19. Column: (d) Total.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "19"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 32. Repayment. Enter the amount from line 19. Column: (d) Total."
+      },
       "lineNumber": "32"
     },
     {
@@ -1147,6 +1299,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (a) Debt 1.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (a) Debt 1."
+      },
       "lineNumber": "33"
     },
     {
@@ -1154,6 +1314,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (b) Debt 2.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (b) Debt 2."
+      },
       "lineNumber": "33"
     },
     {
@@ -1161,6 +1329,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (c) Debt 3.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (c) Debt 3."
+      },
       "lineNumber": "33"
     },
     {
@@ -1168,6 +1344,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (d) Total.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "26"
+        },
+        "floorAtZero": false,
+        "rawLabel": "Row: 33. Nontaxable repayments. Enter the amount from line 26. Column: (d) Total."
+      },
       "lineNumber": "33"
     },
     {

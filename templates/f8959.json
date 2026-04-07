@@ -3,7 +3,7 @@
   "displayName": "Form 8959",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8959.pdf",
-  "generatedAt": "2026-04-07T00:27:44.928Z",
+  "generatedAt": "2026-04-07T12:45:10.773Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -113,6 +113,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "10. Enter the amount from line 4.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "4"
+        },
+        "floorAtZero": false,
+        "rawLabel": "10. Enter the amount from line 4."
+      },
       "lineNumber": "10"
     },
     {
@@ -240,6 +248,14 @@
       "fieldType": "dollar_amount",
       "labelHint": "20. Enter the amount from line 1.",
       "required": false,
+      "formula": {
+        "op": {
+          "kind": "reference",
+          "source": "1"
+        },
+        "floorAtZero": false,
+        "rawLabel": "20. Enter the amount from line 1."
+      },
       "lineNumber": "20"
     },
     {
