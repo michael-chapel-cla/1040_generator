@@ -6,11 +6,18 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
+
     "dev": "ts-node src/main.ts",
+
     "download": "ts-node scripts/download.ts",
     "analyze": "ts-node scripts/analyze.ts",
+
     "fill": "ts-node scripts/fill.ts",
-    "fill:batch": "ts-node scripts/fill.ts --count 5"
+    "fill:batch": "ts-node scripts/fill.ts --count 5",
+    "fill:merge": "ts-node scripts/fill.ts --merge",
+    "fill:common": "ts-node scripts/fill.ts --forms f1040,fw2,f1040sa,f1040sb,f1040sc,f1040sd,f1040se,f1099int,f1099div,fw4",
+
+    "forms": "ts-node --transpile-only -e \"const {FORM_REGISTRY}=require('./src/registry/forms');FORM_REGISTRY.filter((f)=>f.pdfAvailable!==false).forEach((f)=>console.log(f.id.padEnd(16),f.displayName));\""
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",

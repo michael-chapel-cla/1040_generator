@@ -13,8 +13,9 @@ Covers **173 IRS and SSA forms** across 14 categories — from core 1040 returns
 - [Getting Started](#getting-started)
   - [Option A: VS Code Dev Container (recommended)](#option-a-vs-code-dev-container-recommended)
   - [Option B: Local Development](#option-b-local-development)
+- [npm Scripts](#npm-scripts)
 - [Usage](#usage)
-  - [Full Pipeline (download → analyze → fill)](#full-pipeline)
+  - [Full Pipeline](#full-pipeline)
   - [Step-by-Step](#step-by-step)
   - [Fill Specific Forms](#fill-specific-forms)
   - [Per-Form Counts](#per-form-counts)
@@ -22,10 +23,6 @@ Covers **173 IRS and SSA forms** across 14 categories — from core 1040 returns
   - [Batch Generation](#batch-generation)
   - [Merging into One PDF](#merging-into-one-pdf)
 - [CLI Reference](#cli-reference)
-  - [Main Entry Point](#main-entry-point-npm-run-dev)
-  - [scripts/fill.ts](#scriptsfillts)
-  - [scripts/analyze.ts](#scriptsanalyzets)
-  - [scripts/download.ts](#scriptsdownloadts)
 - [How It Works](#how-it-works)
   - [Phase 1 — Download](#phase-1--download)
   - [Phase 2 — Analyze](#phase-2--analyze)
@@ -86,11 +83,40 @@ npm run dev
 
 ---
 
+## npm Scripts
+
+All functionality is available through `npm run` commands. Pass additional flags after `--`.
+
+| Script | Description |
+|---|---|
+| `npm run dev` | Full pipeline: download → analyze → fill all forms (1 submission) |
+| `npm run download` | Download PDFs from IRS/SSA into `/forms/` |
+| `npm run analyze` | Parse PDFs and generate JSON templates in `/templates/` |
+| `npm run fill` | Fill forms with fake data, output to `/output/` |
+| `npm run fill:batch` | Fill all forms with 5 unique submissions |
+| `npm run fill:common` | Fill the 10 most common forms (1040, W-2, Schedules A–SE, 1099s) |
+| `npm run fill:merge` | Fill all forms and merge output into one PDF |
+| `npm run forms` | List all available form IDs and display names |
+| `npm run build` | Compile TypeScript to `/dist/` |
+| `npm run start` | Run the compiled build |
+
+**Passing flags:** append `--` then your flags to any script:
+
+```bash
+npm run fill -- --forms f1040,fw2 --count 3 --seed 42
+npm run fill -- --forms "f1040:3,fw2:5" --merge --merge-name bundle.pdf
+npm run download -- --forms fw2,f1099int
+npm run analyze -- --forms f1040
+npm run dev -- --forms f1040,fw2 --count 5 --seed 99
+```
+
+---
+
 ## Usage
 
 ### Full Pipeline
 
-The simplest way to get filled PDFs. Downloads missing forms, builds templates if needed, then generates one filled submission for every supported form:
+Downloads missing forms, builds templates if needed, then generates one filled submission for every supported form:
 
 ```bash
 npm run dev
@@ -119,42 +145,47 @@ npm run fill
 
 ### Fill Specific Forms
 
-Pass a comma-separated list of form IDs:
+Pass a comma-separated list of form IDs with `--forms`:
 
 ```bash
-npx ts-node scripts/fill.ts --forms f1040,fw2,f1040sa,f1040sb
-
-# Common form IDs:
-#   f1040        Form 1040 (individual income tax return)
-#   fw2          Form W-2 (wages)
-#   fw4          Form W-4 (withholding)
-#   fw9          Form W-9 (request for TIN)
-#   f1040sa      Schedule A (itemized deductions)
-#   f1040sb      Schedule B (interest & dividends)
-#   f1040sc      Schedule C (business income/loss)
-#   f1040sd      Schedule D (capital gains)
-#   f1040se      Schedule E (supplemental income)
-#   f1099int     Form 1099-INT (interest income)
-#   f1099div     Form 1099-DIV (dividends)
-#   f1099nec     Form 1099-NEC (nonemployee compensation)
-#   f1099msc     Form 1099-MISC (miscellaneous)
-#   f1099r       Form 1099-R (retirement distributions)
-#   f1040x       Form 1040-X (amended return)
-#   f1040es      Form 1040-ES (estimated tax)
-#   f2441        Form 2441 (child/dependent care)
-#   f8863        Form 8863 (education credits)
-#   f8949        Form 8949 (capital asset sales)
-#   f1116        Form 1116 (foreign tax credit)
-#   f4868        Form 4868 (extension)
+npm run fill -- --forms f1040,fw2,f1040sa,f1040sb
 ```
 
 To see all available form IDs:
 
 ```bash
-npx ts-node -e "
-import { FORMS } from './src/registry/forms';
-FORMS.filter(f => f.pdfAvailable !== false).forEach(f => console.log(f.id.padEnd(16), f.displayName));
-"
+npm run forms
+```
+
+Common form IDs:
+
+| ID | Form |
+|---|---|
+| `f1040` | Form 1040 — Individual Income Tax Return |
+| `fw2` | Form W-2 — Wages and Tax Statement |
+| `fw4` | Form W-4 — Employee's Withholding Certificate |
+| `fw9` | Form W-9 — Request for Taxpayer Identification |
+| `f1040sa` | Schedule A — Itemized Deductions |
+| `f1040sb` | Schedule B — Interest and Ordinary Dividends |
+| `f1040sc` | Schedule C — Profit or Loss from Business |
+| `f1040sd` | Schedule D — Capital Gains and Losses |
+| `f1040se` | Schedule E — Supplemental Income and Loss |
+| `f1099int` | Form 1099-INT — Interest Income |
+| `f1099div` | Form 1099-DIV — Dividends and Distributions |
+| `f1099nec` | Form 1099-NEC — Nonemployee Compensation |
+| `f1099msc` | Form 1099-MISC — Miscellaneous Information |
+| `f1099r` | Form 1099-R — Retirement Distributions |
+| `f1040x` | Form 1040-X — Amended Return |
+| `f1040es` | Form 1040-ES — Estimated Tax |
+| `f2441` | Form 2441 — Child and Dependent Care |
+| `f8863` | Form 8863 — Education Credits |
+| `f8949` | Form 8949 — Capital Asset Sales |
+| `f4868` | Form 4868 — Extension of Time to File |
+
+Or fill the 10 most common forms in one command:
+
+```bash
+npm run fill:common
 ```
 
 ---
@@ -165,19 +196,14 @@ Append `:N` to any form ID to generate exactly N copies of that form, independen
 
 ```bash
 # 3 copies of 1040, 5 copies of W-2, 1 copy of Schedule A
-npx ts-node scripts/fill.ts --forms "f1040:3,fw2:5,f1040sa:1" --seed 50
-
-# Output:
-#   f1040_seed50_0.pdf   f1040_seed51_1.pdf   f1040_seed52_2.pdf
-#   fw2_seed50_0.pdf     fw2_seed51_1.pdf     fw2_seed52_2.pdf     fw2_seed53_3.pdf  fw2_seed54_4.pdf
-#   f1040sa_seed50.pdf
+npm run fill -- --forms "f1040:3,fw2:5,f1040sa:1" --seed 50
 ```
 
-You can mix per-form counts with undecorated form IDs. Undecorated IDs use the global `--count`:
+Mix per-form counts with plain IDs — plain IDs fall back to the global `--count`:
 
 ```bash
 # f1040 gets 4 copies, fw2 uses global count (2)
-npx ts-node scripts/fill.ts --forms "f1040:4,fw2" --count 2 --seed 10
+npm run fill -- --forms "f1040:4,fw2" --count 2 --seed 10
 ```
 
 ---
@@ -187,25 +213,22 @@ npx ts-node scripts/fill.ts --forms "f1040:4,fw2" --count 2 --seed 10
 Use `--seed` to pin the random data. The same seed always produces identical PDFs:
 
 ```bash
-npx ts-node scripts/fill.ts --forms f1040,fw2 --seed 42
-# Produces: f1040_seed42.pdf, fw2_seed42.pdf — identical on every run
+npm run fill -- --forms f1040,fw2 --seed 42
+# Produces f1040_seed42.pdf and fw2_seed42.pdf — identical on every run
 ```
 
 ---
 
 ### Batch Generation
 
-Generate multiple unique submissions (different taxpayers) per form:
+Generate multiple unique submissions (each with a different taxpayer profile):
 
 ```bash
 # 5 unique submissions for the top 10 forms
-npx ts-node scripts/fill.ts \
-  --forms f1040,fw2,f1040sa,f1040sb,f1040sc,f1040sd,f1040se,f1099int,f1099div,fw4 \
-  --count 5 \
-  --seed 100
+npm run fill:common -- --count 5 --seed 100
 
-# Output: f1040_seed100_0.pdf, f1040_seed101_1.pdf, ..., f1040_seed104_4.pdf
-#         fw2_seed100_0.pdf,   fw2_seed101_1.pdf, ...
+# Or manually specify forms and count
+npm run fill -- --forms f1040,fw2,f1040sa --count 3 --seed 100
 ```
 
 Shortcut for 5 submissions of all forms:
@@ -218,111 +241,50 @@ npm run fill:batch
 
 ### Merging into One PDF
 
-Use `--merge` to combine all generated PDFs into a single multi-page document after filling. Pages are ordered by form ID then submission index.
+Use `--merge` to combine all generated PDFs into a single multi-page document. Pages are ordered by form ID then submission index.
 
 ```bash
-# Fill 3 forms and bundle them into one PDF
-npx ts-node scripts/fill.ts --forms f1040,fw2,f1040sa --seed 77 --merge
-# Output: output/f1040_seed77.pdf  output/fw2_seed77.pdf  output/f1040sa_seed77.pdf
-#         output/merged_2026-04-07T12-00-00.pdf  (all pages combined)
+# Fill and bundle into one PDF
+npm run fill -- --forms f1040,fw2,f1040sa --seed 77 --merge
 
-# Specify a custom name for the merged file
-npx ts-node scripts/fill.ts --forms f1040,fw2 --count 3 --merge --merge-name "taxpayer_bundle.pdf"
+# Give the bundle a specific name
+npm run fill -- --forms f1040,fw2 --count 3 --merge --merge-name taxpayer_bundle.pdf
+
+# Use the fill:merge shortcut (fills all forms, merges output)
+npm run fill:merge
 ```
 
-Combine with per-form counts for a fully custom bundle:
+Combine per-form counts with merge for a fully custom bundle:
 
 ```bash
-npx ts-node scripts/fill.ts \
-  --forms "f1040:2,fw2:3,f1040sa:1,f1099int:2" \
-  --seed 100 \
-  --merge \
-  --merge-name "full_submission.pdf"
+npm run fill -- --forms "f1040:2,fw2:3,f1040sa:1,f1099int:2" --seed 100 --merge --merge-name full_submission.pdf
 ```
 
 ---
 
 ## CLI Reference
 
-### Main Entry Point (`npm run dev`)
-
-```
-npx ts-node src/main.ts [options]
-```
+All flags work the same way on `npm run dev` and `npm run fill`.
 
 | Flag | Default | Description |
-|------|---------|-------------|
+|---|---|---|
 | `-c, --count <n>` | `1` | Global number of unique submissions per form |
-| `-f, --forms <ids>` | all | Forms to fill. Use `id` or `id:N` for per-form counts (e.g. `f1040:3,fw2:5`) |
-| `-s, --seed <n>` | random | Base seed for reproducible output |
-| `-y, --year <n>` | `2024` | Tax year stamped on templates |
-| `-j, --concurrency <n>` | `3` | Max parallel form operations |
-| `-m, --merge` | — | Merge all generated PDFs into a single bundled PDF |
-| `--merge-name <name>` | timestamped | Output filename for the merged PDF |
-| `--download-only` | — | Download PDFs only; skip analyze and fill |
-| `--analyze-only` | — | Download + build templates; skip fill |
-| `--force-reanalyze` | — | Rebuild templates even if they already exist |
-
-**Examples:**
-
-```bash
-npm run dev -- --count 10
-npm run dev -- --forms f1040,fw2 --seed 99 --count 3
-npm run dev -- --forms "f1040:3,fw2:5" --seed 42 --merge
-npm run dev -- --forms "f1040:2,fw2:3" --merge --merge-name "bundle.pdf"
-npm run dev -- --download-only
-npm run dev -- --analyze-only --year 2025
-npm run dev -- --force-reanalyze
-```
-
----
-
-### `scripts/fill.ts`
-
-Fill forms with fake data. Requires forms to already be downloaded and templates to exist.
-
-```
-npx ts-node scripts/fill.ts [options]
-```
-
-| Flag | Default | Description |
-|------|---------|-------------|
-| `-c, --count <n>` | `1` | Global number of submissions per form |
 | `-f, --forms <ids>` | all | Forms to fill. Use `id` or `id:N` for per-form counts |
-| `-s, --seed <n>` | random | Base seed |
+| `-s, --seed <n>` | random | Base seed for reproducible output |
 | `-y, --year <n>` | `2024` | Tax year |
-| `-j, --concurrency <n>` | `3` | Parallel workers |
-| `-m, --merge` | — | Merge all generated PDFs into one bundled PDF |
+| `-j, --concurrency <n>` | `3` | Max parallel operations |
+| `-m, --merge` | off | Merge all generated PDFs into a single bundled PDF |
 | `--merge-name <name>` | timestamped | Output filename for the merged PDF |
+| `--download-only` | off | Download PDFs only; skip analyze and fill |
+| `--analyze-only` | off | Download and build templates; skip fill |
+| `--force-reanalyze` | off | Rebuild templates even if they already exist |
 
----
+`npm run analyze` and `npm run download` accept a subset:
 
-### `scripts/analyze.ts`
-
-Parse downloaded PDFs and write JSON templates to `/templates/`. Re-run this after updating the classifier or formula parser.
-
-```
-npx ts-node scripts/analyze.ts [options]
-```
-
-| Flag | Default | Description |
-|------|---------|-------------|
-| `-f, --forms <ids>` | all | Comma-separated form IDs |
-| `-y, --year <n>` | `2024` | Tax year to stamp on templates |
-
----
-
-### `scripts/download.ts`
-
-Download PDFs from IRS/SSA into `/forms/` (cached in `/cache/`).
-
-```
-npx ts-node scripts/download.ts [options]
-```
-
-| Flag | Default | Description |
-|------|---------|-------------|
-| `-f, --forms <ids>` | all | Comma-separated form IDs to download |
+| Flag | Applies to | Description |
+|---|---|---|
+| `-f, --forms <ids>` | both | Comma-separated form IDs |
+| `-y, --year <n>` | `analyze` | Tax year to stamp on templates |
 
 ---
 
@@ -338,13 +300,13 @@ PDFs are fetched from `https://www.irs.gov/pub/irs-pdf/{slug}.pdf` (and `ssa.gov
 
 ### Phase 2 — Analyze
 
-Each PDF goes through a two-step analysis:
+Each PDF goes through a multi-step analysis:
 
 1. **XFA extraction** — IRS PDFs embed their form structure in a compressed XFA (XML Forms Architecture) stream. Before pdf-lib loads the file (which strips XFA), the raw bytes are scanned for compressed streams. The XFA XML is decompressed with zlib and parsed to extract `<speak>` accessibility labels — the most accurate field descriptions available.
 
 2. **Classification** — each AcroForm field is matched against 50+ regex rules using the XFA label as the primary signal. Fields are classified into semantic types: `first_name`, `last_name`, `ssn`, `dollar_amount`, `date`, `checkbox`, `signature`, etc.
 
-3. **Formula detection** — XFA labels that contain IRS calculation language ("Add lines 1a through 1h", "Subtract line 10 from line 9", "Multiply line 2 by 7.5%") are parsed into typed formula objects and stored in the template.
+3. **Formula detection** — XFA labels containing IRS calculation language ("Add lines 1a through 1h", "Subtract line 10 from line 9", "Multiply line 2 by 7.5%") are parsed into typed formula objects and stored in the template.
 
 4. **Line number indexing** — IRS line numbers (e.g. `1a`, `11b`, `25d`) are extracted from labels using multiple patterns to handle section prefixes, `Row:` prefixes, and `Page N.` prefixes.
 
@@ -354,21 +316,21 @@ Results are saved as JSON templates in `/templates/{formId}.json`.
 
 Filling uses a two-pass approach:
 
-**Pass 1 — Non-calculated fields:** Every field without a formula is resolved using a context-aware resolver. The resolver uses the stored XFA label (`labelHint`) to decide what to fill:
+**Pass 1 — Non-calculated fields:** Every field without a formula is resolved using a context-aware resolver that uses the stored XFA label (`labelHint`) to pick the right value:
 
-| Field type | Resolution example |
-|------------|--------------------|
-| `first_name` | Returns spouse's name if label contains "spouse"; dependent's name if label contains "Dependent N" |
-| `ssn` | Returns spouse SSN or dependent SSN based on label context |
-| `street_address` | Returns employer address if label mentions "employer"; apt number if it mentions "apt" |
-| `dollar_amount` | Maps label keywords (wages, interest, dividends, capital gains) to real taxpayer income totals |
+| Field type | Resolution logic |
+|---|---|
+| `first_name` | Spouse's name if label contains "spouse"; dependent's name if "Dependent N" |
+| `ssn` | Spouse SSN or dependent SSN based on label context |
+| `street_address` | Employer address if label mentions "employer"; apt number if "apt" |
+| `dollar_amount` | Maps label keywords (wages, interest, dividends, capital gains) to taxpayer income totals |
 | `employer_ein` | Returns second W-2's EIN if label says "employer 2" |
 | `checkbox` | Always checked if `required`; 50% probability otherwise |
 
-**Pass 2 — Calculated fields:** Formulas are evaluated against the values filled in Pass 1. The evaluator supports:
+**Pass 2 — Calculated fields:** Formulas are evaluated against the values filled in Pass 1:
 
 | Formula type | Example label |
-|-------------|---------------|
+|---|---|
 | `add_range` | "Add lines 1a through 1h" |
 | `add_list` | "Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7a, and 8" |
 | `subtract` | "Subtract line 10 from line 9" |
@@ -377,7 +339,7 @@ Filling uses a two-pass approach:
 | `min_two_lines` | "Enter the smaller of line 6 or line 9" |
 | `conditional_subtract` | "If line 33 is more than line 24, subtract line 24 from line 33" |
 
-Pass 2 retries up to 3 times to handle chains where a calculated field depends on another calculated field (e.g. line 15 depends on 11b which depends on 11a).
+Pass 2 retries up to 3 times to handle dependency chains (e.g. line 15 depends on 11b which depends on 11a).
 
 ### Formula Resolution
 
@@ -387,7 +349,7 @@ Across the 20 most common forms, the system detects **89 calculated fields** wit
 
 ## Project Structure
 
-```
+```text
 1040FormBuilder/
 ├── src/
 │   ├── main.ts                    # Primary CLI entry point
@@ -407,7 +369,7 @@ Across the 20 most common forms, the system detects **89 calculated fields** wit
 │   │   └── index.ts               # mergePdfs() — combines PDFs into one document
 │   ├── pipeline/
 │   │   ├── runner.ts              # Single-form pipeline orchestration
-│   │   └── batch.ts               # Multi-form, multi-submission batch runner (FormSpec, parseFormSpecs)
+│   │   └── batch.ts               # Batch runner with FormSpec and parseFormSpecs
 │   ├── registry/
 │   │   └── forms.ts               # 173-form registry with URLs and categories
 │   └── templates/
@@ -439,23 +401,23 @@ Across the 20 most common forms, the system detects **89 calculated fields** wit
 173 forms across 14 categories:
 
 | Category | Count | Examples |
-|----------|-------|---------|
-| **Core returns** | 5 | 1040, 1040-SR, 1040-NR, 1040-X, 1040-ES |
-| **Schedules** | 12 | A, B, C, D, E, F, H, J, SE, 1, 2, 3 |
-| **Supporting** | 33 | 2106, 2210, 2441, 4562, 8283, 8863, 8949 |
-| **Information returns** | 21 | 1099-INT, 1099-DIV, 1099-NEC, 1099-MISC, 1099-R, W-2G |
-| **Schedule K-1** | 3 | K-1 (1065), K-1 (1120-S), K-1 (1041) |
-| **Business** | 25 | 1065, 1120, 1120-S, 1125-A, 8594, 8886 |
-| **Fiduciary / Estate** | 6 | 706, 709, 1041, 5227, 8971 |
-| **Exempt organizations** | 8 | 990, 990-EZ, 990-PF, 1023, 4720, 8868 |
-| **Payroll** | 16 | 940, 941, 944, W-2, W-3, W-4, W-9, W-7 |
-| **Retirement / ACA** | 5 | 5498, 5500, 1094-B/C, 1095-A/B/C |
-| **International** | 17 | 926, 1042, 3520, 5471, 8288, 8833, 8854, 8938 |
-| **Excise** | 6 | 720, 730, 2290, 8027, 8611, 8849 |
-| **Admin / Practitioner** | 13 | 2848, 3115, 7004, 8275, 8300, 8821, 8832, 8879 |
-| **ACA** | 5 | 1094-B, 1094-C, 1095-A, 1095-B, 1095-C |
+|---|---|---|
+| Core returns | 5 | 1040, 1040-SR, 1040-NR, 1040-X, 1040-ES |
+| Schedules | 12 | A, B, C, D, E, F, H, J, SE, 1, 2, 3 |
+| Supporting | 33 | 2106, 2210, 2441, 4562, 8283, 8863, 8949 |
+| Information returns | 21 | 1099-INT, 1099-DIV, 1099-NEC, 1099-MISC, 1099-R |
+| Schedule K-1 | 3 | K-1 (1065), K-1 (1120-S), K-1 (1041) |
+| Business | 25 | 1065, 1120, 1120-S, 1125-A, 8594, 8886 |
+| Fiduciary / Estate | 6 | 706, 709, 1041, 5227, 8971 |
+| Exempt organizations | 8 | 990, 990-EZ, 990-PF, 1023, 4720, 8868 |
+| Payroll | 16 | 940, 941, 944, W-2, W-3, W-4, W-9, W-7 |
+| Retirement / ACA | 5 | 5498, 5500, 1094-B/C, 1095-A/B/C |
+| International | 17 | 926, 1042, 3520, 5471, 8288, 8833, 8854, 8938 |
+| Excise | 6 | 720, 730, 2290, 8027, 8611, 8849 |
+| Admin / Practitioner | 13 | 2848, 3115, 7004, 8275, 8300, 8821, 8832, 8879 |
+| ACA | 5 | 1094-B, 1094-C, 1095-A, 1095-B, 1095-C |
 
-For the full list of form IDs, see `src/registry/forms.ts` or `docs/forms.md`.
+For the full list of form IDs: `npm run forms`
 
 ---
 
@@ -469,7 +431,7 @@ Each analyzed form produces a JSON template at `templates/{formId}.json`:
   "displayName": "Form 1040",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
-  "generatedAt": "2025-04-06T00:00:00.000Z",
+  "generatedAt": "2026-04-07T00:00:00.000Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
@@ -505,16 +467,10 @@ Each analyzed form produces a JSON template at `templates/{formId}.json`:
 
 Filled PDFs are written to `/output/` with the naming convention:
 
-```
-{formId}_seed{seed}.pdf               # single submission
-{formId}_seed{seed}_{index}.pdf       # batch submission
-```
-
-Examples:
-```
-f1040_seed77.pdf
-fw2_seed100_0.pdf
-f1040sa_seed100_1.pdf
+```text
+{formId}_seed{seed}.pdf            # single submission
+{formId}_seed{seed}_{index}.pdf    # batch submission (--count > 1)
+merged_{timestamp}.pdf             # merged bundle (--merge)
 ```
 
 The PDFs are **flattened** — form fields are rendered into the page content so values are visible in any PDF viewer without interactive form support.
@@ -524,16 +480,16 @@ The PDFs are **flattened** — form fields are rendered into the page content so
 ## Troubleshooting
 
 **`Error: PDF not found: forms/fXXXX.pdf`**
-Run `npm run download` first, or include `--download-only` in the main command.
+Run `npm run download` first, or use `npm run dev` which runs all phases automatically.
 
 **`Error: No template found for fXXXX`**
 Run `npm run analyze` to generate templates, or use `npm run dev` which runs all phases.
 
 **Form has only generic numbers, not realistic data**
-Re-run `npm run analyze` to regenerate templates with the latest classifier. Templates generated before the XFA extractor was added won't have `labelHint` values.
+Re-run `npm run analyze` to regenerate templates with the latest classifier. Templates generated before XFA extraction was added won't have `labelHint` values.
 
 **IRS download returns 403 or empty file**
-A small number of IRS forms are not available as standalone PDFs (they're embedded in instruction booklets or require online submission). These are marked `pdfAvailable: false` in `src/registry/forms.ts` and skipped automatically.
+A small number of IRS forms are not available as standalone PDFs (embedded in instruction booklets or require online submission). These are marked `pdfAvailable: false` in `src/registry/forms.ts` and skipped automatically.
 
 **Calculated fields show wrong values**
 Re-run `npm run analyze` to regenerate templates with the latest formula parser. Templates without `formula` or `lineNumber` fields will use faker for all values.
