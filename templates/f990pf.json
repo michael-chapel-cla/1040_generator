@@ -3,7 +3,7 @@
   "displayName": "Form 990-PF",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f990pf.pdf",
-  "generatedAt": "2026-04-07T12:45:18.851Z",
+  "generatedAt": "2026-04-07T12:58:42.433Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -97,7 +97,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].LinesAThruF[0].c1_3[0]",
@@ -107,7 +108,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].LinesAThruF[0].c1_4[0]",
@@ -265,7 +267,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Analysis of Revenue and Expenses (The total of amounts in columns (b), (c), and (d) may not ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line1[0].f1_16[0]",
@@ -759,7 +762,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line13[0].f1_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Operating and Administrative Expenses. Row: 13. Compensation of officers, directors, trustees, etc. ",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Line13[0].f1_80[0]",
@@ -1478,7 +1482,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 2. Part I I. Balance Sheets. Attached schedules and amounts in the description column should be",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_2[0]",
@@ -1932,7 +1937,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line17[0].f2_66[0]",
       "fieldType": "tax_year",
       "labelHint": "Liabilities. Row: 17. Accounts payable and accrued expenses. Column: Beginning of year. (a) Book val",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line17[0].f2_67[0]",
@@ -2347,7 +2353,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table1[0].BodyRowA[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 3. Part I V. Capital Gains and Losses for Tax on Investment Income. Row: 1a. Column: (a) List a",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table1[0].BodyRowA[0].f3_2[0]",
@@ -2799,7 +2806,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Lines1a-c[0].Line1a[0].f3_63[0]",
@@ -4900,7 +4908,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Table_Pg9[0].BodyRow1[0].f9_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 9. Part X I I. Undistributed Income (see instructions). Row: 1. Distributable amount for 2025 f",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Table_Pg9[0].BodyRow1[0].f9_2[0]",
@@ -7080,7 +7089,8 @@
       "pdfFieldName": "topmostSubform[0].Page12[0].TagCorrectingSubform[0].Part16_Table[0].Line1a[0].f12_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 12. Part X V-A. Analysis of Income-Producing Activities. Enter gross amounts unless otherwise i",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].TagCorrectingSubform[0].Part16_Table[0].Line1a[0].f12_2[0]",
@@ -7969,7 +7979,8 @@
       "fieldType": "relationship",
       "labelHint": "Part X V-B. Relationship of Activities to the Accomplishment of Exempt Purposes. Row: 1. Column: Lin",
       "required": false,
-      "maxLength": 8
+      "maxLength": 8,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].Pg12Table[0].BodyRow1[0].f12_129[0]",

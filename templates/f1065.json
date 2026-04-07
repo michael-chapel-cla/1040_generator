@@ -3,7 +3,7 @@
   "displayName": "Form 1065",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1065.pdf",
-  "generatedAt": "2026-04-07T12:45:11.548Z",
+  "generatedAt": "2026-04-07T12:58:35.259Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].HeaderAddress_ReadOrder[0].CalendarName_ReadOrder[0].f1_01[0]",
@@ -193,7 +193,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "tax_year",
       "labelHint": "I. Number of Schedules K-1. Attach one for each person who was a partner at any time during the tax ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
@@ -1879,7 +1880,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_01[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 5. Schedule K. Partners’ Distributive Share Items. Income (Loss). 1. Ordinary business income (",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_02[0]",
@@ -2394,7 +2396,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Assets[0].Line1[0].f6_14[0]",
       "fieldType": "tax_year",
       "labelHint": "Schedule L. Balance Sheets per Books. Assets. Row: 1. Cash. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Assets[0].Line1[0].f6_15[0]",
@@ -2596,7 +2599,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Assets[0].Line7a[0].f6_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "7a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Assets[0].Line7a[0].f6_44[0]",
@@ -2924,7 +2928,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Liabilities[0].Line15[0].f6_90[0]",
       "fieldType": "tax_year",
       "labelHint": "Liabilities and Capital. Row: 15. Accounts payable. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Liabilities[0].Line15[0].f6_91[0]",
@@ -3071,7 +3076,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "lineNumber": "19a"
+      "lineNumber": "19b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Liabilities[0].Line19b[0].f6_112[0]",
@@ -3084,7 +3089,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Liabilities[0].Line19b[0].f6_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Liabilities[0].Line20[0].f6_114[0]",
@@ -3174,7 +3180,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-1_Left[0].f6_126[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule M-1. Reconciliation of Income (Loss) per Books With Analysis of Net Income (Loss) per Retur",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-1_Left[0].f6_127[0]",
@@ -3313,7 +3320,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-2_Left[0].f6_142[0]",
       "fieldType": "tax_year",
       "labelHint": "Schedule M-2. Analysis of Partners' Capital Accounts. 1. Balance at beginning of year.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-2_Left[0].f6_143[0]",

@@ -3,7 +3,7 @@
   "displayName": "Form 2441",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2441.pdf",
-  "generatedAt": "2026-04-07T12:45:09.108Z",
+  "generatedAt": "2026-04-07T12:58:32.869Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -200,7 +200,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Line2[0].Row1[0].f1_15[0]",
@@ -600,7 +601,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "To claim the child and dependent care credit, complete lines 27 through 31 below. 27. Enter $3,000 (",
       "required": false,
-      "maxLength": 50
+      "maxLength": 50,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_17[0]",

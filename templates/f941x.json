@@ -3,7 +3,7 @@
   "displayName": "Form 941-X",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f941x.pdf",
-  "generatedAt": "2026-04-07T12:45:19.795Z",
+  "generatedAt": "2026-04-07T12:58:43.364Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].f1_1[0]",
@@ -193,7 +193,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
@@ -309,7 +310,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part 3: Enter the corrections for this quarter. If any line doesn't apply, leave it blank. 6. Wages,",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
@@ -2527,7 +2529,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "41"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].c5_2[0]",

@@ -3,7 +3,7 @@
   "displayName": "Form 3115",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3115.pdf",
-  "generatedAt": "2026-04-07T12:45:27.393Z",
+  "generatedAt": "2026-04-07T12:58:50.795Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -1835,7 +1835,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow1[0].f7_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 7. Part I I I. Method of Cost Allocation (Complete this part if the requested change involves either property subject to section 263A or long-term contracts as described in section 460). See instructions). Section B–Direct and Indirect Costs Required To Be Allocated. Check the appropriate boxes showing the costs that are or will be fully included, to the extent required, in the cost of real or tangible personal property produced or property acquired for resale under section 263A or allocated to long-term contracts under section 460. Mark “N/A” in a box if those costs are not incurred by the applicant. If a box is not checked, it is assumed that those costs are not fully included to the extent required. Attach an explanation for boxes that are not checked. Row: 1. Direct material. Column: Present method.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].BodyRow1[0].f7_2[0]",

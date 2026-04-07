@@ -3,7 +3,7 @@
   "displayName": "Form 8275",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8275.pdf",
-  "generatedAt": "2026-04-07T12:45:27.498Z",
+  "generatedAt": "2026-04-07T12:58:50.899Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].p1-t1[0]",
@@ -40,7 +40,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Line1[0].p1-t3[0]",
       "fieldType": "generic_text",
       "labelHint": "Part I. General Information (see instructions). Row: 1. Column: (a) Rev. Rul., Rev. Proc., etc.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Line1[0].p1-t4[0]",

@@ -3,7 +3,7 @@
   "displayName": "Form 4562",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4562.pdf",
-  "generatedAt": "2026-04-07T12:45:09.482Z",
+  "generatedAt": "2026-04-07T12:58:33.239Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -28,7 +28,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Election To Expense Certain Property Under Section 179. Note: If you have any listed property, complete Part V before you complete Part I. 1. Maximum amount (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
@@ -246,7 +247,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_26[0]",
       "fieldType": "tax_year",
       "labelHint": "Section B—Assets Placed in Service During 2025 Tax Year Using the General Depreciation System. Row: ",
-      "required": false
+      "required": false,
+      "lineNumber": "19a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19a[0].f1_27[0]",
@@ -539,37 +541,43 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19h[0].f1_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionBTable[0].Line19i_1[0].f1_74[0]",
@@ -743,7 +751,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_98[0]",
       "fieldType": "tax_year",
       "labelHint": "Section C—Assets Placed in Service During 2025 Tax Year Using the Alternative Depreciation System. R",
-      "required": false
+      "required": false,
+      "lineNumber": "20a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].SectionCTable[0].Line20a[0].f1_99[0]",
@@ -960,7 +969,8 @@
         },
         "floorAtZero": false,
         "rawLabel": "Page 2. Part I V. Summary (See instructions.). 21. Listed property. Enter amount from line 28."
-      }
+      },
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
@@ -1435,7 +1445,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_59[0]",
       "fieldType": "tax_year",
       "labelHint": "Section B—Information on Use of Vehicles. Complete this section for vehicles used by a sole propriet",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Ln30-33[0].Line30[0].f2_60[0]",

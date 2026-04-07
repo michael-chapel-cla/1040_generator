@@ -3,13 +3,14 @@
   "displayName": "Form 2553",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2553.pdf",
-  "generatedAt": "2026-04-07T12:45:12.466Z",
+  "generatedAt": "2026-04-07T12:58:36.163Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_01[0]",
       "fieldType": "full_name",
       "labelHint": "Page 1. Part 1. Election Information. Type or Print. Name (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].NameAddress[0].f1_02[0]",
@@ -219,302 +220,351 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row1[0].f2_03[0]",
       "fieldType": "full_name",
       "labelHint": "Page 2. Part 1. Election Information (continued). Note: If you need more rows, use additional copies",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row1[0].f2_04[0]",
       "fieldType": "date",
       "labelHint": "Entry 1. Item K. Shareholder's Consent Statement. Under penalties of perjury, I declare that I conse",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row1[0].f2_05[0]",
       "fieldType": "date",
       "labelHint": "Entry 1. Item K. Date.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row1[0].f2_06[0]",
       "fieldType": "percentage",
       "labelHint": "Entry 1. Item L. Stock owned or percentage of ownership (see instructions). Number of shares or perc",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row1[0].f2_07[0]",
       "fieldType": "date",
       "labelHint": "Entry 1. Item L. Stock owned or percentage of ownership (see instructions). Date (or Dates) acquired",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row1[0].f2_08[0]",
       "fieldType": "ssn",
       "labelHint": "Entry 1. Item M. Social security number or employer identification number (see instructions).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row1[0].f2_09[0]",
       "fieldType": "tax_year",
       "labelHint": "Entry 1. Item N. Shareholder's tax year ends (month and day).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 2. Item J.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row2[0].f2_11[0]",
       "fieldType": "signature",
       "labelHint": "Entry 2. Item K. Signature.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row2[0].f2_12[0]",
       "fieldType": "date",
       "labelHint": "Entry 2. Item K. Date.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row2[0].f2_13[0]",
       "fieldType": "percentage",
       "labelHint": "Entry 2. Item L. Number of shares or percentage of ownership.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row2[0].f2_14[0]",
       "fieldType": "date",
       "labelHint": "Entry 2. Item L. Date (or Dates) acquired.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row2[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 2. Item M.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row2[0].f2_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 2. Item N.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row3[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 3. Item J.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row3[0].f2_18[0]",
       "fieldType": "signature",
       "labelHint": "Entry 3. Item K. Signature.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row3[0].f2_19[0]",
       "fieldType": "date",
       "labelHint": "Entry 3. Item K. Date.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row3[0].f2_20[0]",
       "fieldType": "percentage",
       "labelHint": "Entry 3. Item L. Number of shares or percentage of ownership.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row3[0].f2_21[0]",
       "fieldType": "date",
       "labelHint": "Entry 3. Item L. Date (or Dates) acquired.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row3[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 3. Item M.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row3[0].f2_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 3. Item N.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row4[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 4. Item J.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row4[0].f2_25[0]",
       "fieldType": "signature",
       "labelHint": "Entry 4. Item K. Signature.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row4[0].f2_26[0]",
       "fieldType": "date",
       "labelHint": "Entry 4. Item K. Date.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row4[0].f2_27[0]",
       "fieldType": "percentage",
       "labelHint": "Entry 4. Item L. Number of shares or percentage of ownership.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row4[0].f2_28[0]",
       "fieldType": "date",
       "labelHint": "Entry 4. Item L. Date (or Dates) acquired.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row4[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 4. Item M.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row4[0].f2_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 4. Item N.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row5[0].f2_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 5. Item J.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row5[0].f2_32[0]",
       "fieldType": "signature",
       "labelHint": "Entry 5. Item K. Signature.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row5[0].f2_33[0]",
       "fieldType": "date",
       "labelHint": "Entry 5. Item K. Date.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row5[0].f2_34[0]",
       "fieldType": "percentage",
       "labelHint": "Entry 5. Item L. Number of shares or percentage of ownership.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row5[0].f2_35[0]",
       "fieldType": "date",
       "labelHint": "Entry 5. Item L. Date (or Dates) acquired.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row5[0].f2_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 5. Item M.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row5[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 5. Item N.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row6[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 6. Item J.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row6[0].f2_39[0]",
       "fieldType": "signature",
       "labelHint": "Entry 6. Item K. Signature.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row6[0].f2_40[0]",
       "fieldType": "date",
       "labelHint": "Entry 6. Item K. Date.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row6[0].f2_41[0]",
       "fieldType": "percentage",
       "labelHint": "Entry 6. Item L. Number of shares or percentage of ownership.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row6[0].f2_42[0]",
       "fieldType": "date",
       "labelHint": "Entry 6. Item L. Date (or Dates) acquired.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row6[0].f2_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 6. Item M.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row6[0].f2_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 6. Item N.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row7[0].f2_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 7. Item J.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row7[0].f2_46[0]",
       "fieldType": "signature",
       "labelHint": "Entry 7. Item K. Signature.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row7[0].f2_47[0]",
       "fieldType": "date",
       "labelHint": "Entry 7. Item K. Date.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row7[0].f2_48[0]",
       "fieldType": "percentage",
       "labelHint": "Entry 7. Item L. Number of shares or percentage of ownership.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row7[0].f2_49[0]",
       "fieldType": "date",
       "labelHint": "Entry 7. Item L. Date (or Dates) acquired.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row7[0].f2_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 7. Item M.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part1[0].Row7[0].f2_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Entry 7. Item N.",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_01[0]",
@@ -570,7 +620,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
@@ -591,7 +642,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
@@ -645,7 +697,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[0]",
@@ -675,7 +728,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_03[0]",
       "fieldType": "full_name",
       "labelHint": "Part 3. Qualified Subchapter S Trust (Q S S T) Election Under Section 1361(d)(2)* *Use Part 3 to mak",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_04[0]",

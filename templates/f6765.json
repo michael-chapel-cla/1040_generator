@@ -3,7 +3,7 @@
   "displayName": "Form 6765",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f6765.pdf",
-  "generatedAt": "2026-04-07T12:45:14.246Z",
+  "generatedAt": "2026-04-07T12:58:37.893Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -98,7 +98,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Note: Complete Section F before going to line 5. 5. Total qualified research expenses (Q R Es). Ente",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
@@ -208,7 +209,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section B—Alternative Simplified Credit. Skip this section if you are completing Section A. 14. Cert",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
@@ -382,7 +384,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 2. Section C—Current Year Credit. 27. Enter the portion of the credit from Form 8932, line 2, t",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
@@ -502,7 +505,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section E—Other Information. See instructions. 37. Enter the number of business components generatin",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
@@ -671,7 +675,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Page 3. Section G—Business Component Information. Complete lines 49(a) through 49(f) for each business component you are required to report. See instructions. Attach additional sheets if necessary to capture all business components. Row: 1. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row1[0].f3_02[0]",

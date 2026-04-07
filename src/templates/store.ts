@@ -53,7 +53,21 @@ export function buildTemplate(
     };
   });
 
-  // Second pass: infer missing line numbers from adjacent fields
+  // Second pass: infer missing line numbers from PDF field name path segment ".LineNx["
+  // Handles forms where the XFA label is generic (e.g. "Dollar Amount") but the
+  // AcroForm field path encodes the line number (e.g. ".Line4b[0].")
+  for (const field of fields) {
+    if (!field.lineNumber) {
+      const pathM = /\.Line(\d+[a-zA-Z]?)[\[.]/i.exec(field.pdfFieldName);
+      if (pathM) {
+        const ln = pathM[1].toLowerCase();
+        const n  = parseInt(ln);
+        if (!isNaN(n) && n >= 1 && n <= 200) field.lineNumber = ln;
+      }
+    }
+  }
+
+  // Third pass: infer missing line numbers from adjacent fields
   // Case 1: field has lineNumber "N" and next field has "Nb" → rename "N" to "Na"
   // Case 2: field has no lineNumber and next field has "Nb"  → assign "Na"
   for (let i = 0; i < fields.length - 1; i++) {

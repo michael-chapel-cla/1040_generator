@@ -3,7 +3,7 @@
   "displayName": "Form 1095-A",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1095a.pdf",
-  "generatedAt": "2026-04-07T12:45:23.187Z",
+  "generatedAt": "2026-04-07T12:58:46.695Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].c1_1[0]",
@@ -326,7 +326,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Part I I I. Coverage Information. Row: 21. January. Column: A. Monthly enrollment premiums.",
       "required": false,
-      "maxLength": 20
+      "maxLength": 20,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_PartIII[0].Row21[0].f1_42[0]",

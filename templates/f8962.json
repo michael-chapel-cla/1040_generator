@@ -3,7 +3,7 @@
   "displayName": "Form 8962",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8962.pdf",
-  "generatedAt": "2026-04-07T12:45:10.888Z",
+  "generatedAt": "2026-04-07T12:58:34.624Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -183,7 +183,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Annual Calculation. Row: 11. Annual Totals. Column: (a) Annual enrollment premiums (Form(s) 1095-A, ",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table1[0].BodyRow1[0].f1_14[0]",
@@ -224,7 +225,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Monthly Calculation. Row: 12. January. Column: (a) Monthly enrollment premiums (Form(s) 1095-A, line",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Part2Table2[0].BodyRow1[0].f1_20[0]",

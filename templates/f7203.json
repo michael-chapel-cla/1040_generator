@@ -3,7 +3,7 @@
   "displayName": "Form 7203",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f7203.pdf",
-  "generatedAt": "2026-04-07T12:45:12.558Z",
+  "generatedAt": "2026-04-07T12:58:36.254Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -391,7 +391,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Header[0].aDebt1[0].c1_7[1]",
@@ -401,7 +402,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Header[0].bDebt2[0].c1_8[0]",
@@ -411,7 +413,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Header[0].bDebt2[0].c1_8[1]",
@@ -421,7 +424,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Header[0].cDebt3[0].c1_9[0]",
@@ -431,7 +435,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Header[0].cDebt3[0].c1_9[1]",
@@ -441,7 +446,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line16[0].f1_36[0]",
@@ -483,7 +489,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line17[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row:17. Additional loans (see instructions). Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SectionA[0].Line17[0].f1_41[0]",
@@ -674,13 +681,15 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_01[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 2. Part I I. Shareholder Debt Basis (continued). Section B—Adjustments to Debt Basis. Row: 21. ",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_02[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: 21 Debt basis at the beginning of the corporation’s tax year. Column: (b) Debt 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_03[0]",
@@ -700,7 +709,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line22[0].f2_05[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: 22 Enter the amount, if any, from line 17. Column: (a) Debt 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionB[0].Line22[0].f2_06[0]",
@@ -1247,7 +1257,8 @@
         },
         "floorAtZero": false,
         "rawLabel": "Section C—Gain on Loan Repayment. Row: 32. Repayment. Enter the amount from line 19. Column: (a) Deb"
-      }
+      },
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Line32[0].f2_46[0]",
@@ -1422,7 +1433,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line35[0].f2_57[0]",
       "fieldType": "tax_year",
       "labelHint": "Part I I I. Shareholder Allowable Loss and Deduction Items. Row: 35. Ordinary business loss. Column:",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line35[0].f2_58[0]",

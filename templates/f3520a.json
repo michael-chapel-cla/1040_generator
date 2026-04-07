@@ -3,7 +3,7 @@
   "displayName": "Form 3520-A",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3520a.pdf",
-  "generatedAt": "2026-04-07T12:45:24.707Z",
+  "generatedAt": "2026-04-07T12:58:48.190Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -856,7 +856,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line1[0].f2_40[0]",
       "fieldType": "tax_year",
       "labelHint": "Part I I I. Foreign Trust Balance Sheet. Assets. Row: 1. Cash. Column: Beginning of Tax Year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line1[0].f2_41[0]",
@@ -1227,7 +1228,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line12[0].f2_88[0]",
       "fieldType": "tax_year",
       "labelHint": "Liabilities. Row: 12. Accounts payable. Column: Beginning of Tax Year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line12[0].f2_89[0]",
@@ -1402,7 +1404,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line17[0].f2_108[0]",
       "fieldType": "tax_year",
       "labelHint": "Net Worth. Row: 17. Contributions to trust corpus. Column: Beginning of Tax Year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Line17[0].f2_109[0]",

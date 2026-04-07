@@ -3,7 +3,7 @@
   "displayName": "Schedule J",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sj.pdf",
-  "generatedAt": "2026-04-07T12:45:08.808Z",
+  "generatedAt": "2026-04-07T12:58:32.570Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -36,7 +36,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Capital gain included on line 2a: 2b. Excess, if any, of net long-term capital gain over net short-t",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_6[0]",

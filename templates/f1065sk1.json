@@ -3,7 +3,7 @@
   "displayName": "Schedule K-1 (Form 1065)",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1065sk1.pdf",
-  "generatedAt": "2026-04-07T12:45:27.971Z",
+  "generatedAt": "2026-04-07T12:58:51.363Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].ForCalendarYear[0].f1_1[0]",
@@ -365,7 +365,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].RightCol1[0].f1_34[0]",
       "fieldType": "tax_year",
       "labelHint": "Part I I I Partner’s Share of Current Year Income, Deductions, Credits, and Other Items 1. Ordinary ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].RightCol[0].RightCol1[0].f1_35[0]",

@@ -3,7 +3,7 @@
   "displayName": "Form 8990",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8990.pdf",
-  "generatedAt": "2026-04-07T12:45:10.965Z",
+  "generatedAt": "2026-04-07T12:58:34.698Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -144,13 +144,15 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section I I—Adjusted Taxable Income. Tentative Taxable Income. 6. Tentative taxable income. See inst",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Additions (adjustments to be made if amounts are taken into account on line 6). 7. Any item of loss ",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
@@ -237,7 +239,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Reductions (adjustments to be made if amounts are taken into account on line 6). 17. Open parenthesi",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
@@ -278,7 +281,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 2. Section I I I—Business Interest Income. 23. Current year business interest income. See instr",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
@@ -309,7 +313,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_4[0]",
       "fieldType": "percentage",
       "labelHint": "Section I V—163(j) Limitation Calculations. Limitation on Business Interest Expense. 26. Multiply th",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_5[0]",
@@ -377,7 +382,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Excess Taxable Income (If you entered an amount on line 32, skip lines 33 through 37.). 33. Subtract",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_12[0]",

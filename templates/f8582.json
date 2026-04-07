@@ -3,7 +3,7 @@
   "displayName": "Form 8582",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8582.pdf",
-  "generatedAt": "2026-04-07T12:45:10.165Z",
+  "generatedAt": "2026-04-07T12:58:33.918Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -178,7 +178,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part4[0].Row1[0].f1_20[0]",
       "fieldType": "full_name",
       "labelHint": "Part I V. Complete This Part Before Part I, Lines 1a, 1b, and 1c. See instructions. Row: 1. Column: ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part4[0].Row1[0].f1_21[0]",
@@ -387,37 +388,43 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part4[0].Row6[0].f1_50[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: Total. Enter on Part I, lines 1a, 1b, and 1c. Column: Current year. (a) Net Income (line 1a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part4[0].Row6[0].f1_51[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: Total. Enter on Part I, lines 1a, 1b, and 1c. Column: Current year. (b) Net loss (line 1b).",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part4[0].Row6[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: Total. Enter on Part I, lines 1a, 1b, and 1c. Column: Prior years. (c) Unallowed loss (line 1c)",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part4[0].Row6[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: Total. Enter on Part I, lines 1a, 1b, and 1c. Column: Overall gain or loss. (d) Gain.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part4[0].Row6[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: Total. Enter on Part I, lines 1a, 1b, and 1c. Column: Overall gain or loss. (e) Loss.",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part5[0].Row1[0].f2_01[0]",
       "fieldType": "full_name",
       "labelHint": "Page 2. Part V. Complete This Part Before Part I, Lines 2a, 2b, and 2c. See instructions. Row: 1. Co",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part5[0].Row1[0].f2_02[0]",
@@ -626,37 +633,43 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part5[0].Total[0].f2_31[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: Total. Enter on Part I, lines 2a, 2b, and 2c. Column: Current year. (a) Net income (line 2a).",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part5[0].Total[0].f2_32[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: Total. Enter on Part I, lines 2a, 2b, and 2c. Column: Current year. (b) Net loss (line 2b).",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part5[0].Total[0].f2_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: Total. Enter on Part I, lines 2a, 2b, and 2c. Column: Prior years. (c) Unallowed loss (line 2c)",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part5[0].Total[0].f2_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: Total. Enter on Part I, lines 2a, 2b, and 2c. Column: Overall gain or loss. (d) Gain.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part5[0].Total[0].f2_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: Total. Enter on Part I, lines 2a, 2b, and 2c. Column: Overall gain or loss. (e) Loss.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part6[0].Row1[0].f2_36[0]",
       "fieldType": "full_name",
       "labelHint": "Part V I. Use This Part if an Amount Is Shown on Part I I, Line 9. See instructions. Row: 1. Column:",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part6[0].Row1[0].f2_37[0]",
@@ -889,7 +902,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part7[0].Row1[0].f2_70[0]",
       "fieldType": "full_name",
       "labelHint": "Part V I I. Allocation of Unallowed Losses. See instructions. Row: 1. Column: Name of activity.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part7[0].Row1[0].f2_71[0]",
@@ -1081,7 +1095,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartVIII[0].Row1[0].f2_98[0]",
       "fieldType": "full_name",
       "labelHint": "Part V I I I. Allowed Losses. See instructions. Row: 1. Column: Name of activity.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartVIII[0].Row1[0].f2_99[0]",

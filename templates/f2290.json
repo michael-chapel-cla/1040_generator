@@ -3,7 +3,7 @@
   "displayName": "Form 2290",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2290.pdf",
-  "generatedAt": "2026-04-07T12:45:26.775Z",
+  "generatedAt": "2026-04-07T12:58:50.177Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -17,7 +17,8 @@
       "fieldType": "employer_ein",
       "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].EINComb2[0].f1_3[0]",
@@ -210,7 +211,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
@@ -1461,7 +1463,8 @@
       "fieldType": "employer_ein",
       "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].EINComb2[0].f1_3[0]",
@@ -1906,7 +1909,8 @@
       "fieldType": "employer_ein",
       "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].EINComb2[0].f1_3[0]",
@@ -2350,7 +2354,8 @@
       "fieldType": "employer_ein",
       "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f1_3[0]",
@@ -2365,7 +2370,8 @@
       "fieldType": "employer_ein",
       "labelHint": "Page 8. Form 2290-V. Payment Voucher. 1. Employer identification number (E I N). First 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Line1_ReadOrder[0].f1_3[0]",

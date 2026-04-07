@@ -3,7 +3,7 @@
   "displayName": "Form 8825",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8825.pdf",
-  "generatedAt": "2026-04-07T12:45:11.761Z",
+  "generatedAt": "2026-04-07T12:58:35.463Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -143,7 +143,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2a[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Income. Row: 2a. Gross rents. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2a[0].f1_24[0]",
@@ -171,7 +172,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Income. Row: 2b. Other income related to rental estate activity. Column: Properti",
       "required": false,
-      "lineNumber": "2a"
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2b[0].f1_28[0]",
@@ -198,7 +199,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2c[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Income. Row: 2c. Total rental real estate income for each property. Add lines 2a ",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line2c[0].f1_32[0]",
@@ -258,7 +260,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line3[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Expenses. Row: 3. Advertising. Column: Properties. A.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-17[0].Line3[0].f1_36[0]",
@@ -1094,7 +1097,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2a[0].f2_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Income. Row: 2a. Gross rents. Column: Properties. 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2a[0].f2_30[0]",
@@ -1122,7 +1126,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Income. Row: 2b. Other income related to rental real estate activity. Column: Pro",
       "required": false,
-      "lineNumber": "2a"
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2b[0].f2_34[0]",
@@ -1149,7 +1153,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2c[0].f2_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Income. Row: 2c. Total rental real estate income for each property. Add lines 2a ",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line2c[0].f2_38[0]",
@@ -1209,7 +1214,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line3[0].f2_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Rental Real Estate Expenses. Row: 3. Advertising. Column: Properties. 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Lines2-17[0].Line3[0].f2_42[0]",

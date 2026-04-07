@@ -3,7 +3,7 @@
   "displayName": "Form 1125-E",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1125e.pdf",
-  "generatedAt": "2026-04-07T12:45:12.984Z",
+  "generatedAt": "2026-04-07T12:58:36.668Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -29,746 +29,867 @@
       "fieldType": "ssn",
       "labelHint": "Line 1. Entry 1. (b) Social security number (see instructions).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow1[0].f1_5[0]",
       "fieldType": "percentage",
       "labelHint": "Line 1. Entry 1. (c) Percent of time devoted to business.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow1[0].f1_6[0]",
       "fieldType": "percentage",
       "labelHint": "Line 1. Entry 1. Percent of stock owned. (d) Common.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow1[0].f1_7[0]",
       "fieldType": "percentage",
       "labelHint": "Line 1. Entry 1. Percent of stock owned. (e) Preferred.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow1[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 1. (f) Amount of compensation.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow2[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 2. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow2[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 2. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow2[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 2. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow2[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 2. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow2[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 2. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow2[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 2. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow3[0].f1_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 3. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow3[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 3. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow3[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 3. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow3[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 3. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow3[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 3. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow3[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 3. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow4[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 4. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow4[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 4. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow4[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 4. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow4[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 4. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow4[0].f1_25[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 4. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow4[0].f1_26[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 4. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow5[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 5. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow5[0].f1_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 5. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow5[0].f1_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 5. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow5[0].f1_30[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 5. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow5[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 5. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow5[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 5. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow6[0].f1_33[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 6. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow6[0].f1_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 6. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow6[0].f1_35[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 6. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow6[0].f1_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 6. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow6[0].f1_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 6. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow6[0].f1_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 6. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow7[0].f1_39[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 7. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow7[0].f1_40[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 7. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow7[0].f1_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 7. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow7[0].f1_42[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 7. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow7[0].f1_43[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 7. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow7[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 7. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow8[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 8. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow8[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 8. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow8[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 8. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow8[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 8. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow8[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 8. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow8[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 8. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow9[0].f1_51[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 9. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow9[0].f1_52[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 9. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow9[0].f1_53[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 9. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow9[0].f1_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 9. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow9[0].f1_55[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 9. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow9[0].f1_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 9. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow10[0].f1_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 10. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow10[0].f1_58[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 10. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow10[0].f1_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 10. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow10[0].f1_60[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 10. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow10[0].f1_61[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 10. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow10[0].f1_62[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 10. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow11[0].f1_63[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 11. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow11[0].f1_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 11. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow11[0].f1_65[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 11. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow11[0].f1_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 11. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow11[0].f1_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 11. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow11[0].f1_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 11. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow12[0].f1_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 12. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow12[0].f1_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 12. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow12[0].f1_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 12. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow12[0].f1_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 12. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow12[0].f1_73[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 12. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow12[0].f1_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 12. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow13[0].f1_75[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 13. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow13[0].f1_76[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 13. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow13[0].f1_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 13. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow13[0].f1_78[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 13. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow13[0].f1_79[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 13. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow13[0].f1_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 13. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow14[0].f1_81[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 14. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow14[0].f1_82[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 14. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow14[0].f1_83[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 14. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow14[0].f1_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 14. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow14[0].f1_85[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 14. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow14[0].f1_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 14. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow15[0].f1_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 15. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow15[0].f1_88[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 15. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow15[0].f1_89[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 15. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow15[0].f1_90[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 15. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow15[0].f1_91[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 15. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow15[0].f1_92[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 15. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow16[0].f1_93[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 16. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow16[0].f1_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 16. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow16[0].f1_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 16. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow16[0].f1_96[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 16. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow16[0].f1_97[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 16. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow16[0].f1_98[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 16. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow17[0].f1_99[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 17. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow17[0].f1_100[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 17. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow17[0].f1_101[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 17. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow17[0].f1_102[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 17. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow17[0].f1_103[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 17. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow17[0].f1_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 17. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow18[0].f1_105[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 18. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow18[0].f1_106[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 18. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow18[0].f1_107[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 18. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow18[0].f1_108[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 18. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow18[0].f1_109[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 18. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow18[0].f1_110[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 18. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow19[0].f1_111[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 19. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow19[0].f1_112[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 19. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow19[0].f1_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 19. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow19[0].f1_114[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 19. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow19[0].f1_115[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 19. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow19[0].f1_116[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 19. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow20[0].f1_117[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 20. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow20[0].f1_118[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 20. (b).",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow20[0].f1_119[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 20. (c).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow20[0].f1_120[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 20. (d).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow20[0].f1_121[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 20. (e).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1Table[0].BodyRow20[0].f1_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. Entry 20. (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_123[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2. Total compensation of officers.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_124[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 3. Compensation of officers claimed on Form 1125-A or elsewhere on return.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_125[0]",
@@ -783,7 +904,8 @@
         },
         "floorAtZero": false,
         "rawLabel": "Line 4. Subtract line 3 from line 2. Enter the result here and on Form 1120, page 1, line 12 or the "
-      }
+      },
+      "lineNumber": "2"
     }
   ]
 }

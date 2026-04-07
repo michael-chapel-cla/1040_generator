@@ -3,7 +3,7 @@
   "displayName": "Form 1095-B",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1095b.pdf",
-  "generatedAt": "2026-04-07T12:45:23.605Z",
+  "generatedAt": "2026-04-07T12:58:47.111Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].cb_1[0]",
@@ -202,7 +202,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Part4[0].Row23[0].f1_25[0]",
       "fieldType": "first_name",
       "labelHint": "Part I V. Covered Individuals. (Enter the information for each covered individual.). Row: 23. Column",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table1_Part4[0].Row23[0].f1_26[0]",
@@ -1318,7 +1319,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table2_Part4[0].Row29[0].f3_06[0]",
       "fieldType": "first_name",
       "labelHint": "Part I V. Covered Individuals — Continuation Sheet. Row: 29. Column: (a) Name of covered individual(",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table2_Part4[0].Row29[0].f3_07[0]",

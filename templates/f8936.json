@@ -3,7 +3,7 @@
   "displayName": "Form 8936",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8936.pdf",
-  "generatedAt": "2026-04-07T12:45:10.648Z",
+  "generatedAt": "2026-04-07T12:58:34.388Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -147,7 +147,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Credit for Business/Investment Use Part of New Clean Vehicles. 6. Enter the total credit a",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",

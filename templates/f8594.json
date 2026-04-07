@@ -3,7 +3,7 @@
   "displayName": "Form 8594",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8594.pdf",
-  "generatedAt": "2026-04-07T12:45:14.293Z",
+  "generatedAt": "2026-04-07T12:58:37.940Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -94,7 +94,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Line 4. Row: Class I. Column: Allocation of sales price. $.",
       "required": false,
-      "maxLength": 49
+      "maxLength": 49,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].Class2[0].f1_11[0]",

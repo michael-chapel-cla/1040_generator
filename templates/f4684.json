@@ -3,7 +3,7 @@
   "displayName": "Form 4684",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4684.pdf",
-  "generatedAt": "2026-04-07T12:45:09.577Z",
+  "generatedAt": "2026-04-07T12:58:33.332Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -203,7 +203,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line4[0].f1_29[0]",
       "fieldType": "tax_year",
       "labelHint": "Note: If line 2 is more than line 3, skip line 4. Row: 4. Gain from casualty or theft. If line 3 is ",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines2-9[0].Line4[0].f1_30[0]",
@@ -508,7 +509,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_56[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Caution: Use only one Form 4684 for lines 13 through 18. 13. Add the amounts on line 4 of all Forms ",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_57[0]",
@@ -665,7 +667,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line22[0].f2_15[0]",
       "fieldType": "tax_year",
       "labelHint": "Note: If line 20 is more than line 21, skip line 22. Row: 22. Gain from casualty or theft. If line 2",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line20-27[0].Line22[0].f2_16[0]",

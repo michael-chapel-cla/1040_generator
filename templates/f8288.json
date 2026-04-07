@@ -3,7 +3,7 @@
   "displayName": "Form 8288",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8288.pdf",
-  "generatedAt": "2026-04-07T12:45:25.416Z",
+  "generatedAt": "2026-04-07T12:58:48.874Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -160,7 +160,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
@@ -219,7 +220,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I I. To Be Completed by Buyer/Transferee Required To Withhold Under Section 1446(f)(1). 13. A",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
@@ -338,7 +340,8 @@
       "fieldType": "routing_number",
       "labelHint": "Complete lines 22b, 22c, and 22d. 22b. Routing number.",
       "required": false,
-      "maxLength": 9
+      "maxLength": 9,
+      "lineNumber": "22b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[0]",

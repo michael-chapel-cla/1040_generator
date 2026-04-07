@@ -3,7 +3,7 @@
   "displayName": "Form 8275-R",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8275r.pdf",
-  "generatedAt": "2026-04-07T12:45:27.539Z",
+  "generatedAt": "2026-04-07T12:58:50.939Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -64,7 +64,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table[0].Line1[0].#subform[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 1. (c). 2 lines available for entry. Line 2.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table[0].Line1[0].f1_10[0]",
@@ -672,7 +673,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part 4. Line 20 of 28.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",

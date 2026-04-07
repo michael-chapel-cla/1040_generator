@@ -3,7 +3,7 @@
   "displayName": "Schedule A",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sa.pdf",
-  "generatedAt": "2026-04-07T12:45:08.303Z",
+  "generatedAt": "2026-04-07T12:58:32.068Z",
   "fields": [
     {
       "pdfFieldName": "form1[0].Page1[0].f1_1[0]",
@@ -22,7 +22,8 @@
       "pdfFieldName": "form1[0].Page1[0].f1_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Medical and Dental Expenses. Caution: Do not include expenses reimbursed or paid by others. 1. Medical and dental expenses (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].Line2_ReadOrder[0].f1_4[0]",
@@ -248,7 +249,8 @@
       "pdfFieldName": "form1[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Gifts to Charity. Caution: If you made a gift and got a benefit for it, see instructions. 11. Gifts ",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "form1[0].Page1[0].f1_24[0]",

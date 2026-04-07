@@ -3,7 +3,7 @@
   "displayName": "Form 1099-G",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099g.pdf",
-  "generatedAt": "2026-04-07T12:45:21.616Z",
+  "generatedAt": "2026-04-07T12:58:45.150Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -202,7 +202,8 @@
       "fieldType": "tax_year",
       "labelHint": "Page 5. Copy 2. For calendar year.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].CopyHeader[0].c2_1[0]",
@@ -385,7 +386,8 @@
       "fieldType": "tax_year",
       "labelHint": "Page 5. Copy 2. For calendar year.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].CopyHeader[0].c2_1[0]",
@@ -558,7 +560,8 @@
       "fieldType": "tax_year",
       "labelHint": "Page 5. Copy 2. For calendar year.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].CopyHeader[0].c2_1[0]",

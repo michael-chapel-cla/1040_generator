@@ -3,7 +3,7 @@
   "displayName": "Form 8082",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8082.pdf",
-  "generatedAt": "2026-04-07T12:45:11.622Z",
+  "generatedAt": "2026-04-07T12:58:35.331Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -310,7 +310,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line8[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Inconsistent or A A R Items. Row: 8. Column: (a) Description of inconsistent or A A R items (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line8[0].c1_9[0]",
@@ -320,7 +321,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line8[0].c1_10[0]",
@@ -330,7 +332,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line8[0].f1_19[0]",
@@ -368,7 +371,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line9[0].c1_12[0]",
@@ -378,7 +382,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line9[0].f1_26[0]",
@@ -416,7 +421,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line10[0].c1_14[0]",
@@ -426,7 +432,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line10[0].f1_33[0]",
@@ -464,7 +471,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line11[0].c1_16[0]",
@@ -474,7 +482,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PartIITable[0].Line11[0].f1_40[0]",

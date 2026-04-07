@@ -3,7 +3,7 @@
   "displayName": "Form 4835",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4835.pdf",
-  "generatedAt": "2026-04-07T12:45:09.722Z",
+  "generatedAt": "2026-04-07T12:58:33.473Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -150,7 +150,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Part2_LeftCol[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Expenses—Farm Rental Property. Do not include personal or living expenses. 8. Car and truc",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Part2_LeftCol[0].f1_18[0]",

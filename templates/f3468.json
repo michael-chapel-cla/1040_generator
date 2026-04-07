@@ -3,7 +3,7 @@
   "displayName": "Form 3468",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3468.pdf",
-  "generatedAt": "2026-04-07T12:45:14.729Z",
+  "generatedAt": "2026-04-07T12:58:38.372Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -1365,7 +1365,7 @@
       "fieldType": "tax_year",
       "labelHint": "Page 5. Part V I. Energy Credit Under Section 48. Section A—Geothermal Energy Credit (see instructio",
       "required": false,
-      "lineNumber": "1a"
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
@@ -3167,7 +3167,8 @@
       "pdfFieldName": "topmostSubform[0].Page11[0].Line27_ReadOrder[0].f11_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section N—Totals and Credit Reduction for Tax-Exempt Bonds (see instructions). 27. Add Part V I, lin",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page11[0].f11_17[0]",

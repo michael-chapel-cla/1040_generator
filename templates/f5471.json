@@ -3,7 +3,7 @@
   "displayName": "Form 5471",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5471.pdf",
-  "generatedAt": "2026-04-07T12:45:24.997Z",
+  "generatedAt": "2026-04-07T12:58:48.468Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
@@ -241,7 +241,8 @@
       "fieldType": "full_name",
       "labelHint": "H. Person(s) on whose behalf this information return is filed: Row: 1. Column: (1) Name.",
       "required": false,
-      "maxLength": 30
+      "maxLength": 30,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_LineF[0].Row1[0].f1_19[0]",
@@ -557,7 +558,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row1[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule A. Stock of the Foreign Corporation. Row: 1. Column: (a) Description of each class of stock.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_SchA[0].Row1[0].f1_46[0]",
@@ -1129,7 +1131,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].f2_72[0]",
       "fieldType": "full_name",
       "labelHint": "Part I I. Direct Shareholders of Foreign Corporation (see instructions). Row: 1. Column: (a) Name, a",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SchB_PartII[0].Row1[0].Row1b[0].f2_73[0]",
@@ -1832,7 +1835,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row11[0].f3_29[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Deductions. Row: 11. Compensation not deducted elsewhere. Column: Functional Currency.",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row11[0].f3_30[0]",
@@ -1975,7 +1979,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row19[0].f3_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Net Income. Row: 19. Net income or (loss) before unusual or infrequently occurring items, and income",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row19[0].f3_48[0]",
@@ -2044,7 +2049,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23a[0].f3_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Other comprehensive income. Row: 23a. Foreign currency translation adjustments. Column: Functional C",
-      "required": false
+      "required": false,
+      "lineNumber": "23a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_SchC[0].Row23a[0].f3_58[0]",
@@ -2099,7 +2105,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row1[0].f4_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 4. Schedule F. Balance Sheet. Important: Report all amounts in U.S. dollars prepared and translated in accordance with U.S. G A A P. See instructions for an exception for D A S T M corporations. Assets. Row: 1. Cash. Column: (a) Beginning of annual accounting period.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Assets[0].Row1[0].f4_2[0]",
@@ -2378,7 +2385,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row15[0].f4_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Liabilities and Shareholders' Equity. Row: 15. Accounts payable. Column: (a) Beginning of annual accounting period.",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_SchF_Liabilities[0].Row15[0].f4_42[0]",

@@ -3,7 +3,7 @@
   "displayName": "Form 6251",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f6251.pdf",
-  "generatedAt": "2026-04-07T12:45:09.985Z",
+  "generatedAt": "2026-04-07T12:58:33.744Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -536,7 +536,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "If lines 32 and 12 are the same, skip lines 33 through 37 and go to line 38. Otherwise, go to line 3",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_23[0]",
@@ -558,7 +559,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "If line 14 is zero or blank, skip lines 35 through 37 and go to line 38. Otherwise, go to line 35. 3",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",

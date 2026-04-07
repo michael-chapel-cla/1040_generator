@@ -3,7 +3,7 @@
   "displayName": "Form 8300",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8300.pdf",
-  "generatedAt": "2026-04-07T12:45:27.612Z",
+  "generatedAt": "2026-04-07T12:58:51.014Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -155,7 +155,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "last_name",
       "labelHint": "Entry 2. 3. Last name.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
@@ -257,7 +258,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
       "fieldType": "last_name",
       "labelHint": "Part I I. Continued—Complete if box 15 on page 1 is checked. Entry 1. 16. Individual’s last name or ",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line28_ReadOrder[0].Line28_CombField[0].f1_30[0]",
@@ -482,7 +484,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_44[0]",
       "fieldType": "last_name",
       "labelHint": "Entry 2. 16. Individual’s last name or organization’s name.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
@@ -698,7 +701,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f1_15[0]",
       "fieldType": "last_name",
       "labelHint": "Entry 2. 3. Last name.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f1_16[0]",
@@ -800,7 +804,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f1_29[0]",
       "fieldType": "last_name",
       "labelHint": "Part I I. Continued—Complete if box 15 on page 1 is checked. Entry 1. 16. Individual’s last name or ",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f1_30[0]",
@@ -908,7 +913,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f1_44[0]",
       "fieldType": "last_name",
       "labelHint": "Entry 2. 16. Individual’s last name or organization’s name.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f1_45[0]",

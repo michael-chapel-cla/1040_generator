@@ -3,7 +3,7 @@
   "displayName": "Form 1042",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1042.pdf",
-  "generatedAt": "2026-04-07T12:45:24.179Z",
+  "generatedAt": "2026-04-07T12:58:47.671Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -96,7 +96,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Jan1[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section 1. Record of Federal Tax Liability (do not show federal tax deposits here). Row: 1. Jan. 7. ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].JanFebMarApr[0].Jan2[0].f1_13[0]",
@@ -877,7 +878,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section 2. Reconciliation of Payments of U.S. Source F D A P Income. 1. Total U.S. source F D A P in",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_25[0]",

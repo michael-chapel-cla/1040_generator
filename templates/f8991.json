@@ -3,7 +3,7 @@
   "displayName": "Form 8991",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8991.pdf",
-  "generatedAt": "2026-04-07T12:45:26.197Z",
+  "generatedAt": "2026-04-07T12:58:49.628Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
@@ -531,76 +531,88 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: a. Column: (i i). Description of Item.",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_15[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: a. Column: (i i i). Line Item Reported on in Prior Year.",
-      "required": false
+      "required": false,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8a[0].f2_16[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: a. Column: (i v). Tax Year Form 3115 Was Filed.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "8a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: b. Column: (i i). Description of Item.",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_19[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: b. Column: (i i i). Line Item Reported on in Prior Year.",
-      "required": false
+      "required": false,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8b[0].f2_20[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: b. Column: (i v). Tax Year Form 3115 Was Filed.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "8b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: c. Column: (i i). Description of Item.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_23[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: c. Column: (i i i). Line Item Reported on in Prior Year.",
-      "required": false
+      "required": false,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg1Table[0].Line8c[0].f2_24[0]",
       "fieldType": "tax_year",
       "labelHint": "Row: c. Column: (i v). Tax Year Form 3115 Was Filed.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "8c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].BodyRow1[0].f3_1[0]",
@@ -1214,7 +1226,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Row 10. Payments reducing gross receipts made to surrogate foreign corporation. Column: (a-2). Aggre",
       "required": false,
-      "maxLength": 13
+      "maxLength": 13,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].BodyRow10[0].f4_8[0]",
@@ -1594,7 +1607,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 5. Schedule B. Waiver of Deductions (see instructions). Row: 1. Column: (a) Description of item",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].BodyRow1[0].f5_2[0]",
@@ -2586,7 +2600,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I I. B E M T A Determined Without Adjustment for Applicable Section 38 Credits. 12. Base eros",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_13[0]",

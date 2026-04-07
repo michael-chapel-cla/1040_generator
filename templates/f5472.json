@@ -3,7 +3,7 @@
   "displayName": "Form 5472",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5472.pdf",
-  "generatedAt": "2026-04-07T12:45:25.114Z",
+  "generatedAt": "2026-04-07T12:58:48.579Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].f1_1[0]",
@@ -35,7 +35,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_5[0]",
       "fieldType": "full_name",
       "labelHint": "Note: Enter all information in English and money items in U.S. dollars. Part I. Reporting Corporatio",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line1a[0].f1_6[0]",

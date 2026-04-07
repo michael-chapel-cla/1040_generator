@@ -3,7 +3,7 @@
   "displayName": "Form 926",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f926.pdf",
-  "generatedAt": "2026-04-07T12:45:24.075Z",
+  "generatedAt": "2026-04-07T12:58:47.568Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -26,7 +26,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
@@ -36,7 +37,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
@@ -46,7 +48,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
@@ -56,7 +59,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
@@ -66,7 +70,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
@@ -76,85 +81,98 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow1[0].f1_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 1. Controlling shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow1[0].f1_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 1. Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow2[0].f1_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 2. Controlling shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow2[0].f1_6[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 2. Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow3[0].f1_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 3. Controlling shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow3[0].f1_8[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 3. Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow4[0].f1_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 4. Controlling shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow4[0].f1_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 4. Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow5[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 5. Controlling shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow5[0].f1_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 5. Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow6[0].f1_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 6. Controlling shareholder.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow6[0].f1_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2b. Item 6. Identifying number.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[0]",
@@ -164,7 +182,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_4[1]",
@@ -174,20 +193,23 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
       "fieldType": "full_name",
       "labelHint": "Line 2c. Name of parent corporation.",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 2c. E I N of parent corporation.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[0]",
@@ -197,7 +219,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_5[1]",
@@ -207,20 +230,23 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
       "fieldType": "full_name",
       "labelHint": "Line 3a. If the transferor was a partner in a partnership that was the actual transferor (but is not",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 3a. E I N of partnership.",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[0]",
@@ -230,7 +256,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_6[1]",
@@ -240,7 +267,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[0]",
@@ -250,7 +278,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[1]",
@@ -260,7 +289,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[0]",
@@ -270,7 +300,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_8[1]",
@@ -280,44 +311,51 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
       "fieldType": "full_name",
       "labelHint": "Part II. Transferee Foreign Corporation Information (see instructions). Line 4. Name of transferee (",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line4[0].f1_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 5a. Identifying number, if any.",
       "required": false,
-      "maxLength": 11
+      "maxLength": 11,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Line4[0].f1_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 5b. Reference identification number (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 6. Address (including country).",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 7. Country code of country incorporation or organization (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 8. Foreign law characterization (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[0]",
@@ -327,7 +365,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_9[1]",
@@ -337,7 +376,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionATable[0].BodyRow1[0].f2_1[0]",
@@ -359,7 +399,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[1]",
@@ -369,7 +410,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionBTable[0].BodyRow1[0].f2_3[0]",
@@ -739,7 +781,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_2[1]",
@@ -749,7 +792,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[0]",
@@ -759,7 +803,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_3[1]",
@@ -769,7 +814,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[0]",
@@ -779,7 +825,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_4[1]",
@@ -789,7 +836,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[0]",
@@ -799,7 +847,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_5[1]",
@@ -809,13 +858,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 12d. Enter the transferred loss amount included in gross income as required under section 91.",
-      "required": false
+      "required": false,
+      "lineNumber": "12d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",
@@ -825,7 +876,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[1]",
@@ -835,7 +887,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].SectionCTable[0].BodyRow1[0].f2_69[0]",
@@ -1187,7 +1240,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
@@ -1197,7 +1251,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
@@ -1207,7 +1262,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[1]",
@@ -1217,7 +1273,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[0]",
@@ -1227,7 +1284,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_3[1]",
@@ -1237,13 +1295,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "14c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_01[0]",
       "fieldType": "tax_year",
       "labelHint": "Line 14d. If the answer to line 14c is “Yes,” enter the total estimated anticipated income or cost r",
-      "required": false
+      "required": false,
+      "lineNumber": "14d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[0]",
@@ -1253,7 +1313,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_4[1]",
@@ -1263,7 +1324,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_1[0]",
@@ -1323,7 +1385,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
       "fieldType": "percentage",
       "labelHint": "Part IV. Additional Information Regarding Transfer of Property (see instructions). Line 16. Enter th",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_12[0]",
@@ -1335,7 +1398,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_13[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 17. Type of nonrecognition transaction (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[0]",
@@ -1345,7 +1409,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_5[1]",
@@ -1355,7 +1420,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[0]",
@@ -1365,7 +1431,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_6[1]",
@@ -1375,7 +1442,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[0]",
@@ -1385,7 +1453,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_7[1]",
@@ -1395,7 +1464,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_8[0]",
@@ -1405,7 +1475,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_8[1]",
@@ -1415,7 +1486,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "18d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[0]",
@@ -1425,7 +1497,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_9[1]",
@@ -1435,7 +1508,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[0]",
@@ -1445,7 +1519,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_10[1]",
@@ -1455,13 +1530,15 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Line 20b. Enter the total amount of gain or loss recognized pursuant to Regulations section 1.367(e)",
-      "required": false
+      "required": false,
+      "lineNumber": "20b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[0]",
@@ -1471,7 +1548,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_11[1]",
@@ -1481,7 +1559,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "20c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[0]",
@@ -1491,7 +1570,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_12[1]",
@@ -1501,7 +1581,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "21"
     }
   ]
 }

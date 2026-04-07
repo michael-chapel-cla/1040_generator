@@ -3,7 +3,7 @@
   "displayName": "Form 5227",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5227.pdf",
-  "generatedAt": "2026-04-07T12:45:15.321Z",
+  "generatedAt": "2026-04-07T12:58:38.963Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
@@ -246,7 +246,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section B—Capital Gains (Losses). 9. Total short-term capital gain or (loss). Attach Schedule D, Par",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
@@ -280,7 +281,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section C—Nontaxable Income. 14. Tax-exempt interest.",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
@@ -325,7 +327,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section D—Deductions. 17. Interest.",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
@@ -467,7 +470,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I. Schedule of Distributable Income (Section 664 trust only). (See instructions). Acc",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line1[0].f2_2[0]",
@@ -543,7 +547,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line2[0].f2_12[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_13[0]",
@@ -639,7 +644,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_PartII[0].Line3[0].f2_18[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_19[0]",
@@ -914,7 +920,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln1_Row[0].f3_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 3. Part I V. Balance Sheet (see instructions). Assets. Row: 1. Cash—non-interest-bearing. Colum",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Assets[0].Ln1_Row[0].f3_2[0]",
@@ -1402,7 +1409,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln14_Row[0].f3_67[0]",
       "fieldType": "tax_year",
       "labelHint": "Liabilities. Row: 14. Accounts payable and accrued expenses. Column: (a) Beginning-of-Year Book Valu",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-Liabilities[0].Ln14_Row[0].f3_68[0]",
@@ -1561,7 +1569,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln20_Row[0].f3_86[0]",
       "fieldType": "tax_year",
       "labelHint": "Net Assets. Row: 20. Trust principal or corpus. Column: (a) Beginning-of-Year Book Value.",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Part4-NetAssets[0].Ln20_Row[0].f3_87[0]",
@@ -1868,13 +1877,15 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "If the answer is “Yes” on line 1 or line 2, go to line 5a. Otherwise, skip lines 5a through 6b and e",
-      "required": false
+      "required": false,
+      "lineNumber": "5a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "If the answer is “Yes” on line 1, go to line 5b. If the answer is “Yes” on line 2, skip line 5b and ",
-      "required": false
+      "required": false,
+      "lineNumber": "5b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_11[0]",
@@ -1914,7 +1925,8 @@
         },
         "floorAtZero": false,
         "rawLabel": "If lines 6a and 6b are completed, enter the smaller of line 5a or line 6b on line 7. 7. Required uni"
-      }
+      },
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_14[0]",
@@ -2556,7 +2568,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_2[0]",
@@ -2609,7 +2622,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section C—Pooled Income Funds. 6. Enter the amount of contributions received during 2025.",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_4[0]",
@@ -2640,7 +2654,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].c6_5[0]",
@@ -2899,19 +2914,22 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_3[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule A—Distributions, Assets, and Donor Information. Part I. Accumulation Schedule (Section 664 ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1. Total distributable income. Enter the amount from Part I I, line 3. Column: (a) Ordinary inco",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1. Total distributable income. Enter the amount from Part I I, line 3. Column:(b) Capital gain (",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line1[0].f7_6[0]",
@@ -3022,7 +3040,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line2b[0].f7_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_22[0]",
@@ -3108,13 +3127,15 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartI[0].Line3[0].f7_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartII[0].Line1[0].f7_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Simplified Net Investment Income Calculation. Row: 1. Column: (a) Accumulated N I I.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartII[0].Line1[0].f7_29[0]",
@@ -3134,13 +3155,15 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_PartII[0].Line1[0].f7_31[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1a[0].f7_32[0]",
       "fieldType": "full_name",
       "labelHint": "Part I I I. Current Distributions Schedule (Section 664 trust only) (see instructions). Row: 1a. Col",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].PartIII_Table1[0].Row1a[0].f7_33[0]",

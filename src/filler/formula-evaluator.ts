@@ -27,8 +27,10 @@ export function evaluateFormula(
     case "add_list": {
       let sum = 0;
       for (const line of formula.op.operands) {
-        const v = lookup(line);
-        if (v === null) return null; // missing required operand → defer
+        const fieldName = lineIndex.byLine.get(line);
+        if (!fieldName) continue;           // line absent from this form → treat as 0
+        const v = filled.get(fieldName);
+        if (v === undefined) return null;   // line exists but not yet filled → defer
         sum += v;
       }
       result = sum;

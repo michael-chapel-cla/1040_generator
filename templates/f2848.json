@@ -3,7 +3,7 @@
   "displayName": "Form 2848",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2848.pdf",
-  "generatedAt": "2026-04-07T12:45:27.056Z",
+  "generatedAt": "2026-04-07T12:58:50.461Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].CheckForm[0]",
@@ -65,7 +65,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesName1[0]",
       "fieldType": "full_name",
       "labelHint": "hereby appoints the following representative(s) as attorney(s)-in-fact: 2. Representative(s) must si",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].RepresentativesAddress1[0]",

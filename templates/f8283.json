@@ -3,7 +3,7 @@
   "displayName": "Form 8283",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8283.pdf",
-  "generatedAt": "2026-04-07T12:45:10.083Z",
+  "generatedAt": "2026-04-07T12:58:33.837Z",
   "fields": [
     {
       "pdfFieldName": "Form8283[0].Page1[0].f1_1[0]",
@@ -468,43 +468,50 @@
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Row3A[0].f1_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: A. Column: (c) Appraised fair market value.",
-      "required": false
+      "required": false,
+      "lineNumber": "3a"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Line3B[0].f1_45[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: B. Column: (a) Description of donated property (if you need more space, attach a separate statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Line3B[0].f1_46[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: B. Column: (b) If any tangible personal property or real property was donated, give a brief summary of the overall physical condition of the property at the time of the gift.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Line3B[0].f1_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: B. Column: (c) Appraised fair market value.",
-      "required": false
+      "required": false,
+      "lineNumber": "3b"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Line3C[0].f1_48[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: C. Column: (a) Description of donated property (if you need more space, attach a separate statement).",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Line3C[0].f1_49[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: C. Column: (b) If any tangible personal property or real property was donated, give a brief summary of the overall physical condition of the property at the time of the gift.",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsA-C[0].Line3C[0].f1_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row: C. Column: (c) Appraised fair market value.",
-      "required": false
+      "required": false,
+      "lineNumber": "3c"
     },
     {
       "pdfFieldName": "Form8283[0].Page1[0].Table_Line3_ColsD-I[0].Row3A[0].f1_51[0]",

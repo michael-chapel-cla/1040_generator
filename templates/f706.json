@@ -3,7 +3,7 @@
   "displayName": "Form 706",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f706.pdf",
-  "generatedAt": "2026-04-07T12:45:15.594Z",
+  "generatedAt": "2026-04-07T12:58:39.231Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -1720,7 +1720,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line1[0].f4_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part V. Recapitulation. Note. If estimating the value of one or more assets pursuant to the special ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line1[0].f4_3[0]",
@@ -1845,13 +1846,15 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line10[0].f4_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line10[0].f4_21[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable1[0].Line11[0].f4_22[0]",
@@ -1899,7 +1902,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line14[0].f4_28[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Deductions from the applicable schedules of Form 706. Row: 14. Total funeral expenses and expenses i",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].PartVTable2[0].Line15[0].f4_29[0]",
@@ -2112,7 +2116,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_11[0]",
       "fieldType": "full_name",
       "labelHint": "Section D—D S U E Amount Received From Predeceased Spouse(s) (To be completed by the estate of a dec",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_12[0]",
@@ -2169,13 +2174,15 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part1[0].Line1[0].f5_16[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_17[0]",
       "fieldType": "full_name",
       "labelHint": "2 D S U E received from other predeceased spouse(s) and used by decedent: Row: 1. Column: A. Name of",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_SectionD_Part2[0].Line1[0].f5_18[0]",

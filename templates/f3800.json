@@ -3,7 +3,7 @@
   "displayName": "Form 3800",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3800.pdf",
-  "generatedAt": "2026-04-07T12:45:13.714Z",
+  "generatedAt": "2026-04-07T12:58:37.375Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -389,7 +389,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section C—Figuring the Specified Credit Amount Allowed Under Section 38(c)(4). 27. Subtract line 13 ",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_11[0]",
@@ -517,20 +518,23 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_21[0]",
       "fieldType": "tax_year",
       "labelHint": "Section D—Credits Allowed After Limitations. 38. Credit allowed for the current year. Add lines 28 a",
-      "required": false
+      "required": false,
+      "lineNumber": "38"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1a[0].f3_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 3. Part I I I. Current Year General Business Credits (G B Cs) (see instructions). If there is m",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1a[0].f3_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1a[0].f3_3[0]",
@@ -544,7 +548,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1a[0].f3_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1a[0].f3_5[0]",
@@ -601,7 +606,7 @@
       "labelHint": "Dollar Amount",
       "required": false,
       "maxLength": 12,
-      "lineNumber": "1a"
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1b[0].f3_13[0]",
@@ -616,7 +621,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "lineNumber": "1a"
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1b[0].f3_15[0]",
@@ -672,7 +677,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1c[0].f3_23[0]",
@@ -686,7 +692,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1c[0].f3_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1c[0].f3_25[0]",
@@ -742,7 +749,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1d[0].f3_33[0]",
@@ -756,7 +764,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1d[0].f3_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1d[0].f3_35[0]",
@@ -812,7 +821,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1e[0].f3_43[0]",
@@ -826,7 +836,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1e[0].f3_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1e[0].f3_45[0]",
@@ -882,7 +893,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1f[0].f3_53[0]",
@@ -896,7 +908,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1f[0].f3_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1f[0].f3_55[0]",
@@ -952,7 +965,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1g[0].f3_63[0]",
@@ -966,7 +980,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1g[0].f3_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1g[0].f3_65[0]",
@@ -1022,7 +1037,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1h[0].f3_73[0]",
@@ -1036,7 +1052,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1h[0].f3_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1h[0].f3_75[0]",
@@ -1092,7 +1109,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1i[0].f3_83[0]",
@@ -1106,7 +1124,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1i[0].f3_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1i[0].f3_85[0]",
@@ -1162,7 +1181,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1j[0].f3_93[0]",
@@ -1176,7 +1196,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1j[0].f3_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1j[0].f3_95[0]",
@@ -1232,7 +1253,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1k[0].f3_103[0]",
@@ -1246,7 +1268,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1k[0].f3_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1k[0].f3_105[0]",
@@ -1302,7 +1325,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1l[0].f3_113[0]",
@@ -1316,7 +1340,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1l[0].f3_114[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1l[0].f3_115[0]",
@@ -1372,7 +1397,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1m[0].f3_123[0]",
@@ -1386,7 +1412,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1m[0].f3_124[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1m[0].f3_125[0]",
@@ -1442,7 +1469,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1n[0].f3_133[0]",
@@ -1456,7 +1484,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1n[0].f3_134[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1n[0].f3_135[0]",
@@ -1512,7 +1541,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1o[0].f3_143[0]",
@@ -1526,7 +1556,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1o[0].f3_144[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1o[0].f3_145[0]",
@@ -1582,7 +1613,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1p[0].f3_153[0]",
@@ -1596,7 +1628,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1p[0].f3_154[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1p[0].f3_155[0]",
@@ -1652,7 +1685,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1q[0].f3_163[0]",
@@ -1666,7 +1700,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1q[0].f3_164[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1q[0].f3_165[0]",
@@ -1722,7 +1757,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1r[0].f3_173[0]",
@@ -1736,7 +1772,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1r[0].f3_174[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1r[0].f3_175[0]",
@@ -1792,7 +1829,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1s[0].f3_183[0]",
@@ -1806,7 +1844,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1s[0].f3_184[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1s[0].f3_185[0]",
@@ -1862,7 +1901,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1t[0].f3_193[0]",
@@ -1876,7 +1916,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1t[0].f3_194[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1t[0].f3_195[0]",
@@ -1932,7 +1973,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1u"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1u[0].f3_203[0]",
@@ -1946,7 +1988,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1u[0].f3_204[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1u"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1u[0].f3_205[0]",
@@ -2002,7 +2045,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1v"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1v[0].f3_213[0]",
@@ -2016,7 +2060,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1v[0].f3_214[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1v"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1v[0].f3_215[0]",
@@ -2072,7 +2117,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1w"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1w[0].f3_223[0]",
@@ -2086,7 +2132,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1w[0].f3_224[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1w"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1w[0].f3_225[0]",
@@ -2142,7 +2189,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1x"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1x[0].f3_233[0]",
@@ -2156,7 +2204,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1x[0].f3_234[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1x"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1x[0].f3_235[0]",
@@ -2212,7 +2261,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1y[0].f3_243[0]",
@@ -2226,7 +2276,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1y[0].f3_244[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1y[0].f3_245[0]",
@@ -2282,7 +2333,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1z[0].f3_253[0]",
@@ -2296,7 +2348,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1z[0].f3_254[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line1z[0].f3_255[0]",
@@ -2972,7 +3025,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line2[0].f3_363[0]",
@@ -2986,7 +3040,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line2[0].f3_364[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Pg3Table[0].Line2[0].f3_365[0]",
@@ -3034,14 +3089,16 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line3[0].f4_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 4. Part I I I. Current Year General Business Credits (G B Cs) (see instructions). If there is m",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line3[0].f4_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line3[0].f4_3[0]",
@@ -3055,7 +3112,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line3[0].f4_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line3[0].f4_5[0]",
@@ -3111,7 +3169,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4a[0].f4_13[0]",
@@ -3125,7 +3184,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4a[0].f4_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4a[0].f4_15[0]",
@@ -3182,7 +3242,7 @@
       "labelHint": "Dollar Amount",
       "required": false,
       "maxLength": 12,
-      "lineNumber": "4a"
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4b[0].f4_23[0]",
@@ -3197,7 +3257,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "lineNumber": "4a"
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4b[0].f4_25[0]",
@@ -3253,7 +3313,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4c[0].f4_33[0]",
@@ -3267,7 +3328,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4c[0].f4_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4c[0].f4_35[0]",
@@ -3323,7 +3385,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4d[0].f4_43[0]",
@@ -3337,7 +3400,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4d[0].f4_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4d[0].f4_45[0]",
@@ -3393,7 +3457,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4e[0].f4_53[0]",
@@ -3407,7 +3472,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4e[0].f4_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4e[0].f4_55[0]",
@@ -3463,7 +3529,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4f[0].f4_63[0]",
@@ -3477,7 +3544,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4f[0].f4_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4f[0].f4_65[0]",
@@ -3533,7 +3601,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4g[0].f4_73[0]",
@@ -3547,7 +3616,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4g[0].f4_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4g[0].f4_75[0]",
@@ -3603,7 +3673,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4h[0].f4_83[0]",
@@ -3617,7 +3688,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4h[0].f4_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4h[0].f4_85[0]",
@@ -3673,7 +3745,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4i[0].f4_93[0]",
@@ -3687,7 +3760,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4i[0].f4_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4i[0].f4_95[0]",
@@ -3743,7 +3817,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4j[0].f4_103[0]",
@@ -3757,7 +3832,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4j[0].f4_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4j[0].f4_105[0]",
@@ -3813,7 +3889,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4k[0].f4_113[0]",
@@ -3827,7 +3904,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4k[0].f4_114[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4k[0].f4_115[0]",
@@ -3883,7 +3961,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4l[0].f4_123[0]",
@@ -3897,7 +3976,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4l[0].f4_124[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4l[0].f4_125[0]",
@@ -3953,7 +4033,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4m[0].f4_133[0]",
@@ -3967,7 +4048,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4m[0].f4_134[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4m[0].f4_135[0]",
@@ -4023,7 +4105,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "4z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4z[0].f4_143[0]",
@@ -4037,7 +4120,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4z[0].f4_144[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line4z[0].f4_145[0]",
@@ -4093,7 +4177,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line5[0].f4_153[0]",
@@ -4107,7 +4192,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line5[0].f4_154[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line5[0].f4_155[0]",
@@ -4175,7 +4261,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line6[0].f4_163[0]",
@@ -4201,7 +4288,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line6[0].f4_164[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Pg4Table[0].Line6[0].f4_165[0]",
@@ -4321,7 +4409,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1a[0].f5_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 5. Part I V. Carryovers of General Business Credits (G B Cs) (see instructions). Row: 1a. Form ",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1a[0].f5_2[0]",
@@ -4336,7 +4425,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1a[0].f5_4[0]",
@@ -4349,7 +4439,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1a[0].f5_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1a[0].f5_6[0]",
@@ -4400,7 +4491,7 @@
       "labelHint": "Dollar Amount",
       "required": false,
       "maxLength": 10,
-      "lineNumber": "1a"
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1b[0].f5_13[0]",
@@ -4414,7 +4505,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "lineNumber": "1a"
+      "lineNumber": "1b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1b[0].f5_15[0]",
@@ -4464,7 +4555,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1c[0].f5_22[0]",
@@ -4477,7 +4569,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1c[0].f5_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1c[0].f5_24[0]",
@@ -4527,7 +4620,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1d[0].f5_31[0]",
@@ -4540,7 +4634,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1d[0].f5_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1d[0].f5_33[0]",
@@ -4590,7 +4685,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1e[0].f5_40[0]",
@@ -4603,7 +4699,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1e[0].f5_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1e[0].f5_42[0]",
@@ -4653,7 +4750,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1f[0].f5_49[0]",
@@ -4666,7 +4764,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1f[0].f5_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1f[0].f5_51[0]",
@@ -4716,7 +4815,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1g[0].f5_58[0]",
@@ -4729,7 +4829,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1g[0].f5_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1g[0].f5_60[0]",
@@ -4763,57 +4864,66 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1h: Form 8820. Column: (a) No. of items.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_65[0]",
       "fieldType": "tax_year",
       "labelHint": "Row 1h: Form 8820. Column: (b) Originating tax year.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_66[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1h: Form 8820. Column: Carryover. Subject to the passive activity limits. (d) Before the passive activity limitations.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_69[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1h: Form 8820. Column: Carryover. (f) Not subject to passive activity limits.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_70[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1h: Form 8820. Column: Carryover. (g) Amount of columns (e) and (f) applied against tax in Part ",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_71[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1h: Form 8820. Column: (h) Amount of columns (e) and (f) recaptured or otherwise adjusted.",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1h[0].f5_72[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Row 1h: Form 8820. Column: (i) Carryforward to 2026. Subtract the sum of columns (g) and (h) from the sum of columns (e) and (f).",
-      "required": false
+      "required": false,
+      "lineNumber": "1h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1i[0].f5_73[0]",
@@ -4835,7 +4945,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1i[0].f5_76[0]",
@@ -4848,7 +4959,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1i[0].f5_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1i[0].f5_78[0]",
@@ -4898,7 +5010,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1j[0].f5_85[0]",
@@ -4911,7 +5024,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1j[0].f5_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1j[0].f5_87[0]",
@@ -4961,7 +5075,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1k[0].f5_94[0]",
@@ -4974,7 +5089,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1k[0].f5_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1k[0].f5_96[0]",
@@ -5024,7 +5140,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1l[0].f5_103[0]",
@@ -5037,7 +5154,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1l[0].f5_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1l[0].f5_105[0]",
@@ -5087,7 +5205,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1m[0].f5_112[0]",
@@ -5100,7 +5219,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1m[0].f5_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1m[0].f5_114[0]",
@@ -5150,7 +5270,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1n[0].f5_121[0]",
@@ -5163,7 +5284,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1n[0].f5_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1n[0].f5_123[0]",
@@ -5213,7 +5335,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1o[0].f5_130[0]",
@@ -5226,7 +5349,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1o[0].f5_131[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1o[0].f5_132[0]",
@@ -5276,7 +5400,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1p[0].f5_139[0]",
@@ -5289,7 +5414,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1p[0].f5_140[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1p[0].f5_141[0]",
@@ -5339,7 +5465,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1q[0].f5_148[0]",
@@ -5352,7 +5479,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1q[0].f5_149[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1q[0].f5_150[0]",
@@ -5402,7 +5530,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1r[0].f5_157[0]",
@@ -5415,7 +5544,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1r[0].f5_158[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1r[0].f5_159[0]",
@@ -5465,7 +5595,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1s[0].f5_166[0]",
@@ -5478,7 +5609,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1s[0].f5_167[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1s[0].f5_168[0]",
@@ -5528,7 +5660,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1t[0].f5_175[0]",
@@ -5541,7 +5674,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1t[0].f5_176[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1t[0].f5_177[0]",
@@ -5591,7 +5725,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1u"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1u[0].f5_184[0]",
@@ -5604,7 +5739,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1u[0].f5_185[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1u"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1u[0].f5_186[0]",
@@ -5654,7 +5790,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1v"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1v[0].f5_193[0]",
@@ -5667,7 +5804,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1v[0].f5_194[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1v"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1v[0].f5_195[0]",
@@ -5717,7 +5855,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1w"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1w[0].f5_202[0]",
@@ -5730,7 +5869,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1w[0].f5_203[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1w"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1w[0].f5_204[0]",
@@ -5780,7 +5920,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1x"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1x[0].f5_211[0]",
@@ -5793,7 +5934,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1x[0].f5_212[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1x"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1x[0].f5_213[0]",
@@ -5843,7 +5985,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1y[0].f5_220[0]",
@@ -5856,7 +5999,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1y[0].f5_221[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1y[0].f5_222[0]",
@@ -5906,7 +6050,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1z[0].f5_229[0]",
@@ -5919,7 +6064,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1z[0].f5_230[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Pg5Table[0].Line1z[0].f5_231[0]",
@@ -6569,7 +6715,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2a[0].f6_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 6. Part I V. Carryovers of General Business Credits (G B Cs) (see instructions) (continued). Ro",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2a[0].f6_2[0]",
@@ -6584,7 +6731,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2a[0].f6_4[0]",
@@ -6597,7 +6745,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2a[0].f6_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2a[0].f6_6[0]",
@@ -6648,7 +6797,7 @@
       "labelHint": "Dollar Amount",
       "required": false,
       "maxLength": 10,
-      "lineNumber": "2a"
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2b[0].f6_13[0]",
@@ -6662,7 +6811,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "lineNumber": "2a"
+      "lineNumber": "2b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2b[0].f6_15[0]",
@@ -6712,7 +6861,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2c[0].f6_22[0]",
@@ -6725,7 +6875,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2c[0].f6_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2c[0].f6_24[0]",
@@ -6775,7 +6926,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2d[0].f6_31[0]",
@@ -6788,7 +6940,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2d[0].f6_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2d[0].f6_33[0]",
@@ -6838,7 +6991,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2e[0].f6_40[0]",
@@ -6851,7 +7005,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2e[0].f6_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2e[0].f6_42[0]",
@@ -6901,7 +7056,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2f[0].f6_49[0]",
@@ -6914,7 +7070,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2f[0].f6_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2f[0].f6_51[0]",
@@ -6964,7 +7121,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2g[0].f6_58[0]",
@@ -6977,7 +7135,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2g[0].f6_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2g[0].f6_60[0]",
@@ -7027,7 +7186,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2h[0].f6_67[0]",
@@ -7040,7 +7200,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2h[0].f6_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2h[0].f6_69[0]",
@@ -7090,7 +7251,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2i[0].f6_76[0]",
@@ -7103,7 +7265,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2i[0].f6_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2i[0].f6_78[0]",
@@ -7153,7 +7316,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2j[0].f6_85[0]",
@@ -7166,7 +7330,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2j[0].f6_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2j[0].f6_87[0]",
@@ -7216,7 +7381,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2k[0].f6_94[0]",
@@ -7229,7 +7395,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2k[0].f6_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2k[0].f6_96[0]",
@@ -7279,7 +7446,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2l[0].f6_103[0]",
@@ -7292,7 +7460,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2l[0].f6_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2l[0].f6_105[0]",
@@ -7342,7 +7511,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2m[0].f6_112[0]",
@@ -7355,7 +7525,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2m[0].f6_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2m[0].f6_114[0]",
@@ -7405,7 +7576,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2n[0].f6_121[0]",
@@ -7418,7 +7590,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2n[0].f6_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2n"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2n[0].f6_123[0]",
@@ -7468,7 +7641,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2o[0].f6_130[0]",
@@ -7481,7 +7655,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2o[0].f6_131[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2o"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2o[0].f6_132[0]",
@@ -7531,7 +7706,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2p[0].f6_139[0]",
@@ -7544,7 +7720,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2p[0].f6_140[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2p"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2p[0].f6_141[0]",
@@ -7594,7 +7771,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2q[0].f6_148[0]",
@@ -7607,7 +7785,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2q[0].f6_149[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2q"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2q[0].f6_150[0]",
@@ -7657,7 +7836,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2r[0].f6_157[0]",
@@ -7670,7 +7850,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2r[0].f6_158[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2r"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2r[0].f6_159[0]",
@@ -7720,7 +7901,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2s[0].f6_166[0]",
@@ -7733,7 +7915,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2s[0].f6_167[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2s"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2s[0].f6_168[0]",
@@ -7783,7 +7966,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2t[0].f6_175[0]",
@@ -7796,7 +7980,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2t[0].f6_176[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2t"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2t[0].f6_177[0]",
@@ -7846,7 +8031,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2u"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2u[0].f6_184[0]",
@@ -7859,7 +8045,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2u[0].f6_185[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2u"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2u[0].f6_186[0]",
@@ -7909,7 +8096,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2v"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2v[0].f6_193[0]",
@@ -7922,7 +8110,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2v[0].f6_194[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2v"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2v[0].f6_195[0]",
@@ -7972,7 +8161,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2w"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2w[0].f6_202[0]",
@@ -7985,7 +8175,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2w[0].f6_203[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2w"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2w[0].f6_204[0]",
@@ -8035,7 +8226,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2x"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2x[0].f6_211[0]",
@@ -8048,7 +8240,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2x[0].f6_212[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2x"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2x[0].f6_213[0]",
@@ -8098,7 +8291,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2y[0].f6_220[0]",
@@ -8111,7 +8305,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2y[0].f6_221[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2y[0].f6_222[0]",
@@ -8161,7 +8356,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2z[0].f6_229[0]",
@@ -8174,7 +8370,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2z[0].f6_230[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line2z[0].f6_231[0]",
@@ -8280,7 +8477,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line3[0].f6_247[0]",
@@ -8293,7 +8491,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line3[0].f6_248[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Pg6Table[0].Line3[0].f6_249[0]",
@@ -8327,7 +8526,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4a[0].f7_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 7. Part I V. Carryovers of General Business Credits (G B Cs) (see instructions) (continued). Ro",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4a[0].f7_2[0]",
@@ -8342,7 +8542,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4a[0].f7_4[0]",
@@ -8355,7 +8556,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4a[0].f7_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4a[0].f7_6[0]",
@@ -8406,7 +8608,7 @@
       "labelHint": "Dollar Amount",
       "required": false,
       "maxLength": 10,
-      "lineNumber": "4a"
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4b[0].f7_13[0]",
@@ -8420,7 +8622,7 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "lineNumber": "4a"
+      "lineNumber": "4b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4b[0].f7_15[0]",
@@ -8470,7 +8672,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4c[0].f7_22[0]",
@@ -8483,7 +8686,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4c[0].f7_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4c"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4c[0].f7_24[0]",
@@ -8533,7 +8737,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4d[0].f7_31[0]",
@@ -8546,7 +8751,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4d[0].f7_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4d"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4d[0].f7_33[0]",
@@ -8596,7 +8802,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4e[0].f7_40[0]",
@@ -8609,7 +8816,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4e[0].f7_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4e"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4e[0].f7_42[0]",
@@ -8659,7 +8867,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4f[0].f7_49[0]",
@@ -8672,7 +8881,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4f[0].f7_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4f[0].f7_51[0]",
@@ -8722,7 +8932,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4g[0].f7_58[0]",
@@ -8735,7 +8946,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4g[0].f7_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4g"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4g[0].f7_60[0]",
@@ -8785,7 +8997,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4h[0].f7_67[0]",
@@ -8798,7 +9011,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4h[0].f7_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4h"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4h[0].f7_69[0]",
@@ -8848,7 +9062,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4i[0].f7_76[0]",
@@ -8861,7 +9076,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4i[0].f7_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4i"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4i[0].f7_78[0]",
@@ -8911,7 +9127,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4j[0].f7_85[0]",
@@ -8924,7 +9141,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4j[0].f7_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4j"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4j[0].f7_87[0]",
@@ -8974,7 +9192,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4k[0].f7_94[0]",
@@ -8987,7 +9206,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4k[0].f7_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4k"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4k[0].f7_96[0]",
@@ -9037,7 +9257,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4l[0].f7_103[0]",
@@ -9050,7 +9271,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4l[0].f7_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4l"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4l[0].f7_105[0]",
@@ -9100,7 +9322,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4m[0].f7_112[0]",
@@ -9113,7 +9336,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4m[0].f7_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4m"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4m[0].f7_114[0]",
@@ -9163,7 +9387,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4y[0].f7_121[0]",
@@ -9176,7 +9401,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4y[0].f7_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4y"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4y[0].f7_123[0]",
@@ -9226,7 +9452,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4z[0].f7_130[0]",
@@ -9239,7 +9466,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4z[0].f7_131[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4z"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line4z[0].f7_132[0]",
@@ -9289,7 +9517,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line5[0].f7_139[0]",
@@ -9302,7 +9531,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line5[0].f7_140[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line5[0].f7_141[0]",
@@ -9370,7 +9600,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line6[0].f7_148[0]",
@@ -9392,7 +9623,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line6[0].f7_149[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line6[0].f7_150[0]",
@@ -9502,7 +9734,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line7[0].f7_157[0]",
@@ -9527,7 +9760,8 @@
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line7[0].f7_158[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Pg7Table[0].Line7[0].f7_159[0]",
@@ -9609,7 +9843,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line1[0].f8_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 8. Part V. Breakdown of Aggregate Amounts on Part I I I for Facility-by-Facility, Multiple Pass-Through Entities, etc. Row: 1. Column: (a) Part I I I line number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line1[0].f8_2[0]",
@@ -9623,14 +9858,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line1[0].f8_4[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line1[0].f8_5[0]",
@@ -9650,7 +9887,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line1[0].f8_7[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line1[0].f8_8[0]",
@@ -9692,14 +9930,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line2[0].f8_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line2[0].f8_15[0]",
@@ -9719,7 +9959,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line2[0].f8_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line2[0].f8_18[0]",
@@ -9761,14 +10002,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line3[0].f8_24[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line3[0].f8_25[0]",
@@ -9788,7 +10031,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line3[0].f8_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line3[0].f8_28[0]",
@@ -9830,14 +10074,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line4[0].f8_34[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line4[0].f8_35[0]",
@@ -9857,7 +10103,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line4[0].f8_37[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line4[0].f8_38[0]",
@@ -9899,14 +10146,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line5[0].f8_44[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line5[0].f8_45[0]",
@@ -9926,7 +10175,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line5[0].f8_47[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line5[0].f8_48[0]",
@@ -9968,14 +10218,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line6[0].f8_54[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line6[0].f8_55[0]",
@@ -9995,7 +10247,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line6[0].f8_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line6[0].f8_58[0]",
@@ -10037,14 +10290,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line7[0].f8_64[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line7[0].f8_65[0]",
@@ -10064,7 +10319,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line7[0].f8_67[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line7[0].f8_68[0]",
@@ -10106,14 +10362,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line8[0].f8_74[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line8[0].f8_75[0]",
@@ -10133,7 +10391,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line8[0].f8_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line8[0].f8_78[0]",
@@ -10175,14 +10434,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line9[0].f8_84[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line9[0].f8_85[0]",
@@ -10202,7 +10463,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line9[0].f8_87[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line9[0].f8_88[0]",
@@ -10244,14 +10506,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line10[0].f8_94[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line10[0].f8_95[0]",
@@ -10271,7 +10535,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line10[0].f8_97[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line10[0].f8_98[0]",
@@ -10313,14 +10578,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line11[0].f8_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line11[0].f8_105[0]",
@@ -10340,7 +10607,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line11[0].f8_107[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line11[0].f8_108[0]",
@@ -10382,14 +10650,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line12[0].f8_114[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line12[0].f8_115[0]",
@@ -10409,7 +10679,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line12[0].f8_117[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line12[0].f8_118[0]",
@@ -10451,14 +10722,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line13[0].f8_124[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line13[0].f8_125[0]",
@@ -10478,7 +10751,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line13[0].f8_127[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line13[0].f8_128[0]",
@@ -10520,14 +10794,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line14[0].f8_134[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line14[0].f8_135[0]",
@@ -10547,7 +10823,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line14[0].f8_137[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line14[0].f8_138[0]",
@@ -10589,14 +10866,16 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line15[0].f8_144[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line15[0].f8_145[0]",
@@ -10616,7 +10895,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line15[0].f8_147[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_1[0].Line15[0].f8_148[0]",
@@ -10657,13 +10937,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line1[0].f8_153[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line1[0].f8_154[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line1[0].f8_155[0]",
@@ -10711,13 +10993,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line2[0].f8_161[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line2[0].f8_162[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line2[0].f8_163[0]",
@@ -10765,13 +11049,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line3[0].f8_169[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line3[0].f8_170[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line3[0].f8_171[0]",
@@ -10819,13 +11105,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line4[0].f8_177[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line4[0].f8_178[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line4[0].f8_179[0]",
@@ -10873,13 +11161,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line5[0].f8_185[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line5[0].f8_186[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line5[0].f8_187[0]",
@@ -10927,13 +11217,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line6[0].f8_193[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line6[0].f8_194[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line6[0].f8_195[0]",
@@ -10981,13 +11273,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line7[0].f8_201[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line7[0].f8_202[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line7[0].f8_203[0]",
@@ -11035,13 +11329,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line8[0].f8_209[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line8[0].f8_210[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line8[0].f8_211[0]",
@@ -11089,13 +11385,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line9[0].f8_217[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line9[0].f8_218[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line9[0].f8_219[0]",
@@ -11143,13 +11441,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line10[0].f8_225[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line10[0].f8_226[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line10[0].f8_227[0]",
@@ -11197,13 +11497,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line11[0].f8_233[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line11[0].f8_234[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line11[0].f8_235[0]",
@@ -11251,13 +11553,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line12[0].f8_241[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line12[0].f8_242[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line12[0].f8_243[0]",
@@ -11305,13 +11609,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line13[0].f8_249[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line13[0].f8_250[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line13[0].f8_251[0]",
@@ -11359,13 +11665,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line14[0].f8_257[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line14[0].f8_258[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line14[0].f8_259[0]",
@@ -11413,13 +11721,15 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line15[0].f8_265[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line15[0].f8_266[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Pg8Table_2[0].Line15[0].f8_267[0]",
@@ -11453,7 +11763,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line1[0].f9_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 9. Part V I. Breakdown of Aggregate Amounts in Part I V (see instructions). Row: 1. Column: (a) Line number from Part I V.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line1[0].f9_2[0]",
@@ -11468,7 +11779,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line1[0].f9_4[0]",
@@ -11481,7 +11793,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line1[0].f9_5[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line1[0].f9_6[0]",
@@ -11531,7 +11844,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line2[0].f9_13[0]",
@@ -11544,7 +11858,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line2[0].f9_14[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line2[0].f9_15[0]",
@@ -11594,7 +11909,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line3[0].f9_22[0]",
@@ -11607,7 +11923,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line3[0].f9_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line3[0].f9_24[0]",
@@ -11657,7 +11974,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line4[0].f9_31[0]",
@@ -11670,7 +11988,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line4[0].f9_32[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line4[0].f9_33[0]",
@@ -11720,7 +12039,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line5[0].f9_40[0]",
@@ -11733,7 +12053,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line5[0].f9_41[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "5"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line5[0].f9_42[0]",
@@ -11783,7 +12104,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line6[0].f9_49[0]",
@@ -11796,7 +12118,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line6[0].f9_50[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line6[0].f9_51[0]",
@@ -11846,7 +12169,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line7[0].f9_58[0]",
@@ -11859,7 +12183,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line7[0].f9_59[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line7[0].f9_60[0]",
@@ -11909,7 +12234,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line8[0].f9_67[0]",
@@ -11922,7 +12248,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line8[0].f9_68[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line8[0].f9_69[0]",
@@ -11972,7 +12299,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line9[0].f9_76[0]",
@@ -11985,7 +12313,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line9[0].f9_77[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line9[0].f9_78[0]",
@@ -12035,7 +12364,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line10[0].f9_85[0]",
@@ -12048,7 +12378,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line10[0].f9_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line10[0].f9_87[0]",
@@ -12098,7 +12429,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line11[0].f9_94[0]",
@@ -12111,7 +12443,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line11[0].f9_95[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line11[0].f9_96[0]",
@@ -12161,7 +12494,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line12[0].f9_103[0]",
@@ -12174,7 +12508,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line12[0].f9_104[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line12[0].f9_105[0]",
@@ -12224,7 +12559,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line13[0].f9_112[0]",
@@ -12237,7 +12573,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line13[0].f9_113[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line13[0].f9_114[0]",
@@ -12287,7 +12624,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line14[0].f9_121[0]",
@@ -12300,7 +12638,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line14[0].f9_122[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "14"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line14[0].f9_123[0]",
@@ -12350,7 +12689,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line15[0].f9_130[0]",
@@ -12363,7 +12703,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line15[0].f9_131[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "15"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line15[0].f9_132[0]",
@@ -12413,7 +12754,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line16[0].f9_139[0]",
@@ -12426,7 +12768,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line16[0].f9_140[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line16[0].f9_141[0]",
@@ -12476,7 +12819,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line17[0].f9_148[0]",
@@ -12489,7 +12833,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line17[0].f9_149[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "17"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line17[0].f9_150[0]",
@@ -12539,7 +12884,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line18[0].f9_157[0]",
@@ -12552,7 +12898,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line18[0].f9_158[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "18"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line18[0].f9_159[0]",
@@ -12602,7 +12949,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line19[0].f9_166[0]",
@@ -12615,7 +12963,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line19[0].f9_167[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "19"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line19[0].f9_168[0]",
@@ -12665,7 +13014,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line20[0].f9_175[0]",
@@ -12678,7 +13028,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line20[0].f9_176[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "20"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line20[0].f9_177[0]",
@@ -12728,7 +13079,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line21[0].f9_184[0]",
@@ -12741,7 +13093,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line21[0].f9_185[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "21"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line21[0].f9_186[0]",
@@ -12791,7 +13144,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line22[0].f9_193[0]",
@@ -12804,7 +13158,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line22[0].f9_194[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "22"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line22[0].f9_195[0]",
@@ -12854,7 +13209,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line23[0].f9_202[0]",
@@ -12867,7 +13223,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line23[0].f9_203[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line23[0].f9_204[0]",
@@ -12917,7 +13274,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line24[0].f9_211[0]",
@@ -12930,7 +13288,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line24[0].f9_212[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "24"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line24[0].f9_213[0]",
@@ -12980,7 +13339,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line25[0].f9_220[0]",
@@ -12993,7 +13353,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line25[0].f9_221[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "25"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line25[0].f9_222[0]",
@@ -13043,7 +13404,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line26[0].f9_229[0]",
@@ -13056,7 +13418,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line26[0].f9_230[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "26"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line26[0].f9_231[0]",
@@ -13106,7 +13469,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line27[0].f9_238[0]",
@@ -13119,7 +13483,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line27[0].f9_239[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "27"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line27[0].f9_240[0]",
@@ -13169,7 +13534,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line28[0].f9_247[0]",
@@ -13182,7 +13548,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line28[0].f9_248[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line28[0].f9_249[0]",
@@ -13232,7 +13599,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line29[0].f9_256[0]",
@@ -13245,7 +13613,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line29[0].f9_257[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "29"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line29[0].f9_258[0]",
@@ -13295,7 +13664,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line30[0].f9_265[0]",
@@ -13308,7 +13678,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line30[0].f9_266[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line30[0].f9_267[0]",
@@ -13358,7 +13729,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line31[0].f9_274[0]",
@@ -13371,7 +13743,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line31[0].f9_275[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line31[0].f9_276[0]",
@@ -13421,7 +13794,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line32[0].f9_283[0]",
@@ -13434,7 +13808,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line32[0].f9_284[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "32"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line32[0].f9_285[0]",
@@ -13484,7 +13859,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line33[0].f9_292[0]",
@@ -13497,7 +13873,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line33[0].f9_293[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "33"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line33[0].f9_294[0]",
@@ -13547,7 +13924,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line34[0].f9_301[0]",
@@ -13560,7 +13938,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line34[0].f9_302[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "34"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line34[0].f9_303[0]",
@@ -13610,7 +13989,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line35[0].f9_310[0]",
@@ -13623,7 +14003,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line35[0].f9_311[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Dollar Amount",
-      "required": false
+      "required": false,
+      "lineNumber": "35"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Pg9Table[0].Line35[0].f9_312[0]",

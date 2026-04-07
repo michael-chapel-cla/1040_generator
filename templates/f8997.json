@@ -3,7 +3,7 @@
   "displayName": "Form 8997",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8997.pdf",
-  "generatedAt": "2026-04-07T12:45:11.149Z",
+  "generatedAt": "2026-04-07T12:58:34.878Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -270,7 +270,8 @@
       "fieldType": "tax_year",
       "labelHint": "Part I I. Current Tax Year Capital Gains Deferred by Investing in Q O F. Row: 1. Column: (a) Q O F E",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_38[0]",
@@ -814,7 +815,8 @@
       "fieldType": "tax_year",
       "labelHint": "Part I V. Total Q O F Investments Due to Deferrals at Year End (see instructions). Row: 1. Column: (",
       "required": false,
-      "maxLength": 10
+      "maxLength": 10,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_36[0]",

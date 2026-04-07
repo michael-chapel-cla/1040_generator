@@ -3,7 +3,7 @@
   "displayName": "Form 2555",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2555.pdf",
-  "generatedAt": "2026-04-07T12:45:09.227Z",
+  "generatedAt": "2026-04-07T12:58:32.984Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -627,7 +627,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I I. Taxpayers Qualifying Under Physical Presence Test. Note: U.S. citizens and all resident aliens can use this test. See instructions. 16. The physical presence test is based on the 12-month period from.",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_2[0]",
@@ -1057,7 +1058,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Line28TagCorrectingSubform[0].f3_2[0]",
       "fieldType": "tax_year",
       "labelHint": "Part V I. Taxpayers Claiming the Housing Exclusion and/or Deduction. 28. Qualified housing expenses ",
-      "required": false
+      "required": false,
+      "lineNumber": "28"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_3[0]",

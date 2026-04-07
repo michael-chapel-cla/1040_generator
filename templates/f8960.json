@@ -3,7 +3,7 @@
   "displayName": "Form 8960",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8960.pdf",
-  "generatedAt": "2026-04-07T12:45:10.810Z",
+  "generatedAt": "2026-04-07T12:58:34.547Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -215,7 +215,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Individuals: 13. Modified adjusted gross income (see instructions).",
-      "required": false
+      "required": false,
+      "lineNumber": "13"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",

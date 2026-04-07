@@ -3,7 +3,7 @@
   "displayName": "Schedule F",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sf.pdf",
-  "generatedAt": "2026-04-07T12:45:08.703Z",
+  "generatedAt": "2026-04-07T12:58:32.463Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -260,7 +260,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Farm Expenses—Cash and Accrual Method. Do not include personal or living expenses. See instructions. 10. Car and truck expenses (see instructions). Also attach Form 4562.",
-      "required": false
+      "required": false,
+      "lineNumber": "10"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines10-22[0].f1_24[0]",
@@ -563,7 +564,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Part I I I. Farm Income—Accrual Method (see instructions). 37. Sales of livestock, produce, ",
-      "required": false
+      "required": false,
+      "lineNumber": "37"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Line38a_ReadOrder[0].f2_2[0]",

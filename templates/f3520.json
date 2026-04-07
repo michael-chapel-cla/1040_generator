@@ -3,7 +3,7 @@
   "displayName": "Form 3520",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3520.pdf",
-  "generatedAt": "2026-04-07T12:45:24.521Z",
+  "generatedAt": "2026-04-07T12:58:48.009Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -2041,7 +2041,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_1[0]",
       "fieldType": "full_name",
       "labelHint": "Page 4. Part I I. U.S. Owner of a Foreign Trust (see instructions). 20. Row: 1. Column: (a) Name of ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_2[0]",
@@ -3102,7 +3103,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule A—Default Calculation of Trust Distributions (see instructions). 31. Enter amount from line",
-      "required": false
+      "required": false,
+      "lineNumber": "31"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
@@ -3184,7 +3186,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_9[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule B—Actual Calculation of Trust Distributions (see instructions). 39. Enter amount from line ",
-      "required": false
+      "required": false,
+      "lineNumber": "39"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_10[0]",
@@ -3290,7 +3293,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_23[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule C—Calculation of Interest Charge (see instructions). 48. Enter accumulation distribution fr",
-      "required": false
+      "required": false,
+      "lineNumber": "48"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_24[0]",

@@ -3,7 +3,7 @@
   "displayName": "Schedule C",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sc.pdf",
-  "generatedAt": "2026-04-07T12:45:08.448Z",
+  "generatedAt": "2026-04-07T12:58:32.208Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -254,7 +254,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_17[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I I. Expenses. Enter expenses for business use of your home only on line 30. 8. Advertising.",
-      "required": false
+      "required": false,
+      "lineNumber": "8"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Lines8-17[0].f1_18[0]",
@@ -494,7 +495,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "32b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_7[1]",
@@ -504,7 +506,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "32b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_1[0]",
@@ -771,7 +774,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item1[0].f2_15[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part V. Other Expenses. List below business expenses not included on lines 8-27a, or line 30. 1. Bus",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].PartVTable[0].Item1[0].f2_16[0]",

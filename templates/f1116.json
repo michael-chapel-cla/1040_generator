@@ -3,7 +3,7 @@
   "displayName": "Form 1116",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1116.pdf",
-  "generatedAt": "2026-04-07T12:45:11.231Z",
+  "generatedAt": "2026-04-07T12:58:34.958Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -161,7 +161,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line2[0].f1_14[0]",
       "fieldType": "country",
       "labelHint": "Deductions and losses (Caution: See instructions.): Row: 2. Expenses definitely related to the incom",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1_Lines2-6[0].Line2[0].f1_15[0]",

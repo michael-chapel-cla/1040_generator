@@ -3,7 +3,7 @@
   "displayName": "Form 1040-NR",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040nr.pdf",
-  "generatedAt": "2026-04-07T12:45:07.749Z",
+  "generatedAt": "2026-04-07T12:58:31.524Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -392,7 +392,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row5[0].c1_9[0]",
@@ -402,7 +403,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row5[0].c1_10[0]",
@@ -412,7 +414,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row5[0].c1_11[0]",
@@ -422,7 +425,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent1[0].c1_12[0]",
@@ -432,7 +436,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent1[0].c1_12[1]",
@@ -442,7 +447,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent2[0].c1_13[0]",
@@ -452,7 +458,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent2[0].c1_13[1]",
@@ -462,7 +469,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent3[0].c1_14[0]",
@@ -472,7 +480,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent3[0].c1_14[1]",
@@ -482,7 +491,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent4[0].c1_15[0]",
@@ -492,7 +502,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Dependents[0].Row6[0].Dependent4[0].c1_15[1]",
@@ -502,7 +513,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
@@ -1288,7 +1300,8 @@
       "fieldType": "routing_number",
       "labelHint": "Direct Deposit? See instructions. 35b. Routing number.",
       "required": false,
-      "maxLength": 9
+      "maxLength": 9,
+      "lineNumber": "35b"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].c2_6[0]",

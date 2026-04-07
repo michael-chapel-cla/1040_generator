@@ -169,29 +169,50 @@ export function parseFormula(label: string): FieldFormula | undefined {
 /**
  * Extracts the IRS line number from a field label.
  * Handles many IRS XFA label formats:
- *   "1b. Taxable interest."                                    → "1b"
- *   "Row: 3a. Expenses..."                                     → "3a"
- *   "Page 2. Tax and Credits. 11b. Amount from..."             → "11b"
- *   "Page 2. Part III. Figuring the Credit. 9. Enter..."       → "9"
- *   "Payments and Refundable Credits. 25. Federal..."          → "25"
+ *   "1b. Taxable interest."                                          → "1b"
+ *   "Row: 3a. Expenses..."                                           → "3a"
+ *   "Page 2. Tax and Credits. 11b. Amount from..."                   → "11b"
+ *   "Page 2. Part III. Figuring the Credit. 9. Enter..."             → "9"
+ *   "Payments and Refundable Credits. 25. Federal..."                → "25"
+ *   "**Line 1.** Gross amount of wagers..."                          → "1"
+ *   "Part I I. Credit for Clean Vehicles. 6. Enter..."               → "6"
+ *   "Section B—Alternative Simplified Credit. ... 14. Cert..."       → "14"
+ *   "Section I I I—Business Interest Income. 23. Current year..."    → "23"
+ *   "Caution: Use only one Form 4684 for lines 13–18. 13. Add..."    → "13"
+ *   "Only Section 42(j)(5) partnerships... 16. Enter interest..."    → "16"
  */
 export function extractLineNumber(label: string): string | undefined {
   const s = label.trim();
 
-  // 1. Direct prefix: "1b. text"
-  let m = /^(\d+[a-z]?)\.\s/.exec(s);
+  // 0. Bold "**Line N.**" format (Form 730 and similar)
+  let m = /\*\*[Ll]ine\s+(\d+[a-z]?)\.\*\*/i.exec(s);
   if (m) return m[1];
 
-  // 2. Row prefix: "Row: 3a. text"  (multi-column forms: Sch E, F1116, etc.)
+  // 1. Direct prefix: "1b. text"
+  m = /^(\d+[a-z]?)\.\s/.exec(s);
+  if (m) return m[1];
+
+  // 2. Row prefix at start: "Row: 3a. text"
   m = /^Row:\s+(\d+[a-z]?)\.\s/i.exec(s);
   if (m) return m[1];
 
-  // 3. Strip page/part/section prefixes iteratively then look for line number
-  //    Handles: "Page 2. Part III. Section. 11b. text"
+  // 3. Strip known section/page/caution prefixes then recheck
   let working = s
-    .replace(/^Page\s+\d+\.\s+/i, "")     // remove "Page N. "
-    .replace(/^Part\s+[IVXivx]+\.\s+/i, ""); // remove "Part III. "
+    .replace(/^Page\s+\d+\.\s+/i, "")                             // "Page N. "
+    .replace(/^Part\s+[IVXivx][IVXivx\s]*\.\s+/i, "")            // "Part I I. " (spaced Roman numerals)
+    .replace(/^Section\s+[A-Z][A-Za-z\s]*[—–][^.]+\.\s+/i, "")   // "Section B—Title. " or "Section I I I—Title. "
+    .replace(/^Section\s+\d+\.\s+[^.]+\.\s+/i, "")                // "Section 1. Title. "
+    .replace(/^Caution:\s*[^.]+\.\s+/i, "");                       // "Caution: text. "
 
+  // 3a. Row prefix after section stripping
+  m = /^Row:\s+(\d+[a-z]?)\.\s/i.exec(working);
+  if (m) return m[1];
+
+  // 3b. Direct prefix after section stripping
+  m = /^(\d+[a-z]?)\.\s/.exec(working);
+  if (m && parseInt(m[1]) <= 100) return m[1];
+
+  // 4. Iterative stripping of title-case sentence prefixes
   for (let i = 0; i < 4; i++) {
     const next = working.replace(/^[A-Z][A-Za-z ,()&–\-]+\.\s+/, "");
     if (next === working) break;
@@ -200,6 +221,18 @@ export function extractLineNumber(label: string): string | undefined {
 
   m = /^(\d+[a-z]?)\.\s/.exec(working);
   if (m && parseInt(m[1]) <= 100) return m[1];
+
+  // 5. Fallback scan: look for "N. Capital" anywhere in the working string.
+  //    Handles complex multi-sentence labels where a line number appears mid-string
+  //    (e.g. "Only Section 42(j)(5) partnerships… 16. Enter interest…").
+  const scanRe = /\b(\d{1,2}[a-z]?)\.\s+[A-Z]/g;
+  let lastScan: string | null = null;
+  let cur: RegExpExecArray | null;
+  while ((cur = scanRe.exec(working)) !== null) {
+    const n = parseInt(cur[1]);
+    if (n >= 1 && n <= 100) lastScan = cur[1];
+  }
+  if (lastScan) return lastScan;
 
   return undefined;
 }

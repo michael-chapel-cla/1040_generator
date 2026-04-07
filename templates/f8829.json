@@ -3,7 +3,7 @@
   "displayName": "Form 8829",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8829.pdf",
-  "generatedAt": "2026-04-07T12:45:10.376Z",
+  "generatedAt": "2026-04-07T12:58:34.122Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -52,7 +52,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
       "fieldType": "tax_year",
       "labelHint": "For daycare facilities not used exclusively for business, go to line 4. All others, go to line 7. 4.",
-      "required": false
+      "required": false,
+      "lineNumber": "4"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
@@ -95,7 +96,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9-12[0].Line9[0].f1_11[0]",
       "fieldType": "dollar_amount",
       "labelHint": "See instructions for columns (a) and (b) before completing lines 9–22. Row: 9. Casualty losses (see ",
-      "required": false
+      "required": false,
+      "lineNumber": "9"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Lines9-12[0].Line9[0].f1_12[0]",
@@ -551,7 +553,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_57[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I V. Carryover of Unallowed Expenses to 2026. 43. Operating expenses. Subtract line 27 from lin",
-      "required": false
+      "required": false,
+      "lineNumber": "43"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_58[0]",

@@ -308,7 +308,7 @@ Each PDF goes through a multi-step analysis:
 
 3. **Formula detection** — XFA labels containing IRS calculation language ("Add lines 1a through 1h", "Subtract line 10 from line 9", "Multiply line 2 by 7.5%") are parsed into typed formula objects and stored in the template.
 
-4. **Line number indexing** — IRS line numbers (e.g. `1a`, `11b`, `25d`) are extracted from labels using multiple patterns to handle section prefixes, `Row:` prefixes, and `Page N.` prefixes.
+4. **Line number indexing** — IRS line numbers (e.g. `1a`, `11b`, `25d`) are extracted from labels using multiple patterns: direct prefix (`1b. text`), `Row:` prefix, `Page N.` / `Part I I.` / `Section B—` prefix stripping, bold `**Line N.**` format, `Caution:` prefix stripping, and a fallback scan for line numbers embedded mid-label. A secondary pass infers line numbers from the AcroForm field path (e.g. `.Line4b[`) for fields with generic labels, and a tertiary adjacency pass assigns `Xa` to fields immediately preceding an `Xb` field.
 
 Results are saved as JSON templates in `/templates/{formId}.json`.
 
@@ -348,7 +348,7 @@ Pass 2 retries up to 3 times to handle dependency chains (e.g. line 15 depends o
 
 ### Formula Resolution
 
-Across all 173 forms, the system detects **1,435 calculated fields** with a **100% resolution rate** — every formula is classified and evaluable. The 12 supported formula types cover the full range of IRS calculation patterns found in the form library:
+Across all 173 forms, the system detects **1,435 calculated fields** with a **100% resolution and evaluation rate**. The formula engine handles every IRS calculation pattern found across the form library, including edge cases like skipped line numbers (lines absent from a form's AcroForm layer are treated as 0, matching IRS intent). The 12 supported formula types are:
 
 | Formula type | Example label |
 |---|---|

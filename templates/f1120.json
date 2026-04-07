@@ -3,7 +3,7 @@
   "displayName": "Form 1120",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1120.pdf",
-  "generatedAt": "2026-04-07T12:45:12.889Z",
+  "generatedAt": "2026-04-07T12:58:36.578Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
@@ -297,7 +297,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Deductions (See instructions for limitations on deductions.). 12. Compensation of officers (see inst",
-      "required": false
+      "required": false,
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
@@ -680,7 +681,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleC[0].Line1[0].f2_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 2. Schedule C. Dividends, Inclusions, and Special Deductions (see instructions). Row: 1. Divide",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleC[0].Line1[0].f2_2[0]",
@@ -2680,7 +2682,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchL_Assets[0].Line1[0].f6_1[0]",
       "fieldType": "tax_year",
       "labelHint": "Page 6. Schedule L. Balance Sheets per Books. Assets. Row: 1. Cash. Column: Beginning of tax year. (",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchL_Assets[0].Line1[0].f6_2[0]",
@@ -3211,7 +3214,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchL_Liabilities[0].Line16[0].f6_77[0]",
       "fieldType": "tax_year",
       "labelHint": "Liabilities and Shareholders' Equity. Row: 16. Accounts payable. Column: Beginning of tax year. (a).",
-      "required": false
+      "required": false,
+      "lineNumber": "16"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_SchL_Liabilities[0].Line16[0].f6_78[0]",
@@ -3602,7 +3606,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-1_Left[0].f6_133[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Schedule M-1. Reconciliation of Income (Loss) per Books With Income per Return. Note: The corporatio",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-1_Left[0].f6_134[0]",
@@ -3782,7 +3787,8 @@
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-2_Left[0].f6_156[0]",
       "fieldType": "tax_year",
       "labelHint": "Schedule M-2. Analysis of Unappropriated Retained Earnings per Books (Schedule L, Line 25). 1. Balan",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].SchM-2_Left[0].f6_157[0]",

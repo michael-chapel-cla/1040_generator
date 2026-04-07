@@ -3,7 +3,7 @@
   "displayName": "Form 709",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f709.pdf",
-  "generatedAt": "2026-04-07T12:45:16.763Z",
+  "generatedAt": "2026-04-07T12:58:40.381Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -737,7 +737,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_1[1]",
@@ -747,7 +748,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].c3_2[0]",
@@ -763,7 +765,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1_Part1_SchA[0].BodyRow1[0].f3_1[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part 1—Gifts Subject Only to Gift Tax. Gifts less political organization, medical, and educational exclusions. Row: 1. Column: (a) Item Number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1_Part1_SchA[0].BodyRow1[0].f3_2[0]",
@@ -2458,7 +2461,8 @@
       "pdfFieldName": "topmostSubform[0].Page3[0].Table2_Part1_SchA[0].BodyRow1[0].f3_146[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Gifts made by spouse—complete only if you are splitting gifts with your spouse and spouse also made gifts. Row: 1. Column: (a) Item Number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table2_Part1_SchA[0].BodyRow1[0].f3_147[0]",
@@ -4276,7 +4280,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Total of Part 1. Add amounts from Part 1, column (i).",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table1_Part2_SchA[0].BodyRow1[0].f4_1[0]",
@@ -5434,7 +5439,8 @@
       "pdfFieldName": "topmostSubform[0].Page4[0].Table2_Part2_SchA[0].BodyRow1[0].f4_146[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Gifts made by spouse—complete only if you are splitting gifts with your spouse and spouse also made gifts. Row: 1. Column: (a) Item Number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table2_Part2_SchA[0].BodyRow1[0].f4_147[0]",
@@ -6659,7 +6665,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Total of Part 2. Add amounts from Part 2, column (i).",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table1_Part3_SchA[0].BodyRow1[0].f5_1[0]",
@@ -8521,7 +8528,8 @@
       "pdfFieldName": "topmostSubform[0].Page5[0].Table2_Part3_SchA[0].BodyRow1[0].f5_146[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Gifts made by spouse—complete only if you are splitting gifts with your spouse and spouse also made gifts. Row: 1. Column: (a) Item Number.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table2_Part3_SchA[0].BodyRow1[0].f5_147[0]",
@@ -10494,7 +10502,8 @@
       "fieldType": "dollar_amount",
       "labelHint": "Total of Part 3. Add amounts from Part 3, column (i).",
       "required": false,
-      "maxLength": 12
+      "maxLength": 12,
+      "lineNumber": "3"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_1[0]",
@@ -10629,7 +10638,8 @@
       "options": [
         "Yes",
         "Off"
-      ]
+      ],
+      "lineNumber": "12"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_12[0]",
@@ -11815,7 +11825,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part2_SchC[0].BodyRow1[0].f8_6[0]",
       "fieldType": "full_name",
       "labelHint": "Part 2—D S U E RECEIVED FROM PREDECEASED SPOUSE(S). Row: 1. Column: (a). Name of deceased spouse (da",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part2_SchC[0].BodyRow1[0].f8_7[0]",
@@ -12150,7 +12161,8 @@
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_36[0]",
       "fieldType": "dollar_amount",
       "labelHint": "TOTAL (for all D S U E amounts applied from column (e) for Part 1 and Part 2. Enter here and on line",
-      "required": false
+      "required": false,
+      "lineNumber": "2"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].f8_37[0]",
@@ -12780,7 +12792,8 @@
       "pdfFieldName": "topmostSubform[0].Page9[0].Table2_Part1_SchD[0].BodyRow1[0].f9_86[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Gifts made by spouse (for gift splitting only). Row: 1. Column: (a). Item number (from Schedule A, Part 2, col. (a), then E T I P transfers, if any).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Table2_Part1_SchD[0].BodyRow1[0].f9_87[0]",
@@ -13357,7 +13370,8 @@
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_2[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Page 10. Schedule D. Computation of Generation-Skipping Transfer Tax (continued). Part 2—G S T Exemption Reconciliation (Section 2631). Complete items 1–8 below if any gifts are listed on Schedule A, Part 2 or 3 (direct skips, indirect skips, and other transfers in trust). See instructions. 1. Maximum allowable exemption. See instructions.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_3[0]",
@@ -13442,7 +13456,8 @@
       "pdfFieldName": "topmostSubform[0].Page10[0].Table1_Part3_SchD[0].BodyRow1[0].f10_10[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part 3—Tax Computation. Row: 1. Column: (a). Item number (from Schedule D, Part 1, col. (a)). Row: 1. 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Table1_Part3_SchD[0].BodyRow1[0].f10_11[0]",
@@ -13931,7 +13946,8 @@
       "pdfFieldName": "topmostSubform[0].Page10[0].Table2_Part3_SchD[0].BodyRow1[0].f10_80[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Gifts made by spouse (for gift splitting only). Row: 1. Column: (a). Item number (from Schedule D, Part 1, col. (a)).",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].Table2_Part3_SchD[0].BodyRow1[0].f10_81[0]",

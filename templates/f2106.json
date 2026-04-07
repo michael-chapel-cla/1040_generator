@@ -3,7 +3,7 @@
   "displayName": "Form 2106",
   "taxYear": 2024,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2106.pdf",
-  "generatedAt": "2026-04-07T12:45:08.916Z",
+  "generatedAt": "2026-04-07T12:58:32.677Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -42,7 +42,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Step1[0].Line1[0].f1_06[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Part I. Employee Business Expenses and Reimbursements. Step 1. Enter Your Expenses. Row: 1. Vehicle ",
-      "required": false
+      "required": false,
+      "lineNumber": "1"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Step1[0].Line1[0].f1_07[0]",
@@ -142,7 +143,8 @@
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Step2[0].Line7[0].f1_19[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Note: If you weren't reimbursed for any expenses in Step 1, skip line 7 and enter the amounts from l",
-      "required": false
+      "required": false,
+      "lineNumber": "7"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Step2[0].Line7[0].f1_20[0]",
@@ -164,7 +166,8 @@
         },
         "floorAtZero": true,
         "rawLabel": "Step 3. Figure Expenses To Deduct. Row: 8. Subtract line 7 from line 6. If zero or less, enter 0. Ho"
-      }
+      },
+      "lineNumber": "6"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Step3[0].Line8[0].f1_22[0]",
@@ -224,7 +227,8 @@
       "fieldType": "date",
       "labelHint": "Page 2. Part I I. Vehicle Expenses. Section A—General Information (You must complete this section if",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "11"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionA[0].Line11[0].ColA[0].f2_02[0]",
@@ -480,7 +484,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Row23[0].ColA[0].f2_20[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section C—Actual Expenses. Row: 23. Gasoline, oil, repairs, vehicle insurance, etc. Column: (a) Vehicle 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "23"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionC[0].Row23[0].ColB[0].f2_21[0]",
@@ -669,7 +674,8 @@
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionD[0].Line30[0].ColA[0].f2_38[0]",
       "fieldType": "dollar_amount",
       "labelHint": "Section D—Depreciation of Vehicles. (Use this section only if you owned the vehicle and are completing Section C for the Vehicle.) Row: 30. Enter cost or other basis (see instructions). Column: (a) Vehicle 1.",
-      "required": false
+      "required": false,
+      "lineNumber": "30"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_SectionD[0].Line30[0].ColB[0].f2_39[0]",
