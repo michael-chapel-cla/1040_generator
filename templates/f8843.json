@@ -1,0 +1,374 @@
+{
+  "formId": "f8843",
+  "displayName": "Form 8843",
+  "taxYear": 2025,
+  "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8843.pdf",
+  "generatedAt": "2026-05-15T16:47:56.574Z",
+  "fields": [
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
+      "fieldType": "tax_year",
+      "labelHint": "Page 1. For calendar year 2025, or tax year beginning. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
+      "fieldType": "date",
+      "labelHint": ", 2025, and ending. Month and day.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_03[0]",
+      "fieldType": "tax_year",
+      "labelHint": ", 20. 2 digit year.",
+      "required": false,
+      "maxLength": 2
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_04[0]",
+      "fieldType": "first_name",
+      "labelHint": "Your first name and initial.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_05[0]",
+      "fieldType": "last_name",
+      "labelHint": "Last name.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_06[0]",
+      "fieldType": "ssn",
+      "labelHint": "Your U.S. taxpayer identification number (T I N), if any.",
+      "required": false,
+      "maxLength": 11
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_07[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Fill in your addresses only if you are filing this form by itself and not with your U.S. tax return. Address in country of residence.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_08[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Address in the United States.",
+      "required": false
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_09[0]",
+      "fieldType": "date",
+      "labelHint": "Part I. General Information. 1a. Type of U.S. visa (for example, F, J, M, Q, etc.) and date you ente",
+      "required": false,
+      "lineNumber": "1a"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_10[0]",
+      "fieldType": "date",
+      "labelHint": "1b. Current nonimmigrant status. If your status has changed, also enter date of change and previous ",
+      "required": false,
+      "lineNumber": "1b"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_11[0]",
+      "fieldType": "tax_year",
+      "labelHint": "2. Of what country or countries were you a citizen during the tax year?",
+      "required": false,
+      "lineNumber": "2"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_12[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3a. What country or countries issued you a passport?",
+      "required": false,
+      "lineNumber": "3a"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_13[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "3b. Enter your passport number(s):",
+      "required": false,
+      "lineNumber": "3b"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_14[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4a. Enter the actual number of days you were present in the United States during: 2025.",
+      "required": false,
+      "lineNumber": "4a"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_15[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4a. 2024.",
+      "required": false,
+      "lineNumber": "4a"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4a. 2023.",
+      "required": false,
+      "lineNumber": "4a"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "4b. Enter the number of days in 2025 you claim you can exclude for purposes of the substantial presence test:",
+      "required": false,
+      "lineNumber": "4b"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I I. Teachers and Trainees. 5. For teachers, enter the name, address, and telephone number of t",
+      "required": false,
+      "lineNumber": "5"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_19[0]",
+      "fieldType": "full_name",
+      "labelHint": "6. For trainees, enter the name, address, and telephone number of the director of the academic or ot",
+      "required": false,
+      "lineNumber": "6"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. Enter the type of U.S. visa (J or Q) you held during: 2019.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "7"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_21[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. 2020.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "7"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_22[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. 2021.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "7"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_23[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. 2022.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "7"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. 2023.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "7"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_25[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "7. 2024.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "7"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
+      "fieldType": "checkbox",
+      "labelHint": "8. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ],
+      "lineNumber": "8"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[1]",
+      "fieldType": "checkbox",
+      "labelHint": "8. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ],
+      "lineNumber": "8"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_26[0]",
+      "fieldType": "full_name",
+      "labelHint": "Part I I I. Students. 9. Enter the name, address, and telephone number of the academic institution y",
+      "required": false,
+      "lineNumber": "9"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_27[0]",
+      "fieldType": "full_name",
+      "labelHint": "10. Enter the name, address, and telephone number of the academic institution you attended during 20",
+      "required": false,
+      "lineNumber": "10"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_28[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. Enter the type of U.S. visa (F, J, M, or Q) you held during: 2019.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "11"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. 2020.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "11"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_30[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. 2021.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "11"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_31[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. 2022.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "11"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. 2023.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "11"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_33[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "11. 2024.",
+      "required": false,
+      "maxLength": 1,
+      "lineNumber": "11"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[0]",
+      "fieldType": "checkbox",
+      "labelHint": "12. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ],
+      "lineNumber": "12"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_2[1]",
+      "fieldType": "checkbox",
+      "labelHint": "12. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ],
+      "lineNumber": "12"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[0]",
+      "fieldType": "checkbox",
+      "labelHint": "13. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ],
+      "lineNumber": "13"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].c1_3[1]",
+      "fieldType": "checkbox",
+      "labelHint": "13. No.",
+      "required": false,
+      "options": [
+        "Yes",
+        "Off"
+      ],
+      "lineNumber": "13"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "14. If you checked the “Yes” box on line 13, explain:",
+      "required": false,
+      "lineNumber": "14"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_01[0]",
+      "fieldType": "full_name",
+      "labelHint": "Page 2. Part I V. Professional Athletes. 15. Enter the name of the charitable sports event(s) in the",
+      "required": false,
+      "lineNumber": "15"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_02[0]",
+      "fieldType": "employer_ein",
+      "labelHint": "16. Enter the name(s) and employer identification number(s) of the charitable organization(s) that b",
+      "required": false,
+      "lineNumber": "16"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_03[0]",
+      "fieldType": "dollar_amount",
+      "labelHint": "Part V. Individuals With a Medical Condition or Medical Problem. 17a. Describe the medical condition or medical problem that prevented you from leaving the United States. See instructions.",
+      "required": false,
+      "lineNumber": "17a"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_04[0]",
+      "fieldType": "date",
+      "labelHint": "17b. Enter the date you intended to leave the United States prior to the onset of the medical condit",
+      "required": false,
+      "lineNumber": "17b"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_05[0]",
+      "fieldType": "date",
+      "labelHint": "17c. Enter the date you actually left the United States:",
+      "required": false,
+      "lineNumber": "17c"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_06[0]",
+      "fieldType": "full_name",
+      "labelHint": "18. Physician’s Statement: I certify that. Name of taxpayer.",
+      "required": false,
+      "lineNumber": "18"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_07[0]",
+      "fieldType": "full_name",
+      "labelHint": "18. was unable to leave the United States on the date shown on line 17b because of the medical condi",
+      "required": false,
+      "lineNumber": "18"
+    },
+    {
+      "pdfFieldName": "topmostSubform[0].Page2[0].f2_08[0]",
+      "fieldType": "phone_number",
+      "labelHint": "Physician’s or other medical official’s address and telephone number.",
+      "required": false
+    }
+  ]
+}

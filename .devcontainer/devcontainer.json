@@ -1,7 +1,8 @@
 {
   "name": "1040 Form Builder",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
@@ -23,11 +24,12 @@
       }
     }
   },
+  "initializeCommand": "mkdir -p ${localWorkspaceFolder}/output ${localWorkspaceFolder}/cache",
   "postCreateCommand": "npm install",
   "mounts": [
-    "source=${localWorkspaceFolder}/output,target=/workspace/output,type=bind,consistency=cached",
-    "source=${localWorkspaceFolder}/cache,target=/workspace/cache,type=bind,consistency=cached"
+    "source=${localWorkspaceFolder}/output,target=/workspaces/1040_generator/output,type=bind,consistency=cached",
+    "source=${localWorkspaceFolder}/cache,target=/workspaces/1040_generator/cache,type=bind,consistency=cached"
   ],
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspaces/1040_generator",
   "remoteUser": "node"
 }
