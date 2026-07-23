@@ -3,7 +3,7 @@
   "displayName": "Form 6765",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f6765.pdf",
-  "generatedAt": "2026-04-07T12:58:37.893Z",
+  "generatedAt": "2026-07-23T15:53:53.224Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -672,11 +672,10 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row1[0].f3_01[0]",
-      "fieldType": "dollar_amount",
-      "labelHint": "Page 3. Section G—Business Component Information. Complete lines 49(a) through 49(f) for each business component you are required to report. See instructions. Attach additional sheets if necessary to capture all business components. Row: 1. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
+      "fieldType": "employer_ein",
+      "labelHint": "Page 3. Section G—Business Component Information. Complete lines 49(a) through 49(f) for each busine",
       "required": false,
-      "maxLength": 11,
-      "lineNumber": "1"
+      "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row1[0].f3_02[0]",
@@ -701,8 +700,8 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row2[0].f3_05[0]",
-      "fieldType": "dollar_amount",
-      "labelHint": "Row: 2. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: 2. Column: 49(a) E I N of the controlled group member conducting the research activities on thi",
       "required": false,
       "maxLength": 11,
       "lineNumber": "2"
@@ -727,8 +726,8 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row3[0].f3_09[0]",
-      "fieldType": "dollar_amount",
-      "labelHint": "Row: 3. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: 3. Column: 49(a) E I N of the controlled group member conducting the research activities on thi",
       "required": false,
       "maxLength": 11,
       "lineNumber": "3"
@@ -755,8 +754,8 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_PartI[0].Row4[0].f3_13[0]",
-      "fieldType": "dollar_amount",
-      "labelHint": "Row: 4. Column: 49(a) E I N of the controlled group member conducting the research activities on this business component.",
+      "fieldType": "employer_ein",
+      "labelHint": "Row: 4. Column: 49(a) E I N of the controlled group member conducting the research activities on thi",
       "required": false,
       "maxLength": 11,
       "lineNumber": "4"

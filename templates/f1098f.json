@@ -3,7 +3,7 @@
   "displayName": "Form 1098-F",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1098f.pdf",
-  "generatedAt": "2026-04-07T12:58:46.268Z",
+  "generatedAt": "2026-07-23T15:53:55.951Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear_ReadOrder[0].f1_1[0]",
@@ -40,14 +40,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "FILER’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER'S T I N.",
       "required": false,
       "maxLength": 11
@@ -158,14 +158,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "FILER’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f2_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER'S T I N.",
       "required": false,
       "maxLength": 11

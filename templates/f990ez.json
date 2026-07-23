@@ -3,7 +3,7 @@
   "displayName": "Form 990-EZ",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f990ez.pdf",
-  "generatedAt": "2026-04-07T12:58:41.787Z",
+  "generatedAt": "2026-07-23T15:53:54.447Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].p1-t1[0]",
@@ -2554,7 +2554,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_65_0_[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -2567,7 +2567,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_68_0_[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10

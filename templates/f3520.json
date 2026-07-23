@@ -3,7 +3,7 @@
   "displayName": "Form 3520",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3520.pdf",
-  "generatedAt": "2026-04-07T12:58:48.009Z",
+  "generatedAt": "2026-07-23T15:53:56.448Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -192,7 +192,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "1d. Spouse’s T I N.",
       "required": false,
       "maxLength": 11,
@@ -354,7 +354,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_24[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "3b. T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -411,7 +411,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "4c. T I N of decedent.",
       "required": false,
       "maxLength": 11,
@@ -426,7 +426,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_34[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "4e. E I N of estate.",
       "required": false,
       "maxLength": 10,
@@ -481,7 +481,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "5c. T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -553,7 +553,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row1[0].f2_10[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (i v) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -589,7 +589,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row2[0].f2_15[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (i v) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -625,7 +625,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line7b[0].Row3[0].f2_20[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (i v) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1259,7 +1259,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row1[0].f3_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1303,7 +1303,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row2[0].f3_6[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1347,7 +1347,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row3[0].f3_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1391,7 +1391,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line15[0].Row4[0].f3_12[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 4. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1413,7 +1413,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row1[0].f3_15[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (c) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1435,7 +1435,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row2[0].f3_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (c) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1457,7 +1457,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row3[0].f3_21[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (c) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1479,7 +1479,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line16[0].Row4[0].f3_24[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 4. Column: (c) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1508,7 +1508,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row1[0].f3_28[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1537,7 +1537,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row2[0].f3_32[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1566,7 +1566,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row3[0].f3_36[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -1595,7 +1595,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_Line17[0].Row4[0].f3_40[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 4. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -2060,7 +2060,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row1[0].f4_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -2096,7 +2096,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row2[0].f4_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -2132,7 +2132,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].Table_Line20[0].Row3[0].f4_14[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -3479,7 +3479,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row1[0].f6_14[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -3508,7 +3508,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row2[0].f6_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -3537,7 +3537,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row3[0].f6_22[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -3566,7 +3566,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].Table_Line55a-d[0].Row4[0].f6_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 4. Column: (d) T I N, if any.",
       "required": false,
       "maxLength": 11,
@@ -3762,7 +3762,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_37[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -3781,7 +3781,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page6[0].f6_40[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10

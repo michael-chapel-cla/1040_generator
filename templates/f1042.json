@@ -3,7 +3,7 @@
   "displayName": "Form 1042",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1042.pdf",
-  "generatedAt": "2026-04-07T12:58:47.671Z",
+  "generatedAt": "2026-07-23T15:53:56.348Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -630,7 +630,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_84[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -649,7 +649,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_87[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10
@@ -986,8 +986,8 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_34[0]",
-      "fieldType": "dollar_amount",
-      "labelHint": "If the box is checked, you must do the following. (1). Attach Schedule(s) Q (Form 1042). See instructions. (2). Enter your E I N (other than your Q I-E I N).",
+      "fieldType": "employer_ein",
+      "labelHint": "If the box is checked, you must do the following. (1). Attach Schedule(s) Q (Form 1042). See instruc",
       "required": false,
       "maxLength": 10
     }

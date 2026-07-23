@@ -3,7 +3,7 @@
   "displayName": "Form 1120-S",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1120s.pdf",
-  "generatedAt": "2026-04-07T12:58:36.079Z",
+  "generatedAt": "2026-07-23T15:53:52.487Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Date_Name_ReadOrder[0].f1_1[0]",
@@ -647,7 +647,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_58[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -660,7 +660,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_60[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10

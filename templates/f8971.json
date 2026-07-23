@@ -3,7 +3,7 @@
   "displayName": "Form 8971",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8971.pdf",
-  "generatedAt": "2026-04-07T12:58:40.470Z",
+  "generatedAt": "2026-07-23T15:53:54.029Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -67,7 +67,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_8[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "6. Executor's T I N.",
       "required": false,
       "maxLength": 11,
@@ -196,7 +196,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow1[0].f1_23[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -230,7 +230,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow2[0].f1_28[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -264,7 +264,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow3[0].f1_33[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -298,7 +298,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow4[0].f1_38[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 4. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -332,7 +332,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Table[0].BodyRow5[0].f1_43[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 5. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -458,7 +458,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PaidPreparer[0].f1_58[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -477,7 +477,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PaidPreparer[0].f1_61[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10
@@ -496,7 +496,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].BodyRow1[0].f2_2[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -530,7 +530,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].BodyRow2[0].f2_7[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -564,7 +564,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].BodyRow3[0].f2_12[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -598,7 +598,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].BodyRow4[0].f2_17[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 4. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,
@@ -632,7 +632,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Pg2Table[0].BodyRow5[0].f2_22[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 5. Column: (b). T I N.",
       "required": false,
       "maxLength": 11,

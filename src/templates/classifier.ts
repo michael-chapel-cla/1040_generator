@@ -57,11 +57,27 @@ export interface Classification {
 // Patterns are tested against the FULL label text first, then the bare field name.
 const RULES: Array<[RegExp, FieldType, string]> = [
   // ── Identity numbers ───────────────────────────────────────────────────────
-  [/social security number|s\s*s\s*n\b/i,          "ssn",            "Social Security Number"],
-  [/taxpayer id|tin\b/i,                            "ssn",            "Taxpayer Identification Number"],
-  [/\bein\b|employer.{0,20}id.{0,20}num|employer identification number/i, "employer_ein", "Employer Identification Number"],
-  [/\bitin\b/i,                                     "itin",           "ITIN"],
-  [/\bptin\b|preparer.{0,20}tax.{0,20}ident/i,     "ptin",           "Preparer Tax Identification Number (PTIN)"],
+  // IRS PDFs often letter-space these abbreviations for screen readers, e.g.
+  // "PAYER'S T I N." or "Employer identification number (E I N)". We match
+  // that as an explicit alternative (letter \s+ letter, mandatory real
+  // whitespace) rather than \s* — \s* also matches word-boundary coincidences
+  // like "use IN aviation" or "State IN detail" (an "e"/"t" ending one word
+  // directly followed by " in" starting the next), which silently misfires
+  // on totally unrelated text. Mandatory spaces between *every* letter avoids
+  // that: "in" has no space before its own "n", so it can't complete the
+  // t\s+i\s+n / e\s+i\s+n chain.
+  //
+  // More specific (ptin/itin/payer/employer) rules must precede the generic
+  // ssn/tin/ein rules below — "P T I N" and "I T I N" both contain a "T I N"
+  // substring, and "PAYER'S T I N" would otherwise be swallowed by the
+  // generic rule and get the taxpayer's own SSN instead of a payer EIN.
+  [/\bpayer.{0,10}(tin|t\s+i\s+n)|\bpayer.{0,10}id/i, "payer_tin",    "Payer TIN"],
+  [/employer.{0,10}(ein|e\s+i\s+n)|employer.{0,10}fed/i, "employer_ein", "Employer EIN"],
+  [/\bptin\b|p\s+t\s+i\s+n\b|preparer.{0,20}tax.{0,20}ident/i, "ptin", "Preparer Tax Identification Number (PTIN)"],
+  [/\bitin\b|i\s+t\s+i\s+n\b/i,                     "itin",           "ITIN"],
+  [/social security number|s\s*s\s*n\b/i,           "ssn",            "Social Security Number"],
+  [/taxpayer id|tin\b|t\s+i\s+n\b/i,                 "ssn",            "Taxpayer Identification Number"],
+  [/\bein\b|e\s+i\s+n\b|employer.{0,20}id.{0,20}num|employer identification number/i, "employer_ein", "Employer Identification Number"],
   [/identity protection p\.?i\.?n|ip pin/i,        "ip_pin",         "IRS Identity Protection PIN"],
 
   // ── Name fields ────────────────────────────────────────────────────────────
@@ -108,8 +124,6 @@ const RULES: Array<[RegExp, FieldType, string]> = [
   [/filing status|single|married filing|head of household|qualifying surviving/i, "filing_status", "Filing Status"],
   [/occupation\b/i,                                 "occupation",     "Occupation"],
   [/relationship/i,                                 "relationship",   "Relationship to Taxpayer"],
-  [/payer.{0,10}tin|payer.{0,10}id/i,              "payer_tin",      "Payer TIN"],
-  [/employer.{0,10}ein|employer.{0,10}fed/i,        "employer_ein",   "Employer EIN"],
 
   // ── Dependents ─────────────────────────────────────────────────────────────
   [/dependent.{0,5}(1|2|3|4).{0,20}(first|last) name|row.*first name.*dependent/i, "dependent_name", "Dependent Name"],

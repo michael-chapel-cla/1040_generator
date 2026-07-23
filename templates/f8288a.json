@@ -3,7 +3,7 @@
   "displayName": "Form 8288-A",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8288a.pdf",
-  "generatedAt": "2026-04-07T12:58:48.935Z",
+  "generatedAt": "2026-07-23T15:53:56.736Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_01[0]",
@@ -13,14 +13,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_02[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "WITHHOLDING AGENT'S U.S. T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_03[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "U.S. T I N of FOREIGN PERSON subject to withholding (see instructions).",
       "required": false,
       "maxLength": 11
@@ -174,14 +174,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_02[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "WITHHOLDING AGENT'S U.S. T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_03[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "U.S. T I N of FOREIGN PERSON subject to withholding (see instructions).",
       "required": false,
       "maxLength": 11
@@ -335,14 +335,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_02[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "WITHHOLDING AGENT'S U.S. T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_03[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "U.S. T I N of FOREIGN PERSON subject to withholding (see instructions).",
       "required": false,
       "maxLength": 11

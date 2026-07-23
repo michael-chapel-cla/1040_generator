@@ -3,7 +3,7 @@
   "displayName": "Form 926",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f926.pdf",
-  "generatedAt": "2026-04-07T12:58:47.568Z",
+  "generatedAt": "2026-07-23T15:53:56.306Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -205,7 +205,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Line 2c. E I N of parent corporation.",
       "required": false,
       "maxLength": 10,
@@ -235,14 +235,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
-      "fieldType": "full_name",
+      "fieldType": "employer_ein",
       "labelHint": "Line 3a. If the transferor was a partner in a partnership that was the actual transferor (but is not",
       "required": false,
       "lineNumber": "3a"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Line 3a. E I N of partnership.",
       "required": false,
       "maxLength": 10,

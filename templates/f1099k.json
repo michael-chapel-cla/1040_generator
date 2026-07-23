@@ -3,7 +3,7 @@
   "displayName": "Form 1099-K",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099k.pdf",
-  "generatedAt": "2026-04-07T12:58:45.343Z",
+  "generatedAt": "2026-07-23T15:53:55.673Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -120,14 +120,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_8[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "FILER’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].RghtCol[0].f1_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "PAYEE’S T I N.",
       "required": false,
       "maxLength": 11
@@ -400,14 +400,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_8[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "FILER’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].RghtCol[0].f2_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "PAYEE’S T I N.",
       "required": false,
       "maxLength": 11
@@ -670,14 +670,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_8[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "FILER’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].RightCol[0].f2_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "PAYEE’S T I N.",
       "required": false,
       "maxLength": 11
@@ -940,14 +940,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_8[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "FILER’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].RghtCol[0].f2_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "PAYEE’S T I N.",
       "required": false,
       "maxLength": 11

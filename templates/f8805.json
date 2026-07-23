@@ -3,7 +3,7 @@
   "displayName": "Form 8805",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8805.pdf",
-  "generatedAt": "2026-04-07T12:58:49.146Z",
+  "generatedAt": "2026-07-23T15:53:56.808Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_01[0]",
@@ -112,7 +112,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].f1_16[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
       "maxLength": 10,
@@ -296,7 +296,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].f1_16[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
       "maxLength": 10,
@@ -480,7 +480,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].f1_16[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
       "maxLength": 10,
@@ -664,7 +664,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].f1_16[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "7. Withholding agent’s U.S. E I N.",
       "required": false,
       "maxLength": 10,

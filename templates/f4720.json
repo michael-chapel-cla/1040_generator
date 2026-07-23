@@ -3,7 +3,7 @@
   "displayName": "Form 4720",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4720.pdf",
-  "generatedAt": "2026-04-07T12:58:42.953Z",
+  "generatedAt": "2026-07-23T15:53:54.855Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -4645,7 +4645,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page9[0].Table_SchO[0].BodyRow1[0].f9_47[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 1. Filing Organization. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -4892,7 +4892,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -4911,7 +4911,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page10[0].f10_6[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10

@@ -3,7 +3,7 @@
   "displayName": "Form 1094-C",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1094c.pdf",
-  "generatedAt": "2026-04-07T12:58:46.639Z",
+  "generatedAt": "2026-07-23T15:53:56.060Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -945,7 +945,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1_PartIV[0].BodyRow36[0].f3_2[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 36. Column: E I N.",
       "required": false,
       "maxLength": 10,
@@ -959,7 +959,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1_PartIV[0].BodyRow37[0].f3_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 37. Column: E I N.",
       "required": false,
       "maxLength": 10,
@@ -974,7 +974,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table1_PartIV[0].BodyRow38[0].f3_6[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 38. Column: E I N.",
       "required": false,
       "maxLength": 10,
@@ -1145,7 +1145,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table2_PartIV[0].BodyRow51[0].f3_32[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 51. Column: E I N.",
       "required": false,
       "maxLength": 10,
@@ -1159,7 +1159,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table2_PartIV[0].BodyRow52[0].f3_34[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 52. Column: E I N.",
       "required": false,
       "maxLength": 10,
@@ -1174,7 +1174,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table2_PartIV[0].BodyRow53[0].f3_36[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 53. Column: E I N.",
       "required": false,
       "maxLength": 10,

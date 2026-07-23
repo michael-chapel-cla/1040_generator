@@ -3,7 +3,7 @@
   "displayName": "Form 941-X",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f941x.pdf",
-  "generatedAt": "2026-04-07T12:58:43.364Z",
+  "generatedAt": "2026-07-23T15:53:55.000Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].f1_1[0]",
@@ -2586,7 +2586,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_5[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -2599,7 +2599,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_7[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "E I N.",
       "required": false,
       "maxLength": 10

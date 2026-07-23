@@ -3,7 +3,7 @@
   "displayName": "Form 720",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f720.pdf",
-  "generatedAt": "2026-04-07T12:58:49.955Z",
+  "generatedAt": "2026-07-23T15:53:57.117Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Entity[0].CheckHere[0].c1_1[0]",
@@ -1903,7 +1903,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -1916,7 +1916,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_28[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10
@@ -2204,7 +2204,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_2[0]",
-      "fieldType": "full_name",
+      "fieldType": "employer_ein",
       "labelHint": "Complete Schedule C for claims only if you are reporting liability in Part I or I I of Form 720. Att",
       "required": false
     },

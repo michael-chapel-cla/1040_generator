@@ -3,7 +3,7 @@
   "displayName": "Form 3520-A",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3520a.pdf",
-  "generatedAt": "2026-04-07T12:58:48.190Z",
+  "generatedAt": "2026-07-23T15:53:56.514Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -445,7 +445,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_32[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "4b. T I N, if any.",
       "required": false,
       "lineNumber": "4b"
@@ -523,7 +523,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_42[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -542,7 +542,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_45[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm’s E I N.",
       "required": false,
       "maxLength": 10
@@ -721,7 +721,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line17b[0].Row1[0].f2_21[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (i i) T I N.",
       "required": false,
       "lineNumber": "1"
@@ -749,7 +749,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line17b[0].Row2[0].f2_25[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (i i) T I N.",
       "required": false,
       "lineNumber": "2"
@@ -777,7 +777,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line17c[0].Row1[0].f2_29[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 1. Column: (i i) T I N.",
       "required": false,
       "lineNumber": "1"
@@ -805,7 +805,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line17c[0].Row2[0].f2_33[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 2. Column: (i i) T I N.",
       "required": false,
       "lineNumber": "2"
@@ -833,7 +833,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Line17c[0].Row3[0].f2_37[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "Row: 3. Column: (i i) T I N.",
       "required": false,
       "lineNumber": "3"
@@ -1637,7 +1637,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_03[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "1b. E I N.",
       "required": false,
       "maxLength": 10,
@@ -1714,7 +1714,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "3b. T I N.",
       "required": false,
       "lineNumber": "3b"
@@ -1763,7 +1763,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "4b. T I N.",
       "required": false,
       "lineNumber": "4b"
@@ -1819,7 +1819,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "6b. T I N.",
       "required": false,
       "lineNumber": "6b"
@@ -2400,7 +2400,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_03[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "1b. E I N.",
       "required": false,
       "maxLength": 10,
@@ -2497,7 +2497,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_11[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "3b. T I N.",
       "required": false,
       "lineNumber": "3b"
@@ -2546,7 +2546,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "4b. T I N.",
       "required": false,
       "lineNumber": "4b"
@@ -2602,7 +2602,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "6b. T I N.",
       "required": false,
       "lineNumber": "6b"

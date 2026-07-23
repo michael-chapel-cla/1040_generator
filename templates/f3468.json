@@ -3,7 +3,7 @@
   "displayName": "Form 3468",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f3468.pdf",
-  "generatedAt": "2026-04-07T12:58:38.372Z",
+  "generatedAt": "2026-07-23T15:53:53.392Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -85,7 +85,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "3b. , and (i i) owner’s T I N:",
       "required": false,
       "maxLength": 11,
@@ -829,7 +829,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_5[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "1f. Enter the originating pass-through entity’s E I N (if applicable):",
       "required": false,
       "maxLength": 10,
@@ -3410,7 +3410,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page12[0].f12_11[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "1k. (i i). The originating pass-through entity’s E I N (if applicable):",
       "required": false,
       "maxLength": 10,

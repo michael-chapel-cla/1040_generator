@@ -3,7 +3,7 @@
   "displayName": "Form 1041-ES",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1041es.pdf",
-  "generatedAt": "2026-04-07T12:58:38.645Z",
+  "generatedAt": "2026-07-23T15:53:53.477Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
@@ -958,7 +958,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_43[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "2026. Payment Voucher 4. File only if the estate or trust is making a payment of estimated tax. Retu",
       "required": false,
       "lineNumber": "2026"
@@ -1009,7 +1009,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_1[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "Page 7. 2026. Payment Voucher 3. File only if the estate or trust is making a payment of estimated t",
       "required": false,
       "lineNumber": "3"
@@ -1060,7 +1060,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_9[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "2026. Payment Voucher 2. File only if the estate or trust is making a payment of estimated tax. Retu",
       "required": false,
       "lineNumber": "2026"
@@ -1111,7 +1111,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].f7_17[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "2026. Payment Voucher 1. File only if the estate or trust is making a payment of estimated tax. Retu",
       "required": false,
       "lineNumber": "2026"

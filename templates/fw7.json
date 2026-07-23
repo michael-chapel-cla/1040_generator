@@ -3,7 +3,7 @@
   "displayName": "Form W-7",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw7.pdf",
-  "generatedAt": "2026-04-07T12:58:44.694Z",
+  "generatedAt": "2026-07-23T15:53:55.461Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -84,7 +84,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_02[0]",
-      "fieldType": "ssn",
+      "fieldType": "itin",
       "labelHint": "If d or e, enter name and S S N/I T I N of U.S. citizen/resident alien (see instructions). Line 1 of",
       "required": false
     },
@@ -382,24 +382,27 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].ITIN[0].f1_28[0]",
-      "fieldType": "ssn",
-      "labelHint": "Taxpayer Identification Number",
+      "fieldType": "itin",
+      "labelHint": "6f. Enter I T I N and/or el I R S N. I T I N. First 3 digits.",
       "required": false,
-      "maxLength": 3
+      "maxLength": 3,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].ITIN[0].f1_29[0]",
-      "fieldType": "ssn",
-      "labelHint": "Taxpayer Identification Number",
+      "fieldType": "itin",
+      "labelHint": "6f. I T I N. Middle 2 digits.",
       "required": false,
-      "maxLength": 2
+      "maxLength": 2,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].ITIN[0].f1_30[0]",
-      "fieldType": "ssn",
-      "labelHint": "Taxpayer Identification Number",
+      "fieldType": "itin",
+      "labelHint": "6f. I T I N. Last 4 digits.",
       "required": false,
-      "maxLength": 4
+      "maxLength": 4,
+      "lineNumber": "6f"
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].IRSN[0].f1_31[0]",
@@ -535,14 +538,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_46[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "E I N.",
       "required": false,
       "maxLength": 10
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_47[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11

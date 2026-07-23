@@ -3,7 +3,7 @@
   "displayName": "Form 8822-B",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8822b.pdf",
-  "generatedAt": "2026-04-07T12:58:51.118Z",
+  "generatedAt": "2026-07-23T15:53:57.478Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].c1_1[0]",
@@ -156,7 +156,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_16[0]",
-      "fieldType": "ssn",
+      "fieldType": "itin",
       "labelHint": "9. New responsible party's S S N, I T I N, or E I N. (CAUTION: YOU MUST REFER TO THE INSTRUCTIONS FO",
       "required": false,
       "maxLength": 11,

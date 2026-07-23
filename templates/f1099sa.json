@@ -3,7 +3,7 @@
   "displayName": "Form 1099-SA",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1099sa.pdf",
-  "generatedAt": "2026-04-07T12:58:45.965Z",
+  "generatedAt": "2026-07-23T15:53:55.862Z",
   "fields": [
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].copyAheader[0].c1_1[0]",
@@ -33,14 +33,14 @@
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER'S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyA[0].LeftColumn[0].f1_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "RECIPIENT'S T I N.",
       "required": false,
       "maxLength": 11
@@ -162,14 +162,14 @@
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER'S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "Form1099-SA[0].CopyB[0].LeftCol[0].f1_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "RECIPIENT'S T I N.",
       "required": false,
       "maxLength": 11

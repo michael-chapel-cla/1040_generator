@@ -3,7 +3,7 @@
   "displayName": "Form 5498-SA",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5498sa.pdf",
-  "generatedAt": "2026-04-07T12:58:46.434Z",
+  "generatedAt": "2026-07-23T15:53:56.000Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].f1_1[0]",
@@ -82,14 +82,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_10[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "TRUSTEE’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_11[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "PARTICIPANT’S T I N.",
       "required": false,
       "maxLength": 11
@@ -277,14 +277,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_10[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "TRUSTEE’S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_11[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "PARTICIPANT’S T I N.",
       "required": false,
       "maxLength": 11

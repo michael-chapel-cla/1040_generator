@@ -3,7 +3,7 @@
   "displayName": "Form 8865",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8865.pdf",
-  "generatedAt": "2026-04-07T12:58:35.707Z",
+  "generatedAt": "2026-07-23T15:53:52.365Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Pg1Header[0].f1_1[0]",
@@ -165,7 +165,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_20[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "D. E I N.",
       "required": false,
       "maxLength": 10
@@ -298,7 +298,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_29[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "G2(a). E I N (if any).",
       "required": false,
       "maxLength": 10
@@ -633,7 +633,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_6[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -652,7 +652,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10
@@ -977,7 +977,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow1[0].f2_37[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: E I N (if any).",
       "required": false,
       "maxLength": 10,
@@ -1016,7 +1016,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_ScheduleA-3[0].BodyRow2[0].f2_41[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: E I N (if any).",
       "required": false,
       "maxLength": 10,

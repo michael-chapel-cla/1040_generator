@@ -3,7 +3,7 @@
   "displayName": "Form W-2G",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw2g.pdf",
-  "generatedAt": "2026-04-07T12:58:44.304Z",
+  "generatedAt": "2026-07-23T15:53:55.320Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyA_Header[0].f1_01[0]",
@@ -76,7 +76,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Left[0].f1_09[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER’S T I N.",
       "required": false,
       "maxLength": 11
@@ -187,7 +187,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
       "maxLength": 11,
@@ -216,7 +216,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].Col_Right[0].f1_30[0]",
-      "fieldType": "state",
+      "fieldType": "payer_tin",
       "labelHint": "13. State/Payer's state identification no.",
       "required": false,
       "lineNumber": "13"
@@ -328,7 +328,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Left[0].f1_09[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER’S T I N.",
       "required": false,
       "maxLength": 11
@@ -439,7 +439,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
       "maxLength": 11,
@@ -468,7 +468,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy1[0].Col_Right[0].f1_30[0]",
-      "fieldType": "state",
+      "fieldType": "payer_tin",
       "labelHint": "13. State/Payer's state identification no.",
       "required": false,
       "lineNumber": "13"
@@ -570,7 +570,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Left[0].f1_09[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER’S T I N.",
       "required": false,
       "maxLength": 11
@@ -681,7 +681,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
       "maxLength": 11,
@@ -710,7 +710,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].Col_Right[0].f1_30[0]",
-      "fieldType": "state",
+      "fieldType": "payer_tin",
       "labelHint": "13. State/Payer's state identification no.",
       "required": false,
       "lineNumber": "13"
@@ -812,7 +812,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Left[0].f1_09[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER’S T I N.",
       "required": false,
       "maxLength": 11
@@ -923,7 +923,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
       "maxLength": 11,
@@ -952,7 +952,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].Col_Right[0].f1_30[0]",
-      "fieldType": "state",
+      "fieldType": "payer_tin",
       "labelHint": "13. State/Payer's state identification no.",
       "required": false,
       "lineNumber": "13"
@@ -1054,7 +1054,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Left[0].f1_09[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER’S T I N.",
       "required": false,
       "maxLength": 11
@@ -1165,7 +1165,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
       "maxLength": 11,
@@ -1194,7 +1194,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Copy2[0].Col_Right[0].f1_30[0]",
-      "fieldType": "state",
+      "fieldType": "payer_tin",
       "labelHint": "13. State/Payer's state identification no.",
       "required": false,
       "lineNumber": "13"
@@ -1306,7 +1306,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Left[0].f1_09[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "payer_tin",
       "labelHint": "PAYER’S T I N.",
       "required": false,
       "maxLength": 11
@@ -1417,7 +1417,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "9. WINNER'S T I N.",
       "required": false,
       "maxLength": 11,
@@ -1446,7 +1446,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyD[0].Col_Right[0].f1_30[0]",
-      "fieldType": "state",
+      "fieldType": "payer_tin",
       "labelHint": "13. State/Payer's state identification no.",
       "required": false,
       "lineNumber": "13"

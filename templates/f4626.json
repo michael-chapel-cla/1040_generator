@@ -3,7 +3,7 @@
   "displayName": "Form 4626",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f4626.pdf",
-  "generatedAt": "2026-04-07T12:58:37.744Z",
+  "generatedAt": "2026-07-23T15:53:53.164Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -1153,7 +1153,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_09[0]",
-      "fieldType": "payer_tin",
+      "fieldType": "dollar_amount",
       "labelHint": "2c. Corporations that are not included on the taxpayer’s consolidated return (see instructions).",
       "required": false,
       "lineNumber": "2c"
@@ -1738,7 +1738,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line1[0].f5_06[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "1"
@@ -1780,7 +1780,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line2[0].f5_12[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "2"
@@ -1822,7 +1822,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line3[0].f5_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "3"
@@ -1864,7 +1864,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line4[0].f5_24[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "4"
@@ -1906,7 +1906,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line5[0].f5_30[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "5"
@@ -1948,7 +1948,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line6[0].f5_36[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 6. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "6"
@@ -1990,7 +1990,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line7[0].f5_42[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 7. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "7"
@@ -2032,7 +2032,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line8[0].f5_48[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 8. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "8"
@@ -2074,7 +2074,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line9[0].f5_54[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 9. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "9"
@@ -2116,7 +2116,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].Table_Part4_Sect2_ColsA-F[0].Line10[0].f5_60[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 10. Column: (b) E I N or reference I D number of C F C.",
       "required": false,
       "lineNumber": "10"
@@ -3597,7 +3597,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line1[0].f7_02[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -3648,7 +3648,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line2[0].f7_06[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -3699,7 +3699,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line3[0].f7_10[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -3750,7 +3750,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line4[0].f7_14[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -3801,7 +3801,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line5[0].f7_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -3852,7 +3852,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line6[0].f7_22[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 6. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -3903,7 +3903,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line7[0].f7_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 7. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -3954,7 +3954,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line8[0].f7_30[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 8. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4005,7 +4005,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line9[0].f7_34[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 9. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4056,7 +4056,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line10[0].f7_38[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 10. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4107,7 +4107,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line11[0].f7_42[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 11. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4158,7 +4158,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line12[0].f7_46[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 12. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4209,7 +4209,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line13[0].f7_50[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 13. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4260,7 +4260,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line14[0].f7_54[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 14. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4311,7 +4311,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line15[0].f7_58[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 15. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4362,7 +4362,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line16[0].f7_62[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 16. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4413,7 +4413,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line17[0].f7_66[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 17. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4464,7 +4464,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line18[0].f7_70[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 18. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4515,7 +4515,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line19[0].f7_74[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 19. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4566,7 +4566,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line20[0].f7_78[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 20. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4617,7 +4617,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line21[0].f7_82[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 21. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4668,7 +4668,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line22[0].f7_86[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 22. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4719,7 +4719,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line23[0].f7_90[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 23. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4770,7 +4770,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page7[0].Table_Part5[0].Line24[0].f7_94[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 24. Column: (b) E I N of member.",
       "required": false,
       "maxLength": 10,
@@ -4820,7 +4820,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row1[0].f8_02[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "1"
@@ -4847,7 +4847,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row2[0].f8_06[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "2"
@@ -4874,7 +4874,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row3[0].f8_10[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "3"
@@ -4901,7 +4901,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row4[0].f8_14[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "4"
@@ -4928,7 +4928,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row5[0].f8_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "5"
@@ -4955,7 +4955,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row6[0].f8_22[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 6. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "6"
@@ -4982,7 +4982,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row7[0].f8_26[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 7. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "7"
@@ -5009,7 +5009,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row8[0].f8_30[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 8. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "8"
@@ -5036,7 +5036,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row9[0].f8_34[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 9. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "9"
@@ -5063,7 +5063,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row10[0].f8_38[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 10. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "10"
@@ -5090,7 +5090,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row11[0].f8_42[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 11. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "11"
@@ -5117,7 +5117,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row12[0].f8_46[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 12. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "12"
@@ -5144,7 +5144,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row13[0].f8_50[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 13. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "13"
@@ -5171,7 +5171,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row14[0].f8_54[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 14. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "14"
@@ -5198,7 +5198,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row15[0].f8_58[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 15. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "15"
@@ -5225,7 +5225,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row16[0].f8_62[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 16. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "16"
@@ -5252,7 +5252,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row17[0].f8_66[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 17. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "17"
@@ -5279,7 +5279,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row18[0].f8_70[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 18. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "18"
@@ -5306,7 +5306,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row19[0].f8_74[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 19. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "19"
@@ -5333,7 +5333,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row20[0].f8_78[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 20. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "20"
@@ -5360,7 +5360,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row21[0].f8_82[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 21. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "21"
@@ -5387,7 +5387,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row22[0].f8_86[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 22. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "22"
@@ -5414,7 +5414,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row23[0].f8_90[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 23. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "23"
@@ -5441,7 +5441,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row24[0].f8_94[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 24. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "24"
@@ -5468,7 +5468,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row25[0].f8_98[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 25. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "25"
@@ -5495,7 +5495,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row26[0].f8_102[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 26. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "26"
@@ -5522,7 +5522,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row27[0].f8_106[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 27. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "27"
@@ -5549,7 +5549,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row28[0].f8_110[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 28. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "28"
@@ -5576,7 +5576,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row29[0].f8_114[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 29. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "29"
@@ -5603,7 +5603,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row30[0].f8_118[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 30. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "30"
@@ -5630,7 +5630,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row31[0].f8_122[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 31. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "31"
@@ -5657,7 +5657,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row32[0].f8_126[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 32. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "32"
@@ -5684,7 +5684,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row33[0].f8_130[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 33. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "33"
@@ -5711,7 +5711,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row34[0].f8_134[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 34. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "34"
@@ -5738,7 +5738,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row35[0].f8_138[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 35. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "35"
@@ -5765,7 +5765,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row36[0].f8_142[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 36. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "36"
@@ -5792,7 +5792,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row37[0].f8_146[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 37. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "37"
@@ -5819,7 +5819,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row38[0].f8_150[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 38. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "38"
@@ -5846,7 +5846,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row39[0].f8_154[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 39. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "39"
@@ -5873,7 +5873,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row40[0].f8_158[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 40. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "40"
@@ -5900,7 +5900,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page8[0].Table_Part6_Sect1[0].Row41[0].f8_162[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 41. Column: (b) E I N or reference I D number of the C F C.",
       "required": false,
       "lineNumber": "41"

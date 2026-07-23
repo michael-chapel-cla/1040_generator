@@ -3,7 +3,7 @@
   "displayName": "Form 990-PF",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f990pf.pdf",
-  "generatedAt": "2026-04-07T12:58:42.433Z",
+  "generatedAt": "2026-07-23T15:53:54.674Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -9167,7 +9167,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page13[0].f13_82[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -9186,7 +9186,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page13[0].f13_85[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10

@@ -3,7 +3,7 @@
   "displayName": "Schedule C",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1040sc.pdf",
-  "generatedAt": "2026-04-07T12:58:32.208Z",
+  "generatedAt": "2026-07-23T15:53:51.186Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -39,7 +39,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].DComb[0].f1_6[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "D. Employer I D number (E I N), (see instr.).",
       "required": false,
       "maxLength": 9

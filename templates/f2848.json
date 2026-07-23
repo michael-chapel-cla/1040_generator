@@ -3,7 +3,7 @@
   "displayName": "Form 2848",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f2848.pdf",
-  "generatedAt": "2026-04-07T12:58:50.461Z",
+  "generatedAt": "2026-07-23T15:53:57.288Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].CheckForm[0]",
@@ -33,7 +33,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].TaxpayerIDITIN[0]",
-      "fieldType": "ssn",
+      "fieldType": "itin",
       "labelHint": "1. I T I N (taxpayer identification number).",
       "required": false,
       "maxLength": 11,
@@ -96,7 +96,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PTIN1[0]",
-      "fieldType": "generic_text",
+      "fieldType": "ptin",
       "labelHint": "2. 1. P T I N.",
       "required": false,
       "maxLength": 11,
@@ -184,7 +184,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PTIN2[0]",
-      "fieldType": "generic_text",
+      "fieldType": "ptin",
       "labelHint": "2. 2. P T I N.",
       "required": false,
       "maxLength": 11,
@@ -261,7 +261,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PTIN3[0]",
-      "fieldType": "generic_text",
+      "fieldType": "ptin",
       "labelHint": "2. 3. P T I N.",
       "required": false,
       "maxLength": 11,
@@ -338,7 +338,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].PTIN4[0]",
-      "fieldType": "generic_text",
+      "fieldType": "ptin",
       "labelHint": "2. 4. P T I N.",
       "required": false,
       "maxLength": 11,

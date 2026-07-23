@@ -3,7 +3,7 @@
   "displayName": "Form 8997",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8997.pdf",
-  "generatedAt": "2026-04-07T12:58:34.878Z",
+  "generatedAt": "2026-07-23T15:53:52.076Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -20,7 +20,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row1[0].f1_03[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "Part I. Total Q O F Investment Holdings Due to Deferrals Prior to Beginning of Tax Year. If differen",
       "required": false,
       "maxLength": 10
@@ -63,7 +63,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row2[0].f1_09[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -107,7 +107,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row3[0].f1_15[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -151,7 +151,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row4[0].f1_21[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -195,7 +195,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part1[0].Row5[0].f1_27[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -267,7 +267,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row1[0].f1_37[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "Part I I. Current Tax Year Capital Gains Deferred by Investing in Q O F. Row: 1. Column: (a) Q O F E",
       "required": false,
       "maxLength": 10,
@@ -311,7 +311,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row2[0].f1_43[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -355,7 +355,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row3[0].f1_49[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -399,7 +399,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row4[0].f1_55[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -443,7 +443,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].Table_Part2[0].Row5[0].f1_61[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -555,7 +555,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row1[0].f2_01[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "Page 2. Part I I I. Inclusion Events and Certain Other Transfers During the Current Tax Year. Row: 1",
       "required": false,
       "maxLength": 10
@@ -598,7 +598,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row2[0].f2_07[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -642,7 +642,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row3[0].f2_13[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -686,7 +686,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row4[0].f2_19[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -730,7 +730,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part3[0].Row5[0].f2_25[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -812,7 +812,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row1[0].f2_35[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "Part I V. Total Q O F Investments Due to Deferrals at Year End (see instructions). Row: 1. Column: (",
       "required": false,
       "maxLength": 10,
@@ -856,7 +856,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row2[0].f2_41[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -900,7 +900,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row3[0].f2_47[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -944,7 +944,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row4[0].f2_53[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,
@@ -988,7 +988,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table_Part4[0].Row5[0].f2_59[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (a) Q O F E I N.",
       "required": false,
       "maxLength": 10,

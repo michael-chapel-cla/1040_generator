@@ -3,7 +3,7 @@
   "displayName": "Form 940",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f940.pdf",
-  "generatedAt": "2026-04-07T12:58:43.100Z",
+  "generatedAt": "2026-07-23T15:53:54.904Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].EntityArea[0].f1_1[0]",
@@ -665,7 +665,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -678,7 +678,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_20[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "E I N.",
       "required": false,
       "maxLength": 10

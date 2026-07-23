@@ -3,7 +3,7 @@
   "displayName": "Form 1098-C",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1098c.pdf",
-  "generatedAt": "2026-04-07T12:58:46.182Z",
+  "generatedAt": "2026-07-23T15:53:55.925Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].CopyHeader[0].CalendarYear[0].f1_1[0]",
@@ -40,14 +40,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "DONEE'S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyA[0].LeftCol[0].f1_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "DONOR'S T I N.",
       "required": false,
       "maxLength": 11
@@ -250,14 +250,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "DONEE'S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyB[0].LeftCol[0].f1_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "DONOR'S T I N.",
       "required": false,
       "maxLength": 11
@@ -460,14 +460,14 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_3[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "DONEE'S T I N.",
       "required": false,
       "maxLength": 11
     },
     {
       "pdfFieldName": "topmostSubform[0].CopyC[0].LeftCol[0].f1_4[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "DONOR'S T I N.",
       "required": false,
       "maxLength": 11

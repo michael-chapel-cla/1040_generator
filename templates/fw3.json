@@ -3,7 +3,7 @@
   "displayName": "Form W-3",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/fw3.pdf",
-  "generatedAt": "2026-04-07T12:58:44.360Z",
+  "generatedAt": "2026-07-23T15:53:55.337Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_01[0]",
@@ -174,7 +174,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].BoxesC-H[0].f1_07[0]",
-      "fieldType": "tax_year",
+      "fieldType": "employer_ein",
       "labelHint": "h. Other E I N used this year.",
       "required": false,
       "maxLength": 10

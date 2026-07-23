@@ -3,7 +3,7 @@
   "displayName": "Form 8990",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8990.pdf",
-  "generatedAt": "2026-04-07T12:58:34.698Z",
+  "generatedAt": "2026-07-23T15:53:52.008Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -525,7 +525,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row1[0].f3_2[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -589,7 +589,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row2[0].f3_11[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -653,7 +653,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row3[0].f3_20[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -717,7 +717,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row4[0].f3_29[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -781,7 +781,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row5[0].f3_38[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -845,7 +845,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleA[0].Row6[0].f3_47[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 6. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -929,7 +929,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row1[0].f3_59[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 1. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -958,7 +958,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row2[0].f3_63[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 2. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -987,7 +987,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row3[0].f3_67[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 3. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -1016,7 +1016,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row4[0].f3_71[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 4. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,
@@ -1045,7 +1045,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].Table_ScheduleB[0].Row5[0].f3_75[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5. Column: (b) E I N.",
       "required": false,
       "maxLength": 10,

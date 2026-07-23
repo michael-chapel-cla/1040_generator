@@ -3,7 +3,7 @@
   "displayName": "Form 5329",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f5329.pdf",
-  "generatedAt": "2026-04-07T12:58:33.695Z",
+  "generatedAt": "2026-07-23T15:53:51.665Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -690,7 +690,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_9[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -703,7 +703,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page3[0].f3_11[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10

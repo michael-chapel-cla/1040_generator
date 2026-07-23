@@ -3,7 +3,7 @@
   "displayName": "Form 1065",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f1065.pdf",
-  "generatedAt": "2026-04-07T12:58:35.259Z",
+  "generatedAt": "2026-07-23T15:53:52.201Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].HeaderAddress_ReadOrder[0].CalendarName_ReadOrder[0].f1_01[0]",
@@ -579,7 +579,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_58[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -592,7 +592,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_60[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10

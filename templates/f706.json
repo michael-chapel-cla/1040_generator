@@ -3,7 +3,7 @@
   "displayName": "Form 706",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f706.pdf",
-  "generatedAt": "2026-04-07T12:58:39.231Z",
+  "generatedAt": "2026-07-23T15:53:53.669Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -127,7 +127,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_17[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ssn",
       "labelHint": "7b. Executor's T I N.",
       "required": false,
       "maxLength": 11,
@@ -670,7 +670,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_15[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -689,7 +689,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].f2_18[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10
@@ -1622,7 +1622,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page4[0].f4_1[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "13f. If “Yes” to line 13e, provide the E I N for the entity in which an interest was transferred/sol",
       "required": false,
       "maxLength": 10,

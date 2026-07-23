@@ -3,7 +3,7 @@
   "displayName": "Form 8854",
   "taxYear": 2025,
   "sourceUrl": "https://www.irs.gov/pub/irs-pdf/f8854.pdf",
-  "generatedAt": "2026-04-07T12:58:49.319Z",
+  "generatedAt": "2026-07-23T15:53:56.880Z",
   "fields": [
     {
       "pdfFieldName": "topmostSubform[0].Page1[0].f1_1[0]",
@@ -441,7 +441,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page2[0].Table1_SectionB[0].BodyRow7[0].Line5b[0].f2_13[0]",
-      "fieldType": "full_name",
+      "fieldType": "employer_ein",
       "labelHint": "Row: 5b. Provide the name, address, and E I N, if any, of any such company. Line 1 of 2.",
       "required": false,
       "lineNumber": "5b"
@@ -1597,7 +1597,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_14[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "ptin",
       "labelHint": "P T I N.",
       "required": false,
       "maxLength": 11
@@ -1616,7 +1616,7 @@
     },
     {
       "pdfFieldName": "topmostSubform[0].Page5[0].f5_17[0]",
-      "fieldType": "dollar_amount",
+      "fieldType": "employer_ein",
       "labelHint": "Firm's E I N.",
       "required": false,
       "maxLength": 10
